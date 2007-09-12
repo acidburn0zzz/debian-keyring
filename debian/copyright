@@ -9,3 +9,7 @@ License: GPL-2+
  .
  Note that we do not assert copyright over the actual keys in the keyrings.
  That data does not fall under any copyright.
+
+Files: keycheck
+Copyright: (C) 2003-2007 Joerg Jaspert <joerg@debian.org> and others
+License: GPL-2
