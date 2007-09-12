@@ -8,6 +8,3 @@
   > * Any uid that appears on a blacklist.
   > This could run during the keyring build process and fail it if an error
   > were detected.
-
-* Use keycheck.sh (from AM), or something similar to fill in the
-  Keycheck field of a changeset.

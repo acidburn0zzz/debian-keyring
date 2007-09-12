@@ -6,7 +6,7 @@ build:
 clean:
 	dh_testdir
 	dh_testroot
-	$(MAKE) clean
+	$(MAKE) distclean
 	dh_clean
 
 binary-arch: build

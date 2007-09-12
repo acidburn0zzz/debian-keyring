@@ -8,11 +8,17 @@ debian-maintainers.gpg: debian-maintainers/index
 admins.gpg: admins/index
 	jetring-build -I $@ admins
 
-keycheck:
-	$(MAKE) get-keycheck
-get-keycheck:
-	wget 'http://alioth.debian.org/plugins/scmcvs/cvsweb.php/~checkout~/templates/keycheck.sh?rev=HEAD;content-type=text%2Fplain;cvsroot=nm-templates' -O keycheck
-	chmod +x keycheck
+rsync-keys:
+	@mkdir -p cache
+	@if [ -z "$$OFFLINE" ]; then \
+		echo "Updating Debian keyring cache" >&2; \
+		rsync -qcltz --block-size=8192 --partial --progress --exclude='emeritus-*' --exclude='removed-*' 'keyring.debian.org::keyrings/keyrings/*' cache/; \
+	else \
+		echo "Not updating Debian keyring cache, OFFLINE is set" >&2; \
+	fi
 
 clean:
 	rm -f debian-maintainers.gpg* admins.gpg.*
+
+distclean: clean
+	rm -rf cache
