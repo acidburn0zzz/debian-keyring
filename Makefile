@@ -9,21 +9,7 @@ admins.gpg: admins/index
 	jetring-build -I $@ admins
 
 test:
-	@fail=0; \
-	total=0; \
-	for t in t/*.t; do \
-		total=`expr $$total + 1`; \
-		if ! $$t; then \
-			echo "test $$t failed" >&2; \
-			fail=`expr $$fail + 1`; \
-		fi; \
-	done; \
-	if [ "$$fail" -gt 0 ]; then \
-		echo "** failed $$fail/$$total tests" >&2; \
-		exit 1; \
-	else \
-		echo "** all tests succeeded"; \
-	fi
+	./runtests
 
 rsync-keys:
 	@mkdir -p cache

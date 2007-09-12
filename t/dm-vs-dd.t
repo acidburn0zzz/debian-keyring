@@ -19,7 +19,6 @@ list_emails () {
 fail=0
 
 make rsync-keys
-make
 
 dd_uids=$(list_uids ./cache/debian-keyring.gpg && 
           list_uids ./cache/debian-keyring.gpg)
@@ -31,7 +30,7 @@ dd_uids=$(list_uids ./cache/debian-keyring.gpg &&
 
 IFS="
 "
-for uid in $(list_uids ./debian-maintainers.gpg | sort | uniq); do
+for uid in $(list_uids $DM_KEYRING | sort | uniq); do
 	name=$(echo "$uid" | list_names)
 	email=$(echo "$uid" | list_emails)
 	if grep -q "$uid" dd-list.tmp; then

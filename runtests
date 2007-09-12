@@ -1,0 +1,29 @@
+#!/bin/sh
+set -e
+
+fail=0
+total=0
+
+if [ -z "$DM_KEYRING" ]; then
+	DM_KEYRING=./debian-maintainers.gpg
+fi
+if [ ! -e "$DM_KEYRING" ]; then
+	echo "** $DM_KEYRING does not exist, cannot run test suite" >&2
+	exit 1
+fi
+export DM_KEYRING
+
+for t in t/*.t; do
+	total=`expr $total + 1`
+	if ! $t; then
+		echo "test $t failed" >&2
+		fail=`expr $fail + 1`
+	fi
+done
+
+if [ "$fail" -gt 0 ]; then
+	echo "** failed $fail/$total tests" >&2
+	exit 1
+else
+	echo "** all tests succeeded"
+fi

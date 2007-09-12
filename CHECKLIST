@@ -1,9 +1,11 @@
 What to do when reviewing a changeset to add a new DM:
 
 * First, automatically check the key. 
-  This adds a KeyCheck field to the changeset.
+  This adds a KeyCheck field to the changeset, and runs the test suite on
+  it.
 
   ./keycheck changeset
+  ./testchangeset changeset
 
 * Review the changeset:
 
@@ -30,6 +32,5 @@ What to do when reviewing a changeset to add a new DM:
   3. dch "Added Debian maintainer Their Name"
   4. svn add debian-maintainers/*
   5. debcommit
-  6. make test
-  7. Upload the new version of the package so it will go live and the new 
+  6. Upload the new version of the package so it will go live and the new 
      DMs can upload their packages.

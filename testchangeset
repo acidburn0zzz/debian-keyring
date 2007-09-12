@@ -1,0 +1,21 @@
+#!/bin/sh
+set -e
+
+changeset="$1"
+if [ -z "$changeset" ]; then
+	echo "Usage: testchangeset changeset" >&2
+	exit 1
+fi
+
+TMPRING=./keyring.tmp
+trap cleanup EXIT
+cleanup () {
+	rm -f $TMPRING*
+}
+
+make
+cp debian-maintainers.gpg $TMPRING
+jetring-apply $TMPRING "$changeset"
+DM_KEYRING="$TMPRING"
+export DM_KEYRING
+./runtests
