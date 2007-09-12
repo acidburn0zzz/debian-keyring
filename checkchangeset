@@ -3,7 +3,7 @@ set -e
 
 changeset="$1"
 if [ -z "$changeset" ]; then
-	echo "Usage: testchangeset changeset" >&2
+	echo "Usage: checkchangeset changeset" >&2
 	exit 1
 fi
 
@@ -14,8 +14,13 @@ cleanup () {
 }
 
 make
+echo ""
+echo "Running test suite on keyring, with this changeset included:"
 cp debian-maintainers.gpg $TMPRING
 jetring-apply $TMPRING "$changeset"
 DM_KEYRING="$TMPRING"
 export DM_KEYRING
 ./runtests
+echo ""
+echo "jetring-review of the changes in the changeset:"
+jetring-review -d debian-maintainers.gpg changeset

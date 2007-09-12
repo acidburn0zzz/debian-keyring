@@ -1,11 +1,17 @@
-What to do when reviewing a changeset to add a new DM:
+What to do when reviewing a changeset:
 
-* First, automatically check the key. 
-  This adds a KeyCheck field to the changeset, and runs the test suite on
-  it.
+* Check the changeset. This runs the test suite on it to sanity check it,
+  and if it tests ok, displays a diff of exactly what changes
+  the changeset will introduce.
+  
+  ./checkchangeset changeset
+
+  Make sure nothing fishy is going on..
+
+* If the changeset is adding a new DM, you'll want to use keycheck to
+  generate a report. The report is put in the KeyCheck field of the changset.
 
   ./keycheck changeset
-  ./testchangeset changeset
 
 * Review the changeset:
 
@@ -17,13 +23,6 @@ What to do when reviewing a changeset to add a new DM:
     guidelines, and machine usage policies? If they have a page
     on nm.debian.org, they agreed to these already. So normally, just
     checking if the NM-Page exists and is valid should be sufficient.
-
-* Double-check the changes the changeset will make to the keyring:
-
-  make
-  jetring-review -d debian-maintainers.gpg changeset
-
-  Make sure nothing fishy is going on..
 
 * If the changeset and applicant look ok to add:
 
