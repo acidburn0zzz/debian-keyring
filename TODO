@@ -2,7 +2,7 @@
   > Having some special command we can use to lint check the d-m
   > keyring would be a good thing. We could make it check for things like:
   > * Any entry in the keyring that has the same name/email as one in
-  >   keyring.debian.org.
+  >   keyring.debian.org. (done; tests/dm-vs-dd)
   > * Any entry in the new keyring that has a changed name compared to the
   >   old keyring. (A warning.)
   > * Any uid that appears on a blacklist.
