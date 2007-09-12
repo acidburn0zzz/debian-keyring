@@ -12,7 +12,9 @@ What to do when reviewing a changeset to add a new DM:
     More than 1 is preferred.
   - Is there at least one advocate?
   - Does the applicant acknowledge Debian's social contract, free software
-    guidelines, and machine usage policies?
+    guidelines, and machine usage policies? If they have a page
+    on nm.debian.org, they agreed to these already. So normally, just
+    checking if the NM-Page exists and is valid should be sufficient.
 
 * Double-check the changes the changeset will make to the keyring:
 
@@ -25,4 +27,6 @@ What to do when reviewing a changeset to add a new DM:
 
   1. Fill in the Changed-By field with your name and email address.
   2. jetring-accept debian-maintainers changeset
-  3. Update the changelog.
+  3. dch "Added Debian maintainer Their Name"
+  4. svn add debian-maintainers/*
+  5. debcommit

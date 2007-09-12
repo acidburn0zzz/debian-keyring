@@ -31,15 +31,18 @@ file is provided for your reference/copying. The admins will check that:
   the applicant's inclusion, in particular that the applicant is technically
   competent and good to work with.
 
-To aid in these checks, please fill in the Advocates field with data
-demonstrating that DDs have adovcated the applicant. The easiest way
-is linking to the applicant's page on nm.debian.org, if they are also in the
-New Maintainer process, and have an advocate there. Alternatively, use a link
-to an advocacy message posted to debian-newmaint or anther relevant public
-mailing list.
+To aid in these checks, please provide all the necessary data in the
+changeset or in your mail.
 
-Developers should take care whom they choose to advocate, particularly if
-they have not successfully participated as an Application Manager, or in
-other mentoring roles. Advocacy should only come after seeing the
-individual working effectively within Debian, both technically and
-socially.
+Fill in the Advocates field with data demonstrating that DDs have adovcated
+the applicant. The easiest way is linking to the applicant's page on
+nm.debian.org, if they are also in the New Maintainer process, and have an
+advocate there. Alternatively, use a link to an advocacy message posted to
+debian-newmaint or anther relevant public mailing list.
+
+Likewise, if the applicant has a page on nm.debian.org, then they have
+already filled out the form at <https://nm.debian.org/newnm.php>,
+indicating they they agree with the social contract, DFSG, and other
+relevant policy. If the applicant doesn't have such a page, and doesn't
+want to apply to NM, a signed statement to the same effect can be included
+with their DM application.
