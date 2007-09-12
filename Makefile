@@ -10,7 +10,7 @@ admins.gpg: admins/index
 
 rsync-keys:
 	@mkdir -p cache
-	@if [ -z "$$OFFLINE" ]; then \
+	@if [ "$$ONLINE" = n ]; then \
 		echo "Updating Debian keyring cache" >&2; \
 		rsync -qcltz --block-size=8192 --partial --progress --exclude='emeritus-*' --exclude='removed-*' 'keyring.debian.org::keyrings/keyrings/*' cache/; \
 	else \
