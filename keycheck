@@ -3,8 +3,7 @@
 # changesets.
 set -e
 
-# For the rsync of the debian keyrings and for the nm.gpg
-DESTDIR=./cache
+CACHE=./cache
 TMPRING=./keyring.tmp
 # Which keyserver
 KEYSERVER=keyring.debian.org
@@ -29,7 +28,7 @@ cleanup () {
 }
 
 keycheck () {
-	gpg ${GPGOPTS} -v --with-fingerprint --keyring $DESTDIR/debian-keyring.gpg --keyring $DESTDIR/debian-keyring.pgp --check-sigs "$KEYID"
+	gpg ${GPGOPTS} -v --with-fingerprint --keyring $CACHE/debian-keyring.gpg --keyring $CACHE/debian-keyring.pgp --check-sigs "$KEYID"
 	echo "Let's test if its a version 4 or greater key"
 	VERSION=$(gpg ${GPGOPTS} --with-colons --with-fingerprint --list-keys "0x$KEYID" | awk -F : '$1 == "fpr" {print length($10)}')
 
