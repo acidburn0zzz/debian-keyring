@@ -22,6 +22,12 @@ if [ -z "$changeset" ]; then
 	exit 1
 fi
 
+trap cleanup EXIT
+
+cleanup () {
+	rm -f $TMPRING*
+}
+
 keycheck () {
 	gpg ${GPGOPTS} -v --with-fingerprint --keyring $DESTDIR/debian-keyring.gpg --keyring $DESTDIR/debian-keyring.pgp --check-sigs "$KEYID"
 	echo "Let's test if its a version 4 or greater key"
@@ -52,6 +58,7 @@ cp debian-maintainers.gpg $TMPRING
 KEYID=$(jetring-apply $TMPRING "$changeset" 2>&1 | grep '^gpg: key' | sed 's/^gpg: key \([a-fA-F0-9]*\):.*/\1/')
 if [ -z "$KEYID" ]; then
 	echo "Changeset failed to apply, or failed to parse key id from gpg output" >&2
+	rm -f $TMPRING*
 	exit 1
 fi
 
@@ -79,5 +86,3 @@ if [ ! "$added" ]; then
 	echo "$val" >> "$changeset.new"
 fi
 mv -f "$changeset.new" "$changeset"
-
-rm -f $TMPRING*
