@@ -1,6 +1,15 @@
 #!/bin/sh
 # This is a hacked up version of NM's keycheck.sh that understands jetring
 # changesets.
+
+# Copyright (C) 2003-2007 Joerg Jaspert <joerg@debian.org> and others
+# This little script is free software; you can redistribute
+# it and/or modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation; version 2.
+#
+# On Debian systems, the complete text of the GNU General Public
+# License can be found in /usr/share/common-licenses/GPL-2 file.
+
 set -e
 
 CACHE=./cache

@@ -20,7 +20,13 @@ cp debian-maintainers.gpg $TMPRING
 jetring-apply $TMPRING "$changeset"
 DM_KEYRING="$TMPRING"
 export DM_KEYRING
-./runtests
+if ! ./runtests; then
+	testfailed=1
+fi
 echo ""
 echo "jetring-review of the changes in the changeset:"
 jetring-review -d debian-maintainers.gpg changeset
+
+if [ "$testfailed" ]; then
+	exit 1
+fi
