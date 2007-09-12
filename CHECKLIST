@@ -4,7 +4,7 @@ What to do when reviewing a changeset:
   and if it tests ok, displays a diff of exactly what changes
   the changeset will introduce.
   
-  ./checkchangeset changeset
+  ./review changeset
 
   Make sure nothing fishy is going on..
 
