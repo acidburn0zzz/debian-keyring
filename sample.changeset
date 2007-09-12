@@ -1,7 +1,7 @@
 Recommended-By: # your email here
 Changed-By: 
-Comment: adding debian-maintainer # name here
 Date: # date -R here
+Comment: adding debian-maintainer # name here
 Advocates: # list advocate info here
 NM-Page: https://nm.debian.org/nmstatus.php?email= # applicant email here
 Action: import
