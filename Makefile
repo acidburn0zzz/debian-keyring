@@ -8,5 +8,11 @@ debian-maintainers.gpg: debian-maintainers/index
 admins.gpg: admins/index
 	jetring-build -I $@ admins
 
+keycheck:
+	$(MAKE) get-keycheck
+get-keycheck:
+	wget 'http://alioth.debian.org/plugins/scmcvs/cvsweb.php/~checkout~/templates/keycheck.sh?rev=HEAD;content-type=text%2Fplain;cvsroot=nm-templates' -O keycheck
+	chmod +x keycheck
+
 clean:
 	rm -f debian-maintainers.gpg* admins.gpg.*

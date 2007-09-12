@@ -1,0 +1,5 @@
+debian-maintainers (0.01) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Joey Hess <joeyh@debian.org>  Sun, 18 Mar 2007 20:35:12 -0400

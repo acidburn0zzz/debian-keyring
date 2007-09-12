@@ -1,0 +1,34 @@
+#!/usr/bin/make -f
+
+build:
+	$(MAKE)
+
+clean:
+	dh_testdir
+	dh_testroot
+	$(MAKE) clean
+	dh_clean
+
+binary-arch: build
+
+binary-indep: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k
+	dh_install debian-maintainers.gpg usr/share/keyrings/debian-maintainers.gpg
+	dh_installdocs README TODO
+	dh_installexamples sample.changeset
+	dh_installchangelogs
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+	# byhand file for dak
+	cp debian-maintainers.gpg ..
+	dpkg-distaddfile debian-maintainers.gpg raw-keyring -
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary

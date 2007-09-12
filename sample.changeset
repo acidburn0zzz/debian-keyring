@@ -1,0 +1,14 @@
+Recommended-By: # your email here
+Changed-By: 
+Comment: adding Fathi Boudra as debian-maintainer
+Date: Sat, 17 Mar 2007 09:36:20 +0000
+Advocates: # list advocate info here
+KeyCheck:
+NM-Page: https://nm.debian.org/nmstatus.php?email= # applicant email here
+Action: import
+Data:
+ -----BEGIN PGP PUBLIC KEY BLOCK-----
+ Version: GnuPG v1.4.6 (GNU/Linux)
+ 
+ # Use "gpg --export -a keyid" to dump the applicate's gpg block here.
+ -----END PGP PUBLIC KEY BLOCK-----
