@@ -26,7 +26,7 @@ What to do when reviewing a changeset:
     checking if the NM-Page exists and is valid should be sufficient.
   - Does the applicant already maintain at least one package in the
     archive? (Listed as the Maintainer or in Uploaders) Does the package
-    source have DM-Upload-Allowed: yes set? If not, the applicant isn't
+    source have XS-DM-Upload-Allowed: yes set? If not, the applicant isn't
     ready to upload, and should be told what needs to be done.
 
 * If the changeset and applicant look ok to add:
