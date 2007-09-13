@@ -3,7 +3,7 @@ Changed-By:
 Date: # date -R here
 Comment: adding debian-maintainer # name here
 NM-Page: https://nm.debian.org/nmstatus.php?email= # applicant email here
-Advocates: # list any additional advocate info here
+Advocates: # list any additional advocate info here not really needed if in NM
 Action: import
 Data:
  # Use "gpg --export -a keyid | sed 's/^/  /"
