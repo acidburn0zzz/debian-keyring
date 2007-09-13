@@ -18,7 +18,8 @@ What to do when reviewing a changeset:
   - Does the KeyCheck look ok?
   - Is the key signed by more than one DD? At least one DD?
     More than 1 is preferred.
-  - Is there at least one advocate?
+  - Is there at least one advocate? Or is there an NM-Page with an
+    advocate?
   - Does the applicant acknowledge Debian's social contract, free software
     guidelines, and machine usage policies? If they have a page
     on nm.debian.org, they agreed to these already. So normally, just
