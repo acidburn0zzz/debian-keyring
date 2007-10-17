@@ -1,4 +1,4 @@
-debian-maintainers (0.01) UNRELEASED; urgency=low
+debian-maintainers (0.01) unstable; urgency=low
 
   [ Joey Hess ]
   * Initial release.
@@ -10,4 +10,4 @@ debian-maintainers (0.01) UNRELEASED; urgency=low
   * Invoke "gpg --list-keys" in debian/rules build to make sure
     $HOME/.gnupg exists. Possibly should set GNUPGHOME instead.
 
- -- Anthony Towns <ajt@debian.org>  Thu, 18 Oct 2007 02:22:45 +1000
+ -- Anthony Towns <ajt@debian.org>  Thu, 18 Oct 2007 02:27:20 +1000
