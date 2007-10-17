@@ -1,0 +1,82 @@
+Recommended-By: Anthony Towns <ajt@debian.org>
+Changed-By: Anthony Towns <ajt@debian.org>
+Date: Thu, 18 Oct 2007 01:38:29 +1000
+Comment: adding debian-maintainer camrdale
+NM-Page: https://nm.debian.org/nmstatus.php?email=camrdale%40gmail.com
+KeyCheck:
+  pub   1024D/0D2036AD 2006-01-10
+        Key fingerprint = FF07 84FE E439 DA85 CAF1  EA95 0F1F 76E2 0D20 36AD
+  uid                  Cameron Dale <camrdale@gmail.com>
+  sig!         5230514A 2006-01-24  Shaun Jackman <sdj@alumni.sfu.ca>
+  sig!         FD6645AB 2006-04-04  Ryan Murray <rmurray@cyberhqz.com>
+  sig!         2A4E3EAA 2007-07-17  Anthony Towns <aj@erisian.com.au>
+  sig!3        0D2036AD 2006-01-10  Cameron Dale <camrdale@gmail.com>
+  sub   2048g/13ABCAF7 2006-01-10
+  sig!         0D2036AD 2006-01-10  Cameron Dale <camrdale@gmail.com>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+ -----BEGIN PGP PUBLIC KEY BLOCK-----
+ 
+ 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
+ N/jIVvUoPnSY2PXWNOxhTjRjINw=
+ =ye29
+ -----END PGP PUBLIC KEY BLOCK-----

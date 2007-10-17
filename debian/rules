@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
 build:
+	gpg --options /dev/null --list-keys || true
 	$(MAKE)
 	# This won't fully exersise the test suite; some tests need to be
 	# online to download the Debian keyring, for example. Recommend

@@ -1,5 +1,13 @@
 debian-maintainers (0.01) UNRELEASED; urgency=low
 
+  [ Joey Hess ]
   * Initial release.
+  * Added Debian maintainer Miriam Ruiz
 
- -- Joey Hess <joeyh@debian.org>  Sun, 18 Mar 2007 20:35:12 -0400
+  [ Anthony Towns ]
+  * Added Debian maintainer Fathi Boudra
+  * Added Debian maintainer Cameron Dale
+  * Invoke "gpg --list-keys" in debian/rules build to make sure
+    $HOME/.gnupg exists. Possibly should set GNUPGHOME instead.
+
+ -- Anthony Towns <ajt@debian.org>  Thu, 18 Oct 2007 02:22:45 +1000
