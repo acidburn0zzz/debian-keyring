@@ -6,5 +6,5 @@ NM-Page: https://nm.debian.org/nmstatus.php?email= # applicant email here
 Advocates: # list any additional advocate info here not really needed if in NM
 Action: import
 Data:
- # Use "gpg --export -a keyid | sed 's/^/  /"
+ # Use "gpg --export -a keyid | sed 's/^/  /'
  # to dump the applicant's gpg block here.
