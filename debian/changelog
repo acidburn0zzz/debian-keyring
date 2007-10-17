@@ -1,3 +1,9 @@
+debian-maintainers (0.02) UNRELEASED; urgency=low
+
+  * Move debian-maintainers.gpg into /usr/share/keyrings instead of subdir. 
+
+ -- Anthony Towns <ajt@debian.org>  Thu, 18 Oct 2007 02:47:37 +1000
+
 debian-maintainers (0.01) unstable; urgency=low
 
   [ Joey Hess ]

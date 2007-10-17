@@ -20,7 +20,7 @@ binary-indep: build
 	dh_testdir
 	dh_testroot
 	dh_clean -k
-	dh_install debian-maintainers.gpg usr/share/keyrings/debian-maintainers.gpg
+	dh_install debian-maintainers.gpg usr/share/keyrings/
 	dh_installdocs README TODO
 	dh_installexamples sample.changeset
 	dh_installchangelogs
