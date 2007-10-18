@@ -1,8 +1,13 @@
 debian-maintainers (0.02) UNRELEASED; urgency=low
 
-  * Move debian-maintainers.gpg into /usr/share/keyrings instead of subdir. 
+  [ Anthony Towns ]
+  * Move debian-maintainers.gpg into /usr/share/keyrings instead of subdir.
 
- -- Anthony Towns <ajt@debian.org>  Thu, 18 Oct 2007 02:47:37 +1000
+  [ Joey Hess ]
+  * jeyring 0.8 avoids unnecessarily touching ~/.gnupg, so use it and remove
+    the gpg --list-keys hack.
+
+ -- Joey Hess <joeyh@debian.org>  Wed, 17 Oct 2007 14:09:05 -0400
 
 debian-maintainers (0.01) unstable; urgency=low
 
