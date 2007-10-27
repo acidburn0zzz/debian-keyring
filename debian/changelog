@@ -1,4 +1,4 @@
-debian-maintainers (0.03) UNRELEASED; urgency=low
+debian-maintainers (0.03) unstable; urgency=low
 
   [ Anthony Towns ]
   * Change byhand filename to include version and arch string for automatic
@@ -9,7 +9,7 @@ debian-maintainers (0.03) UNRELEASED; urgency=low
     automatic byhand access control...
   * Set GNUPGHOME in runtests.
 
- -- Anthony Towns <ajt@debian.org>  Sat, 27 Oct 2007 10:35:26 +1000
+ -- Joey Hess <joeyh@debian.org>  Sat, 27 Oct 2007 16:03:10 -0400
 
 debian-maintainers (0.02) unstable; urgency=low
 
