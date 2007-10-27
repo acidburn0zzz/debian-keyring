@@ -13,6 +13,10 @@ if [ ! -e "$DM_KEYRING" ]; then
 fi
 export DM_KEYRING
 
+export GNUPGHOME=`pwd`/gpghomedir
+mkdir "$GNUPGHOME"
+chmod 700 "$GNUPGHOME"
+
 for t in t/*.t; do
 	total=`expr $total + 1`
 	if ! $t; then
@@ -20,6 +24,8 @@ for t in t/*.t; do
 		fail=`expr $fail + 1`
 	fi
 done
+
+rm -r "$GNUPGHOME"
 
 if [ "$fail" -gt 0 ]; then
 	echo "** failed $fail/$total tests" >&2

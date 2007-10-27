@@ -15,6 +15,8 @@ clean:
 
 binary-arch: build
 
+VER = $(shell dpkg-parsechangelog | sed -ne 's/^Version: //p')
+
 binary-indep: build
 	dh_testdir
 	dh_testroot
@@ -31,8 +33,8 @@ binary-indep: build
 	dh_builddeb
 
 	# byhand file for dak
-	cp debian-maintainers.gpg ..
-	dpkg-distaddfile debian-maintainers.gpg raw-keyring -
+	cp debian-maintainers.gpg ../debian-maintainers_$(VER)_all.gpg
+	dpkg-distaddfile debian-maintainers_$(VER)_all.gpg raw-keyring -
 
 binary: binary-indep binary-arch
 .PHONY: build clean binary-indep binary-arch binary

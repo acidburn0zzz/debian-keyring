@@ -1,3 +1,16 @@
+debian-maintainers (0.03) UNRELEASED; urgency=low
+
+  [ Anthony Towns ]
+  * Change byhand filename to include version and arch string for automatic
+    byhand processing.
+  * Add Dm-Upload-Allowed: yes header to allow for access control of
+    automatic byhand processing.
+  * Switch my Uploaders: address to ajt@debian.org so it passed the
+    automatic byhand access control...
+  * Set GNUPGHOME in runtests.
+
+ -- Anthony Towns <ajt@debian.org>  Sat, 27 Oct 2007 10:35:26 +1000
+
 debian-maintainers (0.02) unstable; urgency=low
 
   [ Anthony Towns ]
