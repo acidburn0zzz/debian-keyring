@@ -1,10 +1,10 @@
-debian-maintainers (0.04) UNRELEASED; urgency=low
+debian-maintainers (0.04) unstable; urgency=low
 
   * Moved to a git repository in the new d-m project on alioth.
   * Maintainer mailing list has changed to d-m-team@lists.alioth.debian.org.
   * Update CHECKLIST for git (and we'll be using signed tags).
 
- -- Joey Hess <joeyh@debian.org>  Sun, 28 Oct 2007 16:41:42 -0400
+ -- Joey Hess <joeyh@debian.org>  Sun, 28 Oct 2007 17:03:59 -0400
 
 debian-maintainers (0.03) unstable; urgency=low
 
