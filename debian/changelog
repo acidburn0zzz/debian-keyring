@@ -1,3 +1,10 @@
+debian-maintainers (0.05) UNRELEASED; urgency=low
+
+  * Explicitly depend on gnupg rather than rely on jetring pulling it in,
+    since runtests uses it directly.
+
+ -- Joey Hess <joeyh@debian.org>  Sun, 28 Oct 2007 17:14:49 -0400
+
 debian-maintainers (0.04) unstable; urgency=low
 
   * Moved to a git repository in the new d-m project on alioth.
