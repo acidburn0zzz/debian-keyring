@@ -3,6 +3,7 @@ Changed-By: Joey Hess <joeyh@debian.org>
 Date: Thu, 13 Sep 2007 20:59:23 +0200
 Comment: adding debian-maintainer Miriam Ruiz
 NM-Page: https://nm.debian.org/nmstatus.php?email=little_miry@yahoo.es
+Advocates: http://lists.debian.org/debian-newmaint/2007/10/msg00039.html
 KeyCheck:
   pub   1024D/36EE0861 2004-12-25
         Key fingerprint = AA46 F4F2 BD59 75A4 EE42  8223 7DB9 6D2E 36EE 0861
