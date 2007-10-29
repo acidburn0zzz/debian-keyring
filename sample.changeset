@@ -1,9 +1,11 @@
 Recommended-By: # if you're not the applicant, put your email here
-Changed-By: 
+Changed-By: # keyring maintainer will fill this in
 Date: # date -R here
 Comment: adding debian-maintainer # name here
-NM-Page: https://nm.debian.org/nmstatus.php?email= # applicant email here
-Advocates: # list any additional advocate info here not really needed if in NM
+NM-Page: https://nm.debian.org/nmstatus.php?email=XXXX # optional
+Agreement: # url to signed mail where the applicant agrees with the
+	# DFSG, social contract, DMUP.
+Advocates: # url(s) to advocate mails here.
 Action: import
 Data:
  # Use: gpg --export -a keyid | sed 's/^/  /'

@@ -18,12 +18,9 @@ What to do when reviewing a changeset:
   - Does the KeyCheck look ok?
   - Is the key signed by more than one DD? At least one DD?
     More than 1 is preferred.
-  - Is there at least one advocate? Or is there an NM-Page with an
-    advocate?
+  - Is there at least one advocate?
   - Does the applicant acknowledge Debian's social contract, free software
-    guidelines, and machine usage policies? If they have a page
-    on nm.debian.org, they agreed to these already. So normally, just
-    checking if the NM-Page exists and is valid should be sufficient.
+    guidelines, and machine usage policies?
   - Does the applicant already maintain at least one package in the
     archive? (Listed as the Maintainer or in Uploaders) Does the package
     source have XS-DM-Upload-Allowed: yes set? If not, the applicant isn't
@@ -40,6 +37,6 @@ What to do when reviewing a changeset:
   6. Tag your new version with a signed tag. With devscripts >= 2.10.10,
      set DEBCOMMIT_SIGN_TAGS=yes in ~/.devscripts and then you can just use
      debcommit -r to create a signed tag.
-  7. git push origin master; git push --tags
+  7. git push origin master && git push --tags
   8. Upload the new version of the package so it will go live and the new 
      DMs can upload their packages.
