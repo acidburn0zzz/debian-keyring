@@ -1,4 +1,4 @@
-debian-maintainers (0.05) UNRELEASED; urgency=low
+debian-maintainers (0.05) unstable; urgency=low
 
   [ Joey Hess ]
   * Explicitly build-depend on gnupg rather than rely on jetring pulling it in,
@@ -11,7 +11,7 @@ debian-maintainers (0.05) UNRELEASED; urgency=low
   * Add more advocacy mails and add the corresponding Debian uid of the
     advocates.
 
- -- Anthony Towns <ajt@debian.org>  Wed, 31 Oct 2007 18:22:30 +1000
+ -- Anthony Towns <ajt@debian.org>  Wed, 31 Oct 2007 18:40:58 +1000
 
 debian-maintainers (0.04) unstable; urgency=low
 
