@@ -1,4 +1,4 @@
-debian-maintainers (0.05) unstable; urgency=low
+debian-maintainers (0.06) unstable; urgency=low
 
   [ Joey Hess ]
   * Explicitly build-depend on gnupg rather than rely on jetring pulling it in,
@@ -10,6 +10,7 @@ debian-maintainers (0.05) unstable; urgency=low
   [ Anthony Towns ]
   * Add more advocacy mails and add the corresponding Debian uid of the
     advocates.
+  * Sigh, actually update the index file and sig too.
 
  -- Anthony Towns <ajt@debian.org>  Wed, 31 Oct 2007 18:40:58 +1000
 
