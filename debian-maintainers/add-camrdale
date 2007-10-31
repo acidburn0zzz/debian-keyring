@@ -3,7 +3,9 @@ Changed-By: Anthony Towns <ajt@debian.org>
 Date: Thu, 18 Oct 2007 01:38:29 +1000
 Comment: adding debian-maintainer camrdale
 NM-Page: https://nm.debian.org/nmstatus.php?email=camrdale%40gmail.com
-Advocates: http://lists.debian.org/debian-newmaint/2007/10/msg00038.html
+Advocates: 
+  micah - http://lists.debian.org/debian-newmaint/2007/10/msg00038.html
+  ajt - http://lists.debian.org/debian-newmaint/2007/10/msg00041.html
 KeyCheck:
   pub   1024D/0D2036AD 2006-01-10
         Key fingerprint = FF07 84FE E439 DA85 CAF1  EA95 0F1F 76E2 0D20 36AD

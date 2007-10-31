@@ -1,12 +1,17 @@
 debian-maintainers (0.05) UNRELEASED; urgency=low
 
+  [ Joey Hess ]
   * Explicitly build-depend on gnupg rather than rely on jetring pulling it in,
     since runtests uses it directly.
   * Documentation/process updates.
   * Add links to new advocacy mails posted for DMs for whom we previously
     used the nm.debian.org advocacy status.
 
- -- Joey Hess <joeyh@debian.org>  Mon, 29 Oct 2007 19:31:31 -0400
+  [ Anthony Towns ]
+  * Add more advocacy mails and add the corresponding Debian uid of the
+    advocates.
+
+ -- Anthony Towns <ajt@debian.org>  Wed, 31 Oct 2007 18:22:30 +1000
 
 debian-maintainers (0.04) unstable; urgency=low
 
