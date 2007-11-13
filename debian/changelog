@@ -1,3 +1,14 @@
+debian-maintainers (0.08) UNRELEASED; urgency=low
+
+  * Add James Troup, Michael Beattie, Ryan Murray, Joerg Jaspert, Brian
+    Nelson, Marc Brockschmidt, and Christoph Berg to the admins keyring.
+    Per the GR, they all have commit access already, so it seems they might
+    as well be able to easily jetring-accept changes too.
+  * Add Anibal Monsalve Salazar to the admins keyring. Anibal is the newest
+    member of the DM team.
+
+ -- Joey Hess <joeyh@debian.org>  Tue, 13 Nov 2007 16:23:47 -0500
+
 debian-maintainers (0.07) unstable; urgency=low
 
   * Update README advice on where to send advocacy mails.
