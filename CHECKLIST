@@ -32,8 +32,8 @@ What to do when reviewing a changeset:
   1. Fill in the Changed-By field with your name and email address.
   2. jetring-accept debian-maintainers changeset
   3. dch "Added Debian maintainer Their Name"
-  4. git add .
-  5. debcommit
+  4. git add debian-maintainers/*
+  5. debcommit -a
   6. Tag your new version with a signed tag. With devscripts >= 2.10.10,
      set DEBCOMMIT_SIGN_TAGS=yes in ~/.devscripts and then you can just use
      debcommit -r to create a signed tag.
