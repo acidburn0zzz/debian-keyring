@@ -34,8 +34,9 @@ The admins will check that:
   preferably connected to the web of trust by multiple paths).
 * That at least one Debian developer (preferably more) is willing to advocate
   the applicant's inclusion, in particular that the applicant is technically
-  competent and good to work with. Advocacy messages can be sent to the
-  bug report or to a Debian mailing list.
+  competent and good to work with. Advocacy messages should generally be sent
+  to a Debian mailing list such as debian-newmaint or a more specific team
+  list.
 
 To aid in these checks, please provide all the necessary data in the
 changeset or in followup mails.

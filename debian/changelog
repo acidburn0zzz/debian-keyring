@@ -1,3 +1,9 @@
+debian-maintainers (0.07) UNRELEASED; urgency=low
+
+  * Update README advice on where to send advocacy mails.
+
+ -- Anthony Towns <ajt@debian.org>  Sat, 03 Nov 2007 15:07:06 +1000
+
 debian-maintainers (0.06) unstable; urgency=low
 
   [ Joey Hess ]
