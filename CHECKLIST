@@ -40,3 +40,21 @@ What to do when reviewing a changeset:
   7. git push origin master && git push --tags
   8. Upload the new version of the package so it will go live and the new 
      DMs can upload their packages.
+
+
+Adding someone to the DM keyring team:
+
+The procedure is much the same except the changeset is added to the admins
+keyring. When generating the changeset, you may want to install the
+signing-party package and use:
+
+	pgp-clean -s keyid | sed 's/^/  /'
+
+This will strip signatures from the key, saving a lot of space if the
+key has tons of signatures.
+
+Of course the new team member should be given commit access on alioth.
+And team members can add themselves to Uploaders if desired, although
+the initial upload has to be done by one of the prior Uploaders or
+ftp-master will require a manual accept of the package.
+
