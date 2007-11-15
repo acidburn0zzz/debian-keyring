@@ -6,7 +6,7 @@ debian-maintainers (0.08) UNRELEASED; urgency=low
     as well be able to easily jetring-accept changes too.
   * Add Anibal Monsalve Salazar to the admins keyring. Anibal is the newest
     member of the DM team.
-  * Use pgp-tools from signing-party to strip signatures from the admins
+  * Use pgp-clean from signing-party to strip signatures from the admins
     keyring, saving a couple megabytes from the source package.
 
  -- Joey Hess <joeyh@debian.org>  Wed, 14 Nov 2007 13:57:24 -0500
