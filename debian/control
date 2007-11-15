@@ -3,10 +3,11 @@ Section: misc
 Priority: extra
 Build-Depends: debhelper (>= 5), dpkg-dev (>= 1.9.0), jetring (>= 0.8), gnupg
 Maintainer: Debian Maintainer Keyring Team <d-m-team@lists.alioth.debian.org>
-Uploaders: Joey Hess <joeyh@debian.org>, Anthony Towns <ajt@debian.org>
+Uploaders: Joey Hess <joeyh@debian.org>, Anthony Towns <ajt@debian.org>, Anibal Monsalve Salazar <anibal@debian.org>
 Standards-Version: 3.7.2
 Vcs-Git: git://git.debian.org/git/d-m/debian-maintainers.git
 XS-Dm-Upload-Allowed: yes
+Homepage: http://alioth.debian.org/projects/d-m/
 
 Package: debian-maintainers
 Architecture: all

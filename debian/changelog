@@ -1,5 +1,6 @@
 debian-maintainers (0.08) UNRELEASED; urgency=low
 
+  [ Joey Hess ]
   * Add James Troup, Michael Beattie, Ryan Murray, Joerg Jaspert, Brian
     Nelson, Marc Brockschmidt, and Christoph Berg to the admins keyring.
     Per the GR, they all have commit access already, so it seems they might
@@ -9,7 +10,11 @@ debian-maintainers (0.08) UNRELEASED; urgency=low
   * Use pgp-clean from signing-party to strip signatures from the admins
     keyring, saving a couple megabytes from the source package.
 
- -- Joey Hess <joeyh@debian.org>  Wed, 14 Nov 2007 13:57:24 -0500
+  [ Anibal Monsalve Salazar ]
+  * Added added myself to the uploaders list.
+  * Added Homepage line in debian/control.
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Thu, 15 Nov 2007 20:59:04 +1100
 
 debian-maintainers (0.07) unstable; urgency=low
 
