@@ -28,7 +28,7 @@ What to do when reviewing a changeset:
 
 * If the changeset and applicant look ok to add:
 
-  0. Mention this to debian-projects@lists.debian.org
+  0. Mention this to debian-project@lists.debian.org
   1. Fill in the Changed-By field with your name and email address.
   2. jetring-accept debian-maintainers changeset
   3. dch "Added Debian maintainer Their Name"

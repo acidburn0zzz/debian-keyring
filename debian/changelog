@@ -13,8 +13,9 @@ debian-maintainers (0.08) UNRELEASED; urgency=low
   [ Anibal Monsalve Salazar ]
   * Added added myself to the uploaders list.
   * Added Homepage line in debian/control.
+  * Added Debian maintainer bureado
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Thu, 15 Nov 2007 20:59:04 +1100
+ -- Anibal Monsalve Salazar <anibal@hopi.apana.org.au>  Sat, 17 Nov 2007 13:08:02 +1100
 
 debian-maintainers (0.07) unstable; urgency=low
 
