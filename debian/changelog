@@ -1,4 +1,4 @@
-debian-maintainers (0.08) UNRELEASED; urgency=low
+debian-maintainers (0.08) unstable; urgency=low
 
   [ Joey Hess ]
   * Add James Troup, Michael Beattie, Ryan Murray, Joerg Jaspert, Brian
