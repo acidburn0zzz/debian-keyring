@@ -28,7 +28,6 @@ What to do when reviewing a changeset:
 
 * If the changeset and applicant look ok to add:
 
-  0. Mention this to debian-project@lists.debian.org
   1. Fill in the Changed-By field with your name and email address.
   2. jetring-accept debian-maintainers changeset
   3. dch "Added Debian maintainer Their Name"
@@ -39,7 +38,8 @@ What to do when reviewing a changeset:
      debcommit -r to create a signed tag.
   7. git push origin master && git push --tags
   8. Upload the new version of the package so it will go live and the new 
-     DMs can upload their packages.
+     DMs can upload their packages. (This will also automatically cause an
+     announcement to be sent.)
 
 
 Adding someone to the DM keyring team:

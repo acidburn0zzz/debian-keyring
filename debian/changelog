@@ -1,3 +1,10 @@
+debian-maintainers (0.09) UNRELEASED; urgency=low
+
+  * Update docs, manual announcements are no longer needed since aj automated
+    them at package accept time.
+
+ -- Joey Hess <joeyh@debian.org>  Fri, 16 Nov 2007 22:03:44 -0500
+
 debian-maintainers (0.08) unstable; urgency=low
 
   [ Joey Hess ]
