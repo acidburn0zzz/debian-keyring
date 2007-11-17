@@ -1,3 +1,11 @@
+debian-maintainers (1.0) UNRELEASED; urgency=low
+
+  * Add James Troup, Michael Beattie, Ryan Murray, Joerg Jaspert, Brian
+    Nelson, Marc Brockschmidt, and Christoph Berg to the Uploaders: field
+    to enable automatic byhand acceptance.
+
+ -- Anthony Towns <ajt@debian.org>  Sun, 18 Nov 2007 05:25:13 +1000
+
 debian-maintainers (0.08) unstable; urgency=low
 
   [ Joey Hess ]
