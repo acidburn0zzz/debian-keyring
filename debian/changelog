@@ -23,7 +23,7 @@ debian-maintainers (0.07) unstable; urgency=low
 
  -- Anthony Towns <ajt@debian.org>  Wed, 14 Nov 2007 00:53:27 +1000
 
-debian-maintainers (1.06) unstable; urgency=low
+debian-maintainers (0.06) unstable; urgency=low
 
   [ Joey Hess ]
   * Explicitly build-depend on gnupg rather than rely on jetring pulling it in,
