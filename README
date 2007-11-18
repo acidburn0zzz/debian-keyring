@@ -21,7 +21,7 @@ either keyring.
 
 To submit an applicant to be added to the debian-maintainers keyring,
 someone (the applicant or their sponsor) should file a bug on the
-debian-maintainers package with a jetring changeset that adds the
+debian-maintainers package, attaching a jetring changeset that adds the
 applicant's key. A sample.changeset file is provided for your reference.
 
 The admins will check that:
