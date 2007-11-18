@@ -1,0 +1,106 @@
+Recommended-By: luk@debian.org
+Changed-By: Joey Hess <joeyh@debian.org>
+Date: Sun, 18 Nov 2007 22:59:52 +0100
+Comment: adding debian-maintainer Ralph Amissah
+NM-Page:
+  https://nm.debian.org/nmstatus.php?email=ralph.amissah%40gmail.com
+Agreement: http://lists.debian.org/debian-newmaint/2007/11/msg00060.html
+Advocates:
+  luk - http://lists.debian.org/debian-newmaint/2007/11/msg00062.html
+  daniel - http://lists.debian.org/debian-newmaint/2007/11/msg00063.html
+KeyCheck:
+  pub   1024D/B98F62B1 2007-06-05
+        Key fingerprint = A5F9 C48C 4059 B688 6CC5  7A42 6F78 18A9 B98F 62B1
+  uid                  Ralph Amissah <ralph.amissah@gmail.com>
+  sig!         9B7C328D 2007-06-16  Luk Claes <luk@debian.org>
+  sig!         4743206C 2007-06-19  Joachim Breitner <mail@joachim-breitner.de>
+  sig!         5B48FFAE 2007-06-23  Margarita Manterola <marga@debian.org>
+  sig!         4B2B2B9E 2007-06-23  Daniel Baumann <daniel.baumann@panthera-systems.net>
+  sig!         808D0FD0 2007-06-27  Don Armstrong <don@donarmstrong.com>
+  sig!         28BCB3E3 2007-06-27  Neil Williams (Debian) <codehelp@debian.org>
+  sig!3        B98F62B1 2007-06-05  Ralph Amissah <ralph.amissah@gmail.com>
+  sig!    PN   AF79D29E 2007-06-19  Wouter Verhelst <wouter@grep.be>
+  uid                  Ralph Amissah <ralph@amissah.com>
+  sig!         5B48FFAE 2007-06-23  Margarita Manterola <marga@debian.org>
+  sig!         4B2B2B9E 2007-06-23  Daniel Baumann <daniel.baumann@panthera-systems.net>
+  sig!         808D0FD0 2007-06-27  Don Armstrong <don@donarmstrong.com>
+  sig!         28BCB3E3 2007-06-27  Neil Williams (Debian) <codehelp@debian.org>
+  sig!3        B98F62B1 2007-06-05  Ralph Amissah <ralph.amissah@gmail.com>
+  sub   4096g/5C936F61 2007-06-05
+  sig!         B98F62B1 2007-06-05  Ralph Amissah <ralph.amissah@gmail.com>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  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
+  bm90ZXNAZ3JlcC5iZSJodHRwOi8vd3d3LmdyZXAuYmUvZ3BnLzQyNjcxMDEzRjk0
+  QTBBQkVCNENFOUI2RDNERkMyQzYyQUY3OUQyOUUvQTVGOUM0OEM0MDU5QjY4ODZD
+  QzU3QTQyNkY3ODE4QTlCOThGNjJCMS5hc2MiJhpodHRwOi8vd3d3LmdyZXAuYmUv
+  Z3BnL2NlcnQtcG9saWN5LXYyAAoJED38LGKvedKepn0AniI08r5PvdeuYnYpNT1C
+  ga62mIeEAJ9krducvV7Aqoo5fmkbhia3nhzSqbkEDQRGZONQEBAA14JgLvTMbRn0
+  Eajr8yZiBeH6i4QnF/R1wI1768w70oTfJjKRANgbcMDdgwh97fyZpXSckJ4eWBgx
+  xuKr2JDlXj2dvlB+SYzC1EcSqIGkjTQXR/PAfj/2/f/DLqgT2m5csMphnvWyXT5j
+  Rc1mJjYpYv4b7tK6ODiU4dZXNxvGUVedyHyQmz6S7ikKyyqvMhXOJjfSngees4ml
+  xJSKyIKjDU4RrieFx63Xs3vD+ncbTWavjYzPAHOIinAtEe5S+QEeMBKv40GHctvm
+  OqRBYgQ7CNojJaVg1N6pLrPtCpU20fX3eLKCrSAjmwQScDxff3pBf5yi+jo5GO3q
+  idr4jp1Vxzbt6w+MZf7T+XSv1pH8H/+1x3jiXxiHAHeT04rqR0nxb+f9QjMXHZeI
+  Z9InGQ3WYNag+oxmSOhw1il03loxjviiwOMEYSP0XS6RQVGCFyRJW8WxNu3yA69O
+  0tKJq2hmtac1vTXcuBmYKfGFILsWrUDPHMRnEKclTAmzKgPdXy8VlB7oeRv21m8i
+  /1u0nyEx/j8CY98nOonRvlZmoyG3JMref8NX7QJKnv0qxe3ycgdIw7D70amIRBo6
+  zD74JPDgh/PEFPk9DYplDqNYxbwfWfD5F4KUuAC8Z0rJLZx+7MQvl8vOez2Mi2aQ
+  WmXttibZ4nTiC0bCUSIIMhrt7QsCjusAAwUP/1ly6Abk+kLfSQLQiTvDmo3xLBFU
+  TcsX5QuW479OphjHxZm2b9ra1/NMg2ainX2rbBKzOKp5wEQMqrVJ4mBiESMeM09p
+  vFmgRINCO/DukuQQaJj7rOUQAvzoKjf0Mmq2V6kqT/IpiN53SM3LwMTeIqEiVLbY
+  SBC4OC5Ry0ZRo9yj7nAfEddx9UdhNa+uIgbOniDJ5+R29rGBoxcTXwNjq2/D1bUQ
+  n/cOQHUfJDG47x1FRywhy3fn8pTYWgyoFia6XQXZx9DV/GnRtzGGNFb03021qdKo
+  DFhHmCyJLxWxe8iLjQv6mK2QV3XietWm27kvCg02aZ0PJ95dBJtvZgohP0BsruLG
+  Yqlf7gRrNt6h6r6XHZKT0xS9dDIOcrPl0EJ6mrqSYz/mN+sqp0vF2FNUbdYuJ/mk
+  eO9uc+V9cHQ/qx/EznQM1hEUhOpQG4zeQXkQErjxqTUVs08HVu8CBUvCV6yJRE4Q
+  FyXF3MKDkicRPcAcRTG04UtRHcWqTYtxHhk16E9+3CmpM+mkuOptV21MnatRgCdZ
+  ZTXZ/cBltOPXzO178P9oaHif4ZFIQwYzM8PLo7DGpTX9ud+cwuvxiPlyiujQH7gd
+  jZA4EasnLILBfqPIRp4DYvdXcGlFxxNzMQo8NYO0N3Q9PBEXDXtwluwWIWFeN5JG
+  /1KOuEG4QCeUG/2riEkEGBECAAkFAkZk41ACGwwACgkQb3gYqbmPYrE/KACfW2O1
+  7jX/4Cpgb39y/FBAX5QsUIgAoIt/54gb5zmXiyGQDDwu7CPUrjhW
+  =yHSj
+  -----END PGP PUBLIC KEY BLOCK-----
