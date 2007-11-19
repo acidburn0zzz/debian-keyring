@@ -1,0 +1,148 @@
+Changed-By: Joey Hess <joeyh@debian.org>
+Date: Mon, 19 Nov 2007 14:35:18 -0300
+Comment: adding debian-maintainer MartÃ­n Ferrari
+NM-Page: https://nm.debian.org/nmstatus.php?email=martin.ferrari%40gmail.com
+Agreement: http://lists.debian.org/debian-newmaint/2007/11/msg00090.html
+Advocates:
+  - damog: http://lists.debian.org/debian-newmaint/2007/08/msg00006.html
+  - des: http://lists.debian.org/debian-newmaint/2007/08/msg00007.html
+  - marga: http://lists.debian.org/debian-newmaint/2007/08/msg00012.html
+KeyCheck:
+  pub   1024D/575D0A76 2004-10-28
+        Key fingerprint = D32A 5C3A 81B8 5406 ED96  EF81 6964 36BF 575D 0A76
+  uid                  Martín Ferrari <martin.ferrari@gmail.com>
+  sig!         1880283C 2005-07-20  Anibal Monsalve Salazar <anibal@debian.org>
+  sig!2        94C09C7F 2005-07-19  Peter Palfrader
+  sig!      X  248AEB73 2005-07-20  Rene Engelhard <rene@debian.org>
+  sig!3     X  5B48FFAE 2004-10-28  Margarita Manterola <marga@debian.org>
+  sig!3     X  8F068012 2005-07-16  Andrew McMillan (Andrew @ Work) <andrew@catalyst.net.nz>
+  sig!3        575D0A76 2006-05-08  Martín Ferrari <martin.ferrari@gmail.com>
+  sig!      X  00D8CD16 2005-08-01  Alexander Schmehl (university) <schmehl@cs.uni-frankfurt.de>
+  sig!3        575D0A76 2004-10-28  Martín Ferrari <martin.ferrari@gmail.com>
+  sig!         7E7B8AC9 2006-03-25  Joerg Jaspert <joerg@debian.org>
+  sig!3        575D0A76 2005-08-02  Martín Ferrari <martin.ferrari@gmail.com>
+  sig!         4B729625 2006-05-20  Peter Van Eynde <pvaneynd@debian.org>
+  sig!         29499F61 2006-05-20  Sam Hocevar <sam@zoy.org>
+  sig!         6D742669 2006-05-20  Luca Capello <luca@pca.it>
+  sig!         005C3B82 2006-05-20  Jose Parrella <joseparrella@cantv.net>
+  sig!         9B7C328D 2006-05-20  Luk Claes <luk@debian.org>
+  sig!         C671257D 2006-05-20  David Moreno Garza <damog@espiral.org.mx>
+  sig!         EA59038E 2006-05-20  Stephen Gran <sgran@debian.org>
+  sig!         4BA401C3 2006-05-20  Alberto Gonzalez Iniesta <agi@inittab.org>
+  sig!         6FECCDE0 2006-05-21  Santiago Ruano Rincón <santiago@unicauca.edu.co>
+  sig!         0ED704EA 2006-05-21  Mohammed Adnène Trojette (adn) <adn@arabeyes.org>
+  sig!         F1BCDB73 2006-05-21  Aurelien Jarno <aurelien@aurel32.net>
+  sig!         6E8169D2 2006-05-21  Raphael Hertzog <raphael@ouaza.com>
+  sig!         8BB527AF 2006-05-31  Gunnar Wolf <gwolf@gwolf.org>
+  sig!2        5706A4B4 2006-05-21  Simon Richter <Simon.Richter@hogyros.de>
+  sig!         12066207 2006-05-25  Ben Hutchings <ben@decadent.org.uk>
+  sig!         16D970C6 2006-05-27  Eric Dorland <eric@debian.org>
+  sig!         71473F66 2006-05-27  Todd Troxell <ttroxell@debian.org>
+  sig!         DD9B9910 2006-06-01  Philip Hands <phil@hands.com>
+  sig!         58510B5A 2006-06-01  Christoph Berg <cb@df7cb.de>
+  sig!         330C4A75 2006-06-02  Martin F. Krafft <mail@martin-krafft.net>
+  sig!         72D03CB1 2006-06-03  Kenshi Muto <kmuto@debian.org>
+  sig!         1E880A84 2006-06-19  Frans Pop (Debian) <elendil@planet.nl>
+  sub   1024g/502FDC57 2004-10-28
+  sig!         575D0A76 2006-05-08  Martín Ferrari <martin.ferrari@gmail.com>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  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
+  =9kpr
+  -----END PGP PUBLIC KEY BLOCK-----

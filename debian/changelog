@@ -4,6 +4,7 @@ debian-maintainers (1.1) UNRELEASED; urgency=low
   * Added Debian maintainer Ralph Amissah.
   * Added Debian maintainer Tobias Toedter
   * Added Debian maintainer Simon McVittie
+  * Added Debian maintainer Martin Ferrari
 
  -- Joey Hess <joeyh@debian.org>  Sun, 18 Nov 2007 17:33:57 -0500
 
