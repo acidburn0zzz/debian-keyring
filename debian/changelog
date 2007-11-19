@@ -1,12 +1,12 @@
-debian-maintainers (1.1) UNRELEASED; urgency=low
+debian-maintainers (1.1) unstable; urgency=low
 
   * Recommend attaching changesets to bug reports. That's easier for us.
-  * Added Debian maintainer Ralph Amissah.
-  * Added Debian maintainer Tobias Toedter
-  * Added Debian maintainer Simon McVittie
-  * Added Debian maintainer Martin Ferrari
+  * Added Debian maintainer Ralph Amissah. Closes: #451857
+  * Added Debian maintainer Tobias Toedter. Closes: #451918
+  * Added Debian maintainer Simon McVittie. Closes: #451971
+  * Added Debian maintainer Martin Ferrari. Closes: #451998
 
- -- Joey Hess <joeyh@debian.org>  Sun, 18 Nov 2007 17:33:57 -0500
+ -- Joey Hess <joeyh@debian.org>  Mon, 19 Nov 2007 16:40:24 -0500
 
 debian-maintainers (1.0) unstable; urgency=low
 
