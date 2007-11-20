@@ -1,3 +1,9 @@
+debian-maintainers (1.2) unstable; urgency=low
+
+  * Added Debian maintainer Niko Tyni. Closes: #452051
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Tue, 20 Nov 2007 22:09:22 +1100
+
 debian-maintainers (1.1) unstable; urgency=low
 
   * Recommend attaching changesets to bug reports. That's easier for us.
