@@ -4,7 +4,7 @@ debian-maintainers (1.2) unstable; urgency=low
   * Added Debian maintainer Ryan Finnie. Closes: #452048
   * Added Debian maintainer Heikki Henriksen. Closes: #452072
 
- -- Anibal Monsalve Salazar <anibal@hopi.apana.org.au>  Wed, 21 Nov 2007 00:16:06 +1100
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 21 Nov 2007 00:16:06 +1100
 
 debian-maintainers (1.1) unstable; urgency=low
 
