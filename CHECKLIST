@@ -31,13 +31,20 @@ What to do when reviewing a changeset:
   1. Fill in the Changed-By field with your name and email address.
   2. jetring-accept debian-maintainers changeset
   3. dch "Added Debian maintainer Their Name. Closes: #XXXXX"
+     (Please make sure that the changelog is marked UNRELEASED until
+      a release is made. Set DEBCHANGE_RELEASE_HEURISTIC=changelog
+      in ~/.devscripts.)
   4. git add debian-maintainers/*
-  5. debcommit -a
-  6. Tag your new version with a signed tag. With devscripts >= 2.10.10,
+  5. debcommit -a; tagpending
+
+* To make a release:
+
+  1. dch -r
+  2. Tag your new version with a signed tag. With devscripts >= 2.10.10,
      set DEBCOMMIT_SIGN_TAGS=yes in ~/.devscripts and then you can just use
      debcommit -r to create a signed tag.
-  7. git push origin master && git push --tags
-  8. Upload the new version of the package so it will go live and the new 
+  3. git push origin master && git push --tags
+  4. Upload the new version of the package so changes will go live and the new 
      DMs can upload their packages. (This will also automatically cause an
      announcement to be sent.)
 

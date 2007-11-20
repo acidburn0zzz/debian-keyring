@@ -1,8 +1,12 @@
-debian-maintainers (1.2) unstable; urgency=low
+debian-maintainers (1.2) UNRELEASED; urgency=low
 
+  [ Anibal Monsalve Salazar ]
   * Added Debian maintainer Niko Tyni. Closes: #452051
   * Added Debian maintainer Ryan Finnie. Closes: #452048
   * Added Debian maintainer Heikki Henriksen. Closes: #452072
+
+  [ Joey Hess ]
+  * Some updates to the CHECKLIST.
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 21 Nov 2007 00:16:06 +1100
 
