@@ -8,6 +8,7 @@ debian-maintainers (1.2) UNRELEASED; urgency=low
   [ Joey Hess ]
   * Some updates to the CHECKLIST.
   * Fix the test suite to ignore jpeg images attached to keys.
+  * Added Debian maintainer Daniel Kahn Gillmor. Closes: #452177
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 21 Nov 2007 00:16:06 +1100
 
