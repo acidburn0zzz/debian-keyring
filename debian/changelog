@@ -1,4 +1,4 @@
-debian-maintainers (1.2) UNRELEASED; urgency=low
+debian-maintainers (1.2) unstable; urgency=low
 
   [ Anibal Monsalve Salazar ]
   * Added Debian maintainer Niko Tyni. Closes: #452051
@@ -10,7 +10,7 @@ debian-maintainers (1.2) UNRELEASED; urgency=low
   * Fix the test suite to ignore jpeg images attached to keys.
   * Added Debian maintainer Daniel Kahn Gillmor. Closes: #452177
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 21 Nov 2007 00:16:06 +1100
+ -- Joey Hess <joeyh@debian.org>  Tue, 20 Nov 2007 19:42:35 -0500
 
 debian-maintainers (1.1) unstable; urgency=low
 
