@@ -6,7 +6,7 @@ set -e
 list_uids () {
 	gpg --no-options --no-auto-check-trustdb --no-default-keyring \
 		--keyring "$1" --list-keys | grep '^uid' | sed 's/^uid *//' |
-		egrep -v '[jpeg image of size .*]' || true
+		egrep -v '\[jpeg image of size .*\]'
 }
 
 list_names () {
