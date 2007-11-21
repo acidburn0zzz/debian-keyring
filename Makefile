@@ -17,7 +17,7 @@ rsync-keys:
 		echo "Updating Debian keyring cache" >&2; \
 		rsync -qcltz --block-size=8192 --partial --progress --exclude='emeritus-*' --exclude='removed-*' 'keyring.debian.org::keyrings/keyrings/*' cache/; \
 	else \
-		echo "Not updating Debian keyring cache, OFFLINE is set" >&2; \
+		echo "Not updating Debian keyring cache, ONLINE=n is set" >&2; \
 	fi
 
 clean:
