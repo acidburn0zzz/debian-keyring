@@ -19,6 +19,11 @@ list_emails () {
 
 fail=0
 
+if [ "$ONLINE" = n ]; then
+	echo "dm-vs-dd: cannot test in offline mode" >&2
+	exit 0
+fi
+
 make rsync-keys
 
 dd_uids=$(list_uids ./cache/debian-keyring.gpg && 
