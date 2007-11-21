@@ -1,0 +1,120 @@
+Recommended-By: Jordi Mallach <jordi@debian.org>
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Date: Wed, 21 Nov 2007 00:02:38 +1100
+Comment: adding debian-maintainer Heikki Henriksen
+NM-Page: https://nm.debian.org/nmstatus.php?email=heikkih%40gmail.com
+Agreement: http://lists.debian.org/debian-newmaint/2007/11/msg00111.html
+Advocates: 
+  jordi - http://lists.debian.org/debian-newmaint/2007/11/msg00101.html
+  giskard - http://lists.debian.org/debian-newmaint/2007/11/msg00114.html
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  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
+  FLJC6abyIEeVi4hXBBMRAgAXBQI8F5CWBQsHCgMEAxUDAgMWAgECF4AACgkQpnfX
+  7JXajqnalgCgoVxmNsHs/QWtmq8BF6mdIMD5zDAAoIv7ohzQ+7+Tk4kCpFtw2TuQ
+  l58dtCBIZWlra2kgSGVucmlrc2VuIDxoaEBoZWl0ZWNoLm5vPohTBDARAgATBQJD
+  VM8zDB0gbm90IGluIHVzZQAKCRCmd9fsldqOqXO8AJ0XCpi9yBotLai228p24BqY
+  ZpiHtACgkj7T7YH0brBp6AtGkuuZZ4i/yCuIVwQTEQIAFwUCOwgsLQULBwoDBAMV
+  AwIDFgIBAheAAAoJEKZ31+yV2o6ppWsAn1g7TnmNgd+Ho+tJ/G5JXCJM23TUAJ9B
+  ycEnvX6a52gfu8aZLrY1iLOTOYhXBBMRAgAXBQI7CC12BQsHCgMEAxUDAgMWAgEC
+  F4AACgkQpnfX7JXajqlhbACfQjtf9AjHf/1LxHB4tuPNMFiSImoAnRX9ZK+7gVbH
+  UravTTT1stU2qs9niFcEExECABcFAjwXkPEFCwcKAwQDFQMCAxYCAQIXgAAKCRCm
+  d9fsldqOqcSEAJ9LTScikjY1jhKda6oizqt2XYnQWwCgrZE/x6EDqCA2S+Bb33bS
+  0eoAjai0JUhlaWtraSBIZW5yaWtzZW4gPGhlaWtraWhAaGVpdGVjaC5ubz6IRgQQ
+  EQIABgUCREo7pgAKCRBcpFDeUrdIfs0PAJ0XGp12iKdqu+XWiNvRf1KFpmcpwgCg
+  nDANeqHKMHQ/n/Yv1kUmRuLKmzyIRgQQEQIABgUCRJvZ7gAKCRCDl7wBxLqeHZEY
+  AKCDuQF4ZO/CFEBit+2EAw8qciS4cQCgq8GU9tv9AiezN4UCCN5Xrcd7MKmIXgQT
+  EQIAHgIbAwIeAQIXgAYLCQgHAwIDFQIDAxYCAQUCQYdX2wAKCRCmd9fsldqOqbRj
+  AJ9MRstPhifuyl2Ku5gSB6yVbLkepQCfdJdH0cncJBBIQx+K7tQSOlSiogO0J0hl
+  aWtraSBIZW5yaWtzZW4gPGhlaWtraWhAc3R1ZC5udG51Lm5vPohTBDARAgATBQJD
+  VM8zDB0gbm90IGluIHVzZQAKCRCmd9fsldqOqSxbAJ48MkHLIHD+8I04Axq4Y+2O
+  TpqCugCg4NTkFKTakpGKy7ct5OEnyQGDDLeIVwQTEQIAFwUCPBeM7wULBwoDBAMV
+  AwIDFgIBAheAAAoJEKZ31+yV2o6pRzYAn1Il9G/uY9pXsA6QfaQbIwJS1FhzAJ9g
+  CaXt9z35/TZG+6MwNmwHfYG2zIhfBBMRAgAXBQI8F4zvBQsHCgMEAxUDAgMWAgEC
+  F4AAEgkQpnfX7JXajqkHZUdQRwABAUc2AJ9SJfRv7mPaV7AOkH2kGyMCUtRYcwCf
+  YAml7fc9+f02RvujMDZsB32Btsy5AQ0EOwgsMhAEALP/79AZr+Tvpqwa2+W4cB3i
+  mmDbpaqwH1kLOaW33ICRhXReQoLX/Z/EuX0cX2q01IJHuM+6xB22k9XLgm874b6A
+  n/gl4OHINi4K89yapjO/0nx3VyyfJuch8nlKSPwD9jG+kvt7QB52ixioHK9igBJI
+  xx6gloeiiwm7gQXRKyO7AAMFA/9qWWVWA1QNluBvKQiG9wnEZ2AgxBw+fQnjS3iY
+  D57cAmr0kXV2bux9HKbR9R36bHq1jBowq00c1QmiWfQAbFZGBy/4RaqYPrMQofIF
+  o0mSylKY1Ixg3EEwoRSdoZtfshD2L1gUdrrfjEJybUPFTq5y9WN7aM/Lw/T916/y
+  8BX/AohOBBgRAgAGBQI7CCwyABIJEKZ31+yV2o6pB2VHUEcAAQFBPgCgudwAlmJb
+  P2ngisKxOClfAwdSARMAn372TA6xdnNdZb4+h08anHJOIlhL
+  =inuW
+  -----END PGP PUBLIC KEY BLOCK-----
+KeyCheck:
+  pub   1024D/95DA8EA9 2001-05-20
+        Key fingerprint = 8E88 0721 AB4A C2A0 6E74  C7B4 A677 D7EC 95DA 8EA9
+  uid                  Heikki Henriksen <heikkih@gmail.com>
+  sig-         52B7487E 2006-04-22  Steinar H. Gunderson <sesse@debian.org>
+  sig!         52B7487E 2006-04-22  Steinar H. Gunderson <sesse@debian.org>
+  sig!3        95DA8EA9 2007-09-25  Heikki Henriksen <heikkih@gmail.com>
+  sig!3        95DA8EA9 2005-12-20  Heikki Henriksen <heikkih@gmail.com>
+  uid                  Heikki Henriksen <heikkih@samfundet.no>
+  sig!         52B7487E 2006-04-22  Steinar H. Gunderson <sesse@debian.org>
+  sig!3        95DA8EA9 2001-12-12  Heikki Henriksen <heikkih@gmail.com>
+  sig!3        95DA8EA9 2005-10-17  Heikki Henriksen <heikkih@gmail.com>
+  sig!3        95DA8EA9 2007-09-25  Heikki Henriksen <heikkih@gmail.com>
+  sig!3        95DA8EA9 2005-10-17  Heikki Henriksen <heikkih@gmail.com>
+  sig!3        95DA8EA9 2004-11-02  Heikki Henriksen <heikkih@gmail.com>
+  sig!3        95DA8EA9 2005-10-18  Heikki Henriksen <heikkih@gmail.com>
+  uid       [ revoked] Heikki Henriksen <hh@dossier.no>
+  rev!         95DA8EA9 2005-10-18  Heikki Henriksen <heikkih@gmail.com>
+  sig!3        95DA8EA9 2001-12-12  Heikki Henriksen <heikkih@gmail.com>
+  uid       [ revoked] Heikki Henriksen <hh@heitech.no>
+  rev!         95DA8EA9 2005-10-18  Heikki Henriksen <heikkih@gmail.com>
+  sig!3        95DA8EA9 2001-05-20  Heikki Henriksen <heikkih@gmail.com>
+  sig!3        95DA8EA9 2001-05-20  Heikki Henriksen <heikkih@gmail.com>
+  sig!3        95DA8EA9 2001-12-12  Heikki Henriksen <heikkih@gmail.com>
+  uid                  Heikki Henriksen <heikkih@heitech.no>
+  sig!         52B7487E 2006-04-22  Steinar H. Gunderson <sesse@debian.org>
+  sig!3        95DA8EA9 2004-11-02  Heikki Henriksen <heikkih@gmail.com>
+  uid       [ revoked] Heikki Henriksen <heikkih@stud.ntnu.no>
+  rev!         95DA8EA9 2005-10-18  Heikki Henriksen <heikkih@gmail.com>
+  sig!3        95DA8EA9 2001-12-12  Heikki Henriksen <heikkih@gmail.com>
+  sig!3        95DA8EA9 2001-12-12  Heikki Henriksen <heikkih@gmail.com>
+  sub   1024g/B6CDC572 2001-05-20
+  sig!         95DA8EA9 2001-05-20  Heikki Henriksen <heikkih@gmail.com>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
