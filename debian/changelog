@@ -2,6 +2,7 @@ debian-maintainers (1.3) UNRELEASED; urgency=low
 
   * Added Debian maintainer Kartik Mistry. Closes: #452055
   * Added Debian maintainer Filipe Lautert. Closes: #452527
+  * Added Debian maintainer Micha Lenk. Closes: #452525
 
  -- Joey Hess <joeyh@debian.org>  Wed, 21 Nov 2007 17:48:44 -0500
 
