@@ -1,3 +1,11 @@
+debian-maintainers (1.4) unstable; urgency=low
+
+  * Removed keyring admin Brian Nelson. Closes: #452828
+  * Removed keyring admin Michael Beattie.
+  * Removed Debian maintainer Kartik Mistry.
+
+ -- Christoph Berg <myon@debian.org>  Sun, 25 Nov 2007 16:59:13 +0100
+
 debian-maintainers (1.3) unstable; urgency=low
 
   * Added Debian maintainer Kartik Mistry. Closes: #452055
