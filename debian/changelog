@@ -1,6 +1,7 @@
 debian-maintainers (1.5) UNRELEASED; urgency=low
 
   * Added Debian maintainer Aurélien GÉRÔME. Closes: #452600
+  * Added Debian maintainer Arthur Loiret. Closes: #452605
 
  -- Joey Hess <joeyh@debian.org>  Sun, 25 Nov 2007 13:46:36 -0500
 
