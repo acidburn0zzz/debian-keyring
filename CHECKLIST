@@ -35,7 +35,7 @@ What to do when reviewing a changeset:
       a release is made. Set DEBCHANGE_RELEASE_HEURISTIC=changelog
       in ~/.devscripts.)
   4. git add debian-maintainers/*
-  5. debcommit -a; tagpending
+  5. debcommit -a; tagpending; git push origin master
 
 * To make a release:
 
