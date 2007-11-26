@@ -1,0 +1,57 @@
+Changed-By: Anthony Towns <ajt@debian.org>
+Date: Tue, 27 Nov 2007 02:38:23 +1000
+Comment: adding debian-maintainer Ondrej Certik
+NM-Page: https://nm.debian.org/nmstatus.php?email=ondrej%40certik.cz
+Agreement: http://lists.debian.org/debian-newmaint/2007/11/msg00132.html
+Advocates: 
+  piotr - http://lists.debian.org/debian-newmaint/2007/11/msg00130.html
+  piotr - http://bugs.debian.org/cgi-bin/bugreport.cgi?msg=24;bug=452719
+KeyCheck:
+  pub   1024D/EEA07609 2007-04-05
+        Key fingerprint = 57AD 42EC B22F 67D7 13AF  1AB2 290F BE52 EEA0 7609
+  uid                  Ondrej Certik <ondrej@certik.cz>
+  sig!3        EEA07609 2007-04-05  Ondrej Certik <ondrej@certik.cz>
+  sig!         C20DF273 2007-10-15  Ond\xc5\x99ej Surý <ondrej@sury.org>
+  sig!         B5444815 2007-11-10  Bill Allombert <ballombe@debian.org>
+  sub   2048g/4035EBFD 2007-04-05
+  sig!         EEA07609 2007-04-05  Ondrej Certik <ondrej@certik.cz>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  mQGiBEYVaKIRBACtgOUnhNrXeIGr5rNx6LmP2BgoUuqsqDuMZlCs+PABlEsta7Bp
+  TeERYwOfU7BeZ4KG/yK5g8r8eOtCS6EEtXl7nlpwrFwwa5cGNJa7AcGoXTMj2hEO
+  mrv4UiGfq4Gj1njbODyN4SVKKMjpzrwfJEzRmzVa5jdRzc1Cl40muo3zZwCggc1z
+  cHxRnsosEe0YD96muEYhjhED/2xGydOwnwpp9BXUgycrVQgjtRQexDNm8Z11axwy
+  EFTkQXDJKBzCvaREKqdKe0i8LVtYi52qMzenjRxvjJr8/N6tXB2W+N83rim137cM
+  bCNTQhl3guxqdPsUlyVDw+7m+i1lUL+enSJ8TmnOUz76zJFQcFovIpx+q3cjh7+e
+  zxDpA/9YDT5m17/5GO0izsCagIppGF+iWrSivDIt1SKHqMlApi9Z5P39jrYeDh9g
+  N7uGHwQ7lpIcBM4TD9EKNDbiYuz1LyLX3P/FgQV9KzlZnuq7A4WAlW56/QFnnMzH
+  In47O5oAVqYabzkKUVu4mDztZMUAQ+SMk1e8NilKEzjLe/IjgLQgT25kcmVqIENl
+  cnRpayA8b25kcmVqQGNlcnRpay5jej6IYAQTEQIAIAUCRhVoogIbAwYLCQgHAwIE
+  FQIIAwQWAgMBAh4BAheAAAoJECkPvlLuoHYJq5kAn0K2fSSGpgNdmNban51APESa
+  1lIAAJ4x+NHhIZLfsv2lvBCZD5n7dnEIQohGBBARAgAGBQJHE3JPAAoJEPTmanzC
+  DfJzGakAmwe5vwy5I8SGy1wvMxVO2sO1y+cNAKCJPb52KDOJ2FEfJDoXesu19xET
+  8IhGBBARAgAGBQJHNcteAAoJEHgz7PG1REgVTRMAn0Wj2NbDiuIQ7tYgChipn1c/
+  9m0ZAJ0RqOgO43920CX5pKYLB5EG4Mza3LkCDQRGFWixEAgAh7wKqAO0SQtx6PrJ
+  Rr4NHM5gbSd8MyqbikzLHWcvrfXyJBA7198GGUrgOmdc/2J8jz3WgCSjYti0uuzn
+  K6FROlv7x8/Yq87AK45GffMM5vEn9AooS7zyBugJr0WzJanOxtQgYaV2Cr0uIp3T
+  OBaPPh2ZFsYzXEaAuD1PKMjnSwV6AuwUtrxRl1RFX4ykTUBBIAgzUyd/78NEmf8j
+  xzkTeLTOORFi2wbr73jPl7hN69Dw/5lbzS+Ggm7Asv0/QC5BmJMiZJJq33zcXLhU
+  s7OlRDaDTjiHXRPhERnKQk5nFBCrFNWCmQcwot6ZxdKxoHzuVAZVxKkAGjtV/oe3
+  5LMJjwADBQf+JJhUkr5cATKSjR+/86y9B46qw0Mqe7EnDarQSCtRi8T4VVk1DS4H
+  hvbspwHtk78rSf0i/eRZNkA4cUqlejKzhn+eFbWcEffeRh60fsYZ2kMm9iNXScqW
+  Zb4eZG88maYsyVVsXWTYfi9NcKOHqFJxVu+7qYjbR0fXLeOHtFTWiY2UVwnJ4I74
+  TUE5FcKmYrKQ3eyg+voKrFVM4RlNaMV348ctWKQC/TenoTDp7u1ZBwgnmxABYieI
+  X8jLCkYs5euY5iZ7hS0y6+9zzaEbRkX/Be1mdHqW0lljvfCWKU/mHijVQQ9TQ73/
+  sxzo4xGcr6C0CW653saR9qdka4oR1TCMcohJBBgRAgAJBQJGFWixAhsMAAoJECkP
+  vlLuoHYJoRgAnje1Dx/M9pGIrjD1it9ET1/0pA20AJ9jFIYi4HSM3UP0mYAUlqll
+  uIPm0Q==
+  =89h5
+  -----END PGP PUBLIC KEY BLOCK-----

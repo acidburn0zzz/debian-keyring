@@ -8,8 +8,10 @@ debian-maintainers (1.5) UNRELEASED; urgency=low
   [ Anthony Towns ]
   * Changed Katrik Mistry's deletion changeset to include links to
     mails requesting removal and a summary of the reason.
+  * Added Debian maintainer Adriaan Peeters. Closes: #452861
+  * Added Debian maintainer Ondrej Certik. Closes: #452719
 
- -- Anthony Towns <ajt@debian.org>  Tue, 27 Nov 2007 01:57:14 +1000
+ -- Anthony Towns <ajt@debian.org>  Tue, 27 Nov 2007 02:44:30 +1000
 
 debian-maintainers (1.4) unstable; urgency=low
 
