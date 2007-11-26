@@ -1,4 +1,4 @@
-debian-maintainers (1.5) UNRELEASED; urgency=low
+debian-maintainers (1.5) unstable; urgency=low
 
   [ Joey Hess ]
   * Added Debian maintainer Aurélien GÉRÔME. Closes: #452600
@@ -12,7 +12,7 @@ debian-maintainers (1.5) UNRELEASED; urgency=low
   * Added Debian maintainer Ondrej Certik. Closes: #452719
   * Added Debian maintainer Asheesh Laroia. Closes: #452011
 
- -- Anthony Towns <ajt@debian.org>  Tue, 27 Nov 2007 03:07:34 +1000
+ -- Anthony Towns <ajt@debian.org>  Tue, 27 Nov 2007 03:14:00 +1000
 
 debian-maintainers (1.4) unstable; urgency=low
 
