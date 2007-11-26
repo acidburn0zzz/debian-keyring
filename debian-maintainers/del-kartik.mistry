@@ -1,6 +1,14 @@
 Changed-By: Christoph Berg <myon@debian.org>
 Date: Sun, 25 Nov 2007 16:50:57 +0100
 Comment: removing Kartik Mistry from the DM keyring
-Reason: vetoes by Steve McIntyre, Christoph Berg, Joerg Jaspert, Marc Brockschmidt
+Reason:
+ introduction of release critical bug in sponsored package and lintian
+ override to avoid its automatic detection, along with preserving
+ README.Debian entry saying not to file bugs
+Requestors:
+ 93sam - http://lists.debian.org/debian-project/2007/11/msg00140.html
+ joerg - http://lists.debian.org/debian-project/2007/11/msg00165.html
+ killer - http://lists.debian.org/debian-project/2007/11/msg00146.html
+ he - http://lists.debian.org/debian-project/2007/11/msg00172.html
 Action: delete-key A1183F8ED1028C8D
 Data: y

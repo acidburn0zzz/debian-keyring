@@ -1,10 +1,15 @@
 debian-maintainers (1.5) UNRELEASED; urgency=low
 
+  [ Joey Hess ]
   * Added Debian maintainer Aurélien GÉRÔME. Closes: #452600
   * Added Debian maintainer Arthur Loiret. Closes: #452605
   * Added Debian maintainer Jelmer Vernooij. Closes: #452881
 
- -- Joey Hess <joeyh@debian.org>  Sun, 25 Nov 2007 13:46:36 -0500
+  [ Anthony Towns ]
+  * Changed Katrik Mistry's deletion changeset to include links to
+    mails requesting removal and a summary of the reason.
+
+ -- Anthony Towns <ajt@debian.org>  Tue, 27 Nov 2007 01:57:14 +1000
 
 debian-maintainers (1.4) unstable; urgency=low
 
