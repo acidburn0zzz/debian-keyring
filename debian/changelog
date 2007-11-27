@@ -1,10 +1,10 @@
-debian-maintainers (1.6) UNRELEASED; urgency=low
+debian-maintainers (1.6) unstable; urgency=low
 
   * Updated Ryan Finnie's key. Closes: #453075
   * Added Debian maintainer Manuel Prinz. Closes: #453064
   * Added Debian maintainer Simon Josefsson. Closes: #453138
 
- -- Joey Hess <joeyh@debian.org>  Tue, 27 Nov 2007 02:10:18 -0500
+ -- Joey Hess <joeyh@debian.org>  Tue, 27 Nov 2007 15:09:15 -0500
 
 debian-maintainers (1.5) unstable; urgency=low
 
