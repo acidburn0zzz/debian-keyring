@@ -2,6 +2,7 @@ debian-maintainers (1.7) UNRELEASED; urgency=low
 
   * Added Debian maintainer Jon Dowland. Closes: #453243
   * Added Debian maintainer Sam Morris. Closes: #452964
+  * Added Debian maintainer Luis Rodrigo Gallardo Cruz. Closes: #453768
 
  -- Joey Hess <joeyh@debian.org>  Sat, 01 Dec 2007 12:04:30 -0500
 
