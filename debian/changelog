@@ -1,3 +1,10 @@
+debian-maintainers (1.8) UNRELEASED; urgency=low
+
+  * Remove new Debian developers Jose Parrella, Fathi Boudra, Luis Rodrigo
+    Gallardo Cruz, and Niko Tyni from the Debian maintainer keyring.
+
+ -- Joey Hess <joeyh@debian.org>  Tue, 04 Dec 2007 21:47:33 -0500
+
 debian-maintainers (1.7) unstable; urgency=low
 
   * Added Debian maintainer Jon Dowland. Closes: #453243
