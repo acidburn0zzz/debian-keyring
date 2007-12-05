@@ -2,6 +2,7 @@ debian-maintainers (1.8) UNRELEASED; urgency=low
 
   * Remove new Debian developers Jose Parrella, Fathi Boudra, Luis Rodrigo
     Gallardo Cruz, and Niko Tyni from the Debian maintainer keyring.
+  * Added Debian maintainer Russell Stuart. Closes: #453610
 
  -- Joey Hess <joeyh@debian.org>  Tue, 04 Dec 2007 21:47:33 -0500
 
