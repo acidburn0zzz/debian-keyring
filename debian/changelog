@@ -1,4 +1,4 @@
-debian-maintainers (1.9) UNRELEASED; urgency=low
+debian-maintainers (1.9) unstable; urgency=low
 
   [ Anthony Towns ]
   * Added Debian maintainer Charles Plessy. Closes: #454547
@@ -6,7 +6,7 @@ debian-maintainers (1.9) UNRELEASED; urgency=low
   [ Anibal Monsalve Salazar ]
   * Added Debian maintainer Eric Cooper. Closes: #454775
 
- -- Anthony Towns <ajt@debian.org>  Thu, 06 Dec 2007 22:42:43 +1000
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 08 Dec 2007 11:22:05 +1100
 
 debian-maintainers (1.8) unstable; urgency=low
 
