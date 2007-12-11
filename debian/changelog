@@ -1,8 +1,8 @@
-debian-maintainers (1.10) UNRELEASED; urgency=low
+debian-maintainers (1.10) unstable; urgency=low
 
   * Added Debian maintainer Julien Valroff. Closes: #455196
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 10 Dec 2007 08:21:07 +1100
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 12 Dec 2007 00:07:34 +1100
 
 debian-maintainers (1.9) unstable; urgency=low
 
