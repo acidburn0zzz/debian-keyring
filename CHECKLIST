@@ -37,6 +37,15 @@ What to do when reviewing a changeset:
   4. git add debian-maintainers/*
   5. debcommit -a; tagpending; git push origin master
 
+* If the changest has been changed:
+
+  1. mv debian-maintainers/changeset .
+  2. Edit debian-maintainers/index to remove changeset entry
+  3. jetring-accept debian-maintainers changeset
+  4. git add debian-maintainers/* 
+  5. git commit
+  6. git push origin master
+
 * To make a release:
 
   1. dch -r
