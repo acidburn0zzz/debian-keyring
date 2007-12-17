@@ -1,3 +1,9 @@
+debian-maintainers (1.11) UNRELEASED; urgency=low
+
+  * Added Debian maintainer Darren Salt. Closes: #456611
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 17 Dec 2007 20:47:14 +1100
+
 debian-maintainers (1.10) unstable; urgency=low
 
   * Added Debian maintainer Julien Valroff. Closes: #455196
