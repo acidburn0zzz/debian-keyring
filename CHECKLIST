@@ -39,6 +39,9 @@ What to do when reviewing a changeset:
 
 * If the changest has been changed:
 
+  Note that this should rarely be needed. It's better to make a new
+  changeset changing whatever needs to be changed.
+
   1. mv debian-maintainers/changeset .
   2. Edit debian-maintainers/index to remove changeset entry
   3. jetring-accept debian-maintainers changeset
