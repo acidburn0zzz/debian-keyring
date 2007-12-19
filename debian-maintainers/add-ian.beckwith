@@ -1,0 +1,65 @@
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Comment: adding Debian Maintainer Ian Beckwith
+Date: Wed, 19 Dec 2007 16:35:02 +1100
+NM-Page: https://nm.debian.org/nmstatus.php?email=ianb%40erislabs.net
+Agreement: http://lists.debian.org/debian-newmaint/2007/12/msg00045.html
+Advocates:
+  jmm - http://lists.debian.org/debian-newmaint/2007/12/msg00048.html
+  anibal - http://lists.debian.org/debian-newmaint/2007/12/msg00051.html
+  mjr - http://lists.debian.org/debian-newmaint/2007/12/msg00054.html
+KeyCheck:
+  pub   1024D/A8BAC1EA 2003-12-14
+        Key fingerprint = AF6C C0F1 1E74 424B BCD5  4814 40EC C154 A8BA C1EA
+  uid                  Ian Beckwith <ianb@erislabs.net>
+  sig!3        A8BAC1EA 2007-12-16  Ian Beckwith <ianb@erislabs.net>
+  uid                  Ian Beckwith <ianb@nessie.mcc.ac.uk>
+  sig!3        A8BAC1EA 2007-12-16  Ian Beckwith <ianb@erislabs.net>
+  sig!3        A8BAC1EA 2003-12-14  Ian Beckwith <ianb@erislabs.net>
+  sig!3        DED45912 2004-06-25  Paul Martin <pm@nowster.org.uk>
+  uid                  Ian Beckwith <ian.beckwith@gmail.com>
+  sig!3        A8BAC1EA 2004-06-23  Ian Beckwith <ianb@erislabs.net>
+  sig!3        DED45912 2004-06-25  Paul Martin <pm@nowster.org.uk>
+  sub   1024g/C9FC8417 2003-12-14
+  sig!         A8BAC1EA 2003-12-14  Ian Beckwith <ianb@erislabs.net>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  mQGiBD/b9NQRBAC8u2c5JIRLZVt1PhyPyzQWRNpq3Ob4qibb3jQ4l/NSSF7wr9PZ
+  SqwsvAeObPOOq994Zw2hKKpErdT5k/vzpCTTK2MkfJ8Sx2UoINHn6RPwH0TzOHwU
+  BMVKdPchrBXf9EQQy67wFMSAeLT4anuBpg7mie5UUKk2ZwcnaifrFhWUcwCguIlR
+  S699wRjzM7Urxpfvi7cgYf0D/js4m/At0InONAROFSSgQmu0Uz433aWp3YP4cuwX
+  PZJZXsKV2ICM8V74GOuihujA8BY71kvabkqAgONcO92xsJtrl3tUlEmV+Vv19j2t
+  bapbD9bfBtIJTZTdaEjBndSJn4UNoocHrwrSb1V8j/NF2l8Ywwd1Y+jdx0sDtkrA
+  M30pBACvSvgpuT5ATRbznbmJ8snPCyktqOTywoE4H5Pv8Duti9r8WVNtGLay8ySJ
+  hMOPHMK/l7S32Kdv0FmoH9sYUF9cSLeUYpdYW1ptU/5lt5SdBectMrn31LZ3WC1O
+  nCFN27B7iezj++pAUmrq2/y+HeE9tpzHuY+s0G6jTA7s4pVZu7QkSWFuIEJlY2t3
+  aXRoIDxpYW5iQG5lc3NpZS5tY2MuYWMudWs+iF4EExECAB4CGwMGCwkIBwMCAxUC
+  AwMWAgECHgECF4AFAkdltSYACgkQQOzBVKi6weo+yACgtgO0VVUNTChkvPEtC52E
+  5/9pTIIAoIEx+PQvf2tJtzSb89Brrwws1ueniF4EExECAB4FAj/b9NQCGwMGCwkI
+  BwMCAxUCAwMWAgECHgECF4AACgkQQOzBVKi6weqrSQCgjo9/8I+RMh/vP6HqK3Iz
+  u8hZbGUAoKeegNBfoTlFACaJW3pYlwuj44JoiEYEExECAAYFAkDcp+wACgkQ+gi+
+  rt7UWRIC8gCcCzeJkNlwRH1Awj9cJLLx3qpp8rAAmwVEANy3RkKy/sx9WX5i3Blo
+  ifF1tCVJYW4gQmVja3dpdGggPGlhbi5iZWNrd2l0aEBnbWFpbC5jb20+iF4EExEC
+  AB4FAkDZ2akCGwMGCwkIBwMCAxUCAwMWAgECHgECF4AACgkQQOzBVKi6wertjgCf
+  QL2Qgcdy9esFSTHQXP0Vr9sbGsUAn00JxtFlItxJwAoqjggNPkggpKmFiEYEExEC
+  AAYFAkDcp/IACgkQ+gi+rt7UWRKjugCfUhuGvAoUwX5w5l9qPh4DNTIkU4EAniz8
+  amSjuYd5zxcKo2+vfPoKueHgtCBJYW4gQmVja3dpdGggPGlhbmJAZXJpc2xhYnMu
+  bmV0PohjBBMRAgAjAhsDBgsJCAcDAgQVAggDBBYCAwECHgECF4AFAkdltSsCGQEA
+  CgkQQOzBVKi6wep/7wCgqQCYcCZI0jXJVfkczwSy4gGZQ4oAn0xbdZqzBatUrBK6
+  Dsn5vMKyBWXUuQENBD/b9NYQBACbPK1lZ/G4Taaq+qcHrfrdVoRedYeY13Hw+p4S
+  X/U6pDsOWquQfe2fdwrvH8IYu6cA9/Q0A3mR8Auy8Z3TjRFtcOY/AwdHbmk/ExUM
+  lU9AS0qwmuriyKkpc49AZ/RCLAp0o2YczYPmy8rMZZF1lSfQmUyHlS4YRDSCmMif
+  v7cqUwADBgP/QZYGf4mR2AqPdVYXXEFPJusRNqV1CqcHGq70L/hzJpcQKdTpXhVg
+  s0rvnchAZ5vJTHCYgd3WBHORNa9e+jrISd3wlDDg2+awVsqKtuq8NeeTLiChY0x6
+  tRmGs3sK8qZGufWkQMxSnPiVjkK/xEe9t7c6bezF1WW+tc5iwDmv6d6ISQQYEQIA
+  CQUCP9v01gIbDAAKCRBA7MFUqLrB6k0xAJ9tmQK8QW0F3huxLfhiiroQozbiNACf
+  Sva0enKg9ZtGE5nT8uZCg9vPjow=
+  =LMjy
+  -----END PGP PUBLIC KEY BLOCK-----
