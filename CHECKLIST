@@ -1,5 +1,8 @@
 What to do when reviewing a changeset:
 
+* If you advocate a new DM, ask someone else to add the key. Do not add it
+  yourself.
+
 * Check the changeset. This runs the test suite on it to sanity check it,
   and if it tests ok, displays a diff of exactly what changes
   the changeset will introduce.
