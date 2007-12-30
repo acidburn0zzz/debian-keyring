@@ -1,10 +1,10 @@
-debian-maintainers (1.12) UNRELEASED; urgency=low
+debian-maintainers (1.12) unstable; urgency=low
 
   * debian/control: Bump up Standards-Version to 3.7.3
   * CHECKLIST: Add the policy "if you advocate, you don't add to the keyring"
   * Added Debian maintainer Vincent Bernat. Closes: #458304
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 30 Dec 2007 21:12:47 +1100
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 30 Dec 2007 21:28:53 +1100
 
 debian-maintainers (1.11) unstable; urgency=low
 
