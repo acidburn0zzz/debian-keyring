@@ -1,0 +1,74 @@
+Recommended-By: Martin Zobel-Helas <zobel@debian.org>
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Date: Thu, 10 Jan 2008 19:50:17 +1100
+Comment: adding debian-maintainer Hendrik Frenzel
+NM-Page: https://nm.debian.org/nmstatus.php?email=hfrenzel%40scunc.net
+Agreement: http://lists.debian.org/debian-newmaint/2008/01/msg00028.html
+Advocates: 
+  zobel - http://lists.debian.org/debian-newmaint/2008/01/msg00027.html
+  seanius - http://lists.debian.org/debian-newmaint/2008/01/msg00030.html
+KeyCheck:
+  pub   1024D/0802640F 2004-02-15
+        Key fingerprint = 0D26 AA89 06A4 7C1A 9665  C007 8D67 107C 0802 640F
+  uid                  Hendrik Frenzel <hfrenzel@scunc.net>
+  sig!3        C09FD35A 2005-02-08  Andreas Tille <tille@debian.org>
+  sig!3        0802640F 2004-02-15  Hendrik Frenzel <hfrenzel@scunc.net>
+  sig!3        0802640F 2004-02-15  Hendrik Frenzel <hfrenzel@scunc.net>
+  sig!3        0802640F 2004-02-15  Hendrik Frenzel <hfrenzel@scunc.net>
+  sub   2048g/0E1F0CED 2004-02-15
+  sig!         0802640F 2004-02-15  Hendrik Frenzel <hfrenzel@scunc.net>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  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
+  =ZuI0
+  -----END PGP PUBLIC KEY BLOCK-----

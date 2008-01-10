@@ -1,3 +1,9 @@
+debian-maintainers (1.15) UNRELEASED; urgency=low
+
+  * Added Debian maintainer Hendrik Frenzel. Closes: #459946
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Thu, 10 Jan 2008 20:07:09 +1100
+
 debian-maintainers (1.14) unstable; urgency=low
 
   * Added Debian maintainer Jeffrey Ratcliffe. Closes: #459640
