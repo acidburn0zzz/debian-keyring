@@ -1,0 +1,53 @@
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Date: Sun, 13 Jan 2008 08:37:56 +1100
+Comment: adding debian-maintainer Thibaut Paumard
+NM-Page: 
+Agreement: http://lists.debian.org/debian-newmaint/2008/01/msg00032.html
+Advocates: 
+  haas - http://lists.debian.org/debian-newmaint/2008/01/msg00042.html
+KeyCheck:
+  pub   1024D/4B9488F1 2008-01-08
+        Key fingerprint = E653 2B62 DBF0 E9F6 EBC1  CE66 FB7E CD91 4B94 88F1
+  uid                  Thibaut Paumard <paumard@users.sourceforge.net>
+  sig!3        4B9488F1 2008-01-08  Thibaut Paumard <paumard@users.sourceforge.net>
+  sig!         0ED704EA 2008-01-10  Mohammed Adnène Trojette (adn) <adn@arabeyes.org>
+  sub   2048g/A44F143C 2008-01-08
+  sig!         4B9488F1 2008-01-08  Thibaut Paumard <paumard@users.sourceforge.net>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.8 (Darwin)
+  
+  mQGiBEeDn+QRBAC503feXqWQu2FeIoRywR/sqfRwokbsN9TlJ5t8xUpZZ39kGvQt
+  TnL+flDNFhLHA2gw/TyX0iO8j0C+yH22/l0BFmKye6MVGySw/aszXuopUj99igYp
+  x0SdLY0FNb0/Q/RpxqfvVIwkNnhbqOWxsnAJC9cwpRveOH8Ho3B9JlRpCwCgh9yc
+  kceVByAXV3a4XGlsziKCeV0EAKyC/CyVHKgVem+dA7tEGx3MUOX7biG3/maFsIwD
+  mnLVYRMPt9qBzZ9czn/eVAiPB/NkfCK6pMTjfKcyCMVHBRARHQvPSS8U5xNhdbGR
+  32zfiIwS0E3nzA/tDIjDpfTot6Nf2w0ubK0sVdZziE+oXikGsOi9EyW3Hq9bH+Kd
+  Y1luBAC5Skh5cA1wUdS4oGvHzJ3BmW50iYBBanCRiHAeg5967VBnY5X1IEhmQqF6
+  5cm1e9fQUg0qBd1cxOCI+Tlf3SxKkzrUy+NCFsolNmmfwJkMD+n5KiNxD1DGIX3g
+  TTAHvvvzRODMqAuNMbQmMkQF4J91CUwu2ZIj458FoqjXBkBTkrQvVGhpYmF1dCBQ
+  YXVtYXJkIDxwYXVtYXJkQHVzZXJzLnNvdXJjZWZvcmdlLm5ldD6IYAQTEQIAIAUC
+  R4Of5AIbAwYLCQgHAwIEFQIIAwQWAgMBAh4BAheAAAoJEPt+zZFLlIjx75sAniFt
+  gKsM4cnUjRN4RdSiF15BEAVPAJ4idqAOi5ulRQtqz2FdPxjmyUoJWYhGBBARAgAG
+  BQJHhfXoAAoJEDlNxZEO1wTq5zQAn2hnNirSH+jYEMZAL7gs7JjTlLQjAKCboO1u
+  RnhDHjyvkJDRJvVqMX9i07kCDQRHg5/2EAgAlA2thpO0Zba5dDythn0owO7VgoKH
+  etFbhCslErB+roDUBUWHvLXlTAesFcrmXCXBPKEsxC4Y/6CzZnhsDDDNsoJ1kQ+t
+  49A6hb3Y0X3Nr1AOIrHqi6JyTro0nPCzoGROh1OUoRUCdLg4uD/wjFnWbgvLPd7T
+  uVxwopgzCzWeGWRVVtFcWAK7OK0mgQk4XhAcFrxAV5wYDR/0jqHZfDd68fSh9ZV7
+  O8XoZIZWQ50OFWZBMTXut2vNtH6oDGlbHEzrhPnKKvCzES09HLMy3VuPSzfBxqda
+  siv+cxsD3vNyM65+WFrGy3xq5Rr/DsxTKjyFGl8nJ4K0JCKCb1d54hmLjwADBwf/
+  YXnOUTtxRnZXhzcwMirsRTvKl4VeEEpwXSrny5TcnhYCW2MGYSW9DBRKDvzp24E8
+  kogmXhGXBcpqT0BV4weE5yKQPE7gCEZYtuTfnhOKqizBzla5sxiOa1fOJLBhosTG
+  f5k6scWGUuJwfbdfeiLVTzcj5/cx7VfrqpsXcQpIrC+5IqCRUMx+ZXDD++hL5YFb
+  gWMZVAHEPIhdNRnVo088w8yjwOb05FDnwcHSdVvFXzZxPk69pQKaXdyIVVGq7P/e
+  D9deeCL/9f4YQBNHQjuaGlmcmD8TtIJKSxNROyxjlbiPKB5+U3fwrBMa5JmNe7sH
+  yGL8qme5t+N8Xw/OHV8QxIhJBBgRAgAJBQJHg5/2AhsMAAoJEPt+zZFLlIjxt7MA
+  nR+4kT/N7hZulYt8ATZVtuJ5iaR8AJwKp3jfdYu4X5/Gdyh9h6k82hOhAQ==
+  =5ghc
+  -----END PGP PUBLIC KEY BLOCK-----
