@@ -1,0 +1,129 @@
+Changed-By: Joey Hess <joeyh@debian.org>
+Date: Mon, 14 Jan 2008 14:27:14 +0100
+Comment: adding Philipp Benner to the keyring
+NM-Page: https://nm.debian.org/nmstatus.php?email=pbenner@uos.de
+Agreement: http://lists.debian.org/debian-newmaint/2007/12/msg00052.html
+Advocates:
+  tille - http://lists.debian.org/debian-newmaint/2007/12/msg00053.html
+  costela - http://lists.debian.org/debian-newmaint/2007/12/msg00055.html
+  moeller - http://lists.debian.org/debian-newmaint/2008/01/msg00056.html
+KeyCheck:
+  pub   1024D/EB88E930 2004-02-08
+        Key fingerprint = C1A8 2BE8 7587 215D 91EB  B015 A95C 3BEC EB88 E930
+  uid                  Philipp Benner <pbenner@cogsci.eu>
+  sig!3        EB88E930 2006-10-10  Philipp Benner <pbenner@cogsci.eu>
+  uid                  Philipp Benner <pbenner@uni-osnabrueck.de>
+  sig!3        EB88E930 2006-10-10  Philipp Benner <pbenner@cogsci.eu>
+  sig!3        EB88E930 2005-10-09  Philipp Benner <pbenner@cogsci.eu>
+  sig!3        EB88E930 2006-09-03  Philipp Benner <pbenner@cogsci.eu>
+  uid       [ revoked] Philipp Benner <pbenner@emlix.com>
+  rev!         EB88E930 2006-08-06  Philipp Benner <pbenner@cogsci.eu>
+  sig!3        EB88E930 2006-02-21  Philipp Benner <pbenner@cogsci.eu>
+  uid       [ revoked] Philipp Benner <pb@emlix.com>
+  rev!         EB88E930 2006-02-21  Philipp Benner <pbenner@cogsci.eu>
+  sig!3        EB88E930 2005-04-04  Philipp Benner <pbenner@cogsci.eu>
+  uid                  Philipp Benner <mail@philipp-benner.de>
+  sig!3        EB88E930 2006-09-03  Philipp Benner <pbenner@cogsci.eu>
+  sig!3        C09FD35A 2004-08-16  Andreas Tille <tille@debian.org>
+  sig!3        EB88E930 2004-02-08  Philipp Benner <pbenner@cogsci.eu>
+  uid                  Philipp Benner <benner@stud.ntnu.no>
+  sig!3        EB88E930 2007-08-27  Philipp Benner <pbenner@cogsci.eu>
+  sub   1024g/07F7F962 2004-02-08
+  sig!         EB88E930 2004-02-08  Philipp Benner <pbenner@cogsci.eu>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  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
+  5nl5Yus=
+  =8sZx
+  -----END PGP PUBLIC KEY BLOCK-----
