@@ -1,3 +1,9 @@
+debian-maintainers (1.19) UNRELEASED; urgency=low
+
+  * Added Debian maintainer Antonio Terceiro. Closes: #464383
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 11 Feb 2008 07:08:08 +1100
+
 debian-maintainers (1.18) unstable; urgency=low
 
   * Added Debian maintainer Julian Andres Klode. Closes: #459238
