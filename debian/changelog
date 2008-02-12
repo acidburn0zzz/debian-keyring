@@ -1,3 +1,9 @@
+debian-maintainers (1.20) UNRELEASED; urgency=low
+
+  * Added Debian maintainer Xavier Oswald. Closes: #464686
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Tue, 12 Feb 2008 22:52:37 +1100
+
 debian-maintainers (1.19) unstable; urgency=low
 
   * Added Debian maintainer Antonio Terceiro. Closes: #464383

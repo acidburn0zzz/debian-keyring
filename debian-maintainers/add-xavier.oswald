@@ -1,0 +1,301 @@
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Date: Tue, 12 Feb 2008 22:06:49 +1100
+Comment: adding debian-maintainer Xavier Oswald
+NM-Page: https://nm.debian.org/nmstatus.php?email=x.oswald@free.fr
+Agreement: http://lists.debian.org/debian-newmaint/2008/02/msg00029.html
+Advocates: 
+  gwolf - http://lists.debian.org/debian-newmaint/2008/02/msg00047.html
+KeyCheck:
+  pub   1024D/88BBB51E 2006-01-16
+        Key fingerprint = 938D D715 6915 8860 9679  4A0C A430 C6AA 88BB B51E
+  uid                  Xavier Oswald <x.oswald@free.fr>
+  sig!3        88BBB51E 2006-01-16  Xavier Oswald <x.oswald@free.fr>
+  sig!3        88BBB51E 2006-01-16  Xavier Oswald <x.oswald@free.fr>
+  sig!         893FAD07 2006-01-28  Steffen Joeris <white@debian.org>
+  sig!         A1EE761C 2006-02-01  Pierre Habouzit <pierre.habouzit@polytechnique.edu>
+  sig!         C0143D2D 2006-02-01  Christian Perrier <bubulle@kheops.homeunix.org>
+  sig!         F5D65169 2006-02-03  Julien BLACHE <jblache@debian.org>
+  sig!         6B79D401 2006-02-03  Giunchedi Filippo <filippo@esaurito.net>
+  sig!         F1BCDB73 2006-02-04  Aurelien Jarno <aurelien@aurel32.net>
+  sig!         A6C805B9 2006-03-11  Clément Stenac <zorglub@via.ecp.fr>
+  sig!         5D64F870 2006-03-19  Martin Zobel-Helas <zobel@debian.org>
+  sig!         29F19BD1 2006-03-22  Michael Meskes <michael@fam-meskes.de>
+  sig!         2B0920C0 2006-06-21  Loïc Minier (lool) <lool@debian.org>
+  sig!         65B4B162 2006-07-06  Aurélien GÉRÔME <ag@roxor.cx>
+  sig!3        6E8169D2 2006-02-01  Raphael Hertzog <raphael@ouaza.com>
+  sig!         A1696D2B 2006-07-07  Laurent Fousse <laurent@komite.net>
+  sig!         29499F61 2006-07-08  Sam Hocevar <sam@zoy.org>
+  sig!         797EBFAB 2006-07-08  Enrico Zini <enrico@enricozini.com>
+  sig!         F7E8BC63 2006-07-09  Cédric Delfosse <cedric@debian.org>
+  sig!         2A30D729 2006-07-13  Petter Reinholdtsen <pere@debian.org>
+  sig!         969457F0 2007-03-07  Joost van Baal <joostvb@mdcc.cx>
+  sig!         E1C21845 2007-02-26  Thijs Kinkhorst <thijs@kinkhorst.com>
+  uid                  Xavier Oswald <oskar@mozenix.org>
+  sig!3        88BBB51E 2006-01-16  Xavier Oswald <x.oswald@free.fr>
+  sig!         F5D65169 2006-02-03  Julien BLACHE <jblache@debian.org>
+  sig!         6B79D401 2006-02-03  Giunchedi Filippo <filippo@esaurito.net>
+  sig!         F1BCDB73 2006-02-04  Aurelien Jarno <aurelien@aurel32.net>
+  sig!         A6C805B9 2006-03-11  Clément Stenac <zorglub@via.ecp.fr>
+  sig!         5D64F870 2006-03-19  Martin Zobel-Helas <zobel@debian.org>
+  sig!         29F19BD1 2006-03-22  Michael Meskes <michael@fam-meskes.de>
+  sig!         2B0920C0 2006-06-21  Loïc Minier (lool) <lool@debian.org>
+  sig!         65B4B162 2006-07-06  Aurélien GÉRÔME <ag@roxor.cx>
+  sig!         A1696D2B 2006-07-07  Laurent Fousse <laurent@komite.net>
+  sig!         29499F61 2006-07-08  Sam Hocevar <sam@zoy.org>
+  sig!         797EBFAB 2006-07-08  Enrico Zini <enrico@enricozini.com>
+  sig!         F7E8BC63 2006-07-09  Cédric Delfosse <cedric@debian.org>
+  sig!         2A30D729 2006-07-13  Petter Reinholdtsen <pere@debian.org>
+  sig!         969457F0 2007-03-07  Joost van Baal <joostvb@mdcc.cx>
+  sig!         E1C21845 2007-02-26  Thijs Kinkhorst <thijs@kinkhorst.com>
+  uid                  Xavier Oswald <oskar@skolelinux.fr>
+  sig!3        88BBB51E 2006-01-31  Xavier Oswald <x.oswald@free.fr>
+  sig!         6B79D401 2006-02-03  Giunchedi Filippo <filippo@esaurito.net>
+  sig!         F1BCDB73 2006-02-04  Aurelien Jarno <aurelien@aurel32.net>
+  sig!         A6C805B9 2006-03-11  Clément Stenac <zorglub@via.ecp.fr>
+  sig!         5D64F870 2006-03-19  Martin Zobel-Helas <zobel@debian.org>
+  sig!         29F19BD1 2006-03-22  Michael Meskes <michael@fam-meskes.de>
+  sig!         2B0920C0 2006-06-21  Loïc Minier (lool) <lool@debian.org>
+  sig!         65B4B162 2006-07-06  Aurélien GÉRÔME <ag@roxor.cx>
+  sig!         A1696D2B 2006-07-07  Laurent Fousse <laurent@komite.net>
+  sig!         29499F61 2006-07-08  Sam Hocevar <sam@zoy.org>
+  sig!         797EBFAB 2006-07-08  Enrico Zini <enrico@enricozini.com>
+  sig!         F7E8BC63 2006-07-09  Cédric Delfosse <cedric@debian.org>
+  sig!         2A30D729 2006-07-13  Petter Reinholdtsen <pere@debian.org>
+  sig!         1E880A84 2006-08-17  Frans Pop (Debian) <elendil@planet.nl>
+  sig!         969457F0 2007-03-07  Joost van Baal <joostvb@mdcc.cx>
+  sig!         E1C21845 2007-02-26  Thijs Kinkhorst <thijs@kinkhorst.com>
+  sub   2048g/8FDECE3A 2006-01-16
+  sig!         88BBB51E 2006-01-16  Xavier Oswald <x.oswald@free.fr>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+	-----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  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
+  qFFELoPS6CQ=
+  =ABkH
+  -----END PGP PUBLIC KEY BLOCK-----
