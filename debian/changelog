@@ -1,9 +1,9 @@
-debian-maintainers (1.21) UNRELEASED; urgency=low
+debian-maintainers (1.21) unstable; urgency=low
 
   * Added Debian maintainer Modestas Vainius. Closes: #465130
   * Added Debian maintainer Y Giridhar Appaji Nag. Closes: #465397
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Fri, 15 Feb 2008 08:35:03 +1100
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 16 Feb 2008 19:26:50 +1100
 
 debian-maintainers (1.20) unstable; urgency=low
 
