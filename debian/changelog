@@ -1,6 +1,7 @@
 debian-maintainers (1.22) UNRELEASED; urgency=low
 
   * Added the Vcs-Browser header in debian/control
+  * Added Debian maintainer Thomas Weber. Closes: #469455
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 02 Mar 2008 23:06:23 +1100
 
