@@ -1,0 +1,71 @@
+Changed-By: Joey Hess <joeyh@debian.org>
+Comment: adding debian-maintainer Raphael Geissert
+NM-Page: https://nm.debian.org/nmstatus.php?email=atomo64%40gmail.com
+Agreement: http://lists.debian.org/debian-newmaint/2008/01/msg00029.html
+Advocates: http://lists.debian.org/debian-newmaint/2008/01/msg00068.html
+Date: Wed, 16 Jan 2008 14:07:48 -0600
+KeyCheck:
+  pub   1024D/46D9CE5A 2006-11-21
+        Key fingerprint = 84DA EA21 3380 2516 C381  06F7 632E 3DAD 46D9 CE5A
+  uid                  Raphael Geissert <atomo64@gmail.com>
+  sig!3        46D9CE5A 2008-01-16  Raphael Geissert <atomo64@gmail.com>
+  sig!         8BB527AF 2007-12-23  Gunnar Wolf <gwolf@gwolf.org>
+  sig!         ADC9BC28 2007-12-23  Luis Rodrigo Gallardo Cruz <rodrigo@nul-unu.com>
+  sig!3        46D9CE5A 2007-04-13  Raphael Geissert <atomo64@gmail.com>
+  sub   4096g/73BD4146 2006-11-21
+  sig!         46D9CE5A 2008-01-16  Raphael Geissert <atomo64@gmail.com>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  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
+  =O+jc
+  -----END PGP PUBLIC KEY BLOCK-----

@@ -1,3 +1,9 @@
+debian-maintainers (1.23) UNRELEASED; urgency=low
+
+  * Added Debian maintainer Raphael Geissert. Closes: #461140
+
+ -- Joey Hess <joeyh@debian.org>  Mon, 17 Mar 2008 16:14:46 -0400
+
 debian-maintainers (1.22) unstable; urgency=low
 
   * Added the Vcs-Browser header in debian/control
