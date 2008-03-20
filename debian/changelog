@@ -1,8 +1,8 @@
-debian-maintainers (1.24) UNRELEASED; urgency=low
+debian-maintainers (1.24) unstable; urgency=low
 
   * Added Debian maintainer Deng Xiyue. Closes: #471142
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Thu, 20 Mar 2008 22:37:16 +1100
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Thu, 20 Mar 2008 22:46:12 +1100
 
 debian-maintainers (1.23) unstable; urgency=low
 
