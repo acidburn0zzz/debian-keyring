@@ -1,0 +1,88 @@
+Recommended-By: Anibal Monsalve Salazar <anibal@debian.org>
+Changed-By: 
+Date: Sun, 16 Mar 2008 22:47:58 +1100
+Comment: Adding Debian Maintainer Deng Xiyue (manphiz)
+NM-Page: https://nm.debian.org/nmstatus.php?email=manphiz-guest%40users.alioth.debian.org
+Agreement: http://lists.debian.org/debian-newmaint/2008/03/msg00020.html
+Advocates: 
+  lool - http://lists.debian.org/debian-newmaint/2008/03/msg00019.html
+KeyCheck:
+  pub   1024D/57AC571A 2007-12-08
+        Key fingerprint = 0B07 3598 F6AE ACE5 94E5  F046 AF5D F733 57AC 571A
+  uid                  Deng Xiyue (manphiz) <manphiz-guest@users.alioth.debian.org>
+  sig!         6D67F790 2008-03-16  Anthony Fok <foka@debian.org>
+  sig!3        57AC571A 2008-01-15  Deng Xiyue (manphiz) <manphiz-guest@users.alioth.debian.org>
+  sig!3        57AC571A 2008-01-29  Deng Xiyue (manphiz) <manphiz-guest@users.alioth.debian.org>
+  sig!3        57AC571A 2008-01-31  Deng Xiyue (manphiz) <manphiz-guest@users.alioth.debian.org>
+  uid                  Deng Xiyue (manphiz) <manphiz@gmail.com>
+  sig!         6D67F790 2008-03-16  Anthony Fok <foka@debian.org>
+  sig!3        57AC571A 2008-01-29  Deng Xiyue (manphiz) <manphiz-guest@users.alioth.debian.org>
+  sig!3        57AC571A 2008-01-31  Deng Xiyue (manphiz) <manphiz-guest@users.alioth.debian.org>
+  sig!3        57AC571A 2008-01-15  Deng Xiyue (manphiz) <manphiz-guest@users.alioth.debian.org>
+  uid                  Deng Xiyue (\xe9\x82\x93\xe8\xa5\xbf\xe5\xb2\xb3) <dengxiyue@gmail.com>
+  sig!         6D67F790 2008-03-16  Anthony Fok <foka@debian.org>
+  sig!3        57AC571A 2007-12-08  Deng Xiyue (manphiz) <manphiz-guest@users.alioth.debian.org>
+  sub   2048g/0B7694EE 2007-12-08
+  sig!         57AC571A 2007-12-08  Deng Xiyue (manphiz) <manphiz-guest@users.alioth.debian.org>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  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
+  nRZXSyUYpQTNUeloMuV2P3imHBmO
+  =uF+n
+  -----END PGP PUBLIC KEY BLOCK-----
