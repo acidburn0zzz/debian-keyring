@@ -1,8 +1,8 @@
-debian-maintainers (1.25) UNRELEASED; urgency=low
+debian-maintainers (1.25) unstable; urgency=low
 
   * Added Debian maintainer Andrew Lee. Closes: #471999
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 26 Mar 2008 09:04:57 +1100
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 26 Mar 2008 09:20:16 +1100
 
 debian-maintainers (1.24) unstable; urgency=low
 
