@@ -1,6 +1,7 @@
 debian-maintainers (1.26) UNRELEASED; urgency=low
 
   * Added Debian maintainer Theppitak Karoonboonyanan. Closes: #472539
+  * Added Debian maintainer Sandro Tosi. Closes: #472597
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 29 Mar 2008 18:59:48 +1100
 
