@@ -1,3 +1,9 @@
+debian-maintainers (1.26) UNRELEASED; urgency=low
+
+  * Added Debian maintainer Theppitak Karoonboonyanan. Closes: #472539
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 29 Mar 2008 18:59:48 +1100
+
 debian-maintainers (1.25) unstable; urgency=low
 
   * Added Debian maintainer Andrew Lee. Closes: #471999
