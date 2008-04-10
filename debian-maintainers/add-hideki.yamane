@@ -1,0 +1,115 @@
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Date: Wed, 09 Apr 2008 19:07:11 +1000
+Comment: Adding Debian Maintainer Hideki Yamane
+NM-Page: 
+Agreement: http://lists.debian.org/debian-newmaint/2008/03/msg00030.html
+Advocates: 
+  tats - http://lists.debian.org/debian-newmaint/2008/03/msg00041.html
+KeyCheck:
+  pub   1024D/C4C7264B 2004-06-11
+        Key fingerprint = 4555 82ED 38B6 C870 E099  388C 22ED 21CB C4C7 264B
+  uid                  Hideki Yamane (Debian-JP) <henrich@debian.or.jp>
+  sig!3        C4C7264B 2005-06-21  Hideki Yamane (Debian-JP) <henrich@debian.or.jp>
+  sig!         E7075A54 2005-09-16  Masayuki Hatta (mhatta) <mhatta@gnu.org>
+  sig!         68FD549F 2005-11-02  Martin Michlmayr <tbm@cyrius.com>
+  uid                  Hideki Yamane <henrich@samba.gr.jp>
+  sig!3        C4C7264B 2004-06-11  Hideki Yamane (Debian-JP) <henrich@debian.or.jp>
+  sig!         72D03CB1 2005-06-13  Kenshi Muto <kmuto@debian.org>
+  sig!         E81E55C1 2005-06-15  Junichi Uekawa <dancer@netfort.gr.jp>
+  sig!         864826C3 2005-06-16  GOTO Masanori <gotom@debian.org>
+  sig!         E7075A54 2005-09-16  Masayuki Hatta (mhatta) <mhatta@gnu.org>
+  sig!         68FD549F 2005-11-02  Martin Michlmayr <tbm@cyrius.com>
+  uid                  Hideki Yamane (Private) <henrich@iijmio-mail.jp>
+  sig!3        C4C7264B 2005-06-21  Hideki Yamane (Debian-JP) <henrich@debian.or.jp>
+  sig!         E7075A54 2005-09-16  Masayuki Hatta (mhatta) <mhatta@gnu.org>
+  sig!         68FD549F 2005-11-02  Martin Michlmayr <tbm@cyrius.com>
+  sub   2048g/E59E626B 2004-06-11
+  sig!         C4C7264B 2004-06-11  Hideki Yamane (Debian-JP) <henrich@debian.or.jp>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  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
+  rNrGxW9Jwoqz
+  =qGHe
+  -----END PGP PUBLIC KEY BLOCK-----

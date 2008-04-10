@@ -1,3 +1,9 @@
+debian-maintainers (1.27) UNRELEASED; urgency=low
+
+  * Added Debian maintainer Hideki Yamane. Closes: #474563
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Fri, 11 Apr 2008 06:45:33 +1000
+
 debian-maintainers (1.26) unstable; urgency=low
 
   * Added Debian maintainer Theppitak Karoonboonyanan. Closes: #472539
