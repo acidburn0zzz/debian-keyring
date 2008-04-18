@@ -1,6 +1,12 @@
 debian-maintainers (1.28) UNRELEASED; urgency=medium
 
+  [ Anibal Monsalve Salazar ]
   * Added Debian maintainer Stephane Glondu. Closes: #475898
+
+  [ Joey Hess ]
+  * Remove Aurélien GÉRÔME, Cameron Dale, Charles Plessy, Filipe Lautert,
+    Martín Ferrari, Miriam Ruiz, Simon McVittie, Tobias Toedter, and
+    Vincent Bernat, all of whom are now debian developers.
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Fri, 18 Apr 2008 06:55:33 +1000
 
