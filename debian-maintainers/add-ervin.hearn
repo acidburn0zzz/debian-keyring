@@ -1,0 +1,94 @@
+Changed-By: Anibal Monsalve Salazar
+Date: Sat, 19 Apr 2008 21:23:31 +1000
+Comment: adding debian-maintainer Ervin Hearn
+NM-Page: https://nm.debian.org/nmstatus.php?email=noltar@korongil.net
+Agreement: http://lists.debian.org/debian-newmaint/2008/04/msg00023.html
+Advocates: 
+  wjl - http://lists.debian.org/debian-newmaint/2008/04/msg00024.html
+KeyCheck:
+  pub   1024D/7D1D3A2F 2003-09-11
+        Key fingerprint = 1DF5 BE70 237E 349E 7983  91A3 AC4F 466D 7D1D 3A2F
+  uid                  Ervin Hearn III <noltar@korongil.net>
+  sig!3        7D1D3A2F 2004-05-24  Ervin Hearn III <noltar@korongil.net>
+  sig!         7F9DA3B2 2003-10-03  Lukas Geyer <lukas@debian.org>
+  sig!3        7D1D3A2F 2003-10-01  Ervin Hearn III <noltar@korongil.net>
+  uid                  Ervin Hearn III (Noltar) <noltar@korongil.net>
+  sig!3        7D1D3A2F 2003-09-11  Ervin Hearn III <noltar@korongil.net>
+  sig!         7F9DA3B2 2003-10-03  Lukas Geyer <lukas@debian.org>
+  uid                  Ervin Hearn III <noltar@rubyforge.net>
+  sig!3        7D1D3A2F 2004-05-24  Ervin Hearn III <noltar@korongil.net>
+  uid                  Ervin Hearn III <noltar@pennmush.org>
+  sig!3        7D1D3A2F 2004-05-24  Ervin Hearn III <noltar@korongil.net>
+  uid                  Ervin Hearn III <ervin@korongil.net>
+  sig!3        7D1D3A2F 2004-10-21  Ervin Hearn III <noltar@korongil.net>
+  uid                  Ervin Hearn III <ehearn@pennmush.org>
+  sig!3        7D1D3A2F 2005-01-20  Ervin Hearn III <noltar@korongil.net>
+  sub   1024g/322D6B2A 2003-09-11
+  sig!         7D1D3A2F 2003-09-11  Ervin Hearn III <noltar@korongil.net>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  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
+  =kG1I
+  -----END PGP PUBLIC KEY BLOCK-----

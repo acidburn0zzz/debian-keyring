@@ -1,3 +1,9 @@
+debian-maintainers (1.29) UNRELEASED; urgency=medium
+
+  * Added Debian maintainer Ervin Hearn. Closes: #476208
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 19 Apr 2008 23:04:04 +1000
+
 debian-maintainers (1.28) unstable; urgency=medium
 
   [ Anibal Monsalve Salazar ]
