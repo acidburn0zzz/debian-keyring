@@ -1,3 +1,9 @@
+debian-maintainers (1.30) UNRELEASED; urgency=low
+
+  * Added Debian maintainer Sylvestre Ledru. Closes: #477733
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Tue, 29 Apr 2008 21:23:25 +1000
+
 debian-maintainers (1.29) unstable; urgency=medium
 
   * Added Debian maintainer Ervin Hearn. Closes: #476208
