@@ -1,0 +1,63 @@
+Recommended-By: Michael Koch <konqueror@gmx.de>
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Date: Wed, 30 Apr 2008 17:57:44 +1000
+Comment: adding Patrick Matthäi as Debian Maintainer
+NM-Page: https://nm.debian.org/nmstatus.php?email=patrick.matthaei@web.de
+Agreement: http://lists.debian.org/debian-newmaint/2008/04/msg00047.html
+Advocates:
+  mkoch - http://lists.debian.org/debian-newmaint/2008/04/msg00048.html
+KeyCheck:
+  pub   1024D/7A5A6CC7 2006-08-15
+        Key fingerprint = 1C54 FA0D 6F0F 5064 7A95  BBD3 D970 398A 7A5A 6CC7
+  uid                  Patrick Matthäi (Local Key) <patrick.matthaei@web.de>
+  sig!3        7A5A6CC7 2008-02-07  Patrick Matthäi (Local Key) <patrick.matthaei@web.de>
+  sig!3        7A5A6CC7 2006-08-15  Patrick Matthäi (Local Key) <patrick.matthaei@web.de>
+  sig!3        7A5A6CC7 2008-01-02  Patrick Matthäi (Local Key) <patrick.matthaei@web.de>
+  sig!         5BE41F21 2008-04-07  Sebastian Dröge <slomo@circular-chaos.org>
+  sub   2048g/D6395C9A 2006-08-15 [expires: 2010-01-01]
+  sig!         7A5A6CC7 2008-01-02  Patrick Matthäi (Local Key) <patrick.matthaei@web.de>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has an expiration date of 2010-01-01.
+  Please check that its not in the past, AND that it is not too
+  near in the future to make adding this applicant pointless.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  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
+  pbKSipBeT4gQXLmncGi7ykOx
+  =xtGA
+  -----END PGP PUBLIC KEY BLOCK-----
