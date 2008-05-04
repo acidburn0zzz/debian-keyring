@@ -1,3 +1,9 @@
+debian-maintainers (1.32) UNRELEASED; urgency=low
+
+  * Use debhelper v7, rules file minimisation.
+
+ -- Joey Hess <joeyh@debian.org>  Sun, 04 May 2008 13:36:17 -0400
+
 debian-maintainers (1.31) unstable; urgency=medium
 
   * Added Debian maintainer Patrick Matthäi. Closes: #477518
