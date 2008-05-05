@@ -1,3 +1,9 @@
+debian-maintainers (1.32) UNRELEASED; urgency=low
+
+  * Added Debian maintainer Andres Mejia. Closes: #478088
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 05 May 2008 20:12:18 +1000
+
 debian-maintainers (1.31) unstable; urgency=medium
 
   * Added Debian maintainer Patrick Matthäi. Closes: #477518
