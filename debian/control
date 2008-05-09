@@ -1,0 +1,15 @@
+Source: debian-keyring
+Section: misc
+Priority: optional
+Maintainer: James Troup <keyring-maint@debian.org>
+Uploaders: Jonathan McDowell <noodles@earth.li>, James Troup <james@nocrew.org>
+Standards-Version: 3.6.1.0
+
+Package: debian-keyring
+Architecture: all
+Recommends: gnupg (>= 1.0.6-4)
+Description: GnuPG (and obsolete PGP) keys of Debian Developers
+ The Debian project wants developers to digitally sign the
+ announcements of their packages with GnuPG, to protect against
+ forgeries.  This package contains keyrings of GnuPG and (deprecated)
+ PGP keys of developers.
