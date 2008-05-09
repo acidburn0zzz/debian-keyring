@@ -2,6 +2,20 @@ debian-keyring (2008.05.08) UNRELEASED; urgency=low
 
   [Jonathan McDowell]
 
+  * Update kov's key (0xB756A78C882A6C4B -> 0xD200EB30A0FB5DA6) (RT #650)
+  * Move 0x214F6841515F9B74 (Konstantinos Margaritis) to emeritus
+  * Move 0x75B5F70463B1C106 (Bart Schuller) to emeritus (RT #632)
+  * Update srk's key (0xC04974CFDF6807BE -> 0x28FC869A289B82B7) (RT #324)
+  * Move 0xC48C244A3AA16670 (Cai Qian) to emeritus (RT #615)
+  * Move 0xDD630259C24E83C2 (Nicolas Sabouret) to emeritus (RT #498)
+  * Move 0x160023F7588B7D9C (Gordon Fraser) to emeritus (RT #380)
+  * Move 0x3238DFF5B976A749 (Richard Braakman) to emeritus (RT #217)
+  * Move 0x97E033099FD6E3E6 (Sebastian Ley) to emeritus (RT #173)
+  * Update mooch's key (0x66FC1D7F86946D69 -> 0x6DEA9281DA034410) (RT #167)
+  * Move 0x035738295623FC45 (Tommaso Moroni) to emeritus (RT #166)
+  * Update totoro's key (0xAE5817DF894A158D -> 0x3FF2C23311FB28F6) (RT #154)
+  * Move 0xFCF6DD4539CCF0C7 (Akira TAGOH) to emeritus (RT #142)
+
   [James Troup]
 
   * [Tue, 04 Dec 2007 23:49:29 GMT] {Added} 0xEA7CF5AD Nicolas FRANCOIS (Nekral) <nicolas.francois@centraliens.net>
