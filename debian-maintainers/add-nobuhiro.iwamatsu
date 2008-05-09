@@ -1,0 +1,96 @@
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Date: Fri, 09 May 2008 19:12:22 +1000
+Comment: adding debian-maintainer Nobuhiro Iwamatsu
+NM-Page: https://nm.debian.org/nmstatus.php?email=hemamu%40t-base.ne.jp
+Agreement: http://lists.debian.org/debian-newmaint/2008/04/msg00019.html
+Advocates: 
+  dancer - http://lists.debian.org/debian-newmaint/2008/04/msg00016.html
+  gotom - http://lists.debian.org/debian-newmaint/2008/05/msg00017.html
+  cilibrar - http://lists.debian.org/debian-newmaint/2008/05/msg00018.html
+KeyCheck:
+  pub   1024D/3170EBE9 2003-09-29
+        Key fingerprint = 353A C650 BB7A 6F72 3650  9461 4121 C743 3170 EBE9
+  uid                  Nobuhiro Iwamatsu <hemamu@t-base.ne.jp>
+  sig!3        3170EBE9 2005-01-22  Nobuhiro Iwamatsu <hemamu@t-base.ne.jp>
+  sig!         C4C7264B 2005-02-21  Hideki Yamane (Debian-JP) <henrich@debian.or.jp>
+  sig!         72D03CB1 2005-06-13  Kenshi Muto <kmuto@debian.org>
+  sig!         E66C9BB0 2005-12-31  Taku YASUI <tach@debian.or.jp>
+  uid                  Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
+  sig!3        3170EBE9 2005-01-22  Nobuhiro Iwamatsu <hemamu@t-base.ne.jp>
+  sig!         72D03CB1 2005-06-13  Kenshi Muto <kmuto@debian.org>
+  sig!         E66C9BB0 2005-12-31  Taku YASUI <tach@debian.or.jp>
+  uid                  Nobuhiro Iwamatsu (t-base version) <hemamu@t-base.ne.jp>
+  sig!3        3170EBE9 2003-09-29  Nobuhiro Iwamatsu <hemamu@t-base.ne.jp>
+  sig!         72D03CB1 2005-06-13  Kenshi Muto <kmuto@debian.org>
+  sig!         E66C9BB0 2005-12-31  Taku YASUI <tach@debian.or.jp>
+  sub   1024g/E83A0E3C 2003-09-29
+  sig!         3170EBE9 2003-09-29  Nobuhiro Iwamatsu <hemamu@t-base.ne.jp>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  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
+  jHylsMRLHIQsDvd1g/wlPzc9V/w=
+  =lfo1
+  -----END PGP PUBLIC KEY BLOCK-----
