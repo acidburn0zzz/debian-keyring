@@ -1,3 +1,5 @@
 *.gpg
 *.pgp
 output/md5sums.txt
+output/README
+output/changelog
