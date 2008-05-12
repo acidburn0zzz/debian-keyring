@@ -1,10 +1,10 @@
-debian-maintainers (1.33) UNRELEASED; urgency=low
+debian-maintainers (1.33) unstable; urgency=medium
 
   * Added Debian maintainer Nobuhiro Iwamatsu. Closes: #479511
   * Added Debian maintainer Helge Kreutzmann. Closes: #479584
   * Added Debian maintainer Xavier Lüthi. Closes: #479883
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Fri, 09 May 2008 19:41:23 +1000
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 12 May 2008 19:18:17 +1000
 
 debian-maintainers (1.32) unstable; urgency=medium
 
