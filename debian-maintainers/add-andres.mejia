@@ -1,0 +1,48 @@
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Date: Mon, 05 May 2008 19:32:47 +1000
+Comment: Adding Andres Mejia as Debian Maintainer
+NM-Page: https://nm.debian.org/nmstatus.php?email=mcitadel%40gmail.com
+Agreement: http://lists.debian.org/debian-newmaint/2008/03/msg00014.html
+Advocates:
+  fog - http://lists.debian.org/debian-newmaint/2008/03/msg00017.html
+KeyCheck:
+  pub   1024D/E5F13196 2007-05-08
+        Key fingerprint = 3278 70A0 1696 E190 3AEF  0DD1 82C1 5B02 E5F1 3196
+  uid                  Andres Mejia <mcitadel@gmail.com>
+  sig!3        E5F13196 2007-05-08  Andres Mejia <mcitadel@gmail.com>
+  sig!         06A7376E 2008-05-04  Patrick Ouellette <pat@flying-gecko.net>
+  sub   1024g/37EB1706 2007-05-08
+  sig!         E5F13196 2007-05-08  Andres Mejia <mcitadel@gmail.com>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  mQGiBEY/1GERBADiJtUT/MwRCuRZMSUXr8sjEvj5uJrTf2/KE0dUaJ5SJgXBcAVU
+  jovfwawUtjrhi4O9ZFrrp/hUUBnJveIWxGRljTD3DPiTbowra/z6b8LeiBYTUpd4
+  UE90RvKB5clYagXQNmYNf1dWS/MNUuet9STEQcFcTd1Z0S0dDTCEVyDAowCg8iM3
+  0wx+27niv8dIJYXiSFlfe5kD/1/pIGj3Gnu+gzH7CjuKBziOdr571tO2F5FlnBfg
+  kClFjc+qtEDnCUt2qfRPBgrk4S4vRN8QUVcWNN0JzvTEFbV1hGIcUZrdz+TcnV3v
+  hUHb3qOpnRZtwuKhPNCOqmJZOmx9p6SUWoAjq244Mn2nU9G3Ccpvvi74+IZEFy5E
+  cldLBAC1kGvNDACTS0WHcZ/g8Z/ry9Hnl9/KwS3UnE87sOan01hYZhw+kCXkQ4Nc
+  VRnXaW3YbHLwTyJ1z9hXe+j0MbK18LUgEPZ/GDTBbX6FJIrOg8mWWfE+RVC/MVGu
+  7LwA0PGHdRfpw3muc+U+2ytOqkPA1u/GuhPJsUi9NCcZ8oM5mrQhQW5kcmVzIE1l
+  amlhIDxtY2l0YWRlbEBnbWFpbC5jb20+iGAEExECACAFAkY/1GECGyMGCwkIBwMC
+  BBUCCAMEFgIDAQIeAQIXgAAKCRCCwVsC5fExlkiOAKDAVTttCUxT3xJ98wLxZGzk
+  dKr6BwCeIT4OHfHcgqkyH1h486vJHGD86ZWIRgQQEQIABgUCSB5MiQAKCRDP2p2C
+  Bqc3br6KAKC47+FGdF3Y9FEv75aCboGNfCUm8ACgoZox+hZngB5+lZJzrX/toEEX
+  jPe5AQ0ERj/UYxAEANLHuf3TQ42tmjBcDih361KJGbKneFUg3q6KDtu6uS3XCc11
+  a/dCCZGojSeGEoUh5Dj2e/FjnjDPFsHcw+dkw6WiSYAvNJ3m67HY0dosCyAkJLLg
+  ZqYr2lKChgRUN3uMCBn7D7bQ0qM2NRneSPcCzIfo3TPQiOFZxSbeLumXh913AAQL
+  A/0QWmebo7d/tOm4OOn88KWqkDREUiG6uTJV88y8gUTXiT1Hw+neLXTPlUR27FoJ
+  L4EZB9cs7TzqusrBNsAWi+rdp1+Pv4DrKo+lNh4nyPh3VatrERhhLNCM2+L69eVZ
+  6MdaFMk9iS79z4K9ErhcBErdCP/7yOm6rg0BTLhg929dJYhJBBgRAgAJBQJGP9Rj
+  AhsMAAoJEILBWwLl8TGWodUAoKBmylInJ4RCvu44FFTZEL3sXm7gAKCuraOfrr6E
+  Sfq+rpsy5spE+ffCkA==
+  =cKUx
+  -----END PGP PUBLIC KEY BLOCK-----

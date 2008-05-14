@@ -1,8 +1,23 @@
-debian-maintainers (1.32) UNRELEASED; urgency=low
+debian-maintainers (1.36) UNRELEASED; urgency=low
 
   * Use debhelper v7, rules file minimisation.
 
  -- Joey Hess <joeyh@debian.org>  Sun, 04 May 2008 13:36:17 -0400
+
+debian-maintainers (1.33) unstable; urgency=medium
+
+  * Added Debian maintainer Nobuhiro Iwamatsu. Closes: #479511
+  * Added Debian maintainer Helge Kreutzmann. Closes: #479584
+  * Added Debian maintainer Xavier Lüthi. Closes: #479883
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 12 May 2008 19:18:17 +1000
+
+debian-maintainers (1.32) unstable; urgency=medium
+
+  * Added Debian maintainer Andres Mejia. Closes: #478088
+  * Added Debian maintainer Xavier Guimard. Closes: #479000
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Tue, 06 May 2008 19:12:34 +1000
 
 debian-maintainers (1.31) unstable; urgency=medium
 
