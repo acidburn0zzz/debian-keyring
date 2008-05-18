@@ -29,14 +29,16 @@ if [ -e $keydir/0x$keyid ]; then
 fi
 
 # Check we have our keyrings available for checking the signatures
-if [ ! -e output/debian-keyring.gpg -o -e output/debian-keyring.pgp -o \
-		-e output/extra-keys.pgp ]; then
+if [ ! -e output/keyrings/debian-keyring.gpg -o \
+		-e output/keyrings/debian-keyring.pgp -o \
+		-e output/keyrings/extra-keys.pgp ]; then
 	make
 fi
 
 gpg --import $keyfile
-gpg --keyring output/debian-keyring.gpg --keyring output/debian-keyring.pgp \
-	--keyring output/extra-keys.pgp --check-sigs 0x$keyid
+gpg --keyring output/keyrings/debian-keyring.gpg \
+	--keyring output/keyrings/debian-keyring.pgp \
+	--keyring output/keyrings/extra-keys.pgp --check-sigs 0x$keyid
 
 echo "Are you sure you want to update this key? (y/n)"
 read n
