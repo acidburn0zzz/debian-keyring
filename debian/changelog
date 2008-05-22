@@ -39,6 +39,8 @@ debian-keyring (2008.05.08) UNRELEASED; urgency=low
     * CFDA9D8206A7376E Patrick Ouellette <pat@flying-gecko.net> (uid:1, sig:2)
     * DE7AAF6E94C09C7F Peter Palfrader <weasel@debian.org> (sig:33)
     * F426E1B2BE9BF8DA Mike O'Connor (stew) <stew@debian.org> (uid:1, sig:1)
+  * Update gismo's key (0x540A7B5E6D742669 -> 0x8D3867D89DDB992B) (RT #242)
+  * Move 0x8DF58BB64A8854E6 (Göran Weinholt) to emeritus (RT #683)
 
   [James Troup]
 
