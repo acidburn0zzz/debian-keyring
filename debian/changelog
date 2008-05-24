@@ -1,4 +1,4 @@
-debian-maintainers (1.34) UNRELEASED; urgency=low
+debian-maintainers (1.34) unstable; urgency=medium
 
   [ Joey Hess ]
   * Use debhelper v7, rules file minimisation.
@@ -8,7 +8,7 @@ debian-maintainers (1.34) UNRELEASED; urgency=low
   * Added Debian maintainer John Stamp. Closes: #481669
   * Added Debian maintainer Bart Samwel. Closes: #482130
 
- -- Joey Hess <joeyh@debian.org>  Sun, 04 May 2008 13:36:17 -0400
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 25 May 2008 09:02:49 +1000
 
 debian-maintainers (1.33) unstable; urgency=medium
 
