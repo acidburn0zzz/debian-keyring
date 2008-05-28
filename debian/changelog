@@ -1,4 +1,4 @@
-debian-keyring (2008.05.08) UNRELEASED; urgency=low
+debian-keyring (2008.05.28) unstable; urgency=low
 
   [Jonathan McDowell]
 
@@ -41,6 +41,108 @@ debian-keyring (2008.05.08) UNRELEASED; urgency=low
     * F426E1B2BE9BF8DA Mike O'Connor (stew) <stew@debian.org> (uid:1, sig:1)
   * Update gismo's key (0x540A7B5E6D742669 -> 0x8D3867D89DDB992B) (RT #242)
   * Move 0x8DF58BB64A8854E6 (Göran Weinholt) to emeritus (RT #683)
+  * Add new developer key 0xAB8C00CFF8E26537 (Dmitry Oboukhov) (RT #690)
+  * Add new developer key 0x227B70B65595074A (Maximiliano Curia) (RT #691)
+  * Massive WAT (Where Are They?) key cleanup (RT #689)
+    * Moved to emeritus (GPG):
+      * 0x024B5D4F78560E1C Andras Bali
+      * 0x02BC42B743E25D1E Matt Zimmerman
+      * 0x0F92003B0046BCA2 William Lee Irwin III
+      * 0x12AA4A6537DA4DAB Paul Russell
+      * 0x144F85EF4F6DF8B6 Dave Swegen
+      * 0x19814D3E1F4986B8 Matt Brubeck
+      * 0x238F6506EA3A2726 Jamin W. Collins
+      * 0x26B3D68102F3713C David A. van Leeuwen
+      * 0x27866E218306A836 Bastien Nocera
+      * 0x292003B8AA15EA21 Richard Tibbetts
+      * 0x2A5EC7DEAE7637D9 Stevie Strickland
+      * 0x2C8882B616EEA647 James LewisMoss
+      * 0x32BC735B6EAF7F87 Philippe Troin
+      * 0x38642CC105792F34 Ryszard Lach
+      * 0x388909596A765865 Colin Walters
+      * 0x3E2B612A4CD366BA Stijn de Bekker
+      * 0x3FCBA2BCF0402F3F Andrea Glorioso
+      * 0x404399A29E6947D9 Chad Miller
+      * 0x4F7BF284AFFB0C17 Jack Moffitt
+      * 0x5E30DFCCBE11F437 Peter Hawkins
+      * 0x60F2D4C6B9841E08 Nathan Sandver
+      * 0x6ED768E7E67F5DDA Ben Bell
+      * 0x78844BE847951BD0 Bradley Marshall
+      * 0x7EAE8D934F4113A2 Enrique Robledo-Arnuncio
+      * 0x813EAA9174EA7E47 Christian Kesselheim
+      * 0x87DAEEB3F0132079 Dennis Kelly
+      * 0x8B903466C1BCC7C7 Corrin Lakeland
+      * 0x8CCCE1E0D3C0A64E Elie S. Rosenblum
+      * 0x8DA692685BB64BBE Stephen Peters
+      * 0x8E4BD74C38CE9CFA Raphael Goulais
+      * 0x8F452F1ED72CB41E Christophe Barbe
+      * 0x9AF14FC2D8DB2B9B Chris Ruffin
+      * 0x9F6C7908ED956B38 Bao C. Ha
+      * 0xA77535CF53C74DE9 David Z Maze
+      * 0xA98660C81245207E Jens Schmalzing
+      * 0xAA37DB212A5B2B0D James W. Penny
+      * 0xBFE09513E94EC0C2 Charl P. Botha
+      * 0xC4DB2ED42BE603BA Petra Malik
+      * 0xCCFBC09569A8D866 Dan Helfman
+      * 0xCDC34B3A6036311D Tibor Koleszar
+      * 0xD4637E4108CEC94D Sander Smeenk
+      * 0xD50853A92213E772 Kenneth Vestergaard Schmidt
+      * 0xD90A1C75F90F9FF1 Michael Beattie
+      * 0xDBFB8F80589ADFA1 Eduardo Díaz Comellas
+      * 0xE6DE464B62C345FE Arnd Bergmann
+      * 0xEA4ACD5CF65C68CD Michael Weber
+      * 0xFF1B84FEACABA81E Thomas Smith
+    * Moved to emeritus (PGP):
+      * 0x0DAE6D224B7C223D Elie Rosenblum
+      * 0x0FA3B72F2D895A21 Dennis Kelly
+      * 0x25EBC7B010A0FDD1 Bart Warmerdam
+      * 0x365E8D7193BA6AFD William Ono
+      * 0x73390ECF69403101 Dave Swegen
+      * 0x84F6C1BDFB630D15 James LewisMoss
+      * 0x85CABCCB23A6D909 Stevie Strickland
+      * 0xA0A4D9F10D773A55 Scott K. Ellis
+      * 0xA777B61AB35EE811 Charles Briscoe-Smith
+      * 0xB84229D4FEDAED8D Tibor Koleszar
+      * 0xD81BA54C533CD579 Terry Dawson
+      * 0xF09DE1FF20702095 Eduardo Diaz Comellas
+    * Moved to removed (GPG):
+      * 0x0CB74E454E26D297 Kai Henningsen
+      * 0x132706A503CDB1D2 Rick Younie
+      * 0x19F6C7BD3857C4DA Brian Mays
+      * 0x1A904F899C04F456 Martin Sjögren
+      * 0x1C972F2C947AC16A Ian Eure
+      * 0x1F1A588B4BCC8FF4 Mike Coleman
+      * 0x2FF259511411BBD5 Magosányi Árpád
+      * 0x394D2FE3C4C57B42 Marcus Crafter
+      * 0x5919766CE5B2F474 Christopher J. Morrone
+      * 0x5BAAE9550FB791EC An Thi-Nguyen Le
+      * 0x5DFA9391DE3E8AA7 Timshel Knoll-Miller
+      * 0x7FBC80AF6D164EC1 Benoit Joly
+      * 0x95908FC0636D59EE Joel Aelwyn
+      * 0x9AF352EAD5E8015B Daniel Patterson
+      * 0xA289A9299053B7F8 Stephan P. Helma
+      * 0xA37246D8A787E950 Pavel Tcholakov
+      * 0xADE1DF2F7A62F9B4 Sebastian Henschel
+      * 0xB8A458CD82AB4DF6 Wouter de Vries
+      * 0xB9F4E145D791DF9A Mark Ng
+      * 0xC51DF7B988F41CF5 KiHyeon Seo
+      * 0xC6C872E0E34938C7 Michael D. Ivey
+      * 0xC77405ADB0A5FFDC Nikita Schmidt
+      * 0xEC0EAF7136778025 Jonas Oberg
+      * 0xF7F702C563EF565E Chanop Silpa-Anan
+      * 0xF8E834544EB82468 Javier Viñuales Gutiérrez
+    * Moved to removed (PGP):
+      * 0x3E31C5B98AAE5741 Daniel Patterson
+      * 0x6365EB0DEBCDDA51 Stephen Zander
+      * 0xA458C4BD4A725F31 Kai Henningsen
+      * 0xA52A84E42C4D9FA1 Nathan P. Hawkins III
+      * 0xBF065A97B1BB54F3 Miguel de Icaza
+      * 0xC7931B94B2426DA9 Larry Gilbert
+      * 0xF327BCC32AD5E205 Remi Lefebvre
+      * 0xF638D53AF3729E55 Nikita Schmidt
+      * 0xF935B85766A4E9A9 Christopher J. Morrone
+      * 0xFA756DE299D57D11 Christian Lynbech
+      * 0xFAE16CE2DE277F45 Brian Mays
   * Packaging cleanups
     * Move old PGP keyring changelog (pre Debianization) to a separate file.
     * Update Standards-Version to 3.7.3.0 (no changes).
@@ -249,7 +351,7 @@ debian-keyring (2008.05.08) UNRELEASED; urgency=low
   * [Thu, 17 Apr 2008 23:26:02 BST] {Added} 0xF22A794E Vincent Bernat <bernat@luffy.cx>
   * [Thu, 17 Apr 2008 23:27:17 BST] {Added} 0x37D9412C Gonéri Le Bouder <goneri@rulezlan.org>
 
- -- Jonathan McDowell <noodles@earth.li>  Fri, 09 May 2008 10:23:41 +0100
+ -- Jonathan McDowell <noodles@earth.li>  Wed, 28 May 2008 20:58:20 +0100
 
 debian-keyring (2007.12.04) unstable; urgency=low
 
