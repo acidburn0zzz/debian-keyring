@@ -43,6 +43,7 @@ debian-keyring (2008.05.08) UNRELEASED; urgency=low
   * Move 0x8DF58BB64A8854E6 (Göran Weinholt) to emeritus (RT #683)
   * Packaging cleanups
     * Move old PGP keyring changelog (pre Debianization) to a separate file.
+    * Update Standards-Version to 3.7.3.0 (no changes).
 
   [James Troup]
 

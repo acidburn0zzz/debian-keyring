@@ -3,7 +3,7 @@ Section: misc
 Priority: optional
 Maintainer: James Troup <keyring-maint@debian.org>
 Uploaders: Jonathan McDowell <noodles@earth.li>, James Troup <james@nocrew.org>
-Standards-Version: 3.6.1.0
+Standards-Version: 3.7.3.0
 
 Package: debian-keyring
 Architecture: all
