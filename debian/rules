@@ -36,6 +36,7 @@ binary-indep: checkroot
 	$(install_dir) debian/tmp/usr/share/doc/debian-keyring/
 	$(install_file) README debian/tmp/usr/share/doc/debian-keyring/
 	$(install_file) debian/changelog debian/tmp/usr/share/doc/debian-keyring/changelog
+	$(install_file) debian/changelog.old debian/tmp/usr/share/doc/debian-keyring/changelog.old
 	gzip -9v debian/tmp/usr/share/doc/debian-keyring/*
 	$(install_file) debian/copyright debian/tmp/usr/share/doc/debian-keyring/
 
