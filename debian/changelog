@@ -1,6 +1,10 @@
 debian-maintainers (1.36) UNRELEASED; urgency=low
 
+  [ Joey Hess ]
   * Updated Jordan Mantha's key. Closes: #484173
+
+  [ Anibal Monsalve Salazar ]
+  * Added Debian maintainer Dominique Belhachemi. Closes: #483944
 
  -- Joey Hess <joeyh@debian.org>  Thu, 05 Jun 2008 17:40:10 -0400
 
