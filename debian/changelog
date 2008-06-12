@@ -6,6 +6,7 @@ debian-maintainers (1.36) UNRELEASED; urgency=low
   [ Anibal Monsalve Salazar ]
   * Added Debian maintainer Dominique Belhachemi. Closes: #483944
   * Added Debian maintainer Peter Collingbourne. Closes: #484508
+  * Added Debian maintainer Martin Meredith. Closes: #484672
 
  -- Joey Hess <joeyh@debian.org>  Thu, 05 Jun 2008 17:40:10 -0400
 
