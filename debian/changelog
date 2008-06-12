@@ -1,4 +1,4 @@
-debian-maintainers (1.36) UNRELEASED; urgency=low
+debian-maintainers (1.36) unstable; urgency=medium
 
   [ Joey Hess ]
   * Updated Jordan Mantha's key. Closes: #484173
@@ -8,7 +8,7 @@ debian-maintainers (1.36) UNRELEASED; urgency=low
   * Added Debian maintainer Peter Collingbourne. Closes: #484508
   * Added Debian maintainer Martin Meredith. Closes: #484672
 
- -- Joey Hess <joeyh@debian.org>  Thu, 05 Jun 2008 17:40:10 -0400
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Thu, 12 Jun 2008 22:22:53 +1000
 
 debian-maintainers (1.35) unstable; urgency=medium
 
