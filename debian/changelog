@@ -1,10 +1,10 @@
-debian-maintainers (1.37) UNRELEASED; urgency=low
+debian-maintainers (1.37) unstable; urgency=medium
 
   * Bump Standards-Version to 3.8.0
   * Delete Deng Xiyue's revoked key 57AC571A; see #487348
   * Update anibal's key. Closes: #487018
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 21 Jun 2008 20:12:08 +1000
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 21 Jun 2008 20:48:49 +1000
 
 debian-maintainers (1.36) unstable; urgency=medium
 
