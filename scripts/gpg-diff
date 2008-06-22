@@ -153,8 +153,14 @@ sub summary {
 	my $prefix=shift;
 
 	foreach my $record (@_) {
-		if ($record->[0] eq 'pub' || $record->[0] eq 'uid') {
-			print "$prefix".outformat($record);
+		if (ref $record eq 'HASH') {
+			summary($prefix, $record->{$_})
+				foreach reverse sort keys %$record;
+		}
+		else {
+			if ($record->[0] eq 'pub' || $record->[0] eq 'uid') {
+				print "$prefix".outformat($record);
+			}
 		}
 	}
 }
