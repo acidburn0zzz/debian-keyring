@@ -1,4 +1,4 @@
-debian-maintainers (1.38) UNRELEASED; urgency=low
+debian-maintainers (1.38) unstable; urgency=medium
 
   * Fix cross-certifification issue. Closes: #487018
   * Replaced key for Debian maintainer Deng Xiyue. Closes: #487348
@@ -6,7 +6,7 @@ debian-maintainers (1.38) UNRELEASED; urgency=low
   * Added Debian maintainer Luca Falavigna. Closes: #487723
   * Added Debian maintainer Ben Finney. Closes: #487959
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 22 Jun 2008 10:02:44 +1000
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 29 Jun 2008 22:37:25 +1000
 
 debian-maintainers (1.37) unstable; urgency=medium
 
