@@ -4,6 +4,7 @@ debian-maintainers (1.38) UNRELEASED; urgency=low
   * Replaced key for Debian maintainer Deng Xiyue. Closes: #487348
   * Fixed "keycheck:55: too many arguments"
   * Added Debian maintainer Luca Falavigna. Closes: #487723
+  * Added Debian maintainer Ben Finney. Closes: #487959
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 22 Jun 2008 10:02:44 +1000
 
