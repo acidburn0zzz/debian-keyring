@@ -6,7 +6,7 @@ debian-maintainers (1.38) unstable; urgency=medium
   * Added Debian maintainer Luca Falavigna. Closes: #487723
   * Added Debian maintainer Ben Finney. Closes: #487959
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 29 Jun 2008 22:37:25 +1000
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 29 Jun 2008 22:56:19 +1000
 
 debian-maintainers (1.37) unstable; urgency=medium
 
