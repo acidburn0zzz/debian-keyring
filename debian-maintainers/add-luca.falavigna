@@ -1,0 +1,71 @@
+Changed-By: Anibal Monsalve Salazar <anibal@debian,org>
+Date: Sun, 29 Jun 2008 22:13:52 +1000
+Comment: adding debian-maintainer Luca Falavigna
+Agreement: http://lists.debian.org/debian-newmaint/2008/06/msg00047.html
+Advocates: 
+  broonie - http://lists.debian.org/debian-newmaint/2008/06/msg00048.html
+KeyCheck:
+  pub   1024D/86BC2A50 2006-10-23
+        Key fingerprint = D266 A2CD AA29 DC15 AE70  22C8 9D78 D711 86BC 2A50
+  uid                  Luca Falavigna <dktrkranz@ubuntu.com>
+  sig!3        86BC2A50 2007-02-15  Luca Falavigna <dktrkranz@ubuntu.com>
+  uid                  Luca Falavigna <dktrkranz@linuxdc.it>
+  sig!3        86BC2A50 2007-02-15  Luca Falavigna <dktrkranz@ubuntu.com>
+  sig!3        86BC2A50 2006-10-23  Luca Falavigna <dktrkranz@ubuntu.com>
+  uid                  Luca Falavigna <dktrkranz@gxware.org>
+  sig!3        86BC2A50 2006-10-23  Luca Falavigna <dktrkranz@ubuntu.com>
+  uid                  Luca Falavigna <dktrkranz@gmail.com>
+  sig!3        86BC2A50 2006-10-23  Luca Falavigna <dktrkranz@ubuntu.com>
+  sig!         6B79D401 2008-06-21  Giunchedi Filippo <filippo@esaurito.net>
+  sub   2048g/4EC17ED6 2006-10-23
+  sig!         86BC2A50 2006-10-23  Luca Falavigna <dktrkranz@ubuntu.com>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+ -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.6 (GNU/Linux)
+  
+  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
+  =ERXM
+  -----END PGP PUBLIC KEY BLOCK-----
