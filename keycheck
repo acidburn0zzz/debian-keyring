@@ -52,10 +52,10 @@ keycheck () {
 	echo "Check for key expire stuff"
 	EXPIRE=$(gpg ${GPGOPTS} --with-colons --check-sigs "0x$KEYID" |awk -F : ' $1 == "sub" && $2 != "r" {print $7} ')
 	
-	if [ -z $EXPIRE ]; then
+	if [ -z "$EXPIRE" ]; then
 	    echo "Key has no expiration date set, nothing to check."
 	else
-		echo "Key has an expiration date of ${EXPIRE}."
+		echo "Key has an expiration date of "\"${EXPIRE}\""."
 		echo "Please check that its not in the past, AND that it is not too"
 		echo "near in the future to make adding this applicant pointless."
 	fi
