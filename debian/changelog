@@ -15,14 +15,18 @@ debian-keyring (2008.06.22) UNRELEASED; urgency=low
     * 0x815E0B3EFA4C5298 Tatsuya Kinoshita <tats@vega.ocn.ne.jp> sig:12
     * 0x842CDB7A44779E18 Fabio M. Di Nitto <fabbione@fabbione.net> uid:2 sig:14
     * 0x8A9067791880283C Anibal Monsalve Salazar <anibal@debian.org> sig:2
+    * 0x8EA3B90CB2B97BB1 Roberto C. Sanchez <roberto@connexer.com> sig:6
     * 0x9A3EBA3FF61F73F8 Bastian Venthur <venthur@cs.tu-berlin.de> sig:13
     * 0xAB8C00CFF8E26537 Dmitry E. Oboukhov <unera@debian.org> uid:1 sig:1
     * 0xADE94F6507799E74 John H. Robinson, IV <jaqque@sbih.org> sig:2
     * 0xB3A02D6623706F87 Pierre Machard <pmachard@debian.org> sig:11
     * 0xB735A649E0BA04C1 Ralf Treinen <treinen@debian.org> sig:62
+    * 0xB7F68E1C797E641D Ben Pfaff <blp@stanford.edu> sig:12
     * 0xB8824687F1968D1B Decklin Foster <decklin@debian.org> uid:1 sig:6 sub:1
+    * 0xBFCA4B38A824B93F Alexander Sack <asac@debian.org> sig:6
     * 0xCD603B5A2ECF984B Alexei Nikolov <root@toor.spb.ru> sig:9
     * 0xCEB14A7A1DDC990D C.M. Connelly <cmc@debian.org> uid:1 sig:3
+    * 0xD200EB30A0FB5DA6 Gustavo Noronha Silva <kov@kov.eti.br> sig:10
     * 0xDC3552E836E75604 Michal Čihař <michal@cihar.com> sig:7
     * 0xED1A3933B2CFCDD8 Philipp Kern sig:3
     * 0xEE25DE3F1CDB0FE3 Henrique de Moraes Holschuh <hmh@debian.org> sig:24 sub:3
