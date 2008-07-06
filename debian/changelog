@@ -1,4 +1,4 @@
-debian-keyring (2008.06.22) UNRELEASED; urgency=low
+debian-keyring (2008.07.06) UNRELEASED; urgency=low
 
   [Jonathan McDowell]
 
@@ -33,6 +33,7 @@ debian-keyring (2008.06.22) UNRELEASED; urgency=low
     * 0xF985E3400AFC7476 Russ Allbery <rra@stanford.edu> sig:22
   * Move 0xF8C376A1A2C51749 (Bernd Eckenfels) to emeritus (RT #710)
   * Move 0x7C54BE5D9925DC13 (Sébastien Chaumat) to emeritus
+  * Update 0xD573D5B129AB4CDD (Jeremy T. Bouse) sub:2 sig:6 (RT #739)
 
  --
 
