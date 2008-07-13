@@ -1,8 +1,8 @@
-debian-maintainers (1.40) UNRELEASED; urgency=low
+debian-maintainers (1.40) unstable; urgency=medium
 
   * Added Debian maintainer Iustin Pop. Closes: #489788
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 13 Jul 2008 17:12:25 +1000
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 13 Jul 2008 17:36:18 +1000
 
 debian-maintainers (1.39) unstable; urgency=medium
 
