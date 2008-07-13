@@ -1,0 +1,73 @@
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Date: Sun, 13 Jul 2008 16:54:40 +1000
+Comment: adding debian-maintainer Iustin Pop
+Agreement: http://lists.debian.org/debian-newmaint/2008/07/msg00017.html
+Advocates: 
+  ultrotter - http://lists.debian.org/debian-newmaint/2008/07/msg00018.html
+KeyCheck:
+  pub   1024D/9DF834C2 2003-09-09
+        Key fingerprint = 5D63 7506 6C02 203F 491B  D27A E26C 76DD 9DF8 34C2
+  uid                  Iustin Pop <iusty@k1024.org>
+  sig!3        9DF834C2 2008-01-25  Iustin Pop <iusty@k1024.org>
+  sig!         8807529B 2008-01-25  Guido Trotter <ultrotter@quaqua.net>
+  sub   2048g/1673E567 2003-09-09 [revoked: 2008-01-25]
+  rev!         9DF834C2 2008-01-25  Iustin Pop <iusty@k1024.org>
+  sig!         9DF834C2 2003-09-09  Iustin Pop <iusty@k1024.org>
+  sub   2048g/267097C5 2008-01-25 [expires: 2010-01-24]
+  sig!         9DF834C2 2008-01-25  Iustin Pop <iusty@k1024.org>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has an expiration date of "2010-01-24".
+  Please check that its not in the past, AND that it is not too
+  near in the future to make adding this applicant pointless.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.9 (GNU/Linux)
+  
+  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
+  99CUdw1Ux5gtfwS4
+  =d9ie
+  -----END PGP PUBLIC KEY BLOCK-----
