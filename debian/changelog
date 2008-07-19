@@ -36,6 +36,7 @@ debian-keyring (2008.07.06) UNRELEASED; urgency=low
   * Update 0xD573D5B129AB4CDD (Jeremy T. Bouse) sub:2 sig:6 (RT #739)
   * Update 0xDD45D40015E2AFD6 (Tobias Quathamer) sub:2 sig:2 (RT #751)
   * Add new developer key 0xA1183F8ED1028C8D (Kartik Mistry) (RT #752)
+  * Add new developer key 0xBAB12CF0C7C58F7C (Bruno Kleinert) (RT #753)
 
  --
 
