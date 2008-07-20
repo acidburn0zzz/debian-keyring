@@ -1,8 +1,8 @@
-debian-maintainers (1.41) UNRELEASED; urgency=low
+debian-maintainers (1.41) unstable; urgency=medium
 
   * Added Debian maintainer Andreas Putzo. Closes: #490920
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 20 Jul 2008 13:51:11 +1000
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 20 Jul 2008 13:55:40 +1000
 
 debian-maintainers (1.40) unstable; urgency=medium
 
