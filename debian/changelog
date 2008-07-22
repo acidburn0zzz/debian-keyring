@@ -1,36 +1,46 @@
-debian-keyring (2008.07.06) UNRELEASED; urgency=low
-
-  [Jonathan McDowell]
+debian-keyring (2008.07.22) unstable; urgency=low
 
   * Updates from keyring.debian.org HKP interface:
+    * 0x07DC563D1F41B907 Christian Marillat <marillat@debian.org> sig:12
+    * 0x0EA756B5144843F5 Roland Mas <lolando@debian.org> sig:14
     * 0x0F1F76E20D2036AD Cameron Dale <camrdale@gmail.com> sig:2
+    * 0x10BB80FC16BD77C6 Gerfried Fuchs <rhonda@debian.at> sig:2
     * 0x111E3AA0BFBCC985 Jaime Robles <jaime@robles.es> uid:1 sig:5
     * 0x1467F0D8E1EE3FB1 Marco d'Itri <md@linux.it> sig:10
     * 0x227B70B65595074A Maximiliano Curia <maxy@debian.org> uid:1 sig:3
     * 0x285BD7A1F22A794E Vincent Bernat <bernat@luffy.cx> sig:1
+    * 0x29BE5D2268FD549F Martin Michlmayr <tbm@cyrius.com> sig:3
     * 0x3A65F019CFD42F26 Andres Salomon <dilinger@squishy.cc> uid:1 sig:4
     * 0x3BBFCF77BD8B050D Roland Rosenfeld <roland@spinnaker.de> sig:142
+    * 0x4F899A4EFFE3035D Shane Wegner <shane@csy.ca> uid:1 sub:1 sig:9
+    * 0x58D0B1B227572C47 Aaron M. Ucko <ucko@debian.org> sig:34
     * 0x7127E5ABEEF946C8 Mirco Bauer <meebey@meebey.net> sig:7 sub:3
+    * 0x79B0126693701EEF Carlo Segre <segre@debian.org> sig:2
     * 0x7D887332682FB3DA Qingning Huo <qhuo@mayhq.co.uk> sig:5
     * 0x815E0B3EFA4C5298 Tatsuya Kinoshita <tats@vega.ocn.ne.jp> sig:12
     * 0x842CDB7A44779E18 Fabio M. Di Nitto <fabbione@fabbione.net> uid:2 sig:14
-    * 0x8A9067791880283C Anibal Monsalve Salazar <anibal@debian.org> sig:2
+    * 0x8A9067791880283C Anibal Monsalve Salazar <anibal@debian.org> sig:10
     * 0x8EA3B90CB2B97BB1 Roberto C. Sanchez <roberto@connexer.com> sig:6
     * 0x9A3EBA3FF61F73F8 Bastian Venthur <venthur@cs.tu-berlin.de> sig:13
     * 0xAB8C00CFF8E26537 Dmitry E. Oboukhov <unera@debian.org> uid:1 sig:1
     * 0xADE94F6507799E74 John H. Robinson, IV <jaqque@sbih.org> sig:2
     * 0xB3A02D6623706F87 Pierre Machard <pmachard@debian.org> sig:11
     * 0xB735A649E0BA04C1 Ralf Treinen <treinen@debian.org> sig:62
-    * 0xB7F68E1C797E641D Ben Pfaff <blp@stanford.edu> sig:12
+    * 0xB7F68E1C797E641D Ben Pfaff <blp@stanford.edu> sig:20
     * 0xB8824687F1968D1B Decklin Foster <decklin@debian.org> uid:1 sig:6 sub:1
     * 0xBFCA4B38A824B93F Alexander Sack <asac@debian.org> sig:6
     * 0xCD603B5A2ECF984B Alexei Nikolov <root@toor.spb.ru> sig:9
     * 0xCEB14A7A1DDC990D C.M. Connelly <cmc@debian.org> uid:1 sig:3
     * 0xD200EB30A0FB5DA6 Gustavo Noronha Silva <kov@kov.eti.br> sig:10
+    * 0xD573D5B129AB4CDD Jeremy T. Bouse <jbouse@debian.org> sig:12
+    * 0xD5CA9B04F2C423BC Stefano Zacchiroli <zack@upsilon.cc> uid:2 sub:1 sig:10
     * 0xDC3552E836E75604 Michal Čihař <michal@cihar.com> sig:7
     * 0xED1A3933B2CFCDD8 Philipp Kern sig:3
     * 0xEE25DE3F1CDB0FE3 Henrique de Moraes Holschuh <hmh@debian.org> sig:24 sub:3
+    * 0xF19BA618924C0C26 Luigi Gangitano <luigi@debian.org> sig:3
+    * 0xF7B2C1C1B345BDD3 Neil McGovern <maulkin@halon.org.uk> sig:39
     * 0xF985E3400AFC7476 Russ Allbery <rra@stanford.edu> sig:22
+    * 0xF9935424B1DF9A57 Giacomo Catenazzi <cate@debian.org> sig:2
   * Move 0xF8C376A1A2C51749 (Bernd Eckenfels) to emeritus (RT #710)
   * Move 0x7C54BE5D9925DC13 (Sébastien Chaumat) to emeritus
   * Update 0xD573D5B129AB4CDD (Jeremy T. Bouse) sub:2 sig:6 (RT #739)
@@ -38,8 +48,7 @@ debian-keyring (2008.07.06) UNRELEASED; urgency=low
   * Add new developer key 0xA1183F8ED1028C8D (Kartik Mistry) (RT #752)
   * Add new developer key 0xBAB12CF0C7C58F7C (Bruno Kleinert) (RT #753)
 
- --
-
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 22 Jul 2008 20:40:54 +0100
 
 debian-keyring (2008.05.28) unstable; urgency=low
 
