@@ -1,3 +1,9 @@
+debian-maintainers (1.42) UNRELEASED; urgency=low
+
+  * Added Debian maintainer Luca Bigliardi. Closes: #491303
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 26 Jul 2008 17:21:37 +1000
+
 debian-maintainers (1.41) unstable; urgency=medium
 
   * Added Debian maintainer Andreas Putzo. Closes: #490920
