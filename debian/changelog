@@ -1,3 +1,9 @@
+debian-keyring (2008.08.10) UNRELEASED; urgency=low
+
+  * Readd 0x40E354D9FA26E2EE (Stig Sandbeck Mathisen) (RT #754)
+
+ -- Jonathan McDowell <noodles@earth.li>
+
 debian-keyring (2008.07.22) unstable; urgency=low
 
   * Updates from keyring.debian.org HKP interface:
