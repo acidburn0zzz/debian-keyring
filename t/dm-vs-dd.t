@@ -43,8 +43,7 @@ for uid in $(list_uids $DM_KEYRING | sort | uniq); do
 		echo "$uid is in both the DD and DM keyrings"
 		fail=1
 	elif grep -q "$name" dd-list.tmp; then
-		echo "name $name is in both the DD and DM keyrings"
-                fail=1
+		echo "warning: name $name is in both the DD and DM keyrings"
 	elif grep -q "$email" dd-list.tmp; then
 		echo "email $email is in both the DD and DM keyrings"
 		fail=1
