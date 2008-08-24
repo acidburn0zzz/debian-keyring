@@ -1,9 +1,9 @@
-debian-maintainers (1.43) UNRELEASED; urgency=low
+debian-maintainers (1.43) unstable; urgency=medium
 
   * A successful name search is a warning. Closes: #492454
   * Added Debian maintainer John Sullivan. Closes: #495409
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 24 Aug 2008 14:08:03 +1000
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 24 Aug 2008 14:56:43 +1000
 
 debian-maintainers (1.42) unstable; urgency=medium
 
