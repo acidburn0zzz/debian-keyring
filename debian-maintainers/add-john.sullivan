@@ -1,0 +1,136 @@
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Comment: Add John Sullivan <john@wjsullivan.net> as a Debian Maintainer
+Date: Sun, 24 Aug 2008 14:33:13 +1000
+Agreement: http://lists.debian.org/debian-newmaint/2008/06/msg00050.html
+Advocates: 
+  micah - http://lists.debian.org/debian-newmaint/2008/08/msg00006.html
+NM-Page: https://nm.debian.org/nmstatus.php?email=john%40wjsullivan.net
+KeyCheck:
+  pub   1024D/AE8600B6 2003-12-22
+        Key fingerprint = DA6B E56E 5F7F 5622 B21E  ADE7 091C 11D2 AE86 00B6
+  uid                  John Sullivan <john@wjsullivan.net>
+  sig!3        AE8600B6 2004-11-19  John Sullivan <john@wjsullivan.net>
+  sig!3        AE8600B6 2004-08-16  John Sullivan <john@wjsullivan.net>
+  sig!3        AE8600B6 2004-10-05  John Sullivan <john@wjsullivan.net>
+  sig!         71D5F43A 2005-03-26  NIIBE Yutaka <gniibe@fsij.org>
+  sig!3        AE8600B6 2006-04-10  John Sullivan <john@wjsullivan.net>
+  sig!3        607559E6 2006-07-07  Benjamin Mako Hill <mako@ubuntu.com>
+  sig!3        607559E6 2006-07-07  Benjamin Mako Hill <mako@ubuntu.com>
+  uid                  John Sullivan <johns@fsf.org>
+  sig!3        AE8600B6 2003-12-23  John Sullivan <john@wjsullivan.net>
+  sig!3        AE8600B6 2004-10-05  John Sullivan <john@wjsullivan.net>
+  sig!         71D5F43A 2005-03-26  NIIBE Yutaka <gniibe@fsij.org>
+  sig!3        AE8600B6 2006-04-10  John Sullivan <john@wjsullivan.net>
+  sig!3        607559E6 2006-07-07  Benjamin Mako Hill <mako@ubuntu.com>
+  sig!3        607559E6 2006-07-07  Benjamin Mako Hill <mako@ubuntu.com>
+  uid                  John Sullivan <johns@gnu.org>
+  sig!3        AE8600B6 2003-12-22  John Sullivan <john@wjsullivan.net>
+  sig!         71D5F43A 2005-03-26  NIIBE Yutaka <gniibe@fsij.org>
+  sig!3        607559E6 2006-07-07  Benjamin Mako Hill <mako@ubuntu.com>
+  sig!3        607559E6 2006-07-07  Benjamin Mako Hill <mako@ubuntu.com>
+  sub   1024g/CEDEEC4F 2003-12-22
+  sig!         AE8600B6 2003-12-22  John Sullivan <john@wjsullivan.net>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data: 
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.9 (GNU/Linux)
+  
+  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
+  YAQdF/o=
+  =K1dV
+  -----END PGP PUBLIC KEY BLOCK-----
