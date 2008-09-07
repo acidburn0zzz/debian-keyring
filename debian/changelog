@@ -1,3 +1,9 @@
+debian-maintainers (1.44) UNRELEASED; urgency=low
+
+  * Added Debian maintainer Christoph Göhre. Closes: #496554
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 07 Sep 2008 17:38:25 +1000
+
 debian-maintainers (1.43) unstable; urgency=medium
 
   * A successful name search is a warning. Closes: #492454
