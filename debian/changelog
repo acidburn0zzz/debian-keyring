@@ -1,9 +1,9 @@
-debian-maintainers (1.44) UNRELEASED; urgency=low
+debian-maintainers (1.44) unstable; urgency=medium
 
   * Added Debian maintainer Christoph Göhre. Closes: #496554
   * Added Debian maintainer Jan-Pascal van Best. Closes: #497080
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 07 Sep 2008 17:38:25 +1000
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 07 Sep 2008 18:22:25 +1000
 
 debian-maintainers (1.43) unstable; urgency=medium
 
