@@ -1,9 +1,81 @@
-debian-keyring (2008.08.10) UNRELEASED; urgency=low
+debian-keyring (2008.09.08) unstable; urgency=low
 
   * Readd 0x40E354D9FA26E2EE (Stig Sandbeck Mathisen) (RT #754)
   * Move 0x7FE883F3211B1025 (Jochen Voss) to emeritus (RT #775)
+  * Add new developer key 0x82D7DF6DFC7F6D0F (Timo Jyrinki) (RT #787)
+  * Add new developer key 0x032570844D2313D5 (Adriaan Peeters) (RT #788)
+  * Add new developer key 0x32175C0DC1027A0E (Gregory Colpart) (RT #789)
+  * Add new developer key 0x54BC83B7FDDAA58F (Laurent Bigonville) (RT #790)
+  * Add new developer key 0xFE1F5E2FD1E2B16F (Soeren Sonnenburg) (RT #791)
+  * Updates from keyring.debian.org HKP interface:
+    * 0xB0D269DE17F3D4D1 Matthew Vernon <matthew@debian.org> uid:1 sig:1
+    * 0x01998318ADC9BC28 Luis Rodrigo Gallardo Cruz <rodrigo@nul-unu.com> sig:4
+    * 0x0A300ED090E5CA46 Felipe Augusto van de Wiel (faw) <faw@debian.org> sig:5
+    * 0x10BB80FC16BD77C6 Gerfried Fuchs <rhonda@debian.at> sig:66
+    * 0x220BC883330C4A75 Martin F. Krafft <mail@martin-krafft.net> sub:1 sig:1
+    * 0x27D10348DD1B0EF7 Mario Iseli <mario@debian.org> uid:1 sig:4
+    * 0x3450ED513FCC2A90 Amaya Rodrigo Sastre <amaya@debian.org> sig:86
+    * 0x353350CA580808C4 Miguel Gea Milvaques <xerakko@debian.org> sig:124
+    * 0x394DC5910ED704EA Mohammed Adnène Trojette (adn) <adn@arabeyes.org> sig:12
+    * 0x3B32989D00F3CFE4 gregor herrmann <gregor.herrmann@comodo.priv.at> sig:9
+    * 0x3B43EB18EE0A35C7 Gergely Riskó <gergely@risko.hu> uid:1 sig:4
+    * 0x4164D1B3894BB479 Luciano Bello <luciano@debian.org> sig:5
+    * 0x41DC1C907244970B Kurt Roeckx <kurt@roeckx.be> sig:37
+    * 0x49DEF96B0B5AB4E7 Kumar Appaiah <akumar@ee.iitm.ac.in> uid:1 sig:2
+    * 0x509880E3F6A10C2D Michael holzt <michael@holzt.de> sub:1 sig:1
+    * 0x51602C8D005C3B82 Jose Parrella <bureado@debian.org> sig:65
+    * 0x54A33827B62849B3 Stephen R. Marenka <smarenka@debian.org> sig:6
+    * 0x550F1A003433BD21 Rudy Godoy Guillén <rudy@stone-head.org> sig:6
+    * 0x56DCB977C5E95333 Faidon Liambotis <paravoid@debian.org> sig:139
+    * 0x5A0A399AEA7CF5AD Nicolas FRANÇOIS <nekral@debian.org> sig:5
+    * 0x5A94F3CA0B2713C8 Ben Armstrong <synrg@sanctuary.nslug.ns.ca> sig:1
+    * 0x62038A4BDD9B9910 Philip Hands <phil@hands.com> sig:24
+    * 0x7537F7664950EAA6 Adam Kessel <adam@rosi-kessel.org> sig:14
+    * 0x7C3B797088C7C1F7 Steve McIntyre <steve@einval.com> sig:25
+    * 0x7D08E5236EB95A6F Damián Viano <dviano@damianv.com.ar> sig:2
+    * 0x7D8DDD89C4CF8EC3 Torsten Werner <twerner@debian.org> sig:9
+    * 0x81C08922808D0FD0 Don Armstrong <don@donarmstrong.com> sig:11
+    * 0x8801094A28BCB3E3 Neil Williams <codehelp@debian.org> sig:233
+    * 0x8A838BE4D8480F2E Jan Luebbe <jluebbe@lasnet.de> uid:1 sig:9
+    * 0x8A9067791880283C Anibal Monsalve Salazar <anibal@debian.org> sig:2
+    * 0x8C90347F8F068012 Andrew McMillan <andrew@catalyst.net.nz> sig:19
+    * 0x8D3867D89DDB992B Luca Capello <gismo@debian.org> sig:98
+    * 0x9F78F83CE8C43461 Ana Beatriz Guerrero López <ana@ekaia.org> sig:48
+    * 0x9FB0DB32C02440B8 Jonas Smedegaard <dr@jones.dk> uid:1 sig:105
+    * 0x9FCF2CCD3F3E6426 Guido Günther <agx@sigxcpu.org> uid:1 sig:3
+    * 0xA1183F8ED1028C8D Kartik Mistry <kartik@debian.org> uid:1 sig:1
+    * 0xAB8C00CFF8E26537 Dmitry E. Oboukhov <unera@debian.org> sig:1
+    * 0xAE266969A21AD4F9 Thomas Viehmann <tv@beamnet.de> sig:1
+    * 0xB1C473173E7B4B73 Lionel Elie Mamane <lionel@mamane.lu> sig:8
+    * 0xB2B05F45D626ABB6 Marcela Tiznado <mlt@debian.org> sig:4
+    * 0xB735A649E0BA04C1 Ralf Treinen <treinen@debian.org> sig:25
+    * 0xBAB12CF0C7C58F7C Bruno Kleinert <fuddl@tauware.de> uid:1 sig:1
+    * 0xC376A8DAF1BCDB73 Aurelien Jarno <aurelien@aurel32.net> sig:199
+    * 0xC5AF774A58510B5A Christoph Berg <cb@df7cb.de> sig:53
+    * 0xC890730FA3F9E30E Michael C. Schultheiss <schultmc@debian.org> uid:1 sig:1
+    * 0xD200EB30A0FB5DA6 Gustavo Noronha Silva <kov@kov.eti.br> sig:5
+    * 0xD4E5EDACC0143D2D Christian Perrier <bubulle@kheops.homeunix.org> sig:39
+    * 0xD5CA9B04F2C423BC Stefano Zacchiroli <zack@upsilon.cc> sig:127
+    * 0xD7E94363431B38BA Paul Telford <paul@droflet.net> sig:1
+    * 0xD80EF35A8BB527AF Gunnar Wolf <gwolf@gwolf.org> sig:19
+    * 0xD8377D4EE81E55C1 Junichi Uekawa <dancer@netfort.gr.jp> sig:19
+    * 0xDC3552E836E75604 Michal Čihař <michal@cihar.com> sig:2
+    * 0xDCF785B48A1D9A1F John Goerzen <jgoerzen@complete.org> sig:60
+    * 0xE5273D986BE3C423 Paul Wise <pabs3@bonedaddy.net> sig:27
+    * 0xE544DE079B7C328D Luk Claes <luk@debian.org> sig:398
+    * 0xED1A3933B2CFCDD8 Philipp Kern sig:59
+    * 0xEF7FDB35D6806145 Adam Majer <adamm@galacticasoftware.com> sig:3
+    * 0xF1BD4BE45B430367 Jonathan McDowell <noodles@earth.li> sig:7
+    * 0xF628EB934743206C Joachim Breitner <mail@joachim-breitner.de> sig:58
+    * 0xF6DD330210FA4CD1 Colin Watson <cjwatson@flatline.org.uk> sig:4
+    * 0xF7B2C1C1B345BDD3 Neil McGovern <maulkin@halon.org.uk> sig:54
+    * 0xF7F0E70F307D56ED Noèl Köthe <noel@debian.org> sig:521
+    * 0xF8358FA2F2833C93 Eric Evans <eevans@debian.org> sig:51
+    * 0xF85990B0248AEB73 Rene Engelhard <rene@debian.org> sig:13
+    * 0xF9935424B1DF9A57 Giacomo Catenazzi <cate@debian.org> sig:40
+    * 0xFB13343857E3E888 W. Borgert <debacle@debian.org> sig:10
 
- -- Jonathan McDowell <noodles@earth.li>
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 08 Sep 2008 21:58:10 +0100
 
 debian-keyring (2008.07.22) unstable; urgency=low
 
