@@ -38,6 +38,9 @@ fi
 gpg --import $keyfile
 gpg --keyring output/keyrings/debian-keyring.gpg \
 	--keyring output/keyrings/debian-keyring.pgp \
+	--keyring output/keyrings/extra-keys.pgp --fingerprint 0x$keyid
+gpg --keyring output/keyrings/debian-keyring.gpg \
+	--keyring output/keyrings/debian-keyring.pgp \
 	--keyring output/keyrings/extra-keys.pgp --check-sigs 0x$keyid
 
 echo "Are you sure you want to update this key? (y/n)"
