@@ -1,4 +1,4 @@
-debian-keyring (2008.09.15) UNRELEASED; urgency=low
+debian-keyring (2008.09.23) unstable; urgency=low
 
   * Add new developer key 0x02E93057444DD950 (Sandro Tosi) (RT #798)
   * Add new developer key 0xF16961C8CC8D7957 (Manuel Prinz) (RT #799)
@@ -8,8 +8,30 @@ debian-keyring (2008.09.15) UNRELEASED; urgency=low
   * Add new developer key 0xE48B65B54B394F7E (Barry deFreese) (RT #803)
   * Add new developer key 0x4CA23313A2D8F6BF (Patrick Schoenfeld) (RT #804)
   * Update 0xC3DE75AE036BAB8D (werner@debian.org) (RT #805)
+  * Update 0x6E3FF64DF95C2F6D (Christoph Martin) (RT #807)
+  * Updates from keyring.debian.org HKP interface:
+    * 0x010C2EA6D9309644 Nelson A. de Oliveira <naoliv@debian.org> uid:1 sid:1
+    * 0x02E93057444DD950 Sandro Tosi <morph@debian.org> uid:1 sig:1
+    * 0x32175C0DC1027A0E Gregory Colpart <reg@debian.org> uid:1 sig:4
+    * 0x3330A21567209BDE Aigars Mahinovs <aigarius@debian.org> uid:1 sig:8
+    * 0x4CA23313A2D8F6BF Patrick Schoenfeld <schoenfeld@in-medias-res.com> uid:1 sig:40
+    * 0x723724B4A5B6DD31 Christian Meder <chris@absolutegiganten.org> sig:3
+    * 0x7C3B797088C7C1F7 Steve McIntyre <steve@einval.com> sig:55
+    * 0x84E64AA009FC015C Martin A. Godisch <martin@godisch.de> sig:1
+    * 0x8A9067791880283C Anibal Monsalve Salazar <anibal@debian.org> sig:1
+    * 0xA4535199E9F2C747 Francesco Paolo Lovergine <frankie@debian.org> uid:1 sig:42
+    * 0xC0CFC6B3CD4C0D9D Steve Kemp <steve@steve.org.uk> sig:3
+    * 0xC7F521C122B282CA Vincent Fourmond <fourmond@gmail.com> uid:1 sig:3
+    * 0xD5CA9B04F2C423BC Stefano Zacchiroli <zack@upsilon.cc> sig:4
+    * 0xE7FF2E5B634F9A20 Chris Lamb <chris@chris-lamb.co.uk> uid:1 sig:1
+    * 0xED1A3933B2CFCDD8 Philipp Kern sig:44
+    * 0xEFA55436964199E2 Fabian Fagerholm <fabbe@paniq.net> sig:5
+    * 0xF4E66A7CC20DF273 Ondřej Surý <ondrej@sury.org> sig:24 
+    * 0xF6EE83B9DF901724 Jan Wagner <waja@cyconet.org> uid:1 sig:1
+    * 0xF9935424B1DF9A57 Giacomo Catenazzi <cate@debian.org> sig:2
+    * 0xFE1F5E2FD1E2B16F Soeren Sonnenburg <sonne@debian.org> uid:1 sig:29
 
-  --
+  -- Jonathan McDowell <noodles@earth.li>  Tue, 23 Sep 2008 21:25:52 +0100
 
 debian-keyring (2008.09.08) unstable; urgency=low
 
