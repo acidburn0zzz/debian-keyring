@@ -3,6 +3,7 @@ debian-maintainers (1.45) UNRELEASED; urgency=low
   * Remove Adriaan Peeters, Manuel Prinz and Sandro Tosi,
     all of whom are now debian developers.
   * Add Debian maintainer Trent W. Buck. Closes: #498560
+  * Add Debian maintainer Rogério Brito. Closes: #498725
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 24 Sep 2008 20:27:25 +1000
 
