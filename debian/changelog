@@ -1,3 +1,10 @@
+debian-maintainers (1.45) UNRELEASED; urgency=low
+
+  * Remove Adriaan Peeters, Manuel Prinz and Sandro Tosi,
+    all of whom are now debian developers.
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 24 Sep 2008 20:27:25 +1000
+
 debian-maintainers (1.44) unstable; urgency=medium
 
   * Added Debian maintainer Christoph Göhre. Closes: #496554
