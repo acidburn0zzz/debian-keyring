@@ -2,6 +2,7 @@ debian-maintainers (1.46) UNRELEASED; urgency=low
 
   * Add Debian maintainer Emmanuel Bouthenot. Closes: #500471
   * Add Debian maintainer Samuel Thibault. Closes: #501350
+  * Add Debian maintainer David Paleino. Closes: #460645
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 11 Oct 2008 16:22:28 +1100
 
