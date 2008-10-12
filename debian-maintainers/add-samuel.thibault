@@ -1,0 +1,108 @@
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Date: Sun, 12 Oct 2008 12:56:11 +1100
+Comment: Add Samuel Thibault as a Debian Maintainer
+Agreement: http://lists.debian.org/debian-newmaint/2008/09/msg00034.html
+Advocates:
+  wijnen - http://lists.debian.org/debian-newmaint/2008/09/msg00036.html
+  mbanck - http://lists.debian.org/debian-newmaint/2008/09/msg00040.html
+  jcristau - http://lists.debian.org/debian-newmaint/2008/09/msg00045.html
+  mlang - http://lists.debian.org/debian-newmaint/2008/09/msg00052.html
+KeyCheck:
+  pub   1024D/45140A6D 2008-07-13
+        Key fingerprint = 9D50 3A83 0A14 98F7 C1E1  2579 4565 D582 4514 0A6D
+  uid                  Samuel Thibault <samuel.thibault@inria.fr>
+  sig!3        45140A6D 2008-07-13  Samuel Thibault <samuel.thibault@inria.fr>
+  sig!         9ED101BF 2008-08-23  Michael Banck <mbanck@debian.org>
+  sig!         C3DC59FA 2008-09-02  Brice Goglin <Brice.Goglin@ens-lyon.org>
+  uid                  Samuel Thibault <samuel.thibault@ens-lyon.org>
+  sig!3        45140A6D 2008-07-13  Samuel Thibault <samuel.thibault@inria.fr>
+  sig!         9ED101BF 2008-08-23  Michael Banck <mbanck@debian.org>
+  sig!         C3DC59FA 2008-09-02  Brice Goglin <Brice.Goglin@ens-lyon.org>
+  uid                  Samuel Thibault <samuel.thibault@labri.fr>
+  sig!3        45140A6D 2008-07-13  Samuel Thibault <samuel.thibault@inria.fr>
+  sig!         9ED101BF 2008-08-23  Michael Banck <mbanck@debian.org>
+  sig!         C3DC59FA 2008-09-02  Brice Goglin <Brice.Goglin@ens-lyon.org>
+  sub   1024D/0181DCF6 2008-07-13 [expires: 2009-07-13]
+  sig!         45140A6D 2008-07-13  Samuel Thibault <samuel.thibault@inria.fr>
+  sub   2048g/F065A8D7 2008-07-13 [expires: 2009-07-13]
+  sig!         45140A6D 2008-07-13  Samuel Thibault <samuel.thibault@inria.fr>
+  sub   2048g/EC95B7D5 2008-07-13
+  sig!         45140A6D 2008-07-13  Samuel Thibault <samuel.thibault@inria.fr>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has an expiration date of "2009-07-13 2009-07-13".
+  Please check that its not in the past, AND that it is not too
+  near in the future to make adding this applicant pointless.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.9 (GNU/Linux)
+  
+  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
+  =gOyw
+  -----END PGP PUBLIC KEY BLOCK-----
