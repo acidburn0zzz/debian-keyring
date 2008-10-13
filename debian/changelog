@@ -1,3 +1,18 @@
+debian-keyring (2008.10.13) UNRELEASED; urgency=low
+
+  * Replace 0x54BC83B7FDDAA58F with 0x76478107233B9EA0 (Laurent Bigonville)
+    (RT #846)
+  * Add new developer key 0xB7635728153FF940 (Joachim Reichel) (RT #854)
+  * Add new developer key 0xE1EBBEA51D389887 (Y Giridhar Appaji Nag) (RT #855)
+  * Add new developer key 0xAC2A5FFE00823EC2 (Julian Andres) (RT #856)
+  * Re-enable developer key 0x44015AA0BD83E84D (Behan Webster) (RT #857)
+  * Add new developer key 0xC18AFB9F2E039402 (Jonny Lamb) (RT #861)
+  * Add new developer key 0xA24704D5345E3A85 (Adam D. Barratt) (RT #862)
+  * Add new developer key 0x8F70629AC718D347 (Bradley Smith) (RT #863)
+  * Move 0x8B94031D7F75635F (Graham Wilson) to emeritus (RT #865)
+
+ -- Jonathan McDowell <noodles@earth.li>
+
 debian-keyring (2008.09.23) unstable; urgency=low
 
   * Add new developer key 0x02E93057444DD950 (Sandro Tosi) (RT #798)
