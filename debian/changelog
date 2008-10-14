@@ -1,10 +1,10 @@
-debian-maintainers (1.46) UNRELEASED; urgency=low
+debian-maintainers (1.46) unstable; urgency=medium
 
   * Add Debian maintainer Emmanuel Bouthenot. Closes: #500471
   * Add Debian maintainer Samuel Thibault. Closes: #501350
   * Add Debian maintainer David Paleino. Closes: #460645
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 11 Oct 2008 16:22:28 +1100
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Tue, 14 Oct 2008 22:49:47 +1100
 
 debian-maintainers (1.45) unstable; urgency=medium
 
