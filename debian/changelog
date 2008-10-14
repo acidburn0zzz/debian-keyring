@@ -1,4 +1,4 @@
-debian-keyring (2008.10.13) UNRELEASED; urgency=low
+debian-keyring (2008.10.14) UNRELEASED; urgency=low
 
   * Replace 0x54BC83B7FDDAA58F with 0x76478107233B9EA0 (Laurent Bigonville)
     (RT #846)
@@ -10,6 +10,18 @@ debian-keyring (2008.10.13) UNRELEASED; urgency=low
   * Add new developer key 0xA24704D5345E3A85 (Adam D. Barratt) (RT #862)
   * Add new developer key 0x8F70629AC718D347 (Bradley Smith) (RT #863)
   * Move 0x8B94031D7F75635F (Graham Wilson) to emeritus (RT #865)
+  * Updates from keyring.debian.org HKP interface:
+    * 0x0EE5978AFE63E8A1 Jens Peter Secher <jpsecher@gmail.com> sub:3 sig:31
+    * 0x3B32989D00F3CFE4 gregor herrmann <gregor.herrmann@comodo.priv.at> sig:124
+    * 0x41DC1C907244970B Kurt Roeckx <kurt@roeckx.be> sig:8
+    * 0x6E3FF64DF95C2F6D Christoph Martin <christoph.martin@uni-mainz.de> sig:1
+    * 0x815E0B3EFA4C5298 Tatsuya Kinoshita <tats@vega.ocn.ne.jp> sig:5
+    * 0xBC6AFB5BA1EE761C Pierre Habouzit <pierre.habouzit@intersec.com> uid:1 sig:1
+    * 0xDC3552E836E75604 Michal Čihař <michal@cihar.com> sig:1
+    * 0xE48B65B54B394F7E Barry deFreese <bddebian@bddebian.com> uid:1 sig:1
+    * 0xE5273D986BE3C423 Paul Wise <pabs3@bonedaddy.net> sig:9
+    * 0xF4E66A7CC20DF273 Ondřej Surý <ondrej@sury.org> sig:31
+    * 0xFE1F5E2FD1E2B16F Soeren Sonnenburg <sonne@debian.org> sig:4
 
  -- Jonathan McDowell <noodles@earth.li>
 
