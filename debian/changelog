@@ -1,3 +1,10 @@
+debian-maintainers (1.47) UNRELEASED; urgency=low
+
+  * Remove Adam D. Barratt, Julian Andres Klode and Y Giridhar
+    Appaji Nag, all of whom are now debian developers. 
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Thu, 23 Oct 2008 22:35:42 +1100
+
 debian-maintainers (1.46) unstable; urgency=medium
 
   * Add Debian maintainer Emmanuel Bouthenot. Closes: #500471
