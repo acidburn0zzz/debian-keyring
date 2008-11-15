@@ -1,0 +1,86 @@
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Date: Sat, 15 Nov 2008 18:02:54 +1100
+Comment: Add Debian Maintainer Thorsten Glaser
+Recommended-By: Patrick Schoenfeld <schoenfeld@in-medias-res.com>
+Agreement: http://lists.debian.org/debian-newmaint/2008/10/msg00004.html
+Advocates:
+  schoenfeld - http://lists.debian.org/debian-newmaint/2008/10/msg00007.html
+KeyCheck:
+  pub   4096R/E99007E0 2007-03-11 [expires: 2014-03-09]
+        Key fingerprint = 9031 955E 7A97 A4FD A32B  2B86 76B5 34B2 E990 07E0
+  uid                  Thorsten Glaser <tg@mirbsd.de>
+  sig!3        E99007E0 2007-03-11  Thorsten Glaser <tg@mirbsd.de>
+  sig!         73647CFF 2007-06-01  Nico Golde <nion@debian.org>
+  sig!3        BD8B050D 2007-06-03  Roland Rosenfeld <roland@spinnaker.de>
+  sig!         F61F73F8 2007-06-03  Bastian Venthur <venthur@cs.tu-berlin.de>
+  sig!2        A2D8F6BF 2007-08-26  Patrick Schoenfeld <schoenfeld@in-medias-res.com>
+  sig!         9DE1EEB1 2007-08-27  Marc Brockschmidt <Marc.Brockschmidt@credativ.de>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.9 (GNU/Linux)
+  
+  mQINBEX0aiMBEADhUiTT2IxB/DIpLbxhzep9fXLQquSo42zbYyjtjFDOSu3hXrC4
+  J+70oHJtN2XNv1703iHomJKc/GsB6sxWIHa4Z9mAQME3ivV1GkqdFnafBTTHqKYl
+  LAEzfBXqq5sH8y55DlLkAvFYHcTCASQSW2IAPZnh0vx1KOHl7HRTKHVi2rqV0a5h
+  1m5N7T5JHQeqASPBh4kBg3MDYFNTDVGhbY91hRhsWvJAA4592TpaZmkIRqVY+nfl
+  wT/RIh1JBOWZK4A8TG/ewpty1SvZj0AmDzDvNTy4xWgTCJxizlevI5lt05QpWerg
+  Mg2ZZA1cNx9FHlxEj+42QmZpXcJ38gzcFZQfSFcNyiC6AFFJeew978E7xsVHKohs
+  8fqo94zXguPmhoZP5VNRkxCqz/HwjhgmFvB3eJEqTWK3DD7zYFs7RkkSH158yXiO
+  5krWZzzZLA4+38SXH1FOA2DhfhQCjOVTmElUCwhZ/gOgWEayGZfUDduO5fs4Tfnz
+  fb2/xQe1Of9qWJy4ptc1HxCIYMsOu7kud4ox5LQA1GvF1UspK0XuXCBfDujmBBVy
+  JAwlbFXbH7p0GqHpj8WTiQCOHUMytWxdOuG3ysi6fW10VZLEPcJDdwJbmOb1WePj
+  1jTT0jZnHd2pAipAP7UwKDPaY+gCgBLbh8N3GZ71l+9JWPnuiyxT8N9FEQARAQAB
+  tB5UaG9yc3RlbiBHbGFzZXIgPHRnQG1pcmJzZC5kZT6JAkEEEwECACsFAkX0aiMC
+  Gy8FCQ0oaIAJCwQJCAcKAwECBxUDCQoIAgEDFgIAAh4BAheAAAoJEHa1NLLpkAfg
+  pVsQALNZOVXMeHKjxdiXIcVvz9/5pF0bbHJgnLLHadHVeGEUwqEtqZNw5CVyB3sP
+  JXromRBdXAlKh8yuyMOLktQNiHwEhT+kN+TtAhfHtfAOnpTjuyJhGpQkFR5PFoUC
+  KOpZfvN7W1+2LFZIvtCb6JuPwNDutIvaYAoghfnQLLMEZW5iNSUpLCs1m4bPdTke
+  +AGqJCI6q2OsGrexKYjm4nPjQRGI8dFayv9WBrYIChwyDIAnts2x8DkidCJORU4I
+  RbkTT+BHRRNcCyQz9sATm6/JRkK7A9AOwLGvAOxfYB+WHK5bZfi3dQZOR8YGNz4g
+  mA8UyQbw+5J5DNiS/WvY7vBzLmqFBNth/984RZ25M97vgbsfttneEBVzYgnMBmYm
+  UewNjfjYPk9sJ5UiPb6v4H9jEkdvD6LmGqln6AWELNQRyvfaOeGAvZRAn37eJgvG
+  g+St/oa3FKDcZ1WImOiHpUNvum9Fd24cccJpf8MjY607dYMUQ9B8HYU3zyutkKxE
+  oxZaNsK9CQzAqEvZw0i3JCnP5xvsdSyRP0ugxPxswPfJW1geBU+vVZG6R3rxvrZa
+  5lVakU2SzcYXJThmZEp9BN0Z0hhksH65sg5mYPp8OaB2wYPS8RAummnk2BGlWaeg
+  SqBYdRXpkjWkSemXyOlOLO7c32Ska17MbCPSGUJo31ZqI5QsiQGjBBABAgANBQJF
+  9G4YAgcAAwUCeAAKCRDMOv9djQX2GEm+C/95Xriyt4oj0vd76rg63TGtG7nA9j6d
+  ZXw6b8dLL3cT43aSLfwAuzf0vOEG7DJWSRMZAYdKktSB36LN+KeEnqP5SZ7LQ8nm
+  9wbzmwx3p56kSsA6e58svg0Ebn2y/3rLrnRmRD4Qpn3hrUczsmf7DltvPw9Zfk8t
+  lJcrsI/aJXdqOxNNWMID2rIgBXiwm+hAUGIXyHrlbWI8e9CN2GIP3QpLFw+mx0Sg
+  X7gJK404koW+fLyCiou7h3lsY/9BIU6Fqtxxu35bYdAVUlTDae6QkY1EhUJLYwUg
+  HVKFP2rXHYf0O/fdR0MkqwWHmMVn9uBzERTqCmoWTFGPxJ2VeIm9YzszfymHyiPL
+  VDojZ9UiK/59jzVJFpABH3Use65Bsh332xj2hnH/O0qGQBCaJLvbETkP9KiFDsLr
+  ScnObVOmhjbpefrwyf1R1teatOi8LREjoMBFGR12roNlDkZ8c7kbcXpdfXaCRrX2
+  iSq2R5TY0h+UA/wYbHvXu/AjaLT5VExxfrKIUAQQEQIAEAUCRfSH7gWDDShKtQMF
+  AXgACgkQyxnN8Yg99XeiHwCgwGlGhVkL+cnZazqN1gZcz8ycvzYAn30XJ0Dw9BM7
+  o/4wTFOuqqSy1FrMiGsEEBECACsFAkX1FKgFgw0nvfseGmh0dHA6Ly93d3cuY2Fj
+  ZXJ0Lm9yZy9jcHMucGhwAAoJENK7DQFl0P1YPYEAnRGgkHofiezIq/ENOd1SX4em
+  7ADmAJ0eUoFFcx1ZX7tetxR4ha8OR3iy54hGBBARAgAGBQJGYJccAAoJEB2H5Ulz
+  ZHz/eK0AoKFVUOJdTKNrFUTKILMfkuvJ/7HLAJwPgCJBGX/bFK6NqyrgSt6DnPJ4
+  xohGBBMRAgAGBQJGYvMXAAoJEDu/z3e9iwUNq60AoIHv/Y8jLURNMf+N+FpMxs/e
+  40uiAKCTgfb7t7EH9rFkk78qdLIOT0fs4ohGBBARAgAGBQJGYrZwAAoJEJo+uj/2
+  H3P4PnQAniszADyhpuPWEhofPebhfdO4FWQBAJ4uWqZUqKD9075Q1illSb2PhfEk
+  tYhGBBIRAgAGBQJG0UMrAAoJEEyiMxOi2Pa/QrcAn2CE5spH0Lsh+d5Zqx80Py4v
+  SJyvAJ9nPIrm2X+24sK8q/+Tq4TTzun59IhGBBARAgAGBQJG0rc4AAoJEJjuczqd
+  4e6xvgMAnj8Ni5z9tR9y16B7KpvjDXjt1etnAJ9/GzuoQ/0q3WlUJ7Au5LEPiUj8
+  MYkCQAQTAQIAKgUCRu7BUiMaaHR0cDovL3d3dy5lbGhvLm5ldC9jcnlwdG8vcG9s
+  aWN5LwAKCRCVeVLXzzQBqTEnEACkn3giAUJPSg2DuSHyqSXGAVXkQVfvxSHW7BMP
+  YgDkoh0C+cPn+qqsvx4Mbv0FZXXHcdIjPOdPPLflC+k4NZZC9O6g9N4wjUA/WWTn
+  PCM2jUWpIV86nCbrh1WMozREsNNkVQssyXhsv7F9EDPaFiJ8oggqggCGFTUGcbxu
+  u+ZTWvezoB9azRhguoB4rsSVdQv6RnpeCdvSchaUlkZCEKfLVt1dAHKavVUjZ9to
+  L3QtNdnMLB9F3h4V+/B3kPLHRX+9hX/WVp/HwkXEaI40LU4roX2p6FRa7/Hw/kSq
+  O7ac0pL4O7B4JhDpLycE4/Hi601hsdaboOoweRRtskxdtMqQfaCyB0zmM6OXMJS+
+  +eiX6nEXFJHKEBrejiZNboyUelU2JJ6hF82VoebcHytM/zNME9Y/8r6ND0BhWQvW
+  2bJ6AFa3lDEWesY7EQl/KXa0xh7dVi1N053toKltOciGa9qnf2st4oqHuvA95rB4
+  UrqG5Q4z9VsKQZB7bALI+DjFTu8Xmc0k71dbRWLeB7NCCsNVZfTqsi0UmItkzD6r
+  ocvEyBesdaSMsNy0C1mlW6lGxEbk6rqvthTo+YRmgQaxmqfgqn2HOfA86h3R3OYR
+  GSZ+RJ7Bp9jGOeDfxgCRA8G5H8+X+tPg42t5rpQNhKIrNbhx2wYhYxoBUgUxgt99
+  D9Rytg==
+  =3uet
+  -----END PGP PUBLIC KEY BLOCK-----
