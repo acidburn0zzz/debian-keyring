@@ -6,6 +6,7 @@ debian-maintainers (1.48) UNRELEASED; urgency=low
   * Update Daniel Leidert's public key. Closes: #498805
   * Add Debian maintainer Giuseppe Iuculano. Closes: #502088
   * Add Debian maintainer Thorsten Glaser. Closes: #503726
+  * Add Debian maintainer Franck Joncourt. Closes: #505232
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 15 Nov 2008 16:53:00 +1100
 

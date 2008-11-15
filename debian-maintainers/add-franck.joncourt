@@ -1,0 +1,104 @@
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Date: Sat, 15 Nov 2008 18:30:58 +1100
+Comment: Add Debian maintainer Franck Joncourt
+Agreement: http://lists.debian.org/debian-newmaint/2008/11/msg00001.html
+Advocates:
+  francois - http://lists.debian.org/debian-newmaint/2008/11/msg00002.html
+  gregoa - http://lists.debian.org/debian-newmaint/2008/11/msg00004.html
+KeyCheck:
+  pub   1024D/75C089FE 2006-09-23
+        Key fingerprint = C10E D1D0 EF70 0A2A CACF  9A3C C490 534E 75C0 89FE
+  uid                  Franck Joncourt (Personal email) <franck.mail@dthconnex.com>
+  sig!3        75C089FE 2008-04-11  Franck Joncourt (Personal email) <franck.mail@dthconnex.com>
+  sig!         747935DD 2008-11-05  Cyril Brulebois <kibi@debian.org>
+  uid                  Franck Joncourt <franck.joncourt@wanadoo.fr>
+  sig!3        75C089FE 2008-04-11  Franck Joncourt (Personal email) <franck.mail@dthconnex.com>
+  sig!3        75C089FE 2007-08-17  Franck Joncourt (Personal email) <franck.mail@dthconnex.com>
+  sig!3        75C089FE 2007-08-17  Franck Joncourt (Personal email) <franck.mail@dthconnex.com>
+  sig!3        75C089FE 2007-08-17  Franck Joncourt (Personal email) <franck.mail@dthconnex.com>
+  sig!3        75C089FE 2007-10-27  Franck Joncourt (Personal email) <franck.mail@dthconnex.com>
+  sig!3        75C089FE 2007-08-17  Franck Joncourt (Personal email) <franck.mail@dthconnex.com>
+  sig!         747935DD 2008-11-05  Cyril Brulebois <kibi@debian.org>
+  uid                  Franck Joncourt <joncourt_franck@yahoo.co.uk>
+  sig!3        75C089FE 2007-10-27  Franck Joncourt (Personal email) <franck.mail@dthconnex.com>
+  sig!3        75C089FE 2007-08-17  Franck Joncourt (Personal email) <franck.mail@dthconnex.com>
+  sig!3        75C089FE 2007-08-17  Franck Joncourt (Personal email) <franck.mail@dthconnex.com>
+  sig!3        75C089FE 2007-08-17  Franck Joncourt (Personal email) <franck.mail@dthconnex.com>
+  sig!3        75C089FE 2006-09-23  Franck Joncourt (Personal email) <franck.mail@dthconnex.com>
+  sig!         747935DD 2008-11-05  Cyril Brulebois <kibi@debian.org>
+  sub   2048g/7CBED87A 2006-09-23
+  sig!         75C089FE 2007-08-17  Franck Joncourt (Personal email) <franck.mail@dthconnex.com>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.9 (GNU/Linux)
+  
+  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
+  zQ4AoMFM6HhbQCHF546w+P5dX/ifUfHn
+  =18/5
+  -----END PGP PUBLIC KEY BLOCK-----
