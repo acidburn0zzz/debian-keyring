@@ -63,7 +63,7 @@ keycheck () {
 
 make
 cp debian-maintainers.gpg $TMPRING
-KEYID=$(jetring-apply $TMPRING "$changeset" 2>&1 | grep '^gpg: key' | sed 's/^gpg: key \([a-fA-F0-9]*\):.*/\1/')
+KEYID=$(jetring-apply $TMPRING "$changeset" 2>&1 | grep -m 1 '^gpg: key' | sed 's/^gpg: key \([a-fA-F0-9]*\):.*/\1/')
 if [ -z "$KEYID" ]; then
 	echo "Changeset failed to apply, or failed to parse key id from gpg output" >&2
 	rm -f $TMPRING*

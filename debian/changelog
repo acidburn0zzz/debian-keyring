@@ -1,3 +1,10 @@
+debian-maintainers (1.48) UNRELEASED; urgency=low
+
+  * Grep the first '^gpg: key' from jetring-apply's output. Closes:
+    #505775
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 15 Nov 2008 16:53:00 +1100
+
 debian-maintainers (1.47) unstable; urgency=medium
 
   * Remove Adam D. Barratt, Julian Andres Klode and Y Giridhar
