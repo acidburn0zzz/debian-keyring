@@ -1,14 +1,14 @@
-debian-maintainers (1.48) UNRELEASED; urgency=low
+debian-maintainers (1.48) unstable; urgency=medium
 
-  * Grep the first '^gpg: key' from jetring-apply's output. Closes:
-    #505775
+  * keycheck: grep the first '^gpg: key' from jetring-apply's output.
+    Closes: #505775
   * Update Jon Dowland's public key. Closes: #476804
   * Update Daniel Leidert's public key. Closes: #498805
   * Add Debian maintainer Giuseppe Iuculano. Closes: #502088
   * Add Debian maintainer Thorsten Glaser. Closes: #503726
   * Add Debian maintainer Franck Joncourt. Closes: #505232
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 15 Nov 2008 16:53:00 +1100
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 15 Nov 2008 18:44:42 +1100
 
 debian-maintainers (1.47) unstable; urgency=medium
 
