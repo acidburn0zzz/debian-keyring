@@ -1,3 +1,9 @@
+debian-maintainers (1.49) UNRELEASED; urgency=low
+
+  * Add Debian maintainer Jörg Sommer. Closes: #505844
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Fri, 21 Nov 2008 21:30:17 +1100
+
 debian-maintainers (1.48) unstable; urgency=medium
 
   * keycheck: grep the first '^gpg: key' from jetring-apply's output.
