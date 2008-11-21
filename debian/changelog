@@ -1,8 +1,8 @@
-debian-maintainers (1.49) UNRELEASED; urgency=low
+debian-maintainers (1.49) unstable; urgency=medium
 
   * Add Debian maintainer Jörg Sommer. Closes: #505844
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Fri, 21 Nov 2008 21:30:17 +1100
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Fri, 21 Nov 2008 22:46:28 +1100
 
 debian-maintainers (1.48) unstable; urgency=medium
 
