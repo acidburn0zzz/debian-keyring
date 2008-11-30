@@ -1,4 +1,4 @@
-debian-keyring (2008.10.14) UNRELEASED; urgency=low
+debian-keyring (2008.11.30) unstable; urgency=low
 
   * Replace 0x54BC83B7FDDAA58F with 0x76478107233B9EA0 (Laurent Bigonville)
     (RT #846)
@@ -10,20 +10,37 @@ debian-keyring (2008.10.14) UNRELEASED; urgency=low
   * Add new developer key 0xA24704D5345E3A85 (Adam D. Barratt) (RT #862)
   * Add new developer key 0x8F70629AC718D347 (Bradley Smith) (RT #863)
   * Move 0x8B94031D7F75635F (Graham Wilson) to emeritus (RT #865)
+  * Remove Elgamal encrypt or sign keys from emeritus keyring
+    (0x2C999BA976578289 & 0x5CD40DEEC998F231)
+  * Move 0x9C16BE6283F0C31D / 0xBC28408D84FF9DEA (Jeff Noxon) to removed
+    (Both keys revoked hence move to removed rather than emeritus)
+  * Remove revoked PGP keys 0x0B73A9783C620D2D, 0x28BC4B59481C6B95 +
+    0x973146746DD60385 (owners all have keys in GPG keyring).
+  * Move 0xFFCC784B103D398F (Tore Anderson) to emeritus (RT #897)
+  * Update 0x588BB1C4F6175459 with 0xE42E41CAFD50FF4F (Miquel van Smoorenburg)
+  Move 0x7640947667756F5D (Florent Rougon) to emeritus (RT #911)
   * Updates from keyring.debian.org HKP interface:
+    * 0x0A300ED090E5CA46 Felipe Augusto van de Wiel (faw) <faw@debian.org> sig:71
     * 0x0EE5978AFE63E8A1 Jens Peter Secher <jpsecher@gmail.com> sub:3 sig:31
-    * 0x3B32989D00F3CFE4 gregor herrmann <gregor.herrmann@comodo.priv.at> sig:124
+    * 0x276568D75C6153AD Mark Brown <broonie@sirena.org.uk> uid:1 sig:25
+    * 0x3B32989D00F3CFE4 gregor herrmann <gregor.herrmann@comodo.priv.at> sig:24
     * 0x41DC1C907244970B Kurt Roeckx <kurt@roeckx.be> sig:8
     * 0x6E3FF64DF95C2F6D Christoph Martin <christoph.martin@uni-mainz.de> sig:1
     * 0x815E0B3EFA4C5298 Tatsuya Kinoshita <tats@vega.ocn.ne.jp> sig:5
-    * 0xBC6AFB5BA1EE761C Pierre Habouzit <pierre.habouzit@intersec.com> uid:1 sig:1
+    * 0xADE94F6507799E74 John H. Robinson, IV <jaqque@sbih.org> sig:2
+    * 0xBA4E790E2EE20270 Matthew Grant <matthewgrant5@gmail.com> uid:2 sig:7
+    * 0xBC6AFB5BA1EE761C Pierre Habouzit <pierre.habouzit@intersec.com> uid:1 sig:43
     * 0xDC3552E836E75604 Michal Čihař <michal@cihar.com> sig:1
+    * 0xE1EBBEA51D389887 Y Giridhar Appaji Nag <giridhar@appaji.net> uid:3 sig:28
     * 0xE48B65B54B394F7E Barry deFreese <bddebian@bddebian.com> uid:1 sig:1
     * 0xE5273D986BE3C423 Paul Wise <pabs3@bonedaddy.net> sig:9
+    * 0xEB6CD6C5893FAD07 Steffen Joeris <white@debian.org> sig:23
+    * 0xF1BD4BE45B430367 Jonathan McDowell <noodles@earth.li> sig:16
     * 0xF4E66A7CC20DF273 Ondřej Surý <ondrej@sury.org> sig:31
+    * 0xF67E2A5D1CF2D62A Micah Anderson <micah@riseup.net> sig:55 sub:7
     * 0xFE1F5E2FD1E2B16F Soeren Sonnenburg <sonne@debian.org> sig:4
 
- -- Jonathan McDowell <noodles@earth.li>
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 30 Nov 2008 13:31:09 +0000
 
 debian-keyring (2008.09.23) unstable; urgency=low
 
