@@ -1,8 +1,8 @@
-debian-maintainers (1.50) UNRELEASED; urgency=low
+debian-maintainers (1.50) unstable; urgency=medium
 
   * Add Debian maintainer Eugene V. Lyubimkin. Closes: #507181
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 15 Dec 2008 13:16:08 +1100
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 15 Dec 2008 13:22:14 +1100
 
 debian-maintainers (1.49) unstable; urgency=medium
 
