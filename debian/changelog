@@ -1,3 +1,10 @@
+debian-maintainers (1.51) UNRELEASED; urgency=low
+
+  * Fix lintian message debhelper-but-no-misc-depends.
+  * Remove space at EOL in debian/{control,changelog}.
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 15 Dec 2008 14:02:11 +1100
+
 debian-maintainers (1.50) unstable; urgency=medium
 
   * Add Debian maintainer Eugene V. Lyubimkin. Closes: #507181
@@ -25,7 +32,7 @@ debian-maintainers (1.48) unstable; urgency=medium
 debian-maintainers (1.47) unstable; urgency=medium
 
   * Remove Adam D. Barratt, Julian Andres Klode and Y Giridhar
-    Appaji Nag, all of whom are now debian developers. 
+    Appaji Nag, all of whom are now debian developers.
   * Add Debian maintainer Mehdi Dogguy. Closes: #501112
   * Add Debian maintainer Olly Betts. Closes: #502190
 

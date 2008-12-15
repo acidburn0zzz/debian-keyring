@@ -13,8 +13,9 @@ Homepage: http://alioth.debian.org/projects/d-m/
 Package: debian-maintainers
 Architecture: all
 Section: misc
+Depends: ${misc:Depends}
 Recommends: gnupg
 Description: GPG keys of Debian maintainers
  The Debian project allows some people who are not Debian developers to
- maintain packages in the distribution, This package contains a keyring 
+ maintain packages in the distribution, This package contains a keyring
  of GnuPG keys of these maintainers.
