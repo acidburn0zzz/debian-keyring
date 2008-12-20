@@ -2,6 +2,7 @@ debian-maintainers (1.51) UNRELEASED; urgency=low
 
   * Fix lintian message debhelper-but-no-misc-depends.
   * Remove space at EOL in debian/{control,changelog}.
+  * Add Debian maintainer Tiago Bortoletto Vaz. Closes: #508763
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 15 Dec 2008 14:02:11 +1100
 
