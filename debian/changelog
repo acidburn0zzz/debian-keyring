@@ -1,3 +1,37 @@
+debian-keyring (2009.01.03) unstable; urgency=low
+
+  * Move 0x2578F87E149CDDB2 (Jacobo Tarrio) to emeritus (RT #929)
+  * Move 0x64667000FC05DA69 (Anand Kumria) to emeritus
+  * Move 0xAE266969A21AD4F9 (Thomas Viehmann) to emeritus (RT #954)
+  * Move 0x2159C8EF6D9CD4BD (Matt Ryan) to removed
+  * Move 0x5CDBAAD2D14235A0 (Thiemo Seufer) to removed
+  * Move 0x8A56A7B49A3ABF48 (Volker Ossenkopf) to emeritus (RT #965)
+  * Add new developer key 0xA5B953049DA2DA9B (Michael Casadevall) (RT #971)
+  * Add new developer key 0x1DE4F44021275CC4 (Arthur Loiret) (RT #972)
+  * Add new developer key 0x3DAF54A21EEF5276 (Jelmer Vernooij) (RT #973)
+  * Updates from keyring.debian.org HKP interface:
+    * 0x07DC563D1F41B907 Christian Marillat <marillat@debian.org> sig:1
+    * 0x0F1F76E20D2036AD Cameron Dale <camrdale@gmail.com> sig:2
+    * 0x10BB80FC16BD77C6 Gerfried Fuchs <rhonda@debian.at> sig:15
+    * 0x220BC883330C4A75 Martin F. Krafft <mail@martin-krafft.net> sig:344
+    * 0x33961588E1C21845 Thijs Kinkhorst <thijs@kinkhorst.com> sub:4 sig:257
+    * 0x3B32989D00F3CFE4 gregor herrmann <gregor.herrmann@comodo.priv.at> sig:1
+    * 0x58D0B1B227572C47 Aaron M. Ucko <ucko@debian.org> sig:3
+    * 0x60F960A19A540E39 Philipp Matthias Hahn (Privat) <pmhahn@titan.lahn.de> sub:1 sig:11
+    * 0x7D8DDD89C4CF8EC3 Torsten Werner <twerner@debian.org> sig:1
+    * 0x82D7DF6DFC7F6D0F Timo Jyrinki <timo.jyrinki@iki.fi> sig:2
+    * 0x8D3867D89DDB992B Luca Capello <gismo@debian.org> sig:25
+    * 0x9FB0DB32C02440B8 Jonas Smedegaard <dr@jones.dk> sig:19
+    * 0xB7635728153FF940 Joachim Reichel <joachim.reichel@gmx.de> uid:1 sig:2
+    * 0xC26C97906D4FC66F Nicolas Boullis <nboullis@debian.org> sub:1 sig:4
+    * 0xD5CA9B04F2C423BC Stefano Zacchiroli <zack@upsilon.cc> sig:29
+    * 0xE1EBBEA51D389887 Y Giridhar Appaji Nag <giridhar@appaji.net> sig:9
+    * 0xEB6CD6C5893FAD07 Steffen Joeris <white@debian.org> sig:26
+    * 0xED1A3933B2CFCDD8 Philipp Kern sig:8
+    * 0xF4B4B0CC797EBFAB Enrico Zini <enrico@enricozini.com> sub:2 sig:18
+
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 03 Jan 2009 21:33:25 +0000
+
 debian-keyring (2008.11.30) unstable; urgency=low
 
   * Replace 0x54BC83B7FDDAA58F with 0x76478107233B9EA0 (Laurent Bigonville)
