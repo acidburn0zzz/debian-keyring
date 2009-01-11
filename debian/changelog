@@ -1,3 +1,18 @@
+debian-keyring (2009.01.11) unstable; urgency=low
+
+  * Move 0x57A37FBD51CF8417 (Jörg Wendland) to emeritus
+  * Add new developer key 0x2404ED3A6AAAA569 (Martin Meredith) (RT #984)
+  * Updates from keyring.debian.org HKP interface:
+    * 0x28B295C3F46EADBB Peter De Schrijver (p2) <p2@mind.be> sig:2
+    * 0x715ED6A07E7B8AC9 Joerg Jaspert <joerg@debian.org> sig:19
+    * 0x8A9067791880283C Anibal Monsalve Salazar <anibal@debian.org> sig:4
+    * 0xD5CA9B04F2C423BC Stefano Zacchiroli <zack@upsilon.cc> sig:9
+    * 0xDE7AAF6E94C09C7F Peter Palfrader sig:32
+    * 0xE1EBBEA51D389887 Y Giridhar Appaji Nag <giridhar@appaji.net> sig:2
+    * 0xF4B4B0CC797EBFAB Enrico Zini <enrico@enricozini.com> sig:69
+
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 11 Jan 2009 12:27:06 +0000
+
 debian-keyring (2009.01.03) unstable; urgency=low
 
   * Move 0x2578F87E149CDDB2 (Jacobo Tarrio) to emeritus (RT #929)
