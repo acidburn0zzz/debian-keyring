@@ -6,6 +6,7 @@ debian-maintainers (1.52) UNRELEASED; urgency=low
     - Add Bernd Zeimetz
   * Remove Arthur Loiret, Jelmer Vernooij and Martin Meredith,
     all of whom are now debian developers.
+  * Add Debian maintainer Michael Hanke. Closes: #511244
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Tue, 13 Jan 2009 13:24:23 +1100
 
