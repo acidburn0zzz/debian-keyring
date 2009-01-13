@@ -1,4 +1,4 @@
-debian-maintainers (1.52) UNRELEASED; urgency=low
+debian-maintainers (1.52) unstable; urgency=medium
 
   * admins keyring. Closes: #510982
     - Remove Marc Brockschmidt
@@ -9,7 +9,7 @@ debian-maintainers (1.52) UNRELEASED; urgency=low
   * Add Debian maintainer Michael Hanke. Closes: #511244
   * Add Debian maintainer Jan Hauke Rahm. Closes: #511294
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Tue, 13 Jan 2009 13:24:23 +1100
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Tue, 13 Jan 2009 21:49:08 +1100
 
 debian-maintainers (1.51) unstable; urgency=medium
 
