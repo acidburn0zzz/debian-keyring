@@ -3,6 +3,7 @@ debian-maintainers (1.52) UNRELEASED; urgency=low
   * admins keyring. Closes: #510982
     - Remove Marc Brockschmidt
     - Add Wouter Verhelst
+    - Add Bernd Zeimetz
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Tue, 13 Jan 2009 13:24:23 +1100
 
