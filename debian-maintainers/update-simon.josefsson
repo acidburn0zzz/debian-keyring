@@ -1,0 +1,122 @@
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Date: Mon, 23 Feb 2009 12:28:43 +1100
+Comment: Update Simon Josefsson's key
+KeyCheck:
+  gpg: NOTE: signature key AABB1F7B expired Tue Jan  1 10:00:00 2008 EST
+  pub   1280R/B565716F 2002-05-05 [expires: 2010-02-22]
+        Key fingerprint = 0424 D4EE 81A0 E3D1 19C6  F835 EDA2 1E94 B565 716F
+  uid                  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2007-02-16  Simon Josefsson <simon@josefsson.org>
+  sig!3        C01B2A22 2002-08-13  Mikael Hedin <mikael.hedin@gmx.net>
+  sig!3     X  718A9256 2002-08-17  Wesley W. Terpstra <wesley@terpstra.ca>
+  sig!3        B565716F 2003-05-10  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2003-11-01  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2004-04-21  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2004-10-15  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2002-07-05  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2005-03-22  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2005-08-31  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2006-02-15  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2006-08-19  Simon Josefsson <simon@josefsson.org>
+  sig!         C5C05BAE 2007-02-25  Yves-Alexis Perez (Corsac) <corsac@corsac.net>
+  sig!         9DFFAAD4 2007-02-25  Ludovic Brenta <lbrenta@debian.org>
+  sig!         9B7C328D 2007-02-25  Luk Claes <luk@debian.org>
+  sig!         023B3F4F 2007-02-26  Lucas Nussbaum <lucas@lucas-nussbaum.net>
+  sig!         747935DD 2007-02-25  Cyril Brulebois <kibi@debian.org>
+  sig!         AC5F700C 2007-02-26  Julien Cristau <julien.cristau@ens-lyon.org>
+  sig!         800969EF 2007-02-26  Samuel Mimram <samuel.mimram@ens-lyon.org>
+  sig!3        B565716F 2009-02-22  Simon Josefsson <simon@josefsson.org>
+  uid                  Simon Josefsson <jas@extundo.com>
+  sig!3        B565716F 2007-02-16  Simon Josefsson <simon@josefsson.org>
+  sig!3        C01B2A22 2002-08-13  Mikael Hedin <mikael.hedin@gmx.net>
+  sig!3     X  718A9256 2002-08-17  Wesley W. Terpstra <wesley@terpstra.ca>
+  sig!3        B565716F 2003-05-10  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2003-11-01  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2004-04-21  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2004-10-15  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2002-05-05  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2005-03-22  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2005-08-31  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2006-02-15  Simon Josefsson <simon@josefsson.org>
+  sig!3        B565716F 2006-08-19  Simon Josefsson <simon@josefsson.org>
+  sig!         C5C05BAE 2007-02-25  Yves-Alexis Perez (Corsac) <corsac@corsac.net>
+  sig!         9DFFAAD4 2007-02-25  Ludovic Brenta <lbrenta@debian.org>
+  sig!         9B7C328D 2007-02-25  Luk Claes <luk@debian.org>
+  sig!         747935DD 2007-02-25  Cyril Brulebois <kibi@debian.org>
+  sig!         023B3F4F 2007-02-26  Lucas Nussbaum <lucas@lucas-nussbaum.net>
+  sig!         AC5F700C 2007-02-26  Julien Cristau <julien.cristau@ens-lyon.org>
+  sig!         800969EF 2007-02-26  Samuel Mimram <samuel.mimram@ens-lyon.org>
+  sig!3        B565716F 2009-02-22  Simon Josefsson <simon@josefsson.org>
+  sub   1280R/4D5D40AE 2002-05-05 [expires: 2009-04-21]
+  sig!         B565716F 2007-02-16  Simon Josefsson <simon@josefsson.org>
+  sig!         B565716F 2008-06-25  Simon Josefsson <simon@josefsson.org>
+  sub   1024R/09CC4670 2006-03-18 [expired: 2007-12-31]
+  sig!         B565716F 2007-07-03  Simon Josefsson <simon@josefsson.org>
+  sub   1024R/AABB1F7B 2006-03-18 [expired: 2007-12-31]
+  sig!         B565716F 2007-07-03  Simon Josefsson <simon@josefsson.org>
+  sub   1024R/A14C401A 2006-03-18 [expired: 2007-12-31]
+  sig!         B565716F 2007-07-03  Simon Josefsson <simon@josefsson.org>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has an expiration date of "2009-04-21 2007-12-31 2007-12-31 2007-12-31".
+  Please check that its not in the past, AND that it is not too
+  near in the future to make adding this applicant pointless.
+Action: import
+Data:
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.9 (GNU/Linux)
+  
+  mKsEPNUHKwEFALqJSBHn6Qk5ex138kwymxA3idCFoTi5Q6mVooEVVaYVfeDG+5uV
+  T5rhTFDfDcT9SO0eIlfKOraSRnVEHyDDH2PAgJFxyneFELcmLUQ66D+m8z+ziGro
+  6bcDSBBDMRkHIX6/kH/vnevjqivIld+j8WTcVX+SArcKyzgQ58uMTrfQdLqzh6D9
+  sE/838+ZPZkabmKKWMVWccoaUbWGYOcNwO0ABim0IVNpbW9uIEpvc2Vmc3NvbiA8
+  amFzQGV4dHVuZG8uY29tPoj7BBMBAgBFAhsDBAsHAwIDFQIDAxYCAQIeAQIXgCIY
+  ZG5zOnNpbW9uLmpvc2Vmc3Nvbi5vcmc/dHlwZT1DRVJUBQJJoS4ABQkOrVpOAAoJ
+  EO2iHpS1ZXFv6UQE/1/KBXQuimTEU7pIqWX8tnKds0FpmLPd0+SLa+Va6lOJBsyM
+  nhqWJSEvu4w9f4yC4ytw2EC16cDTn9wAcLpS2GE3l+Uph5OSiYYv1FtOfV+rTmep
+  aaVtuH0S/dzs1+oFQRxqY+Kn4qy8zO3qvlciX/d4XvM52Dlif78t5l2v0HTC5iC9
+  XgvmdgMrLpaQwDniA80G0DamzzKDa5nDulZ2ch20JVNpbW9uIEpvc2Vmc3NvbiA8
+  c2ltb25Aam9zZWZzc29uLm9yZz6I+wQTAQIARQIbAwQLBwMCAxUCAwMWAgECHgEC
+  F4AiGGRuczpzaW1vbi5qb3NlZnNzb24ub3JnP3R5cGU9Q0VSVAUCSaEuAAUJDq1a
+  TgAKCRDtoh6UtWVxb4pUBP9f7+9yeYZCJTvILOWlsYIvl7J2P0em2qYn3NbDUS1y
+  q+BUO8udTYNWwyxX9zGT5obhX9bhcWgms/UbGMsvlZcOT+e438P0t1q5q8u+FOgZ
+  tfkgZvyacCFvT4Fnd00B+RaaGZ2atnodvhN8qpzHIf8GVrhzULEtdA55BRw+x5f6
+  ORdSD14IFWirQ4WWKaXTURx5LIRxs6twYJawkumU6m4KuI4ERBwt6wEEAOaG0PWw
+  W6l4Z+nUf4bftXyaeB/jsGwFL3dEj7eZmM12r0zHj7JhQJa9bXZIsPYRtoGIoKiV
+  jZ7Qr2obwtLyQRl/I9LL4r+8FRbbxhtCF7gOfeDtP9DXwms03JY+T29WE6WdBD22
+  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
+  v3CdNNw82tc=
+  =qH08
+  -----END PGP PUBLIC KEY BLOCK-----
