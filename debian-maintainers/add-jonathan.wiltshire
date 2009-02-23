@@ -1,0 +1,82 @@
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Date: Mon, 23 Feb 2009 13:11:59 +1100
+Comment: Add Jonathan Wiltshire as Debian Maintainer
+Agreement: http://lists.debian.org/debian-newmaint/2009/01/msg00039.html
+Advocates: 
+  danchev - http://lists.debian.org/debian-newmaint/2009/01/msg00040.html
+  kibi - http://lists.debian.org/debian-newmaint/2009/01/msg00041.html
+  pabs - http://lists.debian.org/debian-newmaint/2009/01/msg00043.html
+KeyCheck:
+  pub   1024D/DB800B52 2008-08-16
+        Key fingerprint = 4216 F01F DCA9 21AC F3D3  A903 CA6B EA3E DB80 0B52
+  uid                  Jonathan Wiltshire (debian) <debian@jwiltshire.org.uk>
+  sig!3        DB800B52 2008-08-23  Jonathan Wiltshire (debian) <debian@jwiltshire.org.uk>
+  sig!3        DB800B52 2008-08-16  Jonathan Wiltshire (debian) <debian@jwiltshire.org.uk>
+  sig!         634F9A20 2009-01-15  Chris Lamb (Lamby) <chris@chris-lamb.co.uk>
+  sig!         DD9B9910 2009-01-26  Philip Hands <phil@hands.com>
+  uid                  Jonathan Wiltshire (mail) <mail@jwiltshire.org.uk>
+  sig!3        DB800B52 2008-08-18  Jonathan Wiltshire (debian) <debian@jwiltshire.org.uk>
+  sig!         634F9A20 2009-01-15  Chris Lamb (Lamby) <chris@chris-lamb.co.uk>
+  sig!         DD9B9910 2009-01-26  Philip Hands <phil@hands.com>
+  uid                  Jonathan Wiltshire (dev) <dev@jwiltshire.org.uk>
+  sig!3        DB800B52 2008-08-18  Jonathan Wiltshire (debian) <debian@jwiltshire.org.uk>
+  sig!         634F9A20 2009-01-15  Chris Lamb (Lamby) <chris@chris-lamb.co.uk>
+  sub   2048g/3AC458D5 2008-08-16
+  sig!         DB800B52 2008-08-16  Jonathan Wiltshire (debian) <debian@jwiltshire.org.uk>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data: 
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.9 (GNU/Linux)
+  
+  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
+  =oyCt
+  -----END PGP PUBLIC KEY BLOCK-----

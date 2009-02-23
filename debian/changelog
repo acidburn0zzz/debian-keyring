@@ -2,8 +2,9 @@ debian-maintainers (1.53) UNRELEASED; urgency=low
 
   * Update Michael Hanke's key. Closes: #511709
   * Update Simon Josefsson's key
+  * Add Debian maintainer Jonathan Wiltshire. Closes: #512618
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 23 Feb 2009 12:44:31 +1100
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 23 Feb 2009 13:34:41 +1100
 
 debian-maintainers (1.52) unstable; urgency=medium
 
