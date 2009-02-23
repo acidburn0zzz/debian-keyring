@@ -1,4 +1,4 @@
-debian-maintainers (1.53) UNRELEASED; urgency=low
+debian-maintainers (1.53) unstable; urgency=medium
 
   * Update Michael Hanke's key. Closes: #511709
   * Update Simon Josefsson's key
@@ -8,7 +8,7 @@ debian-maintainers (1.53) UNRELEASED; urgency=low
   * Add Debian maintainer Evgeni Golov. Closes: #514854
   * Add Debian maintainer Marcelo Jorge Vieira. Closes: #515667
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 23 Feb 2009 17:37:18 +1100
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Tue, 24 Feb 2009 08:36:23 +1100
 
 debian-maintainers (1.52) unstable; urgency=medium
 
