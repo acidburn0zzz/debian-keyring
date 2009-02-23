@@ -6,8 +6,9 @@ debian-maintainers (1.53) UNRELEASED; urgency=low
   * Add Debian maintainer Felix Zielcke. Closes: #514250
   * Add Debian maintainer Olivier Berger. Closes: #514764
   * Add Debian maintainer Evgeni Golov. Closes: #514854
+  * Add Debian maintainer Marcelo Jorge Vieira. Closes: #515667
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 23 Feb 2009 17:06:31 +1100
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 23 Feb 2009 17:37:18 +1100
 
 debian-maintainers (1.52) unstable; urgency=medium
 
