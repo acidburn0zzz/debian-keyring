@@ -4,8 +4,9 @@ debian-maintainers (1.53) UNRELEASED; urgency=low
   * Update Simon Josefsson's key
   * Add Debian maintainer Jonathan Wiltshire. Closes: #512618
   * Add Debian maintainer Felix Zielcke. Closes: #514250
+  * Add Debian maintainer Olivier Berger. Closes: #514764
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 23 Feb 2009 14:26:06 +1100
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 23 Feb 2009 15:39:17 +1100
 
 debian-maintainers (1.52) unstable; urgency=medium
 
