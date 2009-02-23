@@ -1,3 +1,9 @@
+debian-maintainers (1.53) UNRELEASED; urgency=low
+
+  * Update Michael Hanke's key. Closes: #511709
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 23 Feb 2009 12:10:55 +1100
+
 debian-maintainers (1.52) unstable; urgency=medium
 
   * admins keyring. Closes: #510982
