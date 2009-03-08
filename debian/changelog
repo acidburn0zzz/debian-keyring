@@ -1,3 +1,51 @@
+debian-keyring (2009.03.08) unstable; urgency=low
+
+  * Move old debian-security-private key to removed keyring (RT #353)
+  * Import revocation for 0x786C36BB363CCD95 (obsolete security key) (RT #353)
+  * Move 0x448074F5966FBA3C (Mark Howard) to emeritus
+  * Move 0x360A6CCA44A0FCB8 (Arthur Korn) to emeritus (RT #1057)
+  * Move 0xA9E2A289FD3C916B (Shaul Karl) to emeritus (RT #1165)
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x004D54B8393D2469 Thomas Quinot <thomas@cuivre.fr.eu.org> sig:41
+    * 0x16E2F4F5FC81E159 Tim Cutts <timc@chiark.greenend.org.uk> sig:1
+    * 0x1E4F6649EA291785 Matt Taggart <matt@lackof.org> uid:1 sig:3
+    * 0x2404ED3A6AAAA569 Martin Meredith <martin@sourceguru.net> uid:1 sig:8
+    * 0x29BE5D2268FD549F Martin Michlmayr <tbm@cyrius.com> sig:4
+    * 0x33961588E1C21845 Thijs Kinkhorst <thijs@kinkhorst.com> sig:19
+    * 0x35C3E3FAE91CD250 Daigo Moriwaki <beatles@sgtpepper.net> sig:8
+    * 0x3A65F019CFD42F26 Andres Salomon <dilinger@squishy.cc> sig:1
+    * 0x3B32989D00F3CFE4 gregor herrmann <gregor.herrmann@comodo.priv.at> sig:138
+    * 0x414B84236FECCDE0 Santiago Ruano Rincón <santiago@unicauca.edu.co> sig:513
+    * 0x41DC1C907244970B Kurt Roeckx <kurt@roeckx.be> sig:3
+    * 0x43EC92504F71955A Dave Beckett <dave@dajobe.org> sub:1 sig:6
+    * 0x49DEF96B0B5AB4E7 Kumar Appaiah <a.kumar@alumni.iitm.ac.in> sig:12
+    * 0x4D44C020C5C05BAE Yves-Alexis Perez (Corsac) <corsac@corsac.net> sig:237
+    * 0x51602C8D005C3B82 Jose Parrella <bureado@debian.org> sig:3
+    * 0x5194830BEC19B378 paul cannon <pcannon@lastwedge.com> uid:1 sub:1 sig:3
+    * 0x633B85285178E2A5 Dominic Hargreaves <dom@earth.li> sig:1
+    * 0x6CC69AC26868F41F Bart Martens <bartm@knars.be> sig:146
+    * 0x769FBF4873014091 Robert S. Edmonds <edmonds@robertedmonds.net> sig:1
+    * 0x77D52EBE3EF23CD6 Santiago Vila <sanvila@debian.org> sig:1
+    * 0x7C3B797088C7C1F7 Steve McIntyre <steve@einval.com> sig:39
+    * 0x7DB96D2E36EE0861 Miriam Ruiz <miriam@debian.org> uid:2 sig:11
+    * 0x804019FAA209C305 Rene Mayorga <rmayorga@debian.org> uid:1 sig:5
+    * 0x89CD4B21607559E6 Benjamin Mako Hill <mako@ubuntu.com> sig:4
+    * 0x8A9067791880283C Anibal Monsalve Salazar <anibal@debian.org> sig:43
+    * 0xA4E2880389BF7E2B Daniel Kobras <kobras@tat.physik.uni-tuebingen.de> sig:199
+    * 0xA975987B1F9FA7EE Stuart Teasdale <sdt@debian.org> uid:1 sig:82
+    * 0xB0A4C5A437D9412C Gonéri Le Bouder <goneri@rulezlan.org> uid:1 sig:9
+    * 0xB1CA92E8A7D86B95 Karl Ramm <kcr@debian.org> sig:16
+    * 0xBCBBC495718A9256 Wesley W. Terpstra <wesley@terpstra.ca> sub:1 sig:1
+    * 0xC376A8DAF1BCDB73 Aurelien Jarno <aurelien@aurel32.net> sig:78
+    * 0xD203CCA5FDA6B6A9 Igor Stroh <stroh@scan-plus.de> sig:1
+    * 0xD573D5B129AB4CDD Jeremy T. Bouse <jbouse@debian.org> sig:2
+    * 0xE1EBBEA51D389887 Y Giridhar Appaji Nag <giridhar@appaji.net> sig:7
+    * 0xEB7CBAA680C83E8E Ian Lynagh (wibble) <igloo@earth.li> sig:4
+    * 0xF628EB934743206C Joachim Breitner <mail@joachim-breitner.de> sig:3
+    * 0xF8D31F49DEB0EC31 Krzysztof Krzyżaniak (eloy) <eloy@debian.org> uid:1 sig:2
+
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 08 Mar 2009 20:01:43 +0000
+
 debian-keyring (2009.01.18) unstable; urgency=low
 
   * Add new developer key 0x804019FAA209C305 (Rene Mayorga) (RT #992)
@@ -137,7 +185,7 @@ debian-keyring (2008.09.23) unstable; urgency=low
     * 0xF9935424B1DF9A57 Giacomo Catenazzi <cate@debian.org> sig:2
     * 0xFE1F5E2FD1E2B16F Soeren Sonnenburg <sonne@debian.org> uid:1 sig:29
 
-  -- Jonathan McDowell <noodles@earth.li>  Tue, 23 Sep 2008 21:25:52 +0100
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 23 Sep 2008 21:25:52 +0100
 
 debian-keyring (2008.09.08) unstable; urgency=low
 
