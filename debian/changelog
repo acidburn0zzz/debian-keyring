@@ -1,3 +1,10 @@
+debian-maintainers (1.54) UNRELEASED; urgency=low
+
+  * Standards version is 3.8.1
+  * Add Debian maintainer Kęstutis Biliūnas. Closes: #516206
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 14 Mar 2009 12:40:44 +1100
+
 debian-maintainers (1.53) unstable; urgency=medium
 
   * Update Michael Hanke's key. Closes: #511709
