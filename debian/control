@@ -1,7 +1,7 @@
 Source: debian-keyring
 Section: misc
 Priority: optional
-Maintainer: James Troup <keyring-maint@debian.org>
+Maintainer: Debian Keyring Maintainers <keyring-maint@debian.org>
 Uploaders: Jonathan McDowell <noodles@earth.li>, James Troup <james@nocrew.org>
 Standards-Version: 3.7.3.0
 
