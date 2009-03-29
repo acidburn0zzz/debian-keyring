@@ -43,6 +43,9 @@ binary-indep: checkroot
 	dpkg-gencontrol -isp
 	chown -R root.root debian/tmp
 	chmod -R go=rX debian/tmp
+
+	cd debian/tmp && find . -type f ! -regex '.*DEBIAN/.*' -printf '%P\0' | xargs -r0 md5sum > DEBIAN/md5sums 
+
 	dpkg --build debian/tmp ..
 
 binary-arch:

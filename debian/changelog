@@ -2,6 +2,7 @@ debian-keyring (2009.xx.xx) unstable; urgency=low
 
   * Fix broken UTF-8 conversions in changelog. Thanks to Adeodato Simó.
     Closes: #520821
+  * Add md5sums for package. Closes: #484481
 
  --
 
