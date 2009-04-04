@@ -3,7 +3,8 @@ Section: misc
 Priority: optional
 Maintainer: Debian Keyring Maintainers <keyring-maint@debian.org>
 Uploaders: Jonathan McDowell <noodles@earth.li>, James Troup <james@nocrew.org>
-Standards-Version: 3.7.3.0
+Homepage: http://keyring.debian.org/
+Standards-Version: 3.8.1.0
 
 Package: debian-keyring
 Architecture: all
