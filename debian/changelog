@@ -1,12 +1,55 @@
-debian-keyring (2009.xx.xx) unstable; urgency=low
+debian-keyring (2009.04.04) unstable; urgency=low
 
   * Fix broken UTF-8 conversions in changelog. Thanks to Adeodato Simó.
     Closes: #520821
   * Add md5sums for package. Closes: #484481
   * Update Standards-Version to 3.8.1.0
     * Add Homepage field pointing at http://keyring.debian.org/
+  * Move 0x8FF11AC5DFE80FB2 (Martin Waitz) to emeritus (RT #1234)
+  * Add new developer key 0x63D2D5D907F89BB8 (Ludovico Gardenghi) (RT #1270)
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x0A300ED090E5CA46 Felipe Augusto van de Wiel (faw) <faw@debian.org> sig:40
+    * 0x10BB80FC16BD77C6 Gerfried Fuchs <rhonda@debian.at> sig:10
+    * 0x1239F7098E950E00 Filip Van Raemdonck <mechanix@debian.org> uid:1 sig:4
+    * 0x1EA8E5AA9725F63B Damyan Ivanov <dmn@debian.org> sig:97
+    * 0x3298C70DE5FFEDE1 Antonin Kral <A.Kral@bobek.cz> sig:1
+    * 0x33961588E1C21845 Thijs Kinkhorst <thijs@kinkhorst.com> sig:10
+    * 0x3A65F019CFD42F26 Andres Salomon <dilinger@canonical.com> uid:1 sig:4
+    * 0x3B32989D00F3CFE4 gregor herrmann <gregor.herrmann@comodo.priv.at> sig:8
+    * 0x4164D1B3894BB479 Luciano Bello <luciano@debian.org> sig:9
+    * 0x41DC1C907244970B Kurt Roeckx <kurt@roeckx.be> sig:142
+    * 0x493EFB8E5D64F870 Martin Zobel-Helas <zobel@debian.org> sig:26
+    * 0x49820C1CEA59038E Stephen Gran <sgran@debian.org> sig:5
+    * 0x5072D036AC583520 Holger Levsen <holger@layer-acht.org> sig:66
+    * 0x50B69C9F398B371D Joseph Nahmias <joe@nahmias.net> sig:1
+    * 0x5CA450DE52B7487E Steinar H. Gunderson <sesse@debian.org> sig:8
+    * 0x640E642E2F2F0CDE Jean-Michel Kelbert <kelbert@debian.org> sig:3
+    * 0x6754891DEAAC62DF Cyril Bouthors <cyril@bouthors.org> sig:9
+    * 0x7833ECF1B5444815 Bill Allombert <ballombe@debian.org> sig:2
+    * 0x7CF3F5AF29499F61 Sam Hocevar <sam@zoy.org> sig:37
+    * 0x804019FAA209C305 Rene Mayorga <rmayorga@debian.org> sig:18
+    * 0x846A74DB6538F5BF Mattia Monga <mattia.monga@unimi.it> sig:10
+    * 0x89CD4B21607559E6 Benjamin Hill (Mako) <mako@atdot.cc> uid:1 sig:41
+    * 0x8D3867D89DDB992B Luca Capello <gismo@debian.org> sig:2
+    * 0x9C851C72F12DA065 Jan Niehusmann (low security email key) <jan@debian.org> sig:2
+    * 0xA11DCBB16783ED5E Frederic Peters <fpeters@entrouvert.com> sig:4
+    * 0xA1630C8F74E0B766 Andreas Mueller <amu@debian.org> sig:87
+    * 0xB1C473173E7B4B73 Lionel Elie Mamane <lionel@mamane.lu> sig:59
+    * 0xB1CCD97290267086 Marc Dequènes (Duck) <Duck@DuckCorp.org> sig:15
+    * 0xB2B05F45D626ABB6 Marcela Tiznado <mlt@debian.org> sig:3
+    * 0xB735A649E0BA04C1 Ralf Treinen <treinen@debian.org> sig:101
+    * 0xBC6AFB5BA1EE761C Pierre Habouzit <pierre.habouzit@intersec.com> sig:1
+    * 0xBCF6C60F6E8169D2 Raphael Hertzog <raphael@ouaza.com> sig:49
+    * 0xBDF2A2205E3619D3 Arnaud Fontaine <arnaud@andesi.org> sig:1
+    * 0xD4B7DDF7B16CCA95 Pascal Giard <pascal@debian.org> sig:6
+    * 0xD5CA9B04F2C423BC Stefano Zacchiroli <zack@upsilon.cc> sig:16
+    * 0xDC913D985DF03167 Jérôme Marant <jerome@debian.org> sig:1
+    * 0xE5273D986BE3C423 Paul Wise <pabs3@bonedaddy.net> sig:21
+    * 0xED1A3933B2CFCDD8 Philipp Kern sig:5
+    * 0xF1BD4BE45B430367 Jonathan McDowell <noodles@earth.li> sig:3
+    * 0xF7B2C1C1B345BDD3 Neil McGovern <maulkin@halon.org.uk> sig:87
 
- --
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 04 Apr 2009 17:13:28 +0100
 
 debian-keyring (2009.03.08) unstable; urgency=low
 
