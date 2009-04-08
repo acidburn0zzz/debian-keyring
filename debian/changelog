@@ -1,6 +1,6 @@
-debian-maintainers (1.55) UNRELEASED; urgency=low
+debian-maintainers (1.55) unstable; urgency=medium
 
-  * Remove Ludovico Gardenghi who is now a debian developer. 
+  * Remove Ludovico Gardenghi who is now a debian developer.
   * admins keyring. Closes: #519645
     - Remove Ryan Murray
     - Add Mark Hymers
@@ -8,7 +8,7 @@ debian-maintainers (1.55) UNRELEASED; urgency=low
   * Add Debian maintainer Thorvald Natvig. Closes: #519651
   * Add Debian maintainer Thomas Leonard. Closes: #521885
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 08 Apr 2009 12:05:11 +1000
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 08 Apr 2009 15:53:07 +1000
 
 debian-maintainers (1.54) unstable; urgency=low
 
