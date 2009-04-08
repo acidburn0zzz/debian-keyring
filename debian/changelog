@@ -5,6 +5,7 @@ debian-maintainers (1.55) UNRELEASED; urgency=low
     - Remove Ryan Murray
     - Add Mark Hymers
     - Add Jonathan McDowell
+  * Add Debian maintainer Thorvald Natvig. Closes: #519651
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 08 Apr 2009 12:05:11 +1000
 
