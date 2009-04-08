@@ -3,7 +3,7 @@ Section: misc
 Priority: extra
 Build-Depends: debhelper (>= 7), dpkg-dev (>= 1.9.0), jetring (>= 0.8), gnupg
 Maintainer: Debian Maintainer Keyring Team <d-m-team@lists.alioth.debian.org>
-Uploaders: Joey Hess <joeyh@debian.org>, Anthony Towns <ajt@debian.org>, Anibal Monsalve Salazar <anibal@debian.org>, Christoph Berg <myon@debian.org>, James Troup <troup@debian.org>, Joerg Jaspert <joerg@debian.org>, Wouter Verhelst <wouter@debian.org>, Bernd Zeimetz <bzed@debian.org>, Mark Hymers <mhy@debian.org>
+Uploaders: Joey Hess <joeyh@debian.org>, Anthony Towns <ajt@debian.org>, Anibal Monsalve Salazar <anibal@debian.org>, Christoph Berg <myon@debian.org>, James Troup <troup@debian.org>, Joerg Jaspert <joerg@debian.org>, Wouter Verhelst <wouter@debian.org>, Bernd Zeimetz <bzed@debian.org>, Mark Hymers <mhy@debian.org>, Jonathan McDowell <noodles@debian.org>
 Standards-Version: 3.8.1
 Vcs-Browser: http://git.debian.org/?p=d-m/debian-maintainers.git;a=summary
 Vcs-Git: git://git.debian.org/git/d-m/debian-maintainers.git
