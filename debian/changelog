@@ -3,7 +3,6 @@ debian-maintainers (1.55) UNRELEASED; urgency=low
   * Remove Ludovico Gardenghi who is now a debian developer. 
   * admins keyring. Closes: #519645
     - Remove Ryan Murray
-    - Add Mark Hymers
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 08 Apr 2009 12:05:11 +1000
 
