@@ -1,3 +1,44 @@
+debian-keyring (2009.04.14) UNRELEASED; urgency=low
+
+  * Import changes sent to keyring.debian.org HKP interface (just for Bart ;)
+    * 0x0A300ED090E5CA46 Felipe Augusto van de Wiel (faw) <faw@debian.org> sig:2
+    * 0x18A0CC8D5706A4B4 Simon Richter <Simon.Richter@hogyros.de> uid:1 sig:330
+    * 0x28EEB35A3E8DCCC0 Martin Wuertele <martin@wuertele.net> sig:48
+    * 0x2E5FDBE0DF67A55E Alexandre Fayolle <alexandre.fayolle@logilab.fr> uid:1 sig:4
+    * 0x3330A21567209BDE Aigars Mahinovs <aigarius@debian.org> uid:1 sig:5
+    * 0x3DFC2C62AF79D29E Wouter Verhelst <wouter@grep.be> sub:1 sig:1
+    * 0x40A5BEED72D03CB1 Kenshi Muto <kmuto@debian.org> uid:1 sig:17
+    * 0x51ACF6AD75BE8097 Florian Lohoff <flo@rfc822.org> sig:10
+    * 0x56DCB977C5E95333 Faidon Liambotis <paravoid@debian.org> sig:47
+    * 0x63D2D5D907F89BB8 Ludovico Gardenghi <garden@acheronte.it> uid:2 sub:1 sig:90
+    * 0x64A7C0A7F2CF01A8 Bdale Garbee <bdale@gag.com> sig:47
+    * 0x6CC69AC26868F41F Bart Martens <bartm@knars.be> sig:6
+    * 0x71A1FF601BF8DE0F Roland Stigge <stigge@antcom.de> sig:23
+    * 0x7A81833366468D05 Marcelo E. Magallon <mmagallo@debian.org> sig:1
+    * 0x7C3B797088C7C1F7 Steve McIntyre <steve@einval.com> sig:12
+    * 0x81C08922808D0FD0 Don Armstrong <don@donarmstrong.com> sig:34
+    * 0x8801094A28BCB3E3 Neil Williams (Debian) <codehelp@debian.org> sig:200
+    * 0x89B3EF32CAEAAF03 Riku Voipio <Riku.Voipio@iki.fi> sig:9
+    * 0x89CD4B21607559E6 Benjamin Hill (Mako) <mako@atdot.cc> sig:6
+    * 0x8A838BE4D8480F2E Jan Luebbe <jluebbe@lasnet.de> sig:9
+    * 0x8C90347F8F068012 Andrew McMillan <andrew@catalyst.net.nz> uid:1 sig:119
+    * 0x981C5FD7C671257D David Moreno <david@axiombox.com> uid:2 sig:2
+    * 0x9F78F83CE8C43461 Ana Beatriz Guerrero López <ana@ekaia.org> sig:125
+    * 0x9FCF2CCD3F3E6426 Guido Günther <agx@sigxcpu.org> sig:8
+    * 0xAFF4670B0F7A8D01 Norbert Tretkowski <norbert@tretkowski.de> sig:6
+    * 0xC5AF774A58510B5A Christoph Berg <cb@df7cb.de> sig:61
+    * 0xC97425FBAE4B5D92 Scott M Dier <scott@dier.name> uid:1 sig:25 sub:1
+    * 0xD200EB30A0FB5DA6 Gustavo Noronha Silva <kov@debian.org> uid:3 sig:159
+    * 0xD4B7DDF7B16CCA95 Pascal Giard <pascal@debian.org> uid:1 sig:5
+    * 0xE1EBBEA51D389887 Y Giridhar Appaji Nag <giridhar@appaji.net> sub:1 sig:5
+    * 0xE544DE079B7C328D Luk Claes <luk@debian.org> sig:161
+    * 0xF20FAC0B7B8357E5 Andreas Schuldei <andreas@debian.org> sig:22
+    * 0xF628EB934743206C Joachim Breitner <mail@joachim-breitner.de> uid:1 sig:93
+    * 0xF7B2C1C1B345BDD3 Neil McGovern <maulkin@halon.org.uk> sig:7
+    * 0xF7F0E70F307D56ED Noèl Köthe <noel@debian.org> sig:269
+
+ -- Jonathan McDowell <noodles@earth.li>
+
 debian-keyring (2009.04.04) unstable; urgency=low
 
   * Fix broken UTF-8 conversions in changelog. Thanks to Adeodato Simó.
