@@ -1,4 +1,4 @@
-debian-keyring (2009.04.14) UNRELEASED; urgency=low
+debian-keyring (2009.04.20) UNRELEASED; urgency=low
 
   * Import changes sent to keyring.debian.org HKP interface (just for Bart ;)
     * 0x0A300ED090E5CA46 Felipe Augusto van de Wiel (faw) <faw@debian.org> sig:2
@@ -36,6 +36,13 @@ debian-keyring (2009.04.14) UNRELEASED; urgency=low
     * 0xF628EB934743206C Joachim Breitner <mail@joachim-breitner.de> uid:1 sig:93
     * 0xF7B2C1C1B345BDD3 Neil McGovern <maulkin@halon.org.uk> sig:7
     * 0xF7F0E70F307D56ED Noèl Köthe <noel@debian.org> sig:269
+  * Add new developer key 0xA430C6AA88BBB51E (Xavier Oswald) (RT #1310)
+  * Add new developer key 0x813FE83A74974824 (Xavier Lüthi) (RT #1311)
+  * Add new developer key 0x329465A24F1FC85D (Carsten Hey) (RT #1313)
+  * Add new developer key 0xD970398A7A5A6CC7 (Patrick Matthäi) (RT #1314)
+  * Add new developer key 0x24A01418AC15B50C (Evgeni Golov) (RT #1317)
+  * Add new developer key 0x40ECC154A8BAC1EA (Ian Beckwith) (RT #1315)
+  * Add new developer key 0xE5350AE06087D2F8 (Li Daobing) (RT #1312)
 
  -- Jonathan McDowell <noodles@earth.li>
 
