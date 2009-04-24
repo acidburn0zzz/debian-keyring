@@ -1,10 +1,10 @@
-debian-maintainers (1.56) UNRELEASED; urgency=low
+debian-maintainers (1.56) unstable; urgency=medium
 
   * Remove Evgeni Golov, Ian Beckwith, LI Daobing, Patrick Matthäi, Xavier
     Luthi and Xavier Oswald, all of whom are now debian developers.
     Closes: #525027, #524914
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Fri, 24 Apr 2009 15:42:38 +1000
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Fri, 24 Apr 2009 15:57:38 +1000
 
 debian-maintainers (1.55) unstable; urgency=medium
 
