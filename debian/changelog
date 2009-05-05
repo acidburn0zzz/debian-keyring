@@ -1,6 +1,7 @@
 debian-maintainers (1.57) UNRELEASED; urgency=low
 
   * Add Debian maintainer Angel Abad. Closes: #522081
+  * Add Debian maintainer Filippo Rusconi. Closes: #522443
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Tue, 05 May 2009 10:56:46 +1000
 
