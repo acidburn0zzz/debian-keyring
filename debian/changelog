@@ -1,3 +1,9 @@
+debian-maintainers (1.57) UNRELEASED; urgency=low
+
+  * Add Debian maintainer Angel Abad. Closes: #522081
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Tue, 05 May 2009 10:56:46 +1000
+
 debian-maintainers (1.56) unstable; urgency=medium
 
   * Remove Evgeni Golov, Ian Beckwith, LI Daobing, Patrick Matthäi, Xavier
