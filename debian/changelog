@@ -1,6 +1,7 @@
 debian-maintainers (1.58) UNRELEASED; urgency=low
 
   * Add Debian maintainer Marco Túlio Gontijo e Silva. Closes: #525541
+  * Add Debian maintainer Sven Eckelmann. Closes: #526484
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 06 May 2009 15:23:51 +1000
 
