@@ -1,9 +1,9 @@
-debian-maintainers (1.58) UNRELEASED; urgency=low
+debian-maintainers (1.58) unstable; urgency=medium
 
   * Add Debian maintainer Marco Túlio Gontijo e Silva. Closes: #525541
   * Add Debian maintainer Sven Eckelmann. Closes: #526484
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 06 May 2009 15:23:51 +1000
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 06 May 2009 15:43:35 +1000
 
 debian-maintainers (1.57) unstable; urgency=medium
 
