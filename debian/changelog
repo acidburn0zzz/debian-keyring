@@ -1,3 +1,39 @@
+debian-keyring (2009.05.06) UNRELEASED; urgency=low
+
+  * Move 0xF8DAD7195CBC1773 (Henning Makholm) to emeritus (RT #1370)
+  * Add new developer key 0x4565D58245140A6D (Samuel Thibault) (RT #1373)
+  * Remove first batch of PGPv3 keys (66 removed)
+  * Move 0x295CAA946CE5FB54 (David Frey) to emeritus (RT #1393)
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x0A300ED090E5CA46 Felipe Augusto van de Wiel (faw) <faw@debian.org> sig:5
+    * 0x0CFF30E126257B68 Christian Surchi <christian@truelite.it> sig:6
+    * 0x0D46FE7CD21DF495 Brian Ristuccia <brianr@osiris.978.org> sub:2 sig:2
+    * 0x10BB80FC16BD77C6 Gerfried Fuchs <rhonda@debian.at> sig:6
+    * 0x24A01418AC15B50C Evgeni -SargentD- Golov <sargentd@die-welt.net> uid:1 sig:2
+    * 0x329465A24F1FC85D Carsten Hey <carsten@debian.org> uid:1 sig:1
+    * 0x40A5BEED72D03CB1 Kenshi Muto <kmuto@debian.org> sig:2
+    * 0x40ECC154A8BAC1EA Ian Beckwith <ianb@erislabs.net> uid:1 sig:5
+    * 0x6B0E322836129171 Jim Westveer <jim@westveerfarms.com> uid:1 sig:1
+    * 0x6CC69AC26868F41F Bart Martens <bartm@knars.be> sig:1
+    * 0x79E6F6DC888354F7 Richard Atterer <richard@atterer.net> sig:6
+    * 0x813FE83A74974824 Xavier Luthi <xavier@caroxav.be> uid:1 sig:1
+    * 0xA24704D5345E3A85 Adam D. Barratt <adam@adam-barratt.org.uk> uid:1 sig:3
+    * 0xA430C6AA88BBB51E Xavier Oswald <xoswald@debian.org> uid:1 sig:11
+    * 0xB1C473173E7B4B73 Lionel Elie Mamane <lionel@mamane.lu> sig:2
+    * 0xB3753E4D514B3E7C Florian Ernst <florian_ernst@gmx.net> sig:113
+    * 0xC26C97906D4FC66F Nicolas Boullis <nboullis@debian.org> sub:3 sig:3
+    * 0xD29B1AFCF90FFFE5 David Parker <david@neongoat.com> sig:2
+    * 0xDC3552E836E75604 Michal Čihař <michal@cihar.com> sig:10
+    * 0xDC5A28E48C7740AF Gaudenz Steinlin <gaudenz.steinlin@soziologie.ch> sig:8
+    * 0xE15517F22B0920C0 Loïc Minier (lool) <lool@debian.org> sig:20
+    * 0xE1EBBEA51D389887 Y Giridhar Appaji Nag <giridhar@appaji.net> sig:5
+    * 0xE5350AE06087D2F8 LI Daobing <lidaobing@gmail.com> uid:1 sig:1
+    * 0xEE25DE3F1CDB0FE3 Henrique de Moraes Holschuh <hmh@debian.org> sub:3 sig:3
+    * 0xEE491C3E0123F2F2 Enrico Tassi <gares@fettunta.org> uid:1 sig:1
+    * 0xF9935424B1DF9A57 Giacomo Catenazzi <cate@debian.org> sig:6
+
+ -- Jonathan McDowell <noodles@earth.li>  Wed, 06 May 2009 19:32:37 +0100
+
 debian-keyring (2009.04.20) UNRELEASED; urgency=low
 
   * Import changes sent to keyring.debian.org HKP interface (just for Bart ;)
@@ -44,7 +80,7 @@ debian-keyring (2009.04.20) UNRELEASED; urgency=low
   * Add new developer key 0x40ECC154A8BAC1EA (Ian Beckwith) (RT #1315)
   * Add new developer key 0xE5350AE06087D2F8 (Li Daobing) (RT #1312)
 
- -- Jonathan McDowell <noodles@earth.li>
+ -- Jonathan McDowell <noodles@earth.li> Mon, 20 Apr 2009 12:30:04 +0100
 
 debian-keyring (2009.04.04) unstable; urgency=low
 
