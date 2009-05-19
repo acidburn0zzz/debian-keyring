@@ -25,7 +25,7 @@ output/keyrings/removed-keys.pgp: removed-keys-pgp/0x*
 	cat removed-keys-pgp/0x* > output/keyrings/removed-keys.pgp
 
 output/md5sums.txt: output/keyrings/debian-keyring.gpg output/keyrings/debian-keyring.pgp output/keyrings/debian-role-keys.gpg output/keyrings/emeritus-keyring.gpg output/keyrings/emeritus-keyring.pgp output/keyrings/extra-keys.pgp output/keyrings/removed-keys.gpg output/keyrings/removed-keys.pgp
-	cd output; md5sum keyrings/* > md5sums.txt
+	cd output; sha512sum keyrings/* > sha512sums.txt
 
 output/README: README
 	cp README output/
