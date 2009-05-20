@@ -7,6 +7,7 @@ debian-maintainers (1.59) UNRELEASED; urgency=low
   [ Anibal Monsalve Salazar ]
   * Add Debian maintainer Daniel Moerner. Closes: #528124
   * Add Debian maintainer Salvatore Bonaccorso. Closes: #528400
+  * Add Debian maintainer Ryan Niebur. Closes: #528837
 
  -- Joey Hess <joeyh@debian.org>  Wed, 06 May 2009 19:27:32 -0400
 
