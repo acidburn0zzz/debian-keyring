@@ -1,7 +1,11 @@
 debian-maintainers (1.59) UNRELEASED; urgency=low
 
+  [ Joey Hess ]
   * Build depend on jetring 0.15, and upgrade to sha256 checksums
     in index files.
+
+  [ Anibal Monsalve Salazar ]
+  * Add Debian maintainer Daniel Moerner. Closes: #528124
 
  -- Joey Hess <joeyh@debian.org>  Wed, 06 May 2009 19:27:32 -0400
 
