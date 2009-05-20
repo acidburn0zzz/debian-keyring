@@ -1,4 +1,4 @@
-debian-maintainers (1.59) UNRELEASED; urgency=low
+debian-maintainers (1.59) unstable; urgency=medium
 
   [ Joey Hess ]
   * Build depend on jetring 0.15, and upgrade to sha256 checksums
@@ -10,7 +10,7 @@ debian-maintainers (1.59) UNRELEASED; urgency=low
   * Add Debian maintainer Ryan Niebur. Closes: #528837
   * Remove Samuel Thibault who is a debian developer.
 
- -- Joey Hess <joeyh@debian.org>  Wed, 06 May 2009 19:27:32 -0400
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 20 May 2009 14:40:14 +1000
 
 debian-maintainers (1.58) unstable; urgency=medium
 
