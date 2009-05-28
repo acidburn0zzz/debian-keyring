@@ -1,3 +1,50 @@
+debian-keyring (2009.05.28) unstable; urgency=low
+
+  * Change from MD5 to SHA512 for our checksums file.
+  * Move 0x9168856B48BFF157 (Neale Pickett) to emeritus
+  * Move 0x7EB792DF191FCD8A (Kyle McMartin) to emeritus
+  * Add new developer key 0xD8DF53FB37E272E8 (Michael Prokop) (RT #1433)
+  * Add new developer key 0xCCD2ED94D21739E9 (Daniel Gillmor) (RT #1432)
+  * Add new developer key 0x10510A738501C7FC (Sebastian Harl) (RT #1431)
+  * Second batch of PGPv3 removals (41 removed)
+  * Update 0xF1BD4BE45B430367 with 0x94FA372B2DA8B985 (Jonathan McDowell)
+  * Update 0xF67E2A5D1CF2D62A with 0x8CBF9A322861A790 (Micah Anderson)
+    (RT #1413)
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x1EA8E5AA9725F63B Damyan Ivanov <dmn> sig:6
+    * 0x21BADABBBF24424C Manoj Srivastava sig:93
+    * 0x2F3E069EFEC23FB2 Barak A. Pearlmutter <bap> sig:10
+    * 0x3A65F019CFD42F26 Andres Salomon <dilinger> uid:2 sig:3
+    * 0x3B32989D00F3CFE4 gregor herrmann <gregoa> sig:8
+    * 0x40A5BEED72D03CB1 Kenshi Muto <kmuto> sig:14
+    * 0x41DC1C907244970B Kurt Roeckx sub:1 sig:10
+    * 0x43EC92504F71955A Dave Beckett <dajobe> sig:4
+    * 0x4565D58245140A6D Samuel Thibault <sthibault> uid:1 sig:2
+    * 0x46801517A1696D2B Laurent Fousse <lfousse> sig:13
+    * 0x4D44C020C5C05BAE Yves-Alexis Perez <corsac> sig:10
+    * 0x4F899A4EFFE3035D Shane Wegner <shane> sig:2
+    * 0x57E8CE072EAE5D2D Marc Singer <elf> sig:3
+    * 0x58D0B1B227572C47 Aaron M. Ucko <ucko> sig:3
+    * 0x61E98ECF16D970C6 Eric Dorland <eric> sig:422
+    * 0x75897592BAFEC7F2 Charles Plessy <plessy> sig:6
+    * 0x9946397AE142E6F4 MJ Ray <mjr> sig:5
+    * 0x9FB0DB32C02440B8 Jonas Smedegaard sig:40
+    * 0xB3A02D6623706F87 Pierre Machard <pmachard> sig:8
+    * 0xC26C97906D4FC66F Nicolas Boullis <nboullis> sig:1
+    * 0xC76CE5AC12CADFA5 Craig Small <csmall> sig:8
+    * 0xC890730FA3F9E30E Michael C. Schultheiss <schultmc> sig:213
+    * 0xCD614FD7F5D65169 Julien BLACHE <jblache> sig:37
+    * 0xD7595D374B729625 Peter Van Eynde <pvaneynd> sub:2 sig:25
+    * 0xD970398A7A5A6CC7 Patrick Matthäi <pmatthaei> uid:1 sig:17
+    * 0xDD45D40015E2AFD6 Tobias Quathamer <toddy> sig:3
+    * 0xE1EBBEA51D389887 Y Giridhar Appaji Nag <appaji> sig:7
+    * 0xE5273D986BE3C423 Paul Wise <pabs> sig:14
+    * 0xE66D2EEBAB963370 Clint Adams <schizo> sig:3
+    * 0xED1A3933B2CFCDD8 Philipp Kern <pkern> sig:47
+    * 0xF8358FA2F2833C93 Eric Evans <eevans> sig:15
+
+ -- Jonathan McDowell <noodles@earth.li>  Thu, 28 May 2009 20:34:39 +0100
+
 debian-keyring (2009.05.06) UNRELEASED; urgency=low
 
   * Move 0xF8DAD7195CBC1773 (Henning Makholm) to emeritus (RT #1370)
