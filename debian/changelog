@@ -127,7 +127,7 @@ debian-keyring (2009.04.20) UNRELEASED; urgency=low
   * Add new developer key 0x40ECC154A8BAC1EA (Ian Beckwith) (RT #1315)
   * Add new developer key 0xE5350AE06087D2F8 (Li Daobing) (RT #1312)
 
- -- Jonathan McDowell <noodles@earth.li> Mon, 20 Apr 2009 12:30:04 +0100
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 20 Apr 2009 12:30:04 +0100
 
 debian-keyring (2009.04.04) unstable; urgency=low
 
