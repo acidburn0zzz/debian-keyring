@@ -1,6 +1,7 @@
 debian-maintainers (1.60) UNRELEASED; urgency=low
 
   * Remove Daniel Kahn Gillmor who is a debian developer.
+  * Update Mathieu Malaterre's key. Closes: #530384
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 07 Jun 2009 17:25:59 +1000
 
