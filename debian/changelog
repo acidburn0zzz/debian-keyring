@@ -1,3 +1,9 @@
+debian-maintainers (1.60) UNRELEASED; urgency=low
+
+  * Remove Daniel Kahn Gillmor who is a debian developer.
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 07 Jun 2009 17:25:59 +1000
+
 debian-maintainers (1.59) unstable; urgency=medium
 
   [ Joey Hess ]
