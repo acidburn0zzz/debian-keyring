@@ -1,4 +1,4 @@
-debian-maintainers (1.60) UNRELEASED; urgency=low
+debian-maintainers (1.60) unstable; urgency=medium
 
   * Remove Daniel Kahn Gillmor who is a debian developer.
   * Update Mathieu Malaterre's key. Closes: #530384
@@ -6,7 +6,7 @@ debian-maintainers (1.60) UNRELEASED; urgency=low
   * Add Debian maintainer Mazen Neifer. Closes: #530569
   * Add Debian maintainer Erik de Castro Lopo. Closes: #531811
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 07 Jun 2009 17:25:59 +1000
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 08 Jun 2009 18:25:46 +1000
 
 debian-maintainers (1.59) unstable; urgency=medium
 
