@@ -2,6 +2,7 @@ debian-maintainers (1.61) UNRELEASED; urgency=low
 
   * Add Debian maintainer Antonio Radici. Closes: #532143
   * Add Debian maintainer Gilles Filippini. Closes: #532382
+  * Add Debian maintainer Peter Miller. Closes: #532442
 
  -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 20 Jun 2009 18:24:12 +1000
 

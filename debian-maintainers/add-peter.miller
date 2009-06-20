@@ -1,0 +1,101 @@
+Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
+Date: Sat, 20 Jun 2009 19:51:53 +1000
+Comment: Add Peter Miller <pmiller@opensource.org.au> as a Debian Maintainer
+Agreement: http://lists.debian.org/debian-newmaint/2009/06/msg00025.html
+Advocates: 
+  horms - http://lists.debian.org/debian-newmaint/2009/06/msg00020.html
+  mpalmer - http://lists.debian.org/debian-newmaint/2009/06/msg00026.html
+KeyCheck:
+  pub   1024D/D0EDB64D 2002-11-13
+        Key fingerprint = AD0A C5DF C426 4F03 5D53  2BDB 18D8 A4E2 D0ED B64D
+  uid                  Peter Miller <pmiller@opensource.org.au>
+  sig!3        D0EDB64D 2008-12-11  Peter Miller <pmiller@opensource.org.au>
+  sig!         05410E97 2009-03-11  Simon Horman <horms@verge.net.au>
+  uid                  Peter Miller <millerp@canb.auug.org.au>
+  sig!3        D0EDB64D 2005-05-15  Peter Miller <pmiller@opensource.org.au>
+  sig!3     X  43B8D6C8 2004-03-24  Erik de Castro Lopo <erikd@mega-nerd.com>
+  sig!3        D0EDB64D 2002-11-13  Peter Miller <pmiller@opensource.org.au>
+  sig!3        D0EDB64D 2004-05-20  Peter Miller <pmiller@opensource.org.au>
+  sig!3        0C62B791 2008-01-28  Andrew Ruthven (Catalyst IT Ltd) <andrew.ruthven@catalyst.net.nz>
+  sig!         64011A8B 2008-02-06  Jonathan Oxer (Linux Australia) <jon@linux.org.au>
+  sig!         F5C75256 2008-06-21  Russell Coker <russell@coker.com.au>
+  sig!         05410E97 2009-03-11  Simon Horman <horms@verge.net.au>
+  sub   1024g/EA7C615D 2002-11-13
+  sig!         D0EDB64D 2005-05-15  Peter Miller <pmiller@opensource.org.au>
+  .
+  Let's test if its a version 4 or greater key
+  Key is ok
+  Check for key expire stuff
+  Key has no expiration date set, nothing to check.
+Action: import
+Data: 
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1.4.9 (GNU/Linux)
+  
+  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
+  =RLlF
+  -----END PGP PUBLIC KEY BLOCK-----
