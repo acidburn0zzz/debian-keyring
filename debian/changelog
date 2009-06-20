@@ -1,3 +1,9 @@
+debian-maintainers (1.61) UNRELEASED; urgency=low
+
+  * Add Debian maintainer Antonio Radici. Closes: #532143
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 20 Jun 2009 18:24:12 +1000
+
 debian-maintainers (1.60) unstable; urgency=medium
 
   * Remove Daniel Kahn Gillmor who is a debian developer.
