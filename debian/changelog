@@ -1,3 +1,41 @@
+debian-keyring (2009.06.30) unstable; urgency=low
+
+  * Move 0x937A206B4A5D72FE (Rafael Laboissiere) to emeritus (RT #1506)
+  * Add new developer key 0x632E3DAD46D9CE5A (Raphael Geissert) (RT #1501)
+  * Add new developer key 0x5EC42C53D86A66BA (Patryk Cisek) (RT #1502)
+  * Add new developer key 0x168B4E717032F238 (Jon Dowland) (RT #1509)
+  * Add new developer key 0x0641D82AE3E3CE1D (Alexander GQ Gerasiov) (RT #1510)
+  * Move 0xB21F8AD1961545A1/0xBFDB61BDE340CA99 (Ian Murdock) to emeritus
+    (RT #1507)
+  * Add new developer key 0x161974E4C259E0E8 (Philipp Hübner) (RT #1511)
+  * Add new developer key 0x9A953C82556ABA51 (Francisco Claramonte) (RT #1512)
+  * Update 0xE66D2EEBAB963370 with 0xF6D3495BB0AE9A02 (Clint Adams) (RT #1455)
+  * Third batch of PGPv3 removals (5 removed)
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x0587B26E45F3FBF9 John Lightsey <lightsey> uid:1 sig:2
+    * 0x10510A738501C7FC Sebastian Harl <tokkee> uid:1 sig:1
+    * 0x3B32989D00F3CFE4 gregor herrmann <gregoa> sig:5
+    * 0x4D44C020C5C05BAE Yves-Alexis Perez <corsac> sig:7
+    * 0x62038A4BDD9B9910 Philip Hands <philh> sig:5
+    * 0x6CC69AC26868F41F Bart Martins <bartm> sig:2
+    * 0x72043670BDE5F1EE Andreas Henriksson <ah> sig:3
+    * 0x82944F68EA2D2C41 Mattia Dongili <malattia> uid:1 sig:9
+    * 0x8A9067791880283C Anibal Monsalve Salazar <aniba> sig:4
+    * 0xADE94F6507799E74 John H. Robinson, IV  <jaqque> sig:4
+    * 0xBC6AFB5BA1EE761C Pierre Habouzit <madcoder> sig:16
+    * 0xCCD2ED94D21739E9 Daniel Kahn Gillmor <dkg> uid:1 sig:18
+    * 0xD8F523B3D7D0EF65 Jérémy Bobbio <lunar> sig:86
+    * 0xDC3552E836E75604 Michal Čihař <nijel> sig:6
+    * 0xE15517F22B0920C0 Loïc Minier <lool> uid:2 sig:73
+    * 0xE5273D986BE3C423 Paul Wise <pabs> sig:2
+    * 0xED1A3933B2CFCDD8 Philipp Kern <pkern> sig:105
+    * 0xEE50AA3CDD81604C Oystein Gisnas <shaka> sub:2 sig:5 (RT #1465)
+    * 0xF0DC8E00B28C5995 Brendan O'Dea <bod> sig:2
+    * 0xF6DD330210FA4CD1 Colin Watson <cjwatson> sig:83
+    * 0xF7F0E70F307D56ED Noèl Köthe <noel> sig:128
+
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 30 Jun 2009 17:01:46 +0100
+
 debian-keyring (2009.05.28) unstable; urgency=low
 
   * Change from MD5 to SHA512 for our checksums file.
