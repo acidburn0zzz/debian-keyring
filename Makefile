@@ -34,4 +34,4 @@ output/changelog: debian/changelog
 	cp debian/changelog output/
 
 clean:
-	rm -f output/keyrings/*.pgp output/keyrings/*.gpg output/sha512sums.txt output/README output/changelog
+	rm -f output/keyrings/*.pgp output/keyrings/*.gpg output/sha512sums.txt output/README output/changelog output/keyrings/*~
