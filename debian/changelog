@@ -1,10 +1,10 @@
-debian-maintainers (1.62) UNRELEASED; urgency=low
+debian-maintainers (1.62) unstable; urgency=medium
 
   * Standards version is 3.8.2
   * Remove Jon Dowland and Raphael Geissert, all of whom are now debian
     developers.
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Sat, 20 Jun 2009 20:29:13 +1000
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Wed, 01 Jul 2009 17:00:35 +1000
 
 debian-maintainers (1.61) unstable; urgency=medium
 
