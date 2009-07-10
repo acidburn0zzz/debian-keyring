@@ -1,8 +1,8 @@
-debian-maintainers (1.63) UNRELEASED; urgency=low
+debian-maintainers (1.63) unstable; urgency=medium
 
   * Add Debian maintainer Antoine Beaupré. Closes: #535531
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Fri, 10 Jul 2009 12:26:15 +1000
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Fri, 10 Jul 2009 12:32:02 +1000
 
 debian-maintainers (1.62) unstable; urgency=medium
 
