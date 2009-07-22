@@ -1,3 +1,40 @@
+debian-keyring (2009.07.22) unstable; urgency=low
+
+  * Move 0x460D4BD71EE5DD34 (Alexis Sukrieh) to emeritus
+  * Update developer key 0x4132BF902A385C57 (Alastair McKinstry) (RT #1550)
+  * Add new developer key 0x37E1C17570096AD1 (Asheesh Laroia) (RT #1530)
+  * Add new developer key 0xA108FBC534A26946 (Ying-Chun Liu) (RT #1531)
+  * Add new developer key 0xA73E0055558FB8DD (Jan Dittberner) (RT #1532)
+  * Add new developer key 0xA95C3BECEB88E930 (Philipp Benner) (RT #1533)
+  * Add new developer key 0x88E5D733DD899610 (Sylvestre Ledru) (RT #1534)
+  * Add new developer key 0x9D0633E1B6250985 (Andrew Lee) (RT #1567)
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x0A300ED090E5CA46 Felipe Augusto van de Wiel <faw> sig:3
+    * 0x0EA756B5144843F5 Roland Mas <lolando> sig:4
+    * 0x161974E4C259E0E8 Philipp Huebner <debalance> uid:1 sig:10
+    * 0x168B4E717032F238 Jon Dowland <jmtd> uid:1 sig:1
+    * 0x184452FA268A084D Pablo Lorenzzoni <spectra> sig:28
+    * 0x35C3E3FAE91CD250 Daigo Moriwaki <daigo> sig:6
+    * 0x4565D58245140A6D Samuel Thibault <sthibault> sub:2 sig:4
+    * 0x5194830BEC19B378 Paul Cannon <pik> sig:8
+    * 0x5EC42C53D86A66BA Patryk Cisek <patryk> uid:1 sig:1
+    * 0x5F3931A6E213F1A0 akira yamada <akira> sig:21
+    * 0x632E3DAD46D9CE5A Raphael Geissert <geissert> uid:1 sig:17
+    * 0x86E00D0C19A42D19 dann frazier <dannf> sig:234
+    * 0x8A838BE4D8480F2E Jan Luebbe <jluebbe> sig:7
+    * 0x8ABD9BA1FB0DFE9B Sylvain Le Gall <gildor> uid:2 sig:14
+    * 0x8EA3B90CB2B97BB1 Roberto C. Sanchez <roberto> sig:12
+    * 0x9FB0DB32C02440B8 Jonas Smedegaard <js> sig:9
+    * 0xDFFC022A6B113E44 Mario Lang <mlang> sig:4
+    * 0xE5273D986BE3C423 Paul Wise <pabs> sig:7
+    * 0xE544DE079B7C328D Luk Claes <luk> sig:13
+    * 0xEFD64D0912066207 Ben Hutchings <benh> sig:26
+    * 0xF7F0E70F307D56ED Noèl Köthe <noel>
+    * 0xF9935424B1DF9A57 Giacomo Catenazzi <cate> sig:3
+    * 0xFA08BEAEDED45912 Paul Martin <pm> uid:1 sig:10
+
+ -- Jonathan McDowell <noodles@earth.li>  Wed, 22 Jul 2009 09:54:22 +0100
+
 debian-keyring (2009.06.30) unstable; urgency=low
 
   * Move 0x937A206B4A5D72FE (Rafael Laboissiere) to emeritus (RT #1506)
