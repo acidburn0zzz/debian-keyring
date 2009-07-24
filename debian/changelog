@@ -1,9 +1,9 @@
-debian-maintainers (1.64) UNRELEASED; urgency=low
+debian-maintainers (1.64) unstable; urgency=medium
 
   * Remove Asheesh Laroia, Philipp Benner, Sylvestre Ledru and
     Andrew Lee, all of whom are now Debian developers
 
- -- Anibal Monsalve Salazar <anibal@debian.org>  Fri, 24 Jul 2009 16:04:52 +0200
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Fri, 24 Jul 2009 16:26:27 +0200
 
 debian-maintainers (1.63) unstable; urgency=medium
 
