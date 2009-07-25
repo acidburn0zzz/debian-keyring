@@ -1,3 +1,9 @@
+debian-keyring (2009.07.25) UNRELEASED; urgency=low
+
+  * Add new developer key 0xDFF738C2D16CFBA2 (Simon Paillard) (RT #1595)
+
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 25 Jul 2009 19:24:07 +0100
+
 debian-keyring (2009.07.22) unstable; urgency=low
 
   * Move 0x460D4BD71EE5DD34 (Alexis Sukrieh) to emeritus
