@@ -1,6 +1,6 @@
 Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
 Date: Sun, 11 May 2008 22:02:43 +1000
-Comment: adding debian-maintainer Xavier Lüthi
+Comment: adding debian-maintainer Xavier LÃ¼thi
 NM-Page: https://nm.debian.org/nmstatus.php?email=xavier@caroxav.be
 Agreement: http://lists.debian.org/debian-newmaint/2008/05/msg00010.html
 Advocates: 
@@ -14,7 +14,7 @@ KeyCheck:
   uid                  Xavier Luthi <xavier@caroxav.be>
   sig!3        74974824 2006-06-16  Xavier Luthi <xavier@luthi.eu>
   sig!         9DFFAAD4 2008-04-01  Ludovic Brenta <lbrenta@debian.org>
-  uid                  Xavier Lüthi <xavier@luthi.eu>
+  uid                  Xavier LÃ¼thi <xavier@luthi.eu>
   sig!3        74974824 2006-06-26  Xavier Luthi <xavier@luthi.eu>
   sub   2048g/C69F8771 2006-06-16
   sig!         74974824 2006-06-16  Xavier Luthi <xavier@luthi.eu>

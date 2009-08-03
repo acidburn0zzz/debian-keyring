@@ -13,8 +13,8 @@ KeyCheck:
   gpg: NOTE: signature key 4E26A87D expired Sat Oct 27 07:34:30 2007 EDT
   pub   1024D/65B4B162 2004-12-31
         Key fingerprint = 2FC3 907C 20D9 63EB B234  D023 236C 60C6 65B4 B162
-  uid                  Aurélien GÉRÔME <ag@roxor.cx>
-  sig!         5DF03167 2005-02-05  Jérôme Marant <jerome@debian.org>
+  uid                  AurÃ©lien GÃ‰RÃ”ME <ag@roxor.cx>
+  sig!         5DF03167 2005-02-05  JÃ©rÃ´me Marant <jerome@debian.org>
   sig!         6783ED5E 2005-02-08  Frederic Peters <fpeters@entrouvert.com>
   sig!         29499F61 2005-02-15  Sam Hocevar <sam@zoy.org>
   sig!         F1BCDB73 2006-02-04  Aurelien Jarno <aurelien@aurel32.net>
@@ -22,42 +22,42 @@ KeyCheck:
   sig!         A1696D2B 2006-07-07  Laurent Fousse <laurent@komite.net>
   sig!         68FD549F 2006-07-07  Martin Michlmayr <tbm@cyrius.com>
   sig!         E0BA04C1 2006-07-08  Ralf Treinen <treinen@debian.org>
-  sig!         F7E8BC63 2006-07-08  Cédric Delfosse <cedric@debian.org>
+  sig!         F7E8BC63 2006-07-08  CÃ©dric Delfosse <cedric@debian.org>
   sig!         797EBFAB 2006-08-18  Enrico Zini <enrico@enricozini.com>
   sig!2        F5D65169 2005-02-04  Julien BLACHE <jblache@debian.org>
-  sig!3        2B0920C0 2005-02-02  Loïc Minier (lool) <lool@debian.org>
+  sig!3        2B0920C0 2005-02-02  LoÃ¯c Minier (lool) <lool@debian.org>
   sig!3        C24B9018 2005-02-02  Niv Sardi-Altivanik (Debian GNU/Linux addict) <xaiki@cxhome.ath.cx>
   sig!3        B5444815 2005-02-15  Bill Allombert <ballombe@debian.org>
   sig!3        6E8169D2 2006-07-08  Raphael Hertzog <raphael@ouaza.com>
-  sig!3        65B4B162 2004-12-31  Aurélien GÉRÔME <ag@roxor.cx>
+  sig!3        65B4B162 2004-12-31  AurÃ©lien GÃ‰RÃ”ME <ag@roxor.cx>
   sig!         A1EE761C 2007-02-01  Pierre Habouzit <pierre.habouzit@polytechnique.edu>
-  uid       [ revoked] Aurélien GÉRÔME <ag@roxor.be>
-  sig!         5DF03167 2005-02-05  Jérôme Marant <jerome@debian.org>
+  uid       [ revoked] AurÃ©lien GÃ‰RÃ”ME <ag@roxor.be>
+  sig!         5DF03167 2005-02-05  JÃ©rÃ´me Marant <jerome@debian.org>
   sig!         29499F61 2005-02-15  Sam Hocevar <sam@zoy.org>
   sig!2        F5D65169 2005-02-04  Julien BLACHE <jblache@debian.org>
-  sig!3        2B0920C0 2005-02-02  Loïc Minier (lool) <lool@debian.org>
+  sig!3        2B0920C0 2005-02-02  LoÃ¯c Minier (lool) <lool@debian.org>
   sig!3        C24B9018 2005-02-03  Niv Sardi-Altivanik (Debian GNU/Linux addict) <xaiki@cxhome.ath.cx>
   sig!3        B5444815 2005-02-15  Bill Allombert <ballombe@debian.org>
-  rev!         65B4B162 2006-07-06  Aurélien GÉRÔME <ag@roxor.cx>
-  sig!3        65B4B162 2004-12-31  Aurélien GÉRÔME <ag@roxor.cx>
-  uid       [ revoked] Aurélien GÉRÔME <ag@cuivres.net>
-  sig!         5DF03167 2005-02-05  Jérôme Marant <jerome@debian.org>
+  rev!         65B4B162 2006-07-06  AurÃ©lien GÃ‰RÃ”ME <ag@roxor.cx>
+  sig!3        65B4B162 2004-12-31  AurÃ©lien GÃ‰RÃ”ME <ag@roxor.cx>
+  uid       [ revoked] AurÃ©lien GÃ‰RÃ”ME <ag@cuivres.net>
+  sig!         5DF03167 2005-02-05  JÃ©rÃ´me Marant <jerome@debian.org>
   sig!         29499F61 2005-02-15  Sam Hocevar <sam@zoy.org>
-  sig!3        2B0920C0 2005-02-02  Loïc Minier (lool) <lool@debian.org>
+  sig!3        2B0920C0 2005-02-02  LoÃ¯c Minier (lool) <lool@debian.org>
   sig!3        C24B9018 2005-02-03  Niv Sardi-Altivanik (Debian GNU/Linux addict) <xaiki@cxhome.ath.cx>
   sig!3        B5444815 2005-02-15  Bill Allombert <ballombe@debian.org>
-  rev!         65B4B162 2006-07-06  Aurélien GÉRÔME <ag@roxor.cx>
-  sig!3        65B4B162 2004-12-31  Aurélien GÉRÔME <ag@roxor.cx>
-  uid       [ revoked] Aurélien GÉRÔME <ag@trackfire.org>
-  sig!         5DF03167 2005-02-05  Jérôme Marant <jerome@debian.org>
+  rev!         65B4B162 2006-07-06  AurÃ©lien GÃ‰RÃ”ME <ag@roxor.cx>
+  sig!3        65B4B162 2004-12-31  AurÃ©lien GÃ‰RÃ”ME <ag@roxor.cx>
+  uid       [ revoked] AurÃ©lien GÃ‰RÃ”ME <ag@trackfire.org>
+  sig!         5DF03167 2005-02-05  JÃ©rÃ´me Marant <jerome@debian.org>
   sig!         29499F61 2005-02-15  Sam Hocevar <sam@zoy.org>
-  sig!3        2B0920C0 2005-02-02  Loïc Minier (lool) <lool@debian.org>
+  sig!3        2B0920C0 2005-02-02  LoÃ¯c Minier (lool) <lool@debian.org>
   sig!3        C24B9018 2005-02-03  Niv Sardi-Altivanik (Debian GNU/Linux addict) <xaiki@cxhome.ath.cx>
   sig!3        B5444815 2005-02-15  Bill Allombert <ballombe@debian.org>
-  rev!         65B4B162 2006-07-06  Aurélien GÉRÔME <ag@roxor.cx>
-  sig!3        65B4B162 2004-12-31  Aurélien GÉRÔME <ag@roxor.cx>
+  rev!         65B4B162 2006-07-06  AurÃ©lien GÃ‰RÃ”ME <ag@roxor.cx>
+  sig!3        65B4B162 2004-12-31  AurÃ©lien GÃ‰RÃ”ME <ag@roxor.cx>
   sub   2048g/84A5AAFA 2004-12-31
-  sig!         65B4B162 2004-12-31  Aurélien GÉRÔME <ag@roxor.cx>
+  sig!         65B4B162 2004-12-31  AurÃ©lien GÃ‰RÃ”ME <ag@roxor.cx>
   .
   Let's test if its a version 4 or greater key
   Key is ok

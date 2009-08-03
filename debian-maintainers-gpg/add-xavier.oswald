@@ -17,16 +17,16 @@ KeyCheck:
   sig!         F5D65169 2006-02-03  Julien BLACHE <jblache@debian.org>
   sig!         6B79D401 2006-02-03  Giunchedi Filippo <filippo@esaurito.net>
   sig!         F1BCDB73 2006-02-04  Aurelien Jarno <aurelien@aurel32.net>
-  sig!         A6C805B9 2006-03-11  Clément Stenac <zorglub@via.ecp.fr>
+  sig!         A6C805B9 2006-03-11  ClÃ©ment Stenac <zorglub@via.ecp.fr>
   sig!         5D64F870 2006-03-19  Martin Zobel-Helas <zobel@debian.org>
   sig!         29F19BD1 2006-03-22  Michael Meskes <michael@fam-meskes.de>
-  sig!         2B0920C0 2006-06-21  Loïc Minier (lool) <lool@debian.org>
-  sig!         65B4B162 2006-07-06  Aurélien GÉRÔME <ag@roxor.cx>
+  sig!         2B0920C0 2006-06-21  LoÃ¯c Minier (lool) <lool@debian.org>
+  sig!         65B4B162 2006-07-06  AurÃ©lien GÃ‰RÃ”ME <ag@roxor.cx>
   sig!3        6E8169D2 2006-02-01  Raphael Hertzog <raphael@ouaza.com>
   sig!         A1696D2B 2006-07-07  Laurent Fousse <laurent@komite.net>
   sig!         29499F61 2006-07-08  Sam Hocevar <sam@zoy.org>
   sig!         797EBFAB 2006-07-08  Enrico Zini <enrico@enricozini.com>
-  sig!         F7E8BC63 2006-07-09  Cédric Delfosse <cedric@debian.org>
+  sig!         F7E8BC63 2006-07-09  CÃ©dric Delfosse <cedric@debian.org>
   sig!         2A30D729 2006-07-13  Petter Reinholdtsen <pere@debian.org>
   sig!         969457F0 2007-03-07  Joost van Baal <joostvb@mdcc.cx>
   sig!         E1C21845 2007-02-26  Thijs Kinkhorst <thijs@kinkhorst.com>
@@ -35,15 +35,15 @@ KeyCheck:
   sig!         F5D65169 2006-02-03  Julien BLACHE <jblache@debian.org>
   sig!         6B79D401 2006-02-03  Giunchedi Filippo <filippo@esaurito.net>
   sig!         F1BCDB73 2006-02-04  Aurelien Jarno <aurelien@aurel32.net>
-  sig!         A6C805B9 2006-03-11  Clément Stenac <zorglub@via.ecp.fr>
+  sig!         A6C805B9 2006-03-11  ClÃ©ment Stenac <zorglub@via.ecp.fr>
   sig!         5D64F870 2006-03-19  Martin Zobel-Helas <zobel@debian.org>
   sig!         29F19BD1 2006-03-22  Michael Meskes <michael@fam-meskes.de>
-  sig!         2B0920C0 2006-06-21  Loïc Minier (lool) <lool@debian.org>
-  sig!         65B4B162 2006-07-06  Aurélien GÉRÔME <ag@roxor.cx>
+  sig!         2B0920C0 2006-06-21  LoÃ¯c Minier (lool) <lool@debian.org>
+  sig!         65B4B162 2006-07-06  AurÃ©lien GÃ‰RÃ”ME <ag@roxor.cx>
   sig!         A1696D2B 2006-07-07  Laurent Fousse <laurent@komite.net>
   sig!         29499F61 2006-07-08  Sam Hocevar <sam@zoy.org>
   sig!         797EBFAB 2006-07-08  Enrico Zini <enrico@enricozini.com>
-  sig!         F7E8BC63 2006-07-09  Cédric Delfosse <cedric@debian.org>
+  sig!         F7E8BC63 2006-07-09  CÃ©dric Delfosse <cedric@debian.org>
   sig!         2A30D729 2006-07-13  Petter Reinholdtsen <pere@debian.org>
   sig!         969457F0 2007-03-07  Joost van Baal <joostvb@mdcc.cx>
   sig!         E1C21845 2007-02-26  Thijs Kinkhorst <thijs@kinkhorst.com>
@@ -51,15 +51,15 @@ KeyCheck:
   sig!3        88BBB51E 2006-01-31  Xavier Oswald <x.oswald@free.fr>
   sig!         6B79D401 2006-02-03  Giunchedi Filippo <filippo@esaurito.net>
   sig!         F1BCDB73 2006-02-04  Aurelien Jarno <aurelien@aurel32.net>
-  sig!         A6C805B9 2006-03-11  Clément Stenac <zorglub@via.ecp.fr>
+  sig!         A6C805B9 2006-03-11  ClÃ©ment Stenac <zorglub@via.ecp.fr>
   sig!         5D64F870 2006-03-19  Martin Zobel-Helas <zobel@debian.org>
   sig!         29F19BD1 2006-03-22  Michael Meskes <michael@fam-meskes.de>
-  sig!         2B0920C0 2006-06-21  Loïc Minier (lool) <lool@debian.org>
-  sig!         65B4B162 2006-07-06  Aurélien GÉRÔME <ag@roxor.cx>
+  sig!         2B0920C0 2006-06-21  LoÃ¯c Minier (lool) <lool@debian.org>
+  sig!         65B4B162 2006-07-06  AurÃ©lien GÃ‰RÃ”ME <ag@roxor.cx>
   sig!         A1696D2B 2006-07-07  Laurent Fousse <laurent@komite.net>
   sig!         29499F61 2006-07-08  Sam Hocevar <sam@zoy.org>
   sig!         797EBFAB 2006-07-08  Enrico Zini <enrico@enricozini.com>
-  sig!         F7E8BC63 2006-07-09  Cédric Delfosse <cedric@debian.org>
+  sig!         F7E8BC63 2006-07-09  CÃ©dric Delfosse <cedric@debian.org>
   sig!         2A30D729 2006-07-13  Petter Reinholdtsen <pere@debian.org>
   sig!         1E880A84 2006-08-17  Frans Pop (Debian) <elendil@planet.nl>
   sig!         969457F0 2007-03-07  Joost van Baal <joostvb@mdcc.cx>

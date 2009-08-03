@@ -10,7 +10,7 @@ KeyCheck:
         Key fingerprint = E653 2B62 DBF0 E9F6 EBC1  CE66 FB7E CD91 4B94 88F1
   uid                  Thibaut Paumard <paumard@users.sourceforge.net>
   sig!3        4B9488F1 2008-01-08  Thibaut Paumard <paumard@users.sourceforge.net>
-  sig!         0ED704EA 2008-01-10  Mohammed Adnène Trojette (adn) <adn@arabeyes.org>
+  sig!         0ED704EA 2008-01-10  Mohammed AdnÃ¨ne Trojette (adn) <adn@arabeyes.org>
   sub   2048g/A44F143C 2008-01-08
   sig!         4B9488F1 2008-01-08  Thibaut Paumard <paumard@users.sourceforge.net>
   .

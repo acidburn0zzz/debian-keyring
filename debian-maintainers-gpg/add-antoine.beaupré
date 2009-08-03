@@ -9,14 +9,14 @@ Not-Quite-Advocates:
 KeyCheck:
   pub   4096R/7B75921E 2009-05-29 [expires: 2010-05-29]
         Key fingerprint = 8DC9 01CE 6414 6C04 8AD5  0FBB 7921 5252 7B75 921E
-  uid                  Antoine Beaupré (work) <anarcat@koumbit.org>
-  sig!3        7B75921E 2009-05-29  Antoine Beaupré (work) <anarcat@koumbit.org>
+  uid                  Antoine BeauprÃ© (work) <anarcat@koumbit.org>
+  sig!3        7B75921E 2009-05-29  Antoine BeauprÃ© (work) <anarcat@koumbit.org>
   sig!         2861A790 2009-05-29  Micah Anderson <micah@riseup.net>
-  uid                  Antoine Beaupré (home address) <anarcat@anarcat.ath.cx>
-  sig!3        7B75921E 2009-05-29  Antoine Beaupré (work) <anarcat@koumbit.org>
+  uid                  Antoine BeauprÃ© (home address) <anarcat@anarcat.ath.cx>
+  sig!3        7B75921E 2009-05-29  Antoine BeauprÃ© (work) <anarcat@koumbit.org>
   sig!         2861A790 2009-05-29  Micah Anderson <micah@riseup.net>
   sub   4096R/9C5A5581 2009-05-29 [expires: 2010-05-29]
-  sig!         7B75921E 2009-05-29  Antoine Beaupré (work) <anarcat@koumbit.org>
+  sig!         7B75921E 2009-05-29  Antoine BeauprÃ© (work) <anarcat@koumbit.org>
   .
   Let's test if its a version 4 or greater key
   Key is ok

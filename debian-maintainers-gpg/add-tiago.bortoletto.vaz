@@ -28,21 +28,21 @@ KeyCheck:
   sig!         4B729625 2006-05-20  Peter Van Eynde <pvaneynd@debian.org>
   sig!         29499F61 2006-05-20  Sam Hocevar <sam@zoy.org>
   sig!         6B79D401 2006-05-20  Giunchedi Filippo <filippo@esaurito.net>
-  sig!         0ED704EA 2006-05-20  Mohammed Adnène Trojette (adn) <adn@arabeyes.org>
+  sig!         0ED704EA 2006-05-20  Mohammed AdnÃ¨ne Trojette (adn) <adn@arabeyes.org>
   sig!         9B7C328D 2006-05-20  Luk Claes <luk@debian.org>
   sig!         005C3B82 2006-05-20  Jose Parrella <bureado@debian.org>
   sig!         C671257D 2006-05-20  David Moreno Garza <damog@espiral.org.mx>
-  sig!         6FECCDE0 2006-05-20  Santiago Ruano Rincón <santiago@unicauca.edu.co>
+  sig!         6FECCDE0 2006-05-20  Santiago Ruano RincÃ³n <santiago@unicauca.edu.co>
   sig!         EA59038E 2006-05-20  Stephen Gran <sgran@debian.org>
   sig!         306CDFF3 2006-05-20  Alejandro Rios P. <alerios@debian.org>
   sig!         D54F0847 2006-05-20  Mark Shuttleworth <mark@ubuntu.com>
   sig!         330C4A75 2006-05-20  Martin F. Krafft <mail@martin-krafft.net>
   sig!         4BA401C3 2006-05-20  Alberto Gonzalez Iniesta <agi@inittab.org>
-  sig!         307D56ED 2006-05-21  Noèl Köthe <noel@debian.org>
+  sig!         307D56ED 2006-05-21  NoÃ¨l KÃ¶the <noel@debian.org>
   sig!         258D8781 2006-05-21  Michael Bramer <michael.bramer@credativ.de>
   sig!         6E8169D2 2006-05-21  Raphael Hertzog <raphael@ouaza.com>
   sig!         F1BCDB73 2006-05-21  Aurelien Jarno <aurelien@aurel32.net>
-  sig!         575D0A76 2006-05-21  Martín Ferrari <tincho@debian.org>
+  sig!         575D0A76 2006-05-21  MartÃ­n Ferrari <tincho@debian.org>
   sig!         C0143D2D 2006-05-21  Christian Perrier <bubulle@kheops.homeunix.org>
   sig!         B345BDD3 2006-05-22  Neil McGovern <maulkin@halon.org.uk>
   sig!         71473F66 2006-05-22  Todd Troxell <ttroxell@debian.org>
@@ -52,7 +52,7 @@ KeyCheck:
   sig!         8BB527AF 2006-05-31  Gunnar Wolf <gwolf@gwolf.org>
   sig!         DD9B9910 2006-06-01  Philip Hands <phil@hands.com>
   sig!         58510B5A 2006-06-01  Christoph Berg <cb@df7cb.de>
-  sig!         E8C43461 2006-06-03  Ana Beatriz Guerrero López <ana@ekaia.org>
+  sig!         E8C43461 2006-06-03  Ana Beatriz Guerrero LÃ³pez <ana@ekaia.org>
   sig!         72D03CB1 2006-06-03  Kenshi Muto <kmuto@debian.org>
   sig!         CAEAAF03 2006-06-19  Riku Voipio <Riku.Voipio@iki.fi>
   sig!         1E880A84 2006-06-19  Frans Pop (Debian) <elendil@planet.nl>

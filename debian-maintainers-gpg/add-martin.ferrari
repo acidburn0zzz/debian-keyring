@@ -10,17 +10,17 @@ Advocates:
 KeyCheck:
   pub   1024D/575D0A76 2004-10-28
         Key fingerprint = D32A 5C3A 81B8 5406 ED96  EF81 6964 36BF 575D 0A76
-  uid                  Martín Ferrari <martin.ferrari@gmail.com>
+  uid                  MartÃ­n Ferrari <martin.ferrari@gmail.com>
   sig!         1880283C 2005-07-20  Anibal Monsalve Salazar <anibal@debian.org>
   sig!2        94C09C7F 2005-07-19  Peter Palfrader
   sig!      X  248AEB73 2005-07-20  Rene Engelhard <rene@debian.org>
   sig!3     X  5B48FFAE 2004-10-28  Margarita Manterola <marga@debian.org>
   sig!3     X  8F068012 2005-07-16  Andrew McMillan (Andrew @ Work) <andrew@catalyst.net.nz>
-  sig!3        575D0A76 2006-05-08  Martín Ferrari <martin.ferrari@gmail.com>
+  sig!3        575D0A76 2006-05-08  MartÃ­n Ferrari <martin.ferrari@gmail.com>
   sig!      X  00D8CD16 2005-08-01  Alexander Schmehl (university) <schmehl@cs.uni-frankfurt.de>
-  sig!3        575D0A76 2004-10-28  Martín Ferrari <martin.ferrari@gmail.com>
+  sig!3        575D0A76 2004-10-28  MartÃ­n Ferrari <martin.ferrari@gmail.com>
   sig!         7E7B8AC9 2006-03-25  Joerg Jaspert <joerg@debian.org>
-  sig!3        575D0A76 2005-08-02  Martín Ferrari <martin.ferrari@gmail.com>
+  sig!3        575D0A76 2005-08-02  MartÃ­n Ferrari <martin.ferrari@gmail.com>
   sig!         4B729625 2006-05-20  Peter Van Eynde <pvaneynd@debian.org>
   sig!         29499F61 2006-05-20  Sam Hocevar <sam@zoy.org>
   sig!         6D742669 2006-05-20  Luca Capello <luca@pca.it>
@@ -29,8 +29,8 @@ KeyCheck:
   sig!         C671257D 2006-05-20  David Moreno Garza <damog@espiral.org.mx>
   sig!         EA59038E 2006-05-20  Stephen Gran <sgran@debian.org>
   sig!         4BA401C3 2006-05-20  Alberto Gonzalez Iniesta <agi@inittab.org>
-  sig!         6FECCDE0 2006-05-21  Santiago Ruano Rincón <santiago@unicauca.edu.co>
-  sig!         0ED704EA 2006-05-21  Mohammed Adnène Trojette (adn) <adn@arabeyes.org>
+  sig!         6FECCDE0 2006-05-21  Santiago Ruano RincÃ³n <santiago@unicauca.edu.co>
+  sig!         0ED704EA 2006-05-21  Mohammed AdnÃ¨ne Trojette (adn) <adn@arabeyes.org>
   sig!         F1BCDB73 2006-05-21  Aurelien Jarno <aurelien@aurel32.net>
   sig!         6E8169D2 2006-05-21  Raphael Hertzog <raphael@ouaza.com>
   sig!         8BB527AF 2006-05-31  Gunnar Wolf <gwolf@gwolf.org>
@@ -44,7 +44,7 @@ KeyCheck:
   sig!         72D03CB1 2006-06-03  Kenshi Muto <kmuto@debian.org>
   sig!         1E880A84 2006-06-19  Frans Pop (Debian) <elendil@planet.nl>
   sub   1024g/502FDC57 2004-10-28
-  sig!         575D0A76 2006-05-08  Martín Ferrari <martin.ferrari@gmail.com>
+  sig!         575D0A76 2006-05-08  MartÃ­n Ferrari <martin.ferrari@gmail.com>
   .
   Let's test if its a version 4 or greater key
   Key is ok

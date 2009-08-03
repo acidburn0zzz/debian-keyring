@@ -25,7 +25,7 @@ KeyCheck:
   sig!3        29F19BD1 2003-02-10  Michael Meskes <michael@fam-meskes.de>
   sig!3        94C09C7F 2003-02-11  Peter Palfrader
   sig!3        44779E18 2003-03-04  Fabio M. Di Nitto <fabbione@debian.org>
-  sig!3        F7E8BC63 2005-03-01  Cédric Delfosse <cedric@debian.org>
+  sig!3        F7E8BC63 2005-03-01  CÃ©dric Delfosse <cedric@debian.org>
   sig!3        4D2313D5 2002-11-27  Adriaan Peeters <apeeters@lashout.net>
   sig!3        4D2313D5 2004-02-01  Adriaan Peeters <apeeters@lashout.net>
   sig!    PN   AF79D29E 2007-03-02  Wouter Verhelst <wouter@grep.be>
@@ -34,7 +34,7 @@ KeyCheck:
   sig!2        2BE16D01 2005-03-02  Moray Allan <moray@sermisy.org>
   sig!         6C0084FC 2005-03-02  Chris Vanden Berghe <Chris@VandenBerghe.org>
   sig!2        7244970B 2005-03-01  Kurt Roeckx <kurt@roeckx.be>
-  sig!3        F7E8BC63 2005-03-01  Cédric Delfosse <cedric@debian.org>
+  sig!3        F7E8BC63 2005-03-01  CÃ©dric Delfosse <cedric@debian.org>
   rev!         4D2313D5 2006-04-30  Adriaan Peeters <apeeters@lashout.net>
   sig!3        4D2313D5 2004-02-01  Adriaan Peeters <apeeters@lashout.net>
   uid                  Adriaan Peeters <Adriaan.Peeters@UGent.be>
@@ -49,7 +49,7 @@ KeyCheck:
   sig!         99E81DA0 2007-03-03  Lior Kaplan <kaplanlior@gmail.com>
   sig!2        7244970B 2005-03-01  Kurt Roeckx <kurt@roeckx.be>
   sig!2        2BE16D01 2005-03-03  Moray Allan <moray@sermisy.org>
-  sig!3        F7E8BC63 2005-03-01  Cédric Delfosse <cedric@debian.org>
+  sig!3        F7E8BC63 2005-03-01  CÃ©dric Delfosse <cedric@debian.org>
   sig!3        4D2313D5 2005-01-26  Adriaan Peeters <apeeters@lashout.net>
   sig!    PN   AF79D29E 2007-03-02  Wouter Verhelst <wouter@grep.be>
   sig!         E1C21845 2007-02-26  Thijs Kinkhorst <thijs@kinkhorst.com>

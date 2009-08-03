@@ -14,7 +14,7 @@ KeyCheck:
   sig!         C99E03CC 2007-04-06  Jurij Smakov <jurij@debian.org>
   sig!         90E5CA46 2007-12-22  Felipe Augusto van de Wiel (faw) <faw@debian.org>
   sig!         01FA8B4A 2007-12-16  Sune Vuorela <sune@vuorela.dk>
-  sig!         E8C43461 2007-12-17  Ana Beatriz Guerrero L髉ez <ana@ekaia.org>
+  sig!         E8C43461 2007-12-17  Ana Beatriz Guerrero L贸pez <ana@ekaia.org>
   sig!         6AA572F7 2007-12-17  Fathi Boudra <fabo@debian.org>
   sig!         EA7CF5AD 2007-12-26  Nicolas FRANCOIS (Nekral) <nicolas.francois@centraliens.net>
   uid                  Modestas Vainius <geromanas@mailas.com>
@@ -22,7 +22,7 @@ KeyCheck:
   sig!3        73EAE214 2004-04-20  Modestas Vainius <modestas@vainius.eu>
   sig!         90E5CA46 2007-12-22  Felipe Augusto van de Wiel (faw) <faw@debian.org>
   sig!         01FA8B4A 2007-12-16  Sune Vuorela <sune@vuorela.dk>
-  sig!         E8C43461 2007-12-17  Ana Beatriz Guerrero L髉ez <ana@ekaia.org>
+  sig!         E8C43461 2007-12-17  Ana Beatriz Guerrero L贸pez <ana@ekaia.org>
   sig!         6AA572F7 2007-12-17  Fathi Boudra <fabo@debian.org>
   sig!         EA7CF5AD 2007-12-26  Nicolas FRANCOIS (Nekral) <nicolas.francois@centraliens.net>
   uid       [ revoked] Modestas Vainius <modax@centras.lt>
@@ -34,12 +34,12 @@ KeyCheck:
   sig!3        73EAE214 2007-04-06  Modestas Vainius <modestas@vainius.eu>
   sig!         90E5CA46 2007-12-22  Felipe Augusto van de Wiel (faw) <faw@debian.org>
   sig!         01FA8B4A 2007-12-16  Sune Vuorela <sune@vuorela.dk>
-  sig!         E8C43461 2007-12-17  Ana Beatriz Guerrero L髉ez <ana@ekaia.org>
+  sig!         E8C43461 2007-12-17  Ana Beatriz Guerrero L贸pez <ana@ekaia.org>
   sig!         6AA572F7 2007-12-17  Fathi Boudra <fabo@debian.org>
   sig!         EA7CF5AD 2007-12-26  Nicolas FRANCOIS (Nekral) <nicolas.francois@centraliens.net>
   uid                  [jpeg image of size 11505]
   sig!3        73EAE214 2007-10-30  Modestas Vainius <modestas@vainius.eu>
-  sig!         E8C43461 2007-12-17  Ana Beatriz Guerrero L髉ez <ana@ekaia.org>
+  sig!         E8C43461 2007-12-17  Ana Beatriz Guerrero L贸pez <ana@ekaia.org>
   sig!         6AA572F7 2007-12-17  Fathi Boudra <fabo@debian.org>
   uid                  Modestas Vainius <modestas.vainius@gmail.com>
   sig!3        73EAE214 2007-12-23  Modestas Vainius <modestas@vainius.eu>

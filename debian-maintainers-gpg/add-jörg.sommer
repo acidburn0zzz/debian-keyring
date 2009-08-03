@@ -1,6 +1,6 @@
 Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
 Date: Fri, 21 Nov 2008 21:13:47 +1100
-Comment: Add Debian Maintainer Jörg Sommer
+Comment: Add Debian Maintainer JÃ¶rg Sommer
 Agreement: http://lists.debian.org/debian-newmaint/2008/09/msg00004.html
 Advocates: 
   rafael - http://lists.debian.org/debian-newmaint/2008/09/msg00011.html
@@ -10,11 +10,11 @@ Advocates:
 KeyCheck:
   pub   1024D/01F55480 2007-05-23
         Key fingerprint = 945C 7480 20CE 177D CCD5  6E44 C1ED 2667 01F5 5480
-  uid                  Jörg Sommer <joerg@alea.gnuu.de>
-  sig!3        01F55480 2007-05-23  Jörg Sommer <joerg@alea.gnuu.de>
+  uid                  JÃ¶rg Sommer <joerg@alea.gnuu.de>
+  sig!3        01F55480 2007-05-23  JÃ¶rg Sommer <joerg@alea.gnuu.de>
   sig!         0A327652 2008-09-02  Thomas Schmidt <tschmidt@debian.org>
   sub   2848g/F8725AD4 2007-05-23
-  sig!         01F55480 2007-05-23  Jörg Sommer <joerg@alea.gnuu.de>
+  sig!         01F55480 2007-05-23  JÃ¶rg Sommer <joerg@alea.gnuu.de>
   .
   Let's test if its a version 4 or greater key
   Key is ok

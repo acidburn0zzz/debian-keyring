@@ -1,28 +1,28 @@
 Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
 Date: Wed, 24 Sep 2008 20:55:34 +1000
-Comment: Add Rogério Brito as a Debian Maintainer
+Comment: Add RogÃ©rio Brito as a Debian Maintainer
 Agreement: http://lists.debian.org/debian-newmaint/2008/09/msg00019.html
 Advocates: 
   alfie - http://lists.debian.org/debian-newmaint/2008/09/msg00020.html
 KeyCheck:
   pub   1024D/7C2CAEB8 2007-07-05
         Key fingerprint = AE92 7C79 9353 DB46 09B2  73BC 085A 9B32 7C2C AEB8
-  uid                  Rogério Theodoro de Brito <rbrito@ime.usp.br>
-  sig!3        7C2CAEB8 2007-07-15  Rogério Theodoro de Brito <rbrito@ime.usp.br>
+  uid                  RogÃ©rio Theodoro de Brito <rbrito@ime.usp.br>
+  sig!3        7C2CAEB8 2007-07-15  RogÃ©rio Theodoro de Brito <rbrito@ime.usp.br>
   sig!         9D1B82F6 2007-07-09  Andre Luis Lopes <andrelop@debian.org>
-  sig!3        7C2CAEB8 2007-07-05  Rogério Theodoro de Brito <rbrito@ime.usp.br>
-  uid                  Rogério Theodoro de Brito <rbrito@gmail.com>
-  sig!3        7C2CAEB8 2007-07-05  Rogério Theodoro de Brito <rbrito@ime.usp.br>
+  sig!3        7C2CAEB8 2007-07-05  RogÃ©rio Theodoro de Brito <rbrito@ime.usp.br>
+  uid                  RogÃ©rio Theodoro de Brito <rbrito@gmail.com>
+  sig!3        7C2CAEB8 2007-07-05  RogÃ©rio Theodoro de Brito <rbrito@ime.usp.br>
   sig!         9D1B82F6 2007-07-09  Andre Luis Lopes <andrelop@debian.org>
-  uid                  Rogério Theodoro de Brito <rbrito@mackenzie.br>
-  sig!3        7C2CAEB8 2007-07-05  Rogério Theodoro de Brito <rbrito@ime.usp.br>
+  uid                  RogÃ©rio Theodoro de Brito <rbrito@mackenzie.br>
+  sig!3        7C2CAEB8 2007-07-05  RogÃ©rio Theodoro de Brito <rbrito@ime.usp.br>
   sig!         9D1B82F6 2007-07-09  Andre Luis Lopes <andrelop@debian.org>
-  uid                  Rogério Theodoro de Brito <rbrito@users.sf.net>
-  sig!3        7C2CAEB8 2007-07-09  Rogério Theodoro de Brito <rbrito@ime.usp.br>
-  uid                  Rogério Theodoro de Brito <rbrito@iname.com>
-  sig!3        7C2CAEB8 2007-07-09  Rogério Theodoro de Brito <rbrito@ime.usp.br>
+  uid                  RogÃ©rio Theodoro de Brito <rbrito@users.sf.net>
+  sig!3        7C2CAEB8 2007-07-09  RogÃ©rio Theodoro de Brito <rbrito@ime.usp.br>
+  uid                  RogÃ©rio Theodoro de Brito <rbrito@iname.com>
+  sig!3        7C2CAEB8 2007-07-09  RogÃ©rio Theodoro de Brito <rbrito@ime.usp.br>
   sub   2048g/AC99CE76 2007-07-05
-  sig!         7C2CAEB8 2007-07-05  Rogério Theodoro de Brito <rbrito@ime.usp.br>
+  sig!         7C2CAEB8 2007-07-05  RogÃ©rio Theodoro de Brito <rbrito@ime.usp.br>
   .
   Let's test if its a version 4 or greater key
   Key is ok

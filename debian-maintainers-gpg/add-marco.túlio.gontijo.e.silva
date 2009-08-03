@@ -8,16 +8,16 @@ Advocates:
 KeyCheck:
   pub   1024D/45754E44 2008-07-03 [expires: 2009-11-14]
         Key fingerprint = AF9D A0A7 A754 9CA8 EB22  1E3F 840C 0E9A 4575 4E44
-  uid                  Marco Túlio Gontijo e Silva <marcot@riseup.net>
-  sig!3        45754E44 2008-07-03  Marco Túlio Gontijo e Silva <marcot@riseup.net>
-  sig!3        45754E44 2009-04-24  Marco Túlio Gontijo e Silva <marcot@riseup.net>
-  uid                  Marco Túlio Gontijo e Silva <marcot@holoscopio.com>
+  uid                  Marco TÃºlio Gontijo e Silva <marcot@riseup.net>
+  sig!3        45754E44 2008-07-03  Marco TÃºlio Gontijo e Silva <marcot@riseup.net>
+  sig!3        45754E44 2009-04-24  Marco TÃºlio Gontijo e Silva <marcot@riseup.net>
+  uid                  Marco TÃºlio Gontijo e Silva <marcot@holoscopio.com>
   sig!         809DE012 2009-04-20  Marcelo Jorge Vieira (metal) <metal@alucinados.com>
-  sig!3        45754E44 2008-11-18  Marco Túlio Gontijo e Silva <marcot@riseup.net>
-  sig!3        45754E44 2009-04-24  Marco Túlio Gontijo e Silva <marcot@riseup.net>
+  sig!3        45754E44 2008-11-18  Marco TÃºlio Gontijo e Silva <marcot@riseup.net>
+  sig!3        45754E44 2009-04-24  Marco TÃºlio Gontijo e Silva <marcot@riseup.net>
   sig!         A0FB5DA6 2009-04-23  Gustavo Noronha Silva <kov@debian.org>
   sub   4096g/28BB7706 2008-07-03
-  sig!         45754E44 2008-07-03  Marco Túlio Gontijo e Silva <marcot@riseup.net>
+  sig!         45754E44 2008-07-03  Marco TÃºlio Gontijo e Silva <marcot@riseup.net>
   .
   Let's test if its a version 4 or greater key
   Key is ok

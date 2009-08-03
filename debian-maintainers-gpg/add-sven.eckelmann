@@ -10,11 +10,11 @@ KeyCheck:
   uid                  Sven Eckelmann <sven.eckelmann@gmx.de>
   sig!         8E635A5E 2007-04-11  Florian Ragwitz <rafl@debian.org>
   sig!         0A327652 2008-03-04  Thomas Schmidt <tschmidt@debian.org>
-  sig!         307D56ED 2008-03-08  Noèl Köthe <noel@debian.org>
+  sig!         307D56ED 2008-03-08  NoÃ¨l KÃ¶the <noel@debian.org>
   sig!3        594CA03B 2006-04-03  Sven Eckelmann <sven.eckelmann@gmx.de>
   uid                  Lazhur <Lazhur@gmx.de>
   sig!         8E635A5E 2007-04-11  Florian Ragwitz <rafl@debian.org>
-  sig!         307D56ED 2008-03-08  Noèl Köthe <noel@debian.org>
+  sig!         307D56ED 2008-03-08  NoÃ¨l KÃ¶the <noel@debian.org>
   sig!3        594CA03B 2006-04-03  Sven Eckelmann <sven.eckelmann@gmx.de>
   uid       [ revoked] Sven Eckelmann <Eckelm@gmx.de>
   rev!         594CA03B 2007-02-26  Sven Eckelmann <sven.eckelmann@gmx.de>
@@ -25,22 +25,22 @@ KeyCheck:
   uid                  Sven Eckelmann <ecsv@hrz.tu-chemnitz.de>
   sig!         8E635A5E 2007-04-11  Florian Ragwitz <rafl@debian.org>
   sig!         0A327652 2008-03-04  Thomas Schmidt <tschmidt@debian.org>
-  sig!         307D56ED 2008-03-08  Noèl Köthe <noel@debian.org>
+  sig!         307D56ED 2008-03-08  NoÃ¨l KÃ¶the <noel@debian.org>
   sig!3        594CA03B 2007-03-12  Sven Eckelmann <sven.eckelmann@gmx.de>
   uid                  Sven Eckelmann <ecsv@informatik.tu-chemnitz.de>
   sig!         8E635A5E 2007-04-11  Florian Ragwitz <rafl@debian.org>
   sig!         0A327652 2008-03-04  Thomas Schmidt <tschmidt@debian.org>
-  sig!         307D56ED 2008-03-08  Noèl Köthe <noel@debian.org>
+  sig!         307D56ED 2008-03-08  NoÃ¨l KÃ¶the <noel@debian.org>
   sig!3        594CA03B 2007-03-12  Sven Eckelmann <sven.eckelmann@gmx.de>
   uid                  Sven Eckelmann <sven.eckelmann@s2004.tu-chemnitz.de>
   sig!         8E635A5E 2007-04-11  Florian Ragwitz <rafl@debian.org>
   sig!         0A327652 2008-03-04  Thomas Schmidt <tschmidt@debian.org>
-  sig!         307D56ED 2008-03-08  Noèl Köthe <noel@debian.org>
+  sig!         307D56ED 2008-03-08  NoÃ¨l KÃ¶the <noel@debian.org>
   sig!3        594CA03B 2006-04-03  Sven Eckelmann <sven.eckelmann@gmx.de>
   uid                  Sven Eckelmann <sven.eckelmann@informatik.tu-chemnitz.de>
   sig!         8E635A5E 2007-04-11  Florian Ragwitz <rafl@debian.org>
   sig!         0A327652 2008-03-04  Thomas Schmidt <tschmidt@debian.org>
-  sig!         307D56ED 2008-03-08  Noèl Köthe <noel@debian.org>
+  sig!         307D56ED 2008-03-08  NoÃ¨l KÃ¶the <noel@debian.org>
   sig!3        594CA03B 2007-03-12  Sven Eckelmann <sven.eckelmann@gmx.de>
   sub   4096g/8953F244 2001-07-24
   sig!         594CA03B 2001-07-24  Sven Eckelmann <sven.eckelmann@gmx.de>

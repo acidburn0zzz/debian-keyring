@@ -1,7 +1,7 @@
 Recommended-By: Michael Koch <konqueror@gmx.de>
 Changed-By: Anibal Monsalve Salazar <anibal@debian.org>
 Date: Wed, 30 Apr 2008 17:57:44 +1000
-Comment: adding Patrick Matth‰i as Debian Maintainer
+Comment: adding Patrick Matth√§i as Debian Maintainer
 NM-Page: https://nm.debian.org/nmstatus.php?email=patrick.matthaei@web.de
 Agreement: http://lists.debian.org/debian-newmaint/2008/04/msg00047.html
 Advocates:
@@ -9,13 +9,13 @@ Advocates:
 KeyCheck:
   pub   1024D/7A5A6CC7 2006-08-15
         Key fingerprint = 1C54 FA0D 6F0F 5064 7A95  BBD3 D970 398A 7A5A 6CC7
-  uid                  Patrick Matth‰i (Local Key) <patrick.matthaei@web.de>
-  sig!3        7A5A6CC7 2008-02-07  Patrick Matth‰i (Local Key) <patrick.matthaei@web.de>
-  sig!3        7A5A6CC7 2006-08-15  Patrick Matth‰i (Local Key) <patrick.matthaei@web.de>
-  sig!3        7A5A6CC7 2008-01-02  Patrick Matth‰i (Local Key) <patrick.matthaei@web.de>
-  sig!         5BE41F21 2008-04-07  Sebastian Drˆge <slomo@circular-chaos.org>
+  uid                  Patrick Matth√§i (Local Key) <patrick.matthaei@web.de>
+  sig!3        7A5A6CC7 2008-02-07  Patrick Matth√§i (Local Key) <patrick.matthaei@web.de>
+  sig!3        7A5A6CC7 2006-08-15  Patrick Matth√§i (Local Key) <patrick.matthaei@web.de>
+  sig!3        7A5A6CC7 2008-01-02  Patrick Matth√§i (Local Key) <patrick.matthaei@web.de>
+  sig!         5BE41F21 2008-04-07  Sebastian Dr√∂ge <slomo@circular-chaos.org>
   sub   2048g/D6395C9A 2006-08-15 [expires: 2010-01-01]
-  sig!         7A5A6CC7 2008-01-02  Patrick Matth‰i (Local Key) <patrick.matthaei@web.de>
+  sig!         7A5A6CC7 2008-01-02  Patrick Matth√§i (Local Key) <patrick.matthaei@web.de>
   .
   Let's test if its a version 4 or greater key
   Key is ok

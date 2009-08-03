@@ -11,7 +11,7 @@ KeyCheck:
         Key fingerprint = 57AD 42EC B22F 67D7 13AF  1AB2 290F BE52 EEA0 7609
   uid                  Ondrej Certik <ondrej@certik.cz>
   sig!3        EEA07609 2007-04-05  Ondrej Certik <ondrej@certik.cz>
-  sig!         C20DF273 2007-10-15  Ond\xc5\x99ej Surý <ondrej@sury.org>
+  sig!         C20DF273 2007-10-15  Ond\xc5\x99ej SurÃ½ <ondrej@sury.org>
   sig!         B5444815 2007-11-10  Bill Allombert <ballombe@debian.org>
   sub   2048g/4035EBFD 2007-04-05
   sig!         EEA07609 2007-04-05  Ondrej Certik <ondrej@certik.cz>

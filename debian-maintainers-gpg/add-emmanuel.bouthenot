@@ -15,7 +15,7 @@ KeyCheck:
   sig!         C5C05BAE 2007-05-05  Yves-Alexis Perez (Corsac) <corsac@corsac.net>
   sig!         29499F61 2007-05-05  Sam Hocevar <sam@zoy.org>
   sig!         AC5F700C 2007-05-05  Julien Cristau <julien.cristau@ens-lyon.org>
-  sig!         EA7CF5AD 2007-05-05  Nicolas FRANÇOIS <nekral@debian.org>
+  sig!         EA7CF5AD 2007-05-05  Nicolas FRANÃ‡OIS <nekral@debian.org>
   sig!         C0143D2D 2007-05-05  Christian Perrier <bubulle@kheops.homeunix.org>
   sig!         747935DD 2007-08-25  Cyril Brulebois <kibi@debian.org>
   sig!         023B3F4F 2007-09-30  Lucas Nussbaum <lucas@lucas-nussbaum.net>
@@ -54,7 +54,7 @@ KeyCheck:
   sig!3        414EC36E 2005-02-12  Emmanuel Bouthenot <kolter@openics.org>
   sig!         C5C05BAE 2007-05-05  Yves-Alexis Perez (Corsac) <corsac@corsac.net>
   sig!         AC5F700C 2007-05-05  Julien Cristau <julien.cristau@ens-lyon.org>
-  sig!         EA7CF5AD 2007-05-05  Nicolas FRANÇOIS <nekral@debian.org>
+  sig!         EA7CF5AD 2007-05-05  Nicolas FRANÃ‡OIS <nekral@debian.org>
   sig!         C0143D2D 2007-05-05  Christian Perrier <bubulle@kheops.homeunix.org>
   sig!         29499F61 2007-05-05  Sam Hocevar <sam@zoy.org>
   sub   1024g/AABA7B7A 2003-12-18

@@ -27,7 +27,7 @@ KeyCheck:
   sig!         C5E95333 2008-03-01  Faidon Liambotis <paravoid@debian.org>
   sig!         89BF7E2B 2008-03-02  Daniel Kobras <kobras@tat.physik.uni-tuebingen.de>
   sig!         4D2313D5 2008-03-02  Adriaan Peeters <apeeters@lashout.net>
-  sig!         6FECCDE0 2008-03-08  Santiago Ruano Rincón <santiago@unicauca.edu.co>
+  sig!         6FECCDE0 2008-03-08  Santiago Ruano RincÃ³n <santiago@unicauca.edu.co>
   sig!         627CCF95 2008-03-16  Bas Wijnen <wijnen@debian.org>
   sig!    PN   AF79D29E 2008-03-09  Wouter Verhelst <wouter@grep.be>
   uid                  Stephane Glondu <steph.glondu@wanadoo.fr>
@@ -66,7 +66,7 @@ KeyCheck:
   sig!         C5E95333 2008-03-01  Faidon Liambotis <paravoid@debian.org>
   sig!         89BF7E2B 2008-03-02  Daniel Kobras <kobras@tat.physik.uni-tuebingen.de>
   sig!         4D2313D5 2008-03-02  Adriaan Peeters <apeeters@lashout.net>
-  sig!         6FECCDE0 2008-03-08  Santiago Ruano Rincón <santiago@unicauca.edu.co>
+  sig!         6FECCDE0 2008-03-08  Santiago Ruano RincÃ³n <santiago@unicauca.edu.co>
   sig!    PN   AF79D29E 2008-03-09  Wouter Verhelst <wouter@grep.be>
   sig!         627CCF95 2008-03-16  Bas Wijnen <wijnen@debian.org>
   uid                  [jpeg image of size 4456]
@@ -81,7 +81,7 @@ KeyCheck:
   sig!         1F9FA7EE 2008-02-28  Stuart Teasdale (Debian Developer Address) <sdt@debian.org>
   sig!         C5E95333 2008-03-01  Faidon Liambotis <paravoid@debian.org>
   sig!         89BF7E2B 2008-03-02  Daniel Kobras <kobras@tat.physik.uni-tuebingen.de>
-  sig!         6FECCDE0 2008-03-08  Santiago Ruano Rincón <santiago@unicauca.edu.co>
+  sig!         6FECCDE0 2008-03-08  Santiago Ruano RincÃ³n <santiago@unicauca.edu.co>
   sub   1024g/32908716 2004-09-29
   sig!         FCE03DAA 2006-09-08  Stephane Glondu <steph@glondu.net>
   .

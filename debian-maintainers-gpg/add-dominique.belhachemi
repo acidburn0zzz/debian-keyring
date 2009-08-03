@@ -11,9 +11,9 @@ KeyCheck:
         Key fingerprint = 9B64 3271 2BA2 149A AA03  CD48 1800 A1F8 B351 A900
   uid                  Dominique Belhachemi <domibel@cs.tu-berlin.de>
   sig!3        B351A900 2006-12-29  Dominique Belhachemi <domibel@cs.tu-berlin.de>
-  sig!         66A90DE2 2007-10-20  José L. Redrejo Rodríguez <jredrejo@edu.juntaextremadura.net>
+  sig!         66A90DE2 2007-10-20  JosÃ© L. Redrejo RodrÃ­guez <jredrejo@edu.juntaextremadura.net>
   sig!         AC583520 2007-10-20  Holger Levsen <holger@layer-acht.org>
-  sig!         66A90DE2 2007-10-20  José L. Redrejo Rodríguez <jredrejo@edu.juntaextremadura.net>
+  sig!         66A90DE2 2007-10-20  JosÃ© L. Redrejo RodrÃ­guez <jredrejo@edu.juntaextremadura.net>
   sig!         2D2F75EF 2007-10-20  Henning Glawe <glaweh@debian.org>
   sig!         C09FD35A 2007-10-25  Andreas Tille <tille@debian.org>
   sub   2048g/ACA02067 2006-12-29

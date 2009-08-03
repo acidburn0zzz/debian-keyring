@@ -30,7 +30,7 @@ KeyCheck:
   sig!3        74E0B766 2003-02-09  Andreas Mueller <amu@debian.org>
   sig!3        54FD2A58 2003-02-10  Mike Hommey <mh@glandium.org>
   sig!3        29F19BD1 2003-03-10  Michael Meskes <michael@fam-meskes.de>
-  sig!3        307D56ED 2003-04-21  Noèl Köthe <noel@debian.org>
+  sig!3        307D56ED 2003-04-21  NoÃ¨l KÃ¶the <noel@debian.org>
   sig!3        1EEF5276 2002-08-23  Jelmer Vernooij <jelmer@samba.org>
   sig!3        1EEF5276 2004-09-12  Jelmer Vernooij <jelmer@samba.org>
   sig!3        1EEF5276 2004-09-12  Jelmer Vernooij <jelmer@samba.org>
@@ -52,7 +52,7 @@ KeyCheck:
   sig!3        74E0B766 2003-02-09  Andreas Mueller <amu@debian.org>
   sig!3        54FD2A58 2003-02-10  Mike Hommey <mh@glandium.org>
   sig!3        29F19BD1 2003-03-10  Michael Meskes <michael@fam-meskes.de>
-  sig!3        307D56ED 2003-04-21  Noèl Köthe <noel@debian.org>
+  sig!3        307D56ED 2003-04-21  NoÃ¨l KÃ¶the <noel@debian.org>
   sig!3        1EEF5276 2002-05-11  Jelmer Vernooij <jelmer@samba.org>
   sig!3        1EEF5276 2002-05-11  Jelmer Vernooij <jelmer@samba.org>
   rev!         1EEF5276 2004-09-08  Jelmer Vernooij <jelmer@samba.org>
@@ -112,7 +112,7 @@ KeyCheck:
   sig!3        74E0B766 2003-02-09  Andreas Mueller <amu@debian.org>
   sig!3        54FD2A58 2003-02-10  Mike Hommey <mh@glandium.org>
   sig!3        29F19BD1 2003-03-10  Michael Meskes <michael@fam-meskes.de>
-  sig!3        307D56ED 2003-04-21  Noèl Köthe <noel@debian.org>
+  sig!3        307D56ED 2003-04-21  NoÃ¨l KÃ¶the <noel@debian.org>
   rev!         1EEF5276 2005-11-23  Jelmer Vernooij <jelmer@samba.org>
   sig!3        1EEF5276 2002-05-11  Jelmer Vernooij <jelmer@samba.org>
   sig!3        1EEF5276 2002-05-11  Jelmer Vernooij <jelmer@samba.org>
@@ -121,7 +121,7 @@ KeyCheck:
   sig!3        74E0B766 2003-02-09  Andreas Mueller <amu@debian.org>
   sig!3        54FD2A58 2003-02-10  Mike Hommey <mh@glandium.org>
   sig!3        29F19BD1 2003-03-10  Michael Meskes <michael@fam-meskes.de>
-  sig!3        307D56ED 2003-04-21  Noèl Köthe <noel@debian.org>
+  sig!3        307D56ED 2003-04-21  NoÃ¨l KÃ¶the <noel@debian.org>
   sig!3        1EEF5276 2002-05-11  Jelmer Vernooij <jelmer@samba.org>
   sig!3        1EEF5276 2002-05-11  Jelmer Vernooij <jelmer@samba.org>
   rev!         1EEF5276 2005-06-27  Jelmer Vernooij <jelmer@samba.org>
@@ -141,7 +141,7 @@ KeyCheck:
   sig!3        74E0B766 2003-02-09  Andreas Mueller <amu@debian.org>
   sig!3        54FD2A58 2003-02-10  Mike Hommey <mh@glandium.org>
   sig!3        29F19BD1 2003-03-10  Michael Meskes <michael@fam-meskes.de>
-  sig!3        307D56ED 2003-04-21  Noèl Köthe <noel@debian.org>
+  sig!3        307D56ED 2003-04-21  NoÃ¨l KÃ¶the <noel@debian.org>
   sig!3        1EEF5276 2002-05-13  Jelmer Vernooij <jelmer@samba.org>
   sig!3        1EEF5276 2002-05-13  Jelmer Vernooij <jelmer@samba.org>
   sig!         8E7C03FF 2006-07-13  Matthew Wilcox <willy@debian.org>
@@ -166,7 +166,7 @@ KeyCheck:
   sig!3        74E0B766 2003-02-09  Andreas Mueller <amu@debian.org>
   sig!3        54FD2A58 2003-02-10  Mike Hommey <mh@glandium.org>
   sig!3        29F19BD1 2003-03-10  Michael Meskes <michael@fam-meskes.de>
-  sig!3        307D56ED 2003-04-21  Noèl Köthe <noel@debian.org>
+  sig!3        307D56ED 2003-04-21  NoÃ¨l KÃ¶the <noel@debian.org>
   sig!3        1EEF5276 2002-10-15  Jelmer Vernooij <jelmer@samba.org>
   sig!3        1EEF5276 2002-10-15  Jelmer Vernooij <jelmer@samba.org>
   sig!3        1EEF5276 2007-01-07  Jelmer Vernooij <jelmer@samba.org>
@@ -191,7 +191,7 @@ KeyCheck:
   sig!3        74E0B766 2003-02-09  Andreas Mueller <amu@debian.org>
   sig!3        54FD2A58 2003-02-10  Mike Hommey <mh@glandium.org>
   sig!3        29F19BD1 2003-03-10  Michael Meskes <michael@fam-meskes.de>
-  sig!3        307D56ED 2003-04-21  Noèl Köthe <noel@debian.org>
+  sig!3        307D56ED 2003-04-21  NoÃ¨l KÃ¶the <noel@debian.org>
   sig!3        1EEF5276 2001-10-30  Jelmer Vernooij <jelmer@samba.org>
   sig!3        1EEF5276 2001-10-30  Jelmer Vernooij <jelmer@samba.org>
   sig!3        FBD3EB8E 2006-06-12  Robert Collins <robertc@robertcollins.net>
