@@ -1,3 +1,53 @@
+debian-keyring (2009.08.11) UNRELEASED; urgency=low
+
+  * Add Vcs-Browser/Bzr control headers pointing to bzr.debian.org mirror
+  * Move 0x5FCAF9022EDFE670 (Jarno Elonen) to emeritus
+  * Replace 0xF85990B0248AEB73 with 0x0AA04571D03E3E70 (Rene Engelhard)
+    (RT #1642)
+  * Replace 0xD8F2E6815B97A5D2 with 0x92E0BDE7C6002CBD (Paul Brossier)
+    (RT #134)
+  * Remove 0x0B83CCC088727121 (Matthias Klose v3 key)
+  * Replace 0xBCF6C60F6E8169D2 with 0xE619045DF2AC729A (Raphaël Hertzog)
+    (RT #1396)
+  * Add new developer key 0x4121C7433170EBE9 (Nobuhiro Iwamatsu) (RT #1651)
+  * Add new developer key 0x6436436109F34024 (Danai Sae-Han) (RT #1652)
+  * Add new developer key 0xAA0CD1EED08B47FE (Theppitak Karoonboonyanan)
+    (RT #1653)
+  * Add new developer key 0x75E1C1E9710F68E2 (Brian Pellin) (RT #1663)
+  * Replace 0x77D52EBE3EF23CD with 0x41CE7F0B9F1B8B32 (Santiago Vila)
+    (RT #1626)
+  * Add pull-updates script
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x001CDE6A6B79D401 Giunchedi Filippo <filippo> sig:60
+    * 0x0A300ED090E5CA46 Felipe Augusto van de Wiel <faw> sig:14
+    * 0x0EA756B5144843F5 Roland Mas <lolando> sig:60
+    * 0x1239F7098E950E00 Filip Van Raemdonck <mechanix> sig:3
+    * 0x3B32989D00F3CFE4 gregor herrmann <gregoa> sig:129
+    * 0x40A5BEED72D03CB1 Kenshi Muto <kmuto> sig:174
+    * 0x5194830BEC19B378 Paul Cannon <pik> sig:133
+    * 0x69937E9B27FCEB27 Philipp Hug <hug> sub:2 sig:18
+    * 0x6CC69AC26868F41F Bart Martens <bartm> sig:34
+    * 0x7867D53C747935DD Cyril Brulebois <kibi> sig:2
+    * 0x83C07215CDBDBCE2 Shachar Shemesh <shachar> sig:4
+    * 0x8ABD9BA1FB0DFE9B Sylvain Le Gall <gildor> sig:316
+    * 0x9A953C82556ABA51 Francisco Manuel Garcia Claramonte <francisco> uid:1
+                         sig:9
+    * 0x9AA551D966A90DE2 José L. Redrejo Rodríguez <jredrejo> sig:3
+    * 0x9D0633E1B6250985 Andrew Lee <ajqlee> uid:1 sig:1
+    * 0x9FB0DB32C02440B8 Jonas Smedegaard <js> sig:90
+    * 0xA108FBC534A26946 Ying-Chun Liu <paulliu> uid:1 sig:1
+    * 0xA72FF66C42BD645D Alexander Zangerl <az> sig:8
+    * 0xA73E0055558FB8DD Jan Dittberner <jandd> uid:1 sig:8
+    * 0xA95C3BECEB88E930 Philipp Benner <philipp> uid:1 sig:2
+    * 0xB1C473173E7B4B73 Lionel Elie Mamane <lmamane> sig:3
+    * 0xD5CA9B04F2C423BC Stefano Zacchiroli <zack> sig:113
+    * 0xE1EBBEA51D389887 Y Giridhar Appaji Nag <appaji> sig:7
+    * 0xE5273D986BE3C423 Paul Wise <pabs> sig:7
+    * 0xED1A3933B2CFCDD8 Philipp Kern <pkern> sig:1
+    * 0xF7F0E70F307D56ED Noèl Köthe <noel> sig:109
+
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 11 Aug 2009 09:16:05 +0100
+
 debian-keyring (2009.07.25) UNRELEASED; urgency=low
 
   * Add new developer key 0xDFF738C2D16CFBA2 (Simon Paillard) (RT #1595)
