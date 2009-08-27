@@ -1,3 +1,9 @@
+debian-keyring (2009.08.27) unstable; urgency=high
+
+  * Merge in Debian Maintainers keyring.
+
+ -- Jonathan McDowell <noodles@earth.li>  Thu, 27 Aug 2009 14:58:13 +0100
+
 debian-keyring (2009.08.24) UNRELEASED; urgency=high
 
   * Add new developer key 0x9D78D71186BC2A50 (Luca Falavigna) (RT #1669)
