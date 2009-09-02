@@ -2,13 +2,15 @@ This is Debian GNU's GnuPG and PGP keyrings of developers keys.
 
 This package was originally put together by James Troup
 <james@nocrew.org> and Igor Grobman <igor@debian.org>.  It is now
-maintained solely by James Troup <james@nocrew.org>.
+maintained by the Debian keyring maintainers <keyring-maint@debian.org>.
 
 The keys in the keyrings don't fall under any copyright.  Everything
 else in the package is covered by the GNU GPL.
 
 Debian support files Copyright (C) 1998-2003 James Troup <james@nocrew.org>, 
 					Igor Grobman <igor@debian.org>
+Keyring maintenance scripts:
+Copyright 2008-2009 Jonathan McDowell <noodles@earth.li>
 
 Debian support files for debian-keyring are free software; you can
 redistribute them and/or modify them under the terms of the GNU
