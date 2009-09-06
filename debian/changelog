@@ -1,3 +1,58 @@
+debian-keyring (2009.09.06) UNRELEASED; urgency=low
+ 
+  * Add replacement key 0x2AFBD67FD133AC6E for Martin Meridith (RT #1666)
+  * Add new developer key 0x721A2B30C154998C (Eugene V. Lyubimkin) (RT #1726)
+  * Replace James Troup with Gunnar Wolf in Uploaders.
+  * Replace 0xFE1F5E2FD1E2B16F with 0x7F36CF55AA87AA77 (Soeren Sonnenburg)
+    (RT #1457)
+  * Replace 0x9A3EBA3FF61F73F8 with 0x8E889544D985000D (Bastian Venthur)
+    (RT #1462)
+  * Replace 0x6CC69AC26868F41F with 0x3355F4D63B5821CC (Bart Martens)
+    (RT #1627)
+  * Update debian/copyright to indicate current maintenance (Bug#544738)
+  * Replace 0xF7B2C1C1B345BDD3 with 0x7F55BB12A40F862E (Neil McGovern)
+    (RT #1504)
+  * Replace 0xEAE3DC35F0D7D44A with 0x751AB5DDA79679CC (Jimmy Kaplowitz)
+    (RT #1692)
+  * Replace 0x0641D82AE3E3CE1D with 0xCA87E9E82AAC33F1 (Alexander GQ Gerasiov)
+    (RT #1702)
+  * Replace 0x2BC8401620687895 with 0x3CCEBABE206C3B69 (Daniel Silverstone)
+    (RT #1723)
+  * Move 0x50B69C9F398B371D (Joe Nahmias) to removed (revoked key)
+  * Replace 0xB7F68E1C797E641D with 0x85199DE8C6648E90 (Benn Pfaff) (RT #1732)
+  * Remove 0x86BCABFF1C00C790 (Mehdi Dogguy) from DM keyring (RT #1742)
+  * Remove 0x060F2876FCE03DAA (Stephane Glondu) from the DM keyring (RT #1743)
+  * Replace 0x64A7C0A7F2CF01A8 with 0x3A936196C095D941 (Bdale Garbee)
+    (RT #1725)
+  * Add new DM key 0xA4AB763B00EC886F (LIU Qi) (RT #1745)
+  * Replace 0xEFD64D0912066207 with 0xE7BFC8EC95861109 (Ben Hutchings)
+    (RT #1735)
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x0A300ED090E5CA46 Felipe Augusto van de Wiel <faw> sig:3
+    * 0x0AA04571D03E3E70 Rene Engelhard <rene> sig:124
+    * 0x0EA756B5144843F5 Roland Mas <lolando> sig:2
+    * 0x21B9575CA7D91602 Andrew Pollock <apollock> sig:161
+    * 0x29BE5D2268FD549F Martin Michlmayr <tbm> sig:12
+    * 0x33BE1A0A8C2ED8FF Mehdi Dogguy <mehdi> uid:1 sig:9
+    * 0x3B32989D00F3CFE4 Gregor Herrmann <gregoa> sig:20
+    * 0x40A5BEED72D03CB1 Kenshi Muto <kmuto> sig:19
+    * 0x4121C7433170EBE9 Nobuhiro Iwamatsu <iwamatsu> uid:1 sig:157
+    * 0x6436436109F34024 Danai Sae-Han <danai> uid:1 sig:1
+    * 0x76478107233B9EA0 Laurent Bigonville <bigon> sig:189
+    * 0x7853DA4D49881AD3 Stéphane Glondu <glondu> uid:2 sig:31
+    * 0x9306C9BCDAF1054C Maitland Bottoms <bottoms> sig:3
+    * 0x94FA372B2DA8B985 Jonathan McDowell <noodles> sig:13
+    * 0x9D78D71186BC2A50 Luca Falavigna <dktrkranz> uid:1 sig:2
+    * 0xA73E0055558FB8DD Jan Dittberner <jandd> sig:56
+    * 0xE2EDE84371473F66 Todd Troxell <ttroxell> sig:5
+    * 0xE3AA82D81B352C01 Chris Hanson <cph> sig:19
+    * 0xE5273D986BE3C423 Paul Wise <pabs> sig:7
+    * 0xE619045DF2AC729A Raphaël Hertzog <hertzog> sig:93
+    * 0xF985E3400AFC7476 Russ Allbery <rra> sig:21
+    * 0xFA08BEAEDED45912 Paul Martin <pm> sig:18
+
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 06 Sep 2009 18:14:32 +0100
+
 debian-keyring (2009.08.27) unstable; urgency=high
 
   * Merge in Debian Maintainers keyring.
