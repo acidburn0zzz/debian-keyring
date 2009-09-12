@@ -1,3 +1,46 @@
+debian-keyring (2009.09.12) UNRELEASED; urgency=low
+
+  [Gunnar Wolf]
+
+  * Replace 0x804019FAA209C305 with 0xBB20AC20E0B7D6BE (René Mayorga)
+    (RT #1764)
+  * Replace 0x49DEF96B0B5AB4E7 with 0x7A8F49E8B63480BE (Kumar Appaiah)
+    (RT #1763)
+  * Replace 0xFA08BEAEDED45912 with 0x603B832661F9CA53 (Paul Martin) (RT #1755)
+  * Replace 0x59273CCD5530EC76 with 0x4DE8FF2A63C7CC90 (Simon McVittie)
+    (RT #1760)
+  * Replace Gunnar Wolf's 0xD80EF35A8BB527AF with 0x673A03E4C1DB921F (RT #1765)
+
+  [Jonathan McDowell]
+
+  * Replace 0x44BB6649F4789B2D with 0x9E2B9967C33F126D (Jon Marler)
+  * Add new DM key 0xCF49D0E68A2FAFBC (Matthijs Kooijman) (RT #1748)
+  * Add new DM key 0x965522B9D49AE731 (Christoph Egger) (RT #1749)
+  * Add new DM key 0xDA8622AE93EBF6D8 (Andrea Veri) (RT #1750)
+  * Add new DM key 0x6BAFFD62A3623899 (David Bremner) (RT #1751)
+  * Add new DM key 0x159EB5C4EFC8774C (Benjamin Drung) (RT #1756)
+  * Add new DM key 0x8E2764373B30EB44 (Francesco Namuri) (RT #1757)
+  * Add new DM key 0x9D7319316206618C (Harshula Jayasuriya) (RT #1758)
+  * Add new DM key 0xB6A9BA6AA59B1171 (Frédéric-Emmanuel Picca) (RT #1754)
+  * Remove 0x14E72485613D3895 (Siggy Brentrup) from extra-keys.pgp
+  * Update DM key 0x32286FF8F69C6AC5 (Ryan Niebur) (RT #1753)
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x0EA756B5144843F5 Roland Mas <lolando> sig:2
+    * 0x3450ED513FCC2A90 Amaya Rodrigo Sastre <amaya> sig:41
+    * 0x3B32989D00F3CFE4 Gregor Herrmann <gregoa> sig:15
+    * 0x721A2B30C154998C Eugene V. Lyubimkin <jackyf> uid:1 sig:1
+    * 0x751AB5DDA79679CC Jimmy Kaplowitz <jimmy> sig:18
+    * 0x7853DA4D49881AD3 Stéphane Glondu <glondu> uid:1 sig:6
+    * 0x7C3B797088C7C1F7 Steve McIntyre <93sam> uid:1 sig:102
+    * 0x7F55BB12A40F862E Neil McGovern <neilm> sig:20
+    * 0x867BF9A9FBD3EB8E Robert Collins <robertc> sub:1 sig:3
+    * 0x86E00D0C19A42D19 Dann Frazier <dannf> sig:8
+    * 0xE544DE079B7C328D Luk Claes <luk> sig:30
+    * 0xF7F0E70F307D56ED Noèl Köthe <noel> sig:52
+    * 0xF9935424B1DF9A57 Giacomo Catenazzi <cate> sig:3
+
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 12 Sep 2009 16:35:00 +0100
+
 debian-keyring (2009.09.06) UNRELEASED; urgency=low
  
   * Add replacement key 0x2AFBD67FD133AC6E for Martin Meridith (RT #1666)
