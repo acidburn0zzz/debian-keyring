@@ -25,12 +25,14 @@ keydir="$2"
 basename=$(basename "$keyfile")
 date=`date -R`
 
-keyid=$(gpg --keyid long --options /dev/null --no-auto-check-trustdb < $keyfile | grep '^pub' | sed -e 's!.*/!!' -e 's/ .*//')
+keyid=$(gpg --quiet --keyid long --options /dev/null --no-auto-check-trustdb < $keyfile | grep '^pub' | sed -e 's!.*/!!' -e 's/ .*//')
 
-if [ -e $keydir/0x$keyid ]; then
-	echo "0x$keyid already exists in $keydir - existing key or error."
-	exit 1
-fi
+for keyring in *-pgp/ *-gpg/; do
+	if [ -e $keyring/0x$keyid ]; then
+		echo "0x$keyid already exists in $keyring - existing key or error."
+		exit 1
+	fi
+done
 
 # Check we have our keyrings available for checking the signatures
 if [ ! -e output/keyrings/debian-keyring.gpg -o \
