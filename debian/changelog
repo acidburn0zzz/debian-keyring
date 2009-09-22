@@ -1,3 +1,28 @@
+debian-keyring (2009.09.22) UNRELEASED; urgency=low
+
+  * Make add-key check if a key exists in other keyring dirs
+  * Add new developer key 0x32286FF8F69C6AC5 (Ryan Niebur) (RT #1773)
+  * Add new developer key 0x58DD3FE299E141B4 (Micha Lenk) (RT #1767)
+  * Add new developer key 0x690D6214A504FECA (Tiago Bortoletto Vaz) (RT #1772)
+  * Add new developer key 0x38A0AD5BCACAB118 (Jose Luis Rivas Contreras)
+    (RT #1768)
+  * Add new developer key 0xE890DD36AF2A4968 (Carl Worth) (RT #1769)
+  * Add new developer key 0x61C749B1C77828D4 (John Francesco Ferlito)
+    (RT #1770)
+  * Add new developer key 0x396DA361FE5F1D7F (Mathieu Parent) (RT #1771)
+  * Make add-key use sensible-pager when showing the details of the new key
+  * Add new developer key 0x6AB79ED6C8FDF9C1 (Mauro Lizaur) (RT #1775)
+  * Add new developer key 0xC88157C885C79389 (Damien Raude-Morvan) (RT #1776)
+  * Reintroduce test framework from debian-maintainers package
+  * Add new developer key 0xC90F9CB90E1FAD0C (Jo Shields) (RT #1777)
+  * Add new developer key 0x6692F138ED430BBA (Yukiharu Yabuki) (RT #1792)
+  * Add new developer key 0x18147B073BAD2B07 (Olly Betts) (RT #1793)
+  * Add new developer key 0xCA53F1F68A15CC49 (Takaki Taniguchi) (RT #1794)
+  * Add new developer key 0xC4A5D58EAAAC7BBC (Sven Hoexter) (RT #1795)
+  * Add new DM key 0x711430CB2F2BE6D3 (Denis Briand) (RT #1796)
+
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 22 Sep 2009 19:00:54 +0100
+
 debian-keyring (2009.09.12) UNRELEASED; urgency=low
 
   [Gunnar Wolf]
