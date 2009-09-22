@@ -19,15 +19,8 @@ list_emails () {
 
 fail=0
 
-if [ "$ONLINE" = n ]; then
-	echo "dm-vs-dd: cannot test in offline mode" >&2
-	exit 0
-fi
-
-make rsync-keys
-
-dd_uids=$(list_uids ./cache/debian-keyring.gpg && 
-          list_uids ./cache/debian-keyring.gpg)
+dd_uids=$(list_uids ./output/keyrings/debian-keyring.gpg && 
+          list_uids ./output/keyrings/debian-keyring.pgp)
 (
 	echo "$dd_uids" | list_emails
 	echo "$dd_uids" | list_names
@@ -36,15 +29,15 @@ dd_uids=$(list_uids ./cache/debian-keyring.gpg &&
 
 IFS="
 "
-for uid in $(list_uids $DM_KEYRING | sort | uniq); do
+for uid in $(list_uids ./output/keyrings/debian-maintainers.gpg | sort | uniq); do
 	name=$(echo "$uid" | list_names)
 	email=$(echo "$uid" | list_emails)
-	if grep -q "$uid" dd-list.tmp; then
+	if grep -q "^$uid$" dd-list.tmp; then
 		echo "$uid is in both the DD and DM keyrings"
 		fail=1
-	elif grep -q "$name" dd-list.tmp; then
+	elif grep  "^$name$" dd-list.tmp; then
 		echo "warning: name $name is in both the DD and DM keyrings"
-	elif grep -q "$email" dd-list.tmp; then
+	elif grep  "^$email$" dd-list.tmp; then
 		echo "email $email is in both the DD and DM keyrings"
 		fail=1
 	fi

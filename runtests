@@ -4,14 +4,12 @@ set -e
 fail=0
 total=0
 
-if [ -z "$DM_KEYRING" ]; then
-	DM_KEYRING=./debian-maintainers.gpg
-fi
-if [ ! -e "$DM_KEYRING" ]; then
-	echo "** $DM_KEYRING does not exist, cannot run test suite" >&2
-	exit 1
-fi
-export DM_KEYRING
+for keyring in debian-keyring.{gpg,pgp} debian-maintainers.gpg; do
+	if [ ! -e output/keyrings/$keyring ]; then
+		echo "** $keyring does not exist, cannot run test suite" >&2
+		exit 1
+	fi
+done
 
 export GNUPGHOME=`pwd`/gpghomedir
 mkdir "$GNUPGHOME"
