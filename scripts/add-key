@@ -41,13 +41,14 @@ if [ ! -e output/keyrings/debian-keyring.gpg -o \
 	make
 fi
 
-gpg --import $keyfile
-gpg --keyring output/keyrings/debian-keyring.gpg \
+gpg --quiet --import $keyfile
+(gpg --keyring output/keyrings/debian-keyring.gpg \
 	--keyring output/keyrings/debian-keyring.pgp \
 	--keyring output/keyrings/extra-keys.pgp --fingerprint 0x$keyid
 gpg --keyring output/keyrings/debian-keyring.gpg \
 	--keyring output/keyrings/debian-keyring.pgp \
-	--keyring output/keyrings/extra-keys.pgp --check-sigs 0x$keyid
+	--keyring output/keyrings/extra-keys.pgp --check-sigs 0x$keyid ) | \
+sensible-pager
 
 echo "Are you sure you want to update this key? (y/n)"
 read n
