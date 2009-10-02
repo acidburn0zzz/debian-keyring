@@ -1,3 +1,45 @@
+debian-keyring (2009.10.02) UNRELEASED; urgency=low
+
+  * Move 0xC26D30347C714C78 (René van Bevern) to emeritus (RT #1804)
+  * Replace 0xBA4E790E2EE20270 with 0xC44E5FFC1335C3A2 (Matthew Grant)
+    (RT #1810)
+  * Replace 0xF73509E40AC5BE61 with 0x73401E35B4FBDAA5 (John Hasler)
+  * Add new developer key 0x371A69E3AE3BE9AA (Giuseppe Iuculano) (RT # 1806)
+  * Add new developer key 0x18EA7A5DE0FC710D (Jan Hauke Rahm) (RT #1807)
+  * Further PGPv3 removals
+  * Import changes sent to keyring.debian.org HKP interface
+     * 0x0A300ED090E5CA46 Felipe Augusto van de Wiel <faw> sig:3
+     * 0x0AA04571D03E3E70 Rene Engelhard <rene> sig:20
+     * 0x0EA756B5144843F5 Roland Mas <lolando> sig:4
+     * 0x32286FF8F69C6AC5 Ryan Niebur <ryan> uid:1 sig:2
+     * 0x3450ED513FCC2A90 Amaya Rodrigo Sastre <amaya> sig:3
+     * 0x38A0AD5BCACAB118 Jose Luis Rivas Contreras <ghostbar> uid:1 sig:1
+     * 0x396DA361FE5F1D7F Mathieu Parent <sathieu> uid:1 sig:1
+     * 0x40A5BEED72D03CB1 Kenshi Muto <kmuto> sig:21
+     * 0x412B1E31817A996A Tollef Fog Heen <tfheen> sig:39
+     * 0x4F1A998EDA6AE621 Adeodato Simó <adeodato> sig:15
+     * 0x58DD3FE299E141B4 Micha Lenk <micha> uid:1 sig:62
+     * 0x603B832661F9CA53 Paul Martin <pm> sig:3
+     * 0x632E3DAD46D9CE5A Raphael Geissert <geissert> sig:2
+     * 0x6692F138ED430BBA Yukiharu Yabuki <yyabuki> uid:1 sig:2
+     * 0x690D6214A504FECA Tiago Bortoletto Vaz <tiago> uid:2 sig:6
+     * 0x6AB79ED6C8FDF9C1 Mauro Lizaur <mauro> uid:1 sig:4
+     * 0x721A2B30C154998C Eugene V. Lyubimkin <jackyf> sig:3
+     * 0x7853DA4D49881AD3 Stéphane Glondu <glondu> sig:21
+     * 0x82091D9A5921B5D8 Andrew Mitchell <ajmitch> sig:4
+     * 0x86E00D0C19A42D19 Dann Frazier <dannf> sig:4
+     * 0x87D5E190EBC73D63 Miah Gregory <mace> sig:1
+     * 0xB1A9DD82DC814B09 Javier Fernandez-Sanguino Peña <jfs> sig:102
+     * 0xC4A5D58EAAAC7BBC Sven Hoexter <hoexter> uid:1 sig:1
+     * 0xC88157C885C79389 Damien Raude-Morvan <drazzib> uid:1 sig:7
+     * 0xC90F9CB90E1FAD0C Jo Shields <directhex> uid:1 sig:3
+     * 0xE544DE079B7C328D Luk Claes <luk> sig:3
+     * 0xE7D0B098E07586B4 Philip Charles <philipc> sig:3
+     * 0xF0E9F6BA3CD95104 Kenneth J. Pronovici <pronovic> sig:7
+     * 0xF7F0E70F307D56ED Noèl Köthe <noel> sig:4
+
+ -- Jonathan McDowell <noodles@earth.li>  Fri, 02 Oct 2009 16:36:37 +0100
+
 debian-keyring (2009.09.22) UNRELEASED; urgency=low
 
   * Make add-key check if a key exists in other keyring dirs
