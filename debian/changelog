@@ -1,3 +1,30 @@
+debian-keyring (2009.11.04) unstable; urgency=low
+
+  * Replace 0xDADA79CD788A3F4C with 0xC910D9222512E3C7 (Joey Hess) (RT #1819)
+  * Move 0x1FBB95BF2D9ACC8E (Lars Wirzenius) to emeritus (RT #1824)
+  * Replace 0x62038A4BDD9B9910 with 0xD04BA3A00125D5C0 (Phil Hands) (RT #1842)
+  * Replace 0xF426E1B2BE9BF8DA with 0x5ECAFB00A3AE44A4 (Michael O'Connor) 
+    (RT #1847)
+  * Replace 0x2EA8994049A5F855 with 0xEB70FEF3CDFC6E4F (Otavio Salvador) 
+    (RT #1797, #1867) 
+  * Replace 0x77A954B3E25F2102 with 0x5262E7FF491049FE (Jonas Meurer) 
+    (RT #1859)
+  * Replace 0x3A0D8AA060F41216 with 0xDBF480C602F946FC (Marcin Owsiany) 
+    (RT #1856)
+  * Replaced 0x28DEAE7F29982E5A with 0x5759F35001AA4A64 (Steve Langasek) 
+    (RT #1868)
+  * Add new developer key 0xE6AA90171392B174 (David Paleino) (RT #1869)
+  * Replaced 0xA24704D5345E3A85 with 0xC5CE5DC2C542CD59 (Adam D. Barratt)
+    (RT #1870)
+  * Replaed 0x310180050905E40C with 0x310180050905E40C (Julien Cristau)
+    (RT #1873)
+  * Replaced 0x40A5BEED72D03CB1 with 0x1D21C83DC452E0FC (Kenshi Muto) 
+    (RT #1791)
+  * Replaced 0xC890730FA3F9E30E with 0x9EC002FE1C9CA517 (Michael Schultheiss)
+    (RT #1799)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 04 Nov 2009 14:03:47 -0600
+
 debian-keyring (2009.10.02) UNRELEASED; urgency=low
 
   * Move 0xC26D30347C714C78 (René van Bevern) to emeritus (RT #1804)
