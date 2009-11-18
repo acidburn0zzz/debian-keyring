@@ -57,6 +57,14 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 	gpg --no-auto-check-trustdb --options /dev/null \
 		--export $keyid > $keydir/0x$keyid
 	bzr add $keydir/0x$keyid
+	if [ "$2" = "debian-keyring-gpg" -o "$2" = "debian-keyring-gpg/" ]; then
+		echo -n "Enter full name of new key: "
+		read name
+		echo -n "Enter Debian login of new key: "
+		read login
+		echo "0x$keyid $name <$login>" >> keyids
+		sort keyids > keyids.$$ && mv keyids.$$ keyids
+	fi
 else
 	echo "Not adding key."
 fi
