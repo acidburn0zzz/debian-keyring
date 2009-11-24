@@ -1,3 +1,80 @@
+debian-keyring (2009.11.24) UNRELEASED; urgency=low
+
+  [Gunnar Wolf]
+  * Replace 0x34E622A62FA9A38C with 0xAEEC6E7302754958 (ARAKI Yasuhiro)
+    (RT #1914)
+  * Replace 0x4D44C020C5C05BAE with 0x30550F7871EF0BA8 (Yves-Alexis Perez)
+    (RT #1907)
+  * Replace 0xD696FEEBB9EB150F with 0xC39FFC6F55A410A0 (Drake Diedrich)
+    (RT #1887)
+  * Replace 0x412B1E31817A996A with 0xB65A4871CA19D717 (Tollef Fog Heen)
+    (RT #1886)
+  * Add new DM key 0xC412AF7E994376FD (Andreas Hildebrandt) (RT #1879)
+  * Add new DM key 0x95DE059D8D7FCA91 (Stefan Potyra) (RT #1880)
+  * Add new DM key 0xF2F11C23F00A2BE6 (Ritesh Raj Sarraf) (RT #1884)
+  * Add new DM key 0x17A165D5F0A25F0E (Benoit Mortier) (RT #1885)
+  * Add new DM key 0x80F7DBDCCF4D32E4 (Cristian Greco) (RT #1899)
+  * Add new DM key 0x335C7DE5B63A3AD9 (Xavier Vello) (RT #1893)
+  * Add new DM key 0x85F15E59F01DFE92 (Stefan Ott) (RT #1892)
+  * Add new DM key 0x00AB067AE47B79A4 (Eugen Dedu) (RT #1889)
+  * Move 0x84A844F6FE61E079 (Douglas Bates) to emeritus (RT #1936)
+  * Move 0x5FCCFDF44DE6F9CE (S. Zachariah Sprackett) to emeritus (RT #1937)
+  * Move 0xAA0019FAC66582CE (Nils Rennebarth) to emeritus (RT #1939)
+  * Move 0xAA0019FAC66582CE (Nils Rennebarth) to emeritus (RT #1939)
+
+  [Jonathan McDowell]
+  * Add a mapping file for keyids to names/Debian logins
+  * Ask for name/login details when adding a new key to the Debian keyring
+  * Replace 0x3B32989D00F3CFE4 with 0xBB3A68018649AA06 (Gregor Herrmann)
+    (RT #1923)
+  * Move 0xC250CB593B76AE3A (Jean-Marc Chaton) to emeritus (RT #1932)
+  * Move 0xC0A4CBB987978569 (Marcus Brinkmann) to emeritus (RT #1935)
+  * Add new DM key 0x1F42708A5A5398A8 (Sebastian Reichel) (RT #1881)
+  * Add new DM key 0x8359193BFDCB09C4 (Johann Felix) (RT #1882)
+  * Add new DM key 0x10A46FFB90D53618 (Thomas Friedrichsmeier) (RT #1883)
+  * Add parsing of GPG output to aide changelog writing for key updates
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x010C2EA6D9309644 Nelson A. de Oliveira <naoliv> sig:6
+    * 0x0AA04571D03E3E70 Rene Engelhard <rene> sig:5
+    * 0x0B5447A2200D1596 Josip Rodin <joy> sig:4
+    * 0x18147B073BAD2B07 Olly Betts <olly> uid:1 sig:12
+    * 0x18EA7A5DE0FC710D Jan Hauke Rahm <jhr> uid:1 sig:127
+    * 0x21BADABBBF24424C Manoj Srivastava <srivasta> sig:5
+    * 0x2BAEE41F0644FAB7 Bas Zoetekouw <bas> sig:15
+    * 0x371A69E3AE3BE9AA Giuseppe Iuculano <iuculano> uid:3 sig:12
+    * 0x4FDEC6E7E160649A Matt Hope <dopey> sig:1
+    * 0x55C15C6925BFB848 Roger Leigh <rleigh> uid:1 sig:6
+    * 0x6AB79ED6C8FDF9C1 Mauro Lizaur <mauro> sig:3
+    * 0x6FEA7E2656F06D01 Takeshi YAEGASHI <yaegashi> uid:1 sig:55
+    * 0x7AFF4B3AC34AA484 Benjamin Seidenberg <benjamin> sig:12
+    * 0x7C3B797088C7C1F7 Steve McIntyre <93sam> sig:30
+    * 0x7CF3F5AF29499F61 Samuel Hocevar <sho> uid:1 sig:44
+    * 0x7E2F30EEECA94FA8 Mutsumi Ishikawa <ishikawa> uid:1 sig:1
+    * 0x82D7DF6DFC7F6D0F Timo Jyrinki <timo> sig:4
+    * 0x84E64AA009FC015C Martin A. Godisch <godisch> sig:3
+    * 0x88E5D733DD899610 Sylvestre Ledru <sylvestre> sig:3
+    * 0x8A9067791880283C Anibal Monsalve Salazar <anibal> sig:366
+    * 0x8C90347F8F068012 Andrew McMillan <awm> sig:3
+    * 0x94FA372B2DA8B985 Jonathan McDowell <noodles> sig:1
+    * 0x9E9854311A686975 Carlo Contavalli <ccontavalli> sig:15
+    * 0xC44E5FFC1335C3A2 Matthew Grant <grantma> sig:1
+    * 0xC7F521C122B282CA Vincent Fourmond <fourmond> sig:6
+    * 0xCA53F1F68A15CC49 Takaki Taniguchi <takaki> uid:1 sig:10
+    * 0xCF62D79438E68E0E Thomas Girard <tgg> sig:2 (RT #1910)
+    * 0xD04BA3A00125D5C0 Philip Hands <philh> sig:4
+    * 0xD35BBC99BC7D020A Alexander Wirt <formorer> sub:2 sig:168
+    * 0xD5CA9B04F2C423BC Stefano Zacchiroli <zack> sig:32
+    * 0xDCF785B48A1D9A1F John Goerzen <jgoerzen> sig:3
+    * 0xDFF738C2D16CFBA2 Simon Paillard <spaillard> uid:1 sig:137
+    * 0xE1EBBEA51D389887 Y Giridhar Appaji Nag <appaji> sig:6
+    * 0xE5273D986BE3C423 Paul Wise <pabs> sig:14
+    * 0xE5273D986BE3C423 Paul Wise <pabs> sig:7
+    * 0xE6AA90171392B174 David Paleino <dapal> uid:2 sig:95
+    * 0xE890DD36AF2A4968 Carl Worth <cworth> uid:1 sig:1
+    * 0xF6D3495BB0AE9A02 Clint Adams <schizo> sig:2
+
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 24 Nov 2009 10:53:15 +0000
+
 debian-keyring (2009.11.04) unstable; urgency=low
 
   * Replace 0xDADA79CD788A3F4C with 0xC910D9222512E3C7 (Joey Hess) (RT #1819)
