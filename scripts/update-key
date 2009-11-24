@@ -32,13 +32,17 @@ if [ ! -e $keydir/0x$keyid ]; then
 	exit 1
 fi
 
-gpg --import $keydir/0x$keyid
-gpg --import $keyfile
+gpg --quiet --import $keydir/0x$keyid
+summary=$(gpg --import $keyfile 2>&1 | scripts/parse-gpg-update 0x$keyid)
 gpg --no-auto-check-trustdb --options /dev/null \
 		--export $keyid > $GNUPGHOME/0x$keyid
 
 echo "Running gpg-diff:"
-scripts/gpg-diff $keydir/0x$keyid $GNUPGHOME/0x$keyid
+(
+	echo $summary 
+	echo
+	scripts/gpg-diff $keydir/0x$keyid $GNUPGHOME/0x$keyid
+) | sensible-pager
 
 echo "Are you sure you want to update this key? (y/n)"
 read n
@@ -46,6 +50,7 @@ read n
 if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 	mv $GNUPGHOME/0x$keyid $keydir/0x$keyid
 	echo "Updated key."
+	echo $summary >> update.log
 else
 	echo "Not updating key."
 fi
