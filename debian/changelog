@@ -1,3 +1,48 @@
+debian-keyring (2009.12.06) UNRELEASED; urgency=low
+
+  * Move 0xCEF15C1FF2597E04 (Samuele Giovanni Tonon) to emeritus (RT #1946)
+  * Move 0x878687ADEF50D1FF (Oliver M. Bolzer) to emeritus (RT #1947)
+  * Add new developer key 0x6042B0B5D3F974DF (Oliver Korff) (RT #1948)
+  * Add new DM key 0x99730D5C8A9A3084 (Adrian Perez) (RT #1950,#1891)
+  * Add new DM key 0x7EE852DEE6B78725 (Yauheni Kaliuta) (RT #1956)
+  * Remove 0x51945D7B21F09DA1 (Havoc Pennington)
+  * Move 0x25792A876ACBD306 (Gregory Prokopski) to emeritus
+  * Replace 0x75B2BB24DE054F69 with 0xFF666668B9FD8238 (Alen Zekulic)
+  * Mass add of new developer keys (RT #1949, #1954)
+    Simple moves of existing DMs:
+     * 0xA475EA19414EC36E (Emmanuel Bouthenot)
+     * 0xC490534E75C089FE (Franck Joncourt)
+     * 0x965522B9D49AE731 (Christoph Egger)
+     * 0x0A275AB6B4BCA5D7 (Ludovico Cavedon)
+     * 0xEFE86C6C7FFECF83 (Gilles Filippini)
+     * 0x1CEF494673EAE214 (Modestas Vainius)
+     * 0xDA8622AE93EBF6D8 (Andrea Veri)
+     * 0xE93ABC69A7BE5AB0 (Antonio Radici)
+    New developer keys added:
+     * 0x1106F2005BB6E4A5 (Albin Tonnerre)
+     * 0x2E9354A1A9FD4821 (Christopher Taylor)
+     * 0xAF2283AA76E2AC7B (Hector Oron)
+     * 0x38734D7787901452 (Tim Retout)
+  * Move 0x0152D603DFEAC4B9 (David Welton) to emeritus
+  * Move 0xF7B257749AACBFB8 (Christophe Le Bars) to emeritus (RT #1945)
+  * Replace 0x53E5995B5155330A with 0x3D6903DFE1D316DC (Takuo Kitame)
+    (RT #1941)
+  * Replace 0x21BADABBBF24424C with 0xCF489438C5779A1C (Manoj Srivastava)
+    (RT #1400) 
+  * Import changes sent to keyring.debian.org HKP interface
+     * 0x01998318ADC9BC28 Luis Rodrigo Gallardo Cruz <rodrigo> sig:3
+     * 0x0EA756B5144843F5 Roland Mas <lolando> sig:2
+     * 0x5CA450DE52B7487E Steinar H. Gunderson <sesse> sig:4
+     * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:8
+     * 0x82D7DF6DFC7F6D0F Timo Jyrinki <timo> sig:2
+     * 0x8A9067791880283C Anibal Monsalve Salazar <anibal> sig:2
+     * 0xAEEC6E7302754958 ARAKI Yasuhiro <ar> sig:12
+     * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:10
+     * 0xD8377D4EE81E55C1 Junichi Uekawa <dancer> sig:2
+     * 0xE5273D986BE3C423 Paul Wise <pabs> sig:7
+
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 06 Dec 2009 15:16:43 +0000
+
 debian-keyring (2009.11.25) UNRELEASED; urgency=high
 
   * Remove 0x4F899A4EFFE3035D (Shane Wegner) (RT #1943)
