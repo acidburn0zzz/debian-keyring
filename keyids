@@ -58,6 +58,7 @@
 0x0A04E2A9F7B13CE1 Graydon Hoare <gray>
 0x0A19648B2AE7444E Yooseong Yang <yooseong>
 0x0A2619B646DC0A36 Bruce Walker <w1bw>
+0x0A275AB6B4BCA5D7 Ludovico Cavedon <cavedon>
 0x0A300ED090E5CA46 Felipe Augusto van de Wiel <faw>
 0x0A4E8F42133AD66A Philip Brown <pbrown>
 0x0A62E53437A79149 Stuart R. Anderson <anderson>
@@ -111,6 +112,7 @@
 0x10BB80FC16BD77C6 Gerfried Fuchs <alfie>
 0x10FAAB980EA84A2B Kevin Glynn <keving>
 0x1105432F175472C5 Paolo Didonè <dido>
+0x1106F2005BB6E4A5 Albin Tonnerre <lutin>
 0x111E3AA0BFBCC985 Jaime Robles <jaime>
 0x112ECDF2C4A3823E Kevin M. Rosenberg <kmr>
 0x1144E4ADA7228C38 Anders Hammarquist <iko>
@@ -173,6 +175,7 @@
 0x1C972F2C947AC16A Ian Eure <ieure>
 0x1C98EEF3B7CEC7E8 Christian Kurz <shorty>
 0x1CE8C1699B936C95 Colin Walters <walters>
+0x1CEF494673EAE214 Modestas Vainius <modax>
 0x1CFA3E8CD7145E30 Martin Loschwitz <madkiss>
 0x1D21C83DC452E0FC Kenshi Muto <kmuto>
 0x1D28E4BFE02FEF11 Robert Jördens <jordens>
@@ -291,6 +294,7 @@
 0x2E4008227F4E0E11 Bastian Blank <waldi>
 0x2E4F86BA8B0D42F9 Mark Baker <mbaker>
 0x2E5FDBE0DF67A55E Alexandre Fayolle <afayolle>
+0x2E9354A1A9FD4821 Chris Taylor <ctaylor>
 0x2EA8994049A5F855 Otavio Salvador <otavio>
 0x2F3E069EFEC23FB2 Barak A. Pearlmutter <bap>
 0x2FD71D1C82B7D4BD Joey Hess <joeyh>
@@ -355,6 +359,7 @@
 0x37FB1A7E2705CD5A Nicholas Flintham <flinny>
 0x382B600D7D935D81 Jason Henry Parker <henry>
 0x38642CC105792F34 Ryszard Lach <rla>
+0x38734D7787901452 Tim Retout <diocles>
 0x388909596A765865 Colin Walters <walters>
 0x38A0AD5BCACAB118 Jose Luis Rivas Contreras <ghostbar>
 0x391BC257143BE391 Roberto Lumbreras <rover>
@@ -934,6 +939,7 @@
 0x95908FC0636D59EE Joel Baker <fenton>
 0x95FC446BC8B6823A David Spreen <netzwurm>
 0x962483E15662C734 Michael Vogt <mvo>
+0x965522B9D49AE731 Christoph Egger <christoph>
 0x9692BDF114AD797F Andrew Suffield <asuffield>
 0x96DD9D1AF4495B34 Bruce Perens <bruce>
 0x96E2F6B6FE56BC61 Steven Baker <srbaker>
@@ -1025,6 +1031,7 @@
 0xA4535199E9F2C747 Francesco Lovergine <frankie>
 0xA458C4BD4A725F31 Kai Henningsen <kai>
 0xA462B51EC2FEE5CD Julien Danjou <acid>
+0xA475EA19414EC36E Emmanuel Bouthenot <kolter>
 0xA4E2880389BF7E2B Daniel Kobras <kobras>
 0xA52A84E42C4D9FA1 Nathan Hawkins <utsl>
 0xA53FEB96847AFEDD Doug Porter <dsp>
@@ -1085,6 +1092,7 @@
 0xAE77E041B9D56A91 Eric Delaunay <delaunay>
 0xAEEC6E7302754958 ARAKI Yasuhiro <ar>
 0xAF16EDB1BB9B8711 Edd Dumbill <ejad>
+0xAF2283AA76E2AC7B Hector Oron <zumbi>
 0xAF29C719124B61FA Hubert Chan <uhoreg>
 0xAF380C3EA0779228 Stephen Frost <sfrost>
 0xAF9DD8447D7070A9 Lars Wirzenius <lars>
@@ -1214,6 +1222,7 @@
 0xC44B02669D735B4F Igor Genibel <igenibel>
 0xC44E5FFC1335C3A2 Matthew Grant <grantma>
 0xC48C244A3AA16670 Cai Qian <caiqian>
+0xC490534E75C089FE Franck Joncourt <franck>
 0xC490643655D3A1E9 Laurence Lane <ljlane>
 0xC4948F979C520480 Tomohiro KUBOTA <kubota>
 0xC4A5D58EAAAC7BBC Sven Hoexter <hoexter>
@@ -1355,6 +1364,7 @@
 0xDA460E47EE6DC66A Jaldhar H. Vyas <jaldhar>
 0xDA6D25DF32D75812 Gerhard Tonn <gt>
 0xDA7D51388917A9B0 Matthijs Mohlmann <matthijs>
+0xDA8622AE93EBF6D8 Andrea Veri <and>
 0xDA91EE7BA58E164F Fredrik Steen <stone>
 0xDACCD9CD0C4CABF1 Raphaël Hertzog <hertzog>
 0xDAD5A719BCC131DE Remco van de Meent <remco>
@@ -1459,6 +1469,7 @@
 0xE8C6AF9ACEECEFDD Lantz Moore <lmoore>
 0xE8CB0D3DEAD65AE5 Steve Kostecke <steve>
 0xE90112A72B05B73A Roderick Schertler <rjs>
+0xE93ABC69A7BE5AB0 Antonio Radici <antonio>
 0xE9743528313EA3A6 Maurizio Lemmo <tannoiser>
 0xE9B0C69E268462E3 Nils Lohner <lohner>
 0xE9C6ED4406B4A88D Petr Cech <cech>
@@ -1510,6 +1521,7 @@
 0xEFA55436964199E2 Fabian Fagerholm <fabbe>
 0xEFCA3D47D36B68C4 Andres Salomon <dilinger>
 0xEFD64D0912066207 Ben Hutchings <benh>
+0xEFE86C6C7FFECF83 Gilles Filippini <pini>
 0xF0A98A4C4CD6E3D2 Wesley J. Landaker <wjl>
 0xF0C36D65E2A09309 Randolph Chung <tausq>
 0xF0DC8E00B28C5995 Brendan O'Dea <bod>
@@ -1586,6 +1598,7 @@
 0xFC25567AB25952C0 Adam Byrtek <alpha>
 0xFC2AAD8C62F1A57F Joop Stakenborg <pa3aba>
 0xFC62B3044AE0F2EE Ashley Clark <aclark>
+0xFC841B2D82C8B711 Dario Minnucci <midget>
 0xFC8D76733C86260F Sam Hartman <hartmans>
 0xFCD14DDFBC5D2B2D Jonathan K. Rabone <jkr>
 0xFCF6DD4539CCF0C7 Akira TAGOH <tagoh>
