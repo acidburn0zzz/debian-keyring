@@ -1,3 +1,43 @@
+debian-keyring (2009.12.15) UNRELEASED; urgency=low
+
+  * Move 0xCCEC38F5A3679C16 (Lars Steinke) to emeritus (RT #1970)
+  * Move 0x4044F61854E672DE (Isaac Clerencia) to emeritus (RT #1981)
+  * Move 0x166257EC104B7390 (Eric Cain) to emeritus
+  * Move 0x7D8C40224F83C751 (Kevin B. McCarty) to emeritus (RT #1976)
+  * Move 0xFC2AAD8C62F1A57F (Joop Stakenborg) to emeritus (RT #1980)
+  * Move 0xC4948F979C520480 (Tomohiro KUBOTA) to emeritus (RT #1975)
+  * Move 0x8B3CC11D204D1441 (Hans Freitag) to emeritus (RT #1983)
+  * Move 0x2DE1FC240AAEB1B6 (Susan Kleinmann) to emeritus (RT #1986)
+  * Move 0x579329D3C01B2A22 (Mikael Hedin) to emeritus (RT #1990)
+  * Move 0xBFE120656B21489A (Josh Huber) to emeritus (RT #1988)
+  * Replace 0x64D8790FE0B8B2DE with 0x68530A812B47DCDE (Jay Bonci) (RT #1953)
+  * Replace 0xD8F523B3D7D0EF65 with 0x4814DEC22B307C3C (Jérémy Bobbio)
+    (RT #1978)
+  * Move 0xE2FCC566EEB6B4C2 (Arnaud Vandyck) to emeritus
+  * Move 0x4453008BE65A7801 (Zephaniah E. Hull) to emeritus
+  * Move 0x14B24766281A810E (Robert van der Meulen) to emeritus
+  * Move 0xE9743528313EA3A6 (Maurizio Lemmo) to emeritus (RT #1994)
+  * Move 0x3FF2C23311FB28F6 (Vikram Aggarwal) to emeritus
+  * Replace 0x5596C8C2D7ABE9B9 with 0x1885AD387D42F16E (Zdenek Kabelac)
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x0A275AB6B4BCA5D7 Ludovico Cavedon <cavedon> uid:1 sig:1
+    * 0x1106F2005BB6E4A5 Albin Tonnerre <lutin> uid:1 sig:2
+    * 0x168B4E717032F238 Jon Dowland <jmtd> uid:1 sig:6
+    * 0x1CEF494673EAE214 Modestas Vainius <modax> uid:1 sig:1
+    * 0x2E9354A1A9FD4821 Chris Taylor <ctaylor> uid:1 sig:1
+    * 0x33BE1A0A8C2ED8FF Mehdi Dogguy <mehdi> sig:31
+    * 0x7F55BB12A40F862E Neil McGovern <neilm> sig:2
+    * 0x965522B9D49AE731 Christoph Egger <christoph> uid:1 sig:47
+    * 0xAF2283AA76E2AC7B Hector Oron <zumbi> uid:1 sig:4
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:10
+    * 0xD45356D4B0DDAF42 Alan Woodland <awoodland> sig:4
+    * 0xDA8622AE93EBF6D8 Andrea Veri <and> uid:3 sub:2 sig:6
+    * 0xDB6414CA204DDF1B Arnaud Quette <aquette> uid:1 sig:5
+    * 0xE93ABC69A7BE5AB0 Antonio Radici <antonio> uid:1 sig:1
+    * 0xEFE86C6C7FFECF83 Gilles Filippini <pini> uid:3 sig:15
+
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 15 Dec 2009 09:12:32 +0000
+
 debian-keyring (2009.12.06) UNRELEASED; urgency=low
 
   * Move 0xCEF15C1FF2597E04 (Samuele Giovanni Tonon) to emeritus (RT #1946)
