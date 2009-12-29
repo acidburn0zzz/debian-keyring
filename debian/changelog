@@ -1,3 +1,52 @@
+debian-keyring (2009.12.29) unstable; urgency=low
+
+  [Gunnar Wolf]
+  * Move 0x623E49E0876B252F (Peter van Rossum) to emeritus (RT: #1997)
+  * Replace 0x1705390EE66C9BB0 with 0x40D716CFE909CDEE (Taku YASUI) (RT #1999)
+  * Add new DM key 0x9AFB7B8C9A5F5BBC (Heiko Stuebner) (RT #2006)
+  * Add new DM key 0x381D2AC78124B100 (Thomas Mueller) (RT #2007)
+  * Add new DM key 0xD362B62A54B99890 (Thorsten Alteholz) (RT #2008)
+
+  [Jonathan McDowell]
+  * Move 0x1DAB3C44DA263218 (Thimo Neubauer) to emeritus (RT #1982)
+  * Move 0x3BF609C68BAFCDBD (Neal H. Walfield) to emeritus
+  * Move 0xA3B8229DA57D8BF7 (Joe Drew) to emeritus
+  * Move 0x778AAE5B578CB542 (Guillaume Morin) to emeritus
+  * Move 0xDDE55F0DFDB91B8D (Gregor Hoffleit) to emeritus (RT #1992)
+  * Add test for expired keys
+  * Fix parse-gpg-update to not exit on error when key not in keyids
+  * Update expired keys
+    * 0x0CC70B18206C5AFD Chad C. Walstrom <chewie> sig:6
+    * 0x2E2CF67B7796A60B Simon Law <sfllaw> uid:1 sig:22
+    * 0x840C0E9A45754E44 Marco Túlio Gontijo e Silva [DM] sig:2
+    * 0xB7AC2E51BD41714B Ben Finney [DM] sub:2 sig:14
+    * 0xF3E85400D70AAFF9 Matthias Urlichs <smurf> sig:48
+  * Replace 0x9D0A2246A1DEB73D with 0x1F126539964685E7 (John Lines) (RT #2023)
+  * Add new DM key 0xEA11D609624D95E5 (Chen-Tse Tsai) (RT #2026)
+  * Add new DM key 0x45D48C7CDCFC3FD0 (Alessio Treglia) (RT #2019)
+  * Add new DM key 0x1FD2BF96F5CC22A4 (William Vera) (RT #2020)
+  * Add new DM key 0xA3BABAE2408DD6CF (Felipe Sateler) (RT #2018)
+  * Add new DM key 0xDDB02FF7595FAD19 (Ansgar Burchardt) (RT #2009)
+  * Add new DM key 0x8B1344DE9F807F14 (Johannes Ring) (RT #2010)
+  * Add new DM key 0x524EC3CDEF584970 (Nicolas Valcarcel Scerpella) (RT #2011)
+  * Add new DM key 0x71956D47CD9B9806 (Pietro Battiston) (RT #2012)
+  * Add new DM key 0x28466F1A54C2A185 (Laurent Leonard) (RT #2013)
+  * Add new DM key 0x992B8C75A5674EC1 (Balint Reczey) (RT #2014)
+  * Remove bashism in runtests
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x0BF778679D025E87 Vincent Danjean <vdanjean> sub:2 sig:13
+    * 0x0CFF30E126257B68 Christian Surchi <csurchi> sig:3
+    * 0x3355F4D63B5821CC Bart Martens <bartm> sig:4
+    * 0x632E3DAD46D9CE5A Raphael Geissert <geissert> sig:2
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:10
+    * 0x965522B9D49AE731 Christoph Egger <christoph> sig:1
+    * 0xB5022EB582EA653E Anselm Lingnau <lingnau> sig:5
+    * 0xCF489438C5779A1C Manoj Srivastava <srivasta> sig:6
+  * Replace 0x5A7B4666E572EF59 with 0x8C09994F6E48A047 (Ean Schuessler)
+    (RT #2034)
+
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 29 Dec 2009 15:03:05 +0000
+
 debian-keyring (2009.12.15) UNRELEASED; urgency=low
 
   * Move 0xCCEC38F5A3679C16 (Lars Steinke) to emeritus (RT #1970)
