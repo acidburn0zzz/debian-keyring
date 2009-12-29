@@ -4,7 +4,7 @@ set -e
 fail=0
 total=0
 
-for keyring in debian-keyring.{gpg,pgp} debian-maintainers.gpg; do
+for keyring in debian-keyring.gpg debian-keyring.pgp debian-maintainers.gpg; do
 	if [ ! -e output/keyrings/$keyring ]; then
 		echo "** $keyring does not exist, cannot run test suite" >&2
 		exit 1
