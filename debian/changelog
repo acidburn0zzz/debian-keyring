@@ -1,3 +1,69 @@
+debian-keyring (2010.01.30) unstable; urgency=low
+
+  [Gunnar Wolf]
+  * Add new developer key 0x03042BF0E3BF6C78 (Vagrant Cascadian) (RT #2059)
+  * Add new developer key 0xF66E3E419F84F4DE (Iustin Pop) (RT #2052)
+  * Add new developer key 0x2D4EB3A6015475F5 (Jakub Wilk) (RT #2053)
+  * Add new developer key 0x9C10DDE4C6A2EB7E (Albert Huang) (RT #2057)
+  * Add new developer key 0x64451521809DE012 (Marcelo Jorge Vieira) (RT #2058)
+  * Add new developer key 0x840C0E9A45754E44 (Marco Túlio Gontijo e Silva)
+    (RT #2056)
+  * Add new developer key 0x76B534B2E99007E0 (Thorsten Glaser) (RT #2054)
+  * Add new developer key 0xF09B1EEDDEBA6F3E (Thorvald Natvig) (RT #2051)
+  * Remove 0x35A27AB72E54EFC6 (David Starner) (RT #2060)
+  * Move 0xAA3533346BE69CD0 (Duncan Findlay) to emeritus (RT #2046)
+  * Replace 0x8A9067791880283C with 0x7C56ACFE947897D8 (Anibal Monsalve)
+    (RT #2027)
+  * Replace 0x77BDD7B9521381BA with 0x64959FE9838DF19C (Anne Christine Spang)
+    (RT #2038)
+  * Mass removal of inactive keys at WAT round 1 (RT #2061)
+    * 0xE37882C881764A2D Jean-Francois Dive <jef>
+    * 0xCEF563662B555AEE Abraham van der Merwe <abz>
+    * 0xD8CD3C3BD944DF87 Theodore Karkoulis <bilbo>
+    * 0x9E9854311A686975 Carlo Contavalli <ccontavalli>
+    * 0x0CC70B18206C5AFD Chad C. Walstrom <chewie>
+    * 0x019410C17D0041C7 John R. Daily <koala>
+    * 0xABE4859B7F9DA3B2 Lukas Geyer <lukas>
+    * 0x5532CF25EF424F7D Philip Blundell <pb>
+    * 0xC09EE9AB965544A9 Peter Teichman <pat>
+    * 0x508FD363BC936839 Jaime Villate <villate>
+    * 0x0E95E735A9FA17FF Roland Bauerschmidt <rb>
+    * 0xE7F446C852936E17 Takashi Okamoto <tora>
+    * 0x52655226451EAB1B Oliver Kurth <oku>
+    * 0x1A53DD5F7971EF0F Siggi Langauf <siggi>
+    * 0xEE9E2C2487CD3DBD Rune B. Broberg <mihtjel>
+    * 0x1A9C4B8EF4984AE0 Dale Scheetz <dwarf>
+    * 0x4E92687B666D21A9 Bart Bunting <bart>
+    * 0xDAF24CAFD6D549AA David Schleef <ds>
+    * 0x701CB2A3DA602822 Andrew Stribblehill <ads>
+
+  [Jonathan McDowell]
+  * Replace 0xE46C0E35798DD95C with 0xE569B5E3F30D2F35 (Michael Piefel)
+    (RT #2043)
+  * Add new developer key 0xC09E1D8995930EDE (Axel Beckert) (RT #2082)
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x0AA04571D03E3E70 Rene Engelhard <rene> uid:1 sig:25
+    * 0x0CFF30E126257B68 Christian Surchi <csurchi> sig:3
+    * 0x0EA756B5144843F5 Roland Mas <lolando> sig:4
+    * 0x1D21C83DC452E0FC Kenshi Muto <kmuto> sub:1 sig:95
+    * 0x1EA8E5AA9725F63B Damyan Ivanov <dmn> sig:53
+    * 0x2C045542C9B55DAC Ricardo Mones Lastra <mones> sig:6
+    * 0x33BE1A0A8C2ED8FF Mehdi Dogguy <mehdi> sig:12
+    * 0x38734D7787901452 Tim Retout <diocles> uid:1 sig:1
+    * 0x4565D58245140A6D Samuel Thibault <sthibault> sub:2 sig:2
+    * 0x5194830BEC19B378 Paul Cannon <pik> sig:11
+    * 0xA4535199E9F2C747 Francesco Lovergine <frankie> sig:10
+    * 0xC26C97906D4FC66F Nicolas Boullis <nboullis> sub:2 sig:4
+    * 0xCA07E61412AA1DB8 Joergen Haegg <jh> sig:6
+    * 0xCD603B5A2ECF984B Alexei Nikolov <clown> sig:1
+    * 0xD152FFDAD06A8654 Petr Cech <cech> sig:3
+    * 0xD5CA9B04F2C423BC Stefano Zacchiroli <zack> sig:29
+    * 0xE3DF7A577665A8B7 Morten Hustveit <morten> sub:1 sig:1
+    * 0xED1A3933B2CFCDD8 Philipp Kern <pkern> sig:1
+    * 0xFC841B2D82C8B711 Dario Minnucci <midget> uid:1 sig:1
+
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 30 Jan 2010 13:37:57 +0000
+
 debian-keyring (2009.12.29) unstable; urgency=low
 
   [Gunnar Wolf]
