@@ -1,6 +1,27 @@
-debian-keyring (2010.01.31) unstable; urgency=low
+debian-keyring (2010.02.08) unstable; urgency=low
 
+  [Gunnar Wolf]
+  * Replace 0x1EA8E5AA9725F63B with 0xE41B4C557F0D80BE (Damyan Ivanov) (RT
+    #2073)
+  * Mass removal of inactive keys at WAT round 3 (RT #2119)
+  * Replace 0xA8F71E548CE11941 with 0xEBB31A62C85D8F71 (Kevin Koyner) (RT
+    #2123)
+  * Replace 0x0F340577D097A261 with 0xC39E74E049E3ACD3 (Chris Butler) (RT
+    #2134)
+  * Move 0x7C3B797088C7C1F7 (Steve McIntyre/CD signing) to role keyring
+    (RT #2124)
+  * Replace 0x7C3B797088C7C1F7 with 0x587979573442684E (Steve McIntyre)
+    (RT #2124)
+  * Add new role key 0x988021A964E6EA7D (CD signing key) (RT #2124)
+  * Add new DM key 0x18DD4D72F2CBCA06 (Kiwamu Okabe) (RT #2112)
+  * Add new DM key 0x58B29F8CF74EC6C8 (Iulian Udrea) (RT #2111)
+  * Add new DM key 0xB6B0B9D60AC70206 (Luke Faraone) (RT #2115)
+
+  [Jonathan McDowell]
   * Update 0x64451521809DE012 (Marcelo Jorge Vieira)
+  * Move 0x3C81158E72D2E007 (Teófilo Ruiz Suárez) to emeritus
+  * Move misha / sfllaw /zal to emeritus (RT #2118)
+  * Move 0x3AAE1CA5EAD9259A (Stephen Moraco) to emeritus (RT #2117)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 31 Jan 2010 12:02:41 +0000
 
