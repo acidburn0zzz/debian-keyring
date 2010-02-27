@@ -1,3 +1,66 @@
+debian-keyring (2010.02.27) unstable; urgency=low
+
+  [Gunnar Wolf]
+  * Replace 0x1EA8E5AA9725F63B with 0xE41B4C557F0D80BE (Damyan Ivanov) (RT
+    #2073)
+  * Mass removal of inactive keys at WAT round 3 (RT #2119)
+  * Replace 0xA8F71E548CE11941 with 0xEBB31A62C85D8F71 (Kevin Koyner) (RT
+    #2123)
+  * Replace 0x0F340577D097A261 with 0xC39E74E049E3ACD3 (Chris Butler) (RT
+    #2134)
+  * Move 0x7C3B797088C7C1F7 (Steve McIntyre/CD signing) to role keyring
+    (RT #2124)
+  * Replace 0x7C3B797088C7C1F7 with 0x587979573442684E (Steve McIntyre)
+    (RT #2124)
+  * Add new role key 0x988021A964E6EA7D (CD signing key) (RT #2124)
+  * Add new DM key 0x18DD4D72F2CBCA06 (Kiwamu Okabe) (RT #2112)
+  * Add new DM key 0x58B29F8CF74EC6C8 (Iulian Udrea) (RT #2111)
+  * Add new DM key 0xB6B0B9D60AC70206 (Luke Faraone) (RT #2115)
+
+  [Jonathan McDowell]
+  * Move 0x3C81158E72D2E007 (Teófilo Ruiz Suárez) to emeritus
+  * Move misha / sfllaw /zal to emeritus (RT #2118)
+  * Move 0x3AAE1CA5EAD9259A (Stephen Moraco) to emeritus (RT #2117)
+  * Replace 0x1711E82408683041 with 0xC4D012FFE0163787 (Kristoffer Rose)
+  * Add replacement key 0xB11BD919079A3B98 for Joe Nahmias (RT #1913)
+  * Update 0xEDA21E94B565716F (Simon Josefsson) (RT #2168)
+  * Add new DM key 0xF49A8FB22B983F58 (Luke Cycon) (RT #2153)
+  * Add new DM key 0x548662D00E41645E (Xavier Grave) (RT #2154)
+  * Add new DM key 0xEE4AFD69EC65108F (Nicholas Breen) (RT #2155)
+  * Add new DM key 0x651EEFB02527DF13 (Peter Pentchev) (RT #2156)
+  * Add new DM key 0xBAA569D0CBF12A6A (Scott Howard) (RT #2165)
+  * Add new DM key 0xD929F2992BEF0A33 (Didier Raboud) (RT #2169)
+  * Add new DM key 0x94842BC86E511C31 (Rolf Leggewie) (RT #2170)
+  * Add new DM key 0x8F32B4422F52107F (Adrian Knoth) (RT #2171)
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x03042BF0E3BF6C78 Vagrant Cascadian <vagrant> uid:1 sig:1
+    * 0x0D46FE7CD21DF495 Brian Ristuccia <brianr> sub:4 sig:4
+    * 0x2D4EB3A6015475F5 Jakub Wilk <jwilk> uid:1 sig:1
+    * 0x396DA361FE5F1D7F Mathieu Parent <sathieu> sig:3
+    * 0x43148E6D18EA3457 Rogerio Reis <rvr> uid:1 sig:9
+    * 0x43EC92504F71955A Dave Beckett <dajobe> sig:5
+    * 0x76B534B2E99007E0 Thorsten Glaser <tg> uid:3 sig:69
+    * 0x7853DA4D49881AD3 Stéphane Glondu <glondu> sig:56
+    * 0x7867D53C747935DD Cyril Brulebois <kibi> sig:114
+    * 0x7C56ACFE947897D8 Anibal Monsalve Salazar <anibal> sig:4
+    * 0x82D7DF6DFC7F6D0F Timo Jyrinki <timo> sig:2
+    * 0x840C0E9A45754E44 Marco Túlio Gontijo e Silva <marcot> uid:1 sig:2
+    * 0x94FA372B2DA8B985 Jonathan McDowell <noodles> sig:15
+    * 0x965522B9D49AE731 Christoph Egger <christoph> sig:6
+    * 0xB1C473173E7B4B73 Lionel Elie Mamane <lmamane> sig:5
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:115
+    * 0xBCBBC495718A9256 Wesley W. Terpstra <terpstra> uid:1 sig:1
+    * 0xC09E1D8995930EDE Axel Beckert <abe> uid:1 sig:3
+    * 0xD5CA9B04F2C423BC Stefano Zacchiroli <zack> sig:10
+    * 0xDFF738C2D16CFBA2 Simon Paillard <spaillard> sig:16
+    * 0xE5273D986BE3C423 Paul Wise <pabs> sig:7
+    * 0xEE491C3E0123F2F2 Enrico Tassi <gareuselesinge> sig:61
+    * 0xF09B1EEDDEBA6F3E Thorvald Natvig <thorvald> uid:1 sig:5
+    * 0xF66E3E419F84F4DE Iustin Pop <iustin> uid:1 sig:6
+    * 0xF6D3495BB0AE9A02 Clint Adams <schizo> sig:10
+
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 27 Feb 2010 12:55:35 +0000
+
 debian-keyring (2010.01.31) unstable; urgency=low
 
   * Update 0x64451521809DE012 (Marcelo Jorge Vieira)
