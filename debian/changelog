@@ -1,3 +1,20 @@
+debian-keyring (2010.03.08) UNRELEASED; urgency=low
+
+  [Gunnar Wolf]
+  * Replace 0x63153C9042955682 with 0x3A0A01731BAE93B9 (Atsushi KAMOSHIDA)
+    (RT #2186)
+  * Move 0x1D62E9C9376DCEC7 (Aaron Lehmann) to emeritus (RT #2181)
+
+  [Jonathan McDowell]
+  * Further WAT key removals (RT #2180)
+    * 0xDC4D32BF35261E21 Jason Gunthorpe <jgg>
+    * 0x09DA1280DAEB246B Stefan Gybas <sgybas>
+    * 0xDC4D32BF35261E21 Jochen Röhrig <jr>
+  * Move 0x36E10F4BE0CFA8E4 (Rudi Cilibrasi) to emeritus (RT #2176)
+  * Removed all v3 keys for DDs who already have a v4 key present
+
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 08 Mar 2010 13:08:02 -0600
+
 debian-keyring (2010.02.27) unstable; urgency=low
 
   [Gunnar Wolf]
