@@ -6,6 +6,7 @@ debian-keyring (2010.03.08) UNRELEASED; urgency=low
   * Move 0x1D62E9C9376DCEC7 (Aaron Lehmann) to emeritus (RT #2181)
   * Replace 0x7CF3F5AF29499F61 with 0x055C4B35FFFFFFFE (Sam Hocevar) (RT
     #2146)
+  * Add new DM key 0x4A2254641FE1B08B (Joachim Wiedorn) (RT #2184)
 
   [Jonathan McDowell]
   * Further WAT key removals (RT #2180)
@@ -15,7 +16,7 @@ debian-keyring (2010.03.08) UNRELEASED; urgency=low
   * Move 0x36E10F4BE0CFA8E4 (Rudi Cilibrasi) to emeritus (RT #2176)
   * Removed all v3 keys for DDs who already have a v4 key present
 
- -- Gunnar Wolf <gwolf@debian.org>  Mon, 08 Mar 2010 13:28:26 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 08 Mar 2010 13:37:06 -0600
 
 debian-keyring (2010.02.27) unstable; urgency=low
 
