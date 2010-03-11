@@ -8,6 +8,7 @@ debian-keyring (2010.03.08) UNRELEASED; urgency=low
     #2146)
   * Add new DM key 0x4A2254641FE1B08B (Joachim Wiedorn) (RT #2184)
   * Add new DM key 0xA309D76CE1DE59D2 (Kai Wasserbaech) (RT #2185)
+  * Move 0x0xDC913D985DF03167 (Jérôme Marant) to emeritus (RT #2195)
 
   [Jonathan McDowell]
   * Further WAT key removals (RT #2180)
