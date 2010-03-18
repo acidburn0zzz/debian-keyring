@@ -17,6 +17,8 @@ debian-keyring (2010.03.08) UNRELEASED; urgency=low
     * 0xDC4D32BF35261E21 Jochen Röhrig <jr>
   * Move 0x36E10F4BE0CFA8E4 (Rudi Cilibrasi) to emeritus (RT #2176)
   * Replace 0x1D36D3BCE8254C39 with 0x48F47C58D61C6283 (Zed Pobre)
+  * Replace 0x76478107233B9EA0 with 0xC7F7F9660D82A682
+    (Laurent Bigonville) (RT #2215)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 08 Mar 2010 13:42:09 -0600
 
