@@ -20,6 +20,7 @@ debian-keyring (2010.03.08) UNRELEASED; urgency=low
   * Replace 0x76478107233B9EA0 with 0xC7F7F9660D82A682
     (Laurent Bigonville) (RT #2215)
   * Update 0x92E60A8B5F6D8015 (Kalle Kivimaa) (RT #2206)
+  * Update 0x39C979637274AA07 (Pedro Zorzenon Neto)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 08 Mar 2010 13:42:09 -0600
 
