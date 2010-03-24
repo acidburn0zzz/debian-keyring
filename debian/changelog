@@ -5,6 +5,7 @@ debian-keyring (2010.03.21) UNRELEASED; urgency=low
   * Replace 0xA657661D5BE86FB9 with 0x17274627C4FB7099 (Matthew Johnson)
     (RT #2218)
   * Add new developer key 0xC40AD676437D328B (Tzafrir Cohen) (RT #2222)
+  * Move 0xE3DF7A577665A8B7 (Morten Hustveit) to emeritus (RT #2223)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 21 Mar 2010 09:07:10 +0000
 
