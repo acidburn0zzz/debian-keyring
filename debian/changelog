@@ -1,5 +1,6 @@
 debian-keyring (2010.03.21) UNRELEASED; urgency=low
 
+  [ Jonathan McDowell ]
   * Add new DM key 0xD605848ED7E69871 (Daiki Ueno) (RT #2204)
   * Add new DM key 0xECC1D5F5A1FC6CFA (Stephen Leake) (RT #2205)
   * Replace 0xA657661D5BE86FB9 with 0x17274627C4FB7099 (Matthew Johnson)
@@ -9,7 +10,11 @@ debian-keyring (2010.03.21) UNRELEASED; urgency=low
   * Move 0xC5768B45D8E53013 (Lex Spoon) to emeritus
   * Move 0x1E198A792782AF55 (Eduardo Trápani) to emeritus
 
- -- Jonathan McDowell <noodles@earth.li>  Sun, 21 Mar 2010 09:07:10 +0000
+  [ Gunnar Wolf ]
+  * Replace 0xA475EA19414EC36E with 0x4B077723929D42C3 (Emmanuel
+    Bouthenot) (RT #2119)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 24 Mar 2010 13:22:15 -0600
 
 debian-keyring (2010.03.18) unstable; urgency=high
 
