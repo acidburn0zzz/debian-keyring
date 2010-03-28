@@ -11,6 +11,8 @@ debian-keyring (2010.03.21) UNRELEASED; urgency=low
   * Move 0x1E198A792782AF55 (Eduardo Trápani) to emeritus
   * Add new DM key 0x542AA88AAD5896AC (Niels Thykier) (RT #2225)
   * Add new DM key 0xA7771D09B55C9C2B (Gabriele Giacone) (RT #2227)
+  * Replace 0x49C5192819D03486 with 0x16281F2E007C98D1 (Francois Marier)
+    (RT #2033)
 
   [ Gunnar Wolf ]
   * Replace 0xA475EA19414EC36E with 0x4B077723929D42C3 (Emmanuel
