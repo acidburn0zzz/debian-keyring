@@ -30,3 +30,5 @@ for i in updates/0x*; do
 		rm $i
 	fi
 done
+
+rmdir updates/
