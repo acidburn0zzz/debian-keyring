@@ -1,6 +1,7 @@
 debian-keyring (2010.04.xx) UNRELEASED; urgency=low
 
   * Remove 0x82E537A165D96F29 (Andrew Lenharth)
+  * Replace 0xE4B3AEBDFAADAC25 with 0x17E92B42206F8A04 (Mark Eichin)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 04 Apr 2010 14:44:53 +0100
 
