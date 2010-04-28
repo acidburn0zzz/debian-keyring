@@ -4,6 +4,8 @@ debian-keyring (2010.04.xx) UNRELEASED; urgency=low
   * Remove 0x82E537A165D96F29 (Andrew Lenharth)
   * Replace 0xE4B3AEBDFAADAC25 with 0x17E92B42206F8A04 (Mark Eichin)
   * Move 0x53EE87606C27DEAB (Randall Donald) to emeritus.
+  * Replace 0x7629B22ED71DAABD with 0x9E86D9142C9ED607 (Adrian Bridgett)
+    (RT #5)
 
   [ Gunnar Wolf ]
   * Replace 0xCA6BEA3EDB800B52 with 0x5394479DD3524C51 (Jonathan
