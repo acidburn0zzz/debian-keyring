@@ -74,6 +74,7 @@ debian-keyring (2010.04.xx) UNRELEASED; urgency=low
     * 0xE5273D986BE3C423 Paul Wise <pabs> sig:8
     * 0xE619045DF2AC729A Raphaël Hertzog <hertzog> sig:42
     * 0xF82E5CC04B2B2B9E Daniel Baumann <daniel> sig:8
+  * Remove 0xFC841B2D82C8B711 (Dario Minnucci)
 
   [ Gunnar Wolf ]
   * Replace 0xCA6BEA3EDB800B52 with 0x5394479DD3524C51 (Jonathan
