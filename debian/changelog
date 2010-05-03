@@ -7,6 +7,7 @@ debian-keyring (2010.04.xx) UNRELEASED; urgency=low
   * Replace 0x7629B22ED71DAABD with 0x9E86D9142C9ED607 (Adrian Bridgett)
     (RT #5)
   * Add new developer key 0xF2F11C23F00A2BE6 (Ritesh Raj Sarraf) (RT #2278)
+  * Add new developer key 0x3EA0F86B794F9D7C (Thomas Weber) (RT #2285)
 
   [ Gunnar Wolf ]
   * Replace 0xCA6BEA3EDB800B52 with 0x5394479DD3524C51 (Jonathan
