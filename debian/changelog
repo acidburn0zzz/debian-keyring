@@ -21,6 +21,59 @@ debian-keyring (2010.04.xx) UNRELEASED; urgency=low
   * Add new developer key 0xF1A69BE429C0FFEE (Obey Arthur Liu) (RT #2280)
   * Add new developer key 0x54703CDE1228EB75 (Tommi Vainikainen) (RT #2281)
   * Add new developer key 0x5D328D082AAAB140 (Hideki Yamane) (RT #2284)
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x0AA04571D03E3E70 Rene Engelhard <rene> sig:7
+    * 0x0D46FE7CD21DF495 Brian Ristuccia <brianr> sig:15
+    * 0x0DCB394414D4060B Sven Mueller <sven> sig:3
+    * 0x161974E4C259E0E8 Philipp Huebner <debalance> sig:6
+    * 0x16281F2E007C98D1 Francois Marier <francois> sig:5
+    * 0x18EA7A5DE0FC710D Jan Hauke Rahm <jhr> uid:3 sig:11
+    * 0x1BBABE1EB4A0DE89 Thomas Seyrat <tomasera> sig:1
+    * 0x1CFA3E8CD7145E30 Martin Loschwitz <madkiss> uid:2 sig:11
+    * 0x21B9575CA7D91602 Andrew Pollock <apollock> sig:6
+    * 0x227B70B65595074A Maximiliano Curia <maxy> sig:4
+    * 0x2E9354A1A9FD4821 Chris Taylor <ctaylor> sig:1
+    * 0x3036AD8EA51A4FDD László Böszörményi <gcs> sig:1
+    * 0x3450ED513FCC2A90 Amaya Rodrigo Sastre <amaya> sig:5
+    * 0x3BBFCF77BD8B050D Roland Rosenfeld <roland> sig:458
+    * 0x4CA23313A2D8F6BF Patrick Schoenfeld <schoenfeld> sig:40
+    * 0x550F1A003433BD21 Rudy Godoy <rudy> sig:3
+    * 0x5EB9E72A228A3AE4 John Leuner <jewel> sig:3
+    * 0x64451521809DE012 Marcelo Jorge Vieira <metal> sig:4
+    * 0x64959FE9838DF19C Anne Christine Spang <christine> sig:39
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:12
+    * 0x6754891DEAAC62DF Cyril Bouthors <cyb> uid:1 sig:1
+    * 0x696436BF575D0A76 Martín Ferrari <tincho> sig:4
+    * 0x742F2A428E635A5E Florian Ragwitz <rafl> sig:4
+    * 0x7A81833366468D05 Marcelo Magallon <mmagallo> sig:2
+    * 0x7A8F49E8B63480BE Kumar Appaiah <akumar> sig:3
+    * 0x840C0E9A45754E44 Marco Túlio Gontijo e Silva <marcot> sig:7
+    * 0x846A74DB6538F5BF Mattia Monga <monga> sig:10
+    * 0x89980D29C0DDC83F Sebastien Delafond <seb> sig:2
+    * 0x89CD4B21607559E6 Benjamin Hill <mako> sig:15
+    * 0x8D3867D89DDB992B Luca Capello <gismo> sig:17
+    * 0x965522B9D49AE731 Christoph Egger <christoph> sig:7
+    * 0x98083544945348A4 Reinhard Tartler <siretart> sig:3
+    * 0x98EE733A9DE1EEB1 Marc Brockschmidt <he> uid:2 sig:2
+    * 0x99727C1454ECB8AF Lars Bahner <bahner> sig:1
+    * 0x9C851C72F12DA065 Jan Niehusmann <jan> sig:2
+    * 0xA1183F8ED1028C8D Kartik Mistry <kartik> sig:1
+    * 0xA43E6D27128287E8 Dafydd Harries <daf> sig:5
+    * 0xAF2283AA76E2AC7B Hector Oron <zumbi> sig:3
+    * 0xB1A9DD82DC814B09 Javier Fernandez-Sanguino Peña <jfs> sig:1
+    * 0xBB20AC20E0B7D6BE René Mayorga <rmayorga> sig:6
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:13
+    * 0xC26C97906D4FC66F Nicolas Boullis <nboullis> uid:1 sig:3
+    * 0xC7F7F9660D82A682 Laurent Bigonville <bigon> sig:3
+    * 0xC90F9CB90E1FAD0C Jo Shields <directhex> sig:3
+    * 0xCCD2ED94D21739E9 Daniel Gillmor <dkg> sig:44
+    * 0xCFDA9D8206A7376E Patrick Ouellette <pouelle> sig:5
+    * 0xDA286F326C5F196B Oleksandr V. Moskalenko <malex> sig:7
+    * 0xDC5A28E48C7740AF Gaudenz Steinlin <gaudenz> sig:5
+    * 0xE15517F22B0920C0 Loïc Minier <lool> sig:21
+    * 0xE5273D986BE3C423 Paul Wise <pabs> sig:8
+    * 0xE619045DF2AC729A Raphaël Hertzog <hertzog> sig:42
+    * 0xF82E5CC04B2B2B9E Daniel Baumann <daniel> sig:8
 
   [ Gunnar Wolf ]
   * Replace 0xCA6BEA3EDB800B52 with 0x5394479DD3524C51 (Jonathan
