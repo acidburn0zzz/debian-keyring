@@ -20,6 +20,7 @@ debian-keyring (2010.04.xx) UNRELEASED; urgency=low
     (RT #2279)
   * Add new developer key 0xF1A69BE429C0FFEE (Obey Arthur Liu) (RT #2280)
   * Add new developer key 0x54703CDE1228EB75 (Tommi Vainikainen) (RT #2281)
+  * Add new developer key 0x5D328D082AAAB140 (Hideki Yamane) (RT #2284)
 
   [ Gunnar Wolf ]
   * Replace 0xCA6BEA3EDB800B52 with 0x5394479DD3524C51 (Jonathan
