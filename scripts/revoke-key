@@ -25,7 +25,7 @@ keydir="$2"
 basename=$(basename "$revfile")
 date=`date -R`
 
-keyid=$(gpg --keyid long --options /dev/null --no-auto-check-trustdb < $revfile 2>&1 | grep "using .* key" | sed "s/.* //")
+keyid=$(gpg --with-colons --keyid long --options /dev/null --no-auto-check-trustdb < $keyfile | grep '^pub' | cut -d : -f 5)
 
 if [ ! -e $keydir/0x$keyid ]; then
 	echo "0x$keyid isn't already in $keydir - new key or error."
