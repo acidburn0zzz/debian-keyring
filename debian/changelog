@@ -1,21 +1,21 @@
 debian-keyring (2010.05.xx) UNRELEASED; urgency=low
-
-  [ Gunnar Wolf ]
-  * Replace 0x8D3867D89DDB992B with 0x06EAA066E397832F (Luca Capello) (RT
-    #2041)
   
   [ Jonathan McDowell ]
   * Fix add-key/revoke-key/update-key to use --with-colons when getting keyid.
 
   [ Gunnar Wolf ]
+  * Replace 0x8D3867D89DDB992B with 0x06EAA066E397832F (Luca Capello) (RT
+    #2041)
   * Replace 0xBEC7BF3BA26F54C8 with 0x9D20F6503E338888 (Mikhail Gusarov)
     (RT #2291)
   * Replace 0x21B9575CA7D91602 with 0x51DFD93B3EFB79EF (Andrew Pollock)
     (RT #2274)
   * Replace 0xC1FF10DE90D2295F with 0xAB98288E36D33D07 (Ognyan Kulev)
     (RT #2252)
+  * Replace 0xB0D269DE17F3D4D1 with 0x12F4D21C8F6A63C8 (Matthew Vernon)
+    (RT #2296)
 
- -- Gunnar Wolf <gwolf@debian.org>  Tue, 04 May 2010 14:01:06 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 04 May 2010 17:05:04 -0500
 
 debian-keyring (2010.05.03) unstable; urgency=low
 
