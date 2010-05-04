@@ -7,7 +7,11 @@ debian-keyring (2010.05.xx) UNRELEASED; urgency=low
   [ Jonathan McDowell ]
   * Fix add-key/revoke-key/update-key to use --with-colons when getting keyid.
 
-  -- Jonathan McDowell <noodles@earth.li> Mon, 03 May 2010 22:04:42 +0100
+  [ Gunnar Wolf ]
+  * Replace 0xBEC7BF3BA26F54C8 with 0x9D20F6503E338888 (Mikhail Gusarov)
+    (RT #2291)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 04 May 2010 13:23:19 -0500
 
 debian-keyring (2010.05.03) unstable; urgency=low
 
