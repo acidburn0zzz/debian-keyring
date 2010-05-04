@@ -10,8 +10,10 @@ debian-keyring (2010.05.xx) UNRELEASED; urgency=low
   [ Gunnar Wolf ]
   * Replace 0xBEC7BF3BA26F54C8 with 0x9D20F6503E338888 (Mikhail Gusarov)
     (RT #2291)
+  * Replace 0x21B9575CA7D91602 with 0x51DFD93B3EFB79EF (Andrew Pollock)
+    (RT #2274)
 
- -- Gunnar Wolf <gwolf@debian.org>  Tue, 04 May 2010 13:23:19 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 04 May 2010 13:35:25 -0500
 
 debian-keyring (2010.05.03) unstable; urgency=low
 
