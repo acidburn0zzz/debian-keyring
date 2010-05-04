@@ -12,8 +12,10 @@ debian-keyring (2010.05.xx) UNRELEASED; urgency=low
     (RT #2291)
   * Replace 0x21B9575CA7D91602 with 0x51DFD93B3EFB79EF (Andrew Pollock)
     (RT #2274)
+  * Replace 0xC1FF10DE90D2295F with 0xAB98288E36D33D07 (Ognyan Kulev)
+    (RT #2252)
 
- -- Gunnar Wolf <gwolf@debian.org>  Tue, 04 May 2010 13:35:25 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 04 May 2010 14:01:06 -0500
 
 debian-keyring (2010.05.03) unstable; urgency=low
 
