@@ -6,6 +6,7 @@ debian-keyring (2010.05.xx) UNRELEASED; urgency=low
   * Remove 0x335C7DE5B63A3AD9 (Xavier Vello). Closes: #581727
   * Replace 0xCA53F1F68A15CC49 with 0xC149F6C28A5E257 (TANIGUCHI Takaki)
     (RT #1905)
+  * Replace 0xC18AFB9F2E039402 with 0x81812383AD289755 (Jonny Lamb) (RT #2316)
 
   [ Gunnar Wolf ]
   * Replace 0x8D3867D89DDB992B with 0x06EAA066E397832F (Luca Capello) (RT
