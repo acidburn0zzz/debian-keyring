@@ -9,6 +9,7 @@ debian-keyring (2010.05.xx) UNRELEASED; urgency=low
   * Replace 0xC18AFB9F2E039402 with 0x81812383AD289755 (Jonny Lamb) (RT #2316)
   * Remove 0x49820C1CEA59038E (Stephen Gran)
   * Add new DM key 0x0FE72F64B9B0C9F2 (Deepak Tripathi) (RT #2307)
+  * Add new DM key 0x97833DC998EF9A49 (Thomas Goirand) (RT #2308)
 
   [ Gunnar Wolf ]
   * Replace 0x8D3867D89DDB992B with 0x06EAA066E397832F (Luca Capello) (RT
