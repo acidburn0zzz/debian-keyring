@@ -12,6 +12,34 @@ debian-keyring (2010.05.xx) UNRELEASED; urgency=low
   * Add new DM key 0x97833DC998EF9A49 (Thomas Goirand) (RT #2308)
   * Add new DM key 0x1CD52D7BAAFE086A (Paul Gevers) (RT #2310)
   * Add new DM key 0xFC2D1E5077F726CD (Daniel Nurmi) (RT #2311)
+  * Import changes sent to keyring.debian.org HKP interface
+   * 0x055C4B35FFFFFFFE Samuel Hocevar <sho> sig:11
+   * 0x100952B5F801A743 Nicolas Duboc <nduboc> sub:1 sig:1
+   * 0x1467F0D8E1EE3FB1 Marco d'Itri <md> sig:1
+   * 0x30550F7871EF0BA8 Yves-Alexis Perez <corsac> sig:2
+   * 0x3DFC2C62AF79D29E Wouter Verhelst <wouter> sig:9
+   * 0x3EA0F86B794F9D7C Thomas Weber <tweber> uid:1 sig:43
+   * 0x4F9F6D550ED6122A Serafeim Zanikolas <sez> uid:1 sig:1
+   * 0x50AA7015A876F581 Evan Prodromou <evan> uid:1 sub:1 sig:3
+   * 0x5759F35001AA4A64 Steve Langasek <vorlon> sig:19
+   * 0x5D328D082AAAB140 Hideki Yamane <henrich> uid:1 sig:3
+   * 0x5D3CE77FD54F0847 Mark Shuttleworth <marks> sig:10
+   * 0x5EC42C53D86A66BA Patryk Cisek <patryk> sub:1 sig:5
+   * 0x742F2A428E635A5E Florian Ragwitz <rafl> sig:24
+   * 0x7853DA4D49881AD3 Stéphane Glondu <glondu> sig:12
+   * 0x87D5E190EBC73D63 Miah Gregory <mace> sig:1
+   * 0x8F3B66A6FC494FC4 Miroslaw Baran <baran> sig:2
+   * 0x92BC94766394265E Peter Karlsson <peterk> uid:1 sig:2
+   * 0xB1B75B5F365CC7A2 Kanru Chen <koster> uid:1 sig:3
+   * 0xBB20AC20E0B7D6BE René Mayorga <rmayorga> sig:12
+   * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:4
+   * 0xC5AF774A58510B5A Christoph Berg <myon> sig:18
+   * 0xC79838D0436337DD Paul Robert Hedderly <prh> sig:45
+   * 0xD605DD9CBE9D5339 Steffen Möller <moeller> sig:9
+   * 0xDA460E47EE6DC66A Jaldhar H. Vyas <jaldhar> sig:1
+   * 0xF1A69BE429C0FFEE Obey Arthur Liu <arthurliu> uid:1 sig:1
+   * 0xF2F11C23F00A2BE6 Ritesh Raj Sarraf <rrs> uid:2 sig:18
+   * 0xF892981B6258629A Thierry Randrianiriana <thierry> uid:1 sig:7
 
   [ Gunnar Wolf ]
   * Replace 0x8D3867D89DDB992B with 0x06EAA066E397832F (Luca Capello) (RT
