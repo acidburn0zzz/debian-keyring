@@ -3,6 +3,7 @@ debian-keyring (2010.05.xx) UNRELEASED; urgency=low
   [ Jonathan McDowell ]
   * Fix add-key/revoke-key/update-key to use --with-colons when getting keyid.
   * Add new key 0xA82FBB83F3D57033 (Dario Minnucci) (RT #2297)
+  * Remove 0x335C7DE5B63A3AD9 (Xavier Vello). Closes: #581727
 
   [ Gunnar Wolf ]
   * Replace 0x8D3867D89DDB992B with 0x06EAA066E397832F (Luca Capello) (RT
