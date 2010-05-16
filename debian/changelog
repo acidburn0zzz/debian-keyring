@@ -11,6 +11,7 @@ debian-keyring (2010.05.xx) UNRELEASED; urgency=low
   * Add new DM key 0x0FE72F64B9B0C9F2 (Deepak Tripathi) (RT #2307)
   * Add new DM key 0x97833DC998EF9A49 (Thomas Goirand) (RT #2308)
   * Add new DM key 0x1CD52D7BAAFE086A (Paul Gevers) (RT #2310)
+  * Add new DM key 0xFC2D1E5077F726CD (Daniel Nurmi) (RT #2311)
 
   [ Gunnar Wolf ]
   * Replace 0x8D3867D89DDB992B with 0x06EAA066E397832F (Luca Capello) (RT
