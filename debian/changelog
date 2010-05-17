@@ -1,10 +1,10 @@
-debian-keyring (2010.05.17) UNRELEASED; urgency=low
+debian-keyring (2010.05.17) unstable; urgency=low
 
   * Add new key 0xB3118CEF8AEA8FEE (Stephen Gran) (RT #2320)
   * Add new DM key 0x4CD1F6A6207F2F7A (Pino Toscano) (RT #2321)
   * Add new DM key 0x66611D57D487A1EE (Johan Euphrosine) (RT #2322)
 
- -- Jonathan McDowell <noodles@earth.li>  Mon, 17 May 2010 14:07:49 +0100
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 17 May 2010 14:22:26 +0100
 
 debian-keyring (2010.05.16) unstable; urgency=low
   
