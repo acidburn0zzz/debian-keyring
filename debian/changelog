@@ -4,6 +4,8 @@ debian-keyring (2010.05.29) UNRELEASED; urgency=low
   * Add new DM key 0x8B3D0D2A9D9E11F5 (Hannes von Haugwitz) (RT #2331)
   * Add new developer key 0x1DA8DA33DDCD686A (Scott Kitterman) (RT #2332)
   * Add new developer key 0x0B00FB6CEBE2D002 (Ulises Vitulli) (RT #2333)
+  * Replace 0x840C0E9A45754E44 with 0xD7884C4718E18F44 (Marco Túlio Gontijo
+    e Silva) (RT #2298)
 
  -- Jonathan McDowell <noodles@earth.li>  Sat, 29 May 2010 10:38:20 +0100
 
