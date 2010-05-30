@@ -8,6 +8,8 @@ debian-keyring (2010.05.29) UNRELEASED; urgency=low
     e Silva) (RT #2298)
   * Replace 0x64451521809DE012 with 0x019F7E073264A5C4 (Marcelo Jorge Vieira)
     (RT #2323)
+  * Replace 0xF6DD330210FA4CD1 with 0x393587D97D86500B (Colin Watson)
+    (RT #2341)
 
  -- Jonathan McDowell <noodles@earth.li>  Sat, 29 May 2010 10:38:20 +0100
 
