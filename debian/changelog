@@ -11,6 +11,7 @@ debian-keyring (2010.05.29) UNRELEASED; urgency=low
   * Replace 0xF6DD330210FA4CD1 with 0x393587D97D86500B (Colin Watson)
     (RT #2341)
   * Add new developer key 0x1800A1F8B351A900 (Dominique Belhachemi) (RT #2344)
+  * Add new developer key 0x45D48C7CDCFC3FD0 (Alessio Treglia) (RT #2346)
 
  -- Jonathan McDowell <noodles@earth.li>  Sat, 29 May 2010 10:38:20 +0100
 
