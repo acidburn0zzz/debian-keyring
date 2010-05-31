@@ -14,6 +14,35 @@ debian-keyring (2010.05.29) UNRELEASED; urgency=low
   * Add new developer key 0x45D48C7CDCFC3FD0 (Alessio Treglia) (RT #2346)
   * Add new developer key 0xFCB0BB5C5F1FBF70 (Giovanni Mascellani) (RT #2343)
   * Add new developer key 0x72595EB181704B93 (Sylvain Beucler) (RT #2345)
+  * Import changes sent to keyring.debian.org HKP interface
+   * 0x0DE7276D5E0577F2 Martin Pitt <mpitt> sig:1
+   * 0x0EA756B5144843F5 Roland Mas <lolando> sig:4
+   * 0x1438516892082481 Adrian von Bidder <cmot> sig:4
+   * 0x1C570C890E4BD0AB George Danchev <danchev> sig:2
+   * 0x3485BA08D0EC0723 Mark Hymers <mhy> sig:3
+   * 0x371A69E3AE3BE9AA Giuseppe Iuculano <iuculano> sig:2
+   * 0x4121C7433170EBE9 Nobuhiro Iwamatsu <iwamatsu> sig:5
+   * 0x51602C8D005C3B82 Jose Parrella <bureado> sig:5
+   * 0x5759F35001AA4A64 Steve Langasek <vorlon> sig:17
+   * 0x6436436109F34024 Danai Sae-Han <danai> sig:1
+   * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:9
+   * 0x6F17A5AFC1F24EA4 Stefan Fritsch <sf> sig:64
+   * 0x76B534B2E99007E0 Thorsten Glaser <tg> sig:1
+   * 0x894C303CEBE31EF5 Vincent Sanders <vince> sig:5
+   * 0x8CBF9A322861A790 Micah Anderson <micah> sig:52
+   * 0x8EA3B90CB2B97BB1 Roberto C. Sanchez <roberto> sig:3
+   * 0x965522B9D49AE731 Christoph Egger <christoph> sub:2 sig:2
+   * 0x9D20F6503E338888 Mikhail Gusarov <dottedmag> sig:4
+   * 0x9D78D71186BC2A50 Luca Falavigna <dktrkranz> sig:5
+   * 0xA108FBC534A26946 Ying-Chun Liu (PaulLiu) <paulliu> sig:13
+   * 0xA8CB01F5BE9F70EA Thomas Bushnell <tb> sig:21
+   * 0xD5CA9B04F2C423BC Stefano Zacchiroli <zack> sig:4
+   * 0xDC5A28E48C7740AF Gaudenz Steinlin <gaudenz> sig:34
+   * 0xE41B4C557F0D80BE Damyan Ivanov <dmn> sig:6
+   * 0xE5273D986BE3C423 Paul Wise <pabs> sig:7
+   * 0xE6AA90171392B174 David Paleino <dapal> sig:8
+   * 0xEB7CBAA680C83E8E Ian Lynagh <igloo> uid:1 sig:4
+   * 0xEFE86C6C7FFECF83 Gilles Filippini <pini> sig:4
 
  -- Jonathan McDowell <noodles@earth.li>  Sat, 29 May 2010 10:38:20 +0100
 
