@@ -1,3 +1,9 @@
+debian-keyring (2010.06.04) UNRELEASED; urgency=low
+
+  * Add new developer key 0x97833DC998EF9A49 (Thomas Goirand) (RT #2349)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Fri, 04 Jun 2010 20:40:54 -0500
+
 debian-keyring (2010.05.31) unstable; urgency=low
 
   * Add new DM key 0x363BCAEC94D6CBB0 (tang ke) (RT #2326)
