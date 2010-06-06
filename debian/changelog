@@ -1,6 +1,10 @@
 debian-keyring (2010.06.04) UNRELEASED; urgency=low
 
+  [ Gunnar Wolf ]
   * Add new developer key 0x97833DC998EF9A49 (Thomas Goirand) (RT #2349)
+
+  [ Jonathan McDowell ]
+  * Replace 0xBC151FC8D2A913A1 with 0x17DC3CC470D4A979 (Peter S Galbraith)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 04 Jun 2010 20:40:54 -0500
 
