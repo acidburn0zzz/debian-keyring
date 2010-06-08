@@ -4,11 +4,13 @@ debian-keyring (2010.06.04) UNRELEASED; urgency=low
   * Add new developer key 0x97833DC998EF9A49 (Thomas Goirand) (RT #2349)
   * Add new developer key 0x99730D5C8A9A3084 (Adrian Perez) (RT #2356)
   * Add new DM key 0xD6D09BE48405BBF6 (Mathias Behrle) (RT #2357)
+  * Replace 0x9FB0DB32C02440B8 with 0x2C7C3146C1A00121 (Jonas Smedegaard)
+    (RT #1661)
 
   [ Jonathan McDowell ]
   * Replace 0xBC151FC8D2A913A1 with 0x17DC3CC470D4A979 (Peter S Galbraith)
 
- -- Gunnar Wolf <gwolf@debian.org>  Tue, 08 Jun 2010 11:44:04 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 08 Jun 2010 15:57:23 -0500
 
 debian-keyring (2010.05.31) unstable; urgency=low
 
