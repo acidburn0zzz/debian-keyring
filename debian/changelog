@@ -6,6 +6,7 @@ debian-keyring (2010.06.04) UNRELEASED; urgency=low
   * Add new DM key 0xD6D09BE48405BBF6 (Mathias Behrle) (RT #2357)
   * Replace 0x9FB0DB32C02440B8 with 0x2C7C3146C1A00121 (Jonas Smedegaard)
     (RT #1661)
+  * Add new developer key 0xA3BABAE2408DD6CF (Felipe Sateler) (RT #2358)
 
   [ Jonathan McDowell ]
   * Replace 0xBC151FC8D2A913A1 with 0x17DC3CC470D4A979 (Peter S Galbraith)
