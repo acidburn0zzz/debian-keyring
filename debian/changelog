@@ -7,11 +7,13 @@ debian-keyring (2010.06.04) UNRELEASED; urgency=low
   * Replace 0x9FB0DB32C02440B8 with 0x2C7C3146C1A00121 (Jonas Smedegaard)
     (RT #1661)
   * Add new developer key 0xA3BABAE2408DD6CF (Felipe Sateler) (RT #2358)
+  * Add new developer key 0x9DF99BDA11691130 (Georges Khaznadar) (RT
+    #2359)
 
   [ Jonathan McDowell ]
   * Replace 0xBC151FC8D2A913A1 with 0x17DC3CC470D4A979 (Peter S Galbraith)
 
- -- Gunnar Wolf <gwolf@debian.org>  Tue, 08 Jun 2010 15:57:23 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 08 Jun 2010 21:45:34 -0500
 
 debian-keyring (2010.05.31) unstable; urgency=low
 
