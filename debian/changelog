@@ -3,6 +3,41 @@ debian-keyring (2010.07.01) UNRELEASED; urgency=low
   * Replace 0x0FE72F64B9B0C9F2 with 0xC4D1681A7F217B01 (Deepak Tripathi)
     Closes: #584851
   * Update 0x385AE490868EFA66 (Stefan Völkel). Closes: #586792
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x0B00FB6CEBE2D002 Ulises Vitulli <dererk> uid:1 sub:2 sig:5
+    * 0x0EA756B5144843F5 Roland Mas <lolando> sig:2
+    * 0x1800A1F8B351A900 Dominique Belhachemi <domibel> sig:1
+    * 0x18A0CC8D5706A4B4 Simon Richter <sjr> sig:15
+    * 0x1BD0E4A5D047CDE1 Francisco Moya <paco> sig:3
+    * 0x1DA8DA33DDCD686A Scott Kitterman <kitterman> uid:1 sig:13
+    * 0x30550F7871EF0BA8 Yves-Alexis Perez <corsac> sig:4
+    * 0x33961588E1C21845 Thijs Kinkhorst <thijs> sub:2 sig:21
+    * 0x4121C7433170EBE9 Nobuhiro Iwamatsu <iwamatsu> sig:6
+    * 0x45D48C7CDCFC3FD0 Alessio Treglia <alessio> uid:1 sig:79
+    * 0x461F3C17C3DC59FA Brice Goglin <bgoglin> sig:1
+    * 0x5072D036AC583520 Holger Levsen <holger> sig:5
+    * 0x564126F229F19BD1 Michael Meskes <meskes> sig:1
+    * 0x5E6DEF1C4E2ECA5A Moritz Muehlenhoff <jmm> sig:2
+    * 0x62AF4031C82E0039 Peter Palfrader <weasel> uid:1 sub:2 sig:37
+    * 0x6F17A5AFC1F24EA4 Stefan Fritsch <sf> sig:17
+    * 0x7833ECF1B5444815 Bill Allombert <ballombe> sig:4
+    * 0x7F36CF55AA87AA77 Soeren Sonnenburg <sonne> sig:15
+    * 0x81E56287B5CE5497 Christoph Martin <chrism> sig:69
+    * 0x8D11456375C024C8 Yaroslav Halchenko <yoh> sig:9
+    * 0xA3BABAE2408DD6CF Felipe Sateler <fsateler> uid:1 sig:1
+    * 0xA95C3BECEB88E930 Philipp Benner <philipp> uid:1 sig:1
+    * 0xB3118CEF8AEA8FEE Stephen Gran <sgran> sig:2
+    * 0xB7056B5A8D5F40CB Pierre Chifflier <pollux> sig:4
+    * 0xBFCA4B38A824B93F Alexander Sack <asac> sig:4
+    * 0xC09E1D8995930EDE Axel Beckert <abe> sig:59
+    * 0xD04BA3A00125D5C0 Philip Hands <philh> sig:4
+    * 0xDC3552E836E75604 Michal Cihar <nijel> uid:1 sig:1
+    * 0xE544DE079B7C328D Luk Claes <luk> sig:3
+    * 0xF19BA618924C0C26 Luigi Gangitano <luigi> sig:3
+    * 0xF628EB934743206C Joachim Breitner <nomeata> sig:22
+    * 0xF7F0E70F307D56ED Noèl Köthe <noel> sig:4
+    * 0xFCB0BB5C5F1FBF70 Giovanni Mascellani <gio> uid:1 sig:2
+    * 0xFDD2DEACD333CBA1 Jim Meyering <meyering> sig:14
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 28 Jun 2010 21:15:47 +0100
 
