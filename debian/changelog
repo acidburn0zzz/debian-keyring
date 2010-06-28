@@ -1,4 +1,4 @@
-debian-keyring (2010.07.01) UNRELEASED; urgency=low
+debian-keyring (2010.06.28) unstable; urgency=low
 
   * Replace 0x0FE72F64B9B0C9F2 with 0xC4D1681A7F217B01 (Deepak Tripathi)
     Closes: #584851
