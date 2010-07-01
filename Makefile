@@ -3,8 +3,8 @@ all: output/keyrings/debian-keyring.gpg output/keyrings/debian-keyring.pgp outpu
 output/keyrings/debian-keyring.gpg: debian-keyring-gpg/0x*
 	cat debian-keyring-gpg/0x* > output/keyrings/debian-keyring.gpg
 
-output/keyrings/debian-keyring.pgp: debian-keyring-pgp/0x*
-	cat debian-keyring-pgp/0x* > output/keyrings/debian-keyring.pgp
+output/keyrings/debian-keyring.pgp:
+	touch output/keyrings/debian-keyring.pgp
 
 output/keyrings/debian-maintainers.gpg: debian-maintainers-gpg/0x*
 	cat debian-maintainers-gpg/0x* > output/keyrings/debian-maintainers.gpg
