@@ -19,8 +19,7 @@ list_emails () {
 
 fail=0
 
-dd_uids=$(list_uids ./output/keyrings/debian-keyring.gpg && 
-          list_uids ./output/keyrings/debian-keyring.pgp)
+dd_uids=$(list_uids ./output/keyrings/debian-keyring.gpg)
 (
 	echo "$dd_uids" | list_emails
 	echo "$dd_uids" | list_names
