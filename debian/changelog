@@ -3,6 +3,7 @@ debian-keyring (2010.07.12) UNRELEASED; urgency=low
   * Move 0x1BBABE1EB4A0DE89 (Thomas Seyrat) to emeritus (RT #2393)
   * Fix dm-vs-dd.t to no longer reference debian-keyring.pgp
   * Update 0x792152527B75921E (Antoine Beaupré) (RT #2376)
+  * Move 0x82B10CCABF02C766 (Greg Norris) to emeritus (RT #2399)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 12 Jul 2010 13:25:51 +0100
 
