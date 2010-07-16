@@ -4,6 +4,40 @@ debian-keyring (2010.07.12) UNRELEASED; urgency=low
   * Fix dm-vs-dd.t to no longer reference debian-keyring.pgp
   * Update 0x792152527B75921E (Antoine Beaupré) (RT #2376)
   * Move 0x82B10CCABF02C766 (Greg Norris) to emeritus (RT #2399)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x03C0023E05410E97 Simon Horman <horms> sig:4
+    * 0x0B00FB6CEBE2D002 Ulises Vitulli <dererk> sub:1 sig:1
+    * 0x0EA756B5144843F5 Roland Mas <lolando> sig:4
+    * 0x17274627C4FB7099 Matthew Johnson <mjj29> sig:2
+    * 0x18EA7A5DE0FC710D Jan Hauke Rahm <jhr> sig:12
+    * 0x1D87E54973647CFF Nico Golde <nion> sig:34
+    * 0x24A01418AC15B50C Evgeni Golov <evgeni> sig:140
+    * 0x3298C70DE5FFEDE1 Antonin Kral <krala> uid:1 sig:1
+    * 0x4565D58245140A6D Samuel Thibault <sthibault> sig:7
+    * 0x46801517A1696D2B Laurent Fousse <lfousse> sig:3
+    * 0x60305B31C09FD35A Andreas Tille <tille> sig:7
+    * 0x61C749B1C77828D4 John Francesco Ferlito <johnf> sig:2
+    * 0x72FDC205F6A32A8E Santiago Garcia Mantinan <manty> sig:3
+    * 0x76B534B2E99007E0 Thorsten Glaser <tg> sig:2
+    * 0x7C56ACFE947897D8 Anibal Monsalve Salazar <anibal> sig:1
+    * 0x81C08922808D0FD0 Don Armstrong <don> sig:4
+    * 0x88E5D733DD899610 Sylvestre Ledru <sylvestre> sig:5
+    * 0x8CF535F66AA572F7 Fathi Boudra <fabo> sig:4
+    * 0x965522B9D49AE731 Christoph Egger <christoph> sig:13
+    * 0x9DF99BDA11691130 Georges Khaznadar <georgesk> sig:3
+    * 0xA5B953049DA2DA9B Michael Casadevall <mcasadevall> sig:7
+    * 0xAB98288E36D33D07 Ognyan Kulev <ogi> sig:4
+    * 0xADE94F6507799E74 John H. IV Robinson <jaqque> sig:6
+    * 0xAEEC6E7302754958 ARAKI Yasuhiro <ar> sig:8
+    * 0xC09E1D8995930EDE Axel Beckert <abe> sig:5
+    * 0xC88157C885C79389 Damien Raude-Morvan <drazzib> sig:14
+    * 0xD573D5B129AB4CDD Jeremy Bouse <jbouse> sub:2 sig:6
+    * 0xD605DD9CBE9D5339 Steffen Möller <moeller> sig:3
+    * 0xDFFC022A6B113E44 Mario Lang <mlang> sig:2
+    * 0xE5273D986BE3C423 Paul Wise <pabs> sig:8
+    * 0xF1D2CCC8497A176D Loic Dachary <loic> sig:8
+    * 0xF20FAC0B7B8357E5 Andreas Schuldei <andreas> sig:2
+    * 0xFCB0BB5C5F1FBF70 Giovanni Mascellani <gio> sig:4
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 12 Jul 2010 13:25:51 +0100
 
