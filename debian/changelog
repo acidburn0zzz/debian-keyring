@@ -43,8 +43,9 @@ debian-keyring (2010.07.16) unstable; urgency=low
   [ Gunnar Wolf ]
   * Replace 0x81C08922808D0FD0 with 0xA2D13001D98C0FBA (Don Armstrong) (RT
     #2396)
+  * Add new DM key 0x756BEB4B70D8FB2A as requested by NM team (enrico)
 
- -- Gunnar Wolf <gwolf@debian.org>  Thu, 29 Jul 2010 20:11:03 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Thu, 29 Jul 2010 20:42:07 -0500
 
 debian-keyring (2010.07.01) unstable; urgency=low
 
