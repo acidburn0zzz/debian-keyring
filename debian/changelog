@@ -1,3 +1,10 @@
+debian-keyring (2010.08.01) UNRELEASED; urgency=low
+
+  * Add new DM key 0x2B807BFBFBE74E9A (Manuel A. Fernandez Montecelo)
+    (RT #2402)
+
+ -- Jonathan McDowell <noodles@earth.li> Mon, 02 Aug 2010 02:34:35 +0100
+
 debian-keyring (2010.07.16) unstable; urgency=low
 
   [ Jonathan McDowell ]
