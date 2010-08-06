@@ -21,8 +21,9 @@ debian-keyring (2010.08.01) UNRELEASED; urgency=low
     Matthäi) (RT #2394)
   * Replace 0xA430C6AA88BBB51E key with 0x85B90D23464B8DE3 (Xavier
     Oswald) (RT #2400)
+  * Move 0xE7D0B098E07586B4 (Philip Charles) to emeritus (RT #2414)
 
- -- Gunnar Wolf <gwolf@debian.org>  Fri, 06 Aug 2010 10:06:11 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Fri, 06 Aug 2010 11:57:46 -0500
 
 debian-keyring (2010.07.16) unstable; urgency=low
 
