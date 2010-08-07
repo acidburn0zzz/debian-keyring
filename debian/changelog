@@ -22,7 +22,91 @@ debian-keyring (2010.08.01) UNRELEASED; urgency=low
   * Replace 0xA430C6AA88BBB51E key with 0x85B90D23464B8DE3 (Xavier
     Oswald) (RT #2400)
   * Move 0xE7D0B098E07586B4 (Philip Charles) to emeritus (RT #2414)
-
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x3298C70DE5FFEDE1 Antonin Kral <krala>
+    * 0xFCB0BB5C5F1FBF70 Giovanni Mascellani <gio>
+    * 0x001CDE6A6B79D401 Filippo Giunchedi <filippo> sig:21
+    * 0x019F7E073264A5C4 Marcelo Jorge Vieira <metal> sig:32
+    * 0x06C05D875BE41F21 Sebastian Dröge <slomo> sig:8
+    * 0x07DC563D1F41B907 Christian Marillat <marillat> sig:40
+    * 0x0A300ED090E5CA46 Felipe Augusto van de Wiel <faw> sig:1
+    * 0x0EE5978AFE63E8A1 Jens Peter Secher <jps> sig:37
+    * 0x1106F2005BB6E4A5 Albin Tonnerre <lutin> sig:7
+    * 0x16281F2E007C98D1 Francois Marier <francois> sig:18
+    * 0x1D21C83DC452E0FC Kenshi Muto <kmuto> sig:4
+    * 0x1D87E54973647CFF Nico Golde <nion> sig:4
+    * 0x220BC883330C4A75 Martin F. Krafft <madduck> sub:1 sig:1
+    * 0x29BE5D2268FD549F Martin Michlmayr <tbm> sig:11
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:30
+    * 0x2D4EB3A6015475F5 Jakub Wilk <jwilk> uid:1 sig:4
+    * 0x32175C0DC1027A0E Gregory Colpart <reg> sig:6
+    * 0x33961588E1C21845 Thijs Kinkhorst <thijs> sig:8
+    * 0x3BBFCF77BD8B050D Roland Rosenfeld <roland> sig:6
+    * 0x3C415250CC453197 Varun Hiremath <varun> sig:4
+    * 0x416F061063FEE659 Erinn Clark <erinn> sig:24
+    * 0x4565D58245140A6D Samuel Thibault <sthibault> sub:2 sig:6
+    * 0x4B077723929D42C3 Emmanuel Bouthenot <kolter> sig:1
+    * 0x4EB016BCAA6541EE Bernhard R. Link <brlink> sig:4
+    * 0x5262E7FF491049FE Jonas Meurer <mejo> sig:13
+    * 0x5395CA0DE9ABFCD2 Devin Carraway <devin> sig:4
+    * 0x54D4094CF1219B84 Nick Rusnov <nickrusnov> sig:3
+    * 0x5759F35001AA4A64 Steve Langasek <vorlon> sig:8
+    * 0x583CA816CD98B20A Tim Riker <timr> sig:4
+    * 0x58B174319DA5CAD8 Philipp Frauenfelder <pfrauenf> sig:23
+    * 0x5A94F3CA0B2713C8 Ben Armstrong <synrg> sig:10
+    * 0x62AF4031C82E0039 Peter Palfrader <weasel> sig:12
+    * 0x62B54B8C11404EC3 Noah Meyerhans <noahm> sig:12
+    * 0x633B85285178E2A5 Dominic Hargreaves <dom> sig:1
+    * 0x6692F138ED430BBA Yukiharu Yabuki <yyabuki> sig:17
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:7
+    * 0x6E038F5EE0A38377 Dan Jacobowitz <dan> sig:22
+    * 0x72595EB181704B93 Sylvain Beucler <beuc> sig:6
+    * 0x76B534B2E99007E0 Thorsten Glaser <tg> sig:12
+    * 0x79B0126693701EEF Carlo U. Segre <segre> sig:2
+    * 0x7C56ACFE947897D8 Anibal Monsalve Salazar <anibal> sig:1
+    * 0x7F36CF55AA87AA77 Soeren Sonnenburg <sonne> sig:28
+    * 0x815E0B3EFA4C5298 Tatsuya Kinoshita <tats> sig:3
+    * 0x8351C3C268AC5746 Robert Alan Larson <blarson> sig:6
+    * 0x86E00D0C19A42D19 Dann Frazier <dannf> sig:9
+    * 0x88E5D733DD899610 Sylvestre Ledru <sylvestre> sig:6
+    * 0x8E889544D985000D Bastian Venthur <venthur> sig:3
+    * 0x911F4AE686A118E6 Christian Hammers <ch> uid:1 sig:1
+    * 0x94FA372B2DA8B985 Jonathan McDowell <noodles> sig:6
+    * 0x98083544945348A4 Reinhard Tartler <siretart> sig:27
+    * 0x9DF99BDA11691130 Georges Khaznadar <georgesk> uid:1 sig:14
+    * 0x9FCF2CCD3F3E6426 Guido Guenther <agx> sig:203
+    * 0xA144B27BEB9CDAD5 Eduardo Marcel Macan <macan> sig:1
+    * 0xA462B51EC2FEE5CD Julien Danjou <acid> sig:1
+    * 0xA5B953049DA2DA9B Michael Casadevall <mcasadevall> sig:12
+    * 0xA82FBB83F3D57033 Dario Minnucci <midget> sig:12
+    * 0xAB98288E36D33D07 Ognyan Kulev <ogi> sig:36
+    * 0xAD295AE1D75F8533 Josselin Mouette <joss> sig:2
+    * 0xAF2283AA76E2AC7B Hector Oron <zumbi> sig:3
+    * 0xB3753E4D514B3E7C Florian Ernst <florian> sig:4
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:15
+    * 0xC09E1D8995930EDE Axel Beckert <abe> sig:10
+    * 0xC4A5D58EAAAC7BBC Sven Hoexter <hoexter> sig:2
+    * 0xC88157C885C79389 Damien Raude-Morvan <drazzib> sig:9
+    * 0xCC254778F28CD102 Stephan A Suerken <absurd> sig:10
+    * 0xD8DF53FB37E272E8 Michael Prokop <mika> sig:19
+    * 0xDA196237023B3F4F Lucas Nussbaum <lucas> sig:114
+    * 0xDB4CCC4B2A30D729 Petter Reinholdtsen <pere> sig:2
+    * 0xDBF480C602F946FC Marcin Owsiany <porridge> sig:4
+    * 0xDC3552E836E75604 Michal Cihar <nijel> sig:7
+    * 0xE15517F22B0920C0 Loïc Minier <lool> uid:1 sig:60
+    * 0xE1EBBEA51D389887 Y Giridhar Appaji Nag <appaji> sig:141
+    * 0xE5273D986BE3C423 Paul Wise <pabs> sig:8
+    * 0xE544DE079B7C328D Luk Claes <luk> sig:102
+    * 0xE619045DF2AC729A Raphaël Hertzog <hertzog> sig:3
+    * 0xE6AA90171392B174 David Paleino <dapal> sig:6
+    * 0xEB6CD6C5893FAD07 Steffen Joeris <white> sig:5
+    * 0xED1A3933B2CFCDD8 Philipp Kern <pkern> sig:12
+    * 0xF19BA618924C0C26 Luigi Gangitano <luigi> sig:6
+    * 0xF20FAC0B7B8357E5 Andreas Schuldei <andreas> sig:2
+    * 0xF7F0E70F307D56ED Noèl Köthe <noel> sig:240
+    * 0xF82E5CC04B2B2B9E Daniel Baumann <daniel> sig:18
+    * 0xF9CA01D5E26A6F28 Alex Pennace <alexp> sig:42
+  
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 06 Aug 2010 11:57:46 -0500
 
 debian-keyring (2010.07.16) unstable; urgency=low
