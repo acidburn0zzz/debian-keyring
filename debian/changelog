@@ -106,8 +106,9 @@ debian-keyring (2010.08.01) unstable; urgency=low
     * 0xF7F0E70F307D56ED Noèl Köthe <noel> sig:240
     * 0xF82E5CC04B2B2B9E Daniel Baumann <daniel> sig:18
     * 0xF9CA01D5E26A6F28 Alex Pennace <alexp> sig:42
-  
- -- Gunnar Wolf <gwolf@debian.org>  Fri, 06 Aug 2010 11:57:46 -0500
+    * Updated standards-version 3.8.1.0→3.9.1.0 (no changes)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Sat, 07 Aug 2010 13:20:50 -0500
 
 debian-keyring (2010.07.16) unstable; urgency=low
 
