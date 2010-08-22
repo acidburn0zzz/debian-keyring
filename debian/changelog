@@ -12,8 +12,9 @@ debian-keyring (2010.08.22) unstable; urgency=low
     Curia) (RT #2454)
   * Replace 0x83C07215CDBDBCE2 with 0xA0C5AD1359CD3653 (Shachar Shemesh)
     (RT #2460)
+  * Move 0x1D28E4BFE02FEF11 (Robert Jördens) to emeritus (RT #2458)
 
- -- Gunnar Wolf <gwolf@debian.org>  Sun, 22 Aug 2010 16:25:02 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Sun, 22 Aug 2010 16:43:22 -0500
 
 debian-keyring (2010.08.01) unstable; urgency=low
 
