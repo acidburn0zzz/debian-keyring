@@ -17,8 +17,10 @@ debian-keyring (2010.08.22) unstable; urgency=low
     (RT #2446)
   * Replace 0xDCF785B48A1D9A1F with 0xDD29F88442839ED3 (John Goerzen)
     (RT #2408)
+  * Replaced 0xA5B953049DA2DA9B with 0x7B4D847C7B8E6A47 (Michael
+    Casadevall) (RT #2444)
 
- -- Gunnar Wolf <gwolf@debian.org>  Sun, 22 Aug 2010 17:13:22 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Sun, 22 Aug 2010 17:22:18 -0500
 
 debian-keyring (2010.08.01) unstable; urgency=low
 
