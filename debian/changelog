@@ -6,8 +6,10 @@ debian-keyring (2010.08.22) unstable; urgency=low
     #2416)
   * Replace 0x8C90347F8F068012 with 0xEAFCFEBF8FEB8EBF (Andrew McMillan
     (RT #2437)
+  * Replace 0xA5DC0190F972BE03 with 0x21D20589974B3E96 (Tony Mancill)
+    (RT #2447)
 
- -- Gunnar Wolf <gwolf@debian.org>  Sun, 22 Aug 2010 15:18:25 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Sun, 22 Aug 2010 15:37:36 -0500
 
 debian-keyring (2010.08.01) unstable; urgency=low
 
