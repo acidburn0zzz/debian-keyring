@@ -8,8 +8,10 @@ debian-keyring (2010.08.22) unstable; urgency=low
     (RT #2437)
   * Replace 0xA5DC0190F972BE03 with 0x21D20589974B3E96 (Tony Mancill)
     (RT #2447)
+  * Replace 0x227B70B65595074A with 0xC7197699B29B232A (Maximiliano
+    Curia) (RT #2454)
 
- -- Gunnar Wolf <gwolf@debian.org>  Sun, 22 Aug 2010 15:37:36 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Sun, 22 Aug 2010 15:50:03 -0500
 
 debian-keyring (2010.08.01) unstable; urgency=low
 
