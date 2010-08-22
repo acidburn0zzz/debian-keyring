@@ -1,3 +1,10 @@
+debian-keyring (2010.08.22) unstable; urgency=low
+
+  * Moved 0x826FCAC21E880A84 (Frans Pop) to removed (msgid
+    201008152141.30291.elendil@planet.nl)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Sun, 22 Aug 2010 14:31:13 -0500
+
 debian-keyring (2010.08.01) unstable; urgency=low
 
   [ Jonathan McDowell ]
