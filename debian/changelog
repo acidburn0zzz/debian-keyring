@@ -15,8 +15,10 @@ debian-keyring (2010.08.22) unstable; urgency=low
   * Move 0x1D28E4BFE02FEF11 (Robert Jördens) to emeritus (RT #2458)
   * Replace 0x3C415250CC453197 with 0x70373CF1290DB9CE (Varun Hiremath)
     (RT #2446)
+  * Replace 0xDCF785B48A1D9A1F with 0xDD29F88442839ED3 (John Goerzen)
+    (RT #2408)
 
- -- Gunnar Wolf <gwolf@debian.org>  Sun, 22 Aug 2010 17:03:07 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Sun, 22 Aug 2010 17:13:22 -0500
 
 debian-keyring (2010.08.01) unstable; urgency=low
 
