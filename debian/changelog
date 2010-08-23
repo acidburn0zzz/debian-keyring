@@ -23,8 +23,10 @@ debian-keyring (2010.08.22) unstable; urgency=low
   * Add new DM key 0xD27DDE1140A2F113 (KURASHIKI Satoru) (RT #2448)
   * Add new DM key 0x3A8336743AF72612 (Maia Kozheva) (RT #2442)
   * Add new developer key 0xEB5CE1D75E8511F9 as requested by DAM (joerg)
+  * Replace 0x101564EAD688E0A7 with 0x8A75D10998012C7E (Jay Berkenbilt)
+    (RT #2453)
 
- -- Gunnar Wolf <gwolf@debian.org>  Sun, 22 Aug 2010 18:28:11 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Sun, 22 Aug 2010 19:06:57 -0500
 
 debian-keyring (2010.08.01) unstable; urgency=low
 
