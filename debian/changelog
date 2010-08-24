@@ -1,5 +1,6 @@
 debian-keyring (2010.08.22) unstable; urgency=low
 
+  [ Gunnar Wolf ]
   * Moved 0x826FCAC21E880A84 (Frans Pop) to removed (msgid
     201008152141.30291.elendil@planet.nl)
   * replace 0x0DE7276D5E0577F2 with 0xF98825AC26B47B9F (Martin Pitt) (RT
@@ -27,6 +28,9 @@ debian-keyring (2010.08.22) unstable; urgency=low
     (RT #2453)
   * Replace 0x8EA3B90CB2B97BB1 with 0x7731FCCC63E4E277 (Roberto C.
     Sanchez) (RT #2445)
+
+  [ Jonathan McDowell ]
+  * Replace 0x3E973117DCC528E9 with 0x83B4B2DC119A098F (Ardo van Rangelrooij)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sun, 22 Aug 2010 23:20:56 -0500
 
