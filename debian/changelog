@@ -38,8 +38,10 @@ debian-keyring (2010.08.22) unstable; urgency=low
     (Closes: #593475)
   * Add new DM key 0x04AAE5B397F1AAAC (Ulrich Dangel) (RT #2467)
     (Closes: #594136)
+  * Add new DM key 0xD6EFA6AC4B10D847 (Tanguy Ortolo) (RT #2468)
+    (Closes: #592934)
 
- -- Gunnar Wolf <gwolf@debian.org>  Sat, 28 Aug 2010 22:18:49 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Sat, 28 Aug 2010 22:28:52 -0500
 
 debian-keyring (2010.08.01) unstable; urgency=low
 
