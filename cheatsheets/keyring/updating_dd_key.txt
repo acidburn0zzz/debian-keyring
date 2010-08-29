@@ -1,0 +1,17 @@
+Updating a DD key
+=================
+
+- Key updates should be for a reason (i.e. lost control of earlier
+  key, or moving to stronger key).
+
+- Request must include:
+  - Old key (full fingerprint)
+  - New key (full fingerprint)
+  - Inline signature with OLD key
+
+- New key must be signed by at least two DDs (and more if possible);
+  if the old key is particularly well connected, we have requested the
+  person to get more signatures in order to avoid weakening the
+  overall web of trust
+
+- Procedure
