@@ -33,6 +33,7 @@ Adding a DM key
       # I have never met xoswald, but «grep 464B8DE3 keyids» gives me
       # «0x85B90D23464B8DE3 Xavier Oswald <xoswald>» and verifying
       # the fingerprint matches
+
   $ gpg --keyserver $KEYSERVER --recv-key 6B1BAEC2CA5D4EA7439803612DCE3F2836D4E4F5
   gpg: requesting key 36D4E4F5 from hkp server nisamox.fciencias.unam.mx
   gpg: key 36D4E4F5: public key "Javier Merino Cacho <javier.merino@alumnos.unican.es>" imported
@@ -43,7 +44,9 @@ Adding a DM key
   gpg: next trustdb check due at 2010-09-10
   gpg: Total number processed: 1
   gpg:               imported: 1
+
   $ gpg --export 6B1BAEC2CA5D4EA7439803612DCE3F2836D4E4F5 > /tmp/key
+
   $ ./scripts/add-key /tmp/key debian-maintainers-gpg/
   (...)
       # A screen listing all of the applicant's signatures which are
@@ -56,10 +59,12 @@ Adding a DM key
   Are you sure you want to update this key? (y/n)
   y
   adding debian-maintainers-gpg/0x2DCE3F2836D4E4F5
+
       # Note this addition in debian/changelog - Just make sure before
       # doing this you are not modifying an already uploaded changelog
       # entry! 
   $ dch -a 'Add new DM key 0x2DCE3F2836D4E4F5 (Javier Merino) (RT #2466) (Closes: #593475)'
+
   $ bzr commit
       # And that's it. For the bzr log, we use the following format:
 ------------------------------------------------------------
