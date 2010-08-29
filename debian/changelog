@@ -33,7 +33,10 @@ debian-keyring (2010.08.22) unstable; urgency=low
   * Replace 0x3E973117DCC528E9 with 0x83B4B2DC119A098F (Ardo van Rangelrooij)
   * Replace 0xC3168EBA23F5ADDB with 0xE3E3392348B50D39 (Ian Jackson)
 
- -- Gunnar Wolf <gwolf@debian.org>  Sun, 22 Aug 2010 23:20:56 -0500
+  [ Gunnar Wolf ]
+  * Add new DM key 0x2DCE3F2836D4E4F5 (Javier Merino) (RT #2466)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Sat, 28 Aug 2010 21:41:48 -0500
 
 debian-keyring (2010.08.01) unstable; urgency=low
 
