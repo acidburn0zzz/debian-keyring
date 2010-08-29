@@ -35,8 +35,11 @@ debian-keyring (2010.08.22) unstable; urgency=low
 
   [ Gunnar Wolf ]
   * Add new DM key 0x2DCE3F2836D4E4F5 (Javier Merino) (RT #2466)
+    (Closes: #593475)
+  * Add new DM key 0x04AAE5B397F1AAAC (Ulrich Dangel) (RT #2467)
+    (Closes: #594136)
 
- -- Gunnar Wolf <gwolf@debian.org>  Sat, 28 Aug 2010 21:41:48 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Sat, 28 Aug 2010 22:18:49 -0500
 
 debian-keyring (2010.08.01) unstable; urgency=low
 
