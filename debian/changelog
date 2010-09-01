@@ -44,8 +44,10 @@ debian-keyring (2010.08.22) unstable; urgency=low
     (Closes: #592857)
   * Replace 0xFCB0BB5C5F1FBF70 with 0x9EDCC991D9AB457E (Giovanni
     Mascellani) (RT #2473)
+  * Replace 0x3DFC2C62AF79D29E with 0x1B0006256FB29164 (Wouter Verhelst)
+    (RT #2455)
 
- -- Gunnar Wolf <gwolf@debian.org>  Sun, 29 Aug 2010 08:27:47 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 31 Aug 2010 22:03:20 -0500
 
 debian-keyring (2010.08.01) unstable; urgency=low
 
