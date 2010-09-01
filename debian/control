@@ -14,8 +14,8 @@ Recommends: gnupg (>= 1.0.6-4)
 Provides: debian-maintainers
 Conflicts: debian-maintainers
 Replaces: debian-maintainers
-Description: GnuPG (and obsolete PGP) keys of Debian Developers
+Description: GnuPG keys of Debian Developers
  The Debian project wants developers to digitally sign the
  announcements of their packages with GnuPG, to protect against
- forgeries.  This package contains keyrings of GnuPG and (deprecated)
- PGP keys of developers.
+ forgeries.  This package contains keyrings of GnuPG and keys of
+ developers.

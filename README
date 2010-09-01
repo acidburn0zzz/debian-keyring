@@ -7,26 +7,34 @@ Introduction
 
 The Debian project wants developers to digitally sign the
 announcements of their packages, to protect against forgeries.  The
-Debian project maintains GPG (GNU Privacy Guard) and PGP keyrings with
-keys of Debian developers.  This is the README for these keyrings.
+Debian project maintains GPG (GNU Privacy Guard) keyrings with keys of
+Debian developers.  This is the README for these keyrings.
 
 
 Background: PGP and GPG
 -----------------------
 
-PGP (Pretty Good Privacy) is currently the most widely used public key
-cryptography program.  Unfortunately, it uses a patented algorithm (the
-symmetric IDEA cipher), making a DFSG-free implementation impossible.
-GPG (GNU Privacy Guard; http://www.gnupg.org/) is a DFSG-free crypto-
-graphy program which is based on the same concepts as PGP, but which
-uses unencumbered cryptographic algorithms.
+When this file was originally written, PGP (Pretty Good Privacy) was
+the most widely used public key cryptography program.  Unfortunately,
+it uses a patented algorithm (the symmetric IDEA cipher), making a
+DFSG-free implementation impossible.  GPG (GNU Privacy Guard;
+http://www.gnupg.org/) is a DFSG-free cryptography program which is
+based on the same concepts as PGP, but which uses unencumbered
+cryptographic algorithms.
 
+Furthermore, cryptographical weaknesses being discovered in PGP's
+algorithms deemed its keys as no longer trustable, so we strongly
+encourage you to migrate to a strong (2048 bit or greater, current
+standard is 4096, RSA-based) GPG key.
 
-Getting debian-keyring.{gpg,pgp}
---------------------------------
+Over the years, all of our developer's keys have been migrated away
+from PGP.
 
-The current versions of debian-keyring.pgp and debian-keyring.gpg are
-always available via rsync from keyring.debian.org (module keyrings).
+Getting debian-keyring.gpg
+--------------------------
+
+The current versions of debian-keyring.gpg is always available via
+rsync from keyring.debian.org (module keyrings).
 
 There is also a (possibly slightly out-of-date) version available on
 your nearest debian mirror in debian/doc/debian-keyring.tar.gz and as
@@ -39,7 +47,8 @@ tarball and Debian package are provided for user convenience and are
 not necessarily in sync with keyring.debian.org.
 
 That file contains the keyrings, signed copy of keyring md5sums and
-this README.  The keyring md5sums will be signed by James Troup.
+this README.  The keyring md5sums will be signed by the keyring-maint
+team (currently, Jonathan McDowell and Gunnar Wolf).
 
 Using the debian-keyring with gpg
 ---------------------------------
@@ -47,12 +56,6 @@ Using the debian-keyring with gpg
 Add these lines to the bottom of your ~/.gnupg/gpg.conf[1] file:
 
 keyring /usr/share/keyrings/debian-keyring.gpg
-keyring /usr/share/keyrings/debian-keyring.pgp
-
-NOTE: The RSA patent expired in September, 2000, and so GPG (as of version
-      1.0.3) has built-in support for RSA keys.  If you are using an older
-      version of GPG, please upgrade to the current version in order to
-      able to use debian-keyring.pgp.
 
 GPG cannot modify keys in these root-owned files.  In order to edit or
 sign keys in the Debian keyring you will first need to import them to
@@ -74,7 +77,7 @@ keyserver keyring.debian.org
 Generate a key pair
 -------------------
 
-GPG and PGP are used for security, and security can be a bit tricky.
+GPG is used for security, and security can be a bit tricky.
 Please install the gnupg-doc package and read the GPG manual (located
 in /usr/share/doc/gnupg-doc/GNU_Privacy_Handbook) before generating a
 key pair. The actual generation is trivial. You must use at least
@@ -105,7 +108,8 @@ helps to expand and strengthen the PGP/GPG web of trust.
 
 Do *NOT* sign other people's key unless you have met that person face
 to face in real life and seen a good form of ID (e.g. passport,
-driver's license) to ensure that the person is who they say they are.
+driver's license), or in any other way you can be sure that the person
+is who they say they are.
 
 
 Getting your key into the debian keyring
@@ -115,7 +119,7 @@ If you are an old debian developer who hasn't uploaded your packages
 for a long time, and your key is not in the keyring, send a mail to
 keyring@rt.debian.org (making sure to include the words "Debian RT"
 somewhere in the subject) explaining the situation, and including your
-public PGP key.
+public key.
 
 All new maintainers should apply at http://nm.debian.org/, and your
 key(s) will be added to the keyring as part of the admission process.
@@ -137,10 +141,15 @@ somewhere in the subject line.
 What the keyrings are
 ---------------------
 
- o debian-keyring.{gpg,pgp}
+ o debian-keyring.gpg
 
-    This is the canonical Debian keyring.  Anyone who has a key in here
-    is a Debian developer.
+    This is the canonical Debian Developers (DD) keyring.  Anyone who
+    has a key in here is a Debian Developer.
+
+ o debian-maintainers.gpg
+
+   The keyring for Debian Maintainers (DM). Anyone who has a key in
+   here is a Debian Maintainer.
 
  o debian-role-keys.gpg
 
@@ -203,8 +212,10 @@ o Sign your GPG key with your PGP key:
 Acknowledgements
 ----------------
 
-This README was originally written by Lars Wirzenius, liw@iki.fi.  Now
-maintained by James Troup <james@nocrew.org>.  Contributions by
+This README was originally written by Lars Wirzenius, liw@iki.fi and
+was over time maintained by James Troup <james@nocrew.org>. Currently
+it is maintained by the keyring-maint team (Jonathan McDowell
+<noodles@debian.org> and Gunnar Wolf <gwolf@debian.org>).  Contributions by
 J.H.M. Dassen (Ray) <jdassen@wi.LeidenUniv.nl>, Igor Grobman
 <igor@debian.org>, Darren Stalder <torin@daft.com>, Norbert Veber
 <nveber@primusolutions.net> and Martin Michlmayr <tbm@cyrius.com>.

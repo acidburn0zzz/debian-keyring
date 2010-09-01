@@ -46,8 +46,11 @@ debian-keyring (2010.08.22) unstable; urgency=low
     Mascellani) (RT #2473)
   * Replace 0x3DFC2C62AF79D29E with 0x1B0006256FB29164 (Wouter Verhelst)
     (RT #2455)
+  * Move all remaining PGP keys to removed-keys-pgp; modified files
+    requiring or referencing them not to refer to debian-keyring-pgp
+    anymore
 
- -- Gunnar Wolf <gwolf@debian.org>  Tue, 31 Aug 2010 22:03:20 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 31 Aug 2010 22:21:32 -0500
 
 debian-keyring (2010.08.01) unstable; urgency=low
 

@@ -12,7 +12,7 @@ find_expired () {
 }
 
 fail=0
-for keyring in debian-keyring.gpg debian-keyring.pgp debian-maintainers.gpg; do
+for keyring in debian-keyring.gpg debian-maintainers.gpg; do
 	find_expired $keyring
 done
 
