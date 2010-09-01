@@ -49,8 +49,10 @@ debian-keyring (2010.08.22) unstable; urgency=low
   * Move all remaining PGP keys to removed-keys-pgp; modified files
     requiring or referencing them not to refer to debian-keyring-pgp
     anymore
+  * Replace 0x067AAD04C93BFF79 with 0xEB36171A6FF9435F (ernd Zeimetz)
+    (RT #2455)
 
- -- Gunnar Wolf <gwolf@debian.org>  Tue, 31 Aug 2010 22:21:32 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 31 Aug 2010 22:45:53 -0500
 
 debian-keyring (2010.08.01) unstable; urgency=low
 
