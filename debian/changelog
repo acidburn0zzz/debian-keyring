@@ -3,7 +3,7 @@ debian-keyring (2010.08.22) unstable; urgency=low
   [ Gunnar Wolf ]
   * Moved 0x826FCAC21E880A84 (Frans Pop) to removed (msgid
     201008152141.30291.elendil@planet.nl)
-  * replace 0x0DE7276D5E0577F2 with 0xF98825AC26B47B9F (Martin Pitt) (RT
+  * Replace 0x0DE7276D5E0577F2 with 0xF98825AC26B47B9F (Martin Pitt) (RT
     #2416)
   * Replace 0x8C90347F8F068012 with 0xEAFCFEBF8FEB8EBF (Andrew McMillan
     (RT #2437)
@@ -28,12 +28,6 @@ debian-keyring (2010.08.22) unstable; urgency=low
     (RT #2453)
   * Replace 0x8EA3B90CB2B97BB1 with 0x7731FCCC63E4E277 (Roberto C.
     Sanchez) (RT #2445)
-
-  [ Jonathan McDowell ]
-  * Replace 0x3E973117DCC528E9 with 0x83B4B2DC119A098F (Ardo van Rangelrooij)
-  * Replace 0xC3168EBA23F5ADDB with 0xE3E3392348B50D39 (Ian Jackson)
-
-  [ Gunnar Wolf ]
   * Add new DM key 0x2DCE3F2836D4E4F5 (Javier Merino) (RT #2466)
     (Closes: #593475)
   * Add new DM key 0x04AAE5B397F1AAAC (Ulrich Dangel) (RT #2467)
@@ -157,6 +151,11 @@ debian-keyring (2010.08.22) unstable; urgency=low
     0xF985E3400AFC7476 Russ Allbery <rra> sig:70
     0xF9CA01D5E26A6F28 Alex Pennace <alexp> sig:5
     0xFDD2DEACD333CBA1 Jim Meyering <meyering> sig:7
+
+  [ Jonathan McDowell ]
+  * Replace 0x3E973117DCC528E9 with 0x83B4B2DC119A098F (Ardo van Rangelrooij)
+  * Replace 0xC3168EBA23F5ADDB with 0xE3E3392348B50D39 (Ian Jackson)
+  * Move 0x353350CA580808C4 (Miguel Gea Milvaques) to emeritus
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 31 Aug 2010 22:45:53 -0500
 
