@@ -1,3 +1,9 @@
+debian-keyring (2010.09.xx) UNRELEASED; urgency=low
+
+  * Add new DM key 0x8F7BF8FC4A11C97A (Ryan Kavanagh) (RT #2492)
+
+  -- Jonathan McDowell <noodles@earth.li>  Sun, 12 Sep 2010 22:51:21 +0100
+
 debian-keyring (2010.09.04) unstable; urgency=low
 
   [ Gunnar Wolf ]
