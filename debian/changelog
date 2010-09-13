@@ -4,6 +4,7 @@ debian-keyring (2010.09.xx) UNRELEASED; urgency=low
   * Add new DM key 0x6BCA7AD479EBC4EC (Stefan Bauer) (RT #2493)
   * Add new DM key 0x5E326303C98B5D5D (Federico Ceratto) (RT #2500)
   * Add new DM key 0x1BB375334D750376 (Mats Erik Andersson) (RT #2501)
+  * Add new DD key 0x5430209C4DD7CC93 (Jeffrey Ratcliffe) (RT #2505)
 
   -- Jonathan McDowell <noodles@earth.li>  Sun, 12 Sep 2010 22:51:21 +0100
 
