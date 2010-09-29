@@ -1,5 +1,6 @@
 debian-keyring (2010.09.xx) UNRELEASED; urgency=low
 
+  [ Jonathan McDowell ]
   * Add new DM key 0x8F7BF8FC4A11C97A (Ryan Kavanagh) (RT #2492)
   * Add new DM key 0x6BCA7AD479EBC4EC (Stefan Bauer) (RT #2493)
   * Add new DM key 0x5E326303C98B5D5D (Federico Ceratto) (RT #2500)
@@ -9,7 +10,10 @@ debian-keyring (2010.09.xx) UNRELEASED; urgency=low
   * Add new DD key 0xBC372252CA1CF964 (Ansgar Burchardt) (RT #2503)
   * Add new DD key 0x789D6F057FD863FE (Salvatore Bonaccorso) (RT #2504)
 
-  -- Jonathan McDowell <noodles@earth.li>  Sun, 12 Sep 2010 22:51:21 +0100
+  [ Gunnar Wolf ]
+  * Add new DM key 0xF3C2F688A21CB648 (Jonathan Yu) (RT #2534)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 29 Sep 2010 18:30:52 -0500
 
 debian-keyring (2010.09.04) unstable; urgency=low
 
@@ -170,7 +174,7 @@ debian-keyring (2010.09.04) unstable; urgency=low
   * Replace 0xC3168EBA23F5ADDB with 0xE3E3392348B50D39 (Ian Jackson)
   * Move 0x353350CA580808C4 (Miguel Gea Milvaques) to emeritus
 
- -- Jonathan McDowell <noodles@earth.li> Sat, 04 Sep 2010 20:58:47 -0700
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 04 Sep 2010 20:58:47 -0700
 
 debian-keyring (2010.08.01) unstable; urgency=low
 
