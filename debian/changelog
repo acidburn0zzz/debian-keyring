@@ -14,8 +14,10 @@ debian-keyring (2010.09.xx) UNRELEASED; urgency=low
   * Add new DM key 0xF3C2F688A21CB648 (Jonathan Yu) (RT #2534)
   * Add new DM key 0x9FE8B8CD71C5D1A8 (Stuart Prescott) (RT #2535)
   * Add new DD key 0xC4D1681A7F217B01 (Deepak Tripathi) (RT #2551)
+  * Replace 0xB6B0B9D60AC70206 with 0xB6B0B9D60AC70206 (Luke Faraone)
+    (RT #2483)
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 29 Sep 2010 18:48:53 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 29 Sep 2010 18:59:24 -0500
 
 debian-keyring (2010.09.04) unstable; urgency=low
 
