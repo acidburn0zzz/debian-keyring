@@ -16,8 +16,10 @@ debian-keyring (2010.09.xx) UNRELEASED; urgency=low
   * Add new DD key 0xC4D1681A7F217B01 (Deepak Tripathi) (RT #2551)
   * Replace 0xB6B0B9D60AC70206 with 0xB6B0B9D60AC70206 (Luke Faraone)
     (RT #2483)
+  * Replace 0x10BB80FC16BD77C6 with 0x31FCE7E7DD079461 (Gerfried Fuchs)
+    (RT #2506)
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 29 Sep 2010 18:59:24 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 29 Sep 2010 19:07:14 -0500
 
 debian-keyring (2010.09.04) unstable; urgency=low
 
