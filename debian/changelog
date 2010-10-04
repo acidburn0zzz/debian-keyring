@@ -23,8 +23,10 @@ debian-keyring (2010.09.xx) UNRELEASED; urgency=low
     (RT #2522)
   * Replace 0x87B3C447BD058554 with 0x6AE1DF0D608F22DC (Michael Biebl)
     (RT #2536)
+  * Replace 0x3485BA08D0EC0723 with 0x11B4E5FF15B0FD82 (Mark Hymers) (RT
+    #2544)
 
- -- Gunnar Wolf <gwolf@debian.org>  Mon, 04 Oct 2010 13:50:14 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 04 Oct 2010 16:48:05 -0500
 
 debian-keyring (2010.09.04) unstable; urgency=low
 
