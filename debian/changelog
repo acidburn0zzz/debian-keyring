@@ -29,8 +29,10 @@ debian-keyring (2010.09.xx) UNRELEASED; urgency=low
     O'Dea (RT #2530)
   * Replace 0xF985E3400AFC7476 with 0xD15D313882004173 (Russ Allbery)
     (RT #2529)
+  * Replace 0x071774E000D8CD16 with 0xC24B65A2672C8B12 (Alexander
+    Reichle-Schmehl) (RT #2507)
 
- -- Gunnar Wolf <gwolf@debian.org>  Mon, 04 Oct 2010 17:22:33 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 04 Oct 2010 17:34:44 -0500
 
 debian-keyring (2010.09.04) unstable; urgency=low
 
