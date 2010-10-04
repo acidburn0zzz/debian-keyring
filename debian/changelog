@@ -18,8 +18,11 @@ debian-keyring (2010.09.xx) UNRELEASED; urgency=low
     (RT #2483)
   * Replace 0x10BB80FC16BD77C6 with 0x31FCE7E7DD079461 (Gerfried Fuchs)
     (RT #2506)
+  * Replace 0xF49A8FB22B983F58 with 0x934380E836A0D0AA (Luke Cycon) (RT #2511)
+  * Replace 0xC4A5D58EAAAC7BBC with 0xA6DC24D9DA2493D1 (Sven Hoexter)
+    (RT #2522)
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 29 Sep 2010 19:07:14 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 04 Oct 2010 13:33:01 -0500
 
 debian-keyring (2010.09.04) unstable; urgency=low
 
