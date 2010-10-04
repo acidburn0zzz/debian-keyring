@@ -25,8 +25,10 @@ debian-keyring (2010.09.xx) UNRELEASED; urgency=low
     (RT #2536)
   * Replace 0x3485BA08D0EC0723 with 0x11B4E5FF15B0FD82 (Mark Hymers) (RT
     #2544)
+  * Added back Brian White (0x67708B14E1C142B1) as requested by Brendan
+    O'Dea (RT #2530)
 
- -- Gunnar Wolf <gwolf@debian.org>  Mon, 04 Oct 2010 16:48:05 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 04 Oct 2010 17:08:43 -0500
 
 debian-keyring (2010.09.04) unstable; urgency=low
 
