@@ -9,6 +9,7 @@ debian-keyring (2010.09.xx) UNRELEASED; urgency=low
   * Add new DD key 0xF3E4122F1D8C261A (Michael Schutte) (RT #2502)
   * Add new DD key 0xBC372252CA1CF964 (Ansgar Burchardt) (RT #2503)
   * Add new DD key 0x789D6F057FD863FE (Salvatore Bonaccorso) (RT #2504)
+  * Updated Tanguy Ortolo's key with additional subkey (Closes: #598505)
 
   [ Gunnar Wolf ]
   * Add new DM key 0xF3C2F688A21CB648 (Jonathan Yu) (RT #2534)
