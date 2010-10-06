@@ -32,8 +32,10 @@ debian-keyring (2010.09.xx) UNRELEASED; urgency=low
     (RT #2529)
   * Replace 0x071774E000D8CD16 with 0xC24B65A2672C8B12 (Alexander
     Reichle-Schmehl) (RT #2507)
+  * Replace 0xDC3552E836E75604 with 9C27B31342B7511D (Michal Čihař) (RT
+    #2557)
 
- -- Gunnar Wolf <gwolf@debian.org>  Mon, 04 Oct 2010 17:34:44 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 06 Oct 2010 17:50:08 -0500
 
 debian-keyring (2010.09.04) unstable; urgency=low
 
