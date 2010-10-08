@@ -4,6 +4,7 @@ Infrastructure
 Bazaar tree		     - infrastructure/bazaar.txt
 Request Tracker		     - infrastructure/rt.txt
 kaufmann.debian.org layout   - infrastructure/kaufmann.txt
+HKP keyserver	    	     - infrastructure/hkp.txt
 
 Keyring handling
 ================
