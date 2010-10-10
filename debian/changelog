@@ -95,6 +95,8 @@ debian-keyring (2010.09.xx) UNRELEASED; urgency=low
     * 0xF66E3E419F84F4DE Iustin Pop <iustin> sig:1
     * 0xF6D3495BB0AE9A02 Clint Adams <schizo> sig:4
     * 0xF98825AC26B47B9F Martin Pitt <mpitt> sig:44
+  * Replace 0xD4E5EDACC0143D2D with 0x872F702C4D6E25A8 (Christian Perrier)
+    (RT #2509)
 
   [ Gunnar Wolf ]
   * Add new DM key 0xF3C2F688A21CB648 (Jonathan Yu) (RT #2534)
