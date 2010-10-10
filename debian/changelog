@@ -97,6 +97,8 @@ debian-keyring (2010.09.xx) UNRELEASED; urgency=low
     * 0xF98825AC26B47B9F Martin Pitt <mpitt> sig:44
   * Replace 0xD4E5EDACC0143D2D with 0x872F702C4D6E25A8 (Christian Perrier)
     (RT #2509)
+  * Replace 0x75897592BAFEC7F2 with 0xC5BD6C8F2295D502 (Charles Plessy)
+    (RT #2521)
 
   [ Gunnar Wolf ]
   * Add new DM key 0xF3C2F688A21CB648 (Jonathan Yu) (RT #2534)
