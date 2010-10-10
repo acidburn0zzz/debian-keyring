@@ -10,6 +10,91 @@ debian-keyring (2010.09.xx) UNRELEASED; urgency=low
   * Add new DD key 0xBC372252CA1CF964 (Ansgar Burchardt) (RT #2503)
   * Add new DD key 0x789D6F057FD863FE (Salvatore Bonaccorso) (RT #2504)
   * Updated Tanguy Ortolo's key with additional subkey (Closes: #598505)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x01B47334E0D49E99 Changwoo Ryu <cwryu> sig:1
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:2
+    * 0x0AA04571D03E3E70 Rene Engelhard <rene> sig:15
+    * 0x0B00FB6CEBE2D002 Ulises Vitulli <dererk> sig:9
+    * 0x17274627C4FB7099 Matthew Johnson <mjj29> sig:15
+    * 0x18A0CC8D5706A4B4 Simon Richter <sjr> sig:5
+    * 0x1D21C83DC452E0FC Kenshi Muto <kmuto> sig:27
+    * 0x1E7091B1F14A64A2 Aaron M. Ucko <ucko> sig:11
+    * 0x21D20589974B3E96 Tony Mancill <tmancill> sig:16
+    * 0x24A01418AC15B50C Evgeni Golov <evgeni> sig:81
+    * 0x29BE5D2268FD549F Martin Michlmayr <tbm> sig:2
+    * 0x2BF8EE2B7F961564 Fabio Tranchitella <kobold> sig:12
+    * 0x310180050905E40C Julien Cristau <jcristau> sig:2
+    * 0x3450ED513FCC2A90 Amaya Rodrigo Sastre <amaya> sig:326
+    * 0x37E1C17570096AD1 Asheesh Laroia <paulproteus> sig:9
+    * 0x393587D97D86500B Colin Watson <cjwatson> sig:70
+    * 0x416F061063FEE659 Erinn Clark <erinn> sig:2
+    * 0x41DC1C907244970B Kurt Roeckx <kroeckx> sig:31
+    * 0x4565D58245140A6D Samuel Thibault <sthibault> sig:4
+    * 0x46AA1B6A3BFB9FB3 Luca Bruno <lucab> sig:15
+    * 0x4DE8FF2A63C7CC90 Simon McVittie <smcv> sig:6
+    * 0x4F9F6D550ED6122A Serafeim Zanikolas <sez> sig:86
+    * 0x564126F229F19BD1 Michael Meskes <meskes> sig:1
+    * 0x583CA816CD98B20A Tim Riker <timr> sig:6
+    * 0x587979573442684E Steve McIntyre <93sam> sig:23
+    * 0x58DD3FE299E141B4 Micha Lenk <micha> sig:4
+    * 0x5CA450DE52B7487E Steinar H. Gunderson <sesse> sig:3
+    * 0x5D328D082AAAB140 Hideki Yamane <henrich> sig:15
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:11
+    * 0x6F17A5AFC1F24EA4 Stefan Fritsch <sf> sig:5
+    * 0x70373CF1290DB9CE Varun Hiremath <varun> sig:6
+    * 0x7537F7664950EAA6 Adam Kessel <ajkessel> uid:1 sig:15
+    * 0x7853DA4D49881AD3 Stéphane Glondu <glondu> sig:21
+    * 0x7A8F49E8B63480BE Kumar Appaiah <akumar> sig:51
+    * 0x7C56ACFE947897D8 Anibal Monsalve Salazar <anibal> sig:8
+    * 0x7CC5451EA244C858 Torsten Marek <shlomme> sig:51
+    * 0x85E8FBFCF0B27113 Patrick Caulfield <patrick> uid:1 sig:1
+    * 0x867BF9A9FBD3EB8E Robert Collins <robertc> sig:13
+    * 0x86E00D0C19A42D19 Dann Frazier <dannf> sig:13
+    * 0x89CD4B21607559E6 Benjamin Hill <mako> sig:22
+    * 0x8E62E7F764011A8B Jonathan Oxer <jon> sig:109
+    * 0x8E889544D985000D Bastian Venthur <venthur> uid:1 sig:37
+    * 0x94FA372B2DA8B985 Jonathan McDowell <noodles> sig:19
+    * 0x99730D5C8A9A3084 Adrian Perez <blackxored> uid:2 sig:8
+    * 0x9D20F6503E338888 Mikhail Gusarov <dottedmag> sub:1 sig:8
+    * 0x9DF99BDA11691130 Georges Khaznadar <georgesk> sig:20
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:37
+    * 0x9FCF2CCD3F3E6426 Guido Guenther <agx> sig:82
+    * 0xA0C5AD1359CD3653 Shachar Shemesh <shachar> sig:6
+    * 0xA1183F8ED1028C8D Kartik Mistry <kartik> sig:8
+    * 0xA144B27BEB9CDAD5 Eduardo Marcel Macan <macan> sig:2
+    * 0xA2D13001D98C0FBA Don Armstrong <don> sig:2
+    * 0xA3F5DC7342000462 Dale Martin <dmartin> sig:5
+    * 0xA73E0055558FB8DD Jan Dittberner <jandd> sig:43
+    * 0xAF2283AA76E2AC7B Hector Oron <zumbi> sig:114
+    * 0xB3118CEF8AEA8FEE Stephen Gran <sgran> sig:18
+    * 0xBAC78EE5DBA50595 Behan Webster <behanw> sig:3
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:4
+    * 0xC7197699B29B232A Maximiliano Curia <maxy> sig:44
+    * 0xCCD2ED94D21739E9 Daniel Gillmor <dkg> sig:92
+    * 0xCF489438C5779A1C Manoj Srivastava <srivasta> sig:10
+    * 0xD04BA3A00125D5C0 Philip Hands <philh> sig:41
+    * 0xD35BBC99BC7D020A Alexander Wirt <formorer> sig:10
+    * 0xD4E5EDACC0143D2D Christian Perrier <bubulle> sig:135
+    * 0xD5CA9B04F2C423BC Stefano Zacchiroli <zack> sig:24
+    * 0xD7884C4718E18F44 Marco Túlio Gontijo e Silva <marcot> sig:12
+    * 0xD8DF53FB37E272E8 Michael Prokop <mika> sig:8
+    * 0xDD29F88442839ED3 John Goerzen <jgoerzen> sig:16
+    * 0xE1EBBEA51D389887 Y Giridhar Appaji Nag <appaji> sig:25
+    * 0xE6AA90171392B174 David Paleino <dapal> sig:5
+    * 0xE74D29B82BE16D01 Moray Allan <moray> sig:2
+    * 0xE7BFC8EC95861109 Ben Hutchings <benh> sig:19
+    * 0xEAFCFEBF8FEB8EBF Andrew McMillan <awm> sig:23
+    * 0xEB5CE1D75E8511F9 Lars Wirzenius <lars> sig:6
+    * 0xED1A3933B2CFCDD8 Philipp Kern <pkern> sig:9
+    * 0xEE491C3E0123F2F2 Enrico Tassi <gareuselesinge> sig:2
+    * 0xF0DC8E00B28C5995 Brendan O'Dea <bod> sig:7
+    * 0xF1A69BE429C0FFEE Obey Arthur Liu <arthurliu> sig:30
+    * 0xF1D2CCC8497A176D Loic Dachary <loic> sig:4
+    * 0xF2F11C23F00A2BE6 Ritesh Raj Sarraf <rrs> sig:16
+    * 0xF41FED8E33FC40A4 Andrea Mennucci <mennucc1> sig:12
+    * 0xF66E3E419F84F4DE Iustin Pop <iustin> sig:1
+    * 0xF6D3495BB0AE9A02 Clint Adams <schizo> sig:4
+    * 0xF98825AC26B47B9F Martin Pitt <mpitt> sig:44
 
   [ Gunnar Wolf ]
   * Add new DM key 0xF3C2F688A21CB648 (Jonathan Yu) (RT #2534)
