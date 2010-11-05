@@ -6,6 +6,7 @@ debian-keyring (2010.10.xx) UNRELEASED; urgency=low
   * Add new DD key 0x30EB403B127029F1 (Muammar El Khatib) (RT #2594)
   * Add new DD key 0x16AD84C0641323B1 (Jérémie Corbier) (RT #2596)
   * Replace 0x5194830BEC19B378 with 0x136E9CF17B5D342D (Paul Cannon) (RT #2508)
+  * Add new DD key 0x054BBB9F7D806442 (Niels Thykier) (RT #2597)
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 19 Oct 2010 14:16:01 -0700
 
