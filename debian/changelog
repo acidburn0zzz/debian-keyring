@@ -11,6 +11,7 @@ debian-keyring (2010.10.xx) UNRELEASED; urgency=low
   * Add new DM key 0x38548517DAD3D5EE (Luis Uribe) (RT #2612)
   * Add new DM key 0xD5FDFC156168BF60 (Julián Moreno Patiño) (RT #2613)
   * Add new DM key 0x8B306538D00E52B6 (Julien Viard de Galbert) (RT #2616)
+  * Add new DD key 0x762B57BB784206AD (David Bremner) (RT #2621)
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 19 Oct 2010 14:16:01 -0700
 
