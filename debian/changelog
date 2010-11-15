@@ -4,6 +4,8 @@ debian-keyring (2010.11.xx) UNRELEASED; urgency=low
     (RT #2627)
   * Add new DD key 0xD8EED7F3C83BFA9A (Sebastian Reichel) (RT #2626)
   * Replace 0x1FFF4BA917063E6D with 0x8972F4DFDC6DC026 (Kees Cook) (RT #2586)
+  * Replace 0xD45356D4B0DDAF42 with 0x5098021C70518078 (Alan Woodland)
+    (RT #2589)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 15 Nov 2010 01:38:19 +0000
 
