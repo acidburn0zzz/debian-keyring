@@ -12,6 +12,8 @@ debian-keyring (2010.11.xx) UNRELEASED; urgency=low
   * Replace 0xDE4BDA2C54FD2A58 with 0xE42AA04FA6AA8C72 (Mike Hommey) (RT #2619)
   * Replace 0x86E00D0C19A42D19 with 0x1BF83C5E54FC8640 (Dann Frazier)
     (RT #2624)
+  * Replace 0x9F78F83CE8C43461 with 0xB3464F896AA15948 (Ana Guerrero)
+    (RT #2628)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 15 Nov 2010 01:38:19 +0000
 
