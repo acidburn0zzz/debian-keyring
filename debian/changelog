@@ -6,6 +6,8 @@ debian-keyring (2010.11.xx) UNRELEASED; urgency=low
   * Replace 0x1FFF4BA917063E6D with 0x8972F4DFDC6DC026 (Kees Cook) (RT #2586)
   * Replace 0xD45356D4B0DDAF42 with 0x5098021C70518078 (Alan Woodland)
     (RT #2589)
+  * Replace 0xDD45D40015E2AFD6 with 0x83FD1C4682D138E0 (Tobias Quathamer)
+    (RT #2609)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 15 Nov 2010 01:38:19 +0000
 
