@@ -1,3 +1,10 @@
+debian-keyring (2010.11.xx) UNRELEASED; urgency=low
+
+  * Add new DD key 0x1CFC22F3363DEAE3 (Siegfried-Angel Gevatter Pujals)
+    (RT #2627)
+
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 15 Nov 2010 01:38:19 +0000
+
 debian-keyring (2010.11.04) unstable; urgency=low
 
   * Add new DD key 0x9AFB7B8C9A5F5BBC (Heiko Stübner) (RT #2595)
