@@ -1,4 +1,4 @@
-debian-keyring (2010.11.xx) UNRELEASED; urgency=low
+debian-keyring (2010.11.17) unstable; urgency=low
 
   * Add new DD key 0x1CFC22F3363DEAE3 (Siegfried-Angel Gevatter Pujals)
     (RT #2627)
@@ -120,7 +120,7 @@ debian-keyring (2010.11.xx) UNRELEASED; urgency=low
     * 0xF7D931D4B882EBD7 UNKNOWN [DM] sig:2
     * 0xFB7ECD914B9488F1 UNKNOWN [DM] sig:1
 
- -- Jonathan McDowell <noodles@earth.li>  Mon, 15 Nov 2010 01:38:19 +0000
+ -- Jonathan McDowell <noodles@earth.li>  Wed, 17 Nov 2010 21:46:25 -0800
 
 debian-keyring (2010.11.04) unstable; urgency=low
 
