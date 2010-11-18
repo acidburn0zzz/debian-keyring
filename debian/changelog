@@ -16,6 +16,7 @@ debian-keyring (2010.11.xx) UNRELEASED; urgency=low
     (RT #2628)
   * Replace 0x210BF2AB9F71D449 with 0x859FEF67258E26B1 (Julien Valroff)
     (RT #2630)
+  * Add new DD key 0x5394479DD3524C51 (Jonathan Wiltshire) (RT #2635)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 15 Nov 2010 01:38:19 +0000
 
