@@ -20,6 +20,105 @@ debian-keyring (2010.11.xx) UNRELEASED; urgency=low
   * Add new DD key 0xF77F8DB23144BE0F (Michael Hanke) (RT #2638)
   * Add new DM key 0xAB645F406286A7D0 (Lisandro Damián Nicanor Pérez Meyer)
     (RT #2634)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x0270A2758CD736E2 UNKNOWN [DM] sig:7
+    * 0x0587B26E45F3FBF9 John Lightsey <lightsey> sig:3
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:2
+    * 0x07FC4891042BA65A UNKNOWN [DM] sig:63
+    * 0x085A9B327C2CAEB8 UNKNOWN [DM] sig:60
+    * 0x0CE33C910F9CB28F UNKNOWN [DM] sig:121
+    * 0x0EA756B5144843F5 Roland Mas <lolando> sig:2
+    * 0x0F8033F0BACAB6C2 UNKNOWN [DM] sig:2
+    * 0x12914ABD0EA23F2B UNKNOWN [DM] uid:1 sig:9
+    * 0x1571C4CFF6E7A452 UNKNOWN [DM] sig:25
+    * 0x16281F2E007C98D1 Francois Marier <francois> sig:3
+    * 0x16AD84C0641323B1 Jérémie Corbier <jcorbier> uid:2 sig:2
+    * 0x17A165D5F0A25F0E UNKNOWN [DM] sig:1
+    * 0x18D8A4E2D0EDB64D UNKNOWN [DM] uid:1 sig:1
+    * 0x285BD7A1F22A794E Vincent Bernat <bernat> sig:6
+    * 0x290FBE52EEA07609 UNKNOWN [DM] sig:30
+    * 0x299610A9203ECA25 UNKNOWN [DM] sig:4
+    * 0x2B807BFBFBE74E9A UNKNOWN [DM] sig:2
+    * 0x2C18A02AB4C5F37F UNKNOWN [DM] sig:2
+    * 0x30EB403B127029F1 Muammar El Khatib <muammar> uid:1 sig:1
+    * 0x3A4CB2701A89CC23 UNKNOWN [DM] uid:3 sub:1 sig:21
+    * 0x3EB46FBCE0C010D0 UNKNOWN [DM] sig:3
+    * 0x3F4A8A8FE07F1CF9 Ludovic Rousseau <rousseau> sig:19
+    * 0x40E354D9FA26E2EE Stig Sandbeck Mathisen <ssm> sig:1
+    * 0x40ECC154A8BAC1EA Ian Beckwith <ianb> sub:1 sig:5
+    * 0x416F061063FEE659 Erinn Clark <erinn> sig:6
+    * 0x46CC5C63F318A56A UNKNOWN [DM] sig:2
+    * 0x4B077723929D42C3 Emmanuel Bouthenot <kolter> sig:51
+    * 0x4D33ACE4C78F687C UNKNOWN [DM] sig:36
+    * 0x524EC3CDEF584970 UNKNOWN [DM] sig:12
+    * 0x5759F35001AA4A64 Steve Langasek <vorlon> sig:4
+    * 0x58B29F8CF74EC6C8 UNKNOWN [DM] uid:1 sig:1
+    * 0x5C3AA7E83487EC71 UNKNOWN [DM] uid:2 sig:8
+    * 0x5D328D082AAAB140 Hideki Yamane <henrich> sig:19
+    * 0x63D2D5D907F89BB8 Ludovico Gardenghi <garden> uid:1 sig:69
+    * 0x651EEFB02527DF13 UNKNOWN [DM] sig:24
+    * 0x67DA2448A9A3EDD5 UNKNOWN [DM] uid:1 sig:3
+    * 0x693D830C7B6285B7 UNKNOWN [DM] uid:1 sig:330
+    * 0x6A08D37C0B4D63D8 Eloy A. Paris <peloy> sig:5
+    * 0x6AE1DF0D608F22DC Michael Biebl <biebl> sig:5
+    * 0x6BCA7AD479EBC4EC UNKNOWN [DM] sig:2
+    * 0x6CA41A7743B8D6C8 UNKNOWN [DM] sig:3
+    * 0x6F7818A9B98F62B1 UNKNOWN [DM] sig:6
+    * 0x71956D47CD9B9806 UNKNOWN [DM] uid:1 sig:1
+    * 0x762B57BB784206AD David Bremner <bremner> uid:1 sig:1
+    * 0x7833ECF1B5444815 Bill Allombert <ballombe> sig:33
+    * 0x789D6F057FD863FE Salvatore Bonaccorso <carnil> uid:1 sig:1
+    * 0x792152527B75921E UNKNOWN [DM] sig:65
+    * 0x796ECB739B441EA8 Maximilian Attems <maks> sig:12
+    * 0x7F3805C7D82FB9C8 UNKNOWN [DM] sig:2
+    * 0x80F7DBDCCF4D32E4 UNKNOWN [DM] sig:4
+    * 0x815E0B3EFA4C5298 Tatsuya Kinoshita <tats> sig:3
+    * 0x853575EC4A08B2FE Emilio Pozuelo Monfort <pochu> uid:1 sig:1
+    * 0x85B90D23464B8DE3 Xavier Oswald <xoswald> sig:59
+    * 0x85F15E59F01DFE92 UNKNOWN [DM] uid:1 sig:5
+    * 0x8D67107C0802640F UNKNOWN [DM] sig:4
+    * 0x8F32B4422F52107F UNKNOWN [DM] sig:36
+    * 0x8F7274F307062A38 UNKNOWN [DM] uid:2 sig:5
+    * 0x8F7BF8FC4A11C97A UNKNOWN [DM] uid:1 sig:9
+    * 0x9394F354891D7E07 UNKNOWN [DM] sig:6
+    * 0x94842BC86E511C31 UNKNOWN [DM] sig:2
+    * 0x950118DBA895B621 Khalid Aziz <khalid> sig:6
+    * 0x95DE059D8D7FCA91 UNKNOWN [DM] sig:2
+    * 0x966EAACACDE97281 UNKNOWN [DM] sig:17
+    * 0x97833DC998EF9A49 Thomas Goirand <zigo> sig:2
+    * 0x9D7319316206618C UNKNOWN [DM] sig:2
+    * 0x9DF99BDA11691130 Georges Khaznadar <georgesk> sig:44
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:5
+    * 0xA677D7EC95DA8EA9 UNKNOWN [DM] uid:2 sig:11
+    * 0xA901B029594CA03B UNKNOWN [DM] sig:68
+    * 0xAC4F466D7D1D3A2F UNKNOWN [DM] sig:6
+    * 0xAE07828059A53CC1 UNKNOWN [DM] sig:2
+    * 0xB012AD8CF19F599F UNKNOWN [DM] sub:1 sig:3
+    * 0xB2197FDB5EA01078 UNKNOWN [DM] sub:1 sig:9
+    * 0xBAA569D0CBF12A6A UNKNOWN [DM] uid:1 sig:2
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:4
+    * 0xBC196A94EDDDA1B7 UNKNOWN [DM] sig:7
+    * 0xBDF2A2205E3619D3 Arnaud Fontaine <arnau> sig:8
+    * 0xC09E1D8995930EDE Axel Beckert <abe> sig:5
+    * 0xC1ED266701F55480 UNKNOWN [DM] sig:7
+    * 0xC88157C885C79389 Damien Raude-Morvan <drazzib> sig:38
+    * 0xCB3D014ED7F1B32A UNKNOWN [DM] uid:1 sig:4
+    * 0xCD614FD7F5D65169 Julien Blache <jblache> sig:1
+    * 0xCF49D0E68A2FAFBC UNKNOWN [DM] uid:2 sig:15
+    * 0xD286CE0C0C62B791 UNKNOWN [DM] uid:2 sig:66
+    * 0xDC5A28E48C7740AF Gaudenz Steinlin <gaudenz> sig:39
+    * 0xDE6B4AC392742B33 UNKNOWN [DM] uid:2 sig:3
+    * 0xDFF738C2D16CFBA2 Simon Paillard <spaillard> sig:8
+    * 0xE15517F22B0920C0 Loïc Minier <lool> sig:67
+    * 0xE43B153CCB467E27 Cosimo Alfarano <kalfa> uid:4 sig:9
+    * 0xE7F710555409E422 UNKNOWN [DM] sig:95
+    * 0xECC1D5F5A1FC6CFA UNKNOWN [DM] sig:1
+    * 0xED6BEE2D1C74E0B7 Stefan Alfredsson <alfs> sig:4
+    * 0xEDA21E94B565716F UNKNOWN [DM] sig:8
+    * 0xF4B4B0CC797EBFAB Enrico Zini <enrico> sig:45
+    * 0xF6CBB99D65B790C2 UNKNOWN [DM] sig:4
+    * 0xF7D931D4B882EBD7 UNKNOWN [DM] sig:2
+    * 0xFB7ECD914B9488F1 UNKNOWN [DM] sig:1
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 15 Nov 2010 01:38:19 +0000
 
