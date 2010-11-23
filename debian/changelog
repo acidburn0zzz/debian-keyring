@@ -1,3 +1,9 @@
+debian-keyring (2010.11.23) unstable; urgency=high
+
+  * Remove 0xDA7D51388917A9B0 (Matthijs Möhlmann) (RT #2648)
+
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 23 Nov 2010 09:36:35 -0800
+
 debian-keyring (2010.11.17) unstable; urgency=low
 
   * Add new DD key 0x1CFC22F3363DEAE3 (Siegfried-Angel Gevatter Pujals)
