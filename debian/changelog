@@ -6,6 +6,8 @@ debian-keyring (2010.12.xx) UNRELEASED; urgency=low
   * Add new DM key 0x5C13D6DB93052E03 (Christian Hofstaedtler) (RT #2656)
   * Replace 0x9D78D71186BC2A50 with 0x49086AD3EBE2F31F (Luca Falavigna)
     (RT #2643)
+  * Replace 0x041E39AF71D5F43A with 0x00B45EBD4CA7BABE (NIIBE Yutaka)
+    (RT #2644)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 05 Dec 2010 06:06:34 +0000
 
