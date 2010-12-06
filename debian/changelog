@@ -1,4 +1,4 @@
-debian-keyring (2010.12.xx) UNRELEASED; urgency=low
+debian-keyring (2010.12.05) unstable; urgency=low
 
   * Add new DN key 0x02BC42B743E25D1E (Matt Zimmerman) (RT #2641)
   * Add new DM key 0xA784FF770F0F4FFA (Michael Gilbert) (RT #2651)
@@ -47,7 +47,7 @@ debian-keyring (2010.12.xx) UNRELEASED; urgency=low
     * 0xF1D2CCC8497A176D Loic Dachary <loic> sig:8
     * 0xF77F8DB23144BE0F Michael Hanke <mih> sig:6
 
- -- Jonathan McDowell <noodles@earth.li>  Sun, 05 Dec 2010 06:06:34 +0000
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 05 Dec 2010 18:36:51 -0800
 
 debian-keyring (2010.11.23) unstable; urgency=high
 
