@@ -10,6 +10,42 @@ debian-keyring (2010.12.xx) UNRELEASED; urgency=low
     (RT #2644)
   * Replace 0xC88157C885C79389 with 0x75E20CCD33E749FC (Damien Raude-Morvan)
     (RT #2646)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x0312E8C35D8CDA7B Guus Sliepen <guus> sig:8
+    * 0x055C4B35FFFFFFFE Samuel Hocevar <sho> sig:5
+    * 0x07FC4891042BA65A UNKNOWN [DM] sig:34
+    * 0x184452FA268A084D Pablo Lorenzzoni <spectra> sig:3
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:6
+    * 0x2DAF2A666D67F790 Anthony Fok <foka> sig:12
+    * 0x33961588E1C21845 Thijs Kinkhorst <thijs> sig:4
+    * 0x416F061063FEE659 Erinn Clark <erinn> sig:9
+    * 0x507AF89025B10423 UNKNOWN [DM] uid:1 sig:2
+    * 0x5394479DD3524C51 Jonathan Wiltshire <jmw> sub:1 sig:139
+    * 0x564126F229F19BD1 Michael Meskes <meskes> sig:2
+    * 0x583CA816CD98B20A Tim Riker <timr> sig:4
+    * 0x5D328D082AAAB140 Hideki Yamane <henrich> sig:4
+    * 0x651EEFB02527DF13 UNKNOWN [DM] sig:12
+    * 0x71956D47CD9B9806 UNKNOWN [DM] sig:7
+    * 0x872F702C4D6E25A8 Christian Perrier <bubulle> sig:10
+    * 0x89980D29C0DDC83F Sebastien Delafond <seb> uid:2 sig:2
+    * 0x8F32B4422F52107F UNKNOWN [DM] sig:1
+    * 0x9394F354891D7E07 UNKNOWN [DM] sig:8
+    * 0x97833DC998EF9A49 Thomas Goirand <zigo> sig:6
+    * 0xA0C5AD1359CD3653 Shachar Shemesh <shachar> sig:24
+    * 0xABB48F0DC3C24BDE Rene Mayrhofer <rmayr> sig:8
+    * 0xB1CCD97290267086 Marc Dequènes <duck> uid:1 sig:35
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:9
+    * 0xBF1E9D1F76D52AC4 Michael Tautschnig <mt> uid:4 sig:4
+    * 0xBF7C793AC9132DDB Nikita V. Youshchenko <yoush> sig:4
+    * 0xC24B65A2672C8B12 Alexander Reichle-Schmehl <tolimar> sig:7
+    * 0xCA87E9E82AAC33F1 Alexander GQ Gerasiov <gq> sig:2
+    * 0xD6EFA6AC4B10D847 UNKNOWN [DM] sub:1 sig:108
+    * 0xD8EED7F3C83BFA9A Sebastian Reichel <sre> uid:1 sig:16
+    * 0xDA196237023B3F4F Lucas Nussbaum <lucas> sig:154
+    * 0xDA91EE7BA58E164F Fredrik Steen <stone> sig:20
+    * 0xE5273D986BE3C423 Paul Wise <pabs> sig:9
+    * 0xF1D2CCC8497A176D Loic Dachary <loic> sig:8
+    * 0xF77F8DB23144BE0F Michael Hanke <mih> sig:6
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 05 Dec 2010 06:06:34 +0000
 
