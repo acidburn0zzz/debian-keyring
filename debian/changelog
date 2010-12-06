@@ -1,6 +1,7 @@
 debian-keyring (2010.12.xx) UNRELEASED; urgency=low
 
   * Add new DN key 0x02BC42B743E25D1E (Matt Zimmerman) (RT #2641)
+  * Add new DM key 0xA784FF770F0F4FFA (Michael Gilbert) (RT #2651)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 05 Dec 2010 06:06:34 +0000
 
