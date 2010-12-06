@@ -8,6 +8,8 @@ debian-keyring (2010.12.xx) UNRELEASED; urgency=low
     (RT #2643)
   * Replace 0x041E39AF71D5F43A with 0x00B45EBD4CA7BABE (NIIBE Yutaka)
     (RT #2644)
+  * Replace 0xC88157C885C79389 with 0x75E20CCD33E749FC (Damien Raude-Morvan)
+    (RT #2646)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 05 Dec 2010 06:06:34 +0000
 
