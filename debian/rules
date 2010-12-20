@@ -30,6 +30,7 @@ binary-indep: checkroot
 
 	$(install_dir) debian/tmp/usr/share/keyrings/
 	$(install_file) output/keyrings/debian-keyring.gpg debian/tmp/usr/share/keyrings/
+	$(install_file) output/keyrings/debian-nonupload.gpg debian/tmp/usr/share/keyrings/
 	$(install_file) output/keyrings/debian-maintainers.gpg debian/tmp/usr/share/keyrings/
 	$(install_file) output/keyrings/debian-role-keys.gpg debian/tmp/usr/share/keyrings/
 
