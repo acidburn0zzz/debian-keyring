@@ -1,4 +1,4 @@
-debian-keyring (2010.12.xx) UNRELEASED; urgency=low
+debian-keyring (2010.12.xx) unstable; urgency=high
 
   [ Jonathan McDowell ]
   * Add debian/source/format indicating 3.0 (native).
@@ -7,7 +7,7 @@ debian-keyring (2010.12.xx) UNRELEASED; urgency=low
   [ Gunnar Wolf ]
   * Add new DM key 0x199A64FADFB500FF (Gregor Jasny) (RT #2666)
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 15 Dec 2010 17:58:29 -0600
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 20 Dec 2010 13:00:45 -0800
 
 debian-keyring (2010.12.09) unstable; urgency=high
  
