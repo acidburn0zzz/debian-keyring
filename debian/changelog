@@ -4,6 +4,8 @@ debian-keyring (2010.12.xx) unstable; urgency=low
     of debian-nonupload.gpg
   * Replace 0x18EA7A5DE0FC710D with 0xE083EC151231C465 (Jan Hauke Rahm)
     (RT #2650)
+  * Replace 0x0A275AB6B4BCA5D7 with 0x13C0B5667A38B0B0 (Ludovico Cavedon)
+    (RT #2667)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 20 Dec 2010 14:47:40 -0800
 
