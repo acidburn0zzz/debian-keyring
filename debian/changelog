@@ -6,6 +6,8 @@ debian-keyring (2010.12.xx) unstable; urgency=low
     (RT #2650)
   * Replace 0x0A275AB6B4BCA5D7 with 0x13C0B5667A38B0B0 (Ludovico Cavedon)
     (RT #2667)
+  * Replace 0x074D737EED75F599 with 0xAEF6F1A2A7457645 (Piotr Ożarowski)
+    (RT #2669)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 20 Dec 2010 14:47:40 -0800
 
