@@ -15,6 +15,11 @@ debian-keyring (2010.12.xx) unstable; urgency=low
   * Add new DN key 0x962680C5305A9418 (Kåre Thor Olsen) (RT #2679)
   * Add new DD key 0x21EC4FDC84AD676C (Scott James Remnant) (RT #2688)
   * Add new DD key 0xDC913D985DF03167 (Jerome Marant) (RT #2588)
+  * Update expired keys:
+    * 0x54703CDE1228EB75 Tommi Vainikainen <tvainika> uid:1 sig:9
+    * 0x8B9D310A97C398CB Stefan Pfetzing <dreamind> sig:14
+    * 0xB5022EB582EA653E Anselm Lingnau <lingnau> sig:5
+    * 0xCF62D79438E68E0E Thomas Girard <tgg> sig:1 (RT #2682)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 20 Dec 2010 14:47:40 -0800
 
