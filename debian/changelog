@@ -20,6 +20,48 @@ debian-keyring (2010.12.xx) unstable; urgency=low
     * 0x8B9D310A97C398CB Stefan Pfetzing <dreamind> sig:14
     * 0xB5022EB582EA653E Anselm Lingnau <lingnau> sig:5
     * 0xCF62D79438E68E0E Thomas Girard <tgg> sig:1 (RT #2682)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x02BC42B743E25D1E Matt Zimmerman <mdz> sig:7
+    * 0x03042BF0E3BF6C78 Vagrant Cascadian <vagrant> sub:2 sig:8
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:2
+    * 0x18A0CC8D5706A4B4 Simon Richter <sjr> sig:13
+    * 0x1BF83C5E54FC8640 Dann Frazier <dannf> sig:3
+    * 0x24A01418AC15B50C Evgeni Golov <evgeni> sig:132
+    * 0x33961588E1C21845 Thijs Kinkhorst <thijs> sig:7
+    * 0x33BE1A0A8C2ED8FF Mehdi Dogguy <mehdi> sub:1 sig:1
+    * 0x416F061063FEE659 Erinn Clark <erinn> sig:10
+    * 0x62B54B8C11404EC3 Noah Meyerhans <noahm> sig:4
+    * 0x693D830C7B6285B7 UNKNOWN (DM?) sig:6
+    * 0x70373CF1290DB9CE Varun Hiremath <varun> sig:2
+    * 0x715ED6A07E7B8AC9 Joerg Jaspert <joerg> sig:6
+    * 0x79B0126693701EEF Carlo U. Segre <segre> sig:3
+    * 0x872F702C4D6E25A8 Christian Perrier <bubulle> sig:54
+    * 0x8E889544D985000D Bastian Venthur <venthur> sig:4
+    * 0x965522B9D49AE731 Christoph Egger <christoph> uid:2 sig:320
+    * 0x97BA9CE761A0963B John Sullivan <johns> uid:1 sig:1
+    * 0x9EC002FE1C9CA517 Michael C. Schultheiss <schultmc> sig:6
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:26
+    * 0xA462B51EC2FEE5CD Julien Danjou <acid> sig:5
+    * 0xA73E0055558FB8DD Jan Dittberner <jandd> sig:34
+    * 0xABB48F0DC3C24BDE Rene Mayrhofer <rmayr> sig:13
+    * 0xB5022EB582EA653E Anselm Lingnau <lingnau>
+    * 0xBC196A94EDDDA1B7 UNKNOWN (DM?) sig:91
+    * 0xC0CFC6B3CD4C0D9D Steve Kemp <skx> sig:10
+    * 0xC5AF774A58510B5A Christoph Berg <myon> sig:12
+    * 0xC90F9CB90E1FAD0C Jo Shields <directhex> sig:6
+    * 0xCA78CB3E6E76D81D Sean Finney <seanius> sig:60
+    * 0xCD603B5A2ECF984B Alexei Nikolov <clown> uid:1 sig:2
+    * 0xCF489438C5779A1C Manoj Srivastava <srivasta> sig:3
+    * 0xD200EB30A0FB5DA6 Gustavo Noronha <kov> sig:8
+    * 0xD35BBC99BC7D020A Alexander Wirt <formorer> sig:11
+    * 0xD8DF53FB37E272E8 Michael Prokop <mika> sig:8
+    * 0xE544DE079B7C328D Luk Claes <luk> sig:5
+    * 0xED1A3933B2CFCDD8 Philipp Kern <pkern> sig:3
+    * 0xF4B4B0CC797EBFAB Enrico Zini <enrico> sig:15
+    * 0xF628EB934743206C Joachim Breitner <nomeata> sig:12
+    * 0xF6D3495BB0AE9A02 Clint Adams <schizo> uid:1 sig:4
+    * 0xF7F0E70F307D56ED Noèl Köthe <noel> sig:18
+    * 0xFE87DFAD2C0FCD1A Daniel Glassey <wdg> sig:5
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 20 Dec 2010 14:47:40 -0800
 
