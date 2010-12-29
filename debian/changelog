@@ -14,6 +14,7 @@ debian-keyring (2010.12.xx) unstable; urgency=low
   * Add new DD key 0x159EB5C4EFC8774C (Benjamin Drung) (RT #2689)
   * Add new DN key 0x962680C5305A9418 (Kåre Thor Olsen) (RT #2679)
   * Add new DD key 0x21EC4FDC84AD676C (Scott James Remnant) (RT #2688)
+  * Add new DD key 0xDC913D985DF03167 (Jerome Marant) (RT #2588)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 20 Dec 2010 14:47:40 -0800
 
