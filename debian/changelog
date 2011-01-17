@@ -9,8 +9,9 @@ debian-keyring (2011.01.xx) unstable; urgency=low
   * Replace 0xC5AF774A58510B5A with 0x4C5A6BAB12D2A7AE (Cristoph Berg)
     (RT #2687)
   * Add new DD key 0xE7F710555409E422 (Kamal Mostafa) (RT #2709)
+  * Add new DD key 0xBAA569D0CBF12A6A (Scott Howard) (RT #2707)
 
- -- Gunnar Wolf <gwolf@debian.org>  Sun, 16 Jan 2011 23:13:55 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Sun, 16 Jan 2011 23:43:30 -0600
 
 debian-keyring (2010.12.29) unstable; urgency=low
 
