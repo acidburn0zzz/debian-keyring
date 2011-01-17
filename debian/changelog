@@ -4,8 +4,10 @@ debian-keyring (2011.01.xx) unstable; urgency=low
   * Move 0xE22FD676BE93D2DE (Emmanuel le Chevoir) to emeritus
   * Add new nonuploading key 0x96DD4846A3D2357B (Martin Bagge) (RT
     #2697)
+  * Added a new DD key for existing DD Matthijs Möhlmann (previous key
+    stolen/revoked) (RT #2680)
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 12 Jan 2011 22:13:37 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Sun, 16 Jan 2011 22:52:49 -0600
 
 debian-keyring (2010.12.29) unstable; urgency=low
 
