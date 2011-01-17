@@ -11,8 +11,9 @@ debian-keyring (2011.01.xx) unstable; urgency=low
   * Add new DD key 0xE7F710555409E422 (Kamal Mostafa) (RT #2709)
   * Add new DD key 0xBAA569D0CBF12A6A (Scott Howard) (RT #2707)
   * Add new DD key 0xA309D76CE1DE59D2 (Kai Wasserbäch) (RT #2708)
+  * Added new DD key 0x51106DF5CD92D072 (Stefano Rivera) (RT #2706)
 
- -- Gunnar Wolf <gwolf@debian.org>  Sun, 16 Jan 2011 23:51:07 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 17 Jan 2011 09:41:15 -0600
 
 debian-keyring (2010.12.29) unstable; urgency=low
 
