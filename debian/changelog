@@ -13,8 +13,21 @@ debian-keyring (2011.01.xx) unstable; urgency=low
   * Add new DD key 0xA309D76CE1DE59D2 (Kai Wasserbäch) (RT #2708)
   * Added new DD key 0x51106DF5CD92D072 (Stefano Rivera) (RT #2706)
   * Add new role key 0xDA87E80D6294BE9B (Debian CD signing key) (RT #2715)
-
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 19 Jan 2011 23:08:42 -0600
+  * Updates from keyring.debian.org HKP interface:
+    0x03042BF0E3BF6C78 Vagrant Cascadian <vagrant>
+    0x06EAA066E397832F Luca Capello <gismo>
+    0x54703CDE1228EB75 Tommi Vainikainen <tvainika>
+    0x70373CF1290DB9CE Varun Hiremath <varun>
+    0x79B0126693701EEF Carlo U. Segre <segre>
+    0x872F702C4D6E25A8 Christian Perrier <bubulle>
+    0x8B9D310A97C398CB Stefan Pfetzing <dreamind>
+    0x965522B9D49AE731 Christoph Egger <christoph>
+    0xB5022EB582EA653E Anselm Lingnau <lingnau>
+    0xCF489438C5779A1C Manoj Srivastava <srivasta>
+    0xED1A3933B2CFCDD8 Philipp Kern <pkern>
+    0xF6D3495BB0AE9A02 Clint Adams <schizo>
+  
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 19 Jan 2011 23:19:25 -0600
 
 debian-keyring (2010.12.29) unstable; urgency=low
 
