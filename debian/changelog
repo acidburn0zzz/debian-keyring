@@ -1,3 +1,9 @@
+debian-keyring (2011.02.xx) unstable; urgency=low
+
+  * 
+
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 24 Jan 2011 15:34:57 -0600
+
 debian-keyring (2011.01.24) unstable; urgency=low
 
   * Add new DM key 0x6598789058A23DE9 (Vincent Legout) (RT #2691)
