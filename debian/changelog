@@ -1,4 +1,4 @@
-debian-keyring (2011.01.xx) unstable; urgency=low
+debian-keyring (2011.01.24) unstable; urgency=low
 
   * Add new DM key 0x6598789058A23DE9 (Vincent Legout) (RT #2691)
   * Move 0xE22FD676BE93D2DE (Emmanuel le Chevoir) to emeritus
