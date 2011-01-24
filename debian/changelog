@@ -30,8 +30,10 @@ debian-keyring (2011.01.xx) unstable; urgency=low
     (RT #2723)
   * Replace 0x161974E4C259E0E8 with0xE5CA8C4925E4205F (Philipp Huebner)
     (RT #2725)
+  * Replace 0x220BC883330C4A75 with 0x55C9882D999BBCC4 (Martin F.
+    Krafft) (RT #2727)
 
- -- Gunnar Wolf <gwolf@debian.org>  Mon, 24 Jan 2011 13:35:22 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 24 Jan 2011 13:52:43 -0600
 
 debian-keyring (2010.12.29) unstable; urgency=low
 
