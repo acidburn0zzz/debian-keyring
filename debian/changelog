@@ -28,8 +28,10 @@ debian-keyring (2011.01.xx) unstable; urgency=low
     0xF6D3495BB0AE9A02 Clint Adams <schizo>
     * Replace 0x06069CF2969457F0 with 0x57930DAB0B86B067 (Joost van Baal)
     (RT #2723)
+  * Replace 0x161974E4C259E0E8 with0xE5CA8C4925E4205F (Philipp Huebner)
+    (RT #2725)
 
- -- Gunnar Wolf <gwolf@debian.org>  Mon, 24 Jan 2011 13:23:37 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 24 Jan 2011 13:35:22 -0600
 
 debian-keyring (2010.12.29) unstable; urgency=low
 
