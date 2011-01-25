@@ -4,7 +4,7 @@ SHOULD_RUN_ON=kaufmann.debian.org
 if [ -z "$RUNANYWAY" -a $(hostname -f) != "$SHOULD_RUN_ON" ] ; then
     echo This script is meant to be run in $SHOULD_RUN_ON
     echo You can still run it if you are sure by setting
-    echo \$SHOULD_RUN_ON to a nonempty value.
+    echo \$RUNANYWAY to a nonempty value.
     exit 1
 fi
 
