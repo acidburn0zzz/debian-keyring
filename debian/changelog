@@ -1,8 +1,11 @@
 debian-keyring (2011.02.xx) unstable; urgency=low
 
-  * 
+  [ Gunnar Wolf ]
   * Replace 0xA462B51EC2FEE5CD with 0x611BA9508B78A5C2 (Julien Danjou)
     (RT #2728)
+
+  [ Jonathan McDowell ]
+  * Move 0xAD26ED82A6C805B9 (Clément Stenac) to emeritus
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 25 Jan 2011 19:20:30 -0600
 
