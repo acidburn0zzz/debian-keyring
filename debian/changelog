@@ -6,6 +6,7 @@ debian-keyring (2011.02.xx) unstable; urgency=low
 
   [ Jonathan McDowell ]
   * Move 0xAD26ED82A6C805B9 (Clément Stenac) to emeritus
+  * Add new DD key 0xB6A9BA6AA59B1171 (Frédéric-Emmanuel Picca) (RT #2764)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 25 Jan 2011 19:20:30 -0600
 
