@@ -17,9 +17,10 @@ commit them at some point soon.
 
 So, to import the HKP updates:
 
-$ scp kaufmann.debian.org:/org/keyring.debian.org/pending-updates/debian-{keyring,maintainers}.gpg .
+$ scp kaufmann.debian.org:/org/keyring.debian.org/pending-updates/debian-{keyring,nonupload,maintainers}.gpg .
 debian-keyring.gpg        100%   30MB   2.5MB/s   00:12    
 debian-maintainers.gpg	  100% 1058KB 529.1KB/s   00:02    
+debian-maintainers.gpg	  100%   48KB  59.6KB/s   00:00    
 $ ./scripts/pull-updates debian-keyring.gpg debian-keyring-gpg/
 (...a long list of keys later...)
 Updated keys are:
@@ -63,5 +64,6 @@ So, add the following to the changelog:
     0xE5273D986BE3C423 Paul Wise <pabs>
     0xED1A3933B2CFCDD8 Philipp Kern <pkern>
 
-Repeat the process, but now using the keyrings at
-kaufmann.debian.org:/org/keyring.debian.org/keyrings-new/debian-{keyring,maintainers}.gpg
+Repeat the process for the other downloaded keyrings, and also using
+the keyrings at 
+kaufmann.debian.org:/org/keyring.debian.org/keyrings-new/debian-{keyring,nonupload,maintainers}.gpg
