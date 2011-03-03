@@ -15,8 +15,10 @@ debian-keyring (2011.02.xx) unstable; urgency=low
   [ Gunnar Wolf ]
   * Add new DM key 0x39C9A0B640262AF0 (Sergey B Kirpichev) (RT #3005)
   * Add new DM key 0xDDC7ECFBB4F83169 (Roland Dreier) (RT #3000)
+  * Replace 0xED6BEE2D1C74E0B7 with 0xB9A81DDEB19B4B16 (Stefan
+    Alfredsson) (RT #2991)
 
- -- Gunnar Wolf <gwolf@debian.org>  Thu, 03 Mar 2011 09:33:44 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Thu, 03 Mar 2011 09:44:43 -0600
 
 debian-keyring (2011.01.24) unstable; urgency=low
 
