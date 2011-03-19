@@ -4,6 +4,7 @@ debian-keyring (2011.03.xx) UNRELEASED; urgency=low
   * Add new DM key 0x936A835B678B9796 (Pau Garcia i Quiles) (RT #3038)
   * Add new DM key 0x6EA4D2311A2D268D (Andrew O. Shadoura) (RT #3039)
   * Add new DM key 0xBC2CB1A2686FF87F (Ignace Mouzannar) (RT #3043)
+  * Add new DM key 0x9F0FE587374BBE81 (Hans-Christoph Steiner) (RT #3044)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 13 Mar 2011 17:33:07 -0700
 
