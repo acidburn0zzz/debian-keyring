@@ -11,6 +11,90 @@ debian-keyring (2011.03.xx) UNRELEASED; urgency=low
     (RT#3055)
   * Add replacement DD key 0x8D29AB07711AE871 (Josip Rodin) (RT #3035)
   * Add new DM key 0x5B019455E2B84FA5 (Jaromir Mikes) (RT #3074)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x019F7E073264A5C4 Marcelo Jorge Vieira <metal> sig:4
+    * 0x04AAE5B397F1AAAC UNKNOWN (DM?) sig:12
+    * 0x07DC563D1F41B907 Christian Marillat <marillat> sig:3
+    * 0x1467F0D8E1EE3FB1 Marco d'Itri <md> sig:1
+    * 0x168B4E717032F238 Jon Dowland <jmtd> sig:4
+    * 0x18DD4D72F2CBCA06 UNKNOWN (DM?) sig:18
+    * 0x24A01418AC15B50C Evgeni Golov <evgeni> sig:16
+    * 0x2C18A02AB4C5F37F UNKNOWN (DM?) sig:10
+    * 0x30550F7871EF0BA8 Yves-Alexis Perez <corsac> sig:2
+    * 0x32247FBB40AD1FA6 Nobuhiro Iwamatsu <iwamatsu> sig:17
+    * 0x3A936196C095D941 Bdale Garbee <bdale> sub:1 sig:35
+    * 0x3DAF54A21EEF5276 Jelmer Vernooij <jelmer> sig:11
+    * 0x4164D1B3894BB479 Luciano Bello <luciano> sig:4
+    * 0x51106DF5CD92D072 Stefano Rivera <stefanor> uid:1 sig:7
+    * 0x5394479DD3524C51 Jonathan Wiltshire <jmw> sig:5
+    * 0x53B1AC6DB11B627B Martin Zobel-Helas <zobel> uid:1 sig:1
+    * 0x55C9882D999BBCC4 Martin F. Krafft <madduck> sig:101
+    * 0x564126F229F19BD1 Michael Meskes <meskes> sig:14
+    * 0x587979573442684E Steve McIntyre <93sam> sig:15
+    * 0x633B85285178E2A5 Dominic Hargreaves <dom> sig:1
+    * 0x6BCA7AD479EBC4EC UNKNOWN (DM?) sig:1
+    * 0x72595EB181704B93 Sylvain Beucler <beuc> sig:2
+    * 0x742F2A428E635A5E Florian Ragwitz <rafl> sig:4
+    * 0x756BEB4B70D8FB2A UNKNOWN (DM?) sig:5
+    * 0x76B534B2E99007E0 Thorsten Glaser <tg> sig:6
+    * 0x792152527B75921E UNKNOWN (DM?) sig:10
+    * 0x7A8F49E8B63480BE Kumar Appaiah <akumar> sig:4
+    * 0x7DB96D2E36EE0861 Miriam Ruiz <miriam> sig:4
+    * 0x7E8114A075CB1AD2 Toni Mueller <toni> sig:201
+    * 0x7F36CF55AA87AA77 Soeren Sonnenburg <sonne> sig:7
+    * 0x85B90D23464B8DE3 Xavier Oswald <xoswald> sig:15
+    * 0x88E5D733DD899610 Sylvestre Ledru <sylvestre> sig:4
+    * 0x8972F4DFDC6DC026 Kees Cook <kees> sig:18
+    * 0x89CD4B21607559E6 Benjamin Hill <mako> sig:10
+    * 0x8E2764373B30EB44 UNKNOWN (DM?) sig:2
+    * 0x8E62E7F764011A8B Jonathan Oxer <jon> sig:4
+    * 0x8E889544D985000D Bastian Venthur <venthur> sig:3
+    * 0x94FA372B2DA8B985 Jonathan McDowell <noodles> sig:1
+    * 0x965522B9D49AE731 Christoph Egger <christoph> sig:6
+    * 0x96DD4846A3D2357B Martin Bagge <brother> uid:4 sig:4
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:4
+    * 0x98083544945348A4 Reinhard Tartler <siretart> sig:9
+    * 0x987689619ED101BF Michael Banck <mbanck> sig:3
+    * 0x9AFB7B8C9A5F5BBC Heiko Stübner <mmind> uid:1 sig:2
+    * 0x9DF99BDA11691130 Georges Khaznadar <georgesk> sig:4
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:20
+    * 0xA02CDA9F3D08B612 Mark Purcell <msp> sig:5
+    * 0xA309D76CE1DE59D2 Kai Wasserbäch <curan> uid:1 sig:25
+    * 0xA43E6D27128287E8 Dafydd Harries <daf> sig:7
+    * 0xA6DC24D9DA2493D1 Sven Hoexter <hoexter> sig:6
+    * 0xA73E0055558FB8DD Jan Dittberner <jandd> sig:166
+    * 0xA82FBB83F3D57033 Dario Minnucci <midget> sig:249
+    * 0xA901B029594CA03B UNKNOWN (DM?) uid:1 sig:2
+    * 0xAB8C00CFF8E26537 Dmitry Oboukhov <unera> sig:8
+    * 0xABB48F0DC3C24BDE Rene Mayrhofer <rmayr> sig:18
+    * 0xB6A9BA6AA59B1171 Frédéric-Emmanuel Picca <picca> sig:2
+    * 0xBC372252CA1CF964 Ansgar Burchardt <ansgar> sig:7
+    * 0xC09E1D8995930EDE Axel Beckert <abe> sig:6
+    * 0xC514AF8E4BA401C3 Alberto Gonzalez Iniesta <agi> sig:101
+    * 0xC7F521C122B282CA Vincent Fourmond <fourmond> uid:1 sig:1
+    * 0xCCD2ED94D21739E9 Daniel Gillmor <dkg> sig:12
+    * 0xD15D313882004173 Russ Allbery <rra> sig:1
+    * 0xD200EB30A0FB5DA6 Gustavo Noronha <kov> uid:1 sig:1
+    * 0xD5CA9B04F2C423BC Stefano Zacchiroli <zack> sig:4
+    * 0xD605DD9CBE9D5339 Steffen Möller <moeller> sig:3
+    * 0xD6EFA6AC4B10D847 UNKNOWN (DM?) sig:10
+    * 0xD8DF53FB37E272E8 Michael Prokop <mika> sig:4
+    * 0xD8EED7F3C83BFA9A Sebastian Reichel <sre> sig:10
+    * 0xD929F2992BEF0A33 Didier Raboud <odyx> sig:6
+    * 0xE619045DF2AC729A Raphaël Hertzog <hertzog> sig:9
+    * 0xE6AA90171392B174 David Paleino <dapal> sig:69
+    * 0xE7F710555409E422 Kamal Mostafa <kamal> uid:1 sig:9
+    * 0xE93ABC69A7BE5AB0 Antonio Radici <antonio> sig:1
+    * 0xEA7ED2A341954920 Frederik Schüler <fs> sig:6
+    * 0xEB36171A6FF9435F Bernd Zeimetz <bzed> sig:6
+    * 0xED1A3933B2CFCDD8 Philipp Kern <pkern> sig:8
+    * 0xEE491C3E0123F2F2 Enrico Tassi <gareuselesinge> sig:6
+    * 0xEED8D4CC1DEB8EAE Goedson Teixeira Paixao <goedson> sig:1
+    * 0xF0DC8E00B28C5995 Brendan O'Dea <bod> sig:1
+    * 0xF4B4B0CC797EBFAB Enrico Zini <enrico> sig:3
+    * 0xF4E66A7CC20DF273 Ondrej Sury <ondrej> sig:9
+    * 0xF66E3E419F84F4DE Iustin Pop <iustin> sig:16
+    * 0xF8C41B2CF7142EC2 Emfox Zhou <emfox> sig:2
 
   [ Gunnar Wolf ]
   * Add new DM key 0x7174A18FAAA7A078 (Asias He) (RT #3086)
