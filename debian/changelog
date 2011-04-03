@@ -10,6 +10,7 @@ debian-keyring (2011.03.xx) UNRELEASED; urgency=low
   * Replace 0xF6CBB99D65B790C2 with 0x4E7160ED4AC8EE1D (Michael Stapelberg)
     (RT#3055)
   * Add replacement DD key 0x8D29AB07711AE871 (Josip Rodin) (RT #3035)
+  * Add new DM key 0x5B019455E2B84FA5 (Jaromir Mikes) (RT #3074)
 
   [ Gunnar Wolf ]
   * Add new DM key 0x7174A18FAAA7A078 (Asias He) (RT #3086)
