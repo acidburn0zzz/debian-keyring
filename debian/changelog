@@ -1,6 +1,7 @@
 debian-keyring (2011.04.xx) UNRELEASED; urgency=low
 
   * Add new DD key 0x26E3C875A74420EF (Christoph Göhre) (RT #3051)
+  * Add new DD key 0x457CE0A0804465C5 (Michael Tokarev) (RT #3091)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 04 Apr 2011 23:36:10 +0100
 
