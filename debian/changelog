@@ -120,7 +120,8 @@ debian-keyring (2011.03.03) unstable; urgency=low
   * Replace 0xA462B51EC2FEE5CD with 0x611BA9508B78A5C2 (Julien Danjou)
     (RT #2728)
   * Add new DM key 0xBE3219AF3ED41341 (Alberto García) (RT #3013)
-  * Replace 0x4121C7433170EBE9 with 0x32247FBB40AD1FA6 (Nobuhiro Iwamatsu) (RT #2986)
+  * Replace 0x4121C7433170EBE9 with 0x32247FBB40AD1FA6 (Nobuhiro Iwamatsu)
+    (RT #2986)
   * Add new DM key 0x39C9A0B640262AF0 (Sergey B Kirpichev) (RT #3005)
   * Add new DM key 0xDDC7ECFBB4F83169 (Roland Dreier) (RT #3000)
   * Replace 0xED6BEE2D1C74E0B7 with 0xB9A81DDEB19B4B16 (Stefan
