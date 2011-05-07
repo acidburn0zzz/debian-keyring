@@ -13,6 +13,70 @@ debian-keyring (2011.04.xx) UNRELEASED; urgency=low
     (RT #3149)
   * Replace 0x815E0B3EFA4C5298 with 0xE5EFAB90080EA63C (Tatsuya Kinoshita)
     (RT #3141)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:4
+    * 0x0EA756B5144843F5 Roland Mas <lolando> sig:6
+    * 0x0EE5978AFE63E8A1 Jens Peter Secher <jps> sig:5
+    * 0x1467F0D8E1EE3FB1 Marco d'Itri <md> sig:1
+    * 0x22C827F735A992E7 Andreas Rottmann <rotty> sig:10
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:18
+    * 0x30EB403B127029F1 Muammar El Khatib <muammar> sig:5
+    * 0x31FCE7E7DD079461 Gerfried Fuchs <rhonda> sig:1
+    * 0x3CCEBABE206C3B69 Daniel Silverstone <dsilvers> sig:16
+    * 0x4814DEC22B307C3C Jérémy Bobbio <lunar> sig:4
+    * 0x4D249D9B23E6FC3A UNKNOWN (DM?) sig:1
+    * 0x4F9F6D550ED6122A Serafeim Zanikolas <sez> sig:6
+    * 0x5759F35001AA4A64 Steve Langasek <vorlon> sig:4
+    * 0x587979573442684E Steve McIntyre <93sam> sig:3
+    * 0x5C13D6DB93052E03 UNKNOWN (DM?) sig:36
+    * 0x62AF4031C82E0039 Peter Palfrader <weasel> sig:3
+    * 0x6606027F6437124C Konstantinos Margaritis <markos> uid:1 sig:12
+    * 0x742F2A428E635A5E Florian Ragwitz <rafl> sig:4
+    * 0x7853DA4D49881AD3 Stéphane Glondu <glondu> sig:27
+    * 0x82C15B02E5F13196 UNKNOWN (DM?) uid:3 sig:6
+    * 0x89B3EF32CAEAAF03 Riku Voipio <riku> uid:1 sig:1
+    * 0x8CBF9A322861A790 Micah Anderson <micah> sig:11
+    * 0x8D29AB07711AE871 Josip Rodin <joy> sig:27
+    * 0x936A835B678B9796 UNKNOWN (DM?) sig:2
+    * 0x9394F354891D7E07 UNKNOWN (DM?) uid:1 sig:8
+    * 0x965522B9D49AE731 Christoph Egger <christoph> sig:29
+    * 0x97325DD8F9FDD506 Luke Faraone <lfaraone> sig:22
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:3
+    * 0x9946397AE142E6F4 M J Ray <mjr> sig:6
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:16
+    * 0x9F0FE587374BBE81 UNKNOWN (DM?) sig:10
+    * 0x9FCF2CCD3F3E6426 Guido Guenther <agx> sig:3
+    * 0xA2D13001D98C0FBA Don Armstrong <don> sig:6
+    * 0xA49E7C3CDE3CCE66 UNKNOWN (DM?) sig:1
+    * 0xA73E0055558FB8DD Jan Dittberner <jandd> sig:72
+    * 0xA9B62CEAC42B63CA Matej Vela <vela> sig:2
+    * 0xAEEC6E7302754958 ARAKI Yasuhiro <ar> sig:14
+    * 0xB1CCD97290267086 Marc Dequènes <duck> sig:2
+    * 0xB6A9BA6AA59B1171 Frédéric-Emmanuel Picca <picca> uid:1 sig:5
+    * 0xBF1E9D1F76D52AC4 Michael Tautschnig <mt> sig:11
+    * 0xC7D930259DFFAAD4 Ludovic Brenta <lbrenta> sig:5
+    * 0xC910D9222512E3C7 Joey Hess <joeyh> sig:4
+    * 0xCD603B5A2ECF984B Alexei Nikolov <clown> uid:1 sig:1
+    * 0xCF489438C5779A1C Manoj Srivastava <srivasta> sig:12
+    * 0xD15D313882004173 Russ Allbery <rra> sig:4
+    * 0xD29B1AFCF90FFFE5 David Parker <dap> sig:87
+    * 0xD5CA9B04F2C423BC Stefano Zacchiroli <zack> sig:8
+    * 0xD5FDFC156168BF60 UNKNOWN (DM?) sig:3
+    * 0xD929F2992BEF0A33 Didier Raboud <odyx> sig:7
+    * 0xDDC7ECFBB4F83169 UNKNOWN (DM?) sig:4
+    * 0xDF79A374B4071A65 Florian Hinzmann <fh> uid:1 sub:1 sig:4
+    * 0xE1EBBEA51D389887 Y Giridhar Appaji Nag <appaji> sig:12
+    * 0xEB36171A6FF9435F Bernd Zeimetz <bzed> sig:2
+    * 0xEB5CE1D75E8511F9 Lars Wirzenius <lars> sig:3
+    * 0xED1A3933B2CFCDD8 Philipp Kern <pkern> sig:1
+    * 0xEDA21E94B565716F UNKNOWN (DM?) sig:5
+    * 0xF0DC8E00B28C5995 Brendan O'Dea <bod> sig:3
+    * 0xF2F11C23F00A2BE6 Ritesh Raj Sarraf <rrs> sig:8
+    * 0xF628EB934743206C Joachim Breitner <nomeata> sig:18
+    * 0xF6D3495BB0AE9A02 Clint Adams <schizo> uid:1 sig:6
+    * 0xF8358FA2F2833C93 Eric Evans <eevans> sig:9
+    * 0xF9CA01D5E26A6F28 Alex Pennace <alexp> sig:28
+    * 0xFF666668B9FD8238 Alen Zekulic <azekulic> sig:2
 
   [ Gunnar Wolf ]
   * Replace 0x6692F138ED430BBA with 0x71A802D0BCD1BC92 (Yukiharu YABUKI)
