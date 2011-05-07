@@ -1,4 +1,4 @@
-debian-keyring (2011.04.xx) UNRELEASED; urgency=low
+debian-keyring (2011.05.07) unstable; urgency=low
 
   [ Jonathan McDowell ]
   * Add new DD key 0x26E3C875A74420EF (Christoph Göhre) (RT #3051)
@@ -89,7 +89,7 @@ debian-keyring (2011.04.xx) UNRELEASED; urgency=low
     Cascadian) (RT #3123)
   * Moved 0xC0CFC6B3CD4C0D9D (Steve Kemp) to Emeritus
 
- -- Gunnar Wolf <gwolf@debian.org>  Fri, 29 Apr 2011 16:32:51 -0500
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 07 May 2011 14:30:35 -0700
 
 debian-keyring (2011.04.03) unstable; urgency=low
 
