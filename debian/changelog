@@ -1,6 +1,7 @@
 debian-keyring (2011.05.xx) UNRELEASED; urgency=low
 
   * Add new DD key 0x4D33ACE4C78F687C (Filippo Rusconi) (RT #3168)
+  * Add new DD key 0xE941DEDA7C5BB6A5 (Olivier Berger) (RT #3166)
 
  -- Jonathan McDowell <noodles@earth.li>  Sat, 14 May 2011 06:26:19 +0100
 
