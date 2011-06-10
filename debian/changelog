@@ -7,8 +7,9 @@ debian-keyring (2011.06.xx) UNRELEASED; urgency=low
   * Move 0x0EE5978AFE63E8A1 to emeritus (Jens Peter Secher) (no RT
     ticket)
   * Add new DM key 0xED34CEABE27BAABC (Jameson Graef Rollins) (RT #3224)
+  * Add new DM key 0x600426A118F5FBCE (Julien Lavergne) (RT #3213)
 
- -- Gunnar Wolf <gwolf@debian.org>  Fri, 10 Jun 2011 11:05:44 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Fri, 10 Jun 2011 11:13:36 -0500
 
 debian-keyring (2011.05.22) unstable; urgency=low
 
