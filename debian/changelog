@@ -23,6 +23,7 @@ debian-keyring (2011.06.xx) UNRELEASED; urgency=low
   * Add new DD key 0xC31F4FD949AB2B6C (Dominique Dumont) (RT #3258)
   * Add new DM key 0xD003852FBD52529E (Thomas Preud'homme) (RT #3232)
   * Add new DM key 0xD350BB0228F60193 (Hsin-Yi Chen) (RT #3237)
+  * Add new DM key 0x69F2FC516EA71993 (Sebastian Ramacher) (RT #3256)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 10 Jun 2011 11:53:34 -0500
 
