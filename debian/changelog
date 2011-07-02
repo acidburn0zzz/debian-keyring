@@ -1,5 +1,6 @@
 debian-keyring (2011.06.xx) UNRELEASED; urgency=low
 
+  [ Gunnar Wolf ]
   * Replace key 0xDA196237023B3F4F with 3914B532F4DFBE99 (Lucas
     Nussbaum) (RT #3188)
   * Add new DM key 0x0A6268CF287D2531 (Philippe Le Brouster) (RT #3187)
@@ -12,6 +13,9 @@ debian-keyring (2011.06.xx) UNRELEASED; urgency=low
   * Add new DM key 0x5FB33F9359E9ED08 (Andreas Beckmann) (RT #3211)
   * Add new DM key 0xD9F36BF1108C8C0F (Cristian Henzel) (RT #3210)
   * Add new DM key 0xFE22C6FD83135D45 (Felix Geyer) (RT #3197)
+
+  [ Jonathan McDowell ]
+  * Move 0x6E038F5EE0A38377 to emeritus (Daniel Jacobowitz) (RT #3248)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 10 Jun 2011 11:53:34 -0500
 
