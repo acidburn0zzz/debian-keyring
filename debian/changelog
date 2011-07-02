@@ -1,4 +1,4 @@
-debian-keyring (2011.06.xx) UNRELEASED; urgency=low
+debian-keyring (2011.07.02) unstable; urgency=low
 
   [ Gunnar Wolf ]
   * Replace key 0xDA196237023B3F4F with 3914B532F4DFBE99 (Lucas
@@ -72,7 +72,7 @@ debian-keyring (2011.06.xx) UNRELEASED; urgency=low
     * 0xE5273D986BE3C423 Paul Wise <pabs> sig:8
     * 0xE941DEDA7C5BB6A5 Olivier Berger <obergix> uid:1 sig:1
 
- -- Gunnar Wolf <gwolf@debian.org>  Fri, 10 Jun 2011 11:53:34 -0500
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 02 Jul 2011 13:20:46 -0700
 
 debian-keyring (2011.05.22) unstable; urgency=low
 
