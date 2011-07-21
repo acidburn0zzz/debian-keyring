@@ -1,4 +1,4 @@
-debian-keyring (2011.07.xx) UNRELEASED; urgency=low
+debian-keyring (2011.07.20) unstable; urgency=high
 
   [ Gunnar Wolf ]
   * Add new DD key 0x4D249D9B23E6FC3A (Timo Lindfors) (RT #3273)
@@ -6,7 +6,7 @@ debian-keyring (2011.07.xx) UNRELEASED; urgency=low
   [ Jonathan McDowell ]
   * Remove 0xE41B4C557F0D80BE (Damyan Ivanov) (RT #3283)
 
- -- Gunnar Wolf <gwolf@debian.org>  Tue, 19 Jul 2011 11:03:08 -0500
+ -- Jonathan McDowell <noodles@earth.li>  Thu, 21 Jul 2011 01:37:34 +0100
 
 debian-keyring (2011.07.02) unstable; urgency=low
 
