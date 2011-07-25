@@ -2,8 +2,9 @@ debian-keyring (2011.07.xx) UNRELEASED; urgency=low
 
   * Replace key 0x82C15B02E5F13196 with 0x3FB9C78A53C854DF (Andrés
     Mejía) (RT #3277)
+  * Add new DD key 0x80F7DBDCCF4D32E4 (Cristian Greco) (RT #3297)
 
- -- Gunnar Wolf <gwolf@debian.org>  Mon, 25 Jul 2011 11:38:05 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 25 Jul 2011 11:55:57 -0500
 
 debian-keyring (2011.07.20) unstable; urgency=high
 
