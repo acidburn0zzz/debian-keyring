@@ -9,9 +9,9 @@ debian-keyring (2011.07.xx) UNRELEASED; urgency=low
   * Replace key 0xCD614FD7F5D65169 with 0x26E98AEAFA1E5292 (Julien
     BLACHE) (RT #3278)
 
-
   [ Jonathan McDowell ]
   * Add replacement DD key 0x7B9DBAD42A7E0F3D (Shane Wegner) (RT #1943)
+  * Add replacement DD key 0xBC372252CA1CF964 (Damyan Ivanov) (RT #3283)
 
   [ Gunnar Wolf ]
   * Replace key 0xD5CA9B04F2C423BC with 0x9C31503C6D866396 (Stefano
