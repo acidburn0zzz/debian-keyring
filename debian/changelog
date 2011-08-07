@@ -13,7 +13,11 @@ debian-keyring (2011.07.xx) UNRELEASED; urgency=low
   [ Jonathan McDowell ]
   * Add replacement DD key 0x7B9DBAD42A7E0F3D (Shane Wegner) (RT #1943)
 
- -- Gunnar Wolf <gwolf@debian.org>  Tue, 26 Jul 2011 11:11:53 -0500
+  [ Gunnar Wolf ]
+  * Replace key 0xD5CA9B04F2C423BC with 0x9C31503C6D866396 (Stefano
+    Zacchiroli) (RT #3310)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Sun, 07 Aug 2011 10:50:14 -0500
 
 debian-keyring (2011.07.20) unstable; urgency=high
 
