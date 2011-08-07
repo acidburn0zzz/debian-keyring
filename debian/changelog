@@ -14,6 +14,8 @@ debian-keyring (2011.07.xx) UNRELEASED; urgency=low
   * Add new DM key 0x9688FFC1C78102DF (Allison Randal) (RT #3333)
   * Add new DM key 0x62688FF33A758A1E (Steve Conklin) (RT #3308)
   * Add new DM key 0xC063DA3D1600E490 (Philipp Kaluza) (RT #3335)
+  * Replace DM key 0x8B3D0D2A9D9E11F5 with 0xF6947DAB68E7B931 (Hannes
+    von Haugwitz) (RT #3339)
 
   [ Jonathan McDowell ]
   * Add replacement DD key 0x7B9DBAD42A7E0F3D (Shane Wegner) (RT #1943)
@@ -21,7 +23,7 @@ debian-keyring (2011.07.xx) UNRELEASED; urgency=low
   * Add new DM key 0xA4A96C4479962E40 (Ruben Molina) (RT #3282)
   * Add new DM key 0x00018C22381A7594 (Sebastien Villemot) (RT #3284)
 
- -- Gunnar Wolf <gwolf@debian.org>  Sun, 07 Aug 2011 15:01:37 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Sun, 07 Aug 2011 15:11:52 -0500
 
 debian-keyring (2011.07.20) unstable; urgency=high
 
