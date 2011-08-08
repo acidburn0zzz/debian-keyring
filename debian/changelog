@@ -1,4 +1,4 @@
-debian-keyring (2011.07.xx) UNRELEASED; urgency=low
+debian-keyring (2011.08.07) unstable; urgency=low
 
   [ Gunnar Wolf ]
   * Replace key 0x82C15B02E5F13196 with 0x3FB9C78A53C854DF (Andrés
