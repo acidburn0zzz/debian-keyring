@@ -18,6 +18,90 @@ debian-keyring (2011.07.xx) UNRELEASED; urgency=low
     von Haugwitz) (RT #3339)
   * Replace key 0xB7056B5A8D5F40CB with 0xC61A64DCF1393998 (Pierre
     Chifflier) (RT #3271)
+  * Updates from keyring.debian.org HKP interface:
+    0x0EA756B5144843F5 Roland Mas <lolando> sig:2
+    0x184452FA268A084D Pablo Lorenzzoni <spectra> sig:19
+    0x30550F7871EF0BA8 Yves-Alexis Perez <corsac> sig:2
+    0x457CE0A0804465C5 Michael Tokarev <mjt> uid:1 sig:1
+    0x4CD1F6A6207F2F7A Pino Toscano <pino> uid:1 sig:1
+    0x5098021C70518078 Alan Woodland <awoodland> sig:6
+    0x51106DF5CD92D072 Stefano Rivera <stefanor> sub:1 sig:2
+    0x8972F4DFDC6DC026 Kees Cook <kees> sig:24
+    0x98083544945348A4 Reinhard Tartler <siretart> sig:9
+    0x9AA551D966A90DE2 José L. Redrejo Rodríguez <jredrejo> sig:4
+    0xB3A02D6623706F87 Pierre Machard <pmachard> sig:4
+    0xB82A217AFDFE09F2 David Prévot <taffit> sig:4
+    0xC31F4FD949AB2B6C Dominique Dumont <dod> uid:1 sig:1
+    0xD15D313882004173 Russ Allbery <rra> sig:4
+    0xD605DD9CBE9D5339 Steffen Möller <moeller> sig:25
+    0xDA8622AE93EBF6D8 Andrea Veri <and> sig:1
+    0xE544DE079B7C328D Luk Claes <luk> sig:4
+    0xE941DEDA7C5BB6A5 Olivier Berger <obergix> sig:9
+    0xF3E4122F1D8C261A Michael Schutte <michi> sig:3
+    0xF41FED8E33FC40A4 Andrea Mennucci <mennucc1> sig:4
+    0xF7F0E70F307D56ED Noèl Köthe <noel> sig:4
+    0xDB686C92D9D59F61 Francesca Ciceri <madamezou> uid:2 sig:2
+    0x38548517DAD3D5EE UNKNOWN (DM?) sig:2
+    0xF3C2F688A21CB648 UNKNOWN (DM?) sig:5
+    0x06EAA066E397832F Luca Capello <gismo> sig:119
+    0x0AA04571D03E3E70 Rene Engelhard <rene> sig:52
+    0x0B00FB6CEBE2D002 Ulises Vitulli <dererk> sig:17
+    0x0CE33C910F9CB28F Antonio Terceiro <terceiro> uid:1 sig:7
+    0x18953F2C73B02592 Guilherme de S. Pastore <gpastore> sig:1
+    0x26E3C875A74420EF Christoph Göhre <gris> sig:21
+    0x29BE5D2268FD549F Martin Michlmayr <tbm> sig:14
+    0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:87
+    0x31FCE7E7DD079461 Gerfried Fuchs <rhonda> sig:10
+    0x3914B532F4DFBE99 Lucas Nussbaum <lucas> sig:251
+    0x3CCEBABE206C3B69 Daniel Silverstone <dsilvers> sig:2
+    0x41CE7F0B9F1B8B32 Santiago Vila <sanvila> sig:17
+    0x4565D58245140A6D Samuel Thibault <sthibault> sig:69
+    0x4814DEC22B307C3C Jérémy Bobbio <lunar> sig:18
+    0x4F9F6D550ED6122A Serafeim Zanikolas <sez> sig:21
+    0x51106DF5CD92D072 Stefano Rivera <stefanor> sig:74
+    0x5394479DD3524C51 Jonathan Wiltshire <jmw> sub:1 sig:47
+    0x5759F35001AA4A64 Steve Langasek <vorlon> sig:5
+    0x587979573442684E Steve McIntyre <93sam> sig:7
+    0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:38
+    0x76B534B2E99007E0 Thorsten Glaser <tg> sig:32
+    0x789D6F057FD863FE Salvatore Bonaccorso <carnil> sig:198
+    0x79B0126693701EEF Carlo U. Segre <segre> sig:2
+    0x7A8F49E8B63480BE Kumar Appaiah <akumar> sig:5
+    0x7CFCD8CD257721E9 Vagrant Cascadian <vagrant> sig:9
+    0x859FEF67258E26B1 Julien Valroff <julien> sub:1 sig:1
+    0x872F702C4D6E25A8 Christian Perrier <bubulle> sig:113
+    0x88E5D733DD899610 Sylvestre Ledru <sylvestre> sig:8
+    0x965522B9D49AE731 Christoph Egger <christoph> sig:182
+    0x97833DC998EF9A49 Thomas Goirand <zigo> sig:6
+    0x97BA9CE761A0963B John Sullivan <johns> sig:8
+    0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:144
+    0xA2D13001D98C0FBA Don Armstrong <don> sub:1 sig:7
+    0xA72FF66C42BD645D Alexander Zangerl <az> sub:1 sig:15
+    0xA82FBB83F3D57033 Dario Minnucci <midget> sig:24
+    0xAEF6F1A2A7457645 Piotr Ożarowski <piotr> sig:25
+    0xB1C473173E7B4B73 Lionel Elie Mamane <lmamane> sig:17
+    0xB3118CEF8AEA8FEE Stephen Gran <sgran> sig:39
+    0xB6C4D9B63BFFE73C Nicholas Bamber <periapt> sig:1
+    0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:51
+    0xBC372252CA1CF964 Ansgar Burchardt <ansgar> sig:122
+    0xC5CE5DC2C542CD59 Adam D. Barratt <adsb> sig:12
+    0xC61A895E85EE3E0E Dmitry Borodaenko <angdraug> sig:8
+    0xD929F2992BEF0A33 Didier Raboud <odyx> sig:238
+    0xE619045DF2AC729A Raphaël Hertzog <hertzog> sig:40
+    0xE7F710555409E422 Kamal Mostafa <kamal> sig:5
+    0xEB5CE1D75E8511F9 Lars Wirzenius <lars> uid:1 sub:1 sig:3
+    0xEB70FEF3CDFC6E4F Otavio Salvador <otavio> sig:3
+    0xED1A3933B2CFCDD8 Philipp Kern <pkern> sig:103
+    0xF628EB934743206C Joachim Breitner <nomeata> sig:49
+    0xF6D3495BB0AE9A02 Clint Adams <schizo> uid:1 sig:30
+    0xF7F0E70F307D56ED Noèl Köthe <noel> sig:169
+    0x299610A9203ECA25 UNKNOWN (DM?) uid:1 sig:3
+    0x5C13D6DB93052E03 UNKNOWN (DM?) sig:47
+    0x9394F354891D7E07 UNKNOWN (DM?) sig:6
+    0xC72B51EE9D80F36D UNKNOWN (DM?) sig:12
+    0xD27DDE1140A2F113 UNKNOWN (DM?) sig:18
+    0x962680C5305A9418 Kåre Thor Olsen <kaare> sig:23
+    0xDB686C92D9D59F61 Francesca Ciceri <madamezou> sig:87
 
   [ Jonathan McDowell ]
   * Add replacement DD key 0x7B9DBAD42A7E0F3D (Shane Wegner) (RT #1943)
