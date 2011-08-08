@@ -14,7 +14,10 @@ install_file=install -m 644
 install_script=install -m 755
 install_binary=install -m 755 -s
 
-build:
+build: build-arch build-indep
+build-arch: build-stamp
+build-indep: build-stamp
+build-stamp:
 	make
 
 clean:

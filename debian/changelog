@@ -195,7 +195,8 @@ debian-keyring (2011.07.02) unstable; urgency=low
     * 0xE5273D986BE3C423 Paul Wise <pabs> sig:8
     * 0xE941DEDA7C5BB6A5 Olivier Berger <obergix> uid:1 sig:1
 
-
+ -- Jonathan McDowell <noodles@earth.li>  Thu,  2 Jul 2011 00:00:00 +0100
+  
 debian-keyring (2011.05.22) unstable; urgency=low
 
   [ Jonathan McDowell ]
