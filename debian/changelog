@@ -105,7 +105,7 @@ debian-keyring (2011.08.07) unstable; urgency=low
 
   [ Jonathan McDowell ]
   * Add replacement DD key 0x7B9DBAD42A7E0F3D (Shane Wegner) (RT #1943)
-  * Add replacement DD key 0xBC372252CA1CF964 (Damyan Ivanov) (RT #3283)
+  * Add replacement DD key 0xDBBE9D4D99D2A004 (Damyan Ivanov) (RT #3283)
   * Add new DM key 0xA4A96C4479962E40 (Ruben Molina) (RT #3282)
   * Add new DM key 0x00018C22381A7594 (Sebastien Villemot) (RT #3284)
 
