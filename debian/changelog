@@ -12,8 +12,9 @@ debian-keyring (2011.09.xx) UNRELEASED; urgency=low
     Malaterre) (RT #3370)
   * Replace key 0x4565D58245140A6D with 0xD0178C767D069EE6 (Samuel
     Thibault) (RT #3338)
+  * Add new DD key 0x78963B4BDF56FFF2 (Mattias Ellert) (RT #3340)
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 31 Aug 2011 10:20:37 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 31 Aug 2011 10:28:20 -0500
 
 debian-keyring (2011.08.07) unstable; urgency=low
 
