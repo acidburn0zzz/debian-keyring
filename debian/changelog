@@ -8,8 +8,10 @@ debian-keyring (2011.09.xx) UNRELEASED; urgency=low
     (RT #3377)
   * Add new DM key 0x3B56E2BBD53FDCB1 (Andrew Starr-Bochicchio) (RT
     #3378)
+  * Replace DM key 0x12914ABD0EA23F2B with 0x0171E1828AE09345 (Mathieu
+    Malaterre) (RT #3370)
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 31 Aug 2011 09:55:31 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 31 Aug 2011 10:03:01 -0500
 
 debian-keyring (2011.08.07) unstable; urgency=low
 
