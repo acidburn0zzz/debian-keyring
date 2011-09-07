@@ -1,5 +1,6 @@
 debian-keyring (2011.09.xx) UNRELEASED; urgency=low
 
+  [ Gunnar Wolf ]
   * Replace key 0xB1B75B5F365CC7A2 with 0x1B132E01CEC6AD46 (Ken-Ru Chen)
     (RT #3366)
   * Move 0xD3FAF6FB7CFC94DD to Emeritus (Joost Yervante Damad) (RT
@@ -13,6 +14,9 @@ debian-keyring (2011.09.xx) UNRELEASED; urgency=low
   * Replace key 0x4565D58245140A6D with 0xD0178C767D069EE6 (Samuel
     Thibault) (RT #3338)
   * Add new DD key 0x78963B4BDF56FFF2 (Mattias Ellert) (RT #3340)
+
+  [ Jonathan McDowell ]
+  * Move 0x92E60A8B5F6D8015 to emeritus (Kalle Kivimaa) (RT #3387)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 31 Aug 2011 10:28:20 -0500
 
