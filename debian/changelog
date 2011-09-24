@@ -1,4 +1,4 @@
-debian-keyring (2011.09.xx) UNRELEASED; urgency=low
+debian-keyring (2011.09.24) unstable; urgency=low
 
   [ Gunnar Wolf ]
   * Replace key 0xB1B75B5F365CC7A2 with 0x1B132E01CEC6AD46 (Ken-Ru Chen)
@@ -158,7 +158,7 @@ debian-keyring (2011.09.xx) UNRELEASED; urgency=low
     * 0xF7D931D4B882EBD7 UNKNOWN (DM?) sig:3
     * 0xF8358FA2F2833C93 Eric Evans <eevans> sig:3
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 31 Aug 2011 10:28:20 -0500
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 24 Sep 2011 16:43:43 -0700
 
 debian-keyring (2011.08.07) unstable; urgency=low
 
