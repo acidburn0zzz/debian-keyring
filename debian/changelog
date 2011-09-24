@@ -25,6 +25,7 @@ debian-keyring (2011.09.xx) UNRELEASED; urgency=low
   * Add new DM key 0x8F342172F407DB73 (Devid Antonio Filoni) (RT #3381)
   * Add new DM key 0xE7519C8D747F00DC (Kyle Willmon) (RT #3403)
   * Add new DM key 0x4C043FEB5C7CF0B2 (Fabrizio Regalli) (RT #3404)
+  * Add new DM key 0x9E509C93D26DF9D3 (Janos Guljas) (RT #3406)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 31 Aug 2011 10:28:20 -0500
 
