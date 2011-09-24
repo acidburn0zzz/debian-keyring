@@ -19,6 +19,7 @@ debian-keyring (2011.09.xx) UNRELEASED; urgency=low
   * Move 0x92E60A8B5F6D8015 to emeritus (Kalle Kivimaa) (RT #3387)
   * Add new DD key 0xAB645F406286A7D0 (Lisandro Damián Nicanor Pérez Meyer)
     (RT #3410)
+  * Add new DD key 0xECC1D5F5A1FC6CFA (Stephen Leake) (RT #3411)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 31 Aug 2011 10:28:20 -0500
 
