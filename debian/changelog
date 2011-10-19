@@ -2,8 +2,9 @@ debian-keyring (2011.10.xx) UNRELEASED; urgency=low
 
   * Add new DD key 0xEE4AFD69EC65108F (Nicholas Breen) (RT #3434)
   * Add new DD key 0x6598789058A23DE9 (Vincent Legout) (RT #3435)
+  * Add new DD key 0x792152527B75921E (Antoine Beaupré) (RT #3436)
 
- -- Jonathan McDowell <noodles@earth.li>  Wed, 19 Oct 2011 17:08:15 -0500
+ -- Jonathan McDowell <noodles@earth.li>  Wed, 19 Oct 2011 17:12:49 -0500
 
 debian-keyring (2011.09.24) unstable; urgency=low
 
