@@ -11,8 +11,9 @@ debian-keyring (2011.10.xx) UNRELEASED; urgency=low
   * Add new DM key 0x5675ADD39CF02226 (Simone Rosetto) (RT #3429)
   * Add new DM key 0xF04CEFF6016CFFD0 (Jonas Genannt) (RT #3430)
   * Add new DM key 0x9BD2D6409A0C52FA (Laszlo Kajan) (RT #3431)
+  * Add new DM key 0xBFECAECBA0E7D8C3 (James Page) (RT #3433)
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 19 Oct 2011 17:40:37 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 19 Oct 2011 17:52:14 -0500
 
 debian-keyring (2011.09.24) unstable; urgency=low
 
