@@ -12,6 +12,8 @@ debian-keyring (2011.10.xx) UNRELEASED; urgency=low
     Karoonboonyanan) (RT #3418)
   * Replace key 0x5072D036AC583520 with 0x091AB856069AAA1C (Holger Levsen)
     (RT #3422)
+  * Replace key 0x78963B4BDF56FFF2 with 0xE8AEC2FF3BE1A94B (Mattias Ellert)
+    (RT #3467)
 
   [ Gunnar Wolf ]
   * Add new DM key 0xB8E5087766475AAF (Nicolas Dandrimont) (RT #3428)
