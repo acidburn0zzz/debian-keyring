@@ -8,6 +8,8 @@ debian-keyring (2011.10.xx) UNRELEASED; urgency=low
   * Add new DM key 0xDA4958F611E149E9 (Cédric Boutillier)) (RT #3458)
   * Add new DM key 0x4814A19C535D3508 (Christophe Trophime) (RT #3464)
   * Add new DM key 0x8C82169D8ECECD2A (Tobias Hansen) (RT #3466)
+  * Replace key 0xAA0CD1EED08B47FE with 0xA2EBAED1B6F90241 (Theppitak
+    Karoonboonyanan) (RT #3418)
 
   [ Gunnar Wolf ]
   * Add new DM key 0xB8E5087766475AAF (Nicolas Dandrimont) (RT #3428)
