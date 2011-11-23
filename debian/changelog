@@ -1,8 +1,9 @@
 debian-keyring (2011.11.xx) UNRELEASED; urgency=low
 
   * Move 0x7537F7664950EAA6 to Emeritus (Adam Kessel) (RT #3496)
+  * Add new DM key 0x8B7F7D30CAF14EFC (Wolodja Wentland) (RT #3489)
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 23 Nov 2011 09:56:37 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 23 Nov 2011 10:08:49 -0600
 
 debian-keyring (2011.11.05) unstable; urgency=low
 
