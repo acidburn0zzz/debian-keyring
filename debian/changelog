@@ -8,6 +8,61 @@ debian-keyring (2011.11.xx) UNRELEASED; urgency=low
   * Add new DM key 0xC860C75A73A85F31 (José Manuel Santamaría Lema) (RT
     #3504)
   * Add new DM key 0x702A26DB4CCB3FFC (Floris Bruynooghe) (RT #3506)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x4BA00E72145B6966 Robert Lemmen <robertle>
+    * 0x63D2D5D907F89BB8 Ludovico Gardenghi <garden>
+    * 0x8CBF9A322861A790 Micah Anderson <micah>
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio>
+    * 0xC38E8160A17841FE Aron Xu <aron>
+    * 0xD203CCA5FDA6B6A9 Igor Stroh <jenner>
+    * 0xDF79A374B4071A65 Florian Hinzmann <fh>
+    * 0xE5273D986BE3C423 Paul Wise <pabs>
+    * 0xEE491C3E0123F2F2 Enrico Tassi <gareuselesinge>
+    * 0xF675AAE2D2AB2220 Jeremy Malcolm <terminus> uid:2 sub:1 sig:10
+    * 0xF6EE83B9DF901724 Jan Wagner <waja> sig:23
+    * 0x16281F2E007C98D1 Francois Marier <francois> sig:4
+    * 0x18147B073BAD2B07 Olly Betts <olly> sig:2
+    * 0x276568D75C6153AD Mark Brown <broonie> sig:13
+    * 0x32247FBB40AD1FA6 Nobuhiro Iwamatsu <iwamatsu> sig:81
+    * 0x393587D97D86500B Colin Watson <cjwatson> sig:113
+    * 0x3A936196C095D941 Bdale Garbee <bdale> sig:12
+    * 0x45D48C7CDCFC3FD0 Alessio Treglia <alessio> sig:212
+    * 0x4F9F6D550ED6122A Serafeim Zanikolas <sez> sig:48
+    * 0x51106DF5CD92D072 Stefano Rivera <stefanor> sig:58
+    * 0x54703CDE1228EB75 Tommi Vainikainen <tvainika> uid:1 sig:4
+    * 0x564126F229F19BD1 Michael Meskes <meskes> sig:4
+    * 0x6598789058A23DE9 Vincent Legout <vlegout> uid:1 sig:1
+    * 0x792152527B75921E Antoine Beaupré <anarcat> uid:1 sig:1
+    * 0x7CFCD8CD257721E9 Vagrant Cascadian <vagrant> sig:2
+    * 0x850BA2DE13FEFC40 Bartosz Fenski <fenio> sig:4
+    * 0x8CBF9A322861A790 Micah Anderson <micah> sig:4
+    * 0x97325DD8F9FDD506 Luke Faraone <lfaraone> sig:65
+    * 0x9D20F6503E338888 Mikhail Gusarov <dottedmag> sig:4
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:22
+    * 0xA72FF66C42BD645D Alexander Zangerl <az> sub:1 sig:9
+    * 0xAEF6F1A2A7457645 Piotr Ożarowski <piotr> sig:9
+    * 0xBC372252CA1CF964 Ansgar Burchardt <ansgar> sig:3
+    * 0xC38E8160A17841FE Aron Xu <aron> sig:223
+    * 0xCCD2ED94D21739E9 Daniel Gillmor <dkg> sig:12
+    * 0xD200EB30A0FB5DA6 Gustavo Noronha <kov> uid:1 sig:11
+    * 0xD203CCA5FDA6B6A9 Igor Stroh <jenner>
+    * 0xE5273D986BE3C423 Paul Wise <pabs> sig:7
+    * 0xE5EFAB90080EA63C Tatsuya Kinoshita <tats> sig:3
+    * 0xE6AA90171392B174 David Paleino <dapal> sig:13
+    * 0xE7BFC8EC95861109 Ben Hutchings <benh> sig:9
+    * 0xE7F710555409E422 Kamal Mostafa <kamal> sig:192
+    * 0xEAFCFEBF8FEB8EBF Andrew McMillan <awm> sig:16
+    * 0xEE4AFD69EC65108F Nicholas Breen <nbreen> uid:1 sig:1
+    * 0xF09B1EEDDEBA6F3E Thorvald Natvig <thorvald> sig:3
+    * 0xF6D3495BB0AE9A02 Clint Adams <schizo> sig:8
+    * 0xF98825AC26B47B9F Martin Pitt <mpitt> sig:5
+    * 0xDB686C92D9D59F61 Francesca Ciceri <madamezou> sig:12
+    * 0x00018C22381A7594 UNKNOWN (DM?) uid:2 sub:1 sig:9
+    * 0x6EA4D2311A2D268D UNKNOWN (DM?) sig:2
+    * 0x9394F354891D7E07 UNKNOWN (DM?) sig:16
+    * 0xBFECAECBA0E7D8C3 UNKNOWN (DM?) sig:78
+    * 0xF04CEFF6016CFFD0 UNKNOWN (DM?) sig:6
+    * 0xF6947DAB68E7B931 UNKNOWN (DM?) sig:1
 
  -- Gunnar Wolf <gwolf@debian.org>  Thu, 01 Dec 2011 11:34:06 -0600
 
