@@ -4,6 +4,7 @@ debian-keyring (2011.11.xx) UNRELEASED; urgency=low
   * Add new DM key 0x8B7F7D30CAF14EFC (Wolodja Wentland) (RT #3489)
   * Add new DM key 0x6C8F74AE87700B7E (Vasudev Kamath) (RT #3488)
   * Add new DM key 0x494C8A5FBF4DECEB (Matthias Klumpp) (RT #3476)
+  * Move 0x85880AE5BD540EC1 to Emeritus (Esteban Manchado) (not in RT)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 23 Nov 2011 10:17:51 -0600
 
