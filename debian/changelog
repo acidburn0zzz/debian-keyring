@@ -3,6 +3,7 @@ debian-keyring (2011.12.xx) UNRELEASED; urgency=low
   * Move 0xA8BBB3661D1DFB53 to emeritus (Ian Maclaine-cross) (RT #3534)
   * Add new DM key 0xB9876EB090B36C5B (Mahyuddin Susanto) (RT #3527)
   * Add new DD key 0x098DAE47EE3BC279 (Angel Abad) (RT #3522)
+  * Add new DD key 0x8F7BF8FC4A11C97A (Ryan Kavanagh) (RT #3523)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 18 Dec 2011 00:11:42 +0000
 
