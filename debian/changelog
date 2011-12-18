@@ -8,6 +8,8 @@ debian-keyring (2011.12.xx) UNRELEASED; urgency=low
   * Add new DD key 0x8E2764373B30EB44 (Francesco Namuri) (RT #3526)
   * Add new DD key 0x9D7319316206618C (Harshula Jayasuriya) (RT #3533)
   * Add new DD key 0xFBD5225B588752A1 (Chow Loong Jin) (RT #3521)
+  * Replace 0x45D48C7CDCFC3FD0 with 0xE8A48AE5311D765A (Alessio Treglia)
+    (RT #3525)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 18 Dec 2011 00:11:42 +0000
 
