@@ -5,6 +5,7 @@ debian-keyring (2011.12.xx) UNRELEASED; urgency=low
   * Add new DD key 0x098DAE47EE3BC279 (Angel Abad) (RT #3522)
   * Add new DD key 0x8F7BF8FC4A11C97A (Ryan Kavanagh) (RT #3523)
   * Add new DD key 0x7839619DD439668E (Daisuke Higuchi) (RT #3524)
+  * Add new DD key 0x8E2764373B30EB44 (Francesco Namuri) (RT #3526)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 18 Dec 2011 00:11:42 +0000
 
