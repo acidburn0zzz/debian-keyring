@@ -10,6 +10,7 @@ debian-keyring (2011.12.xx) UNRELEASED; urgency=low
   * Add new DD key 0xFBD5225B588752A1 (Chow Loong Jin) (RT #3521)
   * Replace 0x45D48C7CDCFC3FD0 with 0xE8A48AE5311D765A (Alessio Treglia)
     (RT #3525)
+  * Move 0xEB6CD6C5893FAD07 to emeritus (Steffen Joeris)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 18 Dec 2011 00:11:42 +0000
 
