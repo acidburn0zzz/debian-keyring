@@ -11,6 +11,7 @@ debian-keyring (2011.12.xx) UNRELEASED; urgency=low
   * Replace 0x45D48C7CDCFC3FD0 with 0xE8A48AE5311D765A (Alessio Treglia)
     (RT #3525)
   * Move 0xEB6CD6C5893FAD07 to emeritus (Steffen Joeris)
+  * Add new DD key 0xD6EFA6AC4B10D847 (Tanguy Ortolo) (RT #3539)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 18 Dec 2011 00:11:42 +0000
 
