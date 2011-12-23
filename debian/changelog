@@ -1,4 +1,4 @@
-debian-keyring (2011.12.xx) UNRELEASED; urgency=low
+debian-keyring (2011.12.23) unstable; urgency=low
 
   * Move 0xA8BBB3661D1DFB53 to emeritus (Ian Maclaine-cross) (RT #3534)
   * Add new DM key 0xB9876EB090B36C5B (Mahyuddin Susanto) (RT #3527)
@@ -45,7 +45,7 @@ debian-keyring (2011.12.xx) UNRELEASED; urgency=low
     * 0xEEA2EFA277DCE083 Makoto OHURA <ohura> sig:1
     * 0xFE22C6FD83135D45 UNKNOWN (DM?) sig:14
 
- -- Jonathan McDowell <noodles@earth.li>  Sun, 18 Dec 2011 00:11:42 +0000
+ -- Jonathan McDowell <noodles@earth.li>  Fri, 23 Dec 2011 16:40:00 +0000
 
 debian-keyring (2011.12.01) unstable; urgency=low
 
