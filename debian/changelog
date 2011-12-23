@@ -13,6 +13,37 @@ debian-keyring (2011.12.xx) UNRELEASED; urgency=low
   * Move 0xEB6CD6C5893FAD07 to emeritus (Steffen Joeris)
   * Add new DD key 0xD6EFA6AC4B10D847 (Tanguy Ortolo) (RT #3539)
   * Add new DD key 0xBACE15D2A57498FF (Intrigeri) (RT #3548)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:1
+    * 0x0B00FB6CEBE2D002 Ulises Vitulli <dererk> uid:1 sig:2
+    * 0x0CC44811074141DC UNKNOWN (DM?) sig:6
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:34
+    * 0x2D4EB3A6015475F5 Jakub Wilk <jwilk> sig:4
+    * 0x310180050905E40C Julien Cristau <jcristau> sig:2
+    * 0x32247FBB40AD1FA6 Nobuhiro Iwamatsu <iwamatsu> sig:8
+    * 0x3A936196C095D941 Bdale Garbee <bdale> sig:3
+    * 0x49086AD3EBE2F31F Luca Falavigna <dktrkranz> sig:3
+    * 0x51106DF5CD92D072 Stefano Rivera <stefanor> sig:4
+    * 0x58B29F8CF74EC6C8 UNKNOWN (DM?) uid:1 sig:3
+    * 0x6864730DF095E5E4 Marco Nenciarini <mnencia> sig:6
+    * 0x6EA4D2311A2D268D UNKNOWN (DM?) sig:6
+    * 0x7B585B30807C2A87 UNKNOWN (DM?) uid:2 sig:2
+    * 0x8972F4DFDC6DC026 Kees Cook <kees> sig:55
+    * 0x8A838BE4D8480F2E Jan Lübbe <jluebbe> sig:11
+    * 0x8B7F7D30CAF14EFC UNKNOWN (DM?) sig:6
+    * 0x965522B9D49AE731 Christoph Egger <christoph> sig:144
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:6
+    * 0xB5022EB582EA653E Anselm Lingnau <lingnau> sig:5
+    * 0xC09E1D8995930EDE Axel Beckert <abe> sig:5
+    * 0xC26C97906D4FC66F Nicolas Boullis <nboullis> sub:1 sig:4
+    * 0xD573D5B129AB4CDD Jeremy Bouse <jbouse> sig:18
+    * 0xDB686C92D9D59F61 Francesca Ciceri <madamezou> sig:6
+    * 0xE1EBBEA51D389887 Y Giridhar Appaji Nag <appaji> sig:7
+    * 0xE7F710555409E422 Kamal Mostafa <kamal> sig:13
+    * 0xEBB31A62C85D8F71 Kevin Coyner <kcoyner> sig:3
+    * 0xED3A39E393674C40 Theodore Y. Ts'o <tytso> sig:4
+    * 0xEEA2EFA277DCE083 Makoto OHURA <ohura> sig:1
+    * 0xFE22C6FD83135D45 UNKNOWN (DM?) sig:14
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 18 Dec 2011 00:11:42 +0000
 
