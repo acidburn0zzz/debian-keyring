@@ -12,6 +12,7 @@ debian-keyring (2011.12.xx) UNRELEASED; urgency=low
     (RT #3525)
   * Move 0xEB6CD6C5893FAD07 to emeritus (Steffen Joeris)
   * Add new DD key 0xD6EFA6AC4B10D847 (Tanguy Ortolo) (RT #3539)
+  * Add new DD key 0xBACE15D2A57498FF (Intrigeri) (RT #3548)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 18 Dec 2011 00:11:42 +0000
 
