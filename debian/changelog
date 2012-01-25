@@ -1,3 +1,9 @@
+debian-keyring (2012.01.xx) UNRELEASED; urgency=low
+
+  * Move 0xA9B6F730B83D761C to emeritus (Sami Haahtinen) (RT #3552)
+
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 24 Jan 2012 20:54:36 -0800
+
 debian-keyring (2011.12.23) unstable; urgency=low
 
   * Move 0xA8BBB3661D1DFB53 to emeritus (Ian Maclaine-cross) (RT #3534)
