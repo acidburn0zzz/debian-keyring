@@ -1,4 +1,4 @@
-debian-keyring (2012.01.xx) UNRELEASED; urgency=low
+debian-keyring (2012.01.29) unstable; urgency=low
 
   * Move 0xA9B6F730B83D761C to emeritus (Sami Haahtinen) (RT #3552)
   * Add new DM key 0x2A714497E37363AE (Aleksey Kravchenko) (RT #3553)
@@ -77,7 +77,7 @@ debian-keyring (2012.01.xx) UNRELEASED; urgency=low
     * 0xF6D3495BB0AE9A02 Clint Adams <schizo> sig:4
     * 0xFBD5225B588752A1 Chow Loong Jin <hyperair> uid:1 sig:4
 
- -- Jonathan McDowell <noodles@earth.li>  Tue, 24 Jan 2012 20:54:36 -0800
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 29 Jan 2012 19:59:05 -0800
 
 debian-keyring (2011.12.23) unstable; urgency=low
 
