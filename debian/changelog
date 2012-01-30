@@ -11,6 +11,7 @@ debian-keyring (2012.01.xx) UNRELEASED; urgency=low
     (RT #3581)
   * Replace 0xA5F270280917A9E4 with 0xAEC828749D85C53C (James Bromberger)
     (RT #3584)
+  * Replace 0x55C15C6925BFB848 with 0x07B3C8BC4083E800 (Roger Leigh) (RT #3590)
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 24 Jan 2012 20:54:36 -0800
 
