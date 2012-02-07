@@ -2,8 +2,10 @@ debian-keyring (2012.02.xx) UNRELEASED; urgency=low
 
   * Replace 0xF0DC8E00B28C5995 with 0x1C7C41EDEBDDBB60 (Brendan O'Dea)
     (RT #3600)
+  * Replace DM key 0x6D4EFF4D980FE144 with 0x1C01F443C9C93C5A (John
+    Stamp) (RT #3602)
 
- -- Gunnar Wolf <gwolf@debian.org>  Tue, 07 Feb 2012 11:46:14 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 07 Feb 2012 12:03:18 -0600
 
 debian-keyring (2012.01.29) unstable; urgency=low
 
