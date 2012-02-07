@@ -1,3 +1,10 @@
+debian-keyring (2012.02.xx) UNRELEASED; urgency=low
+
+  * Replace 0xF0DC8E00B28C5995 with 0x1C7C41EDEBDDBB60 (Brendan O'Dea)
+    (RT #3600)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 07 Feb 2012 11:46:14 -0600
+
 debian-keyring (2012.01.29) unstable; urgency=low
 
   * Move 0xA9B6F730B83D761C to emeritus (Sami Haahtinen) (RT #3552)
