@@ -6,8 +6,10 @@ debian-keyring (2012.02.xx) UNRELEASED; urgency=low
     Stamp) (RT #3602)
   * Replace 0x6D4EFF4D980FE144 with 0x1C01F443C9C93C5A (Timo Jyrinki) (RT
     #3609)
+  * Replace 0xE5273D986BE3C423 with 0x3116BA5E9FFA69A3 (Paul Wise) (RT
+    #3616)
 
- -- Gunnar Wolf <gwolf@debian.org>  Tue, 07 Feb 2012 12:10:21 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Fri, 10 Feb 2012 11:30:47 -0600
 
 debian-keyring (2012.01.29) unstable; urgency=low
 
