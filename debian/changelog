@@ -14,8 +14,9 @@ debian-keyring (2012.02.xx) UNRELEASED; urgency=low
     Namuri) (RT #3620)
   * Add new DD key 0x78DC68DB326D8438 (Oliver Sallou) (RT #3623)
   * Add new DD key 0x82B5B40868C097BC (Liang Guo) (RT #3625)
+  * Add new DD key 0x2DCE3F2836D4E4F5 (Javi Merino) (RT #3621)
 
- -- Gunnar Wolf <gwolf@debian.org>  Mon, 13 Feb 2012 10:26:04 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 13 Feb 2012 10:33:13 -0600
 
 debian-keyring (2012.01.29) unstable; urgency=low
 
