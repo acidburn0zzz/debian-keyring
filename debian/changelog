@@ -18,8 +18,9 @@ debian-keyring (2012.02.xx) UNRELEASED; urgency=low
   * Add new DD key 0xD362B62A54B99890 (Thorsten Alteholz) (RT #3624)
   * Add new DM key 0x126EB563A74B06BF (Barry Warsaw) (RT #3627)
   * Add new DM key 0x9258A798513F86CD (Brian Thomason) (RT #3628)
+  * Add new DM key 0x826355E260F7BCB2 (Emile Joubert) (RT #3630)
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 22 Feb 2012 17:09:40 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 22 Feb 2012 17:13:32 -0600
 
 debian-keyring (2012.01.29) unstable; urgency=low
 
