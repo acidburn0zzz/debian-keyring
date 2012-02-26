@@ -1,8 +1,20 @@
 debian-keyring (2012.02.25) unstable; urgency=low
 
   * Disabling Steffen Möller's key due to apparent compromise (RT #3647)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x16E2F4F5FC81E159 Tim Cutts <tjrc1>
+    * 0x84E64AA009FC015C Martin A. Godisch <godisch>
+    * 0x97325DD8F9FDD506 Luke Faraone <lfaraone>
+    * 0x9C27B31342B7511D Michal Čihař <nijel>
+    * 0xC7F7F9660D82A682 Laurent Bigonville <bigon>
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:8
+    * 0x091AB856069AAA1C Holger Levsen <holger> sig:13
+    * 0x1C7C41EDEBDDBB60 Brendan O'Dea <bod> sig:1
+    * 0x4CB7C22F0E2B1756 Francesco Namuri <franam> sig:8
+    * 0x78DC68DB326D8438 Oliver Sallou <osallou> uid:1 sig:3
+    * 0xEE3A9F0281C2A4AC Mats Rynge <mats> sig:1
 
- -- Gunnar Wolf <gwolf@debian.org>  Sat, 25 Feb 2012 22:55:52 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Sat, 25 Feb 2012 23:09:38 -0600
 
 debian-keyring (2012.02.22) unstable; urgency=low
 
