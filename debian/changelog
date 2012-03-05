@@ -6,8 +6,9 @@ debian-keyring (2012.03.xx) UNRELEASED; urgency=low
     request (myon) (RT #3658)
   * Replace 0xA11DCBB16783ED5E with 0x2AE901E5C70218D2 (Frederic Peters)
     (RT #3661)
+  * Add new DM key 0x7B1F549072B74923 (Rodolfo García Peñas) (RT #3641)
 
- -- Gunnar Wolf <gwolf@debian.org>  Mon, 05 Mar 2012 09:31:53 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 05 Mar 2012 09:40:16 -0600
 
 debian-keyring (2012.02.25) unstable; urgency=low
 
