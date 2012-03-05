@@ -2,8 +2,10 @@ debian-keyring (2012.03.xx) UNRELEASED; urgency=low
 
   * Replace 0x4EB016BCAA6541EE with 0xAFFC96D1151DFFDC (Bernhard R. Link)
     (RT #3654)
+  * Un-retire Emeritus DD Denis Barbier (0xF118B5951E161AFB) per DAM
+    request (myon) (RT #3658)
 
- -- Gunnar Wolf <gwolf@debian.org>  Fri, 02 Mar 2012 09:58:33 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 05 Mar 2012 09:22:16 -0600
 
 debian-keyring (2012.02.25) unstable; urgency=low
 
