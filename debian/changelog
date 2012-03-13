@@ -9,8 +9,10 @@ debian-keyring (2012.03.xx) UNRELEASED; urgency=low
   * Add new DM key 0x7B1F549072B74923 (Rodolfo García Peñas) (RT #3641)
   * Un-retire Emeritus DD Eduardo Trápani (0x1E198A792782AF55) per DAM
     request (myon) (RT #3663)
+  * Replace 0x09F07408C87FFC2F with 0xFDD63BAF588A553F (Steve Kowalik)
+    (RT #3674)
 
- -- Gunnar Wolf <gwolf@debian.org>  Tue, 06 Mar 2012 09:32:32 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 13 Mar 2012 09:39:05 -0600
 
 debian-keyring (2012.02.25) unstable; urgency=low
 
