@@ -13,8 +13,10 @@ debian-keyring (2012.03.xx) UNRELEASED; urgency=low
     (RT #3674 and #3675)
   * Replace 0xE1EBBEA51D389887 with 0xA8D2CD13AA544AA1 (Y Giridhar
     Appaji Nag) (RT #3726)
+  * Replace 0x69937E9B27FCEB27 with 0x0953ED7BAD69A1CB (Philipp Hug) (RT
+    #3728)
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 21 Mar 2012 14:10:12 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 21 Mar 2012 14:16:08 -0600
 
 debian-keyring (2012.02.25) unstable; urgency=low
 
