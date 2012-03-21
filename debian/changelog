@@ -15,10 +15,11 @@ debian-keyring (2012.03.xx) UNRELEASED; urgency=low
     Appaji Nag) (RT #3726)
   * Replace 0x69937E9B27FCEB27 with 0x0953ED7BAD69A1CB (Philipp Hug) (RT
     #3728)
-  * Add new DM key 0xEB4AF5A19368CAEC (Khalid el Fathi) (RT #3683)
+  * Add new DM key 0x3B106E718D6B31AC (Sven Joachim) (RT #3684)
   * Add new DM key 0x8A3171EF366150CE (David Steele) (RT #3685)
+  * Add new DM key 0xEB4AF5A19368CAEC (Khalid el Fathi) (RT #3683)
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 21 Mar 2012 14:25:19 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 21 Mar 2012 14:34:37 -0600
 
 debian-keyring (2012.02.25) unstable; urgency=low
 
