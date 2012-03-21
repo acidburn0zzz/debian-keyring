@@ -11,8 +11,10 @@ debian-keyring (2012.03.xx) UNRELEASED; urgency=low
     request (myon) (RT #3663)
   * Replace 0x09F07408C87FFC2F with 0xFDD63BAF588A553F (Steve Kowalik)
     (RT #3674 and #3675)
+  * Replace 0xE1EBBEA51D389887 with 0xA8D2CD13AA544AA1 (Y Giridhar
+    Appaji Nag) (RT #3726)
 
- -- Gunnar Wolf <gwolf@debian.org>  Tue, 13 Mar 2012 09:46:13 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 21 Mar 2012 14:10:12 -0600
 
 debian-keyring (2012.02.25) unstable; urgency=low
 
