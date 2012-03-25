@@ -22,8 +22,9 @@ debian-keyring (2012.03.xx) UNRELEASED; urgency=low
   * Add new DD key 0xDDC7ECFBB4F83169 (Roland Dreier) (RT #3744)
   * Add new DD key 0x8359193BFDCB09C4 (Johann Felix Soden) (RT #3743)
   * Add new DD key 0x0171E1828AE09345 (Mathieu Malaterre) (RT #3742)
+  * Add new DD key 0xC72B51EE9D80F36D (Arno Töll) (RT #3741)
 
- -- Gunnar Wolf <gwolf@debian.org>  Sat, 24 Mar 2012 18:57:23 -0600
+ -- Gunnar Wolf <gwolf@debian.org>  Sat, 24 Mar 2012 19:00:00 -0600
 
 debian-keyring (2012.02.25) unstable; urgency=low
 
