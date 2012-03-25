@@ -1,4 +1,4 @@
-debian-keyring (2012.03.xx) UNRELEASED; urgency=low
+debian-keyring (2012.03.24) unstable; urgency=low
 
   * Replace 0x4EB016BCAA6541EE with 0xAFFC96D1151DFFDC (Bernhard R. Link)
     (RT #3654)
