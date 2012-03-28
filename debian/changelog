@@ -9,6 +9,35 @@ debian-keyring (2012.03.xx) UNRELEASED; urgency=low
   * Add new DD key 0x1EFEB1801A49C0D2 (Mònica Ramírez Arceda) (RT #3751)
   * Move 0xD8F523B3D7D0EF65 (lunar), 0xBA68DB976AC0A484 (johnf) +
     0x214F6841515F9B74 (markos) from emeritus to removed.
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x16281F2E007C98D1 Francois Marier <francois> sig:12
+    * 0x199A64FADFB500FF UNKNOWN (DM?) sig:38
+    * 0x357332C45A827A2D Luca Filipozzi <lfilipoz> uid:2 sig:13
+    * 0x398D1112D3A4BDE1 UNKNOWN (DM?) sig:3
+    * 0x49086AD3EBE2F31F Luca Falavigna <dktrkranz> sig:3
+    * 0x5E6DEF1C4E2ECA5A Moritz Muehlenhoff <jmm> sig:4
+    * 0x61E98ECF16D970C6 Eric Dorland <eric> sig:6
+    * 0x63D2D5D907F89BB8 Ludovico Gardenghi <garden> sig:219
+    * 0x6EA4D2311A2D268D UNKNOWN (DM?) sig:6
+    * 0x7867D53C747935DD Cyril Brulebois <kibi> sig:7
+    * 0x7C56ACFE947897D8 Anibal Monsalve Salazar <anibal> sig:6
+    * 0x82B5B40868C097BC Liang Guo <guoliang> uid:1 sig:1
+    * 0x8972F4DFDC6DC026 Kees Cook <kees> sig:10
+    * 0x89CD4B21607559E6 Benjamin Hill <mako> sig:14
+    * 0x8A838BE4D8480F2E Jan Lübbe <jluebbe> sig:43
+    * 0x8F32B4422F52107F UNKNOWN (DM?) sig:1
+    * 0x9C31503C6D866396 Stefano Zacchiroli <zack> uid:1 sig:140
+    * 0x9EC002FE1C9CA517 Michael C. Schultheiss <schultmc> sig:7
+    * 0x9F0FE587374BBE81 UNKNOWN (DM?) uid:1 sig:32
+    * 0xA73E0055558FB8DD Jan Dittberner <jandd> sig:101
+    * 0xB2197FDB5EA01078 UNKNOWN (DM?) sub:1 sig:1
+    * 0xB7289B27FED8F826 Cajus Pollmeier <cajus> uid:1 sig:5
+    * 0xC073D2287FFB9E9B Michael Hanke <mih> sig:5
+    * 0xC3F436CA30F5D8EB Mark Brown <broonie> sig:15
+    * 0xDA4958F611E149E9 UNKNOWN (DM?) sig:15
+    * 0xEDA21E94B565716F UNKNOWN (DM?) uid:1 sub:3 sig:6
+    * 0xEE3A9F0281C2A4AC Mats Rynge <mats> sig:1
+    * 0xF7F0E70F307D56ED Noèl Köthe <noel> sig:16
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 27 Mar 2012 21:22:01 -0700
 
