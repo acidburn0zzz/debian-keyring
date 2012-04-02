@@ -1,3 +1,36 @@
+debian-keyring (2012.04.02) unstable; urgency=low
+
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x0171E1828AE09345 Mathieu Malaterre <malat> uid:2 sig:3
+    * 0x019F7E073264A5C4 Marcelo Jorge Vieira <metal> uid:1 sig:5
+    * 0x0587B26E45F3FBF9 John Lightsey <lightsey> sig:8
+    * 0x0A300ED090E5CA46 Felipe Augusto van de Wiel <faw> sig:1
+    * 0x12D9B04A90CBD8E4 Patrick Matthäi <pmatthaei> sig:28
+    * 0x199A64FADFB500FF UNKNOWN (DM?) sig:8
+    * 0x1BF83C5E54FC8640 Dann Frazier <dannf> sig:3
+    * 0x357332C45A827A2D Luca Filipozzi <lfilipoz> sig:8
+    * 0x4E7160ED4AC8EE1D Michael Stapelberg <stapelberg> uid:1 sig:15
+    * 0x587979573442684E Steve McIntyre <93sam> sig:9
+    * 0x7A8F49E8B63480BE Kumar Appaiah <akumar> sig:3
+    * 0x7B1F549072B74923 UNKNOWN (DM?) sig:1
+    * 0x7CFCD8CD257721E9 Vagrant Cascadian <vagrant> sig:3
+    * 0x8359193BFDCB09C4 Johann Felix Soden <johfel> uid:1 sig:1
+    * 0x85045872DA83FD56 Ana Carolina Comandulli <caroll> uid:1 sig:1
+    * 0x9306C9BCDAF1054C Maitland Bottoms <bottoms> sig:2
+    * 0x9394F354891D7E07 UNKNOWN (DM?) sig:3
+    * 0xA73E0055558FB8DD Jan Dittberner <jandd> sig:67
+    * 0xAFA51BD6CDE573CB Alessandro Ghedini <ghedo> uid:1 sig:1
+    * 0xB8E5087766475AAF UNKNOWN (DM?) sig:12
+    * 0xB96F5C899D928C9B Guillem Jover <guillem> sig:9
+    * 0xC72B51EE9D80F36D Arno Töll <arno> uid:1 sig:1
+    * 0xD15D313882004173 Russ Allbery <rra> sig:1
+    * 0xDDC7ECFBB4F83169 Roland Dreier <rbd> uid:1 sig:1
+    * 0xE941DEDA7C5BB6A5 Olivier Berger <obergix> sig:9
+    * 0xED1A3933B2CFCDD8 Philipp Kern <pkern> sig:9
+    * 0xF3E85400D70AAFF9 Matthias Urlichs <smurf> uid:1 sub:3 sig:23
+
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 02 Apr 2012 14:06:56 -0700
+
 debian-keyring (2012.03.27) unstable; urgency=low
 
   * Add new DD key 0xAFA51BD6CDE573CB (Alessandro Ghedini) (RT #3754)
