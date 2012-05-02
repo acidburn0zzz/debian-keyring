@@ -1,6 +1,7 @@
 debian-keyring (2012.05.xx) UNRELEASED; urgency=low
 
   * Add new DD key 0x0C48EA2A7A8FFD7B (Peter Green) (RT #3812)
+  * Move 0x85045872DA83FD56 (Ana Carolina Comandulli) to DN keyring (RT #3775)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 27 Apr 2012 12:05:36 -0500
 
