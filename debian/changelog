@@ -16,6 +16,7 @@ debian-keyring (2012.05.xx) UNRELEASED; urgency=low
   * Replace 0x168B4E717032F238 with 0x0907409606AAAAAA (Jon Dowland) (RT #3764)
   * Replace 0x10FAAB980EA84A2B with 0xF3AC49989AD13245 (Kevin Glynn) (RT #3761)
   * Add new DM key 0xE66C775AEBFE6C7D (Jeremy Bicha) (RT #3797)
+  * Add new DM key 0x29E36B9A01ED3AC7 (Frank Habermann) (RT #3798)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 27 Apr 2012 12:05:36 -0500
 
