@@ -13,6 +13,7 @@ debian-keyring (2012.05.xx) UNRELEASED; urgency=low
   * Add new DM key 0x8D52CDE95117E119 (Christian Welzel) (RT #3779)
   * Add new DM key 0xE40215299C840E81 (Koichi Akabe) (RT #3780)
   * Add new DM key 0x32CC4AAC028756FF (Julian Taylor) (RT #3781)
+  * Replace 0x168B4E717032F238 with 0x0907409606AAAAAA (Jon Dowland) (RT #3764)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 27 Apr 2012 12:05:36 -0500
 
