@@ -9,6 +9,7 @@ debian-keyring (2012.05.xx) UNRELEASED; urgency=low
   * Move 0x85045872DA83FD56 (Ana Carolina Comandulli) to DN keyring (RT #3775)
   * Move 0x0AF53B990E99F476 (Rob Tillotson) to removed keyring (RT #3776)
   * Add new DM key 0x6026936D2F1C8AE0 (Dmitry Shachnev) (RT #3813)
+  * Add new DM key 0x8062398983B2CF7A (Matteo F. Vescovi) (RT #3814)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 27 Apr 2012 12:05:36 -0500
 
