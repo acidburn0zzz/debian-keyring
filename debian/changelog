@@ -20,6 +20,7 @@ debian-keyring (2012.05.xx) UNRELEASED; urgency=low
   * Replace 0x2B807BFBFBE74E9A with 0x7F7606A445DCA80E (Manuel A. Fernandez
     Montecelo) (RT #3765)
   * Replace 0x299610A9203ECA25 with 0x7E60A3A686AE8D98 (Ryan Finnie) (RT #3793)
+  * Add new DM key 0x771750766E1C720B (Thomas Pierson) (RT #3826)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 27 Apr 2012 12:05:36 -0500
 
