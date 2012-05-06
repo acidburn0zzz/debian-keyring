@@ -21,6 +21,50 @@ debian-keyring (2012.05.xx) UNRELEASED; urgency=low
     Montecelo) (RT #3765)
   * Replace 0x299610A9203ECA25 with 0x7E60A3A686AE8D98 (Ryan Finnie) (RT #3793)
   * Add new DM key 0x771750766E1C720B (Thomas Pierson) (RT #3826)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x019F7E073264A5C4 Marcelo Jorge Vieira <metal> sig:3
+    * 0x091AB856069AAA1C Holger Levsen <holger> sig:6
+    * 0x12D9B04A90CBD8E4 Patrick Matthäi <pmatthaei> sig:28
+    * 0x199A64FADFB500FF UNKNOWN (DM?) sig:6
+    * 0x1EFEB1801A49C0D2 Mònica Ramírez Arceda <monica> uid:1 sig:2
+    * 0x3036AD8EA51A4FDD László Böszörményi <gcs> sig:3
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:3
+    * 0x3A936196C095D941 Bdale Garbee <bdale> sig:6
+    * 0x47BE58A24A3CB85A Sylvain Le Gall <gildor> sub:1 sig:9
+    * 0x5098021C70518078 Alan Woodland <awoodland> sub:1 sig:2
+    * 0x56DCB977C5E95333 Faidon Liambotis <paravoid> sig:26
+    * 0x6598789058A23DE9 Vincent Legout <vlegout> sig:2
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:28
+    * 0x75E20CCD33E749FC Damien Raude-Morvan <drazzib> sig:3
+    * 0x85F15E59F01DFE92 UNKNOWN (DM?) uid:1 sig:1
+    * 0x887B60618B3C16AE Dmitrijs Ledkovs <xnox> uid:1 sig:4
+    * 0x88E5D733DD899610 Sylvestre Ledru <sylvestre> uid:2 sig:2
+    * 0x8CBF9A322861A790 Micah Anderson <micah> sig:11
+    * 0x9394F354891D7E07 UNKNOWN (DM?) sig:1
+    * 0x9688FFC1C78102DF UNKNOWN (DM?) uid:1 sig:1
+    * 0x9946397AE142E6F4 M J Ray <mjr> sig:6
+    * 0x9DF99BDA11691130 Georges Khaznadar <georgesk> sig:37
+    * 0x9EC002FE1C9CA517 Michael C. Schultheiss <schultmc> sig:216
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:46
+    * 0xAEF6F1A2A7457645 Piotr Ożarowski <piotr> sig:8
+    * 0xAFFC96D1151DFFDC Bernhard R. Link <brlink> sig:7
+    * 0xB3118CEF8AEA8FEE Stephen Gran <sgran> sig:4
+    * 0xB7AC2E51BD41714B UNKNOWN (DM?) sub:2 sig:14
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:1
+    * 0xBCBBC495718A9256 Wesley W. Terpstra <terpstra> uid:1 sub:2 sig:3
+    * 0xBF7C793AC9132DDB Nikita V. Youshchenko <yoush> sig:4
+    * 0xC910D9222512E3C7 Joey Hess <joeyh> uid:1 sig:3
+    * 0xCA87E9E82AAC33F1 Alexander GQ Gerasiov <gq> sig:2
+    * 0xCCDFE49B0A0AC927 Lamont Jones <lamont> sig:4
+    * 0xD27DDE1140A2F113 UNKNOWN (DM?) sig:2
+    * 0xDA286F326C5F196B Oleksandr V. Moskalenko <malex> sig:4
+    * 0xDB686C92D9D59F61 Francesca Ciceri <madamezou> sig:23
+    * 0xDC5A28E48C7740AF Gaudenz Steinlin <gaudenz> sig:7
+    * 0xE083EC151231C465 Jan Hauke Rahm <jhr> sig:34
+    * 0xE5350AE06087D2F8 LI Daobing <lidaobing> uid:1 sig:19
+    * 0xEC371482956781AF UNKNOWN (DM?) sig:5
+    * 0xEE25DE3F1CDB0FE3 Henrique de Moraes Holschuh <hmh> sub:2 sig:2
+    * 0xF8C41B2CF7142EC2 Emfox Zhou <emfox> sig:10
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 27 Apr 2012 12:05:36 -0500
 
