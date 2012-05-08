@@ -1,3 +1,10 @@
+debian-keyring (2012.05.xx) UNRELEASED; urgency=low
+
+  * Replace 0xDB16CF5BB12525C4 with 0x715ED6A07E7B8AC9 (Joerg Jaspert)
+    (RT #3817)
+
+ -- Gunnar Wolf <gwolf@gwolf.org>  Tue, 08 May 2012 11:45:23 -0500
+
 debian-keyring (2012.05.06) unstable; urgency=low
 
   [ Gunnar Wolf ]
