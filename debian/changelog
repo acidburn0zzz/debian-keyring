@@ -2,6 +2,22 @@ debian-keyring (2012.05.xx) UNRELEASED; urgency=low
 
   * Replace 0xDB16CF5BB12525C4 with 0x715ED6A07E7B8AC9 (Joerg Jaspert)
     (RT #3817)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:10
+    * 0x0C48EA2A7A8FFD7B Peter Michael Green <plugwash> uid:1 sig:2
+    * 0x393587D97D86500B Colin Watson <cjwatson> sig:62
+    * 0x3938F96BDF50FEA5 Craig Small <csmall> sig:6
+    * 0x51ACF6AD75BE8097 Florian Lohoff <flo> sig:9
+    * 0x5759F35001AA4A64 Steve Langasek <vorlon> sig:24
+    * 0x75E20CCD33E749FC Damien Raude-Morvan <drazzib> sig:6
+    * 0x7F55BB12A40F862E Neil McGovern <neilm> uid:2 sig:8
+    * 0x846A74DB6538F5BF Mattia Monga <monga> sig:6
+    * 0x887B60618B3C16AE Dmitrijs Ledkovs <xnox> uid:1 sig:13
+    * 0x8972F4DFDC6DC026 Kees Cook <kees> sig:18
+    * 0x9C851C72F12DA065 Jan Niehusmann <jan> sig:2
+    * 0xCCD2ED94D21739E9 Daniel Gillmor <dkg> sig:26
+    * 0xE352D5C51C5041D4 Iain Lane <laney> uid:1 sig:47
+    * 0xEFE86C6C7FFECF83 Gilles Filippini <pini> sig:4
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Tue, 08 May 2012 11:45:23 -0500
 
