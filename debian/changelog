@@ -1,4 +1,4 @@
-debian-keyring (2012.06.xx) UNRELEASED; urgency=low
+debian-keyring (2012.06.01) unstable; urgency=low
 
   * Replace 0x7E8114A075CB1AD2 with 0x8A0A48874687AF4F (Toni Mueller)
     (RT #3501)
@@ -39,7 +39,6 @@ debian-keyring (2012.06.xx) UNRELEASED; urgency=low
     * 0x7E60A3A686AE8D98 UNKNOWN (DM?) sig:36
     * 0x9B46F1FB088F6B8C UNKNOWN (DM?) sig:1
     * 0xB012AD8CF19F599F UNKNOWN (DM?) uid:2 sig:2
-
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 01 Jun 2012 10:50:16 -0500
 
