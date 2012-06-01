@@ -5,6 +5,7 @@ debian-keyring (2012.06.xx) UNRELEASED; urgency=low
   * Replace 0xDA8622AE93EBF6D8 with 0xB0A2F1A9B3E6122C (Andrea Veri) (RT
     #3862)
   * Add new DM key 0x28FA801A43BDD637 (Mike Miller) (RT #3861)
+  * Add new DM key 0xC1BCD3C72AA28B6B (Tobias Richter) (RT #3860)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 01 Jun 2012 10:50:16 -0500
 
