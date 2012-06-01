@@ -6,6 +6,8 @@ debian-keyring (2012.06.xx) UNRELEASED; urgency=low
     #3862)
   * Add new DM key 0x28FA801A43BDD637 (Mike Miller) (RT #3861)
   * Add new DM key 0xC1BCD3C72AA28B6B (Tobias Richter) (RT #3860)
+  * Move 0x4C043FEB5C7CF0B2 (Fabrizio Regalli) to removed keyring (RT
+    #3875)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 01 Jun 2012 10:50:16 -0500
 
