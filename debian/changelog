@@ -8,6 +8,38 @@ debian-keyring (2012.06.xx) UNRELEASED; urgency=low
   * Add new DM key 0xC1BCD3C72AA28B6B (Tobias Richter) (RT #3860)
   * Move 0x4C043FEB5C7CF0B2 (Fabrizio Regalli) to removed keyring (RT
     #3875)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x846A74DB6538F5BF Mattia Monga <monga>
+    * 0x9C851C72F12DA065 Jan Niehusmann <jan>
+    * 0x3B56E2BBD53FDCB1 UNKNOWN (DM?) sig:18
+    * 0x0EA756B5144843F5 Roland Mas <lolando> sig:2
+    * 0x1B132E01CEC6AD46 Kan-Ru Chen <koster> uid:1 sig:11
+    * 0x2E9354A1A9FD4821 Chris Taylor <ctaylor> sig:3
+    * 0x393587D97D86500B Colin Watson <cjwatson> sig:12
+    * 0x4D249D9B23E6FC3A Timo Lindfors <lindi> sig:2
+    * 0x51106DF5CD92D072 Stefano Rivera <stefanor> sig:42
+    * 0x538C0766F4BCB38E Clint Byrum <spamaps> uid:1 sig:45
+    * 0x53B1AC6DB11B627B Martin Zobel-Helas <zobel> sig:53
+    * 0x587979573442684E Steve McIntyre <93sam> sig:3
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:6
+    * 0x8972F4DFDC6DC026 Kees Cook <kees> sig:20
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:5
+    * 0xA20376BEC03C56DF Romain Francoise <rfrancoise> sig:2
+    * 0xB82A217AFDFE09F2 David Prévot <taffit> sig:12
+    * 0xBC372252CA1CF964 Ansgar Burchardt <ansgar> sig:10
+    * 0xC72B51EE9D80F36D Arno Töll <arno> sig:15
+    * 0xD200EB30A0FB5DA6 Gustavo Noronha <kov> sig:1
+    * 0xD929F2992BEF0A33 Didier Raboud <odyx> uid:1 sig:15
+    * 0xDBF480C602F946FC Marcin Owsiany <porridge> sig:5
+    * 0xE7F710555409E422 Kamal Mostafa <kamal> sig:20
+    * 0xEE3A9F0281C2A4AC Mats Rynge <mats> sub:1 sig:1
+    * 0xDB686C92D9D59F61 Francesca Ciceri <madamezou> sig:14
+    * 0x199A64FADFB500FF UNKNOWN (DM?) sig:14
+    * 0x3B56E2BBD53FDCB1 UNKNOWN (DM?) sig:18
+    * 0x7E60A3A686AE8D98 UNKNOWN (DM?) sig:36
+    * 0x9B46F1FB088F6B8C UNKNOWN (DM?) sig:1
+    * 0xB012AD8CF19F599F UNKNOWN (DM?) uid:2 sig:2
+
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 01 Jun 2012 10:50:16 -0500
 
