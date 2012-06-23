@@ -1,6 +1,7 @@
 debian-keyring (2012.06.xx) UNRELEASED; urgency=low
 
   * Add new DD key 0x9B46F1FB088F6B8C (Daniel Leidert) (RT #3894)
+  * Add new DD key 0x04AAE5B397F1AAAC (Ulrich Dangel) (RT #3895)
 
  -- Jonathan McDowell <noodles@earth.li>  Sat, 23 Jun 2012 10:56:55 -0700
 
