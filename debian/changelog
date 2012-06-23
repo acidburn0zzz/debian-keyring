@@ -5,6 +5,7 @@ debian-keyring (2012.06.xx) UNRELEASED; urgency=low
   * Add new DD key 0x9F0FE587374BBE81 (Hans-Christoph Steiner) (RT #3896)
   * Add new DD key 0x9FE8B8CD71C5D1A8 (Stuart Prescott) (RT #3897)
   * Add new DD key 0x7B585B30807C2A87 (Paul Richards Tagliamonte) (RT #3898)
+  * Add new DD key 0xB01FEA84617B586D (Andreas B. Mundt) (RT #3893)
 
  -- Jonathan McDowell <noodles@earth.li>  Sat, 23 Jun 2012 10:56:55 -0700
 
