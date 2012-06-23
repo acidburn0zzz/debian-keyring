@@ -1,3 +1,9 @@
+debian-keyring (2012.06.xx) UNRELEASED; urgency=low
+
+  * Add new DD key 0x9B46F1FB088F6B8C (Daniel Leidert) (RT #3894)
+
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 23 Jun 2012 10:56:55 -0700
+
 debian-keyring (2012.06.01) unstable; urgency=low
 
   * Replace 0x7E8114A075CB1AD2 with 0x8A0A48874687AF4F (Toni Mueller)
