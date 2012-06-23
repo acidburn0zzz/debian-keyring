@@ -12,6 +12,47 @@ debian-keyring (2012.06.xx) UNRELEASED; urgency=low
   * Add new DM key 0x20B7283AFE254C69 (Keith Winstein) (RT #3905)
   * Replace 0xA20376BEC03C56DF with 0xAD15F435F05F962D (Romain Francoise)
     (RT #3883)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00018C22381A7594 UNKNOWN (DM?) sig:4
+    * 0x0171E1828AE09345 Mathieu Malaterre <malat> sig:10
+    * 0x0A300ED090E5CA46 Felipe Augusto van de Wiel <faw> sig:2
+    * 0x1467F0D8E1EE3FB1 Marco d'Itri <md> sig:3
+    * 0x16281F2E007C98D1 Francois Marier <francois> sig:8
+    * 0x1CFC22F3363DEAE3 Siegfried-Angel Gevatter Pujals <sgevatter> sig:4
+    * 0x32CC4AAC028756FF UNKNOWN (DM?) sig:22
+    * 0x33961588E1C21845 Thijs Kinkhorst <thijs> sub:2 sig:105
+    * 0x3938F96BDF50FEA5 Craig Small <csmall> sig:1
+    * 0x4E7160ED4AC8EE1D Michael Stapelberg <stapelberg> sig:36
+    * 0x4F9F6D550ED6122A Serafeim Zanikolas <sez> uid:1 sig:2
+    * 0x62AF4031C82E0039 Peter Palfrader <weasel> sig:17
+    * 0x6606027F6437124C Konstantinos Margaritis <markos> sig:5
+    * 0x69F2FC516EA71993 UNKNOWN (DM?) sig:35
+    * 0x6E608B637D8967E9 UNKNOWN (DM?) sub:3 sig:3
+    * 0x76B534B2E99007E0 Thorsten Glaser <tg> uid:1 sig:9
+    * 0x7731FCCC63E4E277 Roberto C. Sanchez <roberto> sig:3
+    * 0x85672E5DDDA51280 Christian T. Steigies <cts> sig:1
+    * 0x872F702C4D6E25A8 Christian Perrier <bubulle> sig:6
+    * 0x8CBE219C74576D81 Willi Mann <willi> uid:1 sig:2
+    * 0x8F7BF8FC4A11C97A Ryan Kavanagh <rak> uid:2 sig:2
+    * 0x95DE059D8D7FCA91 UNKNOWN (DM?) sig:3
+    * 0x965522B9D49AE731 Christoph Egger <christoph> sig:73
+    * 0x9C31503C6D866396 Stefano Zacchiroli <zack> uid:1 sig:79
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:1
+    * 0xAB645F406286A7D0 Lisandro Damián Nicanor Pérez Meyer <lisandro> sig:13
+    * 0xAE07828059A53CC1 UNKNOWN (DM?) sig:2
+    * 0xB3464F896AA15948 Ana Beatriz Guerrero López <ana> sig:2
+    * 0xB3A02D6623706F87 Pierre Machard <pmachard> sig:2
+    * 0xB735A649E0BA04C1 Ralf Treinen <treinen> sig:2
+    * 0xBC5758175230514A Shaun Jackman <sjackman> sig:7
+    * 0xC7197699B29B232A Maximiliano Curia <maxy> sig:2
+    * 0xC72B51EE9D80F36D Arno Töll <arno> sig:4
+    * 0xD0178C767D069EE6 Samuel Thibault <sthibault> sig:4
+    * 0xDB16CF5BB12525C4 Joerg Jaspert <joerg> sig:2
+    * 0xDFF738C2D16CFBA2 Simon Paillard <spaillard> sig:4
+    * 0xE619045DF2AC729A Raphaël Hertzog <hertzog> sig:24
+    * 0xED1A3933B2CFCDD8 Philipp Kern <pkern> sig:45
+    * 0xF3AC49989AD13245 Kevin Glynn <keving> sig:3
+    * 0xF628EB934743206C Joachim Breitner <nomeata> sig:37
 
  -- Jonathan McDowell <noodles@earth.li>  Sat, 23 Jun 2012 10:56:55 -0700
 
