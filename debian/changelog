@@ -15,6 +15,7 @@ debian-keyring (2012.07.xx) UNRELEASED; urgency=low
   * Move 0xDC913D985DF03167 to emeritus (Jérôme Marant) (RT #3933)
   * Add new DD key 0xFE22C6FD83135D45 (Felix Geyer) (RT #3951)
   * Add new DD key 0x1CD52D7BAAFE086A (Paul Mathijs Gevers) (RT #3941)
+  * Add new DD key 0xD003852FBD52529E (Thomas Preud'homme) (RT #3948)
 
  -- Gunnar Wolf <gwolf@debian.org>  Thu, 05 Jul 2012 17:47:51 -0500
 
