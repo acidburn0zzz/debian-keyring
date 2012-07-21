@@ -26,6 +26,8 @@ debian-keyring (2012.07.xx) UNRELEASED; urgency=low
   * Replace 0x796ECB739B441EA8 with 0x3ADE8738D21B06C6 (Maximilian Attems)
     (RT #3957)
   * Add new DD key 0x0ABA650372FD9571 (Thadeu Cascardo) (RT #3952)
+  * Replace 0xDC5A28E48C7740AF with 0xA97A7702BAF91EF5 (Gaudenz Steinlin)
+    (RT #3938)
 
  -- Gunnar Wolf <gwolf@debian.org>  Thu, 05 Jul 2012 17:47:51 -0500
 
