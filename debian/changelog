@@ -21,8 +21,11 @@ debian-keyring (2012.07.xx) UNRELEASED; urgency=low
     (RT #3932)
   * Replace 0xED1A3933B2CFCDD8 with 0x50C3634D3A291CF9 (Philipp Kern)
     (RT #3935)
-  * Replace 0xE544DE079B7C328D with 0x2127371B9BB23062 (DaLuk Claes)
+  * Replace 0xE544DE079B7C328D with 0x2127371B9BB23062 (Luk Claes)
     (RT #3953)
+  * Replace 0x796ECB739B441EA8 with 0x3ADE8738D21B06C6 (Maximilian Attems)
+    (RT #3957)
+
 
  -- Gunnar Wolf <gwolf@debian.org>  Thu, 05 Jul 2012 17:47:51 -0500
 
