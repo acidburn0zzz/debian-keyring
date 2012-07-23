@@ -31,6 +31,7 @@ debian-keyring (2012.07.xx) UNRELEASED; urgency=low
   * Add new DM key 0x7115AFD07710DCF7 (Ole Streicher) (RT #3954)
   * Add new DM key 0x2713E679084651AF (Andrea Colangelo) (RT #3955)
   * Add new DD key 0x756BEB4B70D8FB2A (Josue Abarca) (RT #3964)
+  * Add new DD key 0x58C0FB1CDE3B7600 (Tristan Seligmann) (RT #3966)
 
  -- Gunnar Wolf <gwolf@debian.org>  Thu, 05 Jul 2012 17:47:51 -0500
 
