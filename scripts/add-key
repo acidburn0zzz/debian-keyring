@@ -25,7 +25,11 @@ keydir="$2"
 basename=$(basename "$keyfile")
 date=`date -R`
 
-keyid=$(gpg --with-colons --keyid long --options /dev/null --no-auto-check-trustdb < $keyfile | grep '^pub' | cut -d : -f 5)
+if [ -f $keyfile ]; then
+	keyid=$(gpg --with-colons --keyid long --options /dev/null --no-auto-check-trustdb < $keyfile | grep '^pub' | cut -d : -f 5)
+else
+	keyid=${1: -16:16}
+fi
 
 for keyring in *-pgp/ *-gpg/; do
 	if [ -e $keyring/0x$keyid ]; then
@@ -40,7 +44,14 @@ if [ ! -e output/keyrings/debian-keyring.gpg -o \
 	make
 fi
 
-gpg --quiet --import $keyfile
+if [ -f $keyfile ]; then
+	gpg --quiet --import $keyfile
+else
+	gpg --quiet --keyserver the.earth.li --recv-key $1
+	gpg --quiet --keyserver pgp.mit.edu --recv-key $1
+	gpg --quiet --keyserver keyserver.ubuntu.com --recv-key $1
+	gpg --quiet --keyserver the.earth.li --send-key $1
+fi
 (gpg --keyring output/keyrings/debian-keyring.gpg \
 	--keyring output/keyrings/extra-keys.pgp --fingerprint 0x$keyid
 gpg --keyring output/keyrings/debian-keyring.gpg \
