@@ -37,6 +37,16 @@ summary=$(gpg --import $keyfile 2>&1 | scripts/parse-gpg-update 0x$keyid)
 gpg --no-auto-check-trustdb --options /dev/null \
 		--export $keyid > $GNUPGHOME/0x$keyid
 
+case "$summary" in
+  *:*)
+	# Something changed
+	;;
+  *)
+	# Nothing changed, exit
+	echo "No changes to $summary"
+	exit
+esac
+
 echo "Running gpg-diff:"
 (
 	echo $summary 
