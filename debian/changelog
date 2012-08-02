@@ -5,6 +5,7 @@ debian-keyring (2012.08.xx) UNRELEASED; urgency=low
     #3956)
   * Add new DD key 0xCE1F9C674512C22A (Praveen Arimbrathodiyil) (RT
     #3968)
+  * Add new DD key 0x4933DAB400EF5DFB (Cleto Martín Angelina) (RT #3973)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 30 Jul 2012 13:52:10 -0500
 
