@@ -8,6 +8,8 @@ debian-keyring (2012.08.xx) UNRELEASED; urgency=low
   * Add new DD key 0x4933DAB400EF5DFB (Cleto Martín Angelina) (RT #3973)
   * Replace 0x56DCB977C5E95333 with 0x9D0B5E5B1EEC8F0E (Faidon
     Liambotis) (RT #3987)
+  * Add new DM key 0xC9F1CBF56351F719 (Elías Alejandro Año Mendoza) (RT
+    #3988)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 30 Jul 2012 13:52:10 -0500
 
