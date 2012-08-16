@@ -1,4 +1,4 @@
-debian-keyring (2012.08.xx) UNRELEASED; urgency=low
+debian-keyring (2012.08.16) unstable; urgency=low
 
   * Add new DD key 0x2FD8BEDAC020EED1 (Steffen Möller) (RT #3647)
   * Replace 0x41DC1C907244970B with 0x2064C53641C25E5D (Kurt Roeckx) (RT
