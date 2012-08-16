@@ -15,6 +15,71 @@ debian-keyring (2012.08.xx) UNRELEASED; urgency=low
   * Add new DM key 0xEC63699779074FA8 (Ian Campbell) (RT #3994)
   * Add new DM key 0xC4DCB25AD71A5972 (Nicolas Bourdaud) (RT #3997)
   * Add new DM key 0x3C13A8C2D9012EC1 (Alexander Golovko) (RT #3996)
+  * Import changes sent to keyring.debian.org HKP interface:
+    0x962680C5305A9418 Kåre Thor Olsen <kaare> sig:7
+    0xDB686C92D9D59F61 Francesca Ciceri <madamezou> sig:5
+    0x00B45EBD4CA7BABE NIIBE Yutaka <gniibe> sig:7
+    0x0171E1828AE09345 Mathieu Malaterre <malat> sig:13
+    0x06EAA066E397832F Luca Capello <gismo> sig:2
+    0x0B00FB6CEBE2D002 Ulises Vitulli <dererk> sig:13
+    0x1C570C890E4BD0AB George Danchev <danchev> sig:2
+    0x1C7C41EDEBDDBB60 Brendan O'Dea <bod> sig:1
+    0x1CD52D7BAAFE086A Paul Mathijs Gevers <elbrus> uid:1 sig:1
+    0x2127371B9BB23062 Luk Claes <luk> sig:2
+    0x2BA82602C2CE8099 Takatsugu Nokubi <knok> sig:12
+    0x3036AD8EA51A4FDD László Böszörményi <gcs> sig:3
+    0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:2
+    0x33961588E1C21845 Thijs Kinkhorst <thijs> sig:7
+    0x40D716CFE909CDEE Taku YASUI <tach> sig:114
+    0x40E354D9FA26E2EE Stig Sandbeck Mathisen <ssm> sig:7
+    0x4E7160ED4AC8EE1D Michael Stapelberg <stapelberg> sig:3
+    0x50C3634D3A291CF9 Philipp Kern <pkern> sig:13
+    0x5759F35001AA4A64 Steve Langasek <vorlon> sig:8
+    0x57930DAB0B86B067 Joost van Baal <joostvb> sig:182
+    0x587979573442684E Steve McIntyre <93sam> sig:6
+    0x5EB9E72A228A3AE4 John Leuner <jewel> sig:1
+    0x5EC42C53D86A66BA Patryk Cisek <patryk> sub:1 sig:1
+    0x62AF4031C82E0039 Peter Palfrader <weasel> sig:42
+    0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:8
+    0x6864730DF095E5E4 Marco Nenciarini <mnencia> uid:1 sig:1
+    0x756BEB4B70D8FB2A Josue Abarca <jmaslibre> uid:2 sig:32
+    0x789D6F057FD863FE Salvatore Bonaccorso <carnil> sig:50
+    0x792152527B75921E Antoine Beaupré <anarcat> uid:1 sub:2 sig:5
+    0x79B0126693701EEF Carlo U. Segre <segre> sig:2
+    0x7F55BB12A40F862E Neil McGovern <neilm> sig:9
+    0x8143F7EEA5E43EA3 Tom Cato Amundsen <tca> sig:3
+    0x846A74DB6538F5BF Mattia Monga <monga> sig:9
+    0x872F702C4D6E25A8 Christian Perrier <bubulle> sig:49
+    0x97833DC998EF9A49 Thomas Goirand <zigo> sig:14
+    0x9B46F1FB088F6B8C Daniel Leidert <dleidert> sig:17
+    0x9C31503C6D866396 Stefano Zacchiroli <zack> sig:23
+    0xA72FF66C42BD645D Alexander Zangerl <az> sig:2
+    0xAF2283AA76E2AC7B Hector Oron <zumbi> sig:46
+    0xB01FEA84617B586D Andreas B. Mundt <andi> uid:1 sig:1
+    0xB82A217AFDFE09F2 David Prévot <taffit> sig:73
+    0xBACE15D2A57498FF Intrigeri <intrigeri> sig:3
+    0xBB20AC20E0B7D6BE René Mayorga <rmayorga> sig:39
+    0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:15
+    0xBC372252CA1CF964 Ansgar Burchardt <ansgar> sig:22
+    0xC2B079FCF5C75256 Russell Coker <etbe> sig:2
+    0xCCD2ED94D21739E9 Daniel Gillmor <dkg> sig:39
+    0xD5FDFC156168BF60 Julián Moreno Patiño <julian> uid:1 sig:24
+    0xD929F2992BEF0A33 Didier Raboud <odyx> sig:102
+    0xE569B5E3F30D2F35 Michael Piefel <piefel> sig:1
+    0xE6EF68372CFD1C38 Jamie Wilkinson <jaq> sig:3
+    0xF167E43C8143B682 Neil Williams <codehelp> sig:3
+    0xF4B4B0CC797EBFAB Enrico Zini <enrico> sig:7
+    0xF7F0E70F307D56ED Noèl Köthe <noel> sig:26
+    0xFE22C6FD83135D45 Felix Geyer <fgeyer> uid:1 sig:37
+    0x32CC4AAC028756FF UNKNOWN (DM?) sig:2
+    0x6C6580E77BD756C4 UNKNOWN (DM?) sig:21
+    0x966EAACACDE97281 UNKNOWN (DM?) sig:31
+    0x9E509C93D26DF9D3 UNKNOWN (DM?) sig:1
+    0xB7AC2E51BD41714B UNKNOWN (DM?) sig:1
+    0xBE3219AF3ED41341 UNKNOWN (DM?) sig:1
+    0xCF49D0E68A2FAFBC UNKNOWN (DM?) sig:3
+    0xED34CEABE27BAABC UNKNOWN (DM?) sig:4
+
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 30 Jul 2012 13:52:10 -0500
 
