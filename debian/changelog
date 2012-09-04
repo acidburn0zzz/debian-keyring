@@ -1,3 +1,9 @@
+debian-keyring (2012.09.xx) UNRELEASED; urgency=low
+
+  * Add new DM key 0xAE0C84BB0A2368F0 (Emilien Klein) (RT #4015)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 04 Sep 2012 07:52:58 -0500
+
 debian-keyring (2012.08.16) unstable; urgency=low
 
   * Add new DD key 0x2FD8BEDAC020EED1 (Steffen Möller) (RT #3647)
