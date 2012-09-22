@@ -12,6 +12,7 @@ debian-keyring (2012.09.xx) UNRELEASED; urgency=low
   * Add new DD key 0x9E509C93D26DF9D3 (Janos Guljas) (RT #4045)
   * Add new DD key 0x7174A18FAAA7A078 (Asias He) (RT #4044)
   * Add new DM key 0x5556A34E04A3610B (Sascha Steinbiss) (RT #3999)
+  * Add new DM key 0x77013C58233007A7 (Ahmed Toulan) (RT #4000)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 04 Sep 2012 07:52:58 -0500
 
