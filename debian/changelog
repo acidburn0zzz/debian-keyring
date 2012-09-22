@@ -17,6 +17,8 @@ debian-keyring (2012.09.xx) UNRELEASED; urgency=low
   * Add new DM key 0x0ADB299C1F137C9F (Jeroen Dekkers) (RT #4042)
   * Add new DM key 0x194B631AB2DA2888 (Andreas Rönnquist) (RT #3998)
   * Move 0x86200551AA79B91A to emeritus (Charles Fry) (RT #4014)
+  * Replace 0x25C8D3778C7E73A4 with 0xC0F039E9ED1B597A (Rob Browning)
+    (RT #4004)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 04 Sep 2012 07:52:58 -0500
 
