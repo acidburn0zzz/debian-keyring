@@ -47,9 +47,9 @@ fi
 if [ -f $keyfile ]; then
 	gpg --quiet --import $keyfile
 else
-	gpg --quiet --keyserver the.earth.li --recv-key $1
-	gpg --quiet --keyserver pgp.mit.edu --recv-key $1
-	gpg --quiet --keyserver keyserver.ubuntu.com --recv-key $1
+	gpg --quiet --keyserver the.earth.li --recv-key $1 || true
+	gpg --quiet --keyserver pgp.mit.edu --recv-key $1 || true
+	gpg --quiet --keyserver keyserver.ubuntu.com --recv-key $1 || true
 	gpg --quiet --keyserver the.earth.li --send-key $1
 fi
 (gpg --keyring output/keyrings/debian-keyring.gpg \
