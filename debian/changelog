@@ -7,6 +7,7 @@ debian-keyring (2012.09.xx) UNRELEASED; urgency=low
   * Add new DD key 0x8C82169D8ECECD2A (Tobias Hansen) (RT #4050)
   * Add new DD key 0xDA4958F611E149E9 (Cédric Boutillier) (RT #4049)
   * Add new DD key 0x00018C22381A7594 (Sébastien Villemot) (RT #4048)
+  * Add new DD key 0x93945348E0DC2840 (Thibaut Jean-Claude Paumard) (RT #4047)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 04 Sep 2012 07:52:58 -0500
 
