@@ -20,6 +20,7 @@ debian-keyring (2012.09.xx) UNRELEASED; urgency=low
   * Replace 0x25C8D3778C7E73A4 with 0xC0F039E9ED1B597A (Rob Browning)
     (RT #4004)
   * Replace 0xC0EFAEE3B70E403B with 0x888220B87E798989 (Ari Pollak) (RT #4013)
+  * Add new DD key 0xB188AE5579F492F8 (Per Andersson) (RT #4043)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 04 Sep 2012 07:52:58 -0500
 
