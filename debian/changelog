@@ -1,6 +1,7 @@
 debian-keyring (2012.09.xx) UNRELEASED; urgency=low
 
   * Move 0x26E98AEAFA1E5292 to emeritus (Julien Blache) (RT #4052)
+  * Move 0x249F50C649202B37 to emeritus (Daniel Martin)
 
   -- Jonathan McDowell <noodles@earth.li>  Tue, 25 Sep 2012 10:50:08 -0700
 
