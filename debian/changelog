@@ -5,6 +5,7 @@ debian-keyring (2012.09.xx) UNRELEASED; urgency=low
   * Move 0x249F50C649202B37 to emeritus (Daniel Martin)
   * Add new DM key 0x554297EDF9CCA585 (Yixuan Guo) (RT #4077)
   * Add new DM key 0x9AF46B3025771B31 (Mike Gabriel) (RT #4079)
+  * Add new DM key 0xDE39E437F2CC5398 (Xiangfu Liu) (RT #4080)
 
   [ Gunnar Wolf ]
   * Add new DM key 0x26CAA901117A251E (Marcin Juszkiewicz) (RT #4066)
