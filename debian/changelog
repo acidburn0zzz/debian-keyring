@@ -9,6 +9,60 @@ debian-keyring (2012.09.xx) UNRELEASED; urgency=low
   * Replace 0x1CD52D7BAAFE086A with 0x9C5C99EB05BD750A (Paul Gevers) (RT #4076)
   * Replace 0x3DAF54A21EEF5276 with 0x00806F2BD729A457 (Jelmer Vernooij)
     (RT #4078)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00018C22381A7594 Sébastien Villemot <sebastien> uid:2 sig:9
+    * 0x0171E1828AE09345 Mathieu Malaterre <malat> sig:5
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:4
+    * 0x07B3C8BC4083E800 Roger Leigh <rleigh> sig:7
+    * 0x091AB856069AAA1C Holger Levsen <holger> sig:9
+    * 0x14135D277B88D7E5 UNKNOWN (DM?) sub:2 sig:15
+    * 0x18147B073BAD2B07 Olly Betts <olly> sig:9
+    * 0x2D4EB3A6015475F5 Jakub Wilk <jwilk> sig:3
+    * 0x2FD8BEDAC020EED1 Steffen Moeller <moeller> sig:2
+    * 0x3A936196C095D941 Bdale Garbee <bdale> sig:3
+    * 0x3DAF54A21EEF5276 Jelmer Vernooij <jelmer> sig:1
+    * 0x4D3C7CA1554FB4C6 Peter Eisentraut <petere> uid:1 sig:2
+    * 0x5759F35001AA4A64 Steve Langasek <vorlon> sig:4
+    * 0x587979573442684E Steve McIntyre <93sam> sig:12
+    * 0x5D328D082AAAB140 Hideki Yamane <henrich> sig:2
+    * 0x62AF4031C82E0039 Peter Palfrader <weasel> sig:3
+    * 0x6C6580E77BD756C4 UNKNOWN (DM?) sig:3
+    * 0x6C8F74AE87700B7E UNKNOWN (DM?) sub:1 sig:1
+    * 0x7174A18FAAA7A078 Asias He <asias> sig:4
+    * 0x756BEB4B70D8FB2A Josue Abarca <jmaslibre> sig:14
+    * 0x78DC68DB326D8438 Oliver Sallou <osallou> sig:3
+    * 0x79B0126693701EEF Carlo U. Segre <segre> sig:6
+    * 0x7B585B30807C2A87 Paul Richards Tagliamonte <paultag> sig:20
+    * 0x7FD9FCCB000BEEEE Jim Meyering <meyering> sig:15
+    * 0x842CDB7A44779E18 Fabio Massimo Di Nitto <fabbione> sig:7
+    * 0x887B60618B3C16AE Dmitrijs Ledkovs <xnox> uid:1 sig:1
+    * 0x88E5D733DD899610 Sylvestre Ledru <sylvestre> sig:13
+    * 0x8A3171EF366150CE UNKNOWN (DM?) sig:22
+    * 0x8C82169D8ECECD2A Tobias Hansen <thansen> uid:1 sig:1
+    * 0x8E889544D985000D Bastian Venthur <venthur> sig:43
+    * 0x8F7274F307062A38 UNKNOWN (DM?) sig:4
+    * 0x93945348E0DC2840 Thibaut Jean-Claude Paumard <thibaut> uid:1 sig:1
+    * 0x9394F354891D7E07 UNKNOWN (DM?) sig:3
+    * 0x97325DD8F9FDD506 Luke Faraone <lfaraone> sig:6
+    * 0x9B46F1FB088F6B8C Daniel Leidert <dleidert> sig:2
+    * 0x9C27B31342B7511D Michal Čihař <nijel> sig:35
+    * 0x9C31503C6D866396 Stefano Zacchiroli <zack> sig:12
+    * 0x9E509C93D26DF9D3 Janos Guljas <janos> uid:1 sig:1
+    * 0xA784FF770F0F4FFA Michael Gilbert <mgilbert> sig:3
+    * 0xB6C4D9B63BFFE73C Nicholas Bamber <periapt> sig:1
+    * 0xB9A81DDEB19B4B16 Stefan Alfredsson <alfs> sig:2
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:5
+    * 0xBDF2A2205E3619D3 Arnaud Fontaine <arnau> sig:3
+    * 0xC38E8160A17841FE Aron Xu <aron> sig:4
+    * 0xC5CE5DC2C542CD59 Adam D. Barratt <adsb> sig:9
+    * 0xCB668E29A3FD0DF7 Mohammed Sameer <msameer> sig:13
+    * 0xCCD2ED94D21739E9 Daniel Gillmor <dkg> sig:4
+    * 0xD27DDE1140A2F113 UNKNOWN (DM?) sig:2
+    * 0xD929F2992BEF0A33 Didier Raboud <odyx> sig:8
+    * 0xDA4958F611E149E9 Cédric Boutillier <boutil> uid:1 sig:10
+    * 0xE40215299C840E81 UNKNOWN (DM?) sig:9
+    * 0xEC63699779074FA8 UNKNOWN (DM?) sig:2
+    * 0xF98825AC26B47B9F Martin Pitt <mpitt> sig:103
 
   [ Gunnar Wolf ]
   * Add new DM key 0x26CAA901117A251E (Marcin Juszkiewicz) (RT #4066)
