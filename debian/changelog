@@ -3,7 +3,7 @@ debian-keyring (2012.10.23) unstable; urgency=low
   [ Jonathan McDowell ]
   * Move 0x26E98AEAFA1E5292 to emeritus (Julien Blache) (RT #4052)
   * Move 0x249F50C649202B37 to emeritus (Daniel Martin)
-  * Add new DM key 0x554297EDF9CCA585 (Yixuan Guo) (RT #4077)
+  * Add new DM key 0x554297EDF9CCA585 (Guo Yixuan) (郭溢譞) (RT #4077)
   * Add new DM key 0x9AF46B3025771B31 (Mike Gabriel) (RT #4079)
   * Add new DM key 0xDE39E437F2CC5398 (Xiangfu Liu) (RT #4080)
   * Replace 0x1CD52D7BAAFE086A with 0x9C5C99EB05BD750A (Paul Gevers) (RT #4076)
