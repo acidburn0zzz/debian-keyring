@@ -2,6 +2,7 @@ debian-keyring (2012.11.xx) UNRELEASED; urgency=low
 
   * Add new DD key 0x69F2FC516EA71993 (Sebastian Ramacher) (RT #4086)
   * Add new DD key 0x3B56E2BBD53FDCB1 (Andrew Starr-Bochicchio)  (RT #4091)
+  * Add new DD key 0x6C6580E77BD756C4 (Daniel Pocock) (RT #4097)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 11 Nov 2012 15:24:25 -0800
 
