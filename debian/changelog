@@ -11,6 +11,7 @@ debian-keyring (2012.11.xx) UNRELEASED; urgency=low
     #4088)
   * Add new DD key 0x74263B37F5B5F913 (John Paul Adrian Glaubitz) (RT
     #4089)
+  * Add new DD key 0x397F3DB1C97A628E (Julien Patriarca) (RT #4094)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 11 Nov 2012 15:24:25 -0800
 
