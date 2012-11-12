@@ -7,6 +7,8 @@ debian-keyring (2012.11.xx) UNRELEASED; urgency=low
 
   [ Gunnar Wolf ]
   * Add new DD key 0xDFC671EEB333FA25 (Jonathan Nieder) (RT #4087)
+  * Add new DD key 0xF6B09645B24BF200 (Alejandro Garrido Mota) (RT
+    #4088)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 11 Nov 2012 15:24:25 -0800
 
