@@ -1,6 +1,7 @@
 debian-keyring (2013.01.xx) unstable; urgency=low
 
   * Move 0xA144B27BEB9CDAD5 to emeritus (Eduardo Marcel Maçan) (RT #4146)
+  * Add new DD key 0x5FB33F9359E9ED08 (Andreas Beckmann) (RT #4141)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 11 Nov 2012 15:24:25 -0800
 
