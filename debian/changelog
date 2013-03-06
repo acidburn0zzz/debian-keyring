@@ -1,4 +1,4 @@
-debian-keyring (2013.03.04) UNRELEASED; urgency=low
+debian-keyring (2013.03.04) unstable; urgency=low
 
   [ Gunnar Wolf ]
   * Add new DD key 0x55AD141521E764DF (Balint Reczey); move older DM key
