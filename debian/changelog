@@ -7,6 +7,7 @@ debian-keyring (2013.03.XX) UNRELEASED; urgency=low
   * Add new DD key 0x759778A9A36B494F (Stephen Kitt) (RT #4208)
   * Add new DD key 0x9AF46B3025771B31 (Mike Gabriel) (RT #4209)
   * Add new DD key 0x824294CD0217E8D8 (Ivo De Decker) (RT #4210)
+  * Add new DD key 0x6EA4D2311A2D268D (Andrew Shadura) (RT #4217)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 12 Mar 2013 14:24:10 -0600
 
