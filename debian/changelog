@@ -10,6 +10,53 @@ debian-keyring (2013.03.XX) UNRELEASED; urgency=low
   * Add new DD key 0x6EA4D2311A2D268D (Andrew Shadura) (RT #4217)
   * Add new DD key 0x52B6BBD953968D1B (Dmitry Smirnov) (RT #4218)
   * Add new DD key 0x6611C05EDD39F374 (Jérémy Lal) (RT #4219)
+  * Import canges sent to keyring.debian.org HKP interface:
+    * 0x01B47334E0D49E99 Changwoo Ryu <cwryu> sig:1
+    * 0x10510A738501C7FC Sebastian Harl <tokkee> sig:5
+    * 0x16281F2E007C98D1 Francois Marier <francois> sig:8
+    * 0x18A0CC8D5706A4B4 Simon Richter <sjr> sig:2
+    * 0x1B0006256FB29164 Wouter Verhelst <wouter> uid:1 sig:1
+    * 0x1EFEB1801A49C0D2 Mònica Ramírez Arceda <monica> sig:4
+    * 0x3450ED513FCC2A90 Amaya Rodrigo Sastre <amaya> sig:1
+    * 0x37E1C17570096AD1 Asheesh Laroia <paulproteus> sig:4
+    * 0x39C979637274AA07 Pedro Zorzenon Neto <pzn> sig:8
+    * 0x3B56E2BBD53FDCB1 Andrew Starr-Bochicchio <asb> sig:1
+    * 0x4164D1B3894BB479 Luciano Bello <luciano> sig:4
+    * 0x4B077723929D42C3 Emmanuel Bouthenot <kolter> sig:10
+    * 0x57930DAB0B86B067 Joost van Baal <joostvb> sig:7
+    * 0x5B8FE2F59D1B82F6 Andre Luis Lopes <andrelop> sig:3
+    * 0x63D2D5D907F89BB8 Ludovico Gardenghi <garden> sig:1
+    * 0x6606027F6437124C Konstantinos Margaritis <markos> uid:1 sig:1
+    * 0x6754891DEAAC62DF Cyril Bouthors <cyb> uid:1 sig:1
+    * 0x7174A18FAAA7A078 Asias He <asias> uid:1 sig:9
+    * 0x76B534B2E99007E0 Thorsten Glaser <tg> sig:3
+    * 0x789D6F057FD863FE Salvatore Bonaccorso <carnil> sig:15
+    * 0x80D0A42FF2C850CA Margarita Manterola <marga> sig:2
+    * 0x842CDB7A44779E18 Fabio Massimo Di Nitto <fabbione> sig:1
+    * 0x867BF9A9FBD3EB8E Robert Collins <robertc> sig:8
+    * 0x8745DD787582C21A Marco Presi <zufus> sig:3
+    * 0x887B60618B3C16AE Dmitrijs Ledkovs <xnox> sig:24
+    * 0x965522B9D49AE731 Christoph Egger <christoph> sig:27
+    * 0x97325DD8F9FDD506 Luke Faraone <lfaraone> sig:6
+    * 0x9C31503C6D866396 Stefano Zacchiroli <zack> sig:12
+    * 0x9FCF2CCD3F3E6426 Guido Guenther <agx> sig:1
+    * 0xA0C5AD1359CD3653 Shachar Shemesh <shachar> sig:6
+    * 0xA56BC3DF985BA281 Gleydson Mazioli da Silva <gleydson> sig:1
+    * 0xB3464F896AA15948 Ana Beatriz Guerrero López <ana> sig:2
+    * 0xCCD2ED94D21739E9 Daniel Gillmor <dkg> sub:1 sig:13
+    * 0xD15D313882004173 Russ Allbery <rra> sig:1
+    * 0xD6EFA6AC4B10D847 Tanguy Ortolo <tanguy> sig:6
+    * 0xEA4C661F2B46A27C Branden Robinson <branden> sig:1
+    * 0xF20FAC0B7B8357E5 Andreas Schuldei <andreas> sig:1
+    * 0xF6D3495BB0AE9A02 Clint Adams <schizo> sig:28
+    * 0xF7F0E70F307D56ED Noèl Köthe <noel> sig:9
+    * 0xF98825AC26B47B9F Martin Pitt <mpitt> sig:10
+    * 0x0ADB299C1F137C9F UNKNOWN (DM?) sig:2
+    * 0x966EAACACDE97281 UNKNOWN (DM?) sig:11
+    * 0x416F061063FEE659 Erinn Clark <erinn> sig:3
+    * 0xC514AF8E4BA401C3 Alberto Gonzalez Iniesta <agi> sig:56
+    * 0xD6EFA6AC4B10D847 Tanguy Ortolo <tanguy> sig:12
+    * 0x85F15E59F01DFE92 UNKNOWN (DM?) sig:6
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 12 Mar 2013 14:24:10 -0600
 
