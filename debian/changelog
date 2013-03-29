@@ -1,9 +1,13 @@
-debian-keyring (20132013.03.25) UNRELEASED; urgency=low
+debian-keyring (2013.03.29) unstable; urgency=low
 
+  [Gunnar Wolf]
   * Move 0xCE09B6E9B913143A (Patrick Winnertz) to removed keyring (Re:
     debian-private archive/latest/7943, 51502E01.1090505@debian.org)
 
- -- Gunnar Wolf <gwolf@debian.org>  Mon, 25 Mar 2013 11:21:18 -0600
+  [Jonathan McDowell]
+  * Move 0x3ADE8738D21B06C6 (maximilian attems) to removed keyring (RT #4243)
+
+ -- Jonathan McDowell <noodles@earth.li>  Fri, 29 Mar 2013 11:05:32 -0700
 
 debian-keyring (2013.03.18) unstable; urgency=low
 
