@@ -1,3 +1,78 @@
+debian-keyring (2013.04.12) unstable; urgency=low
+
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x019F7E073264A5C4 Marcelo Jorge Vieira <metal> sig:5
+    * 0x055C4B35FFFFFFFE Samuel Hocevar <sho> sig:10
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:4
+    * 0x07B3C8BC4083E800 Roger Leigh <rleigh> sig:3
+    * 0x0907409606AAAAAA Jon Dowland <jmtd> sig:6
+    * 0x126EB563A74B06BF UNKNOWN (DM?) sig:9
+    * 0x12973B6E72DC07B5 Florian Schlichting <fsfs> uid:1 sig:2
+    * 0x16281F2E007C98D1 Francois Marier <francois> sig:32
+    * 0x1B0006256FB29164 Wouter Verhelst <wouter> sig:16
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:1
+    * 0x3450ED513FCC2A90 Amaya Rodrigo Sastre <amaya> sig:2
+    * 0x35FECD3FEB380BE6 Alexander List <alex> sig:8
+    * 0x37E1C17570096AD1 Asheesh Laroia <paulproteus> sig:8
+    * 0x416F061063FEE659 Erinn Clark <erinn> sig:15
+    * 0x4814DEC22B307C3C Jérémy Bobbio <lunar> uid:1 sig:3
+    * 0x49086AD3EBE2F31F Luca Falavigna <dktrkranz> sig:3
+    * 0x494C8A5FBF4DECEB Matthias Klumpp <mak> uid:1 sig:1
+    * 0x4E7160ED4AC8EE1D Michael Stapelberg <stapelberg> sig:9
+    * 0x4F9F6D550ED6122A Serafeim Zanikolas <sez> uid:1 sig:5
+    * 0x50C3634D3A291CF9 Philipp Kern <pkern> sig:3
+    * 0x52B6BBD953968D1B Dmitry Smirnov <onlyjob> uid:1 sig:1
+    * 0x5394479DD3524C51 Jonathan Wiltshire <jmw> sub:1 sig:1
+    * 0x60F960A19A540E39 Philipp Matthias Hahn <pmhahn> sub:1 sig:25
+    * 0x62955F6B9B1F5883 UNKNOWN (DM?) sig:9
+    * 0x6611C05EDD39F374 Jérémy Lal <kapouer> sig:4
+    * 0x6754891DEAAC62DF Cyril Bouthors <cyb> uid:2 sig:2
+    * 0x6C8F74AE87700B7E UNKNOWN (DM?) sig:2
+    * 0x6EA4D2311A2D268D Andrew Shadura <andrewsh> uid:1 sig:14
+    * 0x721A2B30C154998C Eugene V. Lyubimkin <jackyf> sig:2
+    * 0x759778A9A36B494F Stephen Kitt <skitt> uid:1 sig:1
+    * 0x7B4D847C7B8E6A47 Michael Casadevall <mcasadevall> sig:4
+    * 0x7B585B30807C2A87 Paul Richards Tagliamonte <paultag> sig:55
+    * 0x7CFCD8CD257721E9 Vagrant Cascadian <vagrant> sig:4
+    * 0x7F7606A445DCA80E Manuel A. Fernandez Montecelo <mafm> uid:1 sig:1
+    * 0x824294CD0217E8D8 Ivo De Decker <ivodd> uid:1 sig:5
+    * 0x888220B87E798989 Ari Pollak <ari> sig:18
+    * 0x8D55C80D3430D100 Harshula Jayasuriya <harshula> sig:4
+    * 0x9258A798513F86CD Brian Thomason <iamfuzz> sig:3
+    * 0x936A835B678B9796 UNKNOWN (DM?) sig:4
+    * 0x94842BC86E511C31 UNKNOWN (DM?) sig:2
+    * 0x95A42FE8353525F9 Vincent Bernat <bernat> sig:6
+    * 0x97325DD8F9FDD506 Luke Faraone <lfaraone> sig:6
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:18
+    * 0x98083544945348A4 Reinhard Tartler <siretart> sig:2
+    * 0x9946397AE142E6F4 M J Ray <mjr> sig:8
+    * 0x9AF46B3025771B31 Mike Gabriel <sunweaver> uid:1 sig:12
+    * 0x9AFB7B8C9A5F5BBC Heiko Stübner <mmind> sig:3
+    * 0x9C31503C6D866396 Stefano Zacchiroli <zack> sig:63
+    * 0x9DF99BDA11691130 Georges Khaznadar <georgesk> sig:4
+    * 0x9ED078EF4B3A135C Erich Schubert <erich> sig:3
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:16
+    * 0xA73E0055558FB8DD Jan Dittberner <jandd> sig:99
+    * 0xB8E5087766475AAF UNKNOWN (DM?) sig:91
+    * 0xBACE15D2A57498FF Intrigeri <intrigeri> sig:7
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:5
+    * 0xBBC756DDBE595F6B UNKNOWN (DM?) sig:1
+    * 0xBC372252CA1CF964 Ansgar Burchardt <ansgar> sig:3
+    * 0xC7197699B29B232A Maximiliano Curia <maxy> sig:2
+    * 0xD003852FBD52529E Thomas Preud'homme <robotux> sig:1
+    * 0xD3E17383CFA7FF06 Anton Gladky <gladk> sig:30
+    * 0xE5CA8C4925E4205F Philipp Huebner <debalance> sig:23
+    * 0xE7BFC8EC95861109 Ben Hutchings <benh> sig:3
+    * 0xEE25DE3F1CDB0FE3 Henrique de Moraes Holschuh <hmh> sig:2
+    * 0xF628EB934743206C Joachim Breitner <nomeata> sig:5
+    * 0xF6B09645B24BF200 Alejandro Garrido Mota <alejandro> uid:2 sig:4
+    * 0xF6EE83B9DF901724 Jan Wagner <waja> sig:11
+    * 0xF7F0E70F307D56ED Noèl Köthe <noel> sig:2
+    * 0xF82E5CC04B2B2B9E Daniel Baumann <daniel> sig:15
+    * 0xF9CA01D5E26A6F28 Alex Pennace <alexp> sig:2
+
+ -- Jonathan McDowell <noodles@earth.li>  Fri, 12 Apr 2013 19:04:25 -0700
+
 debian-keyring (2013.03.29) unstable; urgency=low
 
   [Gunnar Wolf]
@@ -21,7 +96,7 @@ debian-keyring (2013.03.18) unstable; urgency=low
   * Add new DD key 0x6EA4D2311A2D268D (Andrew Shadura) (RT #4217)
   * Add new DD key 0x52B6BBD953968D1B (Dmitry Smirnov) (RT #4218)
   * Add new DD key 0x6611C05EDD39F374 (Jérémy Lal) (RT #4219)
-  * Import canges sent to keyring.debian.org HKP interface:
+  * Import changes sent to keyring.debian.org HKP interface:
     * 0x01B47334E0D49E99 Changwoo Ryu <cwryu> sig:1
     * 0x10510A738501C7FC Sebastian Harl <tokkee> sig:5
     * 0x16281F2E007C98D1 Francois Marier <francois> sig:8
