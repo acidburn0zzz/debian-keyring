@@ -3,6 +3,7 @@ debian-keyring (2013.04.xx) UNRELEASED; urgency=low
   * Move 0x3DAF54A21EEF5276 to removed keyring. (RT #4078)
   * Move 0x73401E35B4FBDAA5 to emeritus (John Hasler) (RT #4269)
   * Add new DM key 0x19755664855E7273 (Simon Chopin) (RT #4265)
+  * Add new DM key 0x025AFE95AC9DF31B (Markus Wanner) (RT #4252)
 
  - Jonathan McDowell <noodles@earth.li>  Sun, 14 Apr 2013 14:26:13 -0700
 
