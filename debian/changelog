@@ -1,3 +1,9 @@
+debian-keyring (2013.04.xx) UNRELEASED; urgency=low
+
+  * Fix Daniel Kahn Gillmor's name in keyids file
+
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 22 Apr 2013 09:27:36 -0700
+
 debian-keyring (2013.04.21) unstable; urgency=low
 
   * Move 0x3DAF54A21EEF5276 to removed keyring. (RT #4078)
