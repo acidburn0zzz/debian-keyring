@@ -7,6 +7,24 @@ debian-keyring (2013.04.xx) UNRELEASED; urgency=low
   * Add new DM key 0x4E9018E0A329126B (Matteo Cypriani) (RT #4253)
   * Replace 0x696436BF575D0A76 with 0x578BD370AAA22456 (Martín Ferrari)
     (RT #4250)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x0DBDD4A661326D40 James Vega <jamessan> sig:13
+    * 0x16281F2E007C98D1 Francois Marier <francois> uid:1 sig:1
+    * 0x3914B532F4DFBE99 Lucas Nussbaum <lucas> uid:1 sig:33
+    * 0x416F061063FEE659 Erinn Clark <erinn> sig:3
+    * 0x46AA1B6A3BFB9FB3 Luca Bruno <lucab> sig:3
+    * 0x5394479DD3524C51 Jonathan Wiltshire <jmw> sig:8
+    * 0x8B7F7D30CAF14EFC UNKNOWN (DM?) sig:5
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:4
+    * 0x9C31503C6D866396 Stefano Zacchiroli <zack> sig:7
+    * 0xB01FEA84617B586D Andreas B. Mundt <andi> sig:3
+    * 0xB6A9BA6AA59B1171 Frédéric-Emmanuel Picca <picca> sig:1
+    * 0xBDC0A0AE06468DEB Federico Di Gregorio <fog> sig:3
+    * 0xCD4B2AF3A0A0AAAA Nico Golde <nion> sig:4
+    * 0xD04BA3A00125D5C0 Philip Hands <philh> sig:2
+    * 0xD8EED7F3C83BFA9A Sebastian Reichel <sre> sig:14
+    * 0xE0CD3CDC59B2D9A0 Matthew Brown <mattb> sub:1 sig:1
+    * 0xFBD5225B588752A1 Chow Loong Jin <hyperair> sig:21
 
  - Jonathan McDowell <noodles@earth.li>  Sun, 14 Apr 2013 14:26:13 -0700
 
