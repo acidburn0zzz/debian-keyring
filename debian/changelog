@@ -1,6 +1,7 @@
 debian-keyring (2013.04.xx) UNRELEASED; urgency=low
 
   * Fix Daniel Kahn Gillmor's name in keyids file
+  * Move 0xB7289B27FED8F826 to emeritus (Cajus Pollmeier) (RT #4274)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 22 Apr 2013 09:27:36 -0700
 
