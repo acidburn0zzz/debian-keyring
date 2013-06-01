@@ -8,6 +8,7 @@ debian-keyring (2013.04.xx) UNRELEASED; urgency=low
     Iniesta) (RT #4437)
   * Replace 0xE15517F22B0920C0 with 0xF114084C08611111 (Loïc Minier) (RT #4447)
   * Add new DM key 0x5C5245265C413520 (Geoffrey Thomas) (RT #4275)
+  * Add new DM key 0xF513C419E4B9D0AC (Emmanuel Bourg) (RT #4291)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 22 Apr 2013 09:27:36 -0700
 
