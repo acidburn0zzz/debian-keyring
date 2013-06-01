@@ -25,6 +25,7 @@ clean:
 	make clean
 	-rm -f foo foo.asc *.bak *~ */*~ debian/files* debian/substvars
 	-rm -rf debian/tmp 
+	mkdir -p output/keyrings
 
 binary-indep: checkroot
 	$(checkdir)

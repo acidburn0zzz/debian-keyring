@@ -142,6 +142,7 @@ debian-keyring (2013.04.21) unstable; urgency=low
     * 0xD8EED7F3C83BFA9A Sebastian Reichel <sre> sig:14
     * 0xE0CD3CDC59B2D9A0 Matthew Brown <mattb> sub:1 sig:1
     * 0xFBD5225B588752A1 Chow Loong Jin <hyperair> sig:21
+  * Create output/keyrings dir in case it has been removed (Closes: #705391)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 21 Apr 2013 19:09:29 -0700
 
