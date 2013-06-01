@@ -1,4 +1,4 @@
-debian-keyring (2013.04.xx) UNRELEASED; urgency=low
+debian-keyring (2013.06.01) unstable; urgency=low
 
   * Fix Daniel Kahn Gillmor's name in keyids file
   * Move 0xB7289B27FED8F826 to emeritus (Cajus Pollmeier) (RT #4274)
@@ -113,7 +113,7 @@ debian-keyring (2013.04.xx) UNRELEASED; urgency=low
     * 0xF6B09645B24BF200 Alejandro Garrido Mota <alejandro> sig:7
     * 0xFBD5225B588752A1 Chow Loong Jin <hyperair> sig:5
 
- -- Jonathan McDowell <noodles@earth.li>  Mon, 22 Apr 2013 09:27:36 -0700
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 01 Jun 2013 15:56:05 -0700
 
 debian-keyring (2013.04.21) unstable; urgency=low
 
