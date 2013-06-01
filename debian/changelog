@@ -4,6 +4,8 @@ debian-keyring (2013.04.xx) UNRELEASED; urgency=low
   * Move 0xB7289B27FED8F826 to emeritus (Cajus Pollmeier) (RT #4274)
   * Remove 0x03E1C1D917BA45CE (Ray Dassen)
   * Replace 0x79897DE7DDC0B70D with 0x840867EE9D8F265C (Kari Pahula) (RT #4306)
+  * Replace 0xC514AF8E4BA401C3 with 0x009B33756B9AAA55 (Alberto Gonzalez
+    Iniesta) (RT #4437)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 22 Apr 2013 09:27:36 -0700
 
