@@ -6,6 +6,7 @@ debian-keyring (2013.04.xx) UNRELEASED; urgency=low
   * Replace 0x79897DE7DDC0B70D with 0x840867EE9D8F265C (Kari Pahula) (RT #4306)
   * Replace 0xC514AF8E4BA401C3 with 0x009B33756B9AAA55 (Alberto Gonzalez
     Iniesta) (RT #4437)
+  * Replace 0xE15517F22B0920C0 with 0xF114084C08611111 (Loïc Minier) (RT #4447)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 22 Apr 2013 09:27:36 -0700
 
