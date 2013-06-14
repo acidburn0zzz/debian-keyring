@@ -1,3 +1,10 @@
+debian-keyring (2013.06.xx) UNRELEASED; urgency=low
+
+  * Replace 0xF98825AC26B47B9F with 0xD14EF15DAFE11347 (Martin Pitt) (RT
+    #4460)
+
+ -- Jonathan McDowell <noodles@earth.li>  Fri, 14 Jun 2013 13:04:57 -0500
+
 debian-keyring (2013.06.01) unstable; urgency=low
 
   * Fix Daniel Kahn Gillmor's name in keyids file
