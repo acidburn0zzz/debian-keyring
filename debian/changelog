@@ -2,6 +2,7 @@ debian-keyring (2013.06.xx) UNRELEASED; urgency=low
 
   * Replace 0xF98825AC26B47B9F with 0xD14EF15DAFE11347 (Martin Pitt) (RT #4455)
   * Add new DD key 0x126EB563A74B06BF (Barry Warsaw) (RT #4486)
+  * Add new DD key 0xD0015BD128F39278 (Boris Pek) (RT #4488)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 14 Jun 2013 13:04:57 -0500
 
