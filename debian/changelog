@@ -11,6 +11,45 @@ debian-keyring (2013.06.xx) UNRELEASED; urgency=low
   * Move 0xAA036173A723E391 to emeritus (Klaus Reimer) (RT #4520)
   * Replace 0x4CB7C22F0E2B1756 with 0x29CEADC9260F0067 (Francesco
     Namuri) (RT #4518, #4493)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x02E93057444DD950 Sandro Tosi <morph> sig:1
+    * 0x2064C53641C25E5D Kurt Roeckx <kroeckx> sig:1
+    * 0x212B306C9396865D Davide G.M. Salvetti <salve> sig:4
+    * 0x357332C45A827A2D Luca Filipozzi <lfilipoz> sig:4
+    * 0x3B17BC742A4E3EAA Anthony Towns <ajt> sig:2
+    * 0x40D716CFE909CDEE Taku YASUI <tach> sig:2
+    * 0x4BA00E72145B6966 Robert Lemmen <robertle> sig:3
+    * 0x4E7160ED4AC8EE1D Michael Stapelberg <stapelberg> sig:2
+    * 0x5394479DD3524C51 Jonathan Wiltshire <jmw> sub:1 sig:1
+    * 0x578BD370AAA22456 Martín Ferrari <tincho> sig:4
+    * 0x6C6580E77BD756C4 Daniel Pocock <pocock> sig:4
+    * 0x6EA4D2311A2D268D Andrew Shadura <andrewsh> sig:9
+    * 0x7731FCCC63E4E277 Roberto C. Sanchez <roberto> sig:3
+    * 0x792152527B75921E Antoine Beaupré <anarcat> sig:6
+    * 0x7F36CF55AA87AA77 Soeren Sonnenburg <sonne> uid:1 sig:2
+    * 0x7FD9FCCB000BEEEE Jim Meyering <meyering> sig:3
+    * 0x82B5B40868C097BC Liang Guo <guoliang> sig:3
+    * 0x97833DC998EF9A49 Thomas Goirand <zigo> sig:3
+    * 0x9C31503C6D866396 Stefano Zacchiroli <zack> sig:12
+    * 0x9D5BD511B7CDA2DC Max Vozeler <xam> sig:20
+    * 0xBDF2A2205E3619D3 Arnaud Fontaine <arnau> uid:1 sig:1
+    * 0xC38E8160A17841FE Aron Xu <aron> sig:7
+    * 0xC3F436CA30F5D8EB Mark Brown <broonie> uid:2 sig:4
+    * 0xC7F7F9660D82A682 Laurent Bigonville <bigon> sig:3
+    * 0xCAFB3BAD0A75C877 Nathan Harrison Handler <nhandler> sig:3
+    * 0xCCD2ED94D21739E9 Daniel Kahn Gillmor <dkg> sig:4
+    * 0xDB4CCC4B2A30D729 Petter Reinholdtsen <pere> sig:2
+    * 0xF41FED8E33FC40A4 Andrea Mennucci <mennucc1> sig:4
+    * 0x14135D277B88D7E5 UNKNOWN (DM?) sig:5
+    * 0x17A165D5F0A25F0E UNKNOWN (DM?) sig:7
+    * 0x290FBE52EEA07609 UNKNOWN (DM?) uid:1 sig:1
+    * 0x29E36B9A01ED3AC7 UNKNOWN (DM?) sig:1
+    * 0x47D23A6E56164AC2 UNKNOWN (DM?) sig:3
+    * 0x51C7482063BA272F UNKNOWN (DM?) sig:6
+    * 0x936A835B678B9796 UNKNOWN (DM?) sig:4
+    * 0xBBC756DDBE595F6B UNKNOWN (DM?) sig:1
+    * 0xBE3219AF3ED41341 UNKNOWN (DM?) sig:2
+    * 0xC063DA3D1600E490 UNKNOWN (DM?) uid:1 sig:4
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 14 Jun 2013 13:04:57 -0500
 
