@@ -8,6 +8,7 @@ debian-keyring (2013.06.xx) UNRELEASED; urgency=low
   * Add new DD key 0x6887935AB297B391 (Sukhbir Singh) (RT #4491)
   * Add new DD key 0x8F7274F307062A38 (Mazen NEIFER) (RT #4492)
   * Add new DD key 0xF5231C62E7843A8C (Russell Stuart) (RT #4487)
+  * Move 0xAA036173A723E391 to emeritus (Klaus Reimer) (RT #4520)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 14 Jun 2013 13:04:57 -0500
 
