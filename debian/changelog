@@ -4,6 +4,7 @@ debian-keyring (2013.07.xx) UNRELEASED; urgency=low
   * Add new DM key 0xF51B18C720248224 (Apollon Oikonomopoulos) (RT #4536)
   * Add new DM key 0xE2DCDD9132669BD6 (Uwe Kleine-König) (RT #4537)
   * Add new DM key 0xED0DD3368DE40924 (Martijn van Brummelen) (RT #4538)
+  * Add new DM key 0xDE6DE039C1CFC265 (Joao Eriberto Mota Filho) (RT #4539)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 15 Jul 2013 04:01:20 +0000
 
