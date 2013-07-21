@@ -7,6 +7,7 @@ debian-keyring (2013.07.xx) UNRELEASED; urgency=low
   * Add new DM key 0xDE6DE039C1CFC265 (Joao Eriberto Mota Filho) (RT #4539)
   * Add new DM key 0xB3A7CF0C801886CF (Salvo Tomaselli) (RT #4540)
   * Add new DM key 0xFE558C72A67013C3 (Maarten Lankhorst) (RT #4560)
+  * Add replacement DD key 0x10252E653A91E527 (Maximilian Attems) (RT #4546)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 15 Jul 2013 04:01:20 +0000
 
