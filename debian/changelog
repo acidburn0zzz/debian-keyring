@@ -8,6 +8,105 @@ debian-keyring (2013.07.xx) UNRELEASED; urgency=low
   * Add new DM key 0xB3A7CF0C801886CF (Salvo Tomaselli) (RT #4540)
   * Add new DM key 0xFE558C72A67013C3 (Maarten Lankhorst) (RT #4560)
   * Add replacement DD key 0x10252E653A91E527 (Maximilian Attems) (RT #4546)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00B45EBD4CA7BABE NIIBE Yutaka <gniibe> sig:36
+    * 0x019F7E073264A5C4 Marcelo Jorge Vieira <metal> sig:6
+    * 0x06C05D875BE41F21 Sebastian Dröge <slomo> sig:9
+    * 0x0B00FB6CEBE2D002 Ulises Vitulli <dererk> sig:7
+    * 0x0EA756B5144843F5 Roland Mas <lolando> sig:1
+    * 0x111E3AA0BFBCC985 Jaime Robles <jaime> sig:3
+    * 0x126EB563A74B06BF Barry Warsaw <barry> uid:1 sig:21
+    * 0x18A0CC8D5706A4B4 Simon Richter <sjr> sig:11
+    * 0x18DD4D72F2CBCA06 UNKNOWN (DM?) sig:43
+    * 0x1AB9332D9E47CF19 UNKNOWN (DM?) sig:1
+    * 0x1D21C83DC452E0FC Kenshi Muto <kmuto> sig:19
+    * 0x1DA8DA33DDCD686A Scott Kitterman <kitterman> sig:2
+    * 0x29BE5D2268FD549F Martin Michlmayr <tbm> sig:2
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:3
+    * 0x32CC4AAC028756FF UNKNOWN (DM?) sig:4
+    * 0x33961588E1C21845 Thijs Kinkhorst <thijs> sig:8
+    * 0x357332C45A827A2D Luca Filipozzi <lfilipoz> sig:6
+    * 0x37E1C17570096AD1 Asheesh Laroia <paulproteus> sig:4
+    * 0x396DA361FE5F1D7F Mathieu Parent <sathieu> sig:2
+    * 0x3C13A8C2D9012EC1 UNKNOWN (DM?) sig:3
+    * 0x3CCEBABE206C3B69 Daniel Silverstone <dsilvers> sig:6
+    * 0x40D716CFE909CDEE Taku YASUI <tach> sig:1
+    * 0x414B84236FECCDE0 Santiago Ruano Rincón <santiago> sig:1
+    * 0x416F061063FEE659 Erinn Clark <erinn> sig:4
+    * 0x462E80ACB7D86E0F Chris Boyle <cmb> sig:1
+    * 0x50C3634D3A291CF9 Philipp Kern <pkern> sig:2
+    * 0x5262E7FF491049FE Jonas Meurer <mejo> sig:2
+    * 0x5586A7DF9F8D08A7 Arthur de Jong <adejong> sig:1
+    * 0x55C9882D999BBCC4 Martin F. Krafft <madduck> sub:1 sig:9
+    * 0x578BD370AAA22456 Martín Ferrari <tincho> uid:1 sig:2
+    * 0x57930DAB0B86B067 Joost van Baal <joostvb> sig:8
+    * 0x58B29F8CF74EC6C8 UNKNOWN (DM?) sig:2
+    * 0x5C5245265C413520 UNKNOWN (DM?) sig:12
+    * 0x5D3CE77FD54F0847 Mark Shuttleworth <marks> sig:11
+    * 0x5E6DEF1C4E2ECA5A Moritz Muehlenhoff <jmm> sig:2
+    * 0x62AF4031C82E0039 Peter Palfrader <weasel> sig:3
+    * 0x62B54B8C11404EC3 Noah Meyerhans <noahm> sig:2
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:6
+    * 0x67DA2448A9A3EDD5 UNKNOWN (DM?) sig:2
+    * 0x6864730DF095E5E4 Marco Nenciarini <mnencia> sig:7
+    * 0x6887935AB297B391 Sukhbir Singh <azadi> uid:1 sig:1
+    * 0x6EA4D2311A2D268D Andrew Shadura <andrewsh> sig:8
+    * 0x71A1FF601BF8DE0F Roland Stigge <stigge> sig:6
+    * 0x72FDC205F6A32A8E Santiago Garcia Mantinan <manty> sig:5
+    * 0x75E20CCD33E749FC Damien Raude-Morvan <drazzib> sig:9
+    * 0x762B57BB784206AD David Bremner <bremner> sub:3 sig:6
+    * 0x7649D1C5B4A4E070 Ed Boraas <ed> sig:2
+    * 0x769FBF4873014091 Robert S. Edmonds <edmonds> uid:1 sig:1
+    * 0x7839619DD439668E Daisuke Higuchi <dai> sig:74
+    * 0x792152527B75921E Antoine Beaupré <anarcat> sig:5
+    * 0x7B1F549072B74923 Rodolfo García Peñas <kix> uid:1 sig:1
+    * 0x7FD9FCCB000BEEEE Jim Meyering <meyering> sig:14
+    * 0x826355E260F7BCB2 UNKNOWN (DM?) sig:1
+    * 0x8A0A48874687AF4F Toni Mueller <toni> sig:6
+    * 0x8A838BE4D8480F2E Jan Lübbe <jluebbe> sig:5
+    * 0x8B6EF2528F075E1D UNKNOWN (DM?) sig:2
+    * 0x8C82169D8ECECD2A Tobias Hansen <thansen> sig:4
+    * 0x8F32B4422F52107F UNKNOWN (DM?) sig:2
+    * 0x8F7274F307062A38 Mazen NEIFER <mazen> sig:3
+    * 0x936A835B678B9796 UNKNOWN (DM?) sig:2
+    * 0x9394F354891D7E07 UNKNOWN (DM?) sig:32
+    * 0x965522B9D49AE731 Christoph Egger <christoph> sig:9
+    * 0x97325DD8F9FDD506 Luke Faraone <lfaraone> sig:6
+    * 0x9DF99BDA11691130 Georges Khaznadar <georgesk> sig:4
+    * 0xA309D76CE1DE59D2 Kai Wasserbäch <curan> sig:16
+    * 0xA4535199E9F2C747 Francesco Lovergine <frankie> sig:10
+    * 0xA82FBB83F3D57033 Dario Minnucci <midget> sig:1
+    * 0xAE07828059A53CC1 UNKNOWN (DM?) sig:2
+    * 0xAF2283AA76E2AC7B Hector Oron <zumbi> sig:4
+    * 0xB01FEA84617B586D Andreas B. Mundt <andi> uid:1 sig:1
+    * 0xB06662EC9C0C1404 NOKUBI Takatsugu <knok> sig:40
+    * 0xB52A9CF4490DFC8D Nicolas Boulenguez <nicolas> sig:2
+    * 0xB9876EB090B36C5B UNKNOWN (DM?) uid:1 sig:1
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:5
+    * 0xC063DA3D1600E490 UNKNOWN (DM?) sig:1
+    * 0xC4D012FFE0163787 Kristoffer Rose <krisrose> sig:3
+    * 0xC90F9CB90E1FAD0C Jo Shields <directhex> sig:2
+    * 0xC97425FBAE4B5D92 Scott M. Dier <sdier> sig:1
+    * 0xCAFB3BAD0A75C877 Nathan Harrison Handler <nhandler> sig:30
+    * 0xCC149F6C28A5E257 TANIGUCHI Takaki <takaki> sig:99
+    * 0xCD4B2AF3A0A0AAAA Nico Golde <nion> sig:4
+    * 0xD0015BD128F39278 Boris Pek <tehnick> uid:1 sig:2
+    * 0xD0178C767D069EE6 Samuel Thibault <sthibault> sub:2 sig:2
+    * 0xD200EB30A0FB5DA6 Gustavo Noronha <kov> sig:20
+    * 0xD27DDE1140A2F113 UNKNOWN (DM?) sig:30
+    * 0xD605848ED7E69871 UNKNOWN (DM?) uid:1 sig:2
+    * 0xDA4958F611E149E9 Cédric Boutillier <boutil> sub:1 sig:1
+    * 0xDB040A13A3D7B9BC Christopher Lawrence <lawrencc> sig:4
+    * 0xDFF738C2D16CFBA2 Simon Paillard <spaillard> sig:8
+    * 0xE40215299C840E81 UNKNOWN (DM?) sig:27
+    * 0xE7F710555409E422 Kamal Mostafa <kamal> sig:4
+    * 0xEDA21E94B565716F UNKNOWN (DM?) sig:5
+    * 0xF118B5951E161AFB Denis Barbier <barbier> sig:2
+    * 0xF5231C62E7843A8C Russell Stuart <ras> sig:10
+    * 0xF675AAE2D2AB2220 Jeremy Malcolm <terminus> uid:1 sig:4
+    * 0xF7F0E70F307D56ED Noèl Köthe <noel> sig:6
+    * 0xF9CA01D5E26A6F28 Alex Pennace <alexp> sig:1
+    * 0xFE22C6FD83135D45 Felix Geyer <fgeyer> sig:21
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 15 Jul 2013 04:01:20 +0000
 
