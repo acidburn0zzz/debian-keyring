@@ -1,4 +1,4 @@
-debian-keyring (2013.07.xx) UNRELEASED; urgency=low
+debian-keyring (2013.07.23) unstable; urgency=low
 
   * Move 0x58B174319DA5CAD8 to emeritus (Philipp Frauenfelder) (RT #4522)
   * Add new DM key 0xF51B18C720248224 (Apollon Oikonomopoulos) (RT #4536)
