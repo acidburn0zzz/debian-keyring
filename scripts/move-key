@@ -1,0 +1,102 @@
+#!/bin/sh
+
+# Copyright (c) 2013 Gunnar Wolf <gwolf@debian.org>,
+#      Based on 2008 Jonathan McDowell <noodles@earth.li>
+# GNU GPL; v2 or later
+# Moves an existing key to another keyring directory
+
+set -e
+
+if [ -z "$1" ] || [ -z "$2" ]; then
+	echo "Usage: move-key keyid dir" >&2
+	exit 1
+fi
+
+key=$1
+destdir=$(readlink -f $2)
+
+# avoid gnupg touching ~/.gnupg
+GNUPGHOME=$(mktemp -d -t jetring.XXXXXXXX)
+export GNUPGHOME
+trap cleanup exit
+cleanup () {
+	rm -rf "$GNUPGHOME"
+}
+
+if [ $(echo -n $key|wc -c) -eq 16 ]; then
+    key='0x'$(echo $key|tr a-z A-Z)
+elif [ $(echo -n $key|wc -c) -eq 40 ] ; then
+    key='0x'$(echo -n $key | cut -b 25-)
+fi
+
+if [ ! -d "$destdir" ] || echo "$destdir"|grep -q -- '-gpg/?$'; then
+    echo "Error: $destdir is not a valid keyring directory" >& 2
+    exit 1
+fi
+
+for dir in *-gpg/; do
+    if [ -f $dir/$key ]; then
+	keyfile=$(readlink -f "$dir/$key")
+	srcdir=$(readlink -f $dir)
+	break
+    fi
+done
+
+if [ "$srcdir" = "$destdir" ]; then
+    echo "Source and destination directories are the same: $srcdir" >& 2
+    exit 1
+fi
+
+if [ -z "$keyfile" ]; then
+    echo "Requested key '$key' not found"
+    exit 1
+fi
+
+keyuser=$(gpg --with-colons --keyid long --options /dev/null --no-auto-check-trustdb < $keyfile| grep '^pub' | cut -d : -f 10)
+
+echo ""
+echo "About to move key $key ($keyuser)"
+echo "   FROM $srcdir"
+echo "     TO $destdir"
+echo "Are you sure you want to update this key? (y/n)"
+read n
+
+if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
+    add_to_keyid=""
+    echo -n "Enter full name of new key's owner: "
+    read name
+    echo -n 'RT issue ID this change closes, if any: '
+    read rtid
+    rtid="(RT #$rtid)"
+
+    if ( echo $destdir | egrep -q 'debian-keyring-gpg/?$' ); then
+	log="Add new DD key $key ($name) $rtid"
+	add_to_keyid=yes
+    elif ( echo $destdir | egrep -q 'debian-nonupload-gpg/?$' ); then
+	log="Add new nonuploading key $key ($name) $rtid"
+	add_to_keyid=yes
+    elif ( echo $destdir | egrep -q 'debian-maintainer-gpg/?$' ); then
+	log="Add new DM key $key ($name) $rtid"
+    elif ( echo $destdir | egrep -q 'debian-emeritus-gpg/?$' ); then
+	log="Move $key to emeritus ($name) $rtid"
+    elif ( echo $destdir | egrep -q 'debian-removed-gpg/?$' ); then
+	log="Move $key ($name) to removed keyring $rtid"
+    fi
+
+    bzr mv $keyfile $destdir
+    dch -D UNRELEASED -a "$log"
+
+    if [ ! -z "$add_to_keyid" ]; then
+	if oldkey=$(grep $key keyids); then
+	    echo "Key already present in the keyids file:"
+	    echo $oldkey
+	else
+	    echo -n "Enter Debian login of new key: "
+	    read login
+	    echo "$key $name <$login>" >> keyids
+	    sort keyids > keyids.$$ && mv keyids.$$ keyids
+	fi
+    fi
+else
+    echo "Not moving key."
+fi

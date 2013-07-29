@@ -9,6 +9,7 @@ debian-keyring (2013.08.xx) UNRELEASED; urgency=low
   * Add new DD key 0x69064B0195206DD3 (Richard Michael Hartmann) (RT
     #4582)
   * Add new DD key 0xCF9A6F914193A197 (Jacob Appelbaum) (RT #4584)
+  * Added "move-key" script to speed up moving keys between keyrings
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 29 Jul 2013 17:51:00 -0500
 

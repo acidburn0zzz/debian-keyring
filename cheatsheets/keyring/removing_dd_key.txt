@@ -8,7 +8,14 @@ Some more verbosity would not hurt... Anyway, little is better than none.
 | # Deal with RT #142
 | # Straightforward resignation, debian-private mail confirmed,
 | # move key to emeritus
-| bzr mv debian-keyring-gpg/0xFCF6DD4539CCF0C7 emeritus-keyring-gpg/
+| ./script/move-key 0xFCF6DD4539CCF0C7 emeritus-keyring-gpg/
+
+The move-key script will move the key from any of the active keyrings
+it is currently located on.
+
+If the key is not moved due to the maintainer explicitly resigning
+(i.e. expelled, deceased, MIA), the key should be moved to the
+removed-keys-gpg keyring.
 
 Changelog entry:
 ------------------------------------------------------------
