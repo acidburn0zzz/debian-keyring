@@ -6,6 +6,8 @@ debian-keyring (2013.08.xx) UNRELEASED; urgency=low
   * Add new DD key 0x02285210789038F2 (Agustin Henze) (RT #4579)
   * Add new DD key 0xB8E5087766475AAF (Nicolas Dandrimont) (RT #4580)
   * Add new nonuploading key 0xC0F8864CDA3D0358 (Brian Gupta) (RT #4581)
+  * Add new DD key 0x69064B0195206DD3 (Richard Michael Hartmann) (RT
+    #4582)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 29 Jul 2013 17:51:00 -0500
 
