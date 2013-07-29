@@ -1,3 +1,9 @@
+debian-keyring (2013.08.xx) UNRELEASED; urgency=low
+
+  * Add new DD key 0xBFECAECBA0E7D8C3 (James Downing Page) (RT #4576)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 29 Jul 2013 17:51:00 -0500
+
 debian-keyring (2013.07.23) unstable; urgency=low
 
   * Move 0x58B174319DA5CAD8 to emeritus (Philipp Frauenfelder) (RT #4522)
