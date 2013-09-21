@@ -5,7 +5,7 @@ debian-keyring (2013.09.xx) UNRELEASED; urgency=low
   * Move 0x5A81AF8E6ADBB200 to emeritus (Michel Daenzer) (RT #4666)
   * Replace 0x5CA450DE52B7487E with 0x7F61756177978F76 (Steinar H.
     Gunderson) (RT #4668)
-  * Add new DM key 0x9D50E144E6357327 (James Hunt) (RT #4674)
+  * Add new DM key 0x9D50E144E6357327 (James Hunt)  (RT #4674)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Fri, 20 Sep 2013 20:21:39 -0500
 
