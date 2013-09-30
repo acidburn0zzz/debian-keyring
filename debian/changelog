@@ -9,6 +9,8 @@ debian-keyring (2013.09.xx) UNRELEASED; urgency=low
   * Replace 0x7867D53C747935DD with 0xFF914AF0C2B35520 (Cyril Brulebois)
     (RT #4692)
   * Add new DM key 0x29572B2F500BF4A2 (Tshepang Lekhonkhobe) (RT #4690)
+  * Add new DM key 0xCD1C4E73AD6D6F33 (Eugenio Cano-Manuel Mendoza) (RT
+    #4689)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Fri, 20 Sep 2013 20:21:39 -0500
 
