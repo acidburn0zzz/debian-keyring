@@ -22,6 +22,8 @@ debian-keyring (2013.09.xx) UNRELEASED; urgency=low
   * Add new DM key 0xD7D3402E0106630C (Eugene Zhukov) (RT #4712)
   * Replace 0x2DCE3F2836D4E4F5 with 0x07B48452768D3824 (Javi Merino) (RT #4700)
   * Replace 0x8E379CB4C99E03CC with 0x9388188B43C30A7D (Jurij Smakov) (RT #4704)
+  * Replace 0x97833DC998EF9A49 with 0xD416AD15AC6B43FE (Thomas Goirland)
+    (RT #4706)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Fri, 20 Sep 2013 20:21:39 -0500
 
