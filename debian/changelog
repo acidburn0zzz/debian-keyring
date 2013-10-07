@@ -33,6 +33,8 @@ debian-keyring (2013.09.xx) UNRELEASED; urgency=low
   * Replace 0x2DAF2A666D67F790 with 0xEA2500B412C59ACF (Anthony Fok) (RT #4684)
   * Replace 0x0CE33C910F9CB28F with 0xFC0DB1BBCD460BDE (Antonio Terceiro)
     (RT #4710)
+  * Replace 0xB96F5C899D928C9B with 0xB972BF3EA4AE57A3 (Guillem Jover)
+    (RT #4714)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Fri, 20 Sep 2013 20:21:39 -0500
 
