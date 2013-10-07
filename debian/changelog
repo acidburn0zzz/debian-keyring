@@ -29,6 +29,7 @@ debian-keyring (2013.09.xx) UNRELEASED; urgency=low
   * Replace 0x1D339C658B8D7663 with 0xA54F018543821484 (Andreas Metzler)
     (RT #4709)
   * Replace 0xB0E198D79057B5D3 with 0xD265C08531ED8AEF (Rémi Vanicat) (RT #4708)
+  * Replace 0x38734D7787901452 with 0x7B7B40AD0F81D93B (Tim Retout) (RT #4716)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Fri, 20 Sep 2013 20:21:39 -0500
 
