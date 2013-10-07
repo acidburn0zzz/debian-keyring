@@ -1,4 +1,4 @@
-debian-keyring (2013.09.xx) UNRELEASED; urgency=low
+debian-keyring (2013.10.07) unstable; urgency=low
 
   [Gunnar Wolf]
   * Replace 0x8F638F961B3045CE with 0xFA0C410738C9D903 (Colin Tuckley)
@@ -150,7 +150,7 @@ debian-keyring (2013.09.xx) UNRELEASED; urgency=low
     * 0xF6D3495BB0AE9A02 Clint Adams <schizo> sig:18
     * 0xF7F0E70F307D56ED Noèl Köthe <noel> sig:5
 
- -- Gunnar Wolf <gwolf@gwolf.org>  Fri, 20 Sep 2013 20:21:39 -0500
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 07 Oct 2013 17:18:01 +0100
 
 debian-keyring (2013.09.07) unstable; urgency=low
 
