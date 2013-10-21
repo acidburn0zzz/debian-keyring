@@ -7,6 +7,43 @@ debian-keyring (2013.10.xx) UNRELEASED; urgency=low
   * Replace 0x0DBDD4A661326D40 with 0xDFE691AE331BA3DB (James McCoy) (RT #4691)
   * Add new DN key 0xDD75EFFD968C5973 (Patty Langasek) (RT #4733)
   * Add new DD key 0x5C13D6DB93052E03 (Christian Hofstaedtler) (RT #4734)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:2
+    * 0x07DC563D1F41B907 Christian Marillat <marillat> sig:3
+    * 0x16281F2E007C98D1 Francois Marier <francois> sig:30
+    * 0x1E7091B1F14A64A2 Aaron M. Ucko <ucko> sig:9
+    * 0x28FA801A43BDD637 UNKNOWN (DM?) sig:8
+    * 0x2AFBD67FD133AC6E Martin Meredith <mez> sig:10
+    * 0x2D4EB3A6015475F5 Jakub Wilk <jwilk> sig:3
+    * 0x39220D6E0C1AFFBB Geert Stappers <stappers> sig:1
+    * 0x41CE7F0B9F1B8B32 Santiago Vila <sanvila> sig:1
+    * 0x46AA1B6A3BFB9FB3 Luca Bruno <lucab> sig:5
+    * 0x4933DAB400EF5DFB Cleto Martín Angelina <cleto> uid:1 sig:1
+    * 0x4E7160ED4AC8EE1D Michael Stapelberg <stapelberg> sig:9
+    * 0x55AD141521E764DF Balint Reczey <rbalint> sig:1
+    * 0x578BD370AAA22456 Martín Ferrari <tincho> sig:19
+    * 0x62AF4031C82E0039 Peter Palfrader <weasel> sig:6
+    * 0x651EEFB02527DF13 UNKNOWN (DM?) uid:2 sig:11
+    * 0x6EA4D2311A2D268D Andrew Shadura <andrewsh> sig:7
+    * 0x6F3E6153163E0577 UNKNOWN (DM?) sig:2
+    * 0x789D6F057FD863FE Salvatore Bonaccorso <carnil> sig:7
+    * 0x7B585B30807C2A87 Paul Richards Tagliamonte <paultag> sig:7
+    * 0x85F15E59F01DFE92 UNKNOWN (DM?) uid:2 sig:16
+    * 0x8CBE219C74576D81 Willi Mann <willi> sig:18
+    * 0x9388188B43C30A7D Jurij Smakov <jurij> sig:3
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:4
+    * 0x9BD2D6409A0C52FA Laszlo Kajan <lkajan> sig:3
+    * 0x9ED078EF4B3A135C Erich Schubert <erich> sig:3
+    * 0xA49E7C3CDE3CCE66 UNKNOWN (DM?) sig:1
+    * 0xB65019C47F7A36F8 UNKNOWN (DM?) sig:8
+    * 0xB82A217AFDFE09F2 David Prévot <taffit> sig:86
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:5
+    * 0xBBC756DDBE595F6B UNKNOWN (DM?) uid:1 sig:4
+    * 0xCAFB3BAD0A75C877 Nathan Harrison Handler <nhandler> sig:3
+    * 0xD8EED7F3C83BFA9A Sebastian Reichel <sre> sig:5
+    * 0xDA4958F611E149E9 Cédric Boutillier <boutil> sig:4
+    * 0xE941DEDA7C5BB6A5 Olivier Berger <obergix> sig:6
+    * 0xF9CA01D5E26A6F28 Alex Pennace <alexp> sig:1
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 20 Oct 2013 17:33:17 -0700
 
