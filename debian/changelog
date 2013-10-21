@@ -3,6 +3,7 @@ debian-keyring (2013.10.xx) UNRELEASED; urgency=low
   * Replace 0xB735A649E0BA04C1 with 0x745C4766D4CACDFF (Ralf Treinen) (RT #4715)
   * Replace 0x633B85285178E2A5 with 0xC0057E714D694FB2 (Dominic Hargreaves)
     (RT #4725)
+  * Replace 0xF7F0E70F307D56ED with 0x68C078BE88F80CDA (Noèl Köthe) (RT #4730)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 20 Oct 2013 17:33:17 -0700
 
