@@ -1,4 +1,4 @@
-debian-keyring (2013.10.xx) UNRELEASED; urgency=low
+debian-keyring (2013.10.20) unstable; urgency=low
 
   * Replace 0xB735A649E0BA04C1 with 0x745C4766D4CACDFF (Ralf Treinen) (RT #4715)
   * Replace 0x633B85285178E2A5 with 0xC0057E714D694FB2 (Dominic Hargreaves)
