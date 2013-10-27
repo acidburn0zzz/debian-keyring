@@ -1,3 +1,10 @@
+debian-keyring (2013.11.xx) UNRELEASED; urgency=low
+
+  * Replace 0xB1C473173E7B4B73 with 0xEED5716B078E43D4 (Lionel Elie
+    Mamane) (RT #4717)
+
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 26 Oct 2013 19:00:21 -0500
+
 debian-keyring (2013.10.20) unstable; urgency=low
 
   * Replace 0xB735A649E0BA04C1 with 0x745C4766D4CACDFF (Ralf Treinen) (RT #4715)
@@ -49,6 +56,7 @@ debian-keyring (2013.10.20) unstable; urgency=low
 
 debian-keyring (2013.10.07) unstable; urgency=low
 
+  [ Jonathan McDowell ]
   [Gunnar Wolf]
   * Replace 0x8F638F961B3045CE with 0xFA0C410738C9D903 (Colin Tuckley)
     (RT #4683)
@@ -198,6 +206,8 @@ debian-keyring (2013.10.07) unstable; urgency=low
     * 0xEDA21E94B565716F UNKNOWN (DM?) sig:3
     * 0xF6D3495BB0AE9A02 Clint Adams <schizo> sig:18
     * 0xF7F0E70F307D56ED Noèl Köthe <noel> sig:5
+
+  [ Gunnar Wolf ]
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 07 Oct 2013 17:18:01 +0100
 
