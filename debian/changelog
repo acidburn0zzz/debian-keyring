@@ -2,8 +2,10 @@ debian-keyring (2013.11.xx) UNRELEASED; urgency=low
 
   * Replace 0xB1C473173E7B4B73 with 0xEED5716B078E43D4 (Lionel Elie
     Mamane) (RT #4717)
+  * Replace 0x2E4008227F4E0E11 with 1E2A2F0B19116AD8  (Bastian Blank)
+    (RT #4744)
 
- -- Jonathan McDowell <noodles@earth.li>  Sat, 26 Oct 2013 19:00:21 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Sat, 26 Oct 2013 19:00:21 -0500
 
 debian-keyring (2013.10.20) unstable; urgency=low
 
