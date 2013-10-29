@@ -4,6 +4,8 @@ debian-keyring (2013.11.xx) UNRELEASED; urgency=low
     Mamane) (RT #4717)
   * Replace 0x2E4008227F4E0E11 with 1E2A2F0B19116AD8  (Bastian Blank)
     (RT #4744)
+  * Replace 0xABB48F0DC3C24BDE with 0xA1E52A7E249BC034 (René Mayrhofer)
+    (RT #4736)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 26 Oct 2013 19:00:21 -0500
 
