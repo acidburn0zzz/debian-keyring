@@ -11,6 +11,7 @@ debian-keyring (2013.11.xx) UNRELEASED; urgency=low
   * Replace 0x88E5D733DD899610 with 0x7E6528DA752F1BE1 (Sylvestre Ledru)
     (RT #4719)
   * Add new DM key 0xA7C9FF063F3D2E03 (Axel Wagner) (RT #4753)
+  * Add new DM key 0x694CADEF51C7B5B6 (Michael Fladischer) (RT #4754)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 26 Oct 2013 19:00:21 -0500
 
