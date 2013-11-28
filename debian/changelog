@@ -18,7 +18,8 @@ debian-keyring (2013.11.xx) UNRELEASED; urgency=low
   * Replace 0x61E98ECF16D970C6 with 0xC256FBD500221E93 (Eric Dorland)
     (RT #4773)
   * Add new DM key 0x47712171F2ED62FB (Elmar S. Heeb) (RT #4775)
-  * Add new DM key 0xBE0C924203F4552D (ChangZhuo Chen (陳昌倬)) (RT #4775)
+  * Add new DM key 0xBE0C924203F4552D (ChangZhuo Chen (陳昌倬)) (RT #4776)
+  * Add new DM key 0x00E89439F228292B (Dima Kogan) (RT #4777)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 26 Oct 2013 19:00:21 -0500
 
