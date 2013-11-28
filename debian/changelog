@@ -8,6 +8,8 @@ debian-keyring (2013.11.xx) UNRELEASED; urgency=low
     (RT #4736)
   * Replace 0x3036AD8EA51A4FDD with 0xACE1F33CB933BBBB (Laszlo
     Boszormenyi) (RT #4780)
+  * Replace 0x88E5D733DD899610 with 0x7E6528DA752F1BE1 (Sylvestre Ledru)
+    (RT #4719)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 26 Oct 2013 19:00:21 -0500
 
