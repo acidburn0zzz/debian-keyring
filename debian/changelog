@@ -28,6 +28,7 @@ debian-keyring (2013.11.xx) UNRELEASED; urgency=low
   * Add new DD key 0x42EE72DAC27319AD (Thomas Bechtold) (RT #4795)
   * Replace 0xB0A4C5A437D9412C with 0x049ED9B94765572E (Gonéri Le Bouder)
     (RT #4616)
+  * Add new DM key 0x50DD5A29FB099999 (Chris Boot) (RT #4801)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 26 Oct 2013 19:00:21 -0500
 
