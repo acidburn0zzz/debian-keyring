@@ -1,4 +1,4 @@
-debian-keyring (2013.12.13) UNRELEASED; urgency=low
+debian-keyring (2013.12.13) unstable; urgency=low
 
   * Actually add DM key 0x4CF2B218F54DAE3D, missed in previous changelog
     entry (RT #4688)
