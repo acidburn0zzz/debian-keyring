@@ -5,6 +5,7 @@ debian-keyring (2014.01.xx) UNRELEASED; urgency=low
   * Add new DM key 0xE5AB5F161CDD0D98 (Diane Trout) (RT #4851)
   * Add new DM key 0x11362600A747ECD9 (Christos Trochalakis) (RT #4852)
   * Add new DM key 0x1318EFAC5FBBDBCE (Ximin Luo) (RT #4855)
+  * Add new DM key 0x4C8EF3DA3FD37230 (Reuben Thomas) (RT #4859)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 06 Jan 2014 10:25:00 +0000
 
