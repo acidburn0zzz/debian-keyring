@@ -12,6 +12,7 @@ debian-keyring (2014.01.xx) UNRELEASED; urgency=low
   * Replace 0x5395CA0DE9ABFCD2 with 0x1E5276729197B5F9 (Devin Carraway)
     (RT #4878)
   * Add new DD key 0x8EEDCC1BAA1F32FF (Vincent Cheng) (RT #4819)
+  * Add new DD key 0xF51B18C720248224 (Apollon Oikonomopoulos) (RT #4900)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 06 Jan 2014 10:25:00 +0000
 
