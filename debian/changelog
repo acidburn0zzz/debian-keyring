@@ -97,6 +97,7 @@ debian-keyring (2014.01.xx) UNRELEASED; urgency=low
     * 0xF1D2CCC8497A176D Loic Dachary <loic> sig:4
     * 0xFBD5225B588752A1 Chow Loong Jin <hyperair> sig:5
     * 0xFDD63BAF588A553F stevenk <Steve Kowalik> sig:1
+  * Move 0x6FA48F011A5A7357 to removed keyring.
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 06 Jan 2014 10:25:00 +0000
 
