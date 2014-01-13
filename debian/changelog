@@ -9,6 +9,8 @@ debian-keyring (2014.01.xx) UNRELEASED; urgency=low
   * Add new DM key 0xEDC8C8240F688E68 (Hector Romojaro Gomez) (RT #4868)
   * Add new DM key 0xD0DF194361283431 (Sergiusz Pawlowicz) (RT #4895)
   * Add new DM key 0x49FBE05382FB4EAD (Timo Weingaertner) (RT #4896)
+  * Replace 0x5395CA0DE9ABFCD2 with 0x1E5276729197B5F9 (Devin Carraway)
+    (RT #4878)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 06 Jan 2014 10:25:00 +0000
 
