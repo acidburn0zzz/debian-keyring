@@ -3,6 +3,7 @@ debian-keyring (2014.01.xx) UNRELEASED; urgency=medium
   * Replace 0xE106481EEDF008C5 with 0x69740E5CB35FEC3C (Eduard Bloch) (RT #4699)
   * Replace 0x81E56287B5CE5497 with 0x04EE131AE6D621BE (Christoph
     Martin) (RT #4854)
+  * Move 0xB93DCA0F1451095B to emeritus (Meike Reichle) (RT #4869)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 24 Jan 2014 12:13:30 -0600
 
