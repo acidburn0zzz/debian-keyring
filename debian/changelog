@@ -10,6 +10,8 @@ debian-keyring (2014.01.xx) UNRELEASED; urgency=medium
     (RT #4918)
   * Replace 0x6F17A5AFC1F24EA4 with 0xC6875F3541CEFDE0 (Stephan Fritsch)
     (RT #4921)
+  * Replace 0xF4B4B0CC797EBFAB with 0x634F4BD1E7AD5568 (Enrico Zini) (RT
+    #4923)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 24 Jan 2014 12:13:30 -0600
 
