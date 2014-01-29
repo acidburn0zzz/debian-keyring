@@ -12,6 +12,8 @@ debian-keyring (2014.01.xx) UNRELEASED; urgency=medium
     (RT #4921)
   * Replace 0xF4B4B0CC797EBFAB with 0x634F4BD1E7AD5568 (Enrico Zini) (RT
     #4923)
+  * Replace 0xCFDA9D8206A7376E with 0x19B267802103329F (Patrick
+    Ouellette) (RT #4926)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 24 Jan 2014 12:13:30 -0600
 
