@@ -16,6 +16,68 @@ debian-keyring (2014.01.xx) UNRELEASED; urgency=medium
     Ouellette) (RT #4926)
   * Replace 0x6864730DF095E5E4 with 0x589F03F01BA55038 (Marco
     Nenciarini) (RT #4928)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00B45EBD4CA7BABE NIIBE Yutaka <gniibe> sub:2 sig:2
+    * 0x04AAE5B397F1AAAC Ulrich Dangel <uli> sig:3
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:2
+    * 0x07B3C8BC4083E800 Roger Leigh <rleigh> sig:2
+    * 0x16281F2E007C98D1 Francois Marier <francois> sig:4
+    * 0x1BD0E4A5D047CDE1 Francisco Moya <paco> sig:3
+    * 0x1E32C3DAB7D2F063 Thibaut Varene <varenet> sig:1
+    * 0x1E7091B1F14A64A2 Aaron M. Ucko <ucko> sig:5
+    * 0x2AFBD67FD133AC6E Martin Meredith <mez> uid:1 sig:4
+    * 0x30550F7871EF0BA8 Yves-Alexis Perez <corsac> sig:4
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:2
+    * 0x393587D97D86500B Colin Watson <cjwatson> sig:12
+    * 0x3EA0F86B794F9D7C Thomas Weber <tweber> sig:3
+    * 0x40E354D9FA26E2EE Stig Sandbeck Mathisen <ssm> sig:24
+    * 0x416F061063FEE659 Erinn Clark <erinn> sig:3
+    * 0x457CE0A0804465C5 Michael Tokarev <mjt> sub:1 sig:1
+    * 0x4933DAB400EF5DFB Cleto Martín Angelina <cleto> sig:4
+    * 0x509880E3F6A10C2D Michael Holzt <kju> sub:1 sig:1
+    * 0x55C9882D999BBCC4 Martin F. Krafft <madduck> sig:4
+    * 0x5C13D6DB93052E03 Christian Hofstaedtler <zeha> sig:16
+    * 0x68530A812B47DCDE Jay Bonci <jaybonci> sig:2
+    * 0x6C6580E77BD756C4 Daniel Pocock <pocock> uid:1 sig:5
+    * 0x759778A9A36B494F Stephen Kitt <skitt> sig:15
+    * 0x7853DA4D49881AD3 Stéphane Glondu <glondu> sig:7
+    * 0x792152527B75921E Antoine Beaupré <anarcat> sig:6
+    * 0x7AFF4B3AC34AA484 Benjamin Seidenberg <benjamin> sig:15
+    * 0x7B585B30807C2A87 Paul Richards Tagliamonte <paultag> sig:10
+    * 0x824294CD0217E8D8 Ivo De Decker <ivodd> sig:6
+    * 0x8B9D310A97C398CB Stefan Pfetzing <dreamind> sig:1
+    * 0x8D55C80D3430D100 Harshula Jayasuriya <harshula> sig:2
+    * 0x8EEDCC1BAA1F32FF Vincent Cheng <vcheng> uid:3 sig:5
+    * 0x9DF99BDA11691130 Georges Khaznadar <georgesk> sig:5
+    * 0xAD295AE1D75F8533 Josselin Mouette <joss> sig:2
+    * 0xB1A9DD82DC814B09 Javier Fernandez-Sanguino Peña <jfs> sig:1
+    * 0xB5022EB582EA653E Anselm Lingnau <lingnau> sig:5
+    * 0xC26C97906D4FC66F Nicolas Boullis <nboullis> sub:1 sig:3
+    * 0xC490643655D3A1E9 Laurence Lane <ljlane> sig:2
+    * 0xC5CE5DC2C542CD59 Adam D. Barratt <adsb> sig:3
+    * 0xC7F7F9660D82A682 Laurent Bigonville <bigon> sig:3
+    * 0xCCD2ED94D21739E9 Daniel Kahn Gillmor <dkg> sig:3
+    * 0xCF489438C5779A1C Manoj Srivastava <srivasta> sig:6
+    * 0xD200EB30A0FB5DA6 Gustavo Noronha <kov> sig:16
+    * 0xD6EFA6AC4B10D847 Tanguy Ortolo <tanguy> uid:1 sig:7
+    * 0xD929F2992BEF0A33 Didier Raboud <odyx> uid:1 sig:27
+    * 0xDA4958F611E149E9 Cédric Boutillier <boutil> sig:21
+    * 0xDB040A13A3D7B9BC Christopher Lawrence <lawrencc> sig:4
+    * 0xE352D5C51C5041D4 Iain Lane <laney> sig:12
+    * 0xE941DEDA7C5BB6A5 Olivier Berger <obergix> sig:4
+    * 0xF51B18C720248224 Apollon Oikonomopoulos <apoikos> uid:1 sig:1
+    * 0x0F8033F0BACAB6C2 UNKNOWN (DM?) uid:1 sig:3
+    * 0x1318EFAC5FBBDBCE UNKNOWN (DM?) uid:3 sig:8
+    * 0x26CAA901117A251E UNKNOWN (DM?) uid:1 sig:1
+    * 0x398D1112D3A4BDE1 UNKNOWN (DM?) sig:19
+    * 0x5C5245265C413520 UNKNOWN (DM?) sig:12
+    * 0x6C8F74AE87700B7E UNKNOWN (DM?) sig:2
+    * 0x7809DD1F83DCC74A UNKNOWN (DM?) sig:41
+    * 0xAE0C84BB0A2368F0 UNKNOWN (DM?) uid:1 sig:11
+    * 0xB012AD8CF19F599F UNKNOWN (DM?) sub:1 sig:1
+    * 0xB9876EB090B36C5B UNKNOWN (DM?) sig:1
+    * 0xBBC756DDBE595F6B UNKNOWN (DM?) sig:9
+    * 0xEC371482956781AF UNKNOWN (DM?) sig:3
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 24 Jan 2014 12:13:30 -0600
 
