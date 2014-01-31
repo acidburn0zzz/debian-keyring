@@ -144,12 +144,17 @@ What the keyrings are
  o debian-keyring.gpg
 
     This is the canonical Debian Developers (DD) keyring.  Anyone who
-    has a key in here is a Debian Developer.
+    has a key in here is an uploading Debian Developer.
 
  o debian-maintainers.gpg
 
    The keyring for Debian Maintainers (DM). Anyone who has a key in
    here is a Debian Maintainer.
+
+ o debian-nonupload.gpg
+
+   This is the keyring for Debian Developers (nonuploading). Anyone
+   who has a key in here is a nonuploading Debian Developer.
 
  o debian-role-keys.gpg
 

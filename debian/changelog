@@ -1,4 +1,4 @@
-debian-keyring (2014.01.xx) UNRELEASED; urgency=medium
+debian-keyring (2014.01.31) unstable; urgency=medium
 
   * Replace 0xE106481EEDF008C5 with 0x69740E5CB35FEC3C (Eduard Bloch) (RT #4699)
   * Replace 0x81E56287B5CE5497 with 0x04EE131AE6D621BE (Christoph
@@ -78,6 +78,7 @@ debian-keyring (2014.01.xx) UNRELEASED; urgency=medium
     * 0xB9876EB090B36C5B UNKNOWN (DM?) sig:1
     * 0xBBC756DDBE595F6B UNKNOWN (DM?) sig:9
     * 0xEC371482956781AF UNKNOWN (DM?) sig:3
+  * Documented in README the debian-nonupload.gpg keyring (Closes: #736454)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 24 Jan 2014 12:13:30 -0600
 
