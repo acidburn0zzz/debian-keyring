@@ -1,3 +1,9 @@
+debian-keyring (2014.02.02) unstable; urgency=medium
+
+  * Remove 0x50DD5A29FB099999 (Chris Boot) from DM keyring.
+
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 02 Feb 2014 21:36:44 +0000
+
 debian-keyring (2014.01.31) unstable; urgency=medium
 
   * Replace 0xE106481EEDF008C5 with 0x69740E5CB35FEC3C (Eduard Bloch) (RT #4699)
