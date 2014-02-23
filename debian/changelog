@@ -7,6 +7,7 @@ debian-keyring (2014.02.XX) UNRELEASED; urgency=medium
   * Add new DM key 0x9F2733F40928D23A (Nick Daly) (RT #4937)
   * Add new DM key 0x84CCF98060F105FE (Klee Dienes) (RT #4938)
   * Add new DM key 0x51A09B18CF5A5068 (Victor Seva) (RT #4963)
+  * Add new DM key 0xAD6916967393982B (Philip Rinn) (RT #4964)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 16 Feb 2014 17:46:36 +0000
 
