@@ -1,5 +1,6 @@
 debian-keyring (2014.02.XX) UNRELEASED; urgency=medium
 
+  [ Jonathan McDowell ]
   * Replace 0x6BCA7AD479EBC4EC with 0x47A47BF84C62CABB (Stefan Bauer) (RT #4958)
   * Add new DM key 0xCEC9942DB7ADB86F (Giulio Paci) (RT #4934)
   * Add new DM key 0x030622245C1E59B4 (Oleg Moskalenko) (RT #4935)
@@ -12,6 +13,10 @@ debian-keyring (2014.02.XX) UNRELEASED; urgency=medium
   * Replace 0x981C5FD7C671257D with 0x482D17E94DADEC2F (David Moreno) (RT #4962)
   * Replace 0x3F4A8A8FE07F1CF9 with 0x78A1B4DFE8F9C57E (Ludovic Rousseau)
     (RT #4720)
+
+  [ Gunnar Wolf ]
+  * Replace 0x429F015B096C4DD3 with 0xDB221A6900000011 (Keith Packard
+    (RT #4620)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 16 Feb 2014 17:46:36 +0000
 
