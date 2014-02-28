@@ -20,6 +20,8 @@ debian-keyring (2014.02.XX) UNRELEASED; urgency=medium
   * Adding key 0xC6D50A4188C70E43 for Patrick Winnertz (winnie) (RT #4946)
   * Replace 0x9C851C72F12DA065 with 0x5299B4990437AC41 (Jan Niehusmann)
     (RT #4948)
+  * Replace 0x1467F0D8E1EE3FB1 with 0xE6FFF1E38DC968B0 (Marco d'Itri) (RT
+    #4941)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 16 Feb 2014 17:46:36 +0000
 
