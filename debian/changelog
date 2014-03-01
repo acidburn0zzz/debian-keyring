@@ -30,6 +30,8 @@ debian-keyring (2014.02.XX) UNRELEASED; urgency=medium
     Monfort) (RT #4982)
   * Replace 0x9FE8B8CD71C5D1A8 with 0xBBC17EBB1396F2F7 (Stuart Prescott)
     (RT #4970)
+  * Replace 0x1DA8DA33DDCD686A with 0x78D7DEFB9AD59AF1 (Daniel Scott
+    Kitterman) (RT #4971)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 16 Feb 2014 17:46:36 +0000
 
