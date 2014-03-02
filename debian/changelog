@@ -52,6 +52,8 @@ debian-keyring (2014.02.XX) UNRELEASED; urgency=medium
     #4984)
   * Replace 0x5E6DEF1C4E2ECA5A with 0x10C293B6C37C4E36 (Moritz
     Mühlenhoff ) (RT #4985)
+  * Replace 0x98083544945348A4 with 0x0D1B6F07658CB036 (Reinhard Tartler
+    ) (RT #4986)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 16 Feb 2014 17:46:36 +0000
 
