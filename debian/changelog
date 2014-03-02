@@ -50,6 +50,8 @@ debian-keyring (2014.02.XX) UNRELEASED; urgency=medium
     (RT #4978)
   * Replace 0x1DBF071150973B91 with 0x819D278A0E6F992A (Phil Brooke) (RT
     #4984)
+  * Replace 0x5E6DEF1C4E2ECA5A with 0x10C293B6C37C4E36 (Moritz
+    Mühlenhoff ) (RT #4985)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 16 Feb 2014 17:46:36 +0000
 
