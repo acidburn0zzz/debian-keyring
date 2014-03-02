@@ -38,6 +38,8 @@ debian-keyring (2014.02.XX) UNRELEASED; urgency=medium
     Ulrichs) (RT #4974)
   * Replace 0x93B991367D61E3E6 with 0xD4F219BFEC998489 (Magnus Holmgren)
     (RT #4939)
+  * Replace 0xD2BF4AA309C5B094 with 0x6CACA448860CDC13 (Norbert
+    Preining) (RT #4973)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 16 Feb 2014 17:46:36 +0000
 
