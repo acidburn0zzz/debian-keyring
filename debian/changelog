@@ -44,6 +44,8 @@ debian-keyring (2014.02.XX) UNRELEASED; urgency=medium
     #4975)
   * Replace 0xEE491C3E0123F2F2 with 0x250533CCA29B764F (Enrico Tassi) (RT
     #4976)
+  * Replace 0x85672E5DDDA51280 with 0x700D567871B28342 (Christian
+    T. Steigies) (RT #4977)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 16 Feb 2014 17:46:36 +0000
 
