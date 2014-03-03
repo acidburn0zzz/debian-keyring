@@ -1,4 +1,4 @@
-debian-keyring (2014.02.XX) UNRELEASED; urgency=medium
+debian-keyring (2014.03.03) unstable; urgency=medium
 
   [ Jonathan McDowell ]
   * Replace 0x6BCA7AD479EBC4EC with 0x47A47BF84C62CABB (Stefan Bauer) (RT #4958)
@@ -173,7 +173,7 @@ debian-keyring (2014.02.XX) UNRELEASED; urgency=medium
     * 0xF82E5CC04B2B2B9E Daniel Baumann <daniel> sig:1
     * 0xFE558C72A67013C3 UNKNOWN (DM?) sig:1
 
- -- Jonathan McDowell <noodles@earth.li>  Sun, 16 Feb 2014 17:46:36 +0000
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 03 Mar 2014 11:50:36 -0600
 
 debian-keyring (2014.02.02) unstable; urgency=medium
 
