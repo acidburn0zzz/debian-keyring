@@ -9,6 +9,10 @@ debian-keyring (2014.03.XX) UNRELEASED; urgency=medium
   [ Jonathan McDowell ]
   * Add new DM key 0xBAAB2CA1B2158909 (Pierre Blanc) (RT #4996)
 
+  [ Gunnar Wolf ]
+  * Replace 0x3EA0F86B794F9D7C with 0xC7FF938B1C1A3E49 (Thomas Weber )
+    (RT #4990)
+
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 03 Mar 2014 21:08:46 -0600
 
 debian-keyring (2014.03.03) unstable; urgency=medium
