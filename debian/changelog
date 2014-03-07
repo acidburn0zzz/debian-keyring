@@ -28,6 +28,8 @@ debian-keyring (2014.03.XX) UNRELEASED; urgency=medium
     keyring (RT #5003)
   * Replace 0xE6AA90171392B174 with 0x0359959479467018 (David Paleino )
     (RT #4994)
+  * Replace 0x0312E8C35D8CDA7B with 0x3F490DEB871EF9FA (Guus Sliepen )
+    (RT #5001)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 03 Mar 2014 21:08:46 -0600
 
