@@ -83,7 +83,7 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 	log="Move $key ($name) to removed keyring $rtid"
     fi
 
-    bzr mv $keyfile $destdir
+    git mv $keyfile $destdir
     dch -D UNRELEASED -a "$log"
 
     if [ ! -z "$add_to_keyid" ]; then

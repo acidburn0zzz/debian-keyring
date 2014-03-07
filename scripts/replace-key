@@ -78,7 +78,7 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 
     log="Replace $oldkey with $newkey ($name) (RT #$rtid)"
 
-    bzr mv $oldkeyfile removed-keys-gpg/
+    git mv $oldkeyfile removed-keys-gpg/
     dch -D UNRELEASED -a "$log"
 
 fi

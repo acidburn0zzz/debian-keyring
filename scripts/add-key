@@ -64,7 +64,7 @@ read n
 if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 	gpg --no-auto-check-trustdb --options /dev/null \
 		--export $keyid > $keydir/0x$keyid
-	bzr add $keydir/0x$keyid
+	git add $keydir/0x$keyid
 	if ( echo $2 | egrep  -q '^(\./)?debian-(keyring|nonupload)-gpg/?$' ); then
 		echo -n "Enter full name of new key: "
 		read name

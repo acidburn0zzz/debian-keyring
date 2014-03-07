@@ -1,0 +1,39 @@
+Git working tree
+----------------
+
+Keyring work is coordinated in the Git tree living in
+/org/keyring.debian.org/master-keyring.git/ at keyring.debian.org
+(which is an alias to kaufmann.debian.org). You need to have an
+account on kaufmann to get access to the working tree. The URL for the
+Git repository is:
+
+ssh://kaufmann.debian.org/org/keyring.debian.org/master-keyring.git/
+
+Note that, before March 2014, we used to work on a Bazaar tree. When
+the tree was imported over to Git, the only bit of lost information
+were the commit signatures. The Bazaar tree up to that point (left at
+commit #1297) is still available in Kaufmann, at
+/org/keyring.debian.org/master-keyring/ (probably we should replace it
+to avoid confusions!).
+
+
+** Note: The following must be updated as well to use a public Git tree!
+> 
+> There is a public copy of the tree we push to whenever we push the
+> updates; it is available at Debian's bzr server:
+> 
+> bzr+ssh://bzr.debian.org/bzr/keyring/debian-keyring
+> 
+> So, when you push a new revision, do:
+> 
+> $ bzr push --create-prefix bzr+ssh://bzr.debian.org/bzr/keyring/debian-keyring
+
+All commits should be GPG-signed. To do so, specify your signing key
+to Git, like:
+
+$ git config user.signingkey 0x0000DEAD0000BEEF
+
+And remember to always specify the '-S' switch when committing!
+
+** Note: A nice Git hook can be of use here to remind us if we're
+   missing -S
