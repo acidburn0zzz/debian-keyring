@@ -20,6 +20,8 @@ debian-keyring (2014.03.XX) UNRELEASED; urgency=medium
     Borgert ) (RT #4995)
   * Replace 0xA1183F8ED1028C8D with 0x02C1D3F2783AA4DE (Kartik Mistry )
     (RT #4997)
+  * Replace 0xB5022EB582EA653E with 0x0EEF2AE4AF8165FC (Anselm Lingnau )
+    (RT #4998)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 03 Mar 2014 21:08:46 -0600
 
