@@ -24,6 +24,8 @@ debian-keyring (2014.03.XX) UNRELEASED; urgency=medium
     (RT #4998)
   * Replace 0x29BE5D2268FD549F with 0x3D0787AAAF6C61DD (Martin Michlmayr
     ) (RT #4999)
+  * Remove 0x7B4D847C7B8E6A47 (Michael Casadevall) from the active
+    keyring (RT #5003)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 03 Mar 2014 21:08:46 -0600
 
