@@ -14,6 +14,8 @@ debian-keyring (2014.03.XX) UNRELEASED; urgency=medium
     (RT #4990)
   * Replace 0xDFFC022A6B113E44 with 0xB87D9ADC46820241 (Mario Lang ) (RT
     #4992)
+  * Replace 0x4D33ACE4C78F687C with 0x41AB484D7694CF42 (Filippo Rusconi
+    ) (RT #4993)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 03 Mar 2014 21:08:46 -0600
 
