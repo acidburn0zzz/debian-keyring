@@ -44,6 +44,8 @@ debian-keyring (2014.03.XX) UNRELEASED; urgency=medium
     Lovergine) (RT #5007)
   * Replace 0xF6EE83B9DF901724 with 0x0C70557B5A06513E (Jan Wagner) (RT
     #5013)
+  * Replace 0x2F3E069EFEC23FB2 with 0x125B57475E190D18 (Barak A.
+    Pearlmutter) (RT #5015)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 03 Mar 2014 21:08:46 -0600
 
