@@ -48,6 +48,7 @@ debian-keyring (2014.03.XX) UNRELEASED; urgency=medium
     Pearlmutter) (RT #5015)
   * Replace 0xF4E66A7CC20DF273 with 0x0C99B70EF4FCBB07 (Ondřej Surý) (RT
     #5014)
+  * Add new DM key 0x211A73C69A7B0FC7 (Dariusz Dwornikowski) (RT #5017)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 03 Mar 2014 21:08:46 -0600
 
