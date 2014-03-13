@@ -32,6 +32,8 @@ debian-keyring (2014.03.XX) UNRELEASED; urgency=medium
     (RT #5001)
   * Replace 0x2BAEE41F0644FAB7 with 0xD183A517BFA98DE6 (Bas Zoetekouw )
     (RT #5002)
+  * Replace 0xE2624966A269D927 with 0xD2CF64921ACE2687 (Jeremy Lainé)
+    (RT #5010)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 03 Mar 2014 21:08:46 -0600
 
