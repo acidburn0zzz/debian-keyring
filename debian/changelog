@@ -40,6 +40,8 @@ debian-keyring (2014.03.XX) UNRELEASED; urgency=medium
     (RT #5009)
   * Replace 0x9306C9BCDAF1054C with 0x5041F1891F44E090 (A. Maitland
     Bottoms) (RT #5005)
+  * Replace 0xA4535199E9F2C747 with 0x0F02A5E1163686A4 (Francesco Paolo
+    Lovergine) (RT #5007)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 03 Mar 2014 21:08:46 -0600
 
