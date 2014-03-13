@@ -42,6 +42,8 @@ debian-keyring (2014.03.XX) UNRELEASED; urgency=medium
     Bottoms) (RT #5005)
   * Replace 0xA4535199E9F2C747 with 0x0F02A5E1163686A4 (Francesco Paolo
     Lovergine) (RT #5007)
+  * Replace 0xF6EE83B9DF901724 with 0x0C70557B5A06513E (Jan Wagner) (RT
+    #5013)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 03 Mar 2014 21:08:46 -0600
 
