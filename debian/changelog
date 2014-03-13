@@ -46,6 +46,8 @@ debian-keyring (2014.03.XX) UNRELEASED; urgency=medium
     #5013)
   * Replace 0x2F3E069EFEC23FB2 with 0x125B57475E190D18 (Barak A.
     Pearlmutter) (RT #5015)
+  * Replace 0xF4E66A7CC20DF273 with 0x0C99B70EF4FCBB07 (Ondřej Surý) (RT
+    #5014)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 03 Mar 2014 21:08:46 -0600
 
