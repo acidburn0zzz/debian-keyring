@@ -21,6 +21,8 @@ debian-keyring (2014.03.XX) UNRELEASED; urgency=medium
     (RT #5025)
   * Replace 0xE890DD36AF2A4968 with 0x600233BA9E54DC61 (Carl Worth)
     (RT #5026)
+  * Replace 0x5A94F3CA0B2713C8 with 0x4330169952D556DB (Ben Armstrong)
+    (RT #5027)
 
   [ Gunnar Wolf ]
   * Replace 0xF628EB934743206C with 0x3D908AB3F0FBF51F (Joachim Breitner)
