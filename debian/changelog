@@ -5,6 +5,8 @@ debian-keyring (2014.03.XX) UNRELEASED; urgency=medium
   * Add new DM key 0xC42C58EB591492FD (Christoph Biedl) (RT #5018)
   * Add replacement DM key 0xF5C83C05D9CEEEEE (Chris Boot) to DM keyring.
     (RT #4954)
+  * Replace 0x0BF778679D025E87 with 0xF6AEF2AFD17897FA (Vincent Danjean)
+    (RT #5019)
 
   [ Gunnar Wolf ]
   * Replace 0xF628EB934743206C with 0x3D908AB3F0FBF51F (Joachim Breitner)
