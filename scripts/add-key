@@ -72,6 +72,7 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 		read login
 		echo "0x$keyid $name <$login>" >> keyids
 		sort keyids > keyids.$$ && mv keyids.$$ keyids
+		git add keyids
 	fi
 else
 	echo "Not adding key."
