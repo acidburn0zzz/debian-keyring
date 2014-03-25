@@ -74,6 +74,8 @@ debian-keyring (2014.03.XX) UNRELEASED; urgency=medium
     (RT #5030)
   * Replace 0x357332C45A827A2D with 0xB5754A69B6BE608C (Luca Filipozzi)
     (RT #5029)
+  * Replace 0x060C4E63B071C40A with 0xD1A539B0B0C3105C (Hwei Sheng Teoh)
+    (RT #5029)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 03 Mar 2014 21:08:46 -0600
 
