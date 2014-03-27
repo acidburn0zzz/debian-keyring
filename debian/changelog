@@ -78,6 +78,8 @@ debian-keyring (2014.03.XX) UNRELEASED; urgency=medium
     (RT #5029)
   * Replace 0xBC5758175230514A with 0xD4ED5223F4E57996 (Shaun Jackman)
     (RT #5029)
+  * Replace 0x7ECDAD406C0084FC with 0x96E3F1336AED591E (Chris Vanden 
+    Berghe) (RT #5035)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 03 Mar 2014 21:08:46 -0600
 
