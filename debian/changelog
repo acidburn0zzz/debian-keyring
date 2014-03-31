@@ -1,3 +1,10 @@
+debian-keyring (2014.04.xx) UNRELEASED; urgency=medium
+
+  * Replace 0x0A300ED090E5CA46 with 0xC6B8598485522E2D (Felipe Augusto
+    van de Wiel) (RT #5042)
+
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 31 Mar 2014 11:04:35 -0600
+
 debian-keyring (2014.03.30) unstable; urgency=medium
 
   [ Jonathan McDowell ]
