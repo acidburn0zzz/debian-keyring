@@ -6,6 +6,8 @@ debian-keyring (2014.04.xx) UNRELEASED; urgency=medium
     (RT #5044)
   * Replace 0x06C05D875BE41F21 with 0x0668CC1486C2D7B5 (Sebastian Dröge)
     (RT #5048)
+  * Replace 0x184452FA268A084D with 0x6C7BFF9E99746B65 (Pablo Lorenzzoni)
+    (RT #5049)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 31 Mar 2014 11:04:35 -0600
 
