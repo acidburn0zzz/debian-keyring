@@ -4,6 +4,8 @@ debian-keyring (2014.04.xx) UNRELEASED; urgency=medium
     van de Wiel) (RT #5042)
   * Replace 0x28FC869A289B82B7 with 0x15CDDA6AE19135A2 (Simon Kelley)
     (RT #5044)
+  * Replace 0x06C05D875BE41F21 with 0x0668CC1486C2D7B5 (Sebastian Dröge)
+    (RT #5048)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 31 Mar 2014 11:04:35 -0600
 
