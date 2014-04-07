@@ -29,7 +29,7 @@ signatures to trickle in to help limit damage to the WoT.
 The Keyring queue at present has a couple of new DDs (which I'll sort
 out within the next week) and some older key replacements. However if
 you look through the closed tickets in that queue you should be able
-to match them up to the bzr commits - anything that came from an RT
+to match them up to the Git commits - anything that came from an RT
 ticket should have the ticket number in the changelog (occasionally
 this doesn't happen, but it's a mistake). Nothing closed should end up
 in the "Keyring - Incoming" queue; it all gets moved to Keyring at the

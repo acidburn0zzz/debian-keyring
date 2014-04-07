@@ -65,8 +65,8 @@ Adding a DM key
       # entry! 
   $ dch -a 'Add new DM key 0x2DCE3F2836D4E4F5 (Javier Merino) (RT #2466) (Closes: #593475)'
 
-  $ bzr commit
-      # And that's it. For the bzr log, we use the following format:
+  $ git commit
+      # And that's it. For the VCS log, we use the following format:
 ------------------------------------------------------------
 Add new DM key $DM_KEY ($DM_NAME) (RT #$RT_NUM)
 

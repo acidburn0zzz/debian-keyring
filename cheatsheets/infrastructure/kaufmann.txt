@@ -6,7 +6,7 @@ mosca$ gpg --clearsign output/sha512sums.txt
 mosca$ mv output/sha512sums.txt.asc output/sha512sums.txt
 mosca$ scp output/sha512sums.txt kaufmann.debian.org://org/keyring.debian.org/master-keyring/output
 mosca$ scp output/keyrings/* kaufmann.debian.org://org/keyring.debian.org/master-keyring/output/keyrings
-mosca$ bzr push --create-prefix bzr+ssh://bzr.debian.org/bzr/keyring/debian-keyring
+mosca$ git push ssh://git.debian.org/git/keyring/keyring.git master
 
 kaufmann$ cat /home/noodles/update-keyrings 
 #!/bin/bash

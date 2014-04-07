@@ -67,7 +67,7 @@ Updating a DD key
   0xFCB0BB5C5F1FBF70 Giovanni Mascellani <gio>
       # We don't delete old kys, but move them to removed-keys-gpg/
 
-  $ bzr mv debian-keyring-gpg/0xFCB0BB5C5F1FBF70 removed-keys-gpg
+  $ git mv debian-keyring-gpg/0xFCB0BB5C5F1FBF70 removed-keys-gpg
   debian-keyring-gpg/0xFCB0BB5C5F1FBF70 => removed-keys-gpg/0xFCB0BB5C5F1FBF70
   
   $ ./scripts/add-key /tmp/key debian-keyring-gpg/
@@ -90,8 +90,8 @@ Updating a DD key
       # entry! 
   $ dch -a 'Replace 0xFCB0BB5C5F1FBF70 with 0x9EDCC991D9AB457E (Giovanni Mascellani) (RT #2473)'
 
-  $ bzr commit
-      # And that's it. For the bzr log, we use the following format:
+  $ git commit
+      # And that's it. For the VCS log, we use the following format:
 ------------------------------------------------------------
 Replace $OLD_KEY with $NEW_KEY ($DD_NAME) (RT #$RT_NUM)
   
