@@ -12,6 +12,7 @@ debian-keyring (2014.04.xx) UNRELEASED; urgency=medium
     (RT #5051)
   * Replace 0x7833ECF1B5444815 with 0x8F0E7C2B4522E387 (Bill Allombert)
     (RT #5053)
+  * Remove Jean-Michel Vourgère's DM key from the active keyring (RT #5054)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 31 Mar 2014 11:04:35 -0600
 
