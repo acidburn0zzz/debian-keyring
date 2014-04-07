@@ -15,6 +15,40 @@ debian-keyring (2014.04.xx) UNRELEASED; urgency=medium
   * Remove Jean-Michel Vourgère's DM key from the active keyring (RT #5054)
   * Replace 0xD7595D374B729625 with 0xB59EB72202D1BC65 (Peter Van Eynde)
     (RT #5047)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00B45EBD4CA7BABE NIIBE Yutaka <gniibe> sub:47 sig:47
+    * 0x00B45EBD4CA7BABE NIIBE Yutaka <gniibe> sub:68 sig:68
+    * 0x099491F791B0D3B7 Dirk Eddelbuettel <edd> sig:2
+    * 0x125B57475E190D18 Barak A. Pearlmutter <bap> sig:16
+    * 0x16281F2E007C98D1 Francois Marier <francois> sig:5
+    * 0x31FCE7E7DD079461 Gerfried Fuchs <rhonda> sig:4
+    * 0x3D908AB3F0FBF51F Joachim Breitner <nomeata> sig:17
+    * 0x4F9F6D550ED6122A Serafeim Zanikolas <sez> sig:6
+    * 0x58C0FB1CDE3B7600 Tristan Seligmann <mithrandi> sig:2
+    * 0x72CF8E5E25B4C293 Matthias Ulrichs <smurf> sub:1 sig:1
+    * 0x76B534B2E99007E0 Thorsten Glaser <tg> sig:5
+    * 0x7C56ACFE947897D8 Anibal Monsalve Salazar <anibal> sig:6
+    * 0x7DFA41AD961985D7 Gennaro Oliva <oliva> sig:4
+    * 0x7EA7A51C29C2BDB6 Ryan M. Golbeck <rmgolbeck> sig:9
+    * 0x813FE83A74974824 Xavier Lüthi <xluthi> sig:17
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:12
+    * 0xAEF6F1A2A7457645 Piotr Ożarowski <piotr> sig:3
+    * 0xB52A9CF4490DFC8D Nicolas Boulenguez <nicolas> sig:2
+    * 0xBACE15D2A57498FF Intrigeri <intrigeri> sig:1
+    * 0xC910D9222512E3C7 Joey Hess <joeyh> sig:6
+    * 0xCE1F9C674512C22A Praveen Arimbrathodiyil <praveen> uid:1 sig:1
+    * 0xCF489438C5779A1C Manoj Srivastava <srivasta> sig:9
+    * 0xD14EF15DAFE11347 Martin Pitt <mpitt> sig:6
+    * 0xD6EFA6AC4B10D847 Tanguy Ortolo <tanguy> sig:56
+    * 0xDA4958F611E149E9 Cédric Boutillier <boutil> sub:3 sig:13
+    * 0xE941DEDA7C5BB6A5 Olivier Berger <obergix> sig:4
+    * 0xF1C9A83C08AA3E9C Ludovic Brenta <lbrenta> uid:1 sig:11
+    * 0xF6B09645B24BF200 Alejandro Garrido Mota <alejandro> sig:4
+    * 0xF6D3495BB0AE9A02 Clint Adams <schizo> sig:27
+    * 0x306A6CBC5388573D Patty Langasek <harmoney> sig:2
+    * 0x5C5245265C413520 UNKNOWN (DM?) sig:3
+    * 0xAE0C84BB0A2368F0 UNKNOWN (DM?) sig:2
+    * 0xBAAB2CA1B2158909 UNKNOWN (DM?) sig:2
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 31 Mar 2014 11:04:35 -0600
 
