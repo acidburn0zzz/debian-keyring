@@ -5,8 +5,8 @@ Maintainer: Debian Keyring Maintainers <keyring-maint@debian.org>
 Uploaders: Jonathan McDowell <noodles@earth.li>, Gunnar Wolf <gwolf@debian.org>, Daniel Kahn Gillmor <dkg@debian.org>
 Homepage: http://keyring.debian.org/
 Standards-Version: 3.9.4
-Vcs-Browser: http://bzr.debian.org/loggerhead/keyring/debian-keyring/files
-Vcs-Bzr: http://bzr.debian.org/keyring/debian-keyring/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=keyring/keyring.git
+Vcs-Git: git://anonscm.debian.org/keyring/keyring.git
 
 Package: debian-keyring
 Architecture: all

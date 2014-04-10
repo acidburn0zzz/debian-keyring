@@ -2,6 +2,7 @@ debian-keyring (2014.04.xx) UNRELEASED; urgency=medium
 
   * Replace 0xD9959620C00E9159 with 0xD91315B964C06556 (Michael Janssen)
     (RT #5057)
+  * Updated debian/control fixing the VCS paths for the Git tree
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 31 Mar 2014 11:04:35 -0600
 
