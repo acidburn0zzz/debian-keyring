@@ -5,6 +5,8 @@ debian-keyring (2014.04.xx) UNRELEASED; urgency=medium
   * Updated debian/control fixing the VCS paths for the Git tree
   * Replace 0xF0E9F6BA3CD95104 with 0x11192892EFD75934 (Kenneth J.
     Pronovici) (RT #5058)
+  * Add new DM key 0x3B5C2C71A218D83C (Jean-Michel Nirgal Vourgère) (RT
+    #5054)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 31 Mar 2014 11:04:35 -0600
 
