@@ -12,6 +12,8 @@ debian-keyring (2014.04.xx) UNRELEASED; urgency=medium
     #5065)
   * Replace 0x5ACFC4840D62001B with 0x07438AA0984A4545 (David Martínez
     Moreno) (RT #5067)
+  * Replace 0x62B54B8C11404EC3 with 0x1CD8D854FE4252C1 (Noah Meyerhans)
+    (RT #5070)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 25 Apr 2014 09:38:35 -0500
 
