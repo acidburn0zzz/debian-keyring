@@ -16,6 +16,7 @@ debian-keyring (2014.04.xx) UNRELEASED; urgency=medium
     (RT #5070)
   * Replace 0x8771348338015E7E with 0x706326432D8522BC (Thaddeus H.
     Black) (RT #5071)
+  * Add new DM key 0xE4DB6492FDB9B5D5 (Aaron Zauner) (RT #5073)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 25 Apr 2014 09:38:35 -0500
 
