@@ -10,6 +10,8 @@ debian-keyring (2014.04.xx) UNRELEASED; urgency=medium
   * Disabling Marcelo Jorge Vieira's key due to compromise (RT #5080)
   * Replace 0x0587B26E45F3FBF9 with 0xE44F8016D3630F89 (John Lightsey) (RT
     #5065)
+  * Replace 0x5ACFC4840D62001B with 0x07438AA0984A4545 (David Martínez
+    Moreno) (RT #5067)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 25 Apr 2014 09:38:35 -0500
 
