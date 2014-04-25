@@ -18,6 +18,11 @@ debian-keyring (2014.04.xx) UNRELEASED; urgency=medium
     Black) (RT #5071)
   * Add new DM key 0xE4DB6492FDB9B5D5 (Aaron Zauner) (RT #5073)
   * Add new DM key 0xF7EE616EE0C20CFF (Teddy Hogeborn) (RT #5072)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00B45EBD4CA7BABE NIIBE Yutaka <gniibe> sub:182 sig:182
+    * 0x9BD2D6409A0C52FA Laszlo Kajan <lkajan> sig:6
+    * 0xBBC17EBB1396F2F7 Stuart Prescott <stuart> sig:3
+    * 0xDF79A374B4071A65 Florian Hinzmann <fh> sig:2
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 25 Apr 2014 09:38:35 -0500
 
