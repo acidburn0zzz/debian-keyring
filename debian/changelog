@@ -14,6 +14,8 @@ debian-keyring (2014.05.xx) UNRELEASED; urgency=medium
     (RT #5086)
   * Replace 0xD4B7DDF7B16CCA95 with 0xBE5CF687DC5AB7C2 (Pascal Giard)
     (RT #5088)
+  * Replace 0x9FCF2CCD3F3E6426 with 0xB999CDB58C8DDBD2 (Guido Günther)
+    (RT #5090)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 05 May 2014 10:04:10 -0500
 
