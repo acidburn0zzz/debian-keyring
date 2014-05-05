@@ -12,6 +12,8 @@ debian-keyring (2014.05.xx) UNRELEASED; urgency=medium
     (RT #5085)
   * Replace 0xE74D29B82BE16D01 with 0xBEBD933335FC140B (Moray Allan)
     (RT #5086)
+  * Replace 0xD4B7DDF7B16CCA95 with 0xBE5CF687DC5AB7C2 (Pascal Giard)
+    (RT #5088)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 05 May 2014 10:04:10 -0500
 
