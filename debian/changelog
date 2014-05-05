@@ -4,6 +4,8 @@ debian-keyring (2014.05.xx) UNRELEASED; urgency=medium
     Maintainers in the package description (Closes: #746993)
   * Replace 0xA72FF66C42BD645D with 0x2FCCF66BB963BD5F (Alexander
     Zangerl) (RT #5081)
+  * Replace 0x38A0AD5BCACAB118 with 0x13EC43EEB9AC8C43 (Jose Luis Rivas
+    Contreras) (RT #5074)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 05 May 2014 10:04:10 -0500
 
