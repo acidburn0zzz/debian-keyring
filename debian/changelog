@@ -8,6 +8,8 @@ debian-keyring (2014.05.xx) UNRELEASED; urgency=medium
     Contreras) (RT #5074)
   * Replace 0xAD295AE1D75F8533 with 0xE78F751770E81554 (Josselin Mouette)
     (RT #5082)
+  * Replace 0x81377E4A8768B1D2 with 0xC274DB64C2300F7B (Sjoerd Simons)
+    (RT #5085)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 05 May 2014 10:04:10 -0500
 
