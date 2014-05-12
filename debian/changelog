@@ -21,6 +21,10 @@ debian-keyring (2014.05.xx) UNRELEASED; urgency=medium
   [ Jonathan McDowell ]
   * Move 0x94483FA354DB33D3 to emeritus (Gaetano Paolone)
 
+  [ Gunnar Wolf ]
+  * Replace 0x89B3EF32CAEAAF03 with 0xB44890DEDE3C9BC0 (Riku Voipio)
+    (RT #5092)
+
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 05 May 2014 10:04:10 -0500
 
 debian-keyring (2014.04.25) unstable; urgency=medium
