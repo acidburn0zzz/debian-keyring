@@ -28,6 +28,8 @@ debian-keyring (2014.05.xx) UNRELEASED; urgency=medium
   * Replace 0xD573D5B129AB4CDD with 0xFFCE1C9A4FADF197 (Jeremy T. Bouse)
     (RT #5060)
   * Add replacement DD key 0x5B924EE310055CD3 (Marcelo Jorge Vieira) (RT #5094)
+  * Replace 0xDB040A13A3D7B9BC with 0xC9FC41B8F98C66CF (Chris Lawrence)
+    (RT #5096)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 05 May 2014 10:04:10 -0500
 
