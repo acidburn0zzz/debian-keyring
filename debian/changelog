@@ -31,6 +31,9 @@ debian-keyring (2014.05.xx) UNRELEASED; urgency=medium
   * Replace 0xDB040A13A3D7B9BC with 0xC9FC41B8F98C66CF (Chris Lawrence)
     (RT #5096)
 
+  [ Gunnar Wolf ]
+  * Replace 0x21672570174FEE35 with 0xFB863251A86F9E47 (Wookey) (RT #5103)
+
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 05 May 2014 10:04:10 -0500
 
 debian-keyring (2014.04.25) unstable; urgency=medium
