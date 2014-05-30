@@ -84,7 +84,7 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
     fi
 
     git mv $keyfile $destdir
-    dch -D UNRELEASED -a "$log"
+    dch --multimaint-merge -D UNRELEASED -a "$log"
 
     if [ ! -z "$add_to_keyid" ]; then
 	if oldkey=$(grep $key keyids); then
