@@ -1,4 +1,4 @@
-debian-keyring (2014.05.xx) UNRELEASED; urgency=medium
+debian-keyring (2014.06.01) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Mention Debian Developers (upl and non-upl) as well as Debian
@@ -237,7 +237,7 @@ debian-keyring (2014.05.xx) UNRELEASED; urgency=medium
     * 0xFDD63BAF588A553F stevenk <Steve Kowalik> sig:4
     * 0xFE22C6FD83135D45 Felix Geyer <fgeyer> sig:7
 
- -- Gunnar Wolf <gwolf@debian.org>  Mon, 05 May 2014 10:04:10 -0500
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 01 Jun 2014 12:49:21 +0100
 
 debian-keyring (2014.04.25) unstable; urgency=medium
 
