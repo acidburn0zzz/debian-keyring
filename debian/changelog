@@ -33,6 +33,7 @@ debian-keyring (2014.05.xx) UNRELEASED; urgency=medium
   * Add replacement DD key 0x5B924EE310055CD3 (Marcelo Jorge Vieira) (RT #5094)
   * Replace 0xDB040A13A3D7B9BC with 0xC9FC41B8F98C66CF (Chris Lawrence)
     (RT #5096)
+  * Add new DM key 0x8716CE4614A452D8 (Sebastien Badia) (RT #5113)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 05 May 2014 10:04:10 -0500
 
