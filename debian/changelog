@@ -1,3 +1,10 @@
+debian-keyring (2014.06.xx) UNRELEASED; urgency=medium
+
+  * Replace 0xD14219877A786561 with 0xCC79866F99409084 (John Wright) (RT
+    #5121)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 10 Jun 2014 13:45:30 -0500
+
 debian-keyring (2014.06.01) unstable; urgency=medium
 
   [ Gunnar Wolf ]
