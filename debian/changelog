@@ -9,6 +9,7 @@ debian-keyring (2014.06.xx) UNRELEASED; urgency=medium
   * Replace 0xF9935424B1DF9A57 with 0x55FF03AE59EC5558 (Giacomo
     Catenazzi) (RT #5127)
   * Add new DD key 0x14135D277B88D7E5 (YunQiang Su) (RT #5126)
+  * Add new DD key 0xA3E3969F6DDEEC86 (Andrey Rahmatullin) (RT #5128)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 10 Jun 2014 13:45:30 -0500
 
