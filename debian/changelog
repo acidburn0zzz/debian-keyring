@@ -11,6 +11,7 @@ debian-keyring (2014.06.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x14135D277B88D7E5 (YunQiang Su) (RT #5126)
   * Add new DD key 0xA3E3969F6DDEEC86 (Andrey Rahmatullin) (RT #5128)
   * Add new DD key 0xCB703165A88984DC (Timo Aaltonen) (RT #5130)
+  * Add new DM key 0xE3ADB00850605636 (Sandro Knauß) (RT #5140)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 10 Jun 2014 13:45:30 -0500
 
