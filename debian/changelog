@@ -24,6 +24,7 @@ debian-keyring (2014.06.xx) UNRELEASED; urgency=medium
     (RT #5148)
   * Replace 0xD14E8526DC47CA16 with 0x0B2796FD15DAA404 (David Weinehall)
     (RT #5151)
+  * Move 0x8D67107C0802640F to removed keyring.
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 10 Jun 2014 13:45:30 -0500
 
