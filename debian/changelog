@@ -1,5 +1,6 @@
 debian-keyring (2014.06.xx) UNRELEASED; urgency=medium
 
+  [ Gunnar Wolf ]
   * Replace 0xD14219877A786561 with 0xCC79866F99409084 (John Wright) (RT
     #5121)
   * Replace 0x07DC563D1F41B907 with 0x5C808C2B65558117 (Christian
@@ -15,6 +16,9 @@ debian-keyring (2014.06.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x8B3D867C823E7A61 (Louis Bouchard) (RT #5141)
   * Replace 0xBAA569D0CBF12A6A with 0x8ED06069037E24F2 (Scott Howard)
     (RT #5136)
+
+  [ Jonathan McDowell ]
+  * Add new DM key 0x516FC68F31496D58 (Thomas Moulard) (RT #5153)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 10 Jun 2014 13:45:30 -0500
 
