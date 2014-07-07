@@ -22,6 +22,8 @@ debian-keyring (2014.06.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xF4E0FE7560B1CB4E (Dimitri Fontaine) (RT #5154)
   * Replace 0xCB6FA340E7075A54 with 0xDDAE12626E141035 (Masayuki Hatta)
     (RT #5148)
+  * Replace 0xD14E8526DC47CA16 with 0x0B2796FD15DAA404 (David Weinehall)
+    (RT #5151)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 10 Jun 2014 13:45:30 -0500
 
