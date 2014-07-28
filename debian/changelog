@@ -10,6 +10,8 @@ debian-keyring (2014.07.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x9A358BAB04A4ED27 (Markus Frosch) (RT #5172)
   * Replace 0xCF9A6F914193A197 with 0x90BC9192B06291B2 (Jacob Appelbaum)
     (RT #5156)
+  * Replace 0x2C045542C9B55DAC with 0x1F0F0A88DE5BCCA6 (Ricardo Mones)
+    (RT #5161)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 28 Jul 2014 14:57:05 +0100
 
