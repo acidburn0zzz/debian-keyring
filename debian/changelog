@@ -12,6 +12,8 @@ debian-keyring (2014.07.xx) UNRELEASED; urgency=medium
     (RT #5156)
   * Replace 0x2C045542C9B55DAC with 0x1F0F0A88DE5BCCA6 (Ricardo Mones)
     (RT #5161)
+  * Replace 0xC40AD676437D328B with 0x5E62533F19765111 (Tzafrir Cohen)
+    (RT #5168)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 28 Jul 2014 14:57:05 +0100
 
