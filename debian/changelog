@@ -6,6 +6,7 @@ debian-keyring (2014.07.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x84CCF98060F105FE (Klee Dienes) (RT #5174)
   * Add new DD key 0xFE558C72A67013C3 (Maarten Bernardus Lankhorst) (RT #5176)
   * Add new DM key 0xD97B2BA886A10CC0 (Daniel Jared Dominguez) (RT #5177)
+  * Add new DD key 0xDECF849AA6357FB7 (Tobias Frost) (RT #5173)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 28 Jul 2014 14:57:05 +0100
 
