@@ -16,6 +16,8 @@ debian-keyring (2014.07.xx) UNRELEASED; urgency=medium
     (RT #5168)
   * Replace 0x1181703204880A44 with 0x7F6022516E869F64 (Andreas Bombe)
     (RT #5178)
+  * Replace 0x71A1FF601BF8DE0F with 0xF41B286258C7B079 (Roland Stigge)
+    (RT #5179)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 28 Jul 2014 14:57:05 +0100
 
