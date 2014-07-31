@@ -1,3 +1,10 @@
+debian-keyring (2014.08.xx) UNRELEASED; urgency=medium
+
+  * Replace 0x89CD4B21607559E6 with 0x9EA33414F5852F4E (Benjamin Mako
+    Hill) (RT #5182)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Thu, 31 Jul 2014 18:20:48 -0500
+
 debian-keyring (2014.07.28) unstable; urgency=medium
 
   * Add new DN key 0x66C0ADDE8B45AC41 (Christophe Siraut) (RT #5137)
