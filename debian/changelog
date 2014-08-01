@@ -4,6 +4,8 @@ debian-keyring (2014.08.xx) UNRELEASED; urgency=medium
     Hill) (RT #5182)
   * Replace 0xB1CA92E8A7D86B95 with 0xE63716F4E069949E (Karl Ramm) (RT
     #5162)
+  * Replace 0x290FBE52EEA07609 with 0x48682904DEE27C7D (Ondřej Čertík)
+    (RT #5170)
 
  -- Gunnar Wolf <gwolf@debian.org>  Thu, 31 Jul 2014 18:20:48 -0500
 
