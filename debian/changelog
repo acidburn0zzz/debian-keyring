@@ -31,6 +31,8 @@ debian-keyring (2014.08.xx) UNRELEASED; urgency=medium
     #757310)
   * Add new DD key 0xBBC756DDBE595F6B (Alexander Chernyakhovsky) (RT
     #5204)
+  * Replace 0x72595EB181704B93 with 0x8FF1CB6E8D89059F (Sylvain Beucler)
+    (RT #5197)
 
  -- Gunnar Wolf <gwolf@debian.org>  Thu, 31 Jul 2014 18:20:48 -0500
 
