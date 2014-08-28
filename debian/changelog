@@ -33,6 +33,8 @@ debian-keyring (2014.08.xx) UNRELEASED; urgency=medium
     #5204)
   * Replace 0x72595EB181704B93 with 0x8FF1CB6E8D89059F (Sylvain Beucler)
     (RT #5197)
+  * Replace 0x3330A21567209BDE with 0xFA643BA61D227AFB (Aigars Mahinovs)
+    (RT #5225)
 
  -- Gunnar Wolf <gwolf@debian.org>  Thu, 31 Jul 2014 18:20:48 -0500
 
