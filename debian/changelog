@@ -15,6 +15,8 @@ debian-keyring (2014.08.xx) UNRELEASED; urgency=medium
     Khaznadar) (RT #5000)
   * Replace 0xEDA21E94B565716F with 0x0664A76954265E8C (Simon Josefsson)
     (RT #5192, #5193)
+  * Replace 0xC61A895E85EE3E0E with 0x798F1E35CB4D38A9 (Dmitry
+    Borodaenko) (RT #5217)
 
  -- Gunnar Wolf <gwolf@debian.org>  Thu, 31 Jul 2014 18:20:48 -0500
 
