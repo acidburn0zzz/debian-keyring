@@ -52,13 +52,14 @@ debian-keyring (2014.08.xx) UNRELEASED; urgency=medium
     Eddelbuettel) (RT #5230)
   * Replace 0x03C0023E05410E97 with 0xD7CF64696A374FBE (Simon Horman)
     (RT #5232)
-
-  [Jonathan McDowell]
-  * Add new DM key 0x28D9A6F364EB7512 (Benjamin Kaduk) (RT #5241)
   * Replace 0x4CA23313A2D8F6BF with 0x95BD42E195D12EF7 (Patrick
     Schoenfeld) (RT #5245)
   * Move 0x1C26ABEAAB474598 to emeritus (Baruch Even)
   * Move 0x04B7317054AD21B5 to emeritus (Eric Warmenhoven)
+  * Add new DD key 0x6026936D2F1C8AE0 (Dmitry Shachnev) (RT #5248)
+
+  [Jonathan McDowell]
+  * Add new DM key 0x28D9A6F364EB7512 (Benjamin Kaduk) (RT #5241)
 
  -- Gunnar Wolf <gwolf@debian.org>  Thu, 31 Jul 2014 18:20:48 -0500
 
