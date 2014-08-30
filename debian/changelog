@@ -62,6 +62,8 @@ debian-keyring (2014.08.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x28D9A6F364EB7512 (Benjamin Kaduk) (RT #5241)
   * Replace 0xED3A39E393674C40 with 0xD36F769BC11804F0 (Theodore Ts'o)
     (RT #5234)
+  * Replace 0x83FFC87BD02F8773 with 0x5BE2EB392C5C4329 (Angus Lees) (RT
+    #5235)
 
  -- Gunnar Wolf <gwolf@debian.org>  Thu, 31 Jul 2014 18:20:48 -0500
 
