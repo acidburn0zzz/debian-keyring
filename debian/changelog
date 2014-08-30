@@ -67,6 +67,8 @@ debian-keyring (2014.08.xx) UNRELEASED; urgency=medium
   [Jonathan McDowell]
   * Add new DM key 0x28D9A6F364EB7512 (Benjamin Kaduk) (RT #5241)
   * Add new DD key 0xF513C419E4B9D0AC (Emmanuel Bourg) (RT #5207)
+  * Add new DM key 0xDFF3AB374F16F73A (Anders Kaseorg) (RT #5202)
+  * Add new DM key 0x036A9C25BF357DD4 (Andrew Page) (RT #5215)
 
   [Gunnar Wolf]
   * Replace 0xA108FBC534A26946 with 0x44173FA13D058888 (Ying-Chun Liu
