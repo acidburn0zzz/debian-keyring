@@ -35,8 +35,8 @@ elif [ $(echo -n $oldkey|wc -c) -eq 40 ] ; then
 fi
 
 for dir in *-gpg/; do
-    if [ -f $dir/$oldkey ]; then
-	oldkeyfile=$(readlink -f "$dir/$oldkey")
+    if [ -f $dir/$key ]; then
+	oldkeyfile=$(readlink -f "$dir/$key")
 	keydir=$(readlink -f $dir)
 	keyring=`basename $keydir`
 	break
@@ -44,7 +44,7 @@ for dir in *-gpg/; do
 done
 
 if [ -z "$oldkeyfile" -o -z "$keydir" ]; then
-    echo "Requested key '$oldkey' not found"
+    echo "Requested key '$oldkey' not found (looked for '*-gpg/$key')"
     exit 1
 fi
 
