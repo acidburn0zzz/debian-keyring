@@ -1,0 +1,80 @@
+#!/usr/bin/python
+
+# Author: Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+# Date: 2014-08-30
+# License: GPLv3+
+
+# For doing keyring-maint tasks with debian LDAP 
+
+import ldap
+import getpass
+import sys
+
+class debldap:
+    def __init__(self):
+        self.l = ldap.initialize("ldaps://db.debian.org")
+
+    def auth(self, uid, password):
+        self.l.simple_bind_s("uid={uid},ou=users,dc=debian,dc=org".format(uid=uid),password)
+
+    def changefpr(self, uid, oldfpr, newfpr):
+        dn = "uid={uid},ou=users,dc=debian,dc=org".format(uid=uid)
+        objs = self.l.search_s(dn, ldap.SCOPE_SUBTREE, "objectclass=*")
+        if not objs:
+            raise BaseException("No objects found matching {dn}".format(dn=dn))
+        for o in objs:
+            if o[0] != dn:
+                raise BaseException("Weird/unexpected dn {new} (expected {old})".format(new=o[0], old=dn))
+            fprs = o[1]['keyFingerPrint']
+            if fprs != [oldfpr]:
+                raise BaseException("old fingerprint was {found}, but we expected {oldfpr}".format(found=fprs, oldfpr=oldfpr))
+            self.l.modify_s(dn, [(ldap.MOD_REPLACE, 'keyFingerPrint', [newfpr])])
+
+
+
+if sys.argv.__len__() != 2:
+    print('''Usage: update-ldap <FILENAME>
+
+FILENAME should be a simple text file, utf8 encoded, where each line
+is a key replacement with three fields separated by a single space:
+
+uid oldfpr newfpr
+''')
+    exit(1)
+
+f = open(sys.argv[1])
+
+x = debldap()
+username = getpass.getuser()
+
+try:
+    passwd = getpass.getpass('Debian LDAP password for {user}: '.format(user=username))
+    x.auth(username, passwd)
+    bound = True
+except BaseException,e:
+    print("Failed to authenticate: {m}".format(m=e.message))
+    exit(1)
+    
+errors = []
+lineno = 0
+successes = 0
+for line in f:
+    lineno += 1
+    user = '<unknown>'
+    try:
+        data = line.strip('\n').split(' ')
+        if data.__len__() != 3:
+            raise BaseException("ignoring malformed line: {line}\n".format(lineno=lineno, line=line))
+        user = data[0]
+        x.changefpr(user, data[1], data[2])
+        successes += 1
+    except BaseException, e:
+        print("{lineno}: {user}: {message}".format(lineno=lineno, user=user,message=str(e.message).strip()))
+        errors.append((lineno, e))
+
+
+print("{errors} errors, {successes} successfully processed".format(successes=successes, errors=errors.__len__()))
+
+if errors:
+    exit(1)
+
