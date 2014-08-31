@@ -1,7 +1,6 @@
 debian-keyring (2014.08.xx) UNRELEASED; urgency=medium
 
   [ Gunnar Wolf ]
-  [Gunnar Wolf]
   * Replace 0x89CD4B21607559E6 with 0x9EA33414F5852F4E (Benjamin Mako
     Hill) (RT #5182)
   * Replace 0xB1CA92E8A7D86B95 with 0xE63716F4E069949E (Karl Ramm) (RT
@@ -64,14 +63,6 @@ debian-keyring (2014.08.xx) UNRELEASED; urgency=medium
     #5235)
   * Replace 0x46801517A1696D2B with 0x95921ED6E9A14344 (Laurent Fousse)
     (RT #5236)
-
-  [Jonathan McDowell]
-  * Add new DM key 0x28D9A6F364EB7512 (Benjamin Kaduk) (RT #5241)
-  * Add new DD key 0xF513C419E4B9D0AC (Emmanuel Bourg) (RT #5207)
-  * Add new DM key 0xDFF3AB374F16F73A (Anders Kaseorg) (RT #5202)
-  * Add new DM key 0x036A9C25BF357DD4 (Andrew Page) (RT #5215)
-
-  [Gunnar Wolf]
   * Replace 0xA108FBC534A26946 with 0x44173FA13D058888 (Ying-Chun Liu
     (PaulLiu)) (RT #5237)
   * Replace 0x21C747D36A461052 with 0x57E7C6324F81391D (Sergei Golovan)
@@ -82,6 +73,12 @@ debian-keyring (2014.08.xx) UNRELEASED; urgency=medium
     (RT #5250)
   * Replace 0x51602C8D005C3B82 with 0xC03242A988D4B7DF (José Miguel
     Parrella Romero) (RT #5257)
+
+  [ Jonathan McDowell ]
+  * Add new DM key 0x28D9A6F364EB7512 (Benjamin Kaduk) (RT #5241)
+  * Add new DD key 0xF513C419E4B9D0AC (Emmanuel Bourg) (RT #5207)
+  * Add new DM key 0xDFF3AB374F16F73A (Anders Kaseorg) (RT #5202)
+  * Add new DM key 0x036A9C25BF357DD4 (Andrew Page) (RT #5215)
 
   [ Daniel Kahn Gillmor ]
   * Replace 0x63D2D5D907F89BB8 with 0xDA03B32626600662 (Ludovico
