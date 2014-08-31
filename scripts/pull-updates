@@ -6,7 +6,7 @@ if [ -z "$1" ] || [ -z "$2" ]; then
 fi
 
 mkdir updates/
-scripts/explode-keyring $1 updates/
+scripts/explode-keyring $1 updates
 
 cd updates
 for i in 0x*; do
