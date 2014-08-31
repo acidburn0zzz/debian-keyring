@@ -10,6 +10,18 @@ import ldap
 import getpass
 import sys
 
+if sys.argv.__len__() != 2 or sys.argv[1] in ['-h', '--help', 'help']:
+    print('''Usage: update-ldap <FILENAME>
+
+FILENAME should be a simple text file, utf8 encoded, where each line
+is a key replacement with three fields separated by a single space:
+
+uid oldfpr newfpr
+''')
+    exit(1)
+
+
+
 class debldap:
     def __init__(self):
         self.l = ldap.initialize("ldaps://db.debian.org")
@@ -31,16 +43,6 @@ class debldap:
             self.l.modify_s(dn, [(ldap.MOD_REPLACE, 'keyFingerPrint', [newfpr])])
 
 
-
-if sys.argv.__len__() != 2:
-    print('''Usage: update-ldap <FILENAME>
-
-FILENAME should be a simple text file, utf8 encoded, where each line
-is a key replacement with three fields separated by a single space:
-
-uid oldfpr newfpr
-''')
-    exit(1)
 
 f = open(sys.argv[1])
 
