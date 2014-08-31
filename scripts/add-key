@@ -77,4 +77,5 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 	fi
 else
 	echo "Not adding key."
+        exit 1
 fi
