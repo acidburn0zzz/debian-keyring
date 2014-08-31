@@ -52,12 +52,13 @@ else
 	gpg --quiet --keyserver keyserver.ubuntu.com --recv-key $1 || true
 	gpg --quiet --keyserver the.earth.li --send-key $1
 fi
-(gpg --keyring output/keyrings/debian-keyring.gpg \
-	--keyring output/keyrings/extra-keys.pgp --fingerprint 0x$keyid
 gpg --keyring output/keyrings/debian-keyring.gpg \
-	--keyring output/keyrings/extra-keys.pgp --check-sigs 0x$keyid ) | \
+	--keyring output/keyrings/extra-keys.pgp --check-sigs \
+        --with-fingerprint --keyid-format 0xlong 0x$keyid | \
 sensible-pager
 
+echo "We want signatures from at least two other DDs."
+echo "If this is a key transition, we also want a signature from the DD's old key."
 echo "Are you sure you want to update this key? (y/n)"
 read n
 
