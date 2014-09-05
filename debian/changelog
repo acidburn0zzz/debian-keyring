@@ -2,7 +2,7 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
 
   * Replace 0x46AA1B6A3BFB9FB3 with 0xBB1A3A854F3BBEBF (Luca Bruno) (RT
     #5265)
-  * Replace F6B09645B24BF200 with 71396D61F1C09EFB (Alejandro Garrido
+  * Replace 0xF6B09645B24BF200 with 0x71396D61F1C09EFB (Alejandro Garrido
     Mota) (RT #5267)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 05 Sep 2014 10:49:44 -0500

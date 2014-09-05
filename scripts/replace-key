@@ -80,7 +80,7 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
     read rtid
     name=$(echo $name | sed -r 's/^ *(.*) *$/\1/')
 
-    log="Replace $oldkey with $newkey ($name) (RT #$rtid)"
+    log="Replace 0x$oldkey with 0x$newkey ($name) (RT #$rtid)"
 
     git mv $oldkeyfile removed-keys-gpg/
     dch  --multimaint-merge -D UNRELEASED -a "$log"
