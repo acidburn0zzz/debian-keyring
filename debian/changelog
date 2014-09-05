@@ -4,6 +4,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     #5265)
   * Replace 0xF6B09645B24BF200 with 0x71396D61F1C09EFB (Alejandro Garrido
     Mota) (RT #5267)
+  * Replace 0xB1A9DD82DC814B09 with 0x8B1F6F48AB257F98 (Javier
+    Fernández-Sanguino Peña) (RT #5269)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 05 Sep 2014 10:49:44 -0500
 
