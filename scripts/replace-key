@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Copyright (c) 2014 Gunnar Wolf <gwolf@debian.org>,
 #      Based on 2008 Jonathan McDowell <noodles@earth.li>
@@ -27,6 +27,10 @@ cleanup () {
 newkeytemp=`mktemp -t newkey.XXXXXXXXX`
 gpg --keyserver hkps.pool.sks-keyservers.net --recv-key "$newkey"
 gpg --export "$newkey" > $newkeytemp
+
+# strip leading 0x from fingerprints
+oldkey=${oldkey##0x}
+newkey=${newkey##0x}
 
 if [ $(echo -n $oldkey|wc -c) -eq 16 ]; then
     key='0x'$(echo $oldkey|tr a-z A-Z)
