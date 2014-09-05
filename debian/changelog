@@ -1,3 +1,10 @@
+debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
+
+  * Replace 0x46AA1B6A3BFB9FB3 with 0xBB1A3A854F3BBEBF (Luca Bruno) (RT
+    #5265)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Fri, 05 Sep 2014 10:49:44 -0500
+
 debian-keyring (2014.08.31) unstable; urgency=medium
 
   [ Gunnar Wolf ]
