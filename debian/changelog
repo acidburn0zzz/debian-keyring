@@ -8,6 +8,7 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     Fernández-Sanguino Peña) (RT #5269)
   * Replace 0xB3753E4D514B3E7C with 0x063741BAF5DD1ECE (Florian Ernst)
     (RT #5270)
+  * Move 0x7AFF4B3AC34AA484 to emeritus (Benjamin Seidenberg)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 05 Sep 2014 10:49:44 -0500
 
