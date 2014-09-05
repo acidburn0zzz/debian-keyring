@@ -19,13 +19,17 @@ newkey=$2
 # avoid gnupg touching ~/.gnupg
 GNUPGHOME=$(mktemp -d -t jetring.XXXXXXXX)
 export GNUPGHOME
+cat  > "$GNUPGHOME"/gpg.conf <<EOF
+keyid-format 0xlong
+keyserver hkps.pool.sks-keyservers.net
+EOF
 trap cleanup exit
 cleanup () {
 	rm -rf "$GNUPGHOME"
 }
 
 newkeytemp=`mktemp -t newkey.XXXXXXXXX`
-gpg --keyserver hkps.pool.sks-keyservers.net --recv-key "$newkey"
+gpg --recv-key "$newkey"
 gpg --export "$newkey" > $newkeytemp
 
 # strip leading 0x from fingerprints
