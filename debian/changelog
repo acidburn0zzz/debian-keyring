@@ -1,5 +1,6 @@
 debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
 
+  [ Gunnar Wolf ]
   * Replace 0x46AA1B6A3BFB9FB3 with 0xBB1A3A854F3BBEBF (Luca Bruno) (RT
     #5265)
   * Replace 0xF6B09645B24BF200 with 0x71396D61F1C09EFB (Alejandro Garrido
@@ -9,6 +10,10 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
   * Replace 0xB3753E4D514B3E7C with 0x063741BAF5DD1ECE (Florian Ernst)
     (RT #5270)
   * Move 0x7AFF4B3AC34AA484 to emeritus (Benjamin Seidenberg)
+
+  [ Daniel Kahn Gillmor ]
+  * Replace 0x7EE852DEE6B78725 with 0x70A8FEE074B3ED3A (Yauheni Kaliuta)
+    (RT #5251)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 05 Sep 2014 10:49:44 -0500
 
