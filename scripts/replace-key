@@ -40,6 +40,9 @@ if [ $(echo -n $oldkey|wc -c) -eq 16 ]; then
     key='0x'$(echo $oldkey|tr a-z A-Z)
 elif [ $(echo -n $oldkey|wc -c) -eq 40 ] ; then
     key='0x'$(echo -n $oldkey | cut -b 25-)
+else
+    echo "Please supply either a long keyid or a full fingerprint for the old key."
+    exit 1
 fi
 
 for dir in *-gpg/; do
