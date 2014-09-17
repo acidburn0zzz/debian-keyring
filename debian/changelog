@@ -31,6 +31,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     Iuculano) (RT #5271)
   * Replace 0x54C24FB53B0BB9A9 with 0x536D57489C2001D0 (Teemu Hukkanen)
     (RT #5274)
+  * Replace 0x51ACF6AD75BE8097 with 0x90DD4120CB09F22F (Florian Lohoff)
+    (RT #5295)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 05 Sep 2014 10:49:44 -0500
 
