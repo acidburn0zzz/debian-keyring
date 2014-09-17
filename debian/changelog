@@ -37,6 +37,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     Hallenberg) (RT #5296)
   * Replace 0xE80FC4C1A8061F32 with 0x1E1356881DD8D791 (Osamu Aoki) (RT
     #5300)
+  * Replace 0x54703CDE1228EB75 with 0x8AEFBE4E76169B60 (Tommi
+    Vainikainen) (RT #5312)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 05 Sep 2014 10:49:44 -0500
 
