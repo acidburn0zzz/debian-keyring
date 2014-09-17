@@ -23,6 +23,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5220)
   * Replace 0x306A6CBC5388573D with 0x28E545808596DC7C (Patty Langasek)
     (RT #5258)
+  * Replace 0xEE25DE3F1CDB0FE3 with 0x0BD9E81139CB4807 (Henrique de
+    Moraes Holschuh) (RT #5231)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 05 Sep 2014 10:49:44 -0500
 
