@@ -19,6 +19,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
   * Move 0x310765FBDF5CE2B4 to emeritus (Simon Huggins) (RT #5292)
   * Move 0x17274627C4FB7099 to emeritus (Matthew Johnson)
   * Replace 0x962483E15662C734 with 0x98CABB3ABD4CA59E (Michael Vogt) (RT #5164)
+  * Replace 0x461F3C17C3DC59FA with 0x449190F3235ABD3B (Brice Goglin)
+    (RT #5220)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 05 Sep 2014 10:49:44 -0500
 
