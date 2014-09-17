@@ -95,5 +95,5 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 
     git mv $oldkeyfile removed-keys-gpg/
     dch  --multimaint-merge -D UNRELEASED -a "$log"
-
+    git add debian/changelog
 fi
