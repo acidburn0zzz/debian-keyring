@@ -25,6 +25,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5258)
   * Replace 0xEE25DE3F1CDB0FE3 with 0x0BD9E81139CB4807 (Henrique de
     Moraes Holschuh) (RT #5231)
+  * Replace 0xB7AC2E51BD41714B with 0xB8B24C06AC128405 (Ben Finney) (RT
+    #5249)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 05 Sep 2014 10:49:44 -0500
 
