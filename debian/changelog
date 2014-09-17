@@ -43,6 +43,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5299)
   * Replace 0xDB6414CA204DDF1B with 0xACC0E41055CA5976 (Arnaud Quette)
     (RT #5298)
+  * Replace 0x6770052BB8C1FA69 with 0x821AEE0FD167FBDF (Sergio Talens-
+    Oliag) (RT #5301)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 05 Sep 2014 10:49:44 -0500
 
