@@ -35,6 +35,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5295)
   * Replace 0xD115D067AA5FD7AC with 0xE337DB93426E4154 (Fredrik
     Hallenberg) (RT #5296)
+  * Replace 0xE80FC4C1A8061F32 with 0x1E1356881DD8D791 (Osamu Aoki) (RT
+    #5300)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 05 Sep 2014 10:49:44 -0500
 
