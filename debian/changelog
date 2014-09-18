@@ -53,6 +53,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5314)
   * Replace 0x385AE490868EFA66 with 0x0F8CE0BF4E85E61B (Stefan Völkel)
     (RT #5318)
+  * Replace 0x98C99E8BDB898410 with 0x26EC67B4FE6CBC8F (Erik Wenzel) (RT
+    #5266)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 05 Sep 2014 10:49:44 -0500
 
