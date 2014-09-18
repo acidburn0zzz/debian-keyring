@@ -1,4 +1,4 @@
-debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
+debian-keyring (2014.09.18) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Replace 0x46AA1B6A3BFB9FB3 with 0xBB1A3A854F3BBEBF (Luca Bruno) (RT
@@ -145,7 +145,7 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     * 0xF6D3495BB0AE9A02 Clint Adams <clint> sig:146
     * 0xFFCE1C9A4FADF197 Jeremy T. Bouse <jbouse> sig:21
 
- -- Gunnar Wolf <gwolf@debian.org>  Fri, 05 Sep 2014 10:49:44 -0500
+ -- Jonathan McDowell <noodles@earth.li>  Thu, 18 Sep 2014 11:43:43 +0100
 
 debian-keyring (2014.08.31) unstable; urgency=medium
 
