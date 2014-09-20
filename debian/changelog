@@ -2,6 +2,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
 
   * Replace 0x8351C3C268AC5746 with 0x049B6D88E31734DB (Robert Alan
     Larson (Blars)) (RT #5344)
+  * Replace 0xB6A9BA6AA59B1171 with 0x5632906F4696E015 (Picca Frédéric-
+    Emmanuel) (RT #5310)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
