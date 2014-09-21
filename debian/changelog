@@ -8,6 +8,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     #5315)
   * Replace 0xAB8C00CFF8E26537 with 0x8D1F969A08EEA756 (Dmitry E.
     Oboukhov) (RT #5346)
+  * Replace 0xC7F521C122B282CA with 0x7403062689664EDE (Vincent
+    Fourmond) (RT #5339)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
