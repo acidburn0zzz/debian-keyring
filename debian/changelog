@@ -10,6 +10,7 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     Oboukhov) (RT #5346)
   * Replace 0xC7F521C122B282CA with 0x7403062689664EDE (Vincent
     Fourmond) (RT #5339)
+  * Move 0x7806CD6F133108EA to Emeritus (Christoph Baumann) (RT #5351)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
