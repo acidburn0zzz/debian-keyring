@@ -27,6 +27,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
   * Move 0x8143F7EEA5E43EA3 to Emeritus (Tom Cato Amundsen)
   * Replace 0x79FCCFD2B0458F4D with 0xA0A9766CDB362222 (Lenart Janos)
     (RT #5309)
+  * Replace 0xE6EF68372CFD1C38 with 0x5750F754ED9B2138 (Jamie Wilkinson)
+    (RT #5326)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
