@@ -35,6 +35,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     Robbins) (RT #5337)
   * Replace 0xA7771D09B55C9C2B with 0xD4330926497D44FE (Gabriele
     Giacone) (RT #5347)
+  * Replace 0xB1195000FD46A698 with 0x3EABB1CB540A7E68 (Ludovic Drolez)
+    (RT #5311)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
