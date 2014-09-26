@@ -31,6 +31,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5326)
   * Replace 0xEF7FDB35D6806145 with 0xE523F220AC8DFBD0 (Adam Majer) (RT
     #5340)
+  * Replace 0xD22D9B3D21DB31C5 with 0xC9E55E2FADC8F4B9 (Steven M.
+    Robbins) (RT #5337)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
