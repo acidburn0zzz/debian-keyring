@@ -37,6 +37,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     Giacone) (RT #5347)
   * Replace 0xB1195000FD46A698 with 0x3EABB1CB540A7E68 (Ludovic Drolez)
     (RT #5311)
+  * Replace 0x96FF6FE4244ACFB7 with 0xC9CA0C62A9E29ABC (Will Newton) (RT
+    #5356)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
