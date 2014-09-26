@@ -22,6 +22,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     Godisch) (RT #5360)
   * Replace 0xBDF2A2205E3619D3 with 0x97C2C6AB313C7B03 (Arnaud Fontaine)
     (RT #5357)
+  * Replace 0x89980D29C0DDC83F with 0x91AD581ADAF6CE93 (Sebastien
+    Delafond) (RT #5353)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
