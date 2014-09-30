@@ -41,6 +41,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     #5356)
   * Replace 0xBDD933B785FEC17F with 0xEF758EAF49FA435C (Kilian Krause)
     (RT #5338)
+  * Replace 0xB6CE704164124E4A with 0x573EF1E4BD5A01FA (Drew Parsons)
+    (RT #5366)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
