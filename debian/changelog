@@ -45,6 +45,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5366)
   * Replace 0x564126F229F19BD1 with 0xDF23DA3396978EB3 (Michael Meskes)
     (RT #5373)
+  * Replace 0x911F4AE686A118E6 with 0x114CAAF608E25893 (Christian
+    Brunotte) (RT #5362)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
