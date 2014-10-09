@@ -66,6 +66,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5276)
   * Replace 0x72043670BDE5F1EE with 0x0BC47DC64D135306 (Andreas
     Henriksson) (RT #5289)
+  * Replace 0x71956D47CD9B9806 with 0xB0894B0104E29C73 (Pietro
+    Battiston) (RT #5268)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
