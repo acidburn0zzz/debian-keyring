@@ -72,6 +72,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5376)
   * Replace 0x842CDB7A44779E18 with 0x081419C30B437A89 (Fabio M. Di
     Nitto) (RT #5279)
+  * Replace 0x9ED078EF4B3A135C with 0x86464F59104378F1 (Erich Schubert)
+    (RT #5378)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
