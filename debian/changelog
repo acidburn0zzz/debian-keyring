@@ -56,6 +56,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     #5253)
   * Replace 0x095E77C579CC6586 with 0xFE038E5950B5A343 (Christoph Haas)
     (RT #5262)
+  * Replace 0x6FEA7E2656F06D01 with 0x69CB827F225EF8F1 (YAEGASHI
+    Takeshi) (RT #5263)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
