@@ -1,5 +1,6 @@
 debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
 
+  [ Gunnar Wolf ]
   * Replace 0x8351C3C268AC5746 with 0x049B6D88E31734DB (Robert Alan
     Larson (Blars)) (RT #5344)
   * Replace 0xB6A9BA6AA59B1171 with 0x5632906F4696E015 (Picca Frédéric-
@@ -49,6 +50,10 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     Brunotte) (RT #5362)
   * Corrected account name of of Hannes von Haugwitzin keyids(Closes:
     #763956)
+
+  [ Jonathan McDowell ]
+  * Replace 0x8196A5446BBA3C84 with 0x8F77201301320442 (Marc Haber) (RT
+    #5253)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
