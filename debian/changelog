@@ -60,6 +60,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     Takeshi) (RT #5263)
   * Replace 0x58C670084597A593 with 0x98B9E4BEEA6CB7B3 (Agustin Martin
     Domingo) (RT #5272)
+  * Replace 0x4F1A998EDA6AE621 with 0xCE7C4AADEA637685 (Dato Simó) (RT
+    #5364)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
