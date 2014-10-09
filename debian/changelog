@@ -64,6 +64,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     #5364)
   * Replace 0xF19BA618924C0C26 with 0x0284F20C2BA97CED (Luigi Gangitano)
     (RT #5276)
+  * Replace 0x72043670BDE5F1EE with 0x0BC47DC64D135306 (Andreas
+    Henriksson) (RT #5289)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
