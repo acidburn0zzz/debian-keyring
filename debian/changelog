@@ -54,6 +54,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
   [ Jonathan McDowell ]
   * Replace 0x8196A5446BBA3C84 with 0x8F77201301320442 (Marc Haber) (RT
     #5253)
+  * Replace 0x095E77C579CC6586 with 0xFE038E5950B5A343 (Christoph Haas)
+    (RT #5262)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
