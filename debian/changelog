@@ -78,6 +78,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5380)
   * Replace 0xEF653E8D5AF4C462 with 0x98561D2D2502FE39 (Cord Beermann)
     (RT #5396)
+  * Replace 0xADE94F6507799E74 with 0x6FE413326DC4B226 (John H.
+    Robinson, IV) (RT #5388)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
