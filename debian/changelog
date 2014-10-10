@@ -76,6 +76,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5378)
   * Replace 0x82F0707088D224B6 with 0xED6434406E34893C (Riccardo Setti)
     (RT #5380)
+  * Replace 0xEF653E8D5AF4C462 with 0x98561D2D2502FE39 (Cord Beermann)
+    (RT #5396)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
