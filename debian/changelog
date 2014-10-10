@@ -94,6 +94,7 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5402)
   * Replace 0x4BA00E72145B6966 with 0x86F5FB8791776115 (Robert Lemmen)
     (RT #5394)
+  * Add new DM key 0x39278DA8109E6244 (Guilhem Moulin) (RT #5368)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
