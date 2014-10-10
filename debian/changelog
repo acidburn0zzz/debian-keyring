@@ -84,6 +84,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     #5389)
   * Replace 0x001CDE6A6B79D401 with 0x99D49B6B00CAD1E5 (Filippo
     Giunchedi) (RT #5391)
+  * Replace 0xCF153232C24B6010 with 0xBC10BD0F7B8BF08B (Matthew Danish)
+    (RT #5392)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
