@@ -80,6 +80,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5396)
   * Replace 0xADE94F6507799E74 with 0x6FE413326DC4B226 (John H.
     Robinson, IV) (RT #5388)
+  * Replace 0x7CD760631557BC10 with 0x1E9310D9ADCE6065 (Matt Kraai) (RT
+    #5389)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
