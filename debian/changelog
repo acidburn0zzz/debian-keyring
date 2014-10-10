@@ -99,6 +99,7 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x56FF9EA4E9846C49 (Iain R. Learmonth) (RT #5370)
   * Add new DM key 0x965089CE6B95F882 (Carlos Alberto Lopez Perez) (RT #5371)
   * Add new DM key 0x0CB18E521B24F3FF (Ralf Jung) (RT #5372)
+  * Add new DM key 0xBC1256AA6AA6EC5E (Stein Magnus Jodal) (RT #5377)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
