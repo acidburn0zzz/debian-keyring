@@ -48,8 +48,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5373)
   * Replace 0x911F4AE686A118E6 with 0x114CAAF608E25893 (Christian
     Brunotte) (RT #5362)
-  * Corrected account name of of Hannes von Haugwitzin keyids(Closes:
-    #763956)
+  * Corrected account name of of Hannes von Haugwitzin keyids
+    (Closes: #763956)
 
   [ Jonathan McDowell ]
   * Replace 0x8196A5446BBA3C84 with 0x8F77201301320442 (Marc Haber) (RT
@@ -95,6 +95,7 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
   * Replace 0x4BA00E72145B6966 with 0x86F5FB8791776115 (Robert Lemmen)
     (RT #5394)
   * Add new DM key 0x39278DA8109E6244 (Guilhem Moulin) (RT #5368)
+  * Add new DM key 0x4B043FCDB9444540 (Mattia Rizzolo) (RT #5369)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
