@@ -92,6 +92,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5400)
   * Replace 0x18A1B1CF0FE53DD9 with 0x5E90DCFA9426876F (Ola Lundqvist)
     (RT #5402)
+  * Replace 0x4BA00E72145B6966 with 0x86F5FB8791776115 (Robert Lemmen)
+    (RT #5394)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
