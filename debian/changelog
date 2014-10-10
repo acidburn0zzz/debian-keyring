@@ -88,6 +88,8 @@ debian-keyring (2014.09.xx) UNRELEASED; urgency=medium
     (RT #5392)
   * Replace 0xD362B62A54B99890 with 0xA459EC6715B0705F (Thorsten
     Alteholz) (RT #5399)
+  * Replace 0x8489B14D8807529B with 0x49C3BF8927553D2E (Guido Trotter)
+    (RT #5400)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 20 Sep 2014 16:53:37 -0500
 
