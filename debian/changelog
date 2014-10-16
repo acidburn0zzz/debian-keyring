@@ -24,6 +24,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
   * Replace 0x24C5CFE4F5521541 with 0x45DB6B56EC2D523D (Jaakko Niemi)
     (RT #5293)
   * Remove 0x18D8A4E2D0EDB64D (Peter Miller)
+  * Replace 0x1E4F6649EA291785 with 0xAA68ECC8E9800953 (Matt Taggart)
+    (RT #5280)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
