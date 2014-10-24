@@ -32,6 +32,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     #5417)
   * Replace 0x5EC42C53D86A66BA with 0x5FA5E75AAB515303 (Patryk Cisek)
     (RT #5401)
+  * Replace 0x9A953C82556ABA51 with 0x7FF0C7423219C4E7 (Francisco Manuel
+    Garcia Claramonte) (RT #5304)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
