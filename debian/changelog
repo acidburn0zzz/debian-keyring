@@ -9,6 +9,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     #5413)
   * Replace 0x5EB9E72A228A3AE4 with 0xF3F431B892CC23AE (John Leuner) (RT
     #5416)
+  * Replace 0x867BF9A9FBD3EB8E with 0x298E9A19AAC0E286 (Robert Collins)
+    (RT #5411)
 
   [ Gunnar Wolf ]
   * Replace 0x28B295C3F46EADBB with 0x515BD7CAEEAE3C13 (Peter De
