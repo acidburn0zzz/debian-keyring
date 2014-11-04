@@ -59,6 +59,7 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     template snippet
   * Add new DM key 0xAEED6158020EAFFF (James Cowgill) (RT #5445)
   * Add new DM key 0xCBEA8E970CCD59DF (Fabian Greffrath) (RT #5443)
+  * Add new DM key 0x0576302FE189D4D2 (Andriy Grytsenko) (RT #5442)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
