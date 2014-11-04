@@ -44,6 +44,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     (RT #5422)
   * Replace 0xCE84E8E795A4F1D6 with 0xA2B73E0DD4DDDC4E (Salvador Abreu)
     (RT #5435)
+  * Replace 0x0BA0EE03EAF19B60 with 0xD5085A0750FDB7A3 (Emanuele Rocca)
+    (RT #5436)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
