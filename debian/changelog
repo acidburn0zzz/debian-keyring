@@ -42,6 +42,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     Garcia Claramonte) (RT #5304)
   * Replace 0x39220D6E0C1AFFBB with 0x2135D123D8C19BEC (Geert Stappers)
     (RT #5422)
+  * Replace 0xCE84E8E795A4F1D6 with 0xA2B73E0DD4DDDC4E (Salvador Abreu)
+    (RT #5435)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
