@@ -40,6 +40,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     (RT #5401)
   * Replace 0x9A953C82556ABA51 with 0x7FF0C7423219C4E7 (Francisco Manuel
     Garcia Claramonte) (RT #5304)
+  * Replace 0x39220D6E0C1AFFBB with 0x2135D123D8C19BEC (Geert Stappers)
+    (RT #5422)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
