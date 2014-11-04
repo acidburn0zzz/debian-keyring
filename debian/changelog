@@ -50,6 +50,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     (RT #5435)
   * Replace 0x0BA0EE03EAF19B60 with 0xD5085A0750FDB7A3 (Emanuele Rocca)
     (RT #5436)
+  * Replace 0x9A55B33CA71C1E00 with 0x201C31294D5843EA (Turbo
+    Fredriksson) (RT #5446)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
