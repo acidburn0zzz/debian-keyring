@@ -59,9 +59,32 @@ if [ -z "$oldkeyfile" -o -z "$keydir" ]; then
     exit 1
 fi
 
+oldkeyfp=$(gpg --with-colons --fingerprint --no-auto-check-trustdb --no-default-keyring --keyring $oldkeyfile| grep '^fpr' | cut -d : -f 10)
+newkeyfp=$(gpg --with-colons --fingerprint --no-auto-check-trustdb --no-default-keyring --keyring $newkeytemp| grep '^fpr' | cut -d : -f 10)
 
-oldkeyuser=$(gpg --with-colons --keyid long --options /dev/null --no-auto-check-trustdb < $oldkeyfile| grep '^pub' | cut -d : -f 10)
-newkeyuser=$(gpg --with-colons --keyid long --options /dev/null --no-auto-check-trustdb < $newkeytemp| grep '^pub' | cut -d : -f 10)
+oldkeydata=$(gpg --with-colons --keyid long --options /dev/null --no-auto-check-trustdb < $oldkeyfile|grep '^pub')
+newkeydata=$(gpg --with-colons --keyid long --options /dev/null --no-auto-check-trustdb < $newkeytemp|grep '^pub')
+oldkeyuser=$(echo $oldkeydata | cut -d : -f 10)
+newkeyuser=$(echo $newkeydata | cut -d : -f 10)
+oldkeylen=$(echo $oldkeydata | cut -d : -f 3)
+newkeylen=$(echo $newkeydata | cut -d : -f 3)
+oldkeyalg=$(echo $oldkeydata | cut -d : -f 4)
+if [ "$oldkeyalg" == "1" ]; then
+    oldkeyalg='R'
+elif [ "$oldkeyalg" == "17" ]; then
+    oldkeyalg='D'
+else
+    oldkeyalg='UNK'
+fi
+newkeyalg=$(echo $newkeydata | cut -d : -f 4)
+if [ "$newkeyalg" == "1" ]; then
+    newkeyalg='R'
+elif [ "$newkeyalg" == "17" ]; then
+    newkeyalg='D'
+else
+    newkeyalg='UNK'
+fi
+echo $oldkeydata
 
 echo ""
 echo "About to replace key $oldkey ($oldkeyuser)"
@@ -78,9 +101,16 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 
     if [ "$keyring" = "debian-keyring-gpg" -o "$keyring" = "debian-nonupload-gpg" ]; then
 	name=`grep $newkey keyids | sed 's/^[^ ]* //'|sed s/\<.*//`
+	account=`grep $newkey keyids | sed 's/.*\<//'|sed s/\>$//`
+	if [ "$keyring" = "debian-nonupload-gpg" ]; then
+	    role='DD-NU'
+	else
+	    role='DD'
+	fi
     elif [ "$keyring" = "debian-maintainers-gpg" ]; then
 	echo -n "Enter full name of new key: "
 	read name
+	role='DM'
     else
 	echo "*** Key to be replaced is of a strange type (not DD, NonUplDD, DM)"
 	echo "    Be sure you are doing the right thing before committing. Double-check"
@@ -96,4 +126,21 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
     git mv $oldkeyfile removed-keys-gpg/
     dch  --multimaint-merge -D UNRELEASED -a "$log"
     git add debian/changelog
+
+    cat > git-commit-template <<EOF
+$log
+
+Action: replace
+Subject: $name
+Username: $account
+Role: $role
+Old-key: $oldkeyfp
+Old-key-type: $oldkeylen$oldkeyalg
+New-key: $newkeyfp
+New-key-type: $newkeylen$newkeyalg
+RT-Ticket: $rtid
+Request-signed-by: \$oldkey
+New-key-certified-by: \$oldkey,
+EOF
+
 fi

@@ -53,6 +53,7 @@ else
 	gpg --quiet --keyserver the.earth.li --send-key $1
 fi
 gpg --keyring output/keyrings/debian-keyring.gpg \
+        --keyring output/keyrings/debian-nonupload.gpg \
 	--keyring output/keyrings/extra-keys.pgp --check-sigs \
         --with-fingerprint --keyid-format 0xlong 0x$keyid | \
 sensible-pager

@@ -54,6 +54,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     Fredriksson) (RT #5446)
   * Replace 0x02E93057444DD950 with 0xFE8D78F9FE4F4E10 (Sandro Tosi) (RT
     #5428)
+  * Fixed add-key and replace-key to generate a proper git-commit-
+    template snippet
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
