@@ -57,8 +57,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     #5428)
   * Fixed add-key and replace-key to generate a proper git-commit-
     template snippet
-  * Add new DM key 0xAEED6158020EAFFF James Cowgill)
-    <james410@cowgill.org.uk>
+  * Add new DM key 0xAEED6158020EAFFF (James Cowgill) (RT #5445)
+  * Add new DM key 0xCBEA8E970CCD59DF (Fabian Greffrath) (RT #5443)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
