@@ -19,6 +19,7 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     (RT #5422)
   * Replace 0xE93ABC69A7BE5AB0 with 0x35C8C88872CB1EED (Antonio Radici)
     (RT #5430)
+  * Add new DD key 0x8062398983B2CF7A (Matteo F. Vescovi) (RT #5433)
 
   [ Gunnar Wolf ]
   * Replace 0x28B295C3F46EADBB with 0x515BD7CAEEAE3C13 (Peter De
