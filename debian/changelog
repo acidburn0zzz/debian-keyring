@@ -62,6 +62,7 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x0576302FE189D4D2 (Andriy Grytsenko) (RT #5442)
   * Add new DM key 0x61F3442674DE6624 (Andreas Moog) (RT #5441)
   * Add new DM key 0xAC90AC3EC524065E (Hugo Lefeuvre) (RT #5439)
+  * Add new DM key 0x37F99F68CAF992EB (Jordan Justen) (RT #5440)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
