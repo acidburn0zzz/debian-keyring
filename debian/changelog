@@ -70,6 +70,7 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
   * Replace 0xBF1E9D1F76D52AC4 with 0x3BBF839336ECA931 (Michael
     Tautschnig) (RT #5450)
   * Move 0x53E8165BEBEDB32B to Emeritus (Christopher Martin)
+  * Move 0x7EDE8735DC426429 to Emeritus (Frank Thomas)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
