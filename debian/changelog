@@ -23,6 +23,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
   * Move 0xBD099FA292DC02A9 to emeritus (Petr Ročkai) (RT #5465)
   * Replace 0x2207C594EC97089D with 0xC2AEDB1447EDD321 (Giuseppe Sacco)
     (RT #5457)
+  * Replace 0x7DB96D2E36EE0861 with 0x5F8E6BE0928FFAFA (Miriam Ruiz) (RT
+    #5458)
 
   [ Gunnar Wolf ]
   * Replace 0x28B295C3F46EADBB with 0x515BD7CAEEAE3C13 (Peter De
