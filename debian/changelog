@@ -31,6 +31,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     (RT #5462)
   * Replace 0x462E80ACB7D86E0F with 0x17B1CA7D64089528 (Chris Boyle) (RT
     #5468)
+  * Replace 0xF118B5951E161AFB with 0xE81D75E2ADBCB60D (Denis Barbier)
+    (RT #5470)
 
   [ Gunnar Wolf ]
   * Replace 0x28B295C3F46EADBB with 0x515BD7CAEEAE3C13 (Peter De
