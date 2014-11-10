@@ -97,6 +97,7 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
   * Move 0xC910D9222512E3C7 to Emeritus (Joey Hess) (RT: #5476)
   * Replace 0x3ED7095569C0FA93 with 0x9F9B356CA7BDB751 (Tamas Szerb) (RT
     #5252)
+  * Move 0x21319B944C1A5BE5 to Emeritus (Stephen Quinney)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
