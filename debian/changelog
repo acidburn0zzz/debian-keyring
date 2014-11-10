@@ -41,6 +41,7 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     (RT #5469)
   * Replace 0x085A9B327C2CAEB8 with 0x0747BD39BCFCAAAA (Rogério Theodoro
     de Brito) (RT #5461)
+  * Move 0xF675AAE2D2AB2220 to emeritus (Jeremy Malcolm)
 
   [ Gunnar Wolf ]
   * Replace 0x28B295C3F46EADBB with 0x515BD7CAEEAE3C13 (Peter De
