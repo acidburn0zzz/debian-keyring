@@ -44,6 +44,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
   * Move 0xF675AAE2D2AB2220 to emeritus (Jeremy Malcolm)
   * Replace 0xBE3CED47C6CEA0C9 with 0x83401A30B1CDE58F (Adam Conrad) (RT
     #5481)
+  * Replace 0x8A1D99BF0D7CA701 with 0x37C2B4F8642139FF (Uwe Steinmann)
+    (RT #5473)
 
   [ Gunnar Wolf ]
   * Replace 0x28B295C3F46EADBB with 0x515BD7CAEEAE3C13 (Peter De
