@@ -50,6 +50,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     (RT #5479)
   * Replace 0x61C749B1C77828D4 with 0x4FFB060C9EC70B95 (John Ferlito)
     (RT #5471)
+  * Replace 0x2BF8EE2B7F961564 with 0x8473062B7CF094BA (Fabio
+    Tranchitella) (RT #5475)
 
   [ Gunnar Wolf ]
   * Replace 0x28B295C3F46EADBB with 0x515BD7CAEEAE3C13 (Peter De
