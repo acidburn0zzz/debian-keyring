@@ -54,6 +54,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     Tranchitella) (RT #5475)
   * Replace 0x32175C0DC1027A0E with 0x44975278B8612B5D (Gregory Colpart)
     (RT #5464)
+  * Replace 0x37E1C17570096AD1 with 0xEC4B033C70096AD1 (Asheesh Laroia)
+    (RT #5482)
 
   [ Gunnar Wolf ]
   * Replace 0x28B295C3F46EADBB with 0x515BD7CAEEAE3C13 (Peter De
