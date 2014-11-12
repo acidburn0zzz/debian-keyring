@@ -57,6 +57,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
   * Replace 0x37E1C17570096AD1 with 0xEC4B033C70096AD1 (Asheesh Laroia)
     (RT #5482)
   * Move 0x1DE4F44021275CC4 to emeritus (Arthur Loiret)
+  * Replace 0xF7180D26AEDAA642 with 0xD62E4F5B041390BC (Tobias Grimm)
+    (RT #5472)
 
   [ Gunnar Wolf ]
   * Replace 0x28B295C3F46EADBB with 0x515BD7CAEEAE3C13 (Peter De
