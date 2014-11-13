@@ -134,6 +134,7 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     (RT #5489)
   * Replace 0x60F960A19A540E39 with 0xF50EFDCF8AD04B1A (Philipp Matthias
     Hahn) (RT #5488)
+  * Add new DN key 0xF5B8B2E02AF31308 (Tássia Camões Araújo) (RT #5480)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
