@@ -120,6 +120,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
   * Move 0x859FEF67258E26B1 to emeritus (Julien Valroff)
   * Replace 0x73DF8DAB0A327652 with 0x4157ED054116CFEA (Thomas Schmidt)
     (RT #5478)
+  * Replace 0xDA460E47EE6DC66A with 0xEAA638FAC4794DAF (Jaldhar H. Vyas)
+    (RT #5489)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
