@@ -122,6 +122,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     (RT #5478)
   * Replace 0xDA460E47EE6DC66A with 0xEAA638FAC4794DAF (Jaldhar H. Vyas)
     (RT #5489)
+  * Replace 0x60F960A19A540E39 with 0xF50EFDCF8AD04B1A (Philipp Matthias
+    Hahn) (RT #5488)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
