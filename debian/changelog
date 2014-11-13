@@ -118,6 +118,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
   * Move 0x21319B944C1A5BE5 to Emeritus (Stephen Quinney)
   * Move 0xDAD5A719BCC131DE to Emeritus (Remco van de Meent)
   * Move 0x859FEF67258E26B1 to emeritus (Julien Valroff)
+  * Replace 0x73DF8DAB0A327652 with 0x4157ED054116CFEA (Thomas Schmidt)
+    (RT #5478)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
 
