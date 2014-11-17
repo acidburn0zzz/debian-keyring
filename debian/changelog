@@ -63,6 +63,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     Trojette) (RT #5493)
   * Replace 0xBADBEFA9B4D6DE13 with 0x32F78DCEAD113B8B (Paul Slootman)
     (RT #5495)
+  * Replace 0xCF49D0E68A2FAFBC with 0x3798AF15A1565658 (Matthijs
+    Kooijman) (RT #5498)
 
   [ Gunnar Wolf ]
   * Replace 0x28B295C3F46EADBB with 0x515BD7CAEEAE3C13 (Peter De
