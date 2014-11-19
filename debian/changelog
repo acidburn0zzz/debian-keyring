@@ -86,6 +86,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     Raemdonck) (RT #5505)
   * Replace 0x9CCBDA1601FA8B4A with 0x1A30765DF1F0D3ED (Sune Vuorela)
     (RT #5506)
+  * Replace 0xD286CE0C0C62B791 with 0x4B53D931E4D3E863 (Andrew Ruthven)
+    (RT #5431)
 
   [ Gunnar Wolf ]
   * Replace 0x28B295C3F46EADBB with 0x515BD7CAEEAE3C13 (Peter De
