@@ -297,6 +297,7 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     * 0xFE038E5950B5A343 Christoph Haas <haas> uid:1 sig:18
     * 0xFF914AF0C2B35520 Cyril Brulebois <kibi> sig:27
     * 0xFFCE1C9A4FADF197 Jeremy T. Bouse <jbouse> sig:1
+  * Move 0x141138DDA3E45D66 (Alexander Neumann) to removed keyring.
 
   [ Gunnar Wolf ]
   * Replace 0x28B295C3F46EADBB with 0x515BD7CAEEAE3C13 (Peter De
