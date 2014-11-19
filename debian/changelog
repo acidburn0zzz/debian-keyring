@@ -70,6 +70,8 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
   * Replace 0x212B306C9396865D with 0x2EC615B2E8D3A535 (Davide G. M.
     Salvetti) (RT #5494)
   * Move 0x3606C51455BFD024 to emeritus (Daniel Gubser) (RT #5507)
+  * Replace 0x3233C127E93ADE7B with 0x4AA8FC2422EF1F0F (Andrew Cater)
+    (RT #5483)
 
   [ Gunnar Wolf ]
   * Replace 0x28B295C3F46EADBB with 0x515BD7CAEEAE3C13 (Peter De
