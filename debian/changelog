@@ -1,4 +1,4 @@
-debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
+debian-keyring (2014.11.19) unstable; urgency=low
 
   [ Jonathan McDowell ]
   * Replace 0x111E3AA0BFBCC985 with 0x7B85277384EE1F78 (Jaime Robles)
@@ -368,7 +368,7 @@ debian-keyring (2014.10.xx) UNRELEASED; urgency=medium
     (RT #5119)
   * Move 0x951F892C7FED549B to emeritus (Tim Dijkstra)
 
- -- Jonathan McDowell <noodles@earth.li>  Mon, 13 Oct 2014 20:18:03 +0100
+ -- Jonathan McDowell <noodles@earth.li>  Wed, 19 Nov 2014 17:49:15 +0000
 
 debian-keyring (2014.10.10) unstable; urgency=medium
 
