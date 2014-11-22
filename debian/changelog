@@ -3,6 +3,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
   * Replace 0x20D6688259EF5DBC with 0xC519A20D121461F7 (Bernd
     Schumacher) (RT #5255)
   * Move 0x76B534B2E99007E0 to emeritus (Thorsten Glaser) (RT #5511)
+  * Replace 0x82944F68EA2D2C41 with 0xE7E6F782283D6300 (Mattia Dongili)
+    (RT #5512)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
