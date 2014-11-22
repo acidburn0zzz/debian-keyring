@@ -9,6 +9,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     (RT #5518)
   * Replace 0xCC1332317C796B7D with 0x0F5E1ED4664196E2 (Richard Hecker)
     (RT #5517)
+  * Replace 0x241061CA50064181 with 0xC6DE073EDA9EEC4D (Paul van
+    Tilburg) (RT #5519)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
