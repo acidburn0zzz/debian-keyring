@@ -24,6 +24,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     #5491)
   * Replace 0xA35A4E6EF00175CA with 0xCF13C21D2578B775 (Sébastien Noel)
     (RT #5526)
+  * Replace 0xE1060E07B25A5CF1 with 0x60C8350B6C88DA32 (Masahito Omote)
+    (RT #5521)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
