@@ -28,6 +28,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     (RT #5521)
   * Replace 0x4A2254641FE1B08B with 0x3139368039A11092 (Joachim Wiedorn)
     (RT #5515)
+  * Replace 0xD722058FC0033D7A with 0xAFF1D4BDB69135D0 (Mikael
+    Djurfeldt) (RT #5528)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
