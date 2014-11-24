@@ -18,6 +18,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     (RT #5520)
   * Replace 0xE676B867F8D54259 with 0xFF55C8F4DAE92422 (Martin Buck) (RT
     #5522)
+  * Replace 0xE9B0C69E268462E3 with 0xDE6EE692F2D89614 (Nils Boeffel)
+    (RT #5524)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
