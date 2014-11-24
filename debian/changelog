@@ -22,6 +22,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     (RT #5524)
   * Replace 0x575B95B25C33C1B8 with 0x0D85F29625A3F9FD (Yann Dirson) (RT
     #5491)
+  * Replace 0xA35A4E6EF00175CA with 0xCF13C21D2578B775 (Sébastien Noel)
+    (RT #5526)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
