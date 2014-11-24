@@ -16,6 +16,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
   * Move 0x01998318ADC9BC28 (Rodrigo Gallardo) to emeritus.
   * Replace 0x912924FE3DC29B41 with 0x14D01A08AFD89BE3 (Milan Zamazal)
     (RT #5520)
+  * Replace 0xE676B867F8D54259 with 0xFF55C8F4DAE92422 (Martin Buck) (RT
+    #5522)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
