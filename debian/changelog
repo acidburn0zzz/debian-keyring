@@ -38,6 +38,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     (RT #5534)
   * Replace 0x6C979FDE44E22ACD with 0xCBFD09CA41FDAD01 (Mickael Profeta)
     (RT #5532)
+  * Replace 0xE283C86878398A01 with 0x0BAFEEEFE969BD54 (Andrea
+    Capriotti) (RT #5533)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
