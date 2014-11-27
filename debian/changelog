@@ -36,6 +36,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     Klode) (RT #5530)
   * Replace 0x5002EFB1962E3890 with 0xD2277E455D3983A0 (Arjan Oosting)
     (RT #5534)
+  * Replace 0x6C979FDE44E22ACD with 0xCBFD09CA41FDAD01 (Mickael Profeta)
+    (RT #5532)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
