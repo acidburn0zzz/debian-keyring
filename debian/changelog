@@ -45,6 +45,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
   [ Gunnar Wolf ]
   * Replace 0x330B038B6C63746D with 0xC2FE04B214E36550 (Héctor García
     Álvarez) (RT #5531)
+  * Replace 0x7331B5C057F045DC with 0xB845CE510F9B714D (Camm Maguire)
+    (RT #5535)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
