@@ -55,6 +55,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
   * Move 0xEE3A9F0281C2A4AC (Mats Rynge) to emeritus
   * Replace 0x0DCB394414D4060B with 0x478112D54B1AC295 (Sven Mueller)
     (RT #5549)
+  * Replace 0xCCF0D5379F223683 with 0xE60BE35A13F71D36 (Rene Weber) (RT
+    #5547)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
