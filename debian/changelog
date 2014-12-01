@@ -42,6 +42,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
   * Replace 0xE283C86878398A01 with 0x0BAFEEEFE969BD54 (Andrea
     Capriotti) (RT #5533)
   * Move 0x85E8FBFCF0B27113 (Chrissie Caulfield) to emeritus.
+  * Replace 0xA780421C68021CE4 with 0x4F346E47A5805D48 (Ron Lee) (RT
+    #5453)
 
   [ Gunnar Wolf ]
   * Replace 0x330B038B6C63746D with 0xC2FE04B214E36550 (Héctor García
