@@ -60,6 +60,7 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     #5547)
   * Replace 0xBF7C793AC9132DDB with 0xC5D058E4BD68AEDB (Nikita
     Yushchenko) (RT #5552)
+  * Move 0x6C572D708B143975 (Lorenzo Martignoni) to emeritus
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
