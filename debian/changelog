@@ -49,6 +49,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     (RT #5556)
   * Replace 0xB0F7E8C60FCC27C6 with 0xE434E57F7DA4AEF2 (David Coe) (RT
     #5555)
+  * Replace 0x5586A7DF9F8D08A7 with 0x2A8B746810E0AFC1 (Arthur de Jong)
+    (RT #5551)
 
   [ Gunnar Wolf ]
   * Replace 0x330B038B6C63746D with 0xC2FE04B214E36550 (Héctor García
