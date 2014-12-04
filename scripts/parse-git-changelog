@@ -1,0 +1,161 @@
+#!/usr/bin/python
+
+import email
+import re
+import sys
+
+seenrt = {}
+
+def do_operation(state):
+    operation = email.message_from_string(state['message'])
+
+    if not 'action' in operation:
+        print "NOTE : " + state['commit'] + " (" + state['summary'] + ") has no action"
+        return ("", "", "")
+
+    if 'rt-ticket' in operation and operation['rt-ticket'] in seenrt:
+        print ("ERROR: RT " + operation['rt-ticket'] + " used in " +
+                seenrt[operation['rt-ticket']] + " and " +
+                state['commit'])
+    else:
+        seenrt[operation['rt-ticket']] = state['commit']
+
+    dak = rt = ldap = ""
+    if operation['action'] == 'add':
+        if 'rt-ticket' in operation:
+            rt += "# Commit " + state['commit'] + "\n"
+            if re.match("(DD|DN)", operation['role']):
+                rt += ("rt edit ticket/" + operation['rt-ticket'] +
+                        " set queue=DSA\n")
+            else:
+                rt += ("rt correspond -s resolved -m " +
+                    "'This key has now been added to the active DM keyring.' " +
+                    operation['rt-ticket'] + "\n")
+        else:
+            print "TODO : Add with no RT ticket"
+        pass
+    elif operation['action'] == 'remove':
+        if 'rt-ticket' in operation:
+            rt += "# Commit " + state['commit'] + "\n"
+            if re.match("(DD|DN)", operation['role']):
+                rt += ("rt edit ticket/" + operation['rt-ticket'] +
+                        " set queue=DSA\n")
+            else:
+                dak += ("Action: dm-remove\n" +
+                        "Fingerprint: " + operation['key'] + "\n" +
+                        "Reason: RT #" + operation['rt-ticket'] +
+                        ", keyring commit " + state['commit'] + "\n")
+                rt += ("rt edit ticket/" + operation['rt-ticket'] +
+                        " set queue=Keyring\n" +
+                        "rt correspond -s resolved -m "+
+                        "'This key has now been removed from the active DM keyring.' " +
+                        operation['rt-ticket'] + "\n")
+        else:
+            if 'username' in operation:
+                username = operation['username']
+            elif 'key' in operation:
+                username = operation['key']
+            elif 'old-key' in operation:
+                username = operation['old-key']
+            elif 'subject' in operation:
+                username = operation['subject']
+            print "TODO : Removal for " + username + " without RT ticket."
+        pass
+    elif operation['action'] == 'replace':
+        rt += "# Commit " + state['commit'] + "\n"
+        if re.match("(DD|DN)", operation['role']):
+            if not 'username' in operation:
+                operation['Username'] = 'FIXME'
+            ldap += operation['username'] + " " + operation['old-key'] + " "
+            ldap += operation['new-key'] + "\n"
+            rt += ("rt edit ticket/" + operation['rt-ticket'] +
+                    " set queue=Keyring\n" +
+                    "rt correspond -s resolved -m " +
+                    "'Your key has been replaced in the active keyring and LDAP updated with the new fingerprint.' " +
+                    operation['rt-ticket'] + "\n")
+        else:
+            dak += ("Action: dm-migrate\n" +
+                    "From: " + operation['old-key'] + "\n" +
+                    "To: " + operation['new-key'] + "\n" +
+                    "Reason: RT #" + operation['rt-ticket'] +
+                    ", keyring commit " + state['commit'] + "\n")
+            rt += ("rt edit ticket/" + operation['rt-ticket'] +
+                    " set queue=Keyring\n" +
+                    "rt correspond -s resolved -m "+
+                    "'Your key has been replaced in the active DM keyring.' " +
+                    operation['rt-ticket'] + "\n")
+    else:
+        print "Error: Unknown action " + operation['action']
+
+    return (dak, rt, ldap)
+
+def main():
+    state = {}
+    opcount = 0
+    dakf = open('dak-update', 'w')
+    rtf = open('rt-update', 'w')
+    ldapf = open('ldap-update', 'w')
+
+    dakf.write("Archive: ftp.debian.org\n")
+    dakf.write("Uploader: Jonathan McDowell <noodles@earth.li>\n")
+    dakf.write("Cc: keyring-maint@debian.org\n")
+
+    for line in sys.stdin:
+        line = line.rstrip()
+
+        # Catch the start of a commit
+        m = re.match("commit (.*)$", line)
+        if m:
+            if 'message' in state:
+                (dak, rt, ldap) = do_operation(state)
+                if dak:
+                    dakf.write("\n")
+                    dakf.write(dak)
+                if rt:
+                    rtf.write(rt)
+                if ldap:
+                    ldapf.write(ldap)
+                opcount += 1
+            elif 'commit' in state:
+                if re.match("Import changes sent to keyring", state['summary']):
+                    pass
+                elif re.match("Update changelog", state['summary']):
+                    pass
+                else:
+                    print "NOTE : " + state['commit'] + " (" + state['summary'] + ") is not an action."
+            state = {}
+            state['commit'] = m.group(1)
+
+        if not re.match("    ", line):
+            continue
+
+        line = line[4:]
+        if not 'inaction' in state:
+            if re.match("[a-zA-Z]*: ", line):
+                state['inaction'] = True
+                state['message'] = line + "\n"
+            elif not 'summary' in state:
+                state['summary'] = line
+        else:
+            state['message'] += line + "\n"
+
+    # Process the last commit, if applicable
+    if 'message' in state:
+        (dak, rt, ldap) = do_operation(state)
+        if dak:
+            dakf.write("\n")
+            dakf.write(dak)
+        if rt:
+            rtf.write(rt)
+        if ldap:
+            ldapf.write(ldap)
+        opcount += 1
+
+    ldapf.close()
+    rtf.close()
+    dakf.close()
+
+    print "Processed " + str(opcount) + " operations."
+
+if __name__ == '__main__':
+    main()
