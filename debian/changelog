@@ -59,6 +59,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     (RT #5559)
   * Replace 0x01BB5D753DE37DC0 with 0xEA25F9FB06A9A7D1 (Hakan Ardo) (RT
     #5560)
+  * Replace 0x3C8408581A3B48DE with 0xDE85C199300CBB5C (David I. Lehn)
+    (RT #5564)
 
   [ Gunnar Wolf ]
   * Replace 0x330B038B6C63746D with 0xC2FE04B214E36550 (Héctor García
