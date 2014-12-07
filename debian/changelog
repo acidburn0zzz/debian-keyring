@@ -61,6 +61,7 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     #5560)
   * Replace 0x3C8408581A3B48DE with 0xDE85C199300CBB5C (David I. Lehn)
     (RT #5564)
+  * Move 0xEB7CBAA680C83E8E (Ian Lynagh) to emeritus (RT #5565)
 
   [ Gunnar Wolf ]
   * Replace 0x330B038B6C63746D with 0xC2FE04B214E36550 (Héctor García
