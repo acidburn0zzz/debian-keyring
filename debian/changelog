@@ -81,6 +81,7 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
   * Move 0x6C572D708B143975 (Lorenzo Martignoni) to emeritus
   * Replace 0x5028272F3FD29468 with 0x75B710635C213A7E (Hilko Bengen)
     (RT #5561)
+  * Move 0x100952B5F801A743 (Nicolas Duboc) to emeritus (RT #5567)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
