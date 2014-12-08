@@ -84,6 +84,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
   * Move 0x100952B5F801A743 (Nicolas Duboc) to emeritus (RT #5567)
   * Replace 0xF8C41B2CF7142EC2 with 0x8D83379110000DEB (Emfox Zhou) (RT
     #5566)
+  * Replace 0x8F7274F307062A38 with 0xB3255C6D55878D8C (Mazen Neifer)
+    (RT #5536)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
