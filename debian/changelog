@@ -86,6 +86,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     #5566)
   * Replace 0x8F7274F307062A38 with 0xB3255C6D55878D8C (Mazen Neifer)
     (RT #5536)
+  * Replace 0x72FDC205F6A32A8E with 0xB8688CA3D876D5A3 (Santiago Garcia
+    Mantinan) (RT #5568)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
