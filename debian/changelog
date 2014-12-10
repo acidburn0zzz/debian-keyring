@@ -88,6 +88,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     (RT #5536)
   * Replace 0x72FDC205F6A32A8E with 0xB8688CA3D876D5A3 (Santiago Garcia
     Mantinan) (RT #5568)
+  * Replace 0xB1CCD97290267086 with 0x55E9F9F7AC1C443F (Marc Dequènes)
+    (RT #5571)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
