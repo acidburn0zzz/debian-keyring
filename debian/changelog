@@ -90,6 +90,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     Mantinan) (RT #5568)
   * Replace 0xB1CCD97290267086 with 0x55E9F9F7AC1C443F (Marc Dequènes)
     (RT #5571)
+  * Replace 0xCCDFE49B0A0AC927 with 0xD547946327003A3F (LaMont Jones)
+    (RT #5543)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
