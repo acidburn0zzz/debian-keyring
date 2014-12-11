@@ -92,6 +92,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     (RT #5571)
   * Replace 0xCCDFE49B0A0AC927 with 0xD547946327003A3F (LaMont Jones)
     (RT #5543)
+  * Replace 0x4AD9516B0F932C9C with 0xBD7EAA60778FA6F5 (Matthias Klose)
+    (RT #5572)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
