@@ -149,6 +149,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=low
     * 0x4B043FCDB9444540 UNKNOWN (DM?) sig:29
     * 0x53FE7BBDA68910FC UNKNOWN (DM?) uid:4 sig:4
     * 0x6C8F74AE87700B7E UNKNOWN (DM?) sig:4
+  * Modify 0x887B60618B3C16AE in keyids to show valid legal name (RT
+    #5562)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 20 Nov 2014 14:27:35 +0000
 
