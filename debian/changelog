@@ -1,6 +1,8 @@
 debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
 
   * Updated cheatsheets with basic information on parse-git-changelog
+  * Replace 0x3D3E735D83467A34 with 0xDB2F706FDF11900A (Francois Gurin)
+    (RT #5573)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
 
