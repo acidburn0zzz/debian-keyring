@@ -48,3 +48,60 @@ by specifying --sign-commit in the command line.
 
 ** Note: A nice Git hook can be of use here to remind us if we're
    missing -S
+
+Parsing the Git changelog
+-------------------------
+
+When pushing a new keyring revision, you can use
+./script/parse-git-changelog to automate several steps. Pipe it the
+changelog since the last uploaded revision (remember to tag it!):
+
+$ git log 2014.11.19.. | scripts/parse-git-changelog
+
+It will create three files: rt-update, ldap-update and dak-update. For
+the two first ones, look in the respective cheatsheets; for the
+dak-update; refer to Ansgar Burchardt's message (Message-ID:
+<87tx2uvcti.fsf@deep-thought.43-1.org>):
+
+    Hi,
+
+    as DM permissions are bound to specific keys they need to be updated if
+    a DM changes his key. Currently I do so from time to time (usually when
+    somebody has problems uploading packages), but it would be nice if you
+    could tell dak that keys changed.
+    
+    To do so, please wait until the new keys have been installed and then
+    upload a <user>-<YYYYMMDD>-<HHMM>.dak-commands via ftp to ftp-master. It
+    should look like the following:
+    
+    +-----------------------------------------------------------------------
+    | Archive: ftp.debian.org
+    | Uploader: Ansgar Burchardt <ansgar@debian.org>     *optional*
+    | Cc: keyring-maint@debian.org                       *optional*
+    |
+    | Action: dm-migrate
+    | From: 3C0B6EB0AB2729E8CE2255A7385AE490868EFA66
+    | To: 5691 873A A9B1 C18E 3CEE  82E6 0F8C E0BF 4E85 E61B
+    | Reason: Replace 0x385AE490868EFA66 with 0x0F8CE0BF4E85E61B (Stefan Völkel) (RT #5318)
+    |
+    | Action: dm-migrate
+    | From: B86CB5487CC4B58F0CA3856E7EE852DEE6B78725
+    | To: FBF3 EEAF A780 7802 B56B  27A9 70A8 FEE0 74B3 ED3A
+    | Reason: Replace 0x7EE852DEE6B78725 with 0x70A8FEE074B3ED3A (Yauheni Kaliuta) (RT #5251)
+    |
+    | Action: dm-remove
+    | Fingerprint: ~bla~
+    | Reason: ~blubb~
+    +-----------------------------------------------------------------------
+    
+    Plus a GPG cleartext signature around everything.
+    
+    The Uploader and Cc fields are optional; if Uploader is not given email
+    replies are sent to the primary UID of the key that was used to sign the
+    file. Whitespace in fields with fingerprints is ignored to make life
+    easier. The Reason field is optional and just for informational use.
+    
+    Would it be possible for you to do this?
+    
+    Ansgar
+    

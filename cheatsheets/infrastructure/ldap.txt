@@ -42,3 +42,12 @@ Setting.
 The record will be shown again. Note that the old key will still be
 shown! You can switch user ('u') to the same user again and verify the
 change is in place.
+
+
+*** Helper script helps!
+
+    The parse-git-changelog script will generate a ldap-update
+    file. Each line contains the updates for a user: Debian login,
+    old key fingerprint, new key fingerprint.
+
+    Following that file is a real time saver for this step! :)

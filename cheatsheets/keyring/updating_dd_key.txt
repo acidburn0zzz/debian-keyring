@@ -57,6 +57,16 @@ Updating a DD key
   Primary key fingerprint: 1EB6 3D43 E201 4DDF 67BD  003F FCB0 BB5C 5F1F BF70
        Subkey fingerprint: 409F 2383 802D B40C CA04  9AF9 810A 9F69 E188 9B00
 
+  - Helper script
+
+    We have a script called "replace-key". When called, it takes care to
+    do all of the steps described from here until the commit step.
+
+    You should call it using both keys' long (64 bit) keyids:
+
+    $ ./script/replace-key FCB0BB5C5F1FBF70 9EDCC991D9AB457E
+
+
   $ gpg --export D9AB457E > /tmp/key
       # DD keys (past and present), names and identities are kept in
       # the plaintext file 'keyids' - Confirm and get the requester's
@@ -90,24 +100,10 @@ Updating a DD key
       # entry! 
   $ dch -a 'Replace 0xFCB0BB5C5F1FBF70 with 0x9EDCC991D9AB457E (Giovanni Mascellani) (RT #2473)'
 
-  $ git commit
-      # And that's it. For the VCS log, we use the following format:
-------------------------------------------------------------
-Replace $OLD_KEY with $NEW_KEY ($DD_NAME) (RT #$RT_NUM)
-  
-    Replace $DD_FIRSTNAME $OLDTYPE key with a $NEWTYPE key ($REASON if needed).
-    Request signed by old key, new key signed with old.
-    Signed by existing DD keys:
-     $SIGN1 $SIGN2 $SIGN3 $SIGNN
-------------------------------------------------------------
+- Git commit
 
-i.e.
-
-------------------------------------------------------------
-Replace 0xFCB0BB5C5F1FBF70 with 0x9EDCC991D9AB457E (Giovanni Mascellani) (RT #2473)
-
-Replace Giovanni's 1024D key with a 4096R key
-Request signed by old key, new key signed with old
-Signed by existing DD keys:
-  F2C423BC 33FC40A4  
-------------------------------------------------------------
+  In order for the parse-git-changelog script to work, we adhere to
+  machine-parsable information in the changelog. If you used the
+  replace-key script, you will find it creates a git-commit-template
+  file. It just needs you to fill in the Debian user IDs for the
+  New-key-certified-by field.

@@ -6,6 +6,15 @@ Request Tracker (rt.debian.org)
    is writing this paragraph in third person. Hopefully, this will
    reach somebody else in the future! ;-) ]
 
+ [ Note much later on: The text following here describes interaction
+   using the Web interface. It is valid, but we have found much easier
+   to use the `rt' command in the `rt4-clients' package.
+
+   The parse-git-changelog script will output a script that uses rhis
+   command and greatly simplifies closing and reasigning tickets when
+   many changes are involved.]
+
+
 So, RT. Why not just bugs.debian.org? I think the original rationale
 was that there's the potential for sensitive information to need to be
 tracked, in a similar manner to DSA. For example last week we had a DD
@@ -62,3 +71,4 @@ examples of these mails.
    *** Note - As of August 2010, we can now do the LDAP updates
        ourselves. We should update this text with the pertinent
        information / procedure.
+
