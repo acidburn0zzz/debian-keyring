@@ -5,6 +5,7 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
     (RT #5573)
   * Replace 0x5B8FE2F59D1B82F6 with 0xB6F6F753E15B47E9 (Andre Luis
     Lopes) (RT #5574)
+  * Move 0x6AB79ED6C8FDF9C1 (Mauro Lizaur) to emeritus
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
 
