@@ -1,5 +1,6 @@
 debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
 
+  [ Gunnar Wolf ]
   * Updated cheatsheets with basic information on parse-git-changelog
   * Replace 0x3D3E735D83467A34 with 0xDB2F706FDF11900A (Francois Gurin)
     (RT #5573)
@@ -7,6 +8,9 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
     Lopes) (RT #5574)
   * Move 0x6AB79ED6C8FDF9C1 (Mauro Lizaur) to emeritus
   * Move 0x2E4F86BA8B0D42F9 (Mark Baker) to emeritus
+
+  [ Jonathan McDowell ]
+  * Move 0x92BC94766394265E (Peter Krefting) to emeritus
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
 
