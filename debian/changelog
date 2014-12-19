@@ -32,6 +32,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
     Puricelli) (RT #5608)
   * Replace 0x307B5229D2A6B810 with 0x59DF9475A373F5B4 (Mario Joußen)
     (RT #5604)
+  * Replace 0x4BE0582590788E11 with 0x07A198C172BD757F (Jose Carlos
+    Garcia Sogo) (RT #5602)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
 
