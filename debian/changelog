@@ -38,6 +38,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
     Belmonte) (RT #5607)
   * Replace 0xAAAEC012DD0F6268 with 0x167FD434C043A313 (Chuan-kai Lin)
     (RT #5444)
+  * Replace 0x9C10DDE4C6A2EB7E with 0xB85D12EC9BFA3B80 (Albert Huang)
+    (RT #5598)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
 
