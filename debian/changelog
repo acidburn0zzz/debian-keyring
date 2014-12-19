@@ -26,6 +26,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
     #5587)
   * Replace 0x31036EC736B861C1 with 0x70A6BEDF542D38D9 (Benjamin Burton)
     (RT #5601)
+  * Replace 0x8233A6D22D2F75EF with 0xD0AAB32A23B5397C (Henning Glawe)
+    (RT #5605)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
 
