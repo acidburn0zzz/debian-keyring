@@ -40,6 +40,7 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
     (RT #5444)
   * Replace 0x9C10DDE4C6A2EB7E with 0xB85D12EC9BFA3B80 (Albert Huang)
     (RT #5598)
+  * Add new DD key 0x5EA2BDB6883CCDE2 (Chen Baozi) (RT #5589)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
 
