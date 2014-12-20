@@ -43,6 +43,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x5EA2BDB6883CCDE2 (Chen Baozi) (RT #5589)
   * Add new DD key 0x0664A76954265E8C (Simon Josefsson) (RT #5591)
   * Add new DD key 0x1CB4F0F78DECAFE9 (Simon Kainz) (RT #5590)
+  * Replace 0xCF62D79438E68E0E with 0x16A588942D510B52 (Thomas Girard)
+    (RT #5584)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
 
