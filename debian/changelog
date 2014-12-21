@@ -49,6 +49,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
     (RT #5610)
   * Replace 0x1CFA3E8CD7145E30 with 0x1E08BF280CB9A31A (Martin Gerhard
     Loschwitz) (RT #5612)
+  * Replace 0x4E8E6FC013282FF2 with 0x21BDD5BE10FFF2CC (Werner Heuser)
+    (RT #5611)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
 
