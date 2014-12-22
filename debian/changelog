@@ -53,6 +53,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
     (RT #5611)
   * Replace 0x750807B5551BE447 with 0x308355FA32C5067D (Torsten
     Landschoff) (RT #5615)
+  * Replace 0x725525032224FABC with 0x45E2CDA5A7FD90F9 (Eric Sharkey)
+    (RT #5585)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
 
