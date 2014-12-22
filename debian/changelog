@@ -57,6 +57,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
     (RT #5585)
   * Replace 0x306C483AFF1F7A5C with 0x992FB5D8ED881C8E (Lukasz
     Jachowicz) (RT #5588)
+  * Add new role key 0x42468F4009EA8AC3 (Debian Testing CDs signing key)
+    (RT #5308)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
 
