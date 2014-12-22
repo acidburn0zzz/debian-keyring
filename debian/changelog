@@ -61,6 +61,7 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
     (RT #5308)
   * Replace 0xD8377D4EE81E55C1 with 0x07299F687458A89E (Junichi Uekawa)
     (RT #5600)
+  * Update parse-git-changelog to cope with new role keys
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
 

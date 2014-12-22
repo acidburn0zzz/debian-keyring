@@ -27,9 +27,14 @@ def do_operation(state):
             if re.match("(DD|DN)", operation['role']):
                 rt += ("rt edit ticket/" + operation['rt-ticket'] +
                         " set queue=DSA\n")
-            else:
+            elif operation['role'] == 'DM':
                 rt += ("rt correspond -s resolved -m " +
                     "'This key has now been added to the active DM keyring.' " +
+                    operation['rt-ticket'] + "\n")
+            else:
+                rt += ("rt correspond -s resolved -m " +
+                    "'This key has now been added to the " +
+                    operation['role'] + " keyring.' " +
                     operation['rt-ticket'] + "\n")
         else:
             print "TODO : Add with no RT ticket"
