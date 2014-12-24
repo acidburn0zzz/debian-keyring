@@ -74,6 +74,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
     Tretkowski) (RT #5624)
   * Replace 0x1BD0E4A5D047CDE1 with 0x27438BAA634770E9 (Francisco Moya)
     (RT #5626)
+  * Replace 0xCC254778F28CD102 with 0x066DE8017E2B61D9 (Stephan Sürken)
+    (RT #5629)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
 
