@@ -70,6 +70,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
     (RT #5619)
   * Replace 0xA3F5DC7342000462 with 0x59EC43D65246508B (Dale E. Martin)
     (RT #5621)
+  * Replace 0xAFF4670B0F7A8D01 with 0x9495B8CF68668910 (Norbert
+    Tretkowski) (RT #5624)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
 
