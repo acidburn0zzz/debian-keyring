@@ -79,6 +79,8 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
   * Replace 0x24FD5E649BF42B07 with 0x93B716E393FB18A6 (Anton Zinoviev)
     (RT #5630)
   * Add debian-nonupload.gpg to test suite
+  * Replace 0x3056F0EF4C2D3EFA with 0x0A5042F49751031C (Cesar Mendoza)
+    (RT #5623)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
 
