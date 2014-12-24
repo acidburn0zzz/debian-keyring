@@ -1,4 +1,4 @@
-debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
+debian-keyring (2014.12.24) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Updated cheatsheets with basic information on parse-git-changelog
@@ -115,7 +115,7 @@ debian-keyring (2014.12.xx) UNRELEASED; urgency=medium
     * 0xE5CA8C4925E4205F Philipp Huebner <debalance> sig:5
     * 0xF167E43C8143B682 Neil Williams <codehelp> sig:6
 
- -- Gunnar Wolf <gwolf@gwolf.org>  Wed, 10 Dec 2014 20:13:42 -0600
+ -- Jonathan McDowell <noodles@earth.li>  Wed Dec 24 16:32:10 GMT 2014
 
 debian-keyring (2014.12.10) unstable; urgency=low
 
