@@ -1,6 +1,8 @@
 debian-keyring (2015.01.xx) UNRELEASED; urgency=medium
 
   * Move 0xD485DD2F5BFA90EC (Atsuhito Kohda) to emeritus
+  * Replace 0x7C811013F5C9708D with 0xB67EE21012290B4D (Roberto
+    Lumbreras) (RT #5632)
 
  -- Gunnar Wolf <gwolf@debian.org>  Thu, 25 Dec 2014 22:48:36 -0600
 
