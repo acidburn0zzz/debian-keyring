@@ -6,6 +6,8 @@ debian-keyring (2015.01.xx) UNRELEASED; urgency=medium
     Lumbreras) (RT #5632)
   * Replace 0xF5CE68EB6FF0ABF2 with 0x829CA1942F06D925 (Robert Woodcock)
     (RT #5628)
+  * Replace 0x39A237CB2809E61A with 0xC12178348A90819F (Jose M. Moya)
+    (RT #5648)
 
   [ Jonathan McDowell ]
   * Replace 0x7E2F30EEECA94FA8 with 0x686DD060155490E0 (ISHIKAWA
