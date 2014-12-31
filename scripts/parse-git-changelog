@@ -31,6 +31,10 @@ def do_operation(state):
                 rt += ("rt correspond -s resolved -m " +
                     "'This key has now been added to the active DM keyring.' " +
                     operation['rt-ticket'] + "\n")
+                bts = operation['BTS'].strip()
+                bts = re.sub(r'http://bugs.debian.org/(\d+)',
+                    r'\1-done@bugs.debian.org', bts)
+                print "NOTE : Mail " + bts + " (new DM)."
             else:
                 rt += ("rt correspond -s resolved -m " +
                     "'This key has now been added to the " +
