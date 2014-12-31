@@ -19,6 +19,8 @@ debian-keyring (2015.01.xx) UNRELEASED; urgency=medium
   * Move 0x5A0A399AEA7CF5AD (Nicolas François) to emeritus (RT #5660)
   * Replace 0xC3DE75AE036BAB8D with 0xB27E083D50F5E924 (Morten Werner
     Forsbring) (RT #5661)
+  * Replace 0xF1E30FE50CA6B4AA with 0xC0215925C6D815D8 (Jan Beyer) (RT
+    #5645)
 
   [ Gunnar Wolf ]
   * Move 0xD485DD2F5BFA90EC (Atsuhito Kohda) to emeritus
