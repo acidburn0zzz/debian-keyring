@@ -1,3 +1,300 @@
+debian-keyring (2015.01.01) unstable; urgency=medium
+
+  * Goodbye 1024 bit keys.
+
+  * Removed DD keys:
+    * 0x00959FA39C478D49 Murat Demirten <murat>
+    * 0x010C2EA6D9309644 Nelson A. de Oliveira <naoliv>
+    * 0x015427E3A4B47676 Richard A Nelson <cowboy>
+    * 0x01B47334E0D49E99 Changwoo Ryu <cwryu>
+    * 0x032570844D2313D5 Adriaan Peeters <apeeters>
+    * 0x03E18C6B83E5110F Ove Kåven <ovek>
+    * 0x04B3D367B2B831A2 Isaac Jones <ijones>
+    * 0x04D147A595E0A1A1 Ross Peachey <rcp>
+    * 0x04E76310EFC18770 Pawel Wiecek <coven>
+    * 0x05048A9B631B4819 Andreas Franzen <anfra>
+    * 0x06779033A20EBC50 Domenico Andreoli <cavok>
+    * 0x0A19648B2AE7444E Yooseong Yang <yooseong>
+    * 0x0A62E53437A79149 Stuart R. Anderson <anderson>
+    * 0x0B0F2929DF81EE83 Rob Bradford <robster>
+    * 0x0B5F62A3AAD40AFF Robert Millan <rmh>
+    * 0x0CFF30E126257B68 Christian Surchi <csurchi>
+    * 0x0D46FE7CD21DF495 Brian Ristuccia <brianr>
+    * 0x0DE8799EA7D6AE79 David Watson <dwatson>
+    * 0x0E5937AC98FAA0AD Roger So <rogerso>
+    * 0x0EBD65E13C093EEF Sam Johnston <samj>
+    * 0x0F1F76E20D2036AD Cameron Dale <camrdale>
+    * 0x0FDF48D659B957AE Agney Lopes Roth Ferraz <agney>
+    * 0x10510A738501C7FC Sebastian Harl <tokkee>
+    * 0x10557B83807CAC25 Michael Ablassmeier <abi>
+    * 0x112ECDF2C4A3823E Kevin M. Rosenberg <kmr>
+    * 0x147F1AEA2DB65596 Massimo Dal Zotto <dz>
+    * 0x1558944599E81DA0 Lior Kaplan <kaplan>
+    * 0x15E002BA5D8C12EA Ganesan Rajagopal <rganesan>
+    * 0x16AD84C0641323B1 Jérémie Corbier <jcorbier>
+    * 0x189A3241BC70A6FF Gerrit Pape <pape>
+    * 0x18A0CC8D5706A4B4 Simon Richter <sjr>
+    * 0x1CEF494673EAE214 Modestas Vainius <modax>
+    * 0x1D3C025FE7DFC3B7 Johannes Hirche <jhirche>
+    * 0x1D40E113E62B2C45 Stefan Schimanski <schimmi>
+    * 0x1D7365A755815D42 Daniel Ruoso <ruoso>
+    * 0x1E198A792782AF55 Eduardo Trápani <mapache>
+    * 0x1E32C3DAB7D2F063 Thibaut Varene <varenet>
+    * 0x20258B8FA2E31632 Thomas Scheffczyk <scheffczyk>
+    * 0x21A7B53B800969EF Samuel Mimram <smimram>
+    * 0x21EC4FDC84AD676C Scott James Remnant <keybuk>
+    * 0x2218C81E8E7C03FF Matthew Wilcox <willy>
+    * 0x2262D36F7ADF9466 Leo Costela <costela>
+    * 0x22C827F735A992E7 Andreas Rottmann <rotty>
+    * 0x233B8A57E4875FF9 Paul Cupis <cupis>
+    * 0x236C60C665B4B162 Aurélien Gérôme <ag>
+    * 0x252CC4C873D446C2 Carey Evans <carey>
+    * 0x26431938C9ABFBD3 Radu Spineanu <radu>
+    * 0x27122D42A674A359 Keita Maehara <maehara>
+    * 0x27D10348DD1B0EF7 Mario Iseli <mario>
+    * 0x27FEA5D163E8BE82 Ayman Negm <negm>
+    * 0x28D3E82917E57327 Yu Guanghui <ygh>
+    * 0x28EEB35A3E8DCCC0 Martin Wuertele <maxx>
+    * 0x2CEBF138D91EE369 Sam Clegg <samo>
+    * 0x2D09E447D0B433DF Ross Burton <ross>
+    * 0x2E5FDBE0DF67A55E Alexandre Fayolle <afayolle>
+    * 0x3298C70DE5FFEDE1 Antonin Kral <krala>
+    * 0x342DCB0320021490 Daniel Schepler <schepler>
+    * 0x35C3E3FAE91CD250 Daigo Moriwaki <daigo>
+    * 0x35FC9EEA97AA33D6 Dima Barsky <dima>
+    * 0x3760DBCFFD6645AB Ryan Murray <rmurray>
+    * 0x376941AB835EB2FF Raphael Bossek <bossekr>
+    * 0x3E7434397DD9018D Nicolas Bertolissio <bertol>
+    * 0x40D6F42EF464A695 Yuuma Oohara <oohara>
+    * 0x40ECC154A8BAC1EA Ian Beckwith <ianb>
+    * 0x4132BF902A385C57 Alastair McKinstry <mckinstry>
+    * 0x41B9F4E85B713DF0 Frank Lichtenheld <djpig>
+    * 0x43148E6D18EA3457 Rogerio Reis <rvr>
+    * 0x431A3CEDA2D7D292 Sebastien Bacher <seb128>
+    * 0x43225D698FC03128 Thomas Wana <greuff>
+    * 0x43EC92504F71955A Dave Beckett <dajobe>
+    * 0x45458ADCB1E557A0 Patrick Patterson <ppatters>
+    * 0x464DE301B74952A9 Ho-seok Lee <alee>
+    * 0x4BFDBDA66045FB1E Bradley A. Bosch <brad>
+    * 0x4CD1F6A6207F2F7A Pino Toscano <pino>
+    * 0x4D3C7CA1554FB4C6 Peter Eisentraut <petere>
+    * 0x4E1875709D309C3B Robert Luberda <robert>
+    * 0x4FDEC6E7E160649A Matt Hope <dopey>
+    * 0x509880E3F6A10C2D Michael Holzt <kju>
+    * 0x50AA7015A876F581 Evan Prodromou <evan>
+    * 0x526F01E8564EE4B6 Adam C. Powell, IV <hazelsct>
+    * 0x544D7BB0B12D595A Regis Boudin <regis>
+    * 0x54A33827B62849B3 Stephen R. Marenka <smarenka>
+    * 0x54D4094CF1219B84 Nick Rusnov <nickrusnov>
+    * 0x54F52A8713AB03A7 Benjamin Mesing <ben>
+    * 0x550F1A003433BD21 Rudy Godoy <rudy>
+    * 0x563D7CEC0B191787 Ken Nonaka <nonaka>
+    * 0x57E8CE072EAE5D2D Marc Singer <elf>
+    * 0x58395253F829E9E7 Ian Wienand <ianw>
+    * 0x583CA816CD98B20A Tim Riker <timr>
+    * 0x589A903470EB0FCE Jorge Salamero Sanz <bencer>
+    * 0x5923A0082763483B Michael Koch <mkoch>
+    * 0x5B9AA5F8801EA932 Martin Schulze <joey>
+    * 0x5D3CE77FD54F0847 Mark Shuttleworth <marks>
+    * 0x5DD5685778D621B4 Uwe Hermann <uwe>
+    * 0x5E4EEC2113D0461D Peter Samuelson <peters>
+    * 0x6042B0B5D3F974DF Oliver Korff <okoli>
+    * 0x632E3DAD46D9CE5A Raphael Geissert <geissert>
+    * 0x640E642E2F2F0CDE Jean-Michel Kelbert <kelbert>
+    * 0x6436436109F34024 Danai Sae-Han <danai>
+    * 0x6754891DEAAC62DF Cyril Bouthors <cyb>
+    * 0x6771A2CC718329DC Shugo Maeda <shugo>
+    * 0x6A08D37C0B4D63D8 Eloy A. Paris <peloy>
+    * 0x6B37E8DD34B36856 Jeff Breidenbach <jab>
+    * 0x6DEA9281DA034410 Jesus Climent <mooch>
+    * 0x6E69973CF7E8BC63 Cédric Delfosse <cedric>
+    * 0x6F0B4F8857D68A06 Teruyuki Morimura <morimura>
+    * 0x714E66B4496A1827 Sebastian Rittau <srittau>
+    * 0x721EB1B0CEE44978 Daniel Burrows <dburrows>
+    * 0x726C2995383F25B5 Jonathan J. Hall <flimsy>
+    * 0x742F2A428E635A5E Florian Ragwitz <rafl>
+    * 0x7592489BCC983928 Nick Phillips <nwp>
+    * 0x76112FBCFCB1DD23 David Spreen <netzwurm>
+    * 0x76266C50FBB1DB53 Steve Greenland <stevegr>
+    * 0x7649D1C5B4A4E070 Ed Boraas <ed>
+    * 0x775AC806095918D0 Norman Jordan <njordan>
+    * 0x77A8F36A3B047084 Mike Markley <madhack>
+    * 0x781C250432EC6F3E Bastian Kleineidam <calvin>
+    * 0x7985979AE3304051 Wilmer van der Gaast <lintux>
+    * 0x79D9469400E0D054 Michael Schlueter <schlue>
+    * 0x79E6F6DC888354F7 Richard Atterer <atterer>
+    * 0x7A81833366468D05 Marcelo Magallon <mmagallo>
+    * 0x7B199D131997E7CF Chris Halls <halls>
+    * 0x7CC5451EA244C858 Torsten Marek <shlomme>
+    * 0x7D08E5236EB95A6F Damián Viano <des>
+    * 0x7D8DDD89C4CF8EC3 Torsten Werner <twerner>
+    * 0x7F0CD922EE4C26E8 Peter Kelemen <fuji>
+    * 0x813FE83A74974824 Xavier Lüthi <xluthi>
+    * 0x81872F9B54C1C1C9 Ivan Kohler <ivan>
+    * 0x82091D9A5921B5D8 Andrew Mitchell <ajmitch>
+    * 0x846A74DB6538F5BF Mattia Monga <monga>
+    * 0x84C1C77BC0B10A5B Piotr Roszatycki <dexter>
+    * 0x8607903DBDF0AAD0 Shigeo Noshiro <noshiro>
+    * 0x8745DD787582C21A Marco Presi <zufus>
+    * 0x87D5E190EBC73D63 Miah Gregory <mace>
+    * 0x88BBD7DDBD88CDAC Andree Leidenfrost <andree>
+    * 0x8A2C7DC28BD4A489 Adam Heath <doogie>
+    * 0x8B9D310A97C398CB Stefan Pfetzing <dreamind>
+    * 0x8CEEB259B3C281F4 Alain Schroeder <alain>
+    * 0x8CF535F66AA572F7 Fathi Boudra <fabo>
+    * 0x8DD404FF7ED87D57 Paul D. Bame <bame>
+    * 0x8E055F139B726B71 Stefan Hornburg <racke>
+    * 0x8E62E7F764011A8B Jonathan Oxer <jon>
+    * 0x8F3B66A6FC494FC4 Miroslaw Baran <baran>
+    * 0x8F70629AC718D347 Bradley John Smith <bradsmith>
+    * 0x91374E81825BEF79 Mattias Wadenstein <maswan>
+    * 0x9222DAB89840105A Jeff Teunissen <deek>
+    * 0x92E0BDE7C6002CBD Paul Brossier <piem>
+    * 0x941C86926F222F1F Edelhard Becker <edelhard>
+    * 0x98EE733A9DE1EEB1 Marc Brockschmidt <he>
+    * 0x9946397AE142E6F4 M J Ray <mjr>
+    * 0x995B17866B3B7323 Pablo S. Torralba <pstorralba>
+    * 0x99727C1454ECB8AF Lars Bahner <bahner>
+    * 0x99730D5C8A9A3084 Adrian Perez <blackxored>
+    * 0x99D399A1EC36A185 Andreas Barth <aba>
+    * 0x9A6027DB1A944AD7 Martin Albert <ma>
+    * 0x9A8DBEF268396FD2 Christian Hudon <chrish>
+    * 0x9C0E389B3FD25C84 Recai Oktas <roktas>
+    * 0x9D0633E1B6250985 Andrew Lee <ajqlee>
+    * 0x9E86D9142C9ED607 Adrian Bridgett <bridgett>
+    * 0x9EE43746DE599800 Romain Beauxis <toots>
+    * 0xA02CDA9F3D08B612 Mark Purcell <msp>
+    * 0xA1231035532005DA Angel Ramos <seamus>
+    * 0xA18FB40BD4BE1450 Christophe Prud'homme <prudhomm>
+    * 0xA1B13F2C2C8B195A Peter Makholm <makholm>
+    * 0xA1BCBB2F306CDFF3 Alejandro Ríos Peña <alerios>
+    * 0xA217C4C35E2EB5B4 Norbert Veber <nveber>
+    * 0xA366302EB1DE86CE Neil A. Schemenauer <nas>
+    * 0xA56BC3DF985BA281 Gleydson Mazioli da Silva <gleydson>
+    * 0xA84F709AEDD3D779 Roland Marcus Rutschmann <rudi>
+    * 0xA8CB01F5BE9F70EA Thomas Bushnell <tb>
+    * 0xA95C3BECEB88E930 Philipp Benner <philipp>
+    * 0xA975987B1F9FA7EE Stuart Teasdale <sdt>
+    * 0xA9B62CEAC42B63CA Matej Vela <vela>
+    * 0xAF29C719124B61FA Hubert Chan <uhoreg>
+    * 0xB14BCEFE316DC8FB Yven Johannes Leist <leist>
+    * 0xB24F9D802225848E Arnaud Cornet <acornet>
+    * 0xB2B05F45D626ABB6 Marcela Tiznado <mlt>
+    * 0xB3A02D6623706F87 Pierre Machard <pmachard>
+    * 0xB5E01C5DE678D1A1 Bradley Bell <btb>
+    * 0xB5F92902090C3B23 Paul Waite <paulwaite>
+    * 0xB72D2AB365B328C6 Shuzo Hatta <hattas>
+    * 0xB8824687F1968D1B Decklin Foster <decklin>
+    * 0xB8CA331F10726171 Wartan Hachaturow <wart>
+    * 0xBAC78EE5DBA50595 Behan Webster <behanw>
+    * 0xBC6AFB5BA1EE761C Pierre Habouzit <madcoder>
+    * 0xBCBBC495718A9256 Wesley W. Terpstra <terpstra>
+    * 0xBD0D4B33A997BA7A Juergen Salk <jsa>
+    * 0xBDC0A0AE06468DEB Federico Di Gregorio <fog>
+    * 0xBFCA4B38A824B93F Alexander Sack <asac>
+    * 0xC09E1D8995930EDE Axel Beckert <abe>
+    * 0xC0A4F11DE06B3F97 Mattias Nordstrom <mnordstr>
+    * 0xC26C97906D4FC66F Nicolas Boullis <nboullis>
+    * 0xC2B079FCF5C75256 Russell Coker <etbe>
+    * 0xC490534E75C089FE Franck Joncourt <franck>
+    * 0xC490643655D3A1E9 Laurence Lane <ljlane>
+    * 0xC79838D0436337DD Paul Robert Hedderly <prh>
+    * 0xC8B7E935D63469DF David Nusinow <dnusinow>
+    * 0xC97425FBAE4B5D92 Scott M. Dier <sdier>
+    * 0xCA78CB3E6E76D81D Sean Finney <seanius>
+    * 0xCB668E29A3FD0DF7 Mohammed Sameer <msameer>
+    * 0xCE04080E9456ADE2 Michael Schiansky <ms>
+    * 0xCEB14A7A1DDC990D Claire Connelly <cmc>
+    * 0xCF953E76C24B9018 Niv Sardi-Altivanik <xaiki>
+    * 0xD1065AB38E384AF2 Christopher L. Cheney <ccheney>
+    * 0xD1F857D18FE8733D Jochen Friedrich <jochen>
+    * 0xD203CCA5FDA6B6A9 Igor Stroh <jenner>
+    * 0xD29B1AFCF90FFFE5 David Parker <dap>
+    * 0xD29BBFFC442E63C2 Christoph Lameter <clameter>
+    * 0xD386DEE262EEAD8B Falk Hueffner <falk>
+    * 0xD4D8356166F24521 Brian Nelson <pyro>
+    * 0xD523A6E660062884 Masato Taruishi <taru>
+    * 0xD696CA8660B6B958 Guenter Geiger <geiger>
+    * 0xD8E0724BB29396EB Andrés Roldán <aroldan>
+    * 0xD90A1C75F90F9FF1 Michael Beattie <mjb>
+    * 0xDA286F326C5F196B Oleksandr V. Moskalenko <malex>
+    * 0xDAF7350A7EBBD625 Roland McGrath <frob>
+    * 0xDB4CCC4B2A30D729 Petter Reinholdtsen <pere>
+    * 0xDDE35CF15653C9C4 Helen Faulkner <helen>
+    * 0xDEEC8C09DE415B0E Susumu Osawa <susumuo>
+    * 0xDF45A8055D07E95C Hamish Moffatt <hamish>
+    * 0xDF79A374B4071A65 Florian Hinzmann <fh>
+    * 0xDFEDBB2225BCD5BF Pascal Hakim <pasc>
+    * 0xE0CD3CDC59B2D9A0 Matthew Brown <mattb>
+    * 0xE17AD7B5090DD8D5 Ingo Saitz <ingo>
+    * 0xE28450F601D3AB93 Vince Mulhollon <vlm>
+    * 0xE2EDE84371473F66 Todd Troxell <ttroxell>
+    * 0xE3AA82D81B352C01 Chris Hanson <cph>
+    * 0xE48B65B54B394F7E Barry deFreese <bdefreese>
+    * 0xE52707E90485EFCD Amos Waterland <apw>
+    * 0xE5350AE06087D2F8 LI Daobing <lidaobing>
+    * 0xE7FF2E5B634F9A20 Chris Lamb <lamby>
+    * 0xE90112A72B05B73A Roderick Schertler <rjs>
+    * 0xEA4C661F2B46A27C Branden Robinson <branden>
+    * 0xEA7ED2A341954920 Frederik Schüler <fs>
+    * 0xEBAD6E5CBAC59E39 Eric Schwartz <emschwar>
+    * 0xEC326810CD5626F0 Craig Sanders <cas>
+    * 0xEC3BCAC4137A955E Michael D. Mattice <mattice>
+    * 0xED93CA29124B26F3 Mike Furr <mfurr>
+    * 0xEDC63044925288BE Jason Thomas <jason>
+    * 0xEDFB700537155778 Gustavo Franco <stratus>
+    * 0xEE50AA3CDD81604C Øystein Gisnås <shaka>
+    * 0xEEA2EFA277DCE083 Makoto OHURA <ohura>
+    * 0xEED8D4CC1DEB8EAE Goedson Teixeira Paixao <goedson>
+    * 0xF09B1EEDDEBA6F3E Thorvald Natvig <thorvald>
+    * 0xF16961C8CC8D7957 Manuel Prinz <manuel>
+    * 0xF20FAC0B7B8357E5 Andreas Schuldei <andreas>
+    * 0xF36D89424DB97694 Ki-Heon Kim <khkim>
+    * 0xF85EBF46258D8781 Michael Bramer <grisu>
+    * 0xF892981B6258629A Thierry Randrianiriana <thierry>
+    * 0xFA96A148004DA6B4 Akira Ohashi <bg66>
+    * 0xFB1B3D632252FA1A Frank Küster <frank>
+    * 0xFDDAB37AD935CEBA Alexander Kotelnikov <sacha>
+
+  * Removed DM keys:
+    * 0x0F8033F0BACAB6C2 Gustavo R. Montesino
+    * 0x10A46FFB90D53618 Thomas Friedrichsmeier
+    * 0x1571C4CFF6E7A452 Kęstutis Biliūnas
+    * 0x17A165D5F0A25F0E Benoit Mortier
+    * 0x1BB375334D750376 Mats Erik Andersson
+    * 0x1F2B7AB205B99DD6 Andreas Putzo
+    * 0x1FD2BF96F5CC22A4 William Vera
+    * 0x28466F1A54C2A185 Laurent Léonard
+    * 0x2E979FF624EDC406 Trent W. Buck
+    * 0x363BCAEC94D6CBB0 Tang Ke
+    * 0x381D2AC78124B100 Thomas Müller
+    * 0x46CC5C63F318A56A Helge Kreutzmann
+    * 0x548662D00E41645E Xavier Grave
+    * 0x58B29F8CF74EC6C8 Iulian Udrea
+    * 0x5C3AA7E83487EC71 Peter Collingbourne
+    * 0x66611D57D487A1EE Johan Euphrosine
+    * 0x67DA2448A9A3EDD5 Xavier Guimard
+    * 0x6CA41A7743B8D6C8 Erik de Castro Lopo
+    * 0x7C64D4A494D68544 Anuradha Weeraman
+    * 0x95DE059D8D7FCA91 Stefan Potyra
+    * 0x964D005C0CA7686C Artur R. Czechowski
+    * 0xA4FEBB980AF24BF4 Luca Bigliardi
+    * 0xA677D7EC95DA8EA9 Heikki Henriksen
+    * 0xAC4F466D7D1D3A2F Ervin Hearn III
+    * 0xAE07828059A53CC1 Thomas Leonard
+    * 0xB012AD8CF19F599F Darren Salt
+    * 0xB2197FDB5EA01078 Sam Morris
+    * 0xBDF4BD5D420F3009 Deng Xiyue
+    * 0xC1ED266701F55480 Jörg Sommer
+    * 0xC412AF7E994376FD Andreas Hildebrandt
+    * 0xDE6B4AC392742B33 Jordan Mantha
+    * 0xEA11D609624D95E5 Chen-Tse Tsai
+    * 0xECEEDDA00BA7D094 Bart Samwel
+    * 0xF7D931D4B882EBD7 Eric Cooper
+    * 0xFC2D1E5077F726CD Daniel Nurmi
+
+ -- Jonathan McDowell <noodles@earth.li>  Thu, 01 Jan 2015 18:24:24 +0000
+
 debian-keyring (2014.12.31) unstable; urgency=medium
 
   [ Jonathan McDowell ]
