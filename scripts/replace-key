@@ -129,9 +129,7 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 
     log="Replace 0x$oldkey with 0x$newkey ($name) (RT #$rtid)"
 
-    if [ "$keyring" != "removed-1024-gpg" ]; then
-	git mv $oldkeyfile removed-keys-gpg/
-    fi
+    git mv $oldkeyfile removed-keys-gpg/
     dch  --multimaint-merge -D UNRELEASED -a "$log"
     git add debian/changelog
 

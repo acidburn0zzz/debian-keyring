@@ -8,7 +8,8 @@ debian-keyring (2015.01.xx) UNRELEASED; urgency=medium
     #5666)
   * Move 0x7E5823F7EE84E71D (Adrian Bridgett) to emeritus
   * Patched scripts/replace-key to handle the removed-1024-gpg directory
-  * Add new DD key 0xF53E93AF3DED42EB (Antonin Kral) (RT #5544)
+  * Replace 0x3298C70DE5FFEDE1 with 0xF53E93AF3DED42EB (Antonin Kral) (RT
+    #5544)
   * Move 0xC490534E75C089FE (Franck Joncourt) to emeritus
   * Replace 0x1558944599E81DA0 with 0x09DA9408B4E14499 (Lior Kaplan) (RT
     #5678)
