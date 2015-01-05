@@ -36,7 +36,7 @@ output/README: README
 output/changelog: debian/changelog
 	cp debian/changelog output/
 
-test:
+test: all
 	./runtests
 
 clean:
