@@ -22,6 +22,8 @@ debian-keyring (2015.01.xx) UNRELEASED; urgency=medium
     having been built
   * Replace 0x147F1AEA2DB65596 with 0xFE88AC6C19048885 (Massimo Dal
     Zotto) (RT #5681)
+  * Replace 0xEC326810CD5626F0 with 0x63490E055E0774C5 (Craig Sanders)
+    (RT #5569)
 
  -- Gunnar Wolf <gwolf@debian.org>  Thu, 01 Jan 2015 21:16:33 -0600
 
