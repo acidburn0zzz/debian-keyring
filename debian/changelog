@@ -1,3 +1,9 @@
+debian-keyring (2015.01.xx) UNRELEASED; urgency=medium
+
+  * Move 0x781C250432EC6F3E (Bastian Kleinedam) to emeritus (RT #5688)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Fri, 09 Jan 2015 17:18:56 -0600
+
 debian-keyring (2015.01.09) unstable; urgency=medium
 
   * Replace 0xC09E1D8995930EDE with 0x2FF9CD59612616B5 (Axel Beckert)
