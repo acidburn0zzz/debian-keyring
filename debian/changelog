@@ -13,6 +13,8 @@ debian-keyring (2015.01.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x9866E4A9EC1663E5 (Etienne Millon) (RT #5692)
   * Add new DD key 0x7D5D8C60CF4D3EB4 (Johannes Schauer) (RT #5693)
   * Add new DD key 0x6750F10AE88D4AF1 (Sebastiaan Couwenberg) (RT #5694)
+  * Add new DD key 0xA1F751F1A55357E8 (Nattie Mayer-Hutchings) (RT
+    #5698)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 09 Jan 2015 17:18:56 -0600
 
