@@ -17,6 +17,7 @@ debian-keyring (2015.01.xx) UNRELEASED; urgency=medium
 
   [ Gunnar Wolf ]
   * Add new DM key 0x69F30763DFEFC134 (Steve Chamberlain) (RT #5695)
+  * Add new DM key 0xB24CA63F6EBBE84D (Timothy Potter) (RT #5696)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 09 Jan 2015 17:18:56 -0600
 
