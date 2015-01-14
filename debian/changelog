@@ -4,17 +4,16 @@ debian-keyring (2015.01.xx) UNRELEASED; urgency=medium
   * Move 0x781C250432EC6F3E (Bastian Kleinedam) to emeritus (RT #5688)
   * Replace 0x28EEB35A3E8DCCC0 with 0xBEBAD1FA1B874544 (Martin Würtele)
     (RT #5656)
-
-  [ Jonathan McDowell ]
-  * Replace 0xE7FF2E5B634F9A20 with 0x1E953E27D4311E58 (Chris Lamb) (RT
-    #5689)
-
-  [ Gunnar Wolf ]
   * Add new DM key 0x9866E4A9EC1663E5 (Etienne Millon) (RT #5692)
   * Add new DD key 0x7D5D8C60CF4D3EB4 (Johannes Schauer) (RT #5693)
   * Add new DD key 0x6750F10AE88D4AF1 (Sebastiaan Couwenberg) (RT #5694)
   * Add new DD key 0xA1F751F1A55357E8 (Nattie Mayer-Hutchings) (RT
     #5698)
+  * Add new DD key 0x9FB9262724B17D29 (Tomasz Buchert) (RT #5697)
+
+  [ Jonathan McDowell ]
+  * Replace 0xE7FF2E5B634F9A20 with 0x1E953E27D4311E58 (Chris Lamb) (RT
+    #5689)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 09 Jan 2015 17:18:56 -0600
 
