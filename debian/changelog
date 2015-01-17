@@ -10,6 +10,8 @@ debian-keyring (2015.01.xx) UNRELEASED; urgency=medium
   * Add new DD key 0xA1F751F1A55357E8 (Nattie Mayer-Hutchings) (RT
     #5698)
   * Add new DD key 0x9FB9262724B17D29 (Tomasz Buchert) (RT #5697)
+  * Replace 0xB2B05F45D626ABB6 with 0x5CB9D8493D29D438 (Marcela Tiznado)
+    (RT #5700)
 
   [ Jonathan McDowell ]
   * Replace 0xE7FF2E5B634F9A20 with 0x1E953E27D4311E58 (Chris Lamb) (RT
