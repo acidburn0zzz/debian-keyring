@@ -12,14 +12,13 @@ debian-keyring (2015.01.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x9FB9262724B17D29 (Tomasz Buchert) (RT #5697)
   * Replace 0xB2B05F45D626ABB6 with 0x5CB9D8493D29D438 (Marcela Tiznado)
     (RT #5700)
+  * Add new DM key 0x69F30763DFEFC134 (Steve Chamberlain) (RT #5695)
+  * Add new DM key 0xB24CA63F6EBBE84D (Timothy Potter) (RT #5696)
 
   [ Jonathan McDowell ]
   * Replace 0xE7FF2E5B634F9A20 with 0x1E953E27D4311E58 (Chris Lamb) (RT
     #5689)
-
-  [ Gunnar Wolf ]
-  * Add new DM key 0x69F30763DFEFC134 (Steve Chamberlain) (RT #5695)
-  * Add new DM key 0xB24CA63F6EBBE84D (Timothy Potter) (RT #5696)
+  * Move 0x1D7365A755815D42 (Daniel Ruoso) to emeritus
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 09 Jan 2015 17:18:56 -0600
 
