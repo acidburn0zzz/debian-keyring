@@ -26,6 +26,7 @@ debian-keyring (2015.01.xx) UNRELEASED; urgency=medium
   * Move 0x1D7365A755815D42 (Daniel Ruoso) to emeritus
   * Replace 0x4BFDBDA66045FB1E with 0xBFA28F8B9FC8AE73 (Bradley A.
     Bosch) (RT #5701)
+  * Move 0x5ECAFB00A3AE44A4 (Mike O'Connor) to emeritus (RT #5709)
 
   [ Daniel Kahn Gillmor ]
   * Replace 0x6B37E8DD34B36856 with 0xA876AE830A49ACD3 (Jeff Breidenbach)
