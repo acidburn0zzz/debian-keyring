@@ -17,6 +17,8 @@ debian-keyring (2015.01.xx) UNRELEASED; urgency=medium
   * Move 4096R keys 0xB6D3FC68BA25360D (NOSHIRO Shigeo) and
     0x2FF9CD59612616B5 (Axel Beckert) from removed-1024-gpg to debian-
     keyring-gpg (misplaced when added)
+  * Replace 0xD90A1C75F90F9FF1 with 0x3B6212915022936C (Mike Beattie)
+    (RT #5690)
 
   [ Jonathan McDowell ]
   * Replace 0xE7FF2E5B634F9A20 with 0x1E953E27D4311E58 (Chris Lamb) (RT
