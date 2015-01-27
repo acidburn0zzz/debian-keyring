@@ -23,6 +23,40 @@ debian-keyring (2015.01.xx) UNRELEASED; urgency=medium
     #5670)
   * Replace 0x632E3DAD46D9CE5A with 0x49DDA59BA2EC1A7F (Raphael
     Geissert) (RT #5706)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00B45EBD4CA7BABE NIIBE Yutaka <gniibe> sub:5486 sig:5486
+    * 0x56FF9EA4E9846C49 UNKNOWN (DM?) sig:50
+    * 0xAFCFEC8E669CE1C2 UNKNOWN (DM?) sig:2
+    * 0xD0DF194361283431 UNKNOWN (DM?) uid:3 sig:3
+    * 0x00B45EBD4CA7BABE NIIBE Yutaka <gniibe> sub:10974 sig:10974
+    * 0x0664A76954265E8C Simon Josefsson <jas> sig:9
+    * 0x1C7C41EDEBDDBB60 Brendan O'Dea <bod> sig:6
+    * 0x2AFBD67FD133AC6E Martin Meredith <mez> sig:10
+    * 0x393587D97D86500B Colin Watson <cjwatson> sig:4
+    * 0x3F490DEB871EF9FA Guus Sliepen <guus> sig:10
+    * 0x416F061063FEE659 Erinn Clark <erinn> sig:33
+    * 0x5041F1891F44E090 A. Maitland Bottoms <bottoms> sig:3
+    * 0x5262E7FF491049FE Jonas Meurer <mejo> sig:2
+    * 0x55FF03AE59EC5558 Giacomo Catenazzi <cate> sig:2
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:9
+    * 0x759D33F5C15F0596 Alexander Pennace <alexp> sig:3
+    * 0x789D6F057FD863FE Salvatore Bonaccorso <carnil> sig:31
+    * 0x7C56ACFE947897D8 Anibal Monsalve Salazar <anibal> sig:18
+    * 0x97325DD8F9FDD506 Luke Faraone <lfaraone> sig:7
+    * 0x9C5C99EB05BD750A Paul Gevers <elbrus> uid:2 sig:6
+    * 0xC38E8160A17841FE Aron Xu <aron> sub:2 sig:65
+    * 0xC7F7F9660D82A682 Laurent Bigonville <bigon> sig:6
+    * 0xCCD2ED94D21739E9 Daniel Kahn Gillmor <dkg> sub:2 sig:33
+    * 0xD91315B964C06556 Michael Janssen <jamuraa> sig:2
+    * 0xDB221A6900000011 Keith Packard <keithp> uid:1 sig:57
+    * 0xDBF480C602F946FC Marcin Owsiany <porridge> sig:5
+    * 0xDD29F88442839ED3 John Goerzen <jgoerzen> sig:2
+    * 0xE5CA8C4925E4205F Philipp Huebner <debalance> sig:5
+    * 0xF53E93AF3DED42EB Antonin Kral <krala> uid:2 sig:2
+    * 0xFF914AF0C2B35520 Cyril Brulebois <kibi> sig:6
+    * 0x02541A371530B71F UNKNOWN (DM?) sig:1
+    * 0xE984F812756753E5 UNKNOWN (DM?) uid:1 sig:3
+    * 0xF7EE616EE0C20CFF UNKNOWN (DM?) sig:7
 
   [ Jonathan McDowell ]
   * Replace 0xE7FF2E5B634F9A20 with 0x1E953E27D4311E58 (Chris Lamb) (RT
