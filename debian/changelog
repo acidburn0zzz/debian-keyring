@@ -1,4 +1,4 @@
-debian-keyring (2015.01.xx) UNRELEASED; urgency=medium
+debian-keyring (2015.01.26) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Move 0x781C250432EC6F3E (Bastian Kleinedam) to emeritus (RT #5688)
