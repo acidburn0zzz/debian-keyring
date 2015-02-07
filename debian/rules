@@ -44,7 +44,7 @@ binary-indep: checkroot
 	$(install_file) debian/NEWS debian/tmp/usr/share/doc/debian-keyring/NEWS.Debian
 	$(install_file) debian/changelog debian/tmp/usr/share/doc/debian-keyring/changelog
 	$(install_file) debian/changelog.old debian/tmp/usr/share/doc/debian-keyring/changelog.old
-	gzip -9v debian/tmp/usr/share/doc/debian-keyring/*
+	gzip -9nv debian/tmp/usr/share/doc/debian-keyring/*
 	$(install_file) debian/copyright debian/tmp/usr/share/doc/debian-keyring/
 
 	dpkg-gencontrol -isp
