@@ -9,6 +9,8 @@ debian-keyring (2015.02.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x6F31BC44F5177DAA (Federico Ceratto) (RT #5724)
   * Replace 0xC26C97906D4FC66F with 0xD0E94F8D882D4468 (Nicolas Boullis)
     (RT #5728)
+  * Replace 0x431A3CEDA2D7D292 with 0x3EBD44903EDB0496 (Sebastien
+    Bacher) (RT #5685)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 07 Feb 2015 11:27:53 -0600
 
