@@ -13,6 +13,8 @@ debian-keyring (2015.02.xx) UNRELEASED; urgency=medium
     Bacher) (RT #5685)
   * Replace 0xBACE15D2A57498FF with 0xC92949B8A63BB098 (intrigeri) (RT
     #5730)
+  * Replace 0xBAC78EE5DBA50595 with 0x72AF46E6E541A5A2 (Behan Webster)
+    (RT #5657)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 07 Feb 2015 11:27:53 -0600
 
