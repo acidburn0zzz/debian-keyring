@@ -23,6 +23,8 @@ debian-keyring (2015.02.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x50D52F12CE4E1399 (Olof Johansson) (RT #5733)
   * Add new DM key 0x96EDAB9B2E6B7171 (Chelamattath Balasankar) (RT #5736)
   * Add new DM key 0xD113FCAC3C4E599F (Nikolaus Rath) (RT #5737)
+  * Replace 0x7C64D4A494D68544 with 0x636DB5A1D91860FD (Anuradha Weeraman)
+    (RT #5731)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 07 Feb 2015 11:27:53 -0600
 
