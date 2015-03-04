@@ -25,6 +25,52 @@ debian-keyring (2015.02.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xD113FCAC3C4E599F (Nikolaus Rath) (RT #5737)
   * Replace 0x7C64D4A494D68544 with 0x636DB5A1D91860FD (Anuradha Weeraman)
     (RT #5731)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00018C22381A7594 Sébastien Villemot <sebastien> sig:16
+    * 0x00806F2BD729A457 Jelmer Vernooij <jelmer> sub:2 sig:41
+    * 0x04AAE5B397F1AAAC Ulrich Dangel <uli> sig:3
+    * 0x0C48EA2A7A8FFD7B Peter Michael Green <plugwash> sig:2
+    * 0x0F02A5E1163686A4 Francesco Paolo Lovergine <frankie> sig:4
+    * 0x12F4D21C8F6A63C8 Matthew Vernon <matthew> sig:6
+    * 0x1318EFAC5FBBDBCE UNKNOWN (DM?) sub:1 sig:24
+    * 0x2064C53641C25E5D Kurt Roeckx <kroeckx> sig:59
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:3
+    * 0x33BE1A0A8C2ED8FF Mehdi Dogguy <mehdi> sig:2
+    * 0x39278DA8109E6244 UNKNOWN (DM?) sig:371
+    * 0x4DE8FF2A63C7CC90 Simon McVittie <smcv> sig:7
+    * 0x4F346E47A5805D48 Ron Lee <ron> sig:1
+    * 0x51106DF5CD92D072 Stefano Rivera <stefanor> sub:3 sig:17
+    * 0x554297EDF9CCA585 UNKNOWN (DM?) sub:2 sig:2
+    * 0x55FF03AE59EC5558 Giacomo Catenazzi <cate> sig:12
+    * 0x587979573442684E Steve McIntyre <93sam> sig:6
+    * 0x59D03CC92BA0FEAE Julian Gilbey <jdg> sig:4
+    * 0x5FA5E75AAB515303 Patryk Cisek <patryk> sub:1 sig:3
+    * 0x62AF4031C82E0039 Peter Palfrader <weasel> sig:43
+    * 0x6611C05EDD39F374 Jérémy Lal <kapouer> sig:2
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:3
+    * 0x6750F10AE88D4AF1 Sebastiaan Couwenberg <sebastic> uid:3 sig:6
+    * 0x711430CB2F2BE6D3 UNKNOWN (DM?) uid:1 sig:1
+    * 0x78DC68DB326D8438 Oliver Sallou <osallou> sig:1
+    * 0x7D5D8C60CF4D3EB4 Johannes Schauer <josch> uid:1 sig:1
+    * 0x7F55BB12A40F862E Neil McGovern <neilm> sig:3
+    * 0x7F6022516E869F64 Andreas Bombe <aeb> sig:4
+    * 0x8F0E7C2B4522E387 Bill Allombert <ballombe> sig:2
+    * 0x8F7BF8FC4A11C97A Ryan Kavanagh <rak> sig:18
+    * 0x962680C5305A9418 Kåre Thor Olsen <kaare> sig:2
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:17
+    * 0x9FB9262724B17D29 Tomasz Buchert <tomasz> uid:2 sig:33
+    * 0xA2D13001D98C0FBA Don Armstrong <don> sig:2
+    * 0xB01FEA84617B586D Andreas B. Mundt <andi> sig:5
+    * 0xB6D3FC68BA25360D NOSHIRO Shigeo <noshiro> sig:4
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:128
+    * 0xBC196A94EDDDA1B7 UNKNOWN (DM?) sig:7
+    * 0xBE0C924203F4552D UNKNOWN (DM?) uid:1 sig:1
+    * 0xDECF849AA6357FB7 Tobias Frost <tobi> sig:4
+    * 0xE5CA8C4925E4205F Philipp Huebner <debalance> sig:6
+    * 0xF167E43C8143B682 Neil Williams <codehelp> sig:3
+    * 0xF5C83C05D9CEEEEE UNKNOWN (DM?) sig:31
+    * 0xF7EE616EE0C20CFF UNKNOWN (DM?) sig:74
+    * 0xFE8D78F9FE4F4E10 Sandro Tosi <morph> sig:2
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 07 Feb 2015 11:27:53 -0600
 
