@@ -1,4 +1,4 @@
-debian-keyring (2015.03.04) unstable; urgency=medium
+debian-keyring (2015.03.04) UNRELEASED; urgency=medium
 
   [ Gunnar Wolf ]
   * Patch to allow reproducible builds (Closes: #777310)
@@ -18,6 +18,8 @@ debian-keyring (2015.03.04) unstable; urgency=medium
     (RT #5657)
   * Replace 0x96DD4846A3D2357B with 0x3884437B13D8FF8B (Martin Bagge)
     (RT #5732)
+  * Replace 0x54F52A8713AB03A7 with 0xED630BD2FFA943F1 (Benjamin Mesing)
+    (RT #5755)
 
   [ Jonathan McDowell ]
   * Add new DM key 0x50D52F12CE4E1399 (Olof Johansson) (RT #5733)
