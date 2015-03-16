@@ -20,6 +20,8 @@ debian-keyring (2015.03.04) UNRELEASED; urgency=medium
     (RT #5732)
   * Replace 0x54F52A8713AB03A7 with 0xED630BD2FFA943F1 (Benjamin Mesing)
     (RT #5755)
+  * Replace 0x83FD1C4682D138E0 with 0x1302F1F036EBEB19 (Tobias
+    Quathamer) (RT #5752)
 
   [ Jonathan McDowell ]
   * Add new DM key 0x50D52F12CE4E1399 (Olof Johansson) (RT #5733)
