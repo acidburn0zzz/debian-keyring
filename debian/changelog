@@ -24,6 +24,8 @@ debian-keyring (2015.03.04) UNRELEASED; urgency=medium
     Quathamer) (RT #5752)
   * Replace 0x726C2995383F25B5 with 0x8B49BB0F0F945FC8 (Jonathan J.
     Hall) (RT #5754)
+  * Replace 0x8E055F139B726B71 with 0x5B93015BFA2720F8 (Stefan Hornburg)
+    (RT #5750)
 
   [ Jonathan McDowell ]
   * Add new DM key 0x50D52F12CE4E1399 (Olof Johansson) (RT #5733)
