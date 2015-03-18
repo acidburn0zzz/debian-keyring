@@ -41,6 +41,61 @@ class DakOutput(object):
                         "Reason: RT #" + operation['rt-ticket'] +
                         ", keyring commit " + state['commit'] + "\n")
 
+
+class RTOutput(object):
+    """
+    Output parsed records for RT
+    """
+    def __init__(self, pathname):
+        self.out = open(pathname, 'w')
+
+    def close(self):
+        self.out.close()
+
+    def write(self, state, operation):
+        if operation['action'] == 'add':
+            if 'rt-ticket' in operation:
+                self.out.write("# Commit " + state['commit'] + "\n")
+                if re.match("(DD|DN)", operation['role']):
+                    self.out.write("rt edit ticket/" + operation['rt-ticket'] +
+                            " set queue=DSA\n")
+                elif operation['role'] == 'DM':
+                    self.out.write("rt correspond -s resolved -m " +
+                        "'This key has now been added to the active DM keyring.' " +
+                        operation['rt-ticket'] + "\n")
+                else:
+                    self.out.write("rt correspond -s resolved -m " +
+                        "'This key has now been added to the " +
+                        operation['role'] + " keyring.' " +
+                        operation['rt-ticket'] + "\n")
+        elif operation['action'] == 'remove':
+            if 'rt-ticket' in operation:
+                self.out.write("# Commit " + state['commit'] + "\n")
+                if re.match("(DD|DN)", operation['role']):
+                    self.out.write("rt edit ticket/" + operation['rt-ticket'] +
+                            " set queue=DSA\n")
+                else:
+                    self.out.write("rt edit ticket/" + operation['rt-ticket'] +
+                            " set queue=Keyring\n" +
+                            "rt correspond -s resolved -m "+
+                            "'This key has now been removed from the active DM keyring.' " +
+                            operation['rt-ticket'] + "\n")
+        elif operation['action'] == 'replace':
+            self.out.write("# Commit " + state['commit'] + "\n")
+            if re.match("(DD|DN)", operation['role']):
+                self.out.write("rt edit ticket/" + operation['rt-ticket'] +
+                        " set queue=Keyring\n" +
+                        "rt correspond -s resolved -m " +
+                        "'Your key has been replaced in the active keyring and LDAP updated with the new fingerprint.' " +
+                        operation['rt-ticket'] + "\n")
+            else:
+                self.out.write("rt edit ticket/" + operation['rt-ticket'] +
+                        " set queue=Keyring\n" +
+                        "rt correspond -s resolved -m "+
+                        "'Your key has been replaced in the active DM keyring.' " +
+                        operation['rt-ticket'] + "\n")
+
+
 class Parser(object):
     def __init__(self):
         self.seenrt = {}
@@ -50,7 +105,7 @@ class Parser(object):
 
         if not 'action' in operation:
             print("NOTE : " + state['commit'] + " (" + state['summary'] + ") has no action")
-            return (None, "", "")
+            return (None, "")
 
         if 'rt-ticket' in operation and operation['rt-ticket'] in self.seenrt:
             print("ERROR: RT " + operation['rt-ticket'] + " used in " +
@@ -59,43 +114,21 @@ class Parser(object):
         else:
             self.seenrt[operation['rt-ticket']] = state['commit']
 
-        rt = ldap = ""
+        ldap = ""
         if operation['action'] == 'add':
             if 'rt-ticket' in operation:
-                rt += "# Commit " + state['commit'] + "\n"
-                if re.match("(DD|DN)", operation['role']):
-                    rt += ("rt edit ticket/" + operation['rt-ticket'] +
-                            " set queue=DSA\n")
-                elif operation['role'] == 'DM':
-                    rt += ("rt correspond -s resolved -m " +
-                        "'This key has now been added to the active DM keyring.' " +
-                        operation['rt-ticket'] + "\n")
+                if operation['role'] == 'DM':
                     bts = operation['BTS'].strip()
                     bts = re.sub(r'http://bugs.debian.org/(\d+)',
                         r'\1-done@bugs.debian.org', bts)
                     print("NOTE : Mail " + bts + " (new DM).")
-                else:
-                    rt += ("rt correspond -s resolved -m " +
-                        "'This key has now been added to the " +
-                        operation['role'] + " keyring.' " +
-                        operation['rt-ticket'] + "\n")
-                return (operation, rt, ldap)
+                return (operation, ldap)
             else:
                 print("TODO : Add with no RT ticket")
-                return (None, "", "")
+                return (None, "")
         elif operation['action'] == 'remove':
             if 'rt-ticket' in operation:
-                rt += "# Commit " + state['commit'] + "\n"
-                if re.match("(DD|DN)", operation['role']):
-                    rt += ("rt edit ticket/" + operation['rt-ticket'] +
-                            " set queue=DSA\n")
-                else:
-                    rt += ("rt edit ticket/" + operation['rt-ticket'] +
-                            " set queue=Keyring\n" +
-                            "rt correspond -s resolved -m "+
-                            "'This key has now been removed from the active DM keyring.' " +
-                            operation['rt-ticket'] + "\n")
-                return (operation, rt, ldap)
+                return (operation, ldap)
             else:
                 if 'username' in operation:
                     username = operation['username']
@@ -106,36 +139,25 @@ class Parser(object):
                 elif 'subject' in operation:
                     username = operation['subject']
                 print("TODO : Removal for " + username + " without RT ticket.")
-                return (None, rt, ldap)
+                return (None, ldap)
         elif operation['action'] == 'replace':
-            rt += "# Commit " + state['commit'] + "\n"
             if re.match("(DD|DN)", operation['role']):
                 if not 'username' in operation:
                     operation['Username'] = 'FIXME'
                 ldap += operation['username'] + " " + operation['old-key'] + " "
                 ldap += operation['new-key'] + "\n"
-                rt += ("rt edit ticket/" + operation['rt-ticket'] +
-                        " set queue=Keyring\n" +
-                        "rt correspond -s resolved -m " +
-                        "'Your key has been replaced in the active keyring and LDAP updated with the new fingerprint.' " +
-                        operation['rt-ticket'] + "\n")
-                return (operation, rt, ldap)
+                return (operation, ldap)
             else:
-                rt += ("rt edit ticket/" + operation['rt-ticket'] +
-                        " set queue=Keyring\n" +
-                        "rt correspond -s resolved -m "+
-                        "'Your key has been replaced in the active DM keyring.' " +
-                        operation['rt-ticket'] + "\n")
-                return (operation, rt, ldap)
+                return (operation, ldap)
         else:
             print("Error: Unknown action " + operation['action'])
-            return (None, "", "")
+            return (None, "")
 
     def main(self):
         state = {}
         opcount = 0
         dak = DakOutput("dak-update")
-        rtf = open('rt-update', 'w')
+        rt = RTOutput("rt-update")
         ldapf = open('ldap-update', 'w')
 
         for line in sys.stdin:
@@ -145,11 +167,10 @@ class Parser(object):
             m = re.match("commit (.*)$", line)
             if m:
                 if 'message' in state:
-                    (operation, rt, ldap) = self.do_operation(state)
+                    (operation, ldap) = self.do_operation(state)
                     if operation:
                         dak.write(state, operation)
-                    if rt:
-                        rtf.write(rt)
+                        rt.write(state, operation)
                     if ldap:
                         ldapf.write(ldap)
                     opcount += 1
@@ -178,17 +199,16 @@ class Parser(object):
 
         # Process the last commit, if applicable
         if 'message' in state:
-            (operation, rt, ldap) = self.do_operation(state)
+            (operation, ldap) = self.do_operation(state)
             if operation:
                 dak.write(state, operation)
-            if rt:
-                rtf.write(rt)
+                rt.write(state, operation)
             if ldap:
                 ldapf.write(ldap)
             opcount += 1
 
         ldapf.close()
-        rtf.close()
+        rt.close()
         dak.close()
 
         print("Processed " + str(opcount) + " operations.")
