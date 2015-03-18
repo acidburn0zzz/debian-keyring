@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+from __future__ import print_function
 import email
 import re
 import sys
@@ -12,11 +13,11 @@ class Parser(object):
         operation = email.message_from_string(state['message'])
 
         if not 'action' in operation:
-            print "NOTE : " + state['commit'] + " (" + state['summary'] + ") has no action"
+            print("NOTE : " + state['commit'] + " (" + state['summary'] + ") has no action")
             return ("", "", "")
 
         if 'rt-ticket' in operation and operation['rt-ticket'] in self.seenrt:
-            print ("ERROR: RT " + operation['rt-ticket'] + " used in " +
+            print("ERROR: RT " + operation['rt-ticket'] + " used in " +
                     self.seenrt[operation['rt-ticket']] + " and " +
                     state['commit'])
         else:
@@ -36,14 +37,14 @@ class Parser(object):
                     bts = operation['BTS'].strip()
                     bts = re.sub(r'http://bugs.debian.org/(\d+)',
                         r'\1-done@bugs.debian.org', bts)
-                    print "NOTE : Mail " + bts + " (new DM)."
+                    print("NOTE : Mail " + bts + " (new DM).")
                 else:
                     rt += ("rt correspond -s resolved -m " +
                         "'This key has now been added to the " +
                         operation['role'] + " keyring.' " +
                         operation['rt-ticket'] + "\n")
             else:
-                print "TODO : Add with no RT ticket"
+                print("TODO : Add with no RT ticket")
             pass
         elif operation['action'] == 'remove':
             if 'rt-ticket' in operation:
@@ -70,7 +71,7 @@ class Parser(object):
                     username = operation['old-key']
                 elif 'subject' in operation:
                     username = operation['subject']
-                print "TODO : Removal for " + username + " without RT ticket."
+                print("TODO : Removal for " + username + " without RT ticket.")
             pass
         elif operation['action'] == 'replace':
             rt += "# Commit " + state['commit'] + "\n"
@@ -96,7 +97,7 @@ class Parser(object):
                         "'Your key has been replaced in the active DM keyring.' " +
                         operation['rt-ticket'] + "\n")
         else:
-            print "Error: Unknown action " + operation['action']
+            print("Error: Unknown action " + operation['action'])
 
         return (dak, rt, ldap)
 
@@ -133,7 +134,7 @@ class Parser(object):
                     elif re.match("Update changelog", state['summary']):
                         pass
                     else:
-                        print "NOTE : " + state['commit'] + " (" + state['summary'] + ") is not an action."
+                        print("NOTE : " + state['commit'] + " (" + state['summary'] + ") is not an action.")
                 state = {}
                 state['commit'] = m.group(1)
 
@@ -166,7 +167,7 @@ class Parser(object):
         rtf.close()
         dakf.close()
 
-        print "Processed " + str(opcount) + " operations."
+        print("Processed " + str(opcount) + " operations.")
 
 if __name__ == '__main__':
     parser = Parser()
