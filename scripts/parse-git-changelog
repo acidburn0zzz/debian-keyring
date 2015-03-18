@@ -96,6 +96,23 @@ class RTOutput(object):
                         operation['rt-ticket'] + "\n")
 
 
+class LDAPOutput(object):
+    """
+    Output parsed records for LDAP
+    """
+    def __init__(self, pathname):
+        self.out = open(pathname, 'w')
+
+    def close(self):
+        self.out.close()
+
+    def write(self, state, operation):
+        if operation['action'] == 'replace':
+            if re.match("(DD|DN)", operation['role']):
+                self.out.write(operation['username'] + " " + operation['old-key'] + " ")
+                self.out.write(operation['new-key'] + "\n")
+
+
 class Parser(object):
     def __init__(self):
         self.seenrt = {}
@@ -105,7 +122,7 @@ class Parser(object):
 
         if not 'action' in operation:
             print("NOTE : " + state['commit'] + " (" + state['summary'] + ") has no action")
-            return (None, "")
+            return None
 
         if 'rt-ticket' in operation and operation['rt-ticket'] in self.seenrt:
             print("ERROR: RT " + operation['rt-ticket'] + " used in " +
@@ -114,7 +131,6 @@ class Parser(object):
         else:
             self.seenrt[operation['rt-ticket']] = state['commit']
 
-        ldap = ""
         if operation['action'] == 'add':
             if 'rt-ticket' in operation:
                 if operation['role'] == 'DM':
@@ -122,13 +138,13 @@ class Parser(object):
                     bts = re.sub(r'http://bugs.debian.org/(\d+)',
                         r'\1-done@bugs.debian.org', bts)
                     print("NOTE : Mail " + bts + " (new DM).")
-                return (operation, ldap)
+                return operation
             else:
                 print("TODO : Add with no RT ticket")
                 return (None, "")
         elif operation['action'] == 'remove':
             if 'rt-ticket' in operation:
-                return (operation, ldap)
+                return operation
             else:
                 if 'username' in operation:
                     username = operation['username']
@@ -139,26 +155,24 @@ class Parser(object):
                 elif 'subject' in operation:
                     username = operation['subject']
                 print("TODO : Removal for " + username + " without RT ticket.")
-                return (None, ldap)
+                return None
         elif operation['action'] == 'replace':
             if re.match("(DD|DN)", operation['role']):
                 if not 'username' in operation:
                     operation['Username'] = 'FIXME'
-                ldap += operation['username'] + " " + operation['old-key'] + " "
-                ldap += operation['new-key'] + "\n"
-                return (operation, ldap)
+                return operation
             else:
-                return (operation, ldap)
+                return operation
         else:
             print("Error: Unknown action " + operation['action'])
-            return (None, "")
+            return None
 
     def main(self):
         state = {}
         opcount = 0
         dak = DakOutput("dak-update")
         rt = RTOutput("rt-update")
-        ldapf = open('ldap-update', 'w')
+        ldap = LDAPOutput("ldap-update")
 
         for line in sys.stdin:
             line = line.rstrip()
@@ -167,12 +181,11 @@ class Parser(object):
             m = re.match("commit (.*)$", line)
             if m:
                 if 'message' in state:
-                    (operation, ldap) = self.do_operation(state)
+                    operation = self.do_operation(state)
                     if operation:
                         dak.write(state, operation)
                         rt.write(state, operation)
-                    if ldap:
-                        ldapf.write(ldap)
+                        ldap.write(state, operation)
                     opcount += 1
                 elif 'commit' in state:
                     if re.match("Import changes sent to keyring", state['summary']):
@@ -199,15 +212,14 @@ class Parser(object):
 
         # Process the last commit, if applicable
         if 'message' in state:
-            (operation, ldap) = self.do_operation(state)
+            operation = self.do_operation(state)
             if operation:
                 dak.write(state, operation)
                 rt.write(state, operation)
-            if ldap:
-                ldapf.write(ldap)
+                ldap.write(state, operation)
             opcount += 1
 
-        ldapf.close()
+        ldap.close()
         rt.close()
         dak.close()
 
