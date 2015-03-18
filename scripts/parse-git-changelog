@@ -5,6 +5,42 @@ import email
 import re
 import sys
 
+def role_is_dd(role):
+    """
+    Check if a role is a DD role
+    """
+    return role.startswith("DD") or role.startswith("DN")
+
+
+class DakOutput(object):
+    """
+    Output parsed record for dak
+    """
+    def __init__(self, pathname):
+        self.out = open(pathname, 'w')
+        self.out.write("Archive: ftp.debian.org\n")
+        self.out.write("Uploader: Jonathan McDowell <noodles@earth.li>\n")
+        self.out.write("Cc: keyring-maint@debian.org\n")
+
+    def close(self):
+        self.out.close()
+
+    def write(self, state, operation):
+        if operation['action'] == 'remove':
+            if 'rt-ticket' in operation:
+                if not role_is_dd(operation['role']):
+                    self.out.write("\nAction: dm-remove\n" +
+                            "Fingerprint: " + operation['key'] + "\n" +
+                            "Reason: RT #" + operation['rt-ticket'] +
+                            ", keyring commit " + state['commit'] + "\n")
+        elif operation['action'] == 'replace':
+            if not role_is_dd(operation['role']):
+                self.out.write("\nAction: dm-migrate\n" +
+                        "From: " + operation['old-key'] + "\n" +
+                        "To: " + operation['new-key'] + "\n" +
+                        "Reason: RT #" + operation['rt-ticket'] +
+                        ", keyring commit " + state['commit'] + "\n")
+
 class Parser(object):
     def __init__(self):
         self.seenrt = {}
@@ -14,7 +50,7 @@ class Parser(object):
 
         if not 'action' in operation:
             print("NOTE : " + state['commit'] + " (" + state['summary'] + ") has no action")
-            return ("", "", "")
+            return (None, "", "")
 
         if 'rt-ticket' in operation and operation['rt-ticket'] in self.seenrt:
             print("ERROR: RT " + operation['rt-ticket'] + " used in " +
@@ -23,7 +59,7 @@ class Parser(object):
         else:
             self.seenrt[operation['rt-ticket']] = state['commit']
 
-        dak = rt = ldap = ""
+        rt = ldap = ""
         if operation['action'] == 'add':
             if 'rt-ticket' in operation:
                 rt += "# Commit " + state['commit'] + "\n"
@@ -43,9 +79,10 @@ class Parser(object):
                         "'This key has now been added to the " +
                         operation['role'] + " keyring.' " +
                         operation['rt-ticket'] + "\n")
+                return (operation, rt, ldap)
             else:
                 print("TODO : Add with no RT ticket")
-            pass
+                return (None, "", "")
         elif operation['action'] == 'remove':
             if 'rt-ticket' in operation:
                 rt += "# Commit " + state['commit'] + "\n"
@@ -53,15 +90,12 @@ class Parser(object):
                     rt += ("rt edit ticket/" + operation['rt-ticket'] +
                             " set queue=DSA\n")
                 else:
-                    dak += ("Action: dm-remove\n" +
-                            "Fingerprint: " + operation['key'] + "\n" +
-                            "Reason: RT #" + operation['rt-ticket'] +
-                            ", keyring commit " + state['commit'] + "\n")
                     rt += ("rt edit ticket/" + operation['rt-ticket'] +
                             " set queue=Keyring\n" +
                             "rt correspond -s resolved -m "+
                             "'This key has now been removed from the active DM keyring.' " +
                             operation['rt-ticket'] + "\n")
+                return (operation, rt, ldap)
             else:
                 if 'username' in operation:
                     username = operation['username']
@@ -72,7 +106,7 @@ class Parser(object):
                 elif 'subject' in operation:
                     username = operation['subject']
                 print("TODO : Removal for " + username + " without RT ticket.")
-            pass
+                return (None, rt, ldap)
         elif operation['action'] == 'replace':
             rt += "# Commit " + state['commit'] + "\n"
             if re.match("(DD|DN)", operation['role']):
@@ -85,32 +119,24 @@ class Parser(object):
                         "rt correspond -s resolved -m " +
                         "'Your key has been replaced in the active keyring and LDAP updated with the new fingerprint.' " +
                         operation['rt-ticket'] + "\n")
+                return (operation, rt, ldap)
             else:
-                dak += ("Action: dm-migrate\n" +
-                        "From: " + operation['old-key'] + "\n" +
-                        "To: " + operation['new-key'] + "\n" +
-                        "Reason: RT #" + operation['rt-ticket'] +
-                        ", keyring commit " + state['commit'] + "\n")
                 rt += ("rt edit ticket/" + operation['rt-ticket'] +
                         " set queue=Keyring\n" +
                         "rt correspond -s resolved -m "+
                         "'Your key has been replaced in the active DM keyring.' " +
                         operation['rt-ticket'] + "\n")
+                return (operation, rt, ldap)
         else:
             print("Error: Unknown action " + operation['action'])
-
-        return (dak, rt, ldap)
+            return (None, "", "")
 
     def main(self):
         state = {}
         opcount = 0
-        dakf = open('dak-update', 'w')
+        dak = DakOutput("dak-update")
         rtf = open('rt-update', 'w')
         ldapf = open('ldap-update', 'w')
-
-        dakf.write("Archive: ftp.debian.org\n")
-        dakf.write("Uploader: Jonathan McDowell <noodles@earth.li>\n")
-        dakf.write("Cc: keyring-maint@debian.org\n")
 
         for line in sys.stdin:
             line = line.rstrip()
@@ -119,10 +145,9 @@ class Parser(object):
             m = re.match("commit (.*)$", line)
             if m:
                 if 'message' in state:
-                    (dak, rt, ldap) = self.do_operation(state)
-                    if dak:
-                        dakf.write("\n")
-                        dakf.write(dak)
+                    (operation, rt, ldap) = self.do_operation(state)
+                    if operation:
+                        dak.write(state, operation)
                     if rt:
                         rtf.write(rt)
                     if ldap:
@@ -153,10 +178,9 @@ class Parser(object):
 
         # Process the last commit, if applicable
         if 'message' in state:
-            (dak, rt, ldap) = self.do_operation(state)
-            if dak:
-                dakf.write("\n")
-                dakf.write(dak)
+            (operation, rt, ldap) = self.do_operation(state)
+            if operation:
+                dak.write(state, operation)
             if rt:
                 rtf.write(rt)
             if ldap:
@@ -165,7 +189,7 @@ class Parser(object):
 
         ldapf.close()
         rtf.close()
-        dakf.close()
+        dak.close()
 
         print("Processed " + str(opcount) + " operations.")
 
