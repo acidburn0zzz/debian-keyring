@@ -1,4 +1,19 @@
-debian-keyring (2015.03.04) UNRELEASED; urgency=medium
+debian-keyring (2015.03.xx) UNRELEASED; urgency=medium
+
+  * Replace 0x54F52A8713AB03A7 with 0xED630BD2FFA943F1 (Benjamin Mesing)
+    (RT #5755)
+  * Add new DD key 0x590AE197EF123736 (Juliane Friederike Holzt)  (RT
+    #5743)
+  * Replace 0x83FD1C4682D138E0 with 0x1302F1F036EBEB19 (Tobias
+    Quathamer) (RT #5752)
+  * Replace 0x726C2995383F25B5 with 0x8B49BB0F0F945FC8 (Jonathan J.
+    Hall) (RT #5754)
+  * Replace 0x8E055F139B726B71 with 0x5B93015BFA2720F8 (Stefan Hornburg)
+    (RT #5750)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 18 Mar 2015 17:16:26 +0000
+
+debian-keyring (2015.03.04) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Patch to allow reproducible builds (Closes: #777310)
@@ -18,14 +33,6 @@ debian-keyring (2015.03.04) UNRELEASED; urgency=medium
     (RT #5657)
   * Replace 0x96DD4846A3D2357B with 0x3884437B13D8FF8B (Martin Bagge)
     (RT #5732)
-  * Replace 0x54F52A8713AB03A7 with 0xED630BD2FFA943F1 (Benjamin Mesing)
-    (RT #5755)
-  * Replace 0x83FD1C4682D138E0 with 0x1302F1F036EBEB19 (Tobias
-    Quathamer) (RT #5752)
-  * Replace 0x726C2995383F25B5 with 0x8B49BB0F0F945FC8 (Jonathan J.
-    Hall) (RT #5754)
-  * Replace 0x8E055F139B726B71 with 0x5B93015BFA2720F8 (Stefan Hornburg)
-    (RT #5750)
 
   [ Jonathan McDowell ]
   * Add new DM key 0x50D52F12CE4E1399 (Olof Johansson) (RT #5733)
@@ -79,10 +86,6 @@ debian-keyring (2015.03.04) UNRELEASED; urgency=medium
     * 0xF5C83C05D9CEEEEE UNKNOWN (DM?) sig:31
     * 0xF7EE616EE0C20CFF UNKNOWN (DM?) sig:74
     * 0xFE8D78F9FE4F4E10 Sandro Tosi <morph> sig:2
-
-  [ Gunnar Wolf ]
-  * Add new DD key 0x590AE197EF123736 (Juliane Friederike Holzt)  (RT
-    #5743)
 
  -- Jonathan McDowell <noodles@earth.li>  Wed, 04 Mar 2015 15:04:34 +0000
 
