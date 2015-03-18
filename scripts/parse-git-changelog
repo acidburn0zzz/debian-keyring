@@ -56,7 +56,7 @@ class RTOutput(object):
         if operation['action'] == 'add':
             if 'rt-ticket' in operation:
                 self.out.write("# Commit " + state['commit'] + "\n")
-                if re.match("(DD|DN)", operation['role']):
+                if role_is_dd(operation['role']):
                     self.out.write("rt edit ticket/" + operation['rt-ticket'] +
                             " set queue=DSA\n")
                 elif operation['role'] == 'DM':
@@ -71,7 +71,7 @@ class RTOutput(object):
         elif operation['action'] == 'remove':
             if 'rt-ticket' in operation:
                 self.out.write("# Commit " + state['commit'] + "\n")
-                if re.match("(DD|DN)", operation['role']):
+                if role_is_dd(operation['role']):
                     self.out.write("rt edit ticket/" + operation['rt-ticket'] +
                             " set queue=DSA\n")
                 else:
@@ -82,7 +82,7 @@ class RTOutput(object):
                             operation['rt-ticket'] + "\n")
         elif operation['action'] == 'replace':
             self.out.write("# Commit " + state['commit'] + "\n")
-            if re.match("(DD|DN)", operation['role']):
+            if role_is_dd(operation['role']):
                 self.out.write("rt edit ticket/" + operation['rt-ticket'] +
                         " set queue=Keyring\n" +
                         "rt correspond -s resolved -m " +
@@ -108,7 +108,7 @@ class LDAPOutput(object):
 
     def write(self, state, operation):
         if operation['action'] == 'replace':
-            if re.match("(DD|DN)", operation['role']):
+            if role_is_dd(operation['role']):
                 self.out.write(operation['username'] + " " + operation['old-key'] + " ")
                 self.out.write(operation['new-key'] + "\n")
 
@@ -157,7 +157,7 @@ class Parser(object):
                 print("TODO : Removal for " + username + " without RT ticket.")
                 return None
         elif operation['action'] == 'replace':
-            if re.match("(DD|DN)", operation['role']):
+            if role_is_dd(operation['role']):
                 if not 'username' in operation:
                     operation['Username'] = 'FIXME'
                 return operation
