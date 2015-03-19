@@ -1,5 +1,6 @@
 debian-keyring (2015.03.xx) UNRELEASED; urgency=medium
 
+  [ Gunnar Wolf ]
   * Replace 0x54F52A8713AB03A7 with 0xED630BD2FFA943F1 (Benjamin Mesing)
     (RT #5755)
   * Add new DD key 0x590AE197EF123736 (Juliane Friederike Holzt)  (RT
@@ -10,6 +11,10 @@ debian-keyring (2015.03.xx) UNRELEASED; urgency=medium
     Hall) (RT #5754)
   * Replace 0x8E055F139B726B71 with 0x5B93015BFA2720F8 (Stefan Hornburg)
     (RT #5750)
+
+  [ Jonathan McDowell ]
+  * Really make the package build reproducible. (Closes: #779963)
+    Thanks to Mattia Rizzolo.
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 18 Mar 2015 17:16:26 +0000
 

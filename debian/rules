@@ -9,6 +9,8 @@
 # paternity under the Copyright, Designs and Patents Act 1988.)
 # This file may have to be extensively modified
 
+BUILD_DATE := $(shell dpkg-parsechangelog | grep '^Date: ' | sed 's/^Date: //')
+
 install_dir=install -d -m 755
 install_file=install -m 644
 install_script=install -m 755
@@ -52,6 +54,9 @@ binary-indep: checkroot
 	chmod -R go=rX debian/tmp
 
 	cd debian/tmp && find . -type f ! -regex '.*DEBIAN/.*' -printf '%P\0' | xargs -r0 md5sum > DEBIAN/md5sums 
+
+	find debian/tmp -depth -newermt '$(BUILD_DATE)' -print0 | \
+		xargs -0r touch --no-dereference --date='$(BUILD_DATE)'
 
 	dpkg --build debian/tmp ..
 
