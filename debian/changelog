@@ -16,6 +16,8 @@ debian-keyring (2015.03.xx) UNRELEASED; urgency=medium
   * Really make the package build reproducible. (Closes: #779963)
     Thanks to Mattia Rizzolo.
   * Remove 0x509880E3F6A10C2D (Michael Holzt) (RT #5742)
+  * Replace 0x18A0CC8D5706A4B4 with 0xEBF67A846AABE354 (Simon Richter)
+    (RT #5747)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 18 Mar 2015 17:16:26 +0000
 
