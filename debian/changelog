@@ -19,6 +19,48 @@ debian-keyring (2015.03.xx) UNRELEASED; urgency=medium
   * Replace 0x18A0CC8D5706A4B4 with 0xEBF67A846AABE354 (Simon Richter)
     (RT #5747)
   * Add new DM key 0x05F4A7A949A2D9AA (Leopold Palomo-Avellaneda) (RT #5763)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00806F2BD729A457 Jelmer Vernooij <jelmer> sub:2 sig:4
+    * 0x07438AA0984A4545 David Martínez Moreno <ender> uid:2 sig:4
+    * 0x07FC4891042BA65A UNKNOWN (DM?) sig:3
+    * 0x16099E15596AE928 UNKNOWN (DM?) uid:1 sig:6
+    * 0x2064C53641C25E5D Kurt Roeckx <kroeckx> sig:1
+    * 0x20B7283AFE254C69 UNKNOWN (DM?) uid:1 sig:9
+    * 0x283681BA6FE7F41D Sam Hartman <hartmans> sig:1
+    * 0x387706A26998E5C4 Xavier Luthi <xluthi> sig:105
+    * 0x3BBF839336ECA931 Michael Tautschnig <mt> sig:5
+    * 0x5098021C70518078 Alan Woodland <awoodland> uid:1 sub:2 sig:7
+    * 0x53FE7BBDA68910FC UNKNOWN (DM?) sig:291
+    * 0x56FF9EA4E9846C49 UNKNOWN (DM?) sig:38
+    * 0x587979573442684E Steve McIntyre <93sam> sig:10
+    * 0x69F2FC516EA71993 Sebastian Ramacher <sramacher> uid:1 sig:8
+    * 0x88237A6A53AB1B2E UNKNOWN (DM?) uid:1 sig:6
+    * 0x8C82169D8ECECD2A Tobias Hansen <thansen> sig:12
+    * 0x94FA372B2DA8B985 Jonathan McDowell <noodles> sig:2
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:12
+    * 0x98CABB3ABD4CA59E Michael Vogt <mvo> sig:19
+    * 0x9A358BAB04A4ED27 Markus Frosch <lazyfrosch> sig:8
+    * 0x9EA33414F5852F4E Benjamin Mako Hill <mako> sig:9
+    * 0x9FB9262724B17D29 Tomasz Buchert <tomasz> sig:13
+    * 0xAC1E90BAC433F68F Gergely Nagy <algernon> uid:1 sub:1 sig:7
+    * 0xB01FEA84617B586D Andreas B. Mundt <andi> sig:4
+    * 0xB06662EC9C0C1404 NOKUBI Takatsugu <knok> sig:4
+    * 0xB65A4871CA19D717 Tollef Fog Heen <tfheen> sig:36
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:15
+    * 0xBBF68F03E8F37941 Jan Luebbe <jluebbe> sig:10
+    * 0xBC372252CA1CF964 Ansgar Burchardt <ansgar> sig:8
+    * 0xC4D012FFE0163787 Kristoffer Rose <krisrose> sub:3 sig:4
+    * 0xC519A20D121461F7 Bernd Schumacher <bs> sig:2
+    * 0xCCD2ED94D21739E9 Daniel Kahn Gillmor <dkg> sub:1 sig:16
+    * 0xD0178C767D069EE6 Samuel Thibault <sthibault> sig:5
+    * 0xD15D313882004173 Russ Allbery <rra> sig:1
+    * 0xD200EB30A0FB5DA6 Gustavo Noronha <kov> sig:9
+    * 0xDA4958F611E149E9 Cédric Boutillier <boutil> sig:42
+    * 0xDB16CF5BB12525C4 Joerg Jaspert <joerg> sig:24
+    * 0xDECF849AA6357FB7 Tobias Frost <tobi> sig:2
+    * 0xE941DEDA7C5BB6A5 Olivier Berger <obergix> sig:2
+    * 0xEB5CE1D75E8511F9 Lars Wirzenius <lars> sig:7
+    * 0xEC371482956781AF UNKNOWN (DM?) sig:5
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 18 Mar 2015 17:16:26 +0000
 
