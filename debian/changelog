@@ -1,4 +1,4 @@
-debian-keyring (2015.03.xx) UNRELEASED; urgency=medium
+debian-keyring (2015.03.30) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Replace 0x54F52A8713AB03A7 with 0xED630BD2FFA943F1 (Benjamin Mesing)
@@ -62,7 +62,7 @@ debian-keyring (2015.03.xx) UNRELEASED; urgency=medium
     * 0xEB5CE1D75E8511F9 Lars Wirzenius <lars> sig:7
     * 0xEC371482956781AF UNKNOWN (DM?) sig:5
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 18 Mar 2015 17:16:26 +0000
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 30 Mar 2015 22:13:24 +0100
 
 debian-keyring (2015.03.04) unstable; urgency=medium
 
