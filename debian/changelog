@@ -1,3 +1,10 @@
+debian-keyring (2015.04.xx) UNRELEASED; urgency=medium
+
+  * Replace 0xB5F92902090C3B23 with 0x89EADCE39B80E069 (Paul Waite)
+    (RT#5513)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 06 Apr 2015 11:40:58 -0500
+
 debian-keyring (2015.03.30) unstable; urgency=medium
 
   [ Gunnar Wolf ]
