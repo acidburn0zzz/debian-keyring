@@ -53,6 +53,7 @@ binary-indep: checkroot
 	chown -R root.root debian/tmp
 	chmod -R go=rX debian/tmp
 
+	$(install_file) /dev/null debian/tmp/DEBIAN/md5sums
 	cd debian/tmp && find . -type f ! -regex '.*DEBIAN/.*' -printf '%P\0' | xargs -r0 md5sum > DEBIAN/md5sums 
 
 	find debian/tmp -depth -newermt '$(BUILD_DATE)' -print0 | \
