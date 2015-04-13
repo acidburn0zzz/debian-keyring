@@ -130,7 +130,27 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
     log="Replace 0x$oldkey with 0x$newkey ($name) (RT #$rtid)"
 
     git mv $oldkeyfile removed-keys-gpg/
-    dch  --multimaint-merge -D UNRELEASED -a "$log"
+    VERSION=$(head -1 debian/changelog | awk '{print $2}' | sed 's/[\(\)]//g')
+    RELEASE=$(head -1 debian/changelog | awk '{print $3}' | sed 's/;$//')
+    case $RELEASE in
+	UNRELEASED)
+	    dch  --multimaint-merge -D UNRELEASED -a "$log"
+	    ;;
+	unstable)
+	    NEWVER=$(date +%Y.%m.xx)
+	    if [ "$VERSION" = "$NEWVER" ]
+	    then
+		echo '* Warning: New version and previous released version are'
+		echo "  the same: $VERSION. This should not be so!"
+		echo '  Check debian/changelog'
+	    fi
+	    dch -D UNRELEASED -v $NEWVER "$log"
+	    ;;
+	*)
+	    echo "Last release $VERSION for unknown distribution «$RELEASE»."
+	    echo "Not calling dch, do it manually."
+	    ;;
+    esac
     git add debian/changelog
 
     cat > git-commit-template <<EOF
