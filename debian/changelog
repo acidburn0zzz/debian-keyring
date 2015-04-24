@@ -4,6 +4,8 @@ debian-keyring (2015.04.xx) UNRELEASED; urgency=medium
   * Replace 0xEB5CE1D75E8511F9 with 0x44E17740B8611E9C (Lars Wirzenius)
     (RT #5769)
   * Check for release status when invoking dch
+  * Replace 0x97325DD8F9FDD506 with 0x5ACE8D6E0C14A470 (Luke Faraone)
+    (RT #5773)
 
   [ Daniel Kahn Gillmor ]
   * avoid umask variation: improves reproducibility, ensures that md5sums
