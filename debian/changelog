@@ -8,6 +8,8 @@ debian-keyring (2015.04.xx) UNRELEASED; urgency=medium
     (RT #5773)
   * Replace 0x4D3C7CA1554FB4C6 with 0xA19F1243EC41269F (Peter
     Eisentraut) (RT #5771)
+  * Replace 0x10510A738501C7FC with 0xCC057E722F1FFCC7 (Sebastian Harl)
+    (RT #5778)
 
   [ Daniel Kahn Gillmor ]
   * avoid umask variation: improves reproducibility, ensures that md5sums
