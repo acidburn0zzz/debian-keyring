@@ -81,7 +81,7 @@ GPG is used for security, and security can be a bit tricky.
 Please install the gnupg-doc package and read the GPG manual (located
 in /usr/share/doc/gnupg-doc/GNU_Privacy_Handbook) before generating a
 key pair. The actual generation is trivial. You must use at least
-1024 bits.
+2048 bits, but 4096 bit RSA keys are recommended.
 
 The Debian project will only accept new key pairs if they are GPG
 keys.
