@@ -17,6 +17,8 @@ debian-keyring (2015.04.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x070202585B812EC1 (Roland Fehrenbacher) (RT #5787)
   * Add new DM key 0xF28981739A16F250 (Steven Capper) (RT #5788)
   * Add new DM key 0xA04AB3BADBE263EE (Bertrand Marc) (RT #5789)
+  * Add new DM key 0x68E713981D1515F8 (Arturo Borrero González) (RT
+    #5804)
 
   [ Daniel Kahn Gillmor ]
   * avoid umask variation: improves reproducibility, ensures that md5sums
