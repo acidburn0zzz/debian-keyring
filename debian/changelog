@@ -14,6 +14,7 @@ debian-keyring (2015.04.xx) UNRELEASED; urgency=medium
     (RT #5792)
   * Move 0x47BE58A24A3CB85A (Sylvain Le Gall) to emeritus (RT #5795)
   * Move 0x07B3C8BC4083E800 (Roger Leigh) to emeritus
+  * Add new DM key 0xF28981739A16F250 (Steven Capper) (RT #5788)
 
   [ Daniel Kahn Gillmor ]
   * avoid umask variation: improves reproducibility, ensures that md5sums
