@@ -14,7 +14,9 @@ debian-keyring (2015.04.xx) UNRELEASED; urgency=medium
     (RT #5792)
   * Move 0x47BE58A24A3CB85A (Sylvain Le Gall) to emeritus (RT #5795)
   * Move 0x07B3C8BC4083E800 (Roger Leigh) to emeritus
+  * Add new DM key 0x070202585B812EC1 (Roland Fehrenbacher) (RT #5787)
   * Add new DM key 0xF28981739A16F250 (Steven Capper) (RT #5788)
+  * Add new DM key 0xA04AB3BADBE263EE (Bertrand Marc) (RT #5789)
 
   [ Daniel Kahn Gillmor ]
   * avoid umask variation: improves reproducibility, ensures that md5sums
@@ -26,9 +28,6 @@ debian-keyring (2015.04.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x3B5C2C71A218D83C (Jean-Michel Vourgère) (RT #5799)
   * Add new DD key 0xCBEA8E970CCD59DF (Fabian Greffrath) (RT #5802)
   * Add new DM key 0xE69822C7E02958CD (Ruben Undheim) (RT #5786)
-
-  [ Gunnar Wolf ]
-  * Add new DM key 0x070202585B812EC1 (Roland Fehrenbacher) (RT #5787)
 
  -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sun, 12 Apr 2015 11:57:24 -0400
 
