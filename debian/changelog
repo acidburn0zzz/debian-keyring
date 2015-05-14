@@ -36,6 +36,8 @@ debian-keyring (2015.04.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x3B5C2C71A218D83C (Jean-Michel Vourgère) (RT #5799)
   * Add new DD key 0xCBEA8E970CCD59DF (Fabian Greffrath) (RT #5802)
   * Add new DM key 0xE69822C7E02958CD (Ruben Undheim) (RT #5786)
+  * Replace 0x8B6EF2528F075E1D with 0xF34F09744E9F5DD9 (Gianfranco
+    Costamagna) (RT #5811)
 
  -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sun, 12 Apr 2015 11:57:24 -0400
 
