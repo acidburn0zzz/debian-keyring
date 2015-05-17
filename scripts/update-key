@@ -26,6 +26,7 @@ basename=$(basename "$keyfile")
 date=`date -R`
 
 keyid=$(gpg --with-colons --keyid long --options /dev/null --no-auto-check-trustdb < $keyfile | grep '^pub' | head -n 1 | cut -d : -f 5)
+name=$(gpg --with-colons --keyid long --options /dev/null --no-auto-check-trustdb < $keyfile | grep '^pub' | head -n 1 | cut -d : -f 10 | sed -e 's/ <.*//')
 
 if [ ! -e $keydir/0x$keyid ]; then
 	echo "0x$keyid isn't already in $keydir - new key or error."
@@ -33,7 +34,8 @@ if [ ! -e $keydir/0x$keyid ]; then
 fi
 
 gpg --quiet --import $keydir/0x$keyid
-summary=$(gpg --import $keyfile 2>&1 | scripts/parse-gpg-update 0x$keyid)
+summary=$(gpg --import $keyfile 2>&1 | \
+		scripts/parse-gpg-update 0x$keyid "$name")
 gpg --no-auto-check-trustdb --options /dev/null \
 		--export $keyid > $GNUPGHOME/0x$keyid
 

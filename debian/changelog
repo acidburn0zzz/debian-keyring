@@ -41,6 +41,7 @@ debian-keyring (2015.04.xx) UNRELEASED; urgency=medium
   * Clean 0xB5679467473F7EFA (Thom May) (Closes: #752793)
   * Remove deprecated and weak role keys (Closes: #760584)
   * Add new role key 0x2702CAEB90F8EEC5 (Security Team) (Closes: #760585)
+  * Include real name for DM key updates (Closes: #693403)
 
  -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sun, 12 Apr 2015 11:57:24 -0400
 

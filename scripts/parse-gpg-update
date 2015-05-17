@@ -7,7 +7,7 @@ use DB_File;
 
 my %ident;
 
-if ($#ARGV != 0) {
+if ($#ARGV != 0 and $#ARGV != 1) {
 	print "Must supply key id.\n";
 	exit 1;
 }
@@ -25,7 +25,11 @@ $ARGV[0] =~ s/0x//;
 my $keyid = $ARGV[0];
 my $user;
 if (! defined($ident{$ARGV[0]})) {
-	$user = "UNKNOWN (DM?)";
+	if ($#ARGV == 1) {
+		$user = $ARGV[1] . " [DM]";
+	} else {
+		$user = "UNKNOWN (DM?)";
+	}
 } else {
 	$user = $ident{$ARGV[0]};
 }
