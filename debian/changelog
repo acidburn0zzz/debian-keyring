@@ -39,6 +39,7 @@ debian-keyring (2015.04.xx) UNRELEASED; urgency=medium
   * Replace 0x8B6EF2528F075E1D with 0xF34F09744E9F5DD9 (Gianfranco
     Costamagna) (RT #5811)
   * Clean 0xB5679467473F7EFA (Thom May) (Closes: #752793)
+  * Remove deprecated and weak role keys (Closes: #760584)
 
  -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sun, 12 Apr 2015 11:57:24 -0400
 
