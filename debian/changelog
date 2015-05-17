@@ -42,6 +42,70 @@ debian-keyring (2015.04.xx) UNRELEASED; urgency=medium
   * Remove deprecated and weak role keys (Closes: #760584)
   * Add new role key 0x2702CAEB90F8EEC5 (Security Team) (Closes: #760585)
   * Include real name for DM key updates (Closes: #693403)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00806F2BD729A457 Jelmer Vernooij <jelmer> sig:45
+    * 0x036A9C25BF357DD4 Andrew Page (tianon) [DM] sig:3
+    * 0x0C99B70EF4FCBB07 Ondřej Surý <ondrej> sig:5
+    * 0x1318EFAC5FBBDBCE Ximin Luo [DM] sig:3
+    * 0x17B1CA7D64089528 Chris Boyle <cmb> sig:2
+    * 0x1CD8D854FE4252C1 Noah Meyerhans <noahm> sig:5
+    * 0x1E2A2F0B19116AD8 Bastian Blank <waldi> sig:3
+    * 0x2064C53641C25E5D Kurt Roeckx <kroeckx> sig:2
+    * 0x211A73C69A7B0FC7 Dariusz Dwornikowski [DM] uid:1 sig:9
+    * 0x283681BA6FE7F41D Sam Hartman <hartmans> sig:1
+    * 0x31FCE7E7DD079461 Gerfried Fuchs <rhonda> sig:2
+    * 0x3798AF15A1565658 Matthijs Kooijman [DM] sig:1
+    * 0x3BBF839336ECA931 Michael Tautschnig <mt> uid:1 sig:6
+    * 0x5394479DD3524C51 Jonathan Wiltshire <jmw> sub:2 sig:7
+    * 0x53FE7BBDA68910FC Ross Gammon (Rosco) [DM] sig:22
+    * 0x56FF9EA4E9846C49 Iain R. Learmonth [DM] sig:7
+    * 0x587979573442684E Steve McIntyre <93sam> sig:3
+    * 0x5B924EE310055CD3 Marcelo Jorge Vieira <metal> sig:4
+    * 0x5E62533F19765111 Tzafrir Cohen <tzafrir> sig:26
+    * 0x66C0ADDE8B45AC41 Christophe Siraut <tobald> sig:20
+    * 0x6750F10AE88D4AF1 Sebastiaan Couwenberg <sebastic> sig:2
+    * 0x69F30763DFEFC134 Steven Chamberlain [DM] sig:9
+    * 0x6C6580E77BD756C4 Daniel Pocock <pocock> sig:10
+    * 0x6FE413326DC4B226 John H. Robinson, IV <jaqque> sig:3
+    * 0x7403062689664EDE Vincent Fourmond <fourmond> sig:2
+    * 0x7C56ACFE947897D8 Anibal Monsalve Salazar <anibal> sig:23
+    * 0x7F55BB12A40F862E Neil McGovern <neilm> uid:1 sig:1
+    * 0x829CA1942F06D925 Robert Woodcock <rcw> sig:2
+    * 0x8382C95C29023DF9 Jérémy Bobbio <lunar> sig:8
+    * 0x887B60618B3C16AE Dimitri John Ledkov <xnox> sub:3 sig:3
+    * 0x8CBF9A322861A790 Micah Anderson <micah> sig:3
+    * 0x8F32B4422F52107F Adrian Knoth [DM] sig:1
+    * 0x94FA372B2DA8B985 Jonathan McDowell <noodles> sig:1
+    * 0x962680C5305A9418 Kåre Thor Olsen <kaare> sig:2
+    * 0x9866E4A9EC1663E5 Etienne Millon [DM] sig:3
+    * 0x9D0B5E5B1EEC8F0E Faidon Liambotis <paravoid> sig:2
+    * 0x9EA33414F5852F4E Benjamin Mako Hill <mako> sig:1
+    * 0xA2D13001D98C0FBA Don Armstrong <don> sig:6
+    * 0xAB645F406286A7D0 Lisandro Damián Nicanor Pérez Meyer <lisandro> sig:14
+    * 0xAC90AC3EC524065E Hugo Lefeuvre (hugo6390) [DM] sig:9
+    * 0xAFCFEC8E669CE1C2 Graham Inggs [DM] sig:2
+    * 0xB3464F896AA15948 Ana Beatriz Guerrero López <ana> sig:2
+    * 0xBA9C78061DDD8C9B Aurelien Jarno <aurel32> sig:20
+    * 0xBEBAD1FA1B874544 Martin Würtele <maxx> uid:1 sub:2 sig:9
+    * 0xC31F4FD949AB2B6C Dominique Dumont <dod> sig:7
+    * 0xC61A64DCF1393998 Pierre Chifflier <pollux> uid:1 sig:1
+    * 0xC72B51EE9D80F36D Arno Töll <arno> uid:1 sig:5
+    * 0xCA87E9E82AAC33F1 Alexander GQ Gerasiov <gq> sig:4
+    * 0xCC79866F99409084 John Wright <jsw> sub:3 sig:5
+    * 0xCCD2ED94D21739E9 Daniel Kahn Gillmor <dkg> sub:8 sig:42
+    * 0xCF489438C5779A1C Manoj Srivastava <srivasta> sig:2
+    * 0xD3E17383CFA7FF06 Anton Gladky <gladk> sig:3
+    * 0xD929F2992BEF0A33 Didier Raboud <odyx> sig:35
+    * 0xDECF849AA6357FB7 Tobias Frost <tobi> sig:1
+    * 0xDFF3AB374F16F73A Anders Kaseorg [DM] sig:6
+    * 0xE3ADB00850605636 Sandro Knauß [DM] sig:5
+    * 0xE3E0A1C286B963EA Wolfgang Martin Borgert <debacle> sig:1
+    * 0xE984F812756753E5 Alexander Alemayhu [DM] sig:17
+    * 0xEE4AFD69EC65108F Nicholas Breen <nbreen> sig:1
+    * 0xF50EFDCF8AD04B1A Philipp Matthias Hahn <pmhahn> sig:4
+    * 0xFC0DB1BBCD460BDE Antonio Terceiro <terceiro> sig:7
+    * 0xFE8D78F9FE4F4E10 Sandro Tosi <morph> sub:1 sig:1
+    * 0xFF914AF0C2B35520 Cyril Brulebois <kibi> sig:12
 
  -- Daniel Kahn Gillmor <dkg@fifthhorseman.net>  Sun, 12 Apr 2015 11:57:24 -0400
 
