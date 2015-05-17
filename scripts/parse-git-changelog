@@ -11,7 +11,6 @@ def role_is_dd(role):
     """
     return role.startswith("DD") or role.startswith("DN")
 
-
 class DakOutput(object):
     """
     Output parsed record for dak
@@ -124,6 +123,10 @@ class Parser(object):
             print("NOTE : " + state['commit'] + " (" + state['summary'] + ") has no action")
             return None
 
+        if operation['role'] == 'role':
+            # At present we don't do anything with role keys
+            return None
+
         if 'rt-ticket' in operation and operation['rt-ticket'] in self.seenrt:
             print("ERROR: RT " + operation['rt-ticket'] + " used in " +
                     self.seenrt[operation['rt-ticket']] + " and " +
@@ -141,7 +144,7 @@ class Parser(object):
                 return operation
             else:
                 print("TODO : Add with no RT ticket")
-                return (None, "")
+                return None
         elif operation['action'] == 'remove':
             if 'rt-ticket' in operation:
                 return operation
