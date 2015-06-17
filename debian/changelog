@@ -10,6 +10,7 @@ debian-keyring (2015.06.xx) UNRELEASED; urgency=medium
   * Replace 0x7985979AE3304051 with 0x2770D9ADFD6C2A7E (Wilmer van der
     Gaast) (RT #5663)
   * Add new DD key 0x873DEA309D13807F (Chrysostomos Nanakos) (RT #5834)
+  * Add new DD key 0x7A749064D38F11A3 (Thomas Vincent) (RT #5835)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 17 May 2015 20:46:43 +0100
 
