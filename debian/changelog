@@ -3,6 +3,8 @@ debian-keyring (2015.06.xx) UNRELEASED; urgency=medium
   * Bump Standards-Version to 3.9.6 (no changes).
   * Add new DD key 0x025AFE95AC9DF31B (Markus Wanner) (RT #5817)
   * Add new DD key 0xE5AB5F161CDD0D98 (Diane Trout) (RT #5831)
+  * Replace 0x112ECDF2C4A3823E with 0xE7A48877D686C505 (Kevin M.
+    Rosenberg) (RT #5056)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 17 May 2015 20:46:43 +0100
 
