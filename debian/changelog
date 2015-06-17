@@ -7,6 +7,8 @@ debian-keyring (2015.06.xx) UNRELEASED; urgency=medium
     Rosenberg) (RT #5056)
   * Replace 0x4132BF902A385C57 with 0xCBE6BB4E5D9AD3A5 (Alastair
     McKinstry) (RT #5734)
+  * Replace 0x7985979AE3304051 with 0x2770D9ADFD6C2A7E (Wilmer van der
+    Gaast) (RT #5663)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 17 May 2015 20:46:43 +0100
 
