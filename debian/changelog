@@ -5,6 +5,8 @@ debian-keyring (2015.06.xx) UNRELEASED; urgency=medium
   * Add new DD key 0xE5AB5F161CDD0D98 (Diane Trout) (RT #5831)
   * Replace 0x112ECDF2C4A3823E with 0xE7A48877D686C505 (Kevin M.
     Rosenberg) (RT #5056)
+  * Replace 0x4132BF902A385C57 with 0xCBE6BB4E5D9AD3A5 (Alastair
+    McKinstry) (RT #5734)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 17 May 2015 20:46:43 +0100
 
