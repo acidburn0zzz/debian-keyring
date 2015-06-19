@@ -195,6 +195,7 @@ debian-keyring (2015.06.xx) UNRELEASED; urgency=medium
     * 0xF6D3495BB0AE9A02 Clint Adams <clint> sig:9
     * 0xFC0DB1BBCD460BDE Antonio Terceiro <terceiro> sig:5
     * 0xFE038E5950B5A343 Christoph Haas <haas> uid:1 sig:2
+  * Add new role key 0x6BAF400B05C3E651 (Security Team) (Closes: #788013)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 17 May 2015 20:46:43 +0100
 
