@@ -1,3 +1,9 @@
+debian-keyring (2015.07.xx) UNRELEASED; urgency=medium
+
+  * Strip DD/DM/DN keyrings to only include verifiable signatures.
+
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 22 Jun 2015 19:44:28 +0100
+
 debian-keyring (2015.06.19) unstable; urgency=medium
 
   * Bump Standards-Version to 3.9.6 (no changes).
