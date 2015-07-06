@@ -4,6 +4,7 @@ debian-keyring (2015.07.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x03BE18F29C91D68A (Senthil Kumaran) (RT #5854)
   * Add new DM key 0x00ECA761968A8DEE (Riley Baird) (RT #5855)
   * Add new DM key 0xE564B9C275BDD52E (Robie Basak) (RT #5856)
+  * Add new DM key 0xE3AE978E834E5E7E (Alex Muntada) (RT #5857)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 22 Jun 2015 19:44:28 +0100
 
