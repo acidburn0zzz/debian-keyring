@@ -1,6 +1,7 @@
 debian-keyring (2015.07.xx) UNRELEASED; urgency=medium
 
   * Strip DD/DM/DN keyrings to only include verifiable signatures.
+  * Add new DM key 0x03BE18F29C91D68A (Senthil Kumaran) (RT #5854)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 22 Jun 2015 19:44:28 +0100
 
