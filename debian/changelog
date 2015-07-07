@@ -12,6 +12,8 @@ debian-keyring (2015.07.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x1E759A726A9FDD74 (Chris Knadle) (RT #5863)
   * Replace 0x49FBE05382FB4EAD with 0xD9EEBFB4B66B10F0 (Timo
     Weingärtner) (RT #5869)
+  * Replace 0xE0CD3CDC59B2D9A0 with 0xA628CB5FA48F065A (Matthew Brown)
+    (RT #5849)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 22 Jun 2015 19:44:28 +0100
 
