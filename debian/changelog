@@ -8,6 +8,7 @@ debian-keyring (2015.07.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xE5F451C2A33358C5 (Johan Van de Wauw) (RT #5859)
   * Add new DM key 0xD9817E8FDF69C32E (Benjamin Barenblat) (RT #5860)
   * Add new DM key 0xFEAA132F983191EA (Paul Novotny) (RT #5861)
+  * Add new DM key 0x5E946C090AFF0427 (Jose Luis Rivero) (RT #5862)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 22 Jun 2015 19:44:28 +0100
 
