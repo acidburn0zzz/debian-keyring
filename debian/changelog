@@ -1,5 +1,6 @@
 debian-keyring (2015.07.xx) UNRELEASED; urgency=medium
 
+  [ Jonathan McDowell ]
   * Strip DD/DM/DN keyrings to only include verifiable signatures.
   * Add new DM key 0x03BE18F29C91D68A (Senthil Kumaran) (RT #5854)
   * Add new DM key 0x00ECA761968A8DEE (Riley Baird) (RT #5855)
@@ -16,6 +17,10 @@ debian-keyring (2015.07.xx) UNRELEASED; urgency=medium
     (RT #5849)
   * Add new DD key 0xF34F09744E9F5DD9 (Gianfranco Costamagna) (RT #5871)
   * Add new DD key 0x9900FEF19803E32C (Carsten Leonhardt) (RT #5870)
+
+  [ Gunnar Wolf ]
+  * Replace 0x35C3E3FAE91CD250 with 0x01CBCC4BF28A0D3E (Daigo Moriwaki)
+    (RT #5875)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 22 Jun 2015 19:44:28 +0100
 
