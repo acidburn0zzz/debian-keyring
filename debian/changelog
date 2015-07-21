@@ -1,4 +1,4 @@
-debian-keyring (2015.07.xx) UNRELEASED; urgency=medium
+debian-keyring (2015.07.21) unstable; urgency=medium
 
   [ Jonathan McDowell ]
   * Strip DD/DM/DN keyrings to only include verifiable signatures.
@@ -81,7 +81,7 @@ debian-keyring (2015.07.xx) UNRELEASED; urgency=medium
   * Replace 0x35C3E3FAE91CD250 with 0x01CBCC4BF28A0D3E (Daigo Moriwaki)
     (RT #5875)
 
- -- Jonathan McDowell <noodles@earth.li>  Mon, 22 Jun 2015 19:44:28 +0100
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 21 Jul 2015 17:35:43 +0100
 
 debian-keyring (2015.06.19) unstable; urgency=medium
 
