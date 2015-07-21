@@ -18,6 +18,64 @@ debian-keyring (2015.07.xx) UNRELEASED; urgency=medium
   * Add new DD key 0xF34F09744E9F5DD9 (Gianfranco Costamagna) (RT #5871)
   * Add new DD key 0x9900FEF19803E32C (Carsten Leonhardt) (RT #5870)
   * Add new DM key 0x2C7FCF80F4F76C43 (Lennart Weller) (RT #5878)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00806F2BD729A457 Jelmer Vernooij <jelmer> sig:22
+    * 0x01509D5CAB4AFD3F Josue Ortega [DM] sig:4
+    * 0x025AFE95AC9DF31B Markus Wanner <markus> uid:1 sig:8
+    * 0x2064C53641C25E5D Kurt Roeckx <kroeckx> sig:1
+    * 0x2BF8D9FE074BCDE4 Thomas Lange <lange> sig:2
+    * 0x30550F7871EF0BA8 Yves-Alexis Perez <corsac> sig:2
+    * 0x33961588E1C21845 Thijs Kinkhorst <thijs> sig:7
+    * 0x3798AF15A1565658 Matthijs Kooijman [DM] sig:9
+    * 0x39278DA8109E6244 Guilhem Moulin [DM] sig:5
+    * 0x3D0787AAAF6C61DD Martin Michlmayr <tbm> sig:1
+    * 0x457CE0A0804465C5 Michael Tokarev <mjt> sig:9
+    * 0x45DB6B56EC2D523D Jaakko Niemi <liiwi> sig:3
+    * 0x47712171F2ED62FB Elmar Sales Heeb (full name) [DM] sig:2
+    * 0x57930DAB0B86B067 Joost van Baal <joostvb> sig:61
+    * 0x57E7C6324F81391D Sergei Golovan <sgolovan> sig:6
+    * 0x5ACE8D6E0C14A470 Luke Faraone <lfaraone> sub:1 sig:9
+    * 0x5B924EE310055CD3 Marcelo Jorge Vieira <metal> sig:3
+    * 0x6026936D2F1C8AE0 Dmitry Shachnev <mitya> sig:6
+    * 0x64959FE9838DF19C Anne Christine Spang <christine> sig:1
+    * 0x6EA4D2311A2D268D Andrew Shadura <andrewsh> sig:2
+    * 0x759D33F5C15F0596 Alexander Pennace <alexp> sig:1
+    * 0x762B57BB784206AD David Bremner <bremner> sig:3
+    * 0x775079E5B850BC93 Bernhard Schmidt [DM] sig:2
+    * 0x7B1F549072B74923 Rodolfo García Peñas <kix> sub:5 sig:5
+    * 0x7B585B30807C2A87 Paul Richards Tagliamonte <paultag> sig:1
+    * 0x7CFCD8CD257721E9 Vagrant Cascadian <vagrant> sig:8
+    * 0x7F55BB12A40F862E Neil McGovern <neilm> sig:4
+    * 0x873DEA309D13807F Chrysostomos Nanakos <cnanakos> uid:1 sig:1
+    * 0x90BC9192B06291B2 Jacob Appelbaum <error> sub:2 sig:2
+    * 0x9688FFC1C78102DF Allison Randal [DM] sig:21
+    * 0x9C27B31342B7511D Michal Čihař <nijel> uid:1 sig:1
+    * 0x9D0B5E5B1EEC8F0E Faidon Liambotis <paravoid> sig:1
+    * 0x9D20F6503E338888 Mikhail Gusarov <dottedmag> sub:1 sig:1
+    * 0x9D50E144E6357327 James Hunt [DM] uid:1 sig:1
+    * 0x9F2733F40928D23A Nick Daly [DM] sub:1 sig:1
+    * 0xA1B09B42333961E8 Evgeni Golov <evgeni> sig:10
+    * 0xAD15F435F05F962D Romain Francoise <rfrancoise> sig:3
+    * 0xB8688CA3D876D5A3 Santiago Garcia Mantinan <manty> sig:2
+    * 0xBBC756DDBE595F6B Alexander Chernyakhovsky <achernya> sig:2
+    * 0xBC10BD0F7B8BF08B Matthew Danish <mrd> sig:1
+    * 0xBC196A94EDDDA1B7 أحمد المحمودي [DM] sub:1 sig:1
+    * 0xBE0C924203F4552D ChangZhuo Chen (陳昌倬) [DM] sub:2 sig:6
+    * 0xBEBD933335FC140B Moray Allan <moray> sig:6
+    * 0xC0215925C6D815D8 Jan Beyer [DM] sig:2
+    * 0xC063DA3D1600E490 Philipp Kaluza (Debian Consulting) [DM] sig:3
+    * 0xC2AEDB1447EDD321 Giuseppe Sacco <eppesuig> sig:3
+    * 0xD36F769BC11804F0 Theodore Ts'o <tytso> sig:3
+    * 0xD416AD15AC6B43FE Thomas Goirand <zigo> sig:3
+    * 0xDD29F88442839ED3 John Goerzen <jgoerzen> uid:1 sig:1
+    * 0xDF23DA3396978EB3 Michael Meskes <meskes> sig:5
+    * 0xE7F710555409E422 Kamal Mostafa <kamal> sig:5
+    * 0xEBF67A846AABE354 Simon Richter <sjr> uid:1 sig:1
+    * 0xEC4B033C70096AD1 Asheesh Laroia <paulproteus> uid:1 sig:1
+    * 0xED630BD2FFA943F1 Benjamin Mesing <ben> sig:3
+    * 0xF2F11C23F00A2BE6 Ritesh Raj Sarraf <rrs> uid:1 sig:1
+    * 0xF6947DAB68E7B931 Hannes von Haugwitz <hvhaugwitz> sig:5
+    * 0xFC0DB1BBCD460BDE Antonio Terceiro <terceiro> sig:4
 
   [ Gunnar Wolf ]
   * Replace 0x35C3E3FAE91CD250 with 0x01CBCC4BF28A0D3E (Daigo Moriwaki)
