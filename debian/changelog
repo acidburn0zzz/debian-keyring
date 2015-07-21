@@ -17,6 +17,7 @@ debian-keyring (2015.07.xx) UNRELEASED; urgency=medium
     (RT #5849)
   * Add new DD key 0xF34F09744E9F5DD9 (Gianfranco Costamagna) (RT #5871)
   * Add new DD key 0x9900FEF19803E32C (Carsten Leonhardt) (RT #5870)
+  * Add new DM key 0x2C7FCF80F4F76C43 (Lennart Weller) (RT #5878)
 
   [ Gunnar Wolf ]
   * Replace 0x35C3E3FAE91CD250 with 0x01CBCC4BF28A0D3E (Daigo Moriwaki)
