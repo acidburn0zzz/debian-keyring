@@ -1,3 +1,15 @@
+debian-keyring (2015.07.xx) unstable; urgency=medium
+
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x02541A371530B71F Gert Wollny (DM key) [DM] sig:1
+    * 0x1E7091B1F14A64A2 Aaron M. Ucko <ucko> sig:6
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:4
+    * 0x6EA4D2311A2D268D Andrew Shadura <andrewsh> sig:1
+    * 0xB5754A69B6BE608C Luca Filipozzi <lfilipoz> sig:5
+    * 0xE5AB5F161CDD0D98 Diane Trout <diane> uid:1 sig:1
+
+ -- Jonathan McDowell <noodles@earth.li>  Fri, 24 Jul 2015 11:38:55 +0100
+
 debian-keyring (2015.07.21) unstable; urgency=medium
 
   [ Jonathan McDowell ]
