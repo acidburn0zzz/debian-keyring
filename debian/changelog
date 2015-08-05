@@ -6,6 +6,7 @@ debian-keyring (2015.08.xx) UNRELEASED; urgency=medium
   * Add new DD key 0xE76004C5CEF0C94C (Christian Kastner) (RT #5896)
   * Add new DD key 0x036A9C25BF357DD4 (Tianon Gravi) (RT #5897)
   * Add new DD key 0x56FF9EA4E9846C49 (Iain R. Learmonth) (RT #5898)
+  * Add new DN key 0xF22674467E4AF4A3 (Laura Arjona Reina) (RT #5899)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 05 Aug 2015 13:38:23 -0500
 
