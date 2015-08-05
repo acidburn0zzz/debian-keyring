@@ -3,6 +3,7 @@ debian-keyring (2015.08.xx) UNRELEASED; urgency=medium
   * Add new DD key 0xAFCFEC8E669CE1C2 (Graham Inggs) (RT #5893)
   * Move 0xDF45A8055D07E95C (Hamish Moffatt) to emeritus (RT #5853)
   * Add new DD key 0x1318EFAC5FBBDBCE (Ximin Luo) (RT #5895)
+  * Add new DD key 0xE76004C5CEF0C94C (Christian Kastner) (RT #5896)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 05 Aug 2015 13:38:23 -0500
 
