@@ -1,5 +1,6 @@
 debian-keyring (2015.08.xx) UNRELEASED; urgency=medium
 
+  [ Gunnar Wolf ]
   * Add new DD key 0xAFCFEC8E669CE1C2 (Graham Inggs) (RT #5893)
   * Move 0xDF45A8055D07E95C (Hamish Moffatt) to emeritus (RT #5853)
   * Add new DD key 0x1318EFAC5FBBDBCE (Ximin Luo) (RT #5895)
@@ -9,6 +10,9 @@ debian-keyring (2015.08.xx) UNRELEASED; urgency=medium
   * Add new DN key 0xF22674467E4AF4A3 (Laura Arjona Reina) (RT #5899)
   * Replace 0x9D0633E1B6250985 with 0xE7CBE152AC17F973 (李健秋 Andrew Lee)
     (RT #5676)
+
+  [ Jonathan McDowell ]
+  * Correct 0x7A749064D38F11A3 to DN keyring (RT #5835)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 05 Aug 2015 13:38:23 -0500
 
