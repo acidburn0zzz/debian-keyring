@@ -1,4 +1,4 @@
-debian-keyring (2015.08.xx) UNRELEASED; urgency=medium
+debian-keyring (2015.08.13) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Add new DD key 0xAFCFEC8E669CE1C2 (Graham Inggs) (RT #5893)
@@ -127,7 +127,7 @@ debian-keyring (2015.08.xx) UNRELEASED; urgency=medium
     * 0xF6D3495BB0AE9A02 Clint Adams <clint> sig:9
     * 0xFFCE1C9A4FADF197 Jeremy T. Bouse <jbouse> sig:1
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 05 Aug 2015 13:38:23 -0500
+ -- Jonathan McDowell <noodles@earth.li>  Thu, 13 Aug 2015 19:38:51 +0100
 
 debian-keyring (2015.07.24) unstable; urgency=medium
 
