@@ -1,3 +1,9 @@
+debian-keyring (2015.09.xx) UNRELEASED; urgency=medium
+
+  * Add new DD key 0xBE0C924203F4552D (ChangZhuo Chen) (RT #5904)
+
+ -- Jonathan McDowell <noodles@earth.li>  Wed, 19 Aug 2015 17:47:33 +0200
+
 debian-keyring (2015.08.13) unstable; urgency=medium
 
   [ Gunnar Wolf ]
