@@ -2,6 +2,7 @@ debian-keyring (2015.09.xx) UNRELEASED; urgency=medium
 
   * Add new DD key 0xBE0C924203F4552D (ChangZhuo Chen) (RT #5904)
   * Add new DD key 0xD7D3402E0106630C (Eugene Zhukov) (RT #5916)
+  * Add new DD key 0xAC90AC3EC524065E (Hugo Lefeuvre) (RT #5918)
 
  -- Jonathan McDowell <noodles@earth.li>  Wed, 19 Aug 2015 17:47:33 +0200
 
