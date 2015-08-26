@@ -14,6 +14,8 @@ debian-keyring (2015.09.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x223AE055BD94E154 (Milan Kupcevic) (RT #5927)
   * Replace 0x7B199D131997E7CF with 0x3FA78B77EB9B072B (Chris Halls) (RT
     #5931)
+  * Replace 0x8478A0951CA9D02E with 0x48D5608D973C6032 (Nigel Kukard) (RT
+    #5930)
 
  -- Jonathan McDowell <noodles@earth.li>  Wed, 19 Aug 2015 17:47:33 +0200
 
