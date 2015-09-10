@@ -10,6 +10,7 @@ debian-keyring (2015.09.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x003A1A2DAA41085F (Bastien Roucariès) (RT #5961)
   * Add new DM key 0x83016014251D1DB0 (Carsten Schoenert) (RT #5962)
   * Add new DM key 0xE6C710E2E5C1E4A3 (Tomasz Nitecki) (RT #5963)
+  * Add new DM key 0x7EAE264181E773D5 (Christoph Ulrich Scholler) (RT #5964)
 
   [ Gunnar Wolf ]
   * Move 0x482D17E94DADEC2F (David Moreno) to emeritus (RT #5923)
