@@ -3,6 +3,7 @@ debian-keyring (2015.10.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x22B1092ADDDC47DD (Russell Sim) (RT #5982)
   * Add new DM key 0xD25D611C8E192076 (Benda Xu) (RT #5983)
   * Add new DM key 0x07724E3E6D58AAC8 (Andrew Kelley) (RT #5984)
+  * Add new DM key 0x93899384DC2C77F4 (Ivan Udovichenko) (RT #5985)
 
  -- Gunnar Wolf <gwolf@debian.org>  Thu, 01 Oct 2015 13:34:33 -0500
 
