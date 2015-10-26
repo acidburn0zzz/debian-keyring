@@ -138,7 +138,7 @@ class Parser(object):
             if 'rt-ticket' in operation:
                 if operation['role'] == 'DM':
                     bts = operation['BTS'].strip()
-                    bts = re.sub(r'http://bugs.debian.org/(\d+)',
+                    bts = re.sub(r'https?://bugs.debian.org/(\d+)',
                         r'\1-done@bugs.debian.org', bts)
                     print("NOTE : Mail " + bts + " (new DM).")
                 return operation
