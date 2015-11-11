@@ -1,9 +1,13 @@
 debian-keyring (2015.11.XX) UNRELEASED; urgency=medium
 
+  [ Gunnar Wolf ]
   * Replace 0x0B5F62A3AAD40AFF with 0xBB9D98D9DEA2C38E (Robert
     Millan) (RT #6020)
   * Replace 0x58395253F829E9E7 with 0xB6A6FB8B9615AEC8 (Ian Wienand) (RT
     #5978)
+
+  [ Jonathan McDowell ]
+  * Add new DD key 0xDA82830E3CCC3A3A (Alexandre Viau) (RT #6001)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 27 Oct 2015 18:04:24 -0600
 
