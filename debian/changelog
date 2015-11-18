@@ -16,6 +16,7 @@ debian-keyring (2015.11.XX) UNRELEASED; urgency=medium
 
   [ Gunnar Wolf ]
   * Add new DN key 0x5EE76EE20216D2A5 (Lev Lamberov) (RT #6040)
+  * Add new DD key 0x2C3B436FEAC68101 (Adam Borowski) (RT #6048)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 27 Oct 2015 18:04:24 -0600
 
