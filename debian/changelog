@@ -10,6 +10,8 @@ debian-keyring (2015.11.XX) UNRELEASED; urgency=medium
     #6039)
   * Replace 0xDBF480C602F946FC with 0xEFDED44BCDFB68E9 (Marcin Owsiany)
     (RT #6051)
+  * Replace 0xDB4CCC4B2A30D729 with 0x111D6B29EE4E02F9 (Petter
+    Reinholdtsen) (RT #6061)
 
   [ Jonathan McDowell ]
   * Add new DD key 0xDA82830E3CCC3A3A (Alexandre Viau) (RT #6001)
