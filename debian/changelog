@@ -22,6 +22,7 @@ debian-keyring (2015.11.XX) UNRELEASED; urgency=medium
 
   [ Gunnar Wolf ]
   * Add new DM key 0x03A8891A765AD085 (Michael Lustfield) (RT #6066)
+  * Add new DM key 0xC6079EAD0F1F7C52 (Guillaume Turri) (RT #6067)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 27 Oct 2015 18:04:24 -0600
 
