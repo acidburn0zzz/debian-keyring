@@ -14,19 +14,17 @@ debian-keyring (2015.11.XX) UNRELEASED; urgency=medium
     Reinholdtsen) (RT #6061)
   * Add new DN key 0x5EE76EE20216D2A5 (Lev Lamberov) (RT #6040)
   * Add new DD key 0x2C3B436FEAC68101 (Adam Borowski) (RT #6048)
-
-  [ Jonathan McDowell ]
-  * Add new DD key 0xDA82830E3CCC3A3A (Alexandre Viau) (RT #6001)
-  * Add new DM key 0x39F17A5F5AEFBE73 (Paulo Roberto Alves de Oliveira)
-    (RT #6065)
-
-  [ Gunnar Wolf ]
   * Add new DM key 0x03A8891A765AD085 (Michael Lustfield) (RT #6066)
   * Add new DM key 0xC6079EAD0F1F7C52 (Guillaume Turri) (RT #6067)
   * Add new DM key 0xD0EB762865FC5E36 (Sergio Durigan Junior) (RT #6068)
   * Add new DM key 0x53D5BC64B52378A2 (Scott Talbert) (RT #6069)
   * Add new DM key 0x116F5E3AB368A4EB (Marc Fournier) (RT #6071)
   * Correct typo in keyids file
+
+  [ Jonathan McDowell ]
+  * Add new DD key 0xDA82830E3CCC3A3A (Alexandre Viau) (RT #6001)
+  * Add new DM key 0x39F17A5F5AEFBE73 (Paulo Roberto Alves de Oliveira)
+    (RT #6065)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 27 Oct 2015 18:04:24 -0600
 
