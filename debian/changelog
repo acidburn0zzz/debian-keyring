@@ -20,6 +20,117 @@ debian-keyring (2015.11.XX) UNRELEASED; urgency=medium
   * Add new DM key 0x53D5BC64B52378A2 (Scott Talbert) (RT #6069)
   * Add new DM key 0x116F5E3AB368A4EB (Marc Fournier) (RT #6071)
   * Correct typo in keyids file
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0xDB686C92D9D59F61 Francesca Ciceri <madamezou> sig:4
+    * 0xF5B8B2E02AF31308 Tássia Camões Araújo <tassia> sig:2
+    * 0x07FC4891042BA65A Thomas Koch (thkoch) [DM] sig:2
+    * 0x1E759A726A9FDD74 Chris Knadle (tertiary backup) [DM] sig:4
+    * 0x2E8162547E37CE41 Kouhei Maeda [DM] sig:1
+    * 0x3FC89867A5418556 Peter Spiess-Knafl [DM] sig:5
+    * 0x47712171F2ED62FB Elmar Sales Heeb (full name) [DM] sig:5
+    * 0x69F30763DFEFC134 Steven Chamberlain [DM] sig:1
+    * 0x7EAE264181E773D5 Christoph Ulrich Scholler [DM] sig:2
+    * 0x8BAF522C0D6CCEDD Daniele Tricoli [DM] sig:1
+    * 0x9605A1098C63B92A Edward Betts [DM] sig:2
+    * 0x9D50E144E6357327 James Hunt [DM] sig:1
+    * 0xAEED6158020EAFFF James Cowgill [DM] sig:10
+    * 0xB8B24C06AC128405 Ben Finney [DM] sub:2 sig:16
+    * 0xC617869F1478504E Keng-Yu Lin [DM] sig:4
+    * 0xD25D611C8E192076 XU Benda [DM] sub:1 sig:1
+    * 0xE3ADB00850605636 Sandro Knauß [DM] sig:1
+    * 0xE564B9C275BDD52E Robie Basak [DM] sig:2
+    * 0xE6C710E2E5C1E4A3 Tomasz Nitecki [DM] sig:8
+    * 0xEB9B1B01DE0572E4 Teddy Hogeborn [DM] sig:1
+    * 0xF28981739A16F250 Steve Capper [DM] sig:1
+    * 0xF5C83C05D9CEEEEE Chris Boot [DM] sig:8
+    * 0x00B45EBD4CA7BABE NIIBE Yutaka <gniibe> sig:26
+    * 0x02713BCFCA5410B2 Roland Rosenfeld <roland> sig:2
+    * 0x02C1D3F2783AA4DE Kartik Mistry <kartik> sig:2
+    * 0x049B1033AF060C5A Daniel Glassey <wdg> sig:9
+    * 0x1318EFAC5FBBDBCE Ximin Luo <infinity0> sig:4
+    * 0x14135D277B88D7E5 YunQiang Su <syq> sub:2 sig:16
+    * 0x17B1CA7D64089528 Chris Boyle <cmb> sig:4
+    * 0x1A30765DF1F0D3ED Sune Vuorela <sune> sig:3
+    * 0x1B132E01CEC6AD46 Kan-Ru Chen <koster> sig:6
+    * 0x1E2A2F0B19116AD8 Bastian Blank <waldi> sig:4
+    * 0x1E7091B1F14A64A2 Aaron M. Ucko <ucko> sig:2
+    * 0x2064C53641C25E5D Kurt Roeckx <kroeckx> sub:1 sig:23
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:3
+    * 0x39091E8123CE1C09 Prach Pongpanich <prach> uid:1 sig:1
+    * 0x393587D97D86500B Colin Watson <cjwatson> sig:4
+    * 0x3EABB1CB540A7E68 Ludovic Drolez <ldrolez> sub:1 sig:1
+    * 0x44E17740B8611E9C Lars Wirzenius <lars> sig:3
+    * 0x457CE0A0804465C5 Michael Tokarev <mjt> sig:3
+    * 0x4C5A6BAB12D2A7AE Christoph Berg <myon> uid:1 sig:4
+    * 0x4DE8FF2A63C7CC90 Simon McVittie <smcv> sig:3
+    * 0x51106DF5CD92D072 Stefano Rivera <stefanor> sig:3
+    * 0x5394479DD3524C51 Jonathan Wiltshire <jmw> sig:2
+    * 0x566217F3C4395C9C Piotr Roszatycki <dexter> uid:1 sig:2
+    * 0x56FF9EA4E9846C49 Iain R. Learmonth <irl> sig:4
+    * 0x57930DAB0B86B067 Joost van Baal <joostvb> sig:3
+    * 0x587979573442684E Steve McIntyre <93sam> sig:11
+    * 0x59D03CC92BA0FEAE Julian Gilbey <jdg> sig:4
+    * 0x5EA2BDB6883CCDE2 Chen Baozi <baozich> sig:1
+    * 0x6026936D2F1C8AE0 Dmitry Shachnev <mitya> sig:2
+    * 0x603B832661F9CA53 Paul Martin <pm> sig:3
+    * 0x611BA9508B78A5C2 Julien Danjou <acid> uid:1 sig:1
+    * 0x631DE7553BE8AFD4 Robert Luberda <robert> sig:1
+    * 0x69740E5CB35FEC3C Eduard Bloch <blade> sig:2
+    * 0x6EA4D2311A2D268D Andrew Shadura <andrewsh> sig:12
+    * 0x71396D61F1C09EFB Alejandro Garrido Mota <mogaal> sig:3
+    * 0x775079E5B850BC93 Bernhard Schmidt <berni> uid:1 sig:1
+    * 0x7C56ACFE947897D8 Anibal Monsalve Salazar <anibal> sig:6
+    * 0x7F55BB12A40F862E Neil McGovern <neilm> sig:8
+    * 0x7F6022516E869F64 Andreas Bombe <aeb> sig:3
+    * 0x7F7606A445DCA80E Manuel A. Fernandez Montecelo <mafm> sig:3
+    * 0x8382C95C29023DF9 Jérémy Bobbio <lunar> sig:8
+    * 0x8A0A48874687AF4F Toni Mueller <toni> sig:8
+    * 0x94FA372B2DA8B985 Jonathan McDowell <noodles> sig:1
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:6
+    * 0x98B9E4BEEA6CB7B3 Agustin Martin Domingo <agmartin> sig:1
+    * 0x9C31503C6D866396 Stefano Zacchiroli <zack> sig:3
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sub:5 sig:29
+    * 0x9FB9262724B17D29 Tomasz Buchert <tomasz> sig:1
+    * 0xA0A9766CDB362222 Lenart Janos <ocsi> sig:1
+    * 0xA97A7702BAF91EF5 Gaudenz Steinlin <gaudenz> sub:3 sig:98
+    * 0xAF2283AA76E2AC7B Hector Oron <zumbi> sig:3
+    * 0xAFA51BD6CDE573CB Alessandro Ghedini <ghedo> sub:2 sig:2
+    * 0xAFFC96D1151DFFDC Bernhard R. Link <brlink> sig:3
+    * 0xB65019C47F7A36F8 IOhannes m zmölnig <umlaeute> sig:10
+    * 0xB9B31EAA12F27D94 Dafydd Harries <daf> sig:2
+    * 0xBC1256AA6AA6EC5E Stein Magnus Jodal <jodal> uid:1 sig:3
+    * 0xBC372252CA1CF964 Ansgar Burchardt <ansgar> sig:3
+    * 0xBE0C924203F4552D ChangZhuo Chen <czchen> sig:10
+    * 0xBFECAECBA0E7D8C3 James Downing Page <jamespage> sig:4
+    * 0xC38E8160A17841FE Aron Xu <aron> sig:7
+    * 0xC3F436CA30F5D8EB Mark Brown <broonie> sig:4
+    * 0xC4D012FFE0163787 Kristoffer Rose <krisrose> sig:7
+    * 0xC6875F3541CEFDE0 Stefan Fritsch <sf> sig:6
+    * 0xC6B8598485522E2D Felipe Augusto van de Wiel <faw> sig:6
+    * 0xCCD2ED94D21739E9 Daniel Kahn Gillmor <dkg> sig:93
+    * 0xD14EF15DAFE11347 Martin Pitt <mpitt> sig:7
+    * 0xD265C08531ED8AEF Rémi Vanicat <vanicat> sig:9
+    * 0xD416AD15AC6B43FE Thomas Goirand <zigo> sig:1
+    * 0xD4F219BFEC998489 Magnus Holmgren <holmgren> sig:4
+    * 0xD9AD14B9513B51E4 Markus Koschany <apo> uid:1 sig:7
+    * 0xD9EEBFB4B66B10F0 Timo Weingärtner <tiwe> uid:1 sig:43
+    * 0xDAFD5959408B7B9B Anders Hammarquist <iko> sig:2
+    * 0xDE63B9C704EBE9EF Joao Eriberto Mota Filho <eriberto> sig:6
+    * 0xDECF849AA6357FB7 Tobias Frost <tobi> sig:3
+    * 0xDEE8043EE17EBB30 Rhonda D'Vine <rhonda> sig:2
+    * 0xE2DCDD9132669BD6 Uwe Kleine-König <ukleinek> uid:1 sig:1
+    * 0xE352D5C51C5041D4 Iain Lane <laney> sig:3
+    * 0xE76004C5CEF0C94C Christian Kastner <ckk> sig:4
+    * 0xE7F710555409E422 Kamal Mostafa <kamal> sig:5
+    * 0xE8A48AE5311D765A Alessio Treglia <alessio> sig:3
+    * 0xEB36171A6FF9435F Bernd Zeimetz <bzed> sig:2
+    * 0xF114084C08611111 Loïc Minier <lool> sig:5
+    * 0xF167E43C8143B682 Neil Williams <codehelp> sig:3
+    * 0xF1C9A83C08AA3E9C Ludovic Brenta <lbrenta> sig:3
+    * 0xF45E7D53CF0E01FE Krzysztof Krzyżaniak <eloy> sig:1
+    * 0xF50EFDCF8AD04B1A Philipp Matthias Hahn <pmhahn> sig:4
+    * 0xF6D3495BB0AE9A02 Clint Adams <clint> sig:9
+    * 0xFC0DB1BBCD460BDE Antonio Terceiro <terceiro> sig:4
 
   [ Jonathan McDowell ]
   * Add new DD key 0xDA82830E3CCC3A3A (Alexandre Viau) (RT #6001)
