@@ -1,4 +1,4 @@
-debian-keyring (2015.11.XX) UNRELEASED; urgency=medium
+debian-keyring (2015.11.30) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Replace 0x0B5F62A3AAD40AFF with 0xBB9D98D9DEA2C38E (Robert
