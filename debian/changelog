@@ -131,6 +131,7 @@ debian-keyring (2015.11.XX) UNRELEASED; urgency=medium
     * 0xF50EFDCF8AD04B1A Philipp Matthias Hahn <pmhahn> sig:4
     * 0xF6D3495BB0AE9A02 Clint Adams <clint> sig:9
     * 0xFC0DB1BBCD460BDE Antonio Terceiro <terceiro> sig:4
+  * Make parse-git-changelog not choke with an incomplete commit
 
   [ Jonathan McDowell ]
   * Add new DD key 0xDA82830E3CCC3A3A (Alexandre Viau) (RT #6001)
