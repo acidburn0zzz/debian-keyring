@@ -1,4 +1,4 @@
-debian-keyring (2015.12.10) UNRELEASED; urgency=medium
+debian-keyring (2015.12.10) unstable; urgency=medium
 
   * Import changes sent to keyring.debian.org HKP interface:
     * 0x00806F2BD729A457 Jelmer Vernooij <jelmer> sub:2 sig:14
