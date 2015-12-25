@@ -1,4 +1,4 @@
-debian-keyring (2015.12.xx) UNRELEASED; urgency=medium
+debian-keyring (2015.12.25) unstable; urgency=medium
 
   * Replace 0x5B9AA5F8801EA932 with 0x3ACFD9C1E3950BF2 (Martin Schulze)
     (RT #6078)
