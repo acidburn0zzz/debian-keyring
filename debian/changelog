@@ -2,6 +2,7 @@ debian-keyring (2015.12.xx) UNRELEASED; urgency=medium
 
   * Replace 0x5B9AA5F8801EA932 with 0x3ACFD9C1E3950BF2 (Martin Schulze)
     (RT #6078)
+  * Add new DD key 0xF5C83C05D9CEEEEE (Chris Boot) (RT #6085)
 
  -- Jonathan McDowell <noodles@the.earth.li>  Fri, 25 Dec 2015 10:58:15 +0000
 
