@@ -3,6 +3,24 @@ debian-keyring (2015.12.xx) UNRELEASED; urgency=medium
   * Replace 0x5B9AA5F8801EA932 with 0x3ACFD9C1E3950BF2 (Martin Schulze)
     (RT #6078)
   * Add new DD key 0xF5C83C05D9CEEEEE (Chris Boot) (RT #6085)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x5EE76EE20216D2A5 Lev Lamberov <dogsleg> uid:1 sig:2
+    * 0x39278DA8109E6244 Guilhem Moulin [DM] uid:1 sig:3
+    * 0x94842BC86E511C31 Rolf Leggewie [DM] sig:1
+    * 0xD97B2BA886A10CC0 Daniel Jared Dominguez [DM] sig:3
+    * 0x00806F2BD729A457 Jelmer Vernooij <jelmer> sig:21
+    * 0x00B45EBD4CA7BABE NIIBE Yutaka <gniibe> sig:2
+    * 0x04EE131AE6D621BE Christoph Martin <chrism> sig:10
+    * 0x1318EFAC5FBBDBCE Ximin Luo <infinity0> sig:4
+    * 0x1E953E27D4311E58 Chris Lamb <lamby> sig:12
+    * 0x4B043FCDB9444540 Mattia Rizzolo <mattia> sig:2
+    * 0x824294CD0217E8D8 Ivo De Decker <ivodd> sig:4
+    * 0x9D0B5E5B1EEC8F0E Faidon Liambotis <paravoid> sig:17
+    * 0x9FB9262724B17D29 Tomasz Buchert <tomasz> sig:7
+    * 0xBC1256AA6AA6EC5E Stein Magnus Jodal <jodal> sub:1 sig:1
+    * 0xC95C49F12A068813 GOTO Masanori <gotom> sig:2
+    * 0xCCD2ED94D21739E9 Daniel Kahn Gillmor <dkg> sig:4
+    * 0xD0E94F8D882D4468 Nicolas Boullis <nboullis> sig:2
 
  -- Jonathan McDowell <noodles@the.earth.li>  Fri, 25 Dec 2015 10:58:15 +0000
 
