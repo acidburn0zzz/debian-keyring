@@ -1,3 +1,10 @@
+debian-keyring (2016.01.xx) UNRELEASED; urgency=medium
+
+  * Replace 0xAFD91A923A92FB4C with 0x83E33BD7D4DD4CA1 (Jerome Charaoui)
+    (RT #6093)
+
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 05 Jan 2016 12:00:46 +0000
+
 debian-keyring (2015.12.25) unstable; urgency=medium
 
   * Replace 0x5B9AA5F8801EA932 with 0x3ACFD9C1E3950BF2 (Martin Schulze)
@@ -22,7 +29,7 @@ debian-keyring (2015.12.25) unstable; urgency=medium
     * 0xCCD2ED94D21739E9 Daniel Kahn Gillmor <dkg> sig:4
     * 0xD0E94F8D882D4468 Nicolas Boullis <nboullis> sig:2
 
- -- Jonathan McDowell <noodles@the.earth.li>  Fri, 25 Dec 2015 10:58:15 +0000
+ -- Jonathan McDowell <noodles@earth.li>  Fri, 25 Dec 2015 10:58:15 +0000
 
 debian-keyring (2015.12.10) unstable; urgency=medium
 
