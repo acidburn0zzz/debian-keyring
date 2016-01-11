@@ -1,10 +1,14 @@
 debian-keyring (2016.01.xx) UNRELEASED; urgency=medium
 
+  [ Jonathan McDowell ]
   * Replace 0xAFD91A923A92FB4C with 0x83E33BD7D4DD4CA1 (Jerome Charaoui)
     (RT #6093)
   * Replace 0x9F0FE587374BBE81 with 0xE9E28DEA00AA5556 (Hans-Christoph
     Steiner) (RT #6090)
   * Update git URLs to use https.
+
+  [ Gunnar Wolf ]
+  * Moved 0x76266C50FBB1DB53 (Steve Greenland) to removed keyring
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 05 Jan 2016 12:00:46 +0000
 
