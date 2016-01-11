@@ -6,6 +6,7 @@ debian-keyring (2016.01.xx) UNRELEASED; urgency=medium
   * Replace 0x9F0FE587374BBE81 with 0xE9E28DEA00AA5556 (Hans-Christoph
     Steiner) (RT #6090)
   * Update git URLs to use https.
+  * Move 0xBC6AFB5BA1EE761C (Pierre Habouzit) to emeritus
 
   [ Gunnar Wolf ]
   * Moved 0x76266C50FBB1DB53 (Steve Greenland) to removed keyring
