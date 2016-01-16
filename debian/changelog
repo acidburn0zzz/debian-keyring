@@ -10,6 +10,7 @@ debian-keyring (2016.01.xx) UNRELEASED; urgency=medium
 
   [ Gunnar Wolf ]
   * Moved 0x76266C50FBB1DB53 (Steve Greenland) to removed keyring
+  * Move 0x9EE43746DE599800 (Romain Beauxis) to emeritus
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 05 Jan 2016 12:00:46 +0000
 
