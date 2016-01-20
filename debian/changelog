@@ -1,4 +1,4 @@
-debian-keyring (2016.01.xx) UNRELEASED; urgency=medium
+debian-keyring (2016.01.20) unstable; urgency=medium
 
   [ Jonathan McDowell ]
   * Replace 0xAFD91A923A92FB4C with 0x83E33BD7D4DD4CA1 (Jerome Charaoui)
@@ -138,7 +138,7 @@ debian-keyring (2016.01.xx) UNRELEASED; urgency=medium
   * Moved 0x76266C50FBB1DB53 (Steve Greenland) to removed keyring
   * Move 0x9EE43746DE599800 (Romain Beauxis) to emeritus
 
- -- Jonathan McDowell <noodles@earth.li>  Tue, 05 Jan 2016 12:00:46 +0000
+ -- Jonathan McDowell <noodles@earth.li>  Wed, 20 Jan 2016 19:10:30 +0000
 
 debian-keyring (2015.12.25) unstable; urgency=medium
 
