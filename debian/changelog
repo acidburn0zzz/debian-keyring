@@ -2,6 +2,8 @@ debian-keyring (2016.01.xx) UNRELEASED; urgency=medium
 
   * Replace 0x550F1A003433BD21 with 0x05BCA9EAD562EBBE (Rudy Godoy) (RT
     #6111)
+  * Replace 0x9C84EE1AB9D02636 with 0x1784577F811F6EAC (Brian May) (RT
+    #6125)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 27 Jan 2016 11:35:33 -0600
 
