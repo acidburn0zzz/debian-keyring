@@ -11,6 +11,8 @@ debian-keyring (2016.01.xx) UNRELEASED; urgency=medium
     (RT #6129)
   * Replace 0xA02CDA9F3D08B612 with 0x2C0E8031F29C4A30 (Mark Purcell)
     (RT #6126)
+  * Replace 0x6436436109F34024 with 0x2E31880A62EB5434 (Danai Sae-Han)
+    (RT #5761)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 27 Jan 2016 11:35:33 -0600
 
