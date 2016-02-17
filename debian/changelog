@@ -14,6 +14,7 @@ debian-keyring (2016.01.xx) UNRELEASED; urgency=medium
   * Replace 0x6436436109F34024 with 0x2E31880A62EB5434 (Danai Sae-Han)
     (RT #5761)
   * Add new DD key 0xBED8449FCEE8DA88 (Otto Kekäläinen) (RT #6119)
+  * Add new DD key 0x211A73C69A7B0FC7 (Dariusz Dwornikowski) (RT #6112)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 27 Jan 2016 11:35:33 -0600
 
