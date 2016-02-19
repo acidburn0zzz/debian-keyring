@@ -28,6 +28,7 @@ clean:
 	-rm -f foo foo.asc *.bak *~ */*~ debian/files* debian/substvars
 	-rm -rf debian/tmp 
 	mkdir -p output/keyrings
+	touch --date='$(BUILD_DATE)' output output/keyrings debian
 
 binary-indep: checkroot
 	$(checkdir)
@@ -54,7 +55,7 @@ binary-indep: checkroot
 	chmod -R go=rX debian/tmp
 
 	$(install_file) /dev/null debian/tmp/DEBIAN/md5sums
-	cd debian/tmp && find . -type f ! -regex '.*DEBIAN/.*' -printf '%P\0' | xargs -r0 md5sum > DEBIAN/md5sums 
+	cd debian/tmp && find . -type f ! -regex '.*DEBIAN/.*' -printf '%P\0' | LC_ALL=C sort -z| xargs -r0 md5sum > DEBIAN/md5sums
 
 	find debian/tmp -depth -newermt '$(BUILD_DATE)' -print0 | \
 		xargs -0r touch --no-dereference --date='$(BUILD_DATE)'

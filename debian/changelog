@@ -5,6 +5,8 @@ debian-keyring (2016.01.xx) UNRELEASED; urgency=medium
     #6111)
   * Replace 0x9C84EE1AB9D02636 with 0x1784577F811F6EAC (Brian May) (RT
     #6125)
+  * Sorted package list before md5sums creation, touched build directories
+    to allow for reproducbile builds
 
   [ Jonathan McDowell ]
   * Replace 0x82091D9A5921B5D8 with 0x731991F308F24FEA (Andrew Mitchell)
