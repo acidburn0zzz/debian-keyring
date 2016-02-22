@@ -20,6 +20,7 @@ debian-keyring (2016.01.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x15E09AF4DF5182C8 (Daniel Stender) (RT #6113)
   * Add new DM key 0x78494EF72375A66C (Giovani Augusto Ferreira) (RT #6114)
   * Add new DM key 0x357312559D1E064B (Ondřej Nový) (RT #6115)
+  * Add new DD key 0xCEAE6AD3AFE826FB (Afif Elghraoui) (RT #6147)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 27 Jan 2016 11:35:33 -0600
 
