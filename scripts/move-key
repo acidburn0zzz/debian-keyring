@@ -105,6 +105,7 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 	    echo "Not calling dch, do it manually."
 	    ;;
     esac
+    git add debian/changelog
 
     if [ ! -z "$add_to_keyid" ]; then
 	if oldkey=$(grep $key keyids); then
@@ -115,6 +116,7 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 	    read login
 	    echo "$key $name <$login>" >> keyids
 	    sort keyids > keyids.$$ && mv keyids.$$ keyids
+	    git add keyids
 	fi
     fi
 else
