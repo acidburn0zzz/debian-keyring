@@ -24,6 +24,8 @@ debian-keyring (2016.01.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x51A09B18CF5A5068 (Victor Seva) (RT #6146)
   * Add new DD key 0xAEED6158020EAFFF (James Cowgill) (RT #6145)
   * Updated move-key to generate a basic git commit template
+  * Replace 0x5DD5685778D621B4 with 0x1D661A372FED8F94 (Uwe Herrmann)
+    (RT #6142)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 27 Jan 2016 11:35:33 -0600
 
