@@ -23,9 +23,11 @@ cleanup () {
 	rm -rf "$GNUPGHOME"
 }
 
+keyfp="<fixme>"
 if [ $(echo -n $key|wc -c) -eq 16 ]; then
     key='0x'$(echo $key|tr a-z A-Z)
 elif [ $(echo -n $key|wc -c) -eq 40 ] ; then
+    keyfp=$key
     key='0x'$(echo -n $key | cut -b 25-)
 fi
 
@@ -67,20 +69,27 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
     read name
     echo -n 'RT issue ID this change closes, if any: '
     read rtid
-    rtid="(RT #$rtid)"
 
     if ( echo $destdir | egrep -q 'debian-keyring-gpg/?$' ); then
-	log="Add new DD key $key ($name) $rtid"
+	log="Add new DD key $key ($name) (RT #$rtid)"
 	add_to_keyid=yes
+	dest=DD
+	action=add
     elif ( echo $destdir | egrep -q 'debian-nonupload-gpg/?$' ); then
-	log="Add new nonuploading key $key ($name) $rtid"
+	log="Add new nonuploading key $key ($name) (RT #$rtid)"
 	add_to_keyid=yes
+	dest=DN
+	action=add
     elif ( echo $destdir | egrep -q 'debian-maintainer-gpg/?$' ); then
-	log="Add new DM key $key ($name) $rtid"
+	log="Add new DM key $key ($name) (RT #$rtid)"
+	dest=DM
+	action=add
     elif ( echo $destdir | egrep -q 'debian-emeritus-gpg/?$' ); then
-	log="Move $key to emeritus ($name) $rtid"
+	log="Move $key to emeritus ($name) (RT #$rtid)"
+	action=remove
     elif ( echo $destdir | egrep -q 'debian-removed-gpg/?$' ); then
-	log="Move $key ($name) to removed keyring $rtid"
+	log="Move $key ($name) to removed keyring (RT #$rtid)"
+	action=remove
     fi
 
     git mv $keyfile $destdir
@@ -119,6 +128,20 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 	    git add keyids
 	fi
     fi
+
+    cat > git-commit-template <<EOF
+$log
+
+Action: $action
+Subject: $name
+Username: $login
+Role: $dest
+Key: $keyfp
+Key-type: 
+RT-Ticket: $rtid
+Request-signed-by: 
+Notes: Move from <src> keyring
+EOF
 else
     echo "Not moving key."
 fi
