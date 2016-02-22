@@ -177,12 +177,6 @@ verification purposes.
     This is the keyring of emeritus developers; i.e. those who have
     resigned, retired, passed away or are otherwise inactive.
 
- o extra-keys.pgp
-
-    This is extra old, historical keys.  They don't go into the main
-    keyring because OpenPGPv3 keys are deprecated and OpenPGPv3 keys
-    are not accepted by debian.
-
  o removed-keys.{pgp,gpg}
 
     These keys are that have been removed from the main keyrings for
