@@ -30,6 +30,7 @@ debian-keyring (2016.01.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xC7B0B792 (Jason Pleau) (RT #6117)
   * Add new DM key 0x6C67E6E2 (Michael Robin Crusoe) (RT #6116)
   * Add new DM key 0x477EDB23 (Ferenc Wágner) (RT #6132)
+  * Add new DM key 0xF2133176 (Enrico Rossi) (RT #6133)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 27 Jan 2016 11:35:33 -0600
 
