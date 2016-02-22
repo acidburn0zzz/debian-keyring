@@ -26,6 +26,7 @@ debian-keyring (2016.01.xx) UNRELEASED; urgency=medium
   * Updated move-key to generate a basic git commit template
   * Replace 0x5DD5685778D621B4 with 0x1D661A372FED8F94 (Uwe Herrmann)
     (RT #6142)
+  * Add new DM key 0xC7B0B792 (Jason Pleau) (RT #6117)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 27 Jan 2016 11:35:33 -0600
 
