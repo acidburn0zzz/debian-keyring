@@ -39,6 +39,15 @@ class DakOutput(object):
                         "To: " + operation['new-key'] + "\n" +
                         "Reason: RT #" + operation['rt-ticket'] +
                         ", keyring commit " + state['commit'] + "\n")
+        elif (operation['action'] == 'add' and
+              role_is_dd(operation['role']) and
+              operation['notes'] == 'Move from DM keyring'):
+            if 'rt-ticket' in operation:
+                self.out.write("\nAction: dm-remove\n" +
+                               "Fingerprint: " + operation['key'] + "\n" +
+                               "Reason: Moved to DD keyring, RT #" +
+                               operation['rt-ticket'] + ", keyring commit " +
+                               state['commit'] + "\n")
 
 
 class RTOutput(object):
