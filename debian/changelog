@@ -5,6 +5,7 @@ debian-keyring (2016.03.xx) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Add new DD key 0xDF6D76C44D696F6B (Sven Bartscher) (RT #6154)
+  * Add new DD key 0x88237A6A53AB1B2E (Harlan Lieberman-Berg) (RT #6155)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 26 Feb 2016 16:09:11 +0000
 
