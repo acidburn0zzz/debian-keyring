@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+# Copyright (c) 2016 Jonathan McDowell <noodles@earth.li>
+# GNU GPL; v2 or later
+#
+# Grabs the DM ACL list from ftp-master and ensures that all the
+# active keys are still present. Outputs the last commit involving
+# a missing key and indicates if it has been moved to the DD keyring.
+#
+
+for fp in $(curl -s https://ftp-master.debian.org/dm.txt | awk '/^Fingerprint: / { print $2 }'); do
+	keyid=${fp:24}
+	if [ ! -e debian-maintainers-gpg/0x$keyid ]; then
+		if [ -e debian-keyring-gpg/0x$keyid ]; then
+			echo "0x$keyid moved to DD keyring."
+		else
+			echo "0x$keyid is missing."
+		fi
+		git log --format=oneline -n 1 -- \
+			debian-maintainers-gpg/0x$keyid
+	fi
+done
