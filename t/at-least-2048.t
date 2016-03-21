@@ -7,7 +7,7 @@ find_too_short () {
 	gpg --no-options --no-auto-check-trustdb --no-default-keyring \
 		--keyring "./output/keyrings/$k" --list-keys --with-colons \
 		| grep '^pub' \
-		| awk -F: --assign keyring=$1 \
+		| awk -F: -v keyring=$1 \
 		'$3 < 2048 {print keyring ":\t0x" $5 " is smaller than 2048 bits"}'
 }
 
