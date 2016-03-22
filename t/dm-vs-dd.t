@@ -5,8 +5,8 @@ set -e
 
 list_uids () {
 	gpg --no-options --no-auto-check-trustdb --no-default-keyring \
-		--keyring "$1" --list-keys | grep '^uid' | sed 's/^uid *//' |
-		egrep -v '\[jpeg image of size .*\]'
+		--keyring "$1" --list-keys | grep -a '^uid' | sed 's/^uid *//' |
+		egrep -a -v '\[jpeg image of size .*\]'
 }
 
 list_names () {
@@ -31,12 +31,12 @@ IFS="
 for uid in $(list_uids ./output/keyrings/debian-maintainers.gpg | sort | uniq); do
 	name=$(echo "$uid" | list_names)
 	email=$(echo "$uid" | list_emails)
-	if grep -q "^$uid$" dd-list.tmp; then
+	if grep -a -q "^$uid$" dd-list.tmp; then
 		echo "$uid is in both the DD and DM keyrings"
 		fail=1
-	elif grep  "^$name$" dd-list.tmp; then
+	elif grep -a "^$name$" dd-list.tmp; then
 		echo "warning: name $name is in both the DD and DM keyrings"
-	elif grep  "^$email$" dd-list.tmp; then
+	elif grep -a "^$email$" dd-list.tmp; then
 		echo "email $email is in both the DD and DM keyrings"
 		fail=1
 	fi
