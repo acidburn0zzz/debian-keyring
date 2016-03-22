@@ -1,4 +1,4 @@
-debian-keyring (2016.03.xx) unstable; urgency=medium
+debian-keyring (2016.03.22) unstable; urgency=medium
 
   [ Jonathan McDowell ]
   * Emit DAK commands to cleanup DM ACLs when a DM becomes a DD.
@@ -162,7 +162,7 @@ debian-keyring (2016.03.xx) unstable; urgency=medium
   * Add new DD key 0x88237A6A53AB1B2E (Harlan Lieberman-Berg) (RT #6155)
   * Stop shipping an empty debian-keyring.pgp file in the built package
 
- -- Jonathan McDowell <noodles@earth.li>  Fri, 26 Feb 2016 16:09:11 +0000
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 22 Mar 2016 14:04:49 +0000
 
 debian-keyring (2016.02.23) unstable; urgency=medium
 
