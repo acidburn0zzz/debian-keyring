@@ -1,0 +1,4 @@
+output/keyrings/debian-keyring.gpg       usr/share/keyrings/
+output/keyrings/debian-nonupload.gpg     usr/share/keyrings/
+output/keyrings/debian-maintainers.gpg   usr/share/keyrings/
+output/keyrings/debian-role-keys.gpg     usr/share/keyrings/
