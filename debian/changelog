@@ -1,3 +1,10 @@
+debian-keyring (2016.04.xx) UNRELEASED; urgency=medium
+
+  * Replace 0x0D1B6F07658CB036 with 0x6B720BE9C5CF6D9E (Reinhard Tartler)
+    (RT #6161)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Fri, 01 Apr 2016 17:34:14 -0600
+
 debian-keyring (2016.03.22) unstable; urgency=medium
 
   [ Jonathan McDowell ]
