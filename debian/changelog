@@ -1,8 +1,46 @@
 debian-keyring (2016.04.xx) UNRELEASED; urgency=medium
 
+  [ Gunnar Wolf ]
   * Replace 0x0D1B6F07658CB036 with 0x6B720BE9C5CF6D9E (Reinhard Tartler)
     (RT #6161)
   * Move 0x7B1F549072B74923  (Rodolfo García Peñas) to emeritus
+
+  [ Jonathan McDowell ]
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x0664A76954265E8C Simon Josefsson <jas> sig:5
+    * 0x0BD9E81139CB4807 Henrique de Moraes Holschuh <hmh> sub:2 sig:3
+    * 0x1C2816907136AE39 Georges Khaznadar <georgesk> sub:1 sig:6
+    * 0x2AFBD67FD133AC6E Martin Meredith <mez> uid:1 sig:11
+    * 0x2D191C8843B13F4D Pino Toscano <pino> sig:2
+    * 0x2EC0FFB3B7301B1F Niko Tyni <ntyni> sig:4
+    * 0x3D908AB3F0FBF51F Joachim Breitner <nomeata> sig:2
+    * 0x40D716CFE909CDEE Taku YASUI <tach> sig:1
+    * 0x552AD9AA16C4267F Brian Pellin <bpellin> sig:6
+    * 0x55FF03AE59EC5558 Giacomo Catenazzi <cate> sub:2 sig:2
+    * 0x5C5245265C413520 Geoffrey Thomas [DM] sig:3
+    * 0x5EE76EE20216D2A5 Lev Lamberov <dogsleg> sig:1
+    * 0x600233BA9E54DC61 Carl Worth <cworth> uid:1 sig:6
+    * 0x6026936D2F1C8AE0 Dmitry Shachnev <mitya> sig:2
+    * 0x6C8F74AE87700B7E Vasudev Kamath [DM] sig:5
+    * 0x7E6528DA752F1BE1 Sylvestre Ledru <sylvestre> uid:1 sig:6
+    * 0x7F55BB12A40F862E Neil McGovern <neilm> sig:3
+    * 0x7F6022516E869F64 Andreas Bombe <aeb> sig:2
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:8
+    * 0x9C31503C6D866396 Stefano Zacchiroli <zack> sig:4
+    * 0x9EA33414F5852F4E Benjamin Mako Hill <mako> sig:6
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:5
+    * 0xB24CA63F6EBBE84D Timothy Potter [DM] sig:6
+    * 0xC7F7F9660D82A682 Laurent Bigonville <bigon> sig:3
+    * 0xCC057E722F1FFCC7 Sebastian Harl <tokkee> sig:1
+    * 0xCEAE6AD3AFE826FB Afif Elghraoui <afif> sub:1 sig:1
+    * 0xD97B2BA886A10CC0 Daniel Jared Dominguez [DM] sig:3
+    * 0xDB221A6900000011 Keith Packard <keithp> sig:5
+    * 0xDECF849AA6357FB7 Tobias Frost <tobi> sig:6
+    * 0xDF6D76C44D696F6B Sven Bartscher <kritzefitz> uid:1 sig:1
+    * 0xE9EC46F5A547F31E Shih-Yuan Lee (FourDollars) [DM] sig:6
+    * 0xEC371482956781AF Sven Eckelmann [DM] sig:6
+    * 0xED34CEABE27BAABC Jameson Graef Rollins [DM] sig:3
+    * 0xF50EFDCF8AD04B1A Philipp Matthias Hahn <pmhahn> sig:4
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 01 Apr 2016 17:34:14 -0600
 
