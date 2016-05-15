@@ -1,3 +1,9 @@
+debian-keyring (2016.05.xx) UNRELEASED; urgency=medium
+
+  * Replace 0xF7D931D4B882EBD7 with 0x87568F1562CD5132 (Eric Cooper) (RT #6213)
+
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 15 May 2016 18:04:05 +0100
+
 debian-keyring (2016.04.22) unstable; urgency=medium
 
   [ Gunnar Wolf ]
