@@ -4,6 +4,66 @@ debian-keyring (2016.05.xx) UNRELEASED; urgency=medium
   * Replace 0xF7D931D4B882EBD7 with 0x87568F1562CD5132 (Eric Cooper) (RT #6213)
   * Replace 0xEAFCFEBF8FEB8EBF with 0x473C343BBEEE3333 (Andrew McMillan)
     (RT #6224)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00806F2BD729A457 Jelmer Vernooij <jelmer> uid:1 sig:9
+    * 0x025AFE95AC9DF31B Markus Wanner <markus> sig:7
+    * 0x02C1D3F2783AA4DE Kartik Mistry <kartik> uid:1 sig:1
+    * 0x0907409606AAAAAA Jon Dowland <jmtd> uid:2 sub:1 sig:3
+    * 0x0BC47DC64D135306 Andreas Henriksson <ah> sig:2
+    * 0x13EC43EEB9AC8C43 Jose Luis Rivas Contreras <ghostbar> sig:9
+    * 0x1C7C41EDEBDDBB60 Brendan O'Dea <bod> sig:1
+    * 0x1E2A2F0B19116AD8 Bastian Blank <waldi> sig:3
+    * 0x1E953E27D4311E58 Chris Lamb <lamby> sig:2
+    * 0x1EEF53D38A3A9C67 Andreas Boll [DM] sig:1
+    * 0x2064C53641C25E5D Kurt Roeckx <kroeckx> sig:1
+    * 0x28FA801A43BDD637 Mike Miller <mtmiller> sig:6
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:3
+    * 0x357312559D1E064B Ondřej Nový [DM] sig:12
+    * 0x398D1112D3A4BDE1 chrysn [DM] sig:9
+    * 0x44E17740B8611E9C Lars Wirzenius <lars> uid:1 sig:1
+    * 0x4B043FCDB9444540 Mattia Rizzolo <mattia> sig:12
+    * 0x507AF89025B10423 Thierry Carrez (ttx) [DM] sig:1
+    * 0x51106DF5CD92D072 Stefano Rivera <stefanor> sig:6
+    * 0x587979573442684E Steve McIntyre <93sam> sig:3
+    * 0x5B924EE310055CD3 Marcelo Jorge Vieira <metal> sig:4
+    * 0x5E0195FAF2133176 Enrico Rossi [DM] sub:1 sig:1
+    * 0x5EE76EE20216D2A5 Lev Lamberov <dogsleg> uid:1 sig:4
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:3
+    * 0x6B720BE9C5CF6D9E Reinhard Tartler <siretart> sig:5
+    * 0x6C6580E77BD756C4 Daniel Pocock <pocock> sig:5
+    * 0x6E608B637D8967E9 Miguel Landaeta <nomadium> sub:3 sig:3
+    * 0x6EA4D2311A2D268D Andrew Shadura <andrewsh> sig:6
+    * 0x751AB5DDA79679CC Jimmy Kaplowitz <jimmy> sig:8
+    * 0x789D6F057FD863FE Salvatore Bonaccorso <carnil> sig:16
+    * 0x792152527B75921E Antoine Beaupré <anarcat> sig:6
+    * 0x8382C95C29023DF9 Jérémy Bobbio <lunar> sig:8
+    * 0x873DEA309D13807F Chrysostomos Nanakos <cnanakos> sig:1
+    * 0x8CBF9A322861A790 Micah Anderson <micah> sub:1 sig:6
+    * 0x965522B9D49AE731 Christoph Egger <christoph> sig:9
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:4
+    * 0x9866E4A9EC1663E5 Etienne Millon [DM] sig:3
+    * 0xA1F751F1A55357E8 Nattie Mayer-Hutchings <nattie> sig:1
+    * 0xA81CEA22BC8C7E2E Luca Boccassi [DM] sig:2
+    * 0xAAF8AE16305D6E2C Alexandre Delanoë <anoe> sig:4
+    * 0xB65019C47F7A36F8 IOhannes m zmölnig <umlaeute> sig:2
+    * 0xBB1A3A854F3BBEBF Luca Bruno <lucab> uid:1 sig:3
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:10
+    * 0xC0F8864CDA3D0358 Brian Gupta <bgupta> sig:3
+    * 0xC3F436CA30F5D8EB Mark Brown <broonie> sig:12
+    * 0xC5BD6C8F2295D502 Charles Plessy <plessy> sub:1 sig:2
+    * 0xC90F9CB90E1FAD0C Jo Shields <directhex> uid:1 sig:6
+    * 0xCCD2ED94D21739E9 Daniel Kahn Gillmor <dkg> sig:6
+    * 0xCEC9942DB7ADB86F Giulio Paci [DM] sig:10
+    * 0xD36F769BC11804F0 Theodore Ts'o <tytso> sig:3
+    * 0xD6EFA6AC4B10D847 Tanguy Ortolo <tanguy> sig:12
+    * 0xE7E6F782283D6300 Mattia Dongili <malattia> sig:3
+    * 0xE984F812756753E5 Alexander Alemayhu [DM] sig:4
+    * 0xE9E28DEA00AA5556 Hans-Christoph Steiner <eighthave> sig:4
+    * 0xEB9B1B01DE0572E4 Teddy Hogeborn [DM] sig:1
+    * 0xED6C8A3883476455 Stephen Frost <sfrost> sig:3
+    * 0xEDC8C8240F688E68 Héctor Romojaro Gómez [DM] sig:1
+    * 0xEFE86C6C7FFECF83 Gilles Filippini <pini> sig:4
+    * 0xF6D3495BB0AE9A02 Clint Adams <clint> sig:18
 
   [ Gunnar Wolf ]
   * Move 0x85B90D23464B8DE3 (Xavier Oswald) to emeritus
