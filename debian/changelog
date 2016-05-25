@@ -1,3 +1,9 @@
+debian-keyring (2016.06.xx) UNRELEASED; urgency=medium
+
+  * Add new DD key 0x01509D5CAB4AFD3F (Josué Ortega) (RT #6229)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 25 May 2016 17:33:48 -0500
+
 debian-keyring (2016.05.25) unstable; urgency=medium
 
   [ Jonathan McDowell ]
