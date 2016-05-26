@@ -7,6 +7,7 @@ debian-keyring (2016.06.xx) UNRELEASED; urgency=medium
   [ Jonathan McDowell ]
   * Add new DD key 0x76B9B739 (David Kalnischkies) (RT #6239)
   * Add new DM key 0x3B6D411B (Sean Whitton) (RT #6236)
+  * Add new DM key 0xEF93257A (Tiago Ilieve) (RT #6237)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 25 May 2016 17:33:48 -0500
 
