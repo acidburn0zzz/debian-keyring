@@ -14,6 +14,7 @@ debian-keyring (2016.06.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xEF93257A (Tiago Ilieve) (RT #6237)
   * Add new DM key 0x35C2E2F1 (Jean Baptiste Favre) (RT #6238)
   * Add new DD key 0x58C338B3 (Marcin Kulisz) (RT #6242)
+  * Add new DD key 0x8A3171EF366150CE (David Steele) (RT #6243)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 25 May 2016 17:33:48 -0500
 
