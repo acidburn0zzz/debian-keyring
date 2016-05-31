@@ -7,6 +7,7 @@ debian-keyring (2016.06.xx) UNRELEASED; urgency=medium
   * Add new DD key 0xF823A2729883C97C (Lucas Kanashiro) (RT #6232)
   * Add new DD key 0x6C8F74AE87700B7E (Vasudev Sathish Kamath) (RT
     #6233)
+  * Add new DD key 0x00E89439F228292B (Dima Kogan) (RT #6240)
 
   [ Jonathan McDowell ]
   * Add new DD key 0x76B9B739 (David Kalnischkies) (RT #6239)
