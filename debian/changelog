@@ -20,6 +20,7 @@ debian-keyring (2016.06.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x8A3171EF366150CE (David Steele) (RT #6243)
   * Add new DD key 0x55256F28AC60611A (Herbert Parentes Fortes Neto) (RT
     #6254)
+  * Add new DD key 0x357312559D1E064B (Ondřej Nový) (RT #6258)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 25 May 2016 17:33:48 -0500
 
