@@ -10,6 +10,7 @@ debian-keyring (2016.06.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x00E89439F228292B (Dima Kogan) (RT #6240)
   * Replace 0x00E89439F228292B with 0xED63B6125A1D1561 (Dima Kogan) (RT
     #6235)
+  * Add new DD key 0x2124AA1983785C90 (Rafael Laboissière) (RT #6263)
 
   [ Jonathan McDowell ]
   * Add new DD key 0x76B9B739 (David Kalnischkies) (RT #6239)
