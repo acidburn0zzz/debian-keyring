@@ -29,6 +29,7 @@ debian-keyring (2016.06.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x6C6ACD6417B3ACB1 (Roger Shimizu) (RT #6273)
   * Add new DM key 0xA959B38A9561F3F9 (SZ Lin) (RT #6274)
   * Add new DM key 0x296975951879E9CC (Leo Singer) (RT #6271)
+  * Add new DD key 0x9D0470BDA6CDC457 (Neutron Soutmun) (RT #6275)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 25 May 2016 17:33:48 -0500
 
