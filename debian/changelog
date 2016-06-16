@@ -25,6 +25,7 @@ debian-keyring (2016.06.xx) UNRELEASED; urgency=medium
   * Add new DN key 0xE5EC4AC9BD627B05 (Donald Norwood) (RT #6266)
   * Add new DM key 0x61F7985DB84E0B04 (Adrian Vondendriesch) (RT #6260)
   * Add new DM key 0xA8696F011940D6C7 (Alkis Georgopoulos) (RT #6264)
+  * Add new DM key 0x80E627A0AB757E23 (Michael Hudson-Doyle) (RT #6272)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 25 May 2016 17:33:48 -0500
 
