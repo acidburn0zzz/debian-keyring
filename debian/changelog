@@ -1,4 +1,4 @@
-debian-keyring (2016.06.xx) UNRELEASED; urgency=medium
+debian-keyring (2016.06.19) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Add new DD key 0x01509D5CAB4AFD3F (Josué Ortega) (RT #6229)
@@ -70,7 +70,7 @@ debian-keyring (2016.06.xx) UNRELEASED; urgency=medium
     * 0xF2877BBA141AAD7F Mechtilde Stehmann [DM] sig:9
     * 0xF6947DAB68E7B931 Hannes von Haugwitz <hvhaugwitz> sig:19
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 25 May 2016 17:33:48 -0500
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 19 Jun 2016 14:53:52 +0100
 
 debian-keyring (2016.05.25) unstable; urgency=medium
 
