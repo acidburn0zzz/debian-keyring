@@ -34,6 +34,41 @@ debian-keyring (2016.06.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x183BD5ED35278611 (Peter Colberg) (RT #6280)
   * Add new role key 0x0CA8D15BB24D96F2 (DAM) (Closes: #827489)
   * Add new DD key 0x1909D4080C626242 (Steve Kemp) (RT #6276)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:7
+    * 0x126EB563A74B06BF Barry Warsaw <barry> sig:11
+    * 0x1CD8D854FE4252C1 Noah Meyerhans <noahm> sig:2
+    * 0x1E7091B1F14A64A2 Aaron M. Ucko <ucko> sig:3
+    * 0x310180050905E40C Julien Cristau <jcristau> sig:1
+    * 0x39091E8123CE1C09 Prach Pongpanich <prach> sig:2
+    * 0x3B5C2C71A218D83C Jean-Michel Vourgère <nirgal> sig:10
+    * 0x4C5A6BAB12D2A7AE Christoph Berg <myon> sig:2
+    * 0x53B1AC6DB11B627B Martin Zobel-Helas <zobel> sig:2
+    * 0x578BD370AAA22456 Martín Ferrari <tincho> sig:5
+    * 0x5C29137271246E4A Muammar El Khatib <muammar> uid:1 sub:1 sig:2
+    * 0x634F4BD1E7AD5568 Enrico Zini <enrico> sig:2
+    * 0x756BEB4B70D8FB2A Josue Abarca <jmaslibre> sig:9
+    * 0x771750766E1C720B Thomas PIERSON (Personal Key) [DM] sig:2
+    * 0x7731FCCC63E4E277 Roberto C. Sanchez <roberto> sig:7
+    * 0x789D6F057FD863FE Salvatore Bonaccorso <carnil> sig:7
+    * 0x78DC68DB326D8438 Oliver Sallou <osallou> sig:4
+    * 0x7B585B30807C2A87 Paul Richards Tagliamonte <paultag> sig:12
+    * 0x81812383AD289755 Jonny Lamb <jonny> sig:1
+    * 0x8F7BF8FC4A11C97A Ryan Kavanagh <rak> sig:1
+    * 0x9C31503C6D866396 Stefano Zacchiroli <zack> sig:4
+    * 0xA1B09B42333961E8 Evgeni Golov <evgeni> sig:37
+    * 0xA3BABAE2408DD6CF Felipe Sateler <fsateler> sig:6
+    * 0xAFFC96D1151DFFDC Bernhard R. Link <brlink> sig:3
+    * 0xB01FEA84617B586D Andreas B. Mundt <andi> uid:2 sig:2
+    * 0xB8E5087766475AAF Nicolas Dandrimont <olasd> uid:2 sig:7
+    * 0xCEC9942DB7ADB86F Giulio Paci [DM] sig:5
+    * 0xD3E17383CFA7FF06 Anton Gladky <gladk> sig:2
+    * 0xDA82830E3CCC3A3A Alexandre Viau <aviau> sub:1 sig:5
+    * 0xDAFD5959408B7B9B Anders Hammarquist <iko> sig:4
+    * 0xDF6D76C44D696F6B Sven Bartscher <kritzefitz> sub:1 sig:4
+    * 0xE6FFF1E38DC968B0 Marco d'Itri <md> sig:1
+    * 0xF2877BBA141AAD7F Mechtilde Stehmann [DM] sig:9
+    * 0xF6947DAB68E7B931 Hannes von Haugwitz <hvhaugwitz> sig:19
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 25 May 2016 17:33:48 -0500
 
