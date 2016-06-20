@@ -12,9 +12,9 @@ if [ -z "$1" ] || [ -z "$2" ]; then
 fi
 
 if [ "$1" == "clean" ]; then
-	GPGOPTIONS="--keyring $(readlink -f output/keyrings/debian-keyring.gpg) --keyring $(readlink -f output/keyrings/debian-nonupload.gpg) --keyring $(readlink -f output/keyrings/debian-maintainers.gpg) --no-auto-check-trustdb --import-options import-clean --export-options export-clean"
+	GPGOPTIONS="--keyring $(readlink -f output/keyrings/debian-keyring.gpg) --keyring $(readlink -f output/keyrings/debian-nonupload.gpg) --keyring $(readlink -f output/keyrings/debian-maintainers.gpg) --no-auto-check-trustdb --import-options import-clean --export-options export-clean,no-export-attributes"
 elif [ "$1" == "minimal" ]; then
-	GPGOPTIONS="--no-auto-check-trustdb --import-options import-minimal --export-options export-minimal"
+	GPGOPTIONS="--no-auto-check-trustdb --import-options import-minimal --export-options export-minimal,no-export-attributes"
 else
 	echo "Must specify clean or minimal; not $1" >&2
 	exit 1

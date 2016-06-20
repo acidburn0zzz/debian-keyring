@@ -35,7 +35,8 @@ fi
 gpg --import $keydir/0x$keyid
 gpg --import $revfile
 gpg --no-auto-check-trustdb --options /dev/null \
-		--export $keyid > $GNUPGHOME/0x$keyid
+	--export-options export-minimal,no-export-attributes \
+	--export $keyid > $GNUPGHOME/0x$keyid
 
 echo "Running gpg-diff:"
 scripts/gpg-diff $keydir/0x$keyid $GNUPGHOME/0x$keyid

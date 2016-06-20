@@ -37,7 +37,11 @@ gpg --quiet --import $keydir/0x$keyid
 summary=$(gpg --import $keyfile 2>&1 | \
 		scripts/parse-gpg-update 0x$keyid "$name")
 gpg --no-auto-check-trustdb --options /dev/null \
-		--export $keyid > $GNUPGHOME/0x$keyid
+	--keyring output/keyrings/debian-keyring.gpg \
+	--keyring output/keyrings/debian-nonupload.gpg \
+	--keyring output/keyrings/debian-maintainers.gpg \
+	--export-options export-clean,no-export-attributes \
+	--export $keyid > $GNUPGHOME/0x$keyid
 
 case "$summary" in
   *:*)

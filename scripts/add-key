@@ -66,7 +66,7 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 		--keyring output/keyrings/debian-keyring.gpg \
 		--keyring output/keyrings/debian-nonupload.gpg \
 		--keyring output/keyrings/debian-maintainers.gpg \
-		--export-options export-clean \
+		--export-options export-clean,no-export-attributes \
 		--export $keyid > $keydir/0x$keyid
 	git add $keydir/0x$keyid
 	if ( echo $2 | egrep  -q '^(\./)?debian-(keyring|nonupload)-gpg/?$' ); then

@@ -30,7 +30,12 @@ cleanup () {
 
 newkeytemp=`mktemp -t newkey.XXXXXXXXX`
 gpg --recv-key "$newkey"
-gpg --export "$newkey" > $newkeytemp
+gpg --no-auto-check-trustdb --options /dev/null \
+	--keyring output/keyrings/debian-keyring.gpg \
+	--keyring output/keyrings/debian-nonupload.gpg \
+	--keyring output/keyrings/debian-maintainers.gpg \
+	--export-options export-clean,no-export-attributes \
+	--export "$newkey" > $newkeytemp
 
 # strip leading 0x from fingerprints
 oldkey=${oldkey##0x}
