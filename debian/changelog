@@ -1,6 +1,7 @@
 debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
 
   * Update scripts to avoid exporting UATs (photo IDs).
+  * Strip existing UATs from keyrings (Closes: #826713)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 20 Jun 2016 12:43:20 +0100
 
