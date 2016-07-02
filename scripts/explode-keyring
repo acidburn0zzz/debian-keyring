@@ -33,5 +33,6 @@ for key in $(gpg --no-auto-check-trustdb --options /dev/null --no-default-keyrin
 	echo "$out"
 	gpg --no-auto-check-trustdb --options /dev/null \
 		--no-default-keyring --keyring "$keyring" \
+		--export-options no-export-attributes \
 		--export "$key" > "$out"
 done
