@@ -5,6 +5,31 @@ debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
   * Strip existing UATs from keyrings (Closes: #826713)
   * Add new DM key 0x86561F452180FCFE (Michael Jeanson) (RT #6288)
   * Add new DM key 0xA721DA055374AA4F (Reiner Herrmann) (RT #6293)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00806F2BD729A457 Jelmer Vernooij <jelmer> sig:18
+    * 0x01509D5CAB4AFD3F Josué Ortega <josue> uid:1 sig:1
+    * 0x1318EFAC5FBBDBCE Ximin Luo <infinity0> sub:1 sig:5
+    * 0x26CAA901117A251E Marcin Juszkiewicz [DM] sig:4
+    * 0x357312559D1E064B Ondřej Nový <onovy> uid:1 sig:5
+    * 0x44BB1BA79F6C6333 gustavo panizzo [DM] sub:1 sig:1
+    * 0x478112D54B1AC295 Sven Mueller <sven> sig:3
+    * 0x49C3BF8927553D2E Guido Trotter <ultrotter> sig:2
+    * 0x5556A34E04A3610B Sascha Steinbiss <satta> uid:1 sig:1
+    * 0x5ACE8D6E0C14A470 Luke Faraone <lfaraone> sig:7
+    * 0x686930DD58C338B3 Marcin Kulisz <kula> uid:1 sig:4
+    * 0x6C6ACD6417B3ACB1 Roger Shimizu [DM] sub:1 sig:2
+    * 0x7CFCD8CD257721E9 Vagrant Cascadian <vagrant> sig:6
+    * 0x8A3171EF366150CE David Steele <steele> uid:1 sig:1
+    * 0x9D0470BDA6CDC457 Neutron Soutmun <neutron> uid:1 sig:1
+    * 0xAFA51BD6CDE573CB Alessandro Ghedini <ghedo> sub:1 sig:1
+    * 0xBC10BD0F7B8BF08B Matthew Danish <mrd> uid:1 sub:1 sig:2
+    * 0xD6D09BE48405BBF6 Mathias Behrle <mbehrle> uid:1 sig:1
+    * 0xE197012676B9B739 David Kalnischkies <donkult> uid:1 sig:6
+    * 0xE3ADB00850605636 Sandro Knauß [DM] sub:1 sig:5
+    * 0xE523F220AC8DFBD0 Adam Majer <adamm> uid:2 sig:2
+    * 0xE5EC4AC9BD627B05 Donald Norwood <donald> uid:1 sig:1
+    * 0xE66C775AEBFE6C7D Jeremy Bicha [DM] sig:3
+    * 0xF823A2729883C97C Lucas Kanashiro <kanashiro> uid:1 sig:2
 
   [ Gunnar Wolf ]
   * Add new DM key 0xB01D1A72AC8DC9A1 (Jonathan Cristopher Carter) (RT
