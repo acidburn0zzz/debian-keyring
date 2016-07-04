@@ -1,3 +1,9 @@
+debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
+
+  * Add new DD key 0x69F30763DFEFC134 (Steven Chamberlain) (RT #6313)
+
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 04 Jul 2016 19:17:47 +0100
+
 debian-keyring (2016.07.02) unstable; urgency=medium
 
   [ Jonathan McDowell ]
