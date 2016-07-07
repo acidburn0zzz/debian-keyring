@@ -172,12 +172,12 @@ the source package or on keyring.debian.org.  It is very strongly
 recommended that you do not use or rely on keys in these keyrings for
 verification purposes.
 
- o emeritus-keyring.{gpg,pgp}
+ o emeritus-keyring.gpg
 
     This is the keyring of emeritus developers; i.e. those who have
     resigned, retired, passed away or are otherwise inactive.
 
- o removed-keys.{pgp,gpg}
+ o removed-keys.gpg
 
     These keys are that have been removed from the main keyrings for
     various reasons.  Keys in here could have been duplicates or
