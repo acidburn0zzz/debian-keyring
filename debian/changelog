@@ -8,6 +8,7 @@ debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x3F9219A67F36C68B (Jerome Benoit) (RT #6323)
   * Add new DN key 0x59F187CA156EB076 (Holger Wansing) (RT #6327)
   * Remove PGP emeritus/removed keyrings entirely.
+  * Add new DD key 0x5EE76EE20216D2A5 (Lev Lamberov) (RT #6320)
 
   [ Gunnar Wolf ]
   * Move 0xE3AA82D81B352C01 (Chris Hanson) to emeritus
