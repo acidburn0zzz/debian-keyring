@@ -4,6 +4,7 @@ debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x69F30763DFEFC134 (Steven Chamberlain) (RT #6313)
   * Add new DD key 0xB24CA63F6EBBE84D (Timothy Potter) (RT #6321)
   * Add new DD key 0xED0DD3368DE40924 (Martijn van Brummelen) (RT #6326)
+  * Add new DD key 0x9605A1098C63B92A (Edward John Betts) (RT #6325)
 
   [ Gunnar Wolf ]
   * Move 0xE3AA82D81B352C01 (Chris Hanson) to emeritus
