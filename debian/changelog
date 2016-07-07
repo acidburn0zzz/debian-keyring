@@ -10,6 +10,7 @@ debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
 
   [ Gunnar Wolf ]
   * Move 0xE3AA82D81B352C01 (Chris Hanson) to emeritus
+  * Add new DM key 0x79C43E620B039B35 (Jens Reyer) (RT #6324)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 04 Jul 2016 19:17:47 +0100
 
