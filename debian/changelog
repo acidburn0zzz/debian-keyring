@@ -1,3 +1,9 @@
+debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
+
+  * Add new DN key 0xA2B91BC6CD4EBDDC (Stéphane Blondon) (RT #6342)
+
+ -- Jonathan McDowell <noodles@earth.li>  Fri, 15 Jul 2016 23:47:37 +0100
+
 debian-keyring (2016.07.08) unstable; urgency=medium
 
   [ Jonathan McDowell ]
