@@ -3,6 +3,7 @@ debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
   * Add new DN key 0xA2B91BC6CD4EBDDC (Stéphane Blondon) (RT #6342)
   * Add new DD key 0xA04AB3BADBE263EE (Bertrand Marc) (RT #6343)
   * Move 0x4330169952D556DB (Ben Armstrong) to emeritus
+  * Move 0x0CFF30E126257B68 (Christian Surchi) to emeritus
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 15 Jul 2016 23:47:37 +0100
 
