@@ -10,6 +10,7 @@ debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
   * Replace 0xEED8D4CC1DEB8EAE with 0xA3B7DB93EB8A46DC (Goedson Teixeira
     Paixão) (RT #6346)
   * Move 0x43148E6D18EA3457 (Rogério Reis) to emeritus
+  * Move 0xCA78CB3E6E76D81D (Sean Finney) to emeritus
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 15 Jul 2016 23:47:37 +0100
 
