@@ -7,6 +7,8 @@ debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xEBE4E3EE94176FC2 (Olek Wojnar) (RT #6349)
   * Add new DD key 0x17FBDCBFD9928FF4 (Jochen Sprickerhof) (RT
     #jspricke)
+  * Replace 0xEED8D4CC1DEB8EAE with 0xA3B7DB93EB8A46DC (Goedson Teixeira
+    Paixão) (RT #6346)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 15 Jul 2016 23:47:37 +0100
 
