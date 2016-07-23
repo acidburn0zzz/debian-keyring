@@ -5,6 +5,8 @@ debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
   * Move 0x4330169952D556DB (Ben Armstrong) to emeritus
   * Move 0x0CFF30E126257B68 (Christian Surchi) to emeritus
   * Add new DM key 0xEBE4E3EE94176FC2 (Olek Wojnar) (RT #6349)
+  * Add new DD key 0x17FBDCBFD9928FF4 (Jochen Sprickerhof) (RT
+    #jspricke)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 15 Jul 2016 23:47:37 +0100
 
