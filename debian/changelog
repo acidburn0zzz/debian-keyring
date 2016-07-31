@@ -10,6 +10,7 @@ debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
     Paixão) (RT #6346)
   * Move 0x43148E6D18EA3457 (Rogério Reis) to emeritus
   * Move 0xCA78CB3E6E76D81D (Sean Finney) to emeritus
+  * Add new DD key 0xB8B24C06AC128405 (Ben Finney) (RT #6362)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 15 Jul 2016 23:47:37 +0100
 
