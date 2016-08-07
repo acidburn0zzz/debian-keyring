@@ -17,6 +17,7 @@ debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
 
   [ Gunnar Wolf ]
   * Add new DD key 0x2E5C20BB37933BFD (Zlatan Todoric) (RT #6374)
+  * Add new DD key 0x3AC8F716477EDB23 (Ferenc Wágner) (RT #6375)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 15 Jul 2016 23:47:37 +0100
 
