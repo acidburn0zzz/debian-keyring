@@ -1,5 +1,6 @@
 debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
 
+  [ Jonathan McDowell ]
   * Add new DN key 0xA2B91BC6CD4EBDDC (Stéphane Blondon) (RT #6342)
   * Add new DD key 0xA04AB3BADBE263EE (Bertrand Marc) (RT #6343)
   * Move 0x4330169952D556DB (Ben Armstrong) to emeritus
@@ -13,6 +14,9 @@ debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
   * Add new DD key 0xB8B24C06AC128405 (Ben Finney) (RT #6362)
   * Add new DM key 0x6B7498FCB9B358AC (Frédéric Bonnard) (RT #6363)
   * Add new DD key 0x35A3939FFC78776D (Breno Leitao) (RT #6366)
+
+  [ Gunnar Wolf ]
+  * Add new DD key 0x2E5C20BB37933BFD (Zlatan Todoric) (RT #6374)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 15 Jul 2016 23:47:37 +0100
 
