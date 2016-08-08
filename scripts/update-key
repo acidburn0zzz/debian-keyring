@@ -14,10 +14,22 @@ fi
 # avoid gnupg touching ~/.gnupg
 GNUPGHOME=$(mktemp -d -t jetring.XXXXXXXX)
 export GNUPGHOME
+cat > "$GNUPGHOME"/gpg.conf <<EOF
+keyid-format 0xlong
+import-options import-clean
+export-options export-clean,no-export-attributes
+no-auto-check-trustdb
+EOF
 trap cleanup exit
 cleanup () {
 	rm -rf "$GNUPGHOME"
 }
+
+# Build a set of keyrings
+cat output/keyrings/debian-keyring.gpg output/keyrings/debian-nonupload.gpg \
+	output/keyrings/debian-maintainers.gpg > $GNUPGHOME/pubring.gpg
+touch $GNUPGHOME/secring.gpg
+chmod 600 $GNUPGHOME/secring.gpg
 
 keyfile=$(readlink -f "$1") # gpg works better with absolute keyring paths
 keydir="$2"
@@ -25,8 +37,8 @@ keydir="$2"
 basename=$(basename "$keyfile")
 date=`date -R`
 
-keyid=$(gpg --with-colons --keyid long --options /dev/null --no-auto-check-trustdb < $keyfile | grep '^pub' | head -n 1 | cut -d : -f 5)
-name=$(gpg --with-colons --keyid long --options /dev/null --no-auto-check-trustdb < $keyfile | grep '^pub' | head -n 1 | cut -d : -f 10 | sed -e 's/ <.*//')
+keyid=$(gpg --with-colons < $keyfile | grep '^pub' | head -n 1 | cut -d : -f 5)
+name=$(gpg --with-colons < $keyfile | grep '^pub' | head -n 1 | cut -d : -f 10 | sed -e 's/ <.*//')
 
 if [ ! -e $keydir/0x$keyid ]; then
 	echo "0x$keyid isn't already in $keydir - new key or error."
@@ -36,12 +48,7 @@ fi
 gpg --quiet --import $keydir/0x$keyid
 summary=$(gpg --import $keyfile 2>&1 | \
 		scripts/parse-gpg-update 0x$keyid "$name")
-gpg --no-auto-check-trustdb --options /dev/null \
-	--keyring output/keyrings/debian-keyring.gpg \
-	--keyring output/keyrings/debian-nonupload.gpg \
-	--keyring output/keyrings/debian-maintainers.gpg \
-	--export-options export-clean,no-export-attributes \
-	--export $keyid > $GNUPGHOME/0x$keyid
+gpg --export $keyid > $GNUPGHOME/0x$keyid
 
 case "$summary" in
   *:*)
