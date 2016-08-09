@@ -8,7 +8,7 @@ find_expired () {
 		--keyring "./output/keyrings/$k" --list-keys --with-colons \
 		| grep -a '^pub' \
 		| awk -F: -v keyring=$1 \
-		'$2 == "e" {print keyring ":\t0x" $5 " expired on " $7}'
+		'$2 == "e" {print keyring ":\t0x" $5 " expired on " $7 " (" $10 ")"}'
 }
 
 fail=0
