@@ -204,6 +204,7 @@ debian-keyring (2016.07.xx) UNRELEASED; urgency=medium
     * 0xF823A2729883C97C Lucas Kanashiro <kanashiro> sig:12
     * 0xFC0DB1BBCD460BDE Antonio Terceiro <terceiro> sig:27
     * 0xFF914AF0C2B35520 Cyril Brulebois <kibi> sig:10
+  * Add gnupg to Build-Depends (Closes: #833913)
 
   [ Gunnar Wolf ]
   * Add new DD key 0x2E5C20BB37933BFD (Zlatan Todoric) (RT #6374)
