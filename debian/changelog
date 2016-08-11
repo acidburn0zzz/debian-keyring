@@ -4,6 +4,7 @@ debian-keyring (2016.08.xx) UNRELEASED; urgency=medium
   * Fixed Vcs-Browser in debian/control, thanks to Gianfranco Costamagna
     for the hint
   * Bumped up standards-version to 3.9.8
+  * Fixing typo in keyids (Closes: #833999)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Thu, 11 Aug 2016 10:25:02 -0500
 
