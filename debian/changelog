@@ -6,6 +6,9 @@ debian-keyring (2016.08.xx) UNRELEASED; urgency=medium
   * Bumped up standards-version to 3.9.8
   * Fixing typo in keyids (Closes: #833999)
 
+  [ Jonathan McDowell ]
+  * Add new DN key 0x083781A2D2ACE48B (Adriano Rafael Gomes) (RT #6383)
+
  -- Gunnar Wolf <gwolf@gwolf.org>  Thu, 11 Aug 2016 10:25:02 -0500
 
 debian-keyring (2016.08.10) unstable; urgency=medium
