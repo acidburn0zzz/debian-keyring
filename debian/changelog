@@ -10,6 +10,7 @@ debian-keyring (2016.08.xx) UNRELEASED; urgency=medium
   * Add new DN key 0x083781A2D2ACE48B (Adriano Rafael Gomes) (RT #6383)
   * Replace 0x56FF9EA4E9846C49 with 0x76D58093F540ABCD (Iain R.
     Learmonth) (RT #6384)
+  * Add new DM key 0x1B7CC8D4D4E914AA (Robert Haist) (RT #6379)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Thu, 11 Aug 2016 10:25:02 -0500
 
