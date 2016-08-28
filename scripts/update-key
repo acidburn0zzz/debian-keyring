@@ -6,6 +6,14 @@
 
 set -e
 
+if [ "x$1" == "x--no-clean" ]; then
+	NOCLEAN=1
+	shift
+else
+	NOCLEAN=0
+fi
+
+
 if [ -z "$1" ] || [ -z "$2" ]; then
 	echo "Usage: update-key keyfile dir" >&2
 	exit 1
@@ -16,19 +24,24 @@ GNUPGHOME=$(mktemp -d -t jetring.XXXXXXXX)
 export GNUPGHOME
 cat > "$GNUPGHOME"/gpg.conf <<EOF
 keyid-format 0xlong
-import-options import-clean
-export-options export-clean,no-export-attributes
 no-auto-check-trustdb
 EOF
+
+if [ "$NOCLEAN" == "0" ]; then
+	echo "import-options import-clean" >> "$GNUPGHOME"/gpg.conf
+	echo "export-options export-clean,no-export-attributes" >> "$GNUPGHOME"/gpg.conf
+	cat output/keyrings/debian-keyring.gpg \
+		output/keyrings/debian-nonupload.gpg \
+		output/keyrings/debian-maintainers.gpg > $GNUPGHOME/pubring.gpg
+fi
+
 trap cleanup exit
 cleanup () {
 	rm -rf "$GNUPGHOME"
 }
 
 # Build a set of keyrings
-cat output/keyrings/debian-keyring.gpg output/keyrings/debian-nonupload.gpg \
-	output/keyrings/debian-maintainers.gpg > $GNUPGHOME/pubring.gpg
-touch $GNUPGHOME/secring.gpg
+touch $GNUPGHOME/secring.gpg $GNUPGHOME/pubring.gpg
 chmod 600 $GNUPGHOME/secring.gpg
 
 keyfile=$(readlink -f "$1") # gpg works better with absolute keyring paths
