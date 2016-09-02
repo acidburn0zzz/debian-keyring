@@ -8,6 +8,7 @@ debian-keyring (2016.08.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x62645EB35F686A8A (Mo Zhou) (RT #6401)
   * Add new DM key 0x2894E93A28C67B47 (Zygmunt Bazyli Krynicki) (RT
     #6402)
+  * Move 0xA8D2CD13AA544AA1 (Y Giridhar Appaji Nag) to emeritus (RT #6406)
 
   [ Jonathan McDowell ]
   * Add new DN key 0x083781A2D2ACE48B (Adriano Rafael Gomes) (RT #6383)
