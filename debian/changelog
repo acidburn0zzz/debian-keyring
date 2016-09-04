@@ -16,6 +16,7 @@ debian-keyring (2016.08.xx) UNRELEASED; urgency=medium
     Learmonth) (RT #6384)
   * Add new DM key 0x1B7CC8D4D4E914AA (Robert Haist) (RT #6379)
   * Add new DM key 0xA2591E231E251F36 (Víctor Cuadrado Juan) (RT #6380)
+  * Add new DM key 0x863D4DF2ED9C28EF (Abhijith PA) (RT #6403)
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Thu, 11 Aug 2016 10:25:02 -0500
 
