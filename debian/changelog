@@ -1,9 +1,9 @@
-debian-keyring (2016.09.xx) UNRELEASED; urgency=medium
+debian-keyring (2016.09.08) unstable; urgency=high
 
   * Add new DM key 0xA8822153B391646D (Eric Heintzmann) (RT #6417)
   * Remove 0x457CE0A0804465C5 (Michael Tokarev) (RT #6418)
 
- -- Jonathan McDowell <noodles@earth.li>  Wed, 07 Sep 2016 18:26:26 +0100
+ -- Jonathan McDowell <noodles@earth.li>  Thu, 08 Sep 2016 20:49:02 +0100
 
 debian-keyring (2016.09.04) unstable; urgency=medium
 
