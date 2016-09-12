@@ -7,6 +7,7 @@ debian-keyring (2016.09.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x68E713981D1515F8 (Arturo Borrero González) (RT
     #6425)
   * Add new DM key 0x59895E44B169626D (Samuel Henrique) (RT #6424)
+  * Add new DM key 0xDD1FAB8937FE9825 (Kai-Chung Yan) (RT #6423)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 12 Sep 2016 10:26:35 -0500
 
