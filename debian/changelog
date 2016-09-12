@@ -1,6 +1,11 @@
 debian-keyring (2016.09.xx) UNRELEASED; urgency=medium
 
+  [ Gunnar Wolf ]
   * Move 0xF41B286258C7B079 (Roland Stigge) to emeritus
+
+  [ Jonathan McDowell ]
+  * Add new DD key 0x68E713981D1515F8 (Arturo Borrero González) (RT
+    #6425)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 12 Sep 2016 10:26:35 -0500
 
