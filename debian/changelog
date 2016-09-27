@@ -4,6 +4,7 @@ debian-keyring (2016.09.xx) UNRELEASED; urgency=medium
   * Move 0xF41B286258C7B079 (Roland Stigge) to emeritus
   * Replace 0x92E0BDE7C6002CBD with 0x6A49B19728ABDD92 (Paul Brossier)
     (RT #6045)
+  * Move 0x114CAAF608E25893 (Christian Brunotte) to emeritus (RT #6432)
 
   [ Jonathan McDowell ]
   * Add new DD key 0x68E713981D1515F8 (Arturo Borrero González) (RT
