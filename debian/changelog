@@ -8,6 +8,7 @@ debian-keyring (2016.09.xx) UNRELEASED; urgency=medium
   * Move 0xC4D012FFE0163787 (Kristoffer Rose) to removed
   * Move 0x081419C30B437A89 (Fabio M. Di Nitto) to emeritus (RT #6440)
   * Add DD key 0x457CE0A0804465C5 (Michael Tokarev) (RT #6419)
+  * Move 0xB87D9ADC46820241 (Mario Lang) to emeritus
 
   [ Jonathan McDowell ]
   * Add new DD key 0x68E713981D1515F8 (Arturo Borrero González) (RT
