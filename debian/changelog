@@ -108,6 +108,7 @@ debian-keyring (2016.09.xx) UNRELEASED; urgency=medium
     * 0xF823A2729883C97C Lucas Kanashiro <kanashiro> sig:1
     * 0xFE558C72A67013C3 Maarten Bernardus Lankhorst <maarten> sig:1
   * Add new DM key 0x612EF1613E050F54 (Dylan Aïssi) (RT #6445)
+  * Add new DD key 0x76B534B2E99007E0 (Thorsten Glaser) (RT #6446)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 12 Sep 2016 10:26:35 -0500
 
