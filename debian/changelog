@@ -21,6 +21,7 @@ debian-keyring (2016.09.xx) UNRELEASED; urgency=medium
     (RT #6436)
   * Add new DM key 0xA5FEEE3AC7937444 (Daniel Shahaf) (RT #6443)
   * Add new DD key 0xE3ADB00850605636 (Sandro Knauß) (RT #6444)
+  * Add new DM key 0xE806E77FF82155BC (Tino Mettler) (RT #6431)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 12 Sep 2016 10:26:35 -0500
 
