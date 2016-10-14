@@ -1,4 +1,4 @@
-debian-keyring (2016.10.XX) unstable; urgency=high
+debian-keyring (2016.10.14) unstable; urgency=high
 
   * Update DD 0x457CE0A0804465C5 (Michael Tokarev) (RT #6419)
     * 0x457CE0A0804465C5 Michael Tokarev <mjt> sub:2 sig:5
