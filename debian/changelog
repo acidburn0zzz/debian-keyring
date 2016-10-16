@@ -1,6 +1,8 @@
 debian-keyring (2016.10.xx) UNRELEASED; urgency=medium
 
   * Add new DN key 0x5F2B9266CCBE0A4E (Karen M Sandler) (RT #6451)
+  * Add new nonuploading key 0x06456DD791E95791 (Emmanuel Kasper
+    Kasprzyk) (RT #6450)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 16 Oct 2016 15:44:59 +0100
 
