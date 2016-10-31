@@ -12,6 +12,8 @@ debian-keyring (2016.10.xx) UNRELEASED; urgency=medium
   [ Gunnar Wolf ]
   * Replace 0x88BBD7DDBD88CDAC with 0x9C0B90A8C51C3C58 (Andree
     Leidenfrost) (RT #6454)
+  * Replace 0x5FA5E75AAB515303 with 0x1ABFA401CCAA707A (Patryk Cisek)
+    (RT #6463)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 16 Oct 2016 15:44:59 +0100
 
