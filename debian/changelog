@@ -14,6 +14,8 @@ debian-keyring (2016.10.xx) UNRELEASED; urgency=medium
     Leidenfrost) (RT #6454)
   * Replace 0x5FA5E75AAB515303 with 0x1ABFA401CCAA707A (Patryk Cisek)
     (RT #6463)
+  * Replace 0xBE0C924203F4552D with 0xCC65B0CDEC275D5B (ChangZhuo Chen)
+    (RT #6477)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 16 Oct 2016 15:44:59 +0100
 
