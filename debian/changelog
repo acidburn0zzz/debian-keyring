@@ -16,6 +16,7 @@ debian-keyring (2016.10.xx) UNRELEASED; urgency=medium
     (RT #6463)
   * Replace 0xBE0C924203F4552D with 0xCC65B0CDEC275D5B (ChangZhuo Chen)
     (RT #6477)
+  * Move 0xCBFD09CA41FDAD01 (Mickael Profeta) to emeritus
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 16 Oct 2016 15:44:59 +0100
 
