@@ -11,6 +11,7 @@ debian-keyring (2016.10.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xA35DAFFBAD29E8DE (Gordon Ball) (RT #6480)
   * Add new DM key 0xC9B0AC74C72B5836 (Sruthi Chandran) (RT #6481)
   * Add new DM key 0xA278B781FE4B2BDA (Michael Shuler) (RT #6486)
+  * Add new DM key 0x6808239B9C72E61B (Filip Pytloun) (RT #6487)
 
   [ Gunnar Wolf ]
   * Replace 0x88BBD7DDBD88CDAC with 0x9C0B90A8C51C3C58 (Andree
