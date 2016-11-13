@@ -1,4 +1,4 @@
-debian-keyring (2016.10.xx) UNRELEASED; urgency=medium
+debian-keyring (2016.11.13) unstable; urgency=medium
 
   [ Jonathan McDowell ]
   * Add new DN key 0x5F2B9266CCBE0A4E (Karen M Sandler) (RT #6451)
@@ -104,7 +104,7 @@ debian-keyring (2016.10.xx) UNRELEASED; urgency=medium
   * Replace 0x640E642E2F2F0CDE with 0x437FE24F9543CB69 (Jean-Michel
     Kelbert) (RT #6476)
 
- -- Jonathan McDowell <noodles@earth.li>  Sun, 16 Oct 2016 15:44:59 +0100
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 13 Nov 2016 15:45:59 +0000
 
 debian-keyring (2016.10.14) unstable; urgency=high
 
