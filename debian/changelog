@@ -1,3 +1,10 @@
+debian-keyring (2016.12.xx) UNRELEASED; urgency=medium
+
+  * Replace 0x8CF535F66AA572F7 with 0xFF3439A94818A98C (Fathi Boudra)
+    (RT #6493)
+
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 05 Dec 2016 11:17:51 +0000
+
 debian-keyring (2016.11.13) unstable; urgency=medium
 
   [ Jonathan McDowell ]
