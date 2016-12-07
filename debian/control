@@ -21,3 +21,9 @@ Description: GnuPG keys of Debian Developers and Maintainers
  forgeries.  This package contains keyrings of GnuPG and keys of
  Debian Developers (uploading and non-uploading), as well as of Debian
  Maintainers.
+ .
+ Do note that, although this package is provided for convenience, it
+ is not necessarily kept updated with the latest changes; the following
+ Git repository is kept up to date with the authoritative data:
+ .
+ https://anonscm.debian.org/git/keyring/keyring.git

@@ -10,6 +10,7 @@ debian-keyring (2016.12.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x88D24287A2D898B1 (Adrian Bunk) (RT #6490)
   * Add new DM key 0x2D192CA624770276 (Mario Anthony Limonciello) (RT
     #6499)
+  * Add information on the public Git tree to the package
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 05 Dec 2016 11:17:51 +0000
 
