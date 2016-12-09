@@ -23,7 +23,12 @@ Description: GnuPG keys of Debian Developers and Maintainers
  Maintainers.
  .
  Do note that, although this package is provided for convenience, it
- is not necessarily kept updated with the latest changes; the following
- Git repository is kept up to date with the authoritative data:
+ is not necessarily kept updated with the latest changes; the authoritative
+ source for keyring information is publicly accessible via rsync at:
+ .
+ keyring.debian.org::keyrings/keyrings/
+ .
+ Finally, the following Git repository is usually kept up to date with the 
+ public authoritative data:
  .
  https://anonscm.debian.org/git/keyring/keyring.git
