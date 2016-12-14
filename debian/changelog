@@ -1,4 +1,4 @@
-debian-keyring (2016.12.xx) UNRELEASED; urgency=medium
+debian-keyring (2016.12.14) unstable; urgency=medium
 
   [ Jonathan McDowell ]
   * Replace 0x8CF535F66AA572F7 with 0xFF3439A94818A98C (Fathi Boudra)
@@ -88,7 +88,7 @@ debian-keyring (2016.12.xx) UNRELEASED; urgency=medium
     description
   * Move 0xB0A2F1A9B3E6122C (Andrea Veri) to emeritus (RT #6506)
 
- -- Jonathan McDowell <noodles@earth.li>  Mon, 05 Dec 2016 11:17:51 +0000
+ -- Jonathan McDowell <noodles@earth.li>  Wed, 14 Dec 2016 21:52:06 +0000
 
 debian-keyring (2016.11.13) unstable; urgency=medium
 
