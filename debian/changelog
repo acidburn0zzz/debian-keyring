@@ -5,6 +5,80 @@ debian-keyring (2016.12.xx) UNRELEASED; urgency=medium
     (RT #6493)
   * Replace 0xBCBBC495718A9256 with 0xE6475D030A9BF164 (Wesley W.
     Terpstra) (RT #6504)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x0098F6131EB86413 Ilias Tsitsimpis [DM] sig:2
+    * 0x06456DD791E95791 Emmanuel Kasper Kasprzyk <manu> sig:4
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:2
+    * 0x07FC4891042BA65A Thomas Koch (thkoch) [DM] sig:1
+    * 0x11362600A747ECD9 Christos Trochalakis <ctrochalakis> uid:1 sig:1
+    * 0x136E9CF17B5D342D Paul Cannon <pik> sig:4
+    * 0x1ABFA401CCAA707A Patryk Cisek <patryk> sig:7
+    * 0x1B132E01CEC6AD46 Kan-Ru Chen <koster> sig:6
+    * 0x1C7C41EDEBDDBB60 Brendan O'Dea <bod> sig:1
+    * 0x1CD8D854FE4252C1 Noah Meyerhans <noahm> sig:3
+    * 0x1E08BF280CB9A31A Martin Gerhard Loschwitz <madkiss> sig:6
+    * 0x1E7091B1F14A64A2 Aaron M. Ucko <ucko> sig:2
+    * 0x1E759A726A9FDD74 Chris Knadle (tertiary backup) [DM] sig:2
+    * 0x2064C53641C25E5D Kurt Roeckx <kroeckx> sig:1
+    * 0x211A73C69A7B0FC7 Dariusz Dwornikowski <darek> sig:5
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:3
+    * 0x357312559D1E064B Ondřej Nový <onovy> sig:4
+    * 0x39091E8123CE1C09 Prach Pongpanich <prach> sig:2
+    * 0x39278DA8109E6244 Guilhem Moulin [DM] uid:1 sig:2
+    * 0x3A936196C095D941 Bdale Garbee <bdale> sig:2
+    * 0x44173FA13D058888 Ying-Chun Liu (PaulLiu) <paulliu> sig:3
+    * 0x5556A34E04A3610B Sascha Steinbiss <satta> sig:15
+    * 0x578BD370AAA22456 Martín Ferrari <tincho> sig:4
+    * 0x587979573442684E Steve McIntyre <93sam> sig:5
+    * 0x5D328D082AAAB140 Hideki Yamane <henrich> sig:3
+    * 0x5EE76EE20216D2A5 Lev Lamberov <dogsleg> sig:4
+    * 0x6026936D2F1C8AE0 Dmitry Shachnev <mitya> sig:2
+    * 0x6611C05EDD39F374 Jérémy Lal <kapouer> sig:3
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:3
+    * 0x69F30763DFEFC134 Steven Chamberlain <stevenc> sig:3
+    * 0x700D567871B28342 Christian T. Steigies <cts> sig:1
+    * 0x74263B37F5B5F913 John Paul Adrian Glaubitz <glaubitz> sig:6
+    * 0x76B534B2E99007E0 Thorsten Glaser <tg> sig:2
+    * 0x78494EF72375A66C Giovani Augusto Ferreira [DM] sig:2
+    * 0x7C56ACFE947897D8 Anibal Monsalve Salazar <anibal> sig:1
+    * 0x8716CE4614A452D8 Sebastien Badia <sbadia> uid:1 sig:4
+    * 0x873DEA309D13807F Chrysostomos Nanakos <cnanakos> sig:1
+    * 0x888220B87E798989 Ari Pollak <ari> sig:3
+    * 0x9394F354891D7E07 Youhei SASAKI [DM] sub:1 sig:1
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:3
+    * 0x9EC002FE1C9CA517 Michael C. Schultheiss <schultmc> sig:4
+    * 0xA3E3969F6DDEEC86 Andrey Rahmatullin <wrar> sig:4
+    * 0xA73E0055558FB8DD Jan Dittberner <jandd> sig:9
+    * 0xA959B38A9561F3F9 SZ Lin (林上智) [DM] sig:1
+    * 0xAB645F406286A7D0 Lisandro Damián Nicanor Pérez Meyer <lisandro> sig:6
+    * 0xAEED6158020EAFFF James Cowgill <jcowgill> sub:1 sig:9
+    * 0xAF2283AA76E2AC7B Hector Oron <zumbi> sig:3
+    * 0xB3F25D6B00A80662 Santiago Ruano Rincón <santiago> uid:1 sig:1
+    * 0xBB20AC20E0B7D6BE René Mayorga <rmayorga> sig:3
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:4
+    * 0xBBC17EBB1396F2F7 Stuart Prescott <stuart> sig:3
+    * 0xBC372252CA1CF964 Ansgar Burchardt <ansgar> sig:3
+    * 0xCC65B0CDEC275D5B ChangZhuo Chen <czchen> uid:1 sig:5
+    * 0xCC79866F99409084 John Wright <jsw> sig:9
+    * 0xCD4B2AF3A0A0AAAA Nico Golde <nion> sig:4
+    * 0xCE1F9C674512C22A Praveen Arimbrathodiyil <praveen> sig:5
+    * 0xCF64CD61EB46CA9A Ramakrishnan Muthukrishnan <rkrishnan> uid:1 sig:2
+    * 0xD0015BD128F39278 Boris Pek <tehnick> sig:3
+    * 0xD0178C767D069EE6 Samuel Thibault <sthibault> uid:1 sig:1
+    * 0xD0E94F8D882D4468 Nicolas Boullis <nboullis> sig:2
+    * 0xD3E17383CFA7FF06 Anton Gladky <gladk> sig:6
+    * 0xD599FF6101809E2A Elena ``of Valhalla'' [DM] sig:2
+    * 0xD97B2BA886A10CC0 Daniel Jared Dominguez [DM] sig:4
+    * 0xD9817E8FDF69C32E Benjamin Barenblat [DM] sig:8
+    * 0xE5EC4AC9BD627B05 Donald Norwood <donald> sig:4
+    * 0xE7BFC8EC95861109 Ben Hutchings <benh> sig:27
+    * 0xE984F812756753E5 Alexander Alemayhu [DM] sig:4
+    * 0xE9EC46F5A547F31E Shih-Yuan Lee (FourDollars) [DM] sig:6
+    * 0xEDC8C8240F688E68 Héctor Romojaro Gómez [DM] sig:1
+    * 0xF50EFDCF8AD04B1A Philipp Matthias Hahn <pmhahn> sig:4
+    * 0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:18
+    * 0xF758CE318D77295D Eric Evans <eevans> sig:4
+    * 0xFB863251A86F9E47 Wookey <wookey> sig:4
 
   [ Gunnar Wolf ]
   * Add new DD key 0x88D24287A2D898B1 (Adrian Bunk) (RT #6490)
