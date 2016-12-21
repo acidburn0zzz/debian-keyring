@@ -5,6 +5,7 @@ debian-keyring (2016.12.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x0F56D0553B6D411B (Sean Whitton) (RT #6513)
   * Add new DD key 0x3F9219A67F36C68B (Jerome Georges Benoit) (RT #6514)
   * Add new DD key 0x664F1238AA8F138A (Daniel Lange) (RT #6512)
+  * Add new DM key 0x04C53BD7FE030551 (Julien Puydt) (RT #6515)
 
  -- Jonathan McDowell <noodles@earth.li>  Wed, 21 Dec 2016 18:55:09 +0000
 
