@@ -12,6 +12,7 @@ debian-keyring (2016.12.xx) UNRELEASED; urgency=medium
   * Add new DD key 0xC42C58EB591492FD (Christoph Biedl) (RT #6523)
   * Add new DD key 0x44BB1BA79F6C6333 (Gustavo Panizzo) (RT #6524)
   * Add new DD key 0x02541A371530B71F (Gert Wollny) (RT #6525)
+  * Add new DD key 0xD9817E8FDF69C32E (Benjamin Barenblat) (RT #6529)
 
  -- Jonathan McDowell <noodles@earth.li>  Wed, 21 Dec 2016 18:55:09 +0000
 
