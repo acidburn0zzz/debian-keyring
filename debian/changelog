@@ -16,6 +16,8 @@ debian-keyring (2016.12.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x78494EF72375A66C (Giovani Augusto Ferreira) (RT
     #6530)
   * Add new DD key 0xF2877BBA141AAD7F (Mechtilde Stehmann) (RT #6531)
+  * Add new DD key 0x3631D4FB7FF2B8B8 (Christopher Stuart Hoskin) (RT
+    #6528)
 
  -- Jonathan McDowell <noodles@earth.li>  Wed, 21 Dec 2016 18:55:09 +0000
 
