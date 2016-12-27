@@ -1,3 +1,10 @@
+debian-keyring (2016.12.xx) UNRELEASED; urgency=medium
+
+  * Replace 0x01B47334E0D49E99 with 0xEC1879D076D8AB48 (Changwoo Ryu)
+    (RT #6533)
+
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 27 Dec 2016 22:19:13 +0000
+
 debian-keyring (2016.12.24) unstable; urgency=medium
 
   * Add new DD key 0x03A8891A765AD085 (Michael Lustfield) (RT #6510)
