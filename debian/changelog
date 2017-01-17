@@ -12,6 +12,7 @@ debian-keyring (2016.12.xx) UNRELEASED; urgency=medium
   * Added some logic to scripts/add-key to avoid human errors
   * Add new DM key (Jan Luca Naumann) (RT #6551)
   * Add new DM key (Paulo Henrique de Lima Santana) (RT #6552)
+  * Add new DM key (Mohanasundaram Devarajulu) (RT #6553)
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 27 Dec 2016 22:19:13 +0000
 
