@@ -8,6 +8,7 @@ debian-keyring (2016.12.xx) UNRELEASED; urgency=medium
   [ Gunnar Wolf ]
   * Move 0xD203CCA5FDA6B6A9 (Igor Stroh) to emeritus
   * Add new DM key 0x0731CD8EAE859B7F (Vincent Prat) (RT #6549)
+  * Add new DM key (William Blough) (RT #6550)
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 27 Dec 2016 22:19:13 +0000
 
