@@ -1,4 +1,4 @@
-debian-keyring (2016.12.xx) UNRELEASED; urgency=medium
+debian-keyring (2017.01.20) unstable; urgency=medium
 
   [ Jonathan McDowell ]
   * Replace 0x01B47334E0D49E99 with 0xEC1879D076D8AB48 (Changwoo Ryu)
