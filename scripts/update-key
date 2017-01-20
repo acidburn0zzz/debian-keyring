@@ -6,7 +6,7 @@
 
 set -e
 
-if [ "x$1" == "x--no-clean" ]; then
+if [ "x$1" = "x--no-clean" ]; then
 	NOCLEAN=1
 	shift
 else
@@ -27,7 +27,7 @@ keyid-format 0xlong
 no-auto-check-trustdb
 EOF
 
-if [ "$NOCLEAN" == "0" ]; then
+if [ "$NOCLEAN" = "0" ]; then
 	echo "import-options import-clean" >> "$GNUPGHOME"/gpg.conf
 	echo "export-options export-clean,no-export-attributes" >> "$GNUPGHOME"/gpg.conf
 	cat output/keyrings/debian-keyring.gpg \
