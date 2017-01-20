@@ -15,6 +15,86 @@ debian-keyring (2016.12.xx) UNRELEASED; urgency=medium
   * Add new DM key (Mohanasundaram Devarajulu) (RT #6553)
   * Add new DM key (Adrian Alves) (RT #6554)
   * Fix bashisms in scripts/update-key
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x021B361B6B031B00 Julian Andres Klode <jak> sig:12
+    * 0x02541A371530B71F Gert Wollny <gewo> uid:1 sig:1
+    * 0x02713BCFCA5410B2 Roland Rosenfeld <roland> sig:2
+    * 0x0359959479467018 David Paleino <dapal> sig:4
+    * 0x03A8891A765AD085 Michael Lustfield <mtecknology> uid:1 sig:4
+    * 0x04EE131AE6D621BE Christoph Martin <chrism> sub:1 sig:1
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:7
+    * 0x091AB856069AAA1C Holger Levsen <holger> sig:3
+    * 0x0F56D0553B6D411B Sean Whitton <spwhitton> uid:1 sig:1
+    * 0x11B4E5FF15B0FD82 Mark Hymers <mhy> uid:2 sig:4
+    * 0x17FBDCBFD9928FF4 Jochen Sprickerhof <jspricke> sig:3
+    * 0x1C2816907136AE39 Georges Khaznadar <georgesk> sig:5
+    * 0x2BF8D9FE074BCDE4 Thomas Lange <lange> sig:30
+    * 0x310180050905E40C Julien Cristau <jcristau> sig:3
+    * 0x3631D4FB7FF2B8B8 Christopher Stuart Hoskin <mans0954> uid:1 sig:8
+    * 0x44E17740B8611E9C Lars Wirzenius <lars> sig:5
+    * 0x4C5A6BAB12D2A7AE Christoph Berg <myon> sub:1 sig:4
+    * 0x4DE8FF2A63C7CC90 Simon McVittie <smcv> sig:11
+    * 0x5262E7FF491049FE Jonas Meurer <mejo> sig:9
+    * 0x5556A34E04A3610B Sascha Steinbiss <satta> sub:2 sig:14
+    * 0x5CB9D8493D29D438 Marcela Tiznado <mlt> sig:3
+    * 0x5E62533F19765111 Tzafrir Cohen <tzafrir> sig:16
+    * 0x62AF4031C82E0039 Peter Palfrader <weasel> sig:29
+    * 0x6750F10AE88D4AF1 Sebastiaan Couwenberg <sebastic> sig:4
+    * 0x69F30763DFEFC134 Steven Chamberlain <stevenc> sub:2 sig:4
+    * 0x6AE1DF0D608F22DC Michael Biebl <biebl> sig:29
+    * 0x6CACA448860CDC13 Norbert Preining <preining> sig:12
+    * 0x71396D61F1C09EFB Alejandro Garrido Mota <mogaal> sig:4
+    * 0x78494EF72375A66C Giovani Augusto Ferreira <giovani> uid:1 sig:1
+    * 0x792152527B75921E Antoine Beaupré <anarcat> sig:1
+    * 0x7F6022516E869F64 Andreas Bombe <aeb> sig:20
+    * 0x88237A6A53AB1B2E Harlan Lieberman-Berg <hlieberman> uid:1 sig:1
+    * 0x88D24287A2D898B1 Adrian Bunk <bunk> uid:1 sig:1
+    * 0x95A42FE8353525F9 Vincent Bernat <bernat> sig:9
+    * 0x9605A1098C63B92A Edward John Betts <edward> sig:1
+    * 0x98561D2D2502FE39 Cord Beermann <cord> sig:10
+    * 0x9FB9262724B17D29 Tomasz Buchert <tomasz> sig:3
+    * 0xAF2283AA76E2AC7B Hector Oron <zumbi> sig:41
+    * 0xB193770C186A1C7D James Clarke <jrtc27> uid:1 sig:3
+    * 0xB24CA63F6EBBE84D Timothy Potter <tpot> sig:7
+    * 0xB44890DEDE3C9BC0 Riku Voipio <riku> sig:2
+    * 0xB5754A69B6BE608C Luca Filipozzi <lfilipoz> sig:5
+    * 0xB8E5087766475AAF Nicolas Dandrimont <olasd> sig:7
+    * 0xBE5CF687DC5AB7C2 Pascal Giard <pascal> sig:1
+    * 0xC0057E714D694FB2 Dominic Hargreaves <dom> sig:4
+    * 0xC38E8160A17841FE Aron Xu <aron> sig:84
+    * 0xC92949B8A63BB098 intrigeri <intrigeri> sub:2 sig:3
+    * 0xD0178C767D069EE6 Samuel Thibault <sthibault> sub:2 sig:2
+    * 0xD7C3F131AB2A91F5 James Troup <troup> uid:1 sig:2
+    * 0xDB221A6900000011 Keith Packard <keithp> sig:2
+    * 0xE5AB5F161CDD0D98 Diane Trout <diane> sig:4
+    * 0xE8AEC2FF3BE1A94B Mattias Ellert <ellert> sig:2
+    * 0xEB36171A6FF9435F Bernd Zeimetz <bzed> sig:2
+    * 0xED63B6125A1D1561 Dima Kogan <dkogan> uid:1 sig:1
+    * 0xF6AEF2AFD17897FA Vincent Danjean <vdanjean> sig:5
+    * 0xFA0C410738C9D903 Colin Tuckley <colint> sig:2
+    * 0xFC0DB1BBCD460BDE Antonio Terceiro <terceiro> sig:5
+    * 0x003A1A2DAA41085F [DM] sig:5
+    * 0x0A6268CF287D2531 [DM] sub:5 sig:9
+    * 0x0ADB299C1F137C9F [DM] sig:4
+    * 0x199A64FADFB500FF [DM] sig:2
+    * 0x41BAA526682AE670 [DM] sig:4
+    * 0x48D5608D973C6032 [DM] uid:2 sub:2 sig:4
+    * 0x55DB1ABC3818B08C [DM] sig:1
+    * 0x5E946C090AFF0427 [DM] sig:1
+    * 0x83016014251D1DB0 [DM] sig:5
+    * 0x8F342172F407DB73 [DM] sig:1
+    * 0xA721DA055374AA4F [DM] sig:6
+    * 0xA8696F011940D6C7 [DM] sig:1
+    * 0xA959B38A9561F3F9 [DM] sig:1
+    * 0xB9876EB090B36C5B [DM] sig:2
+    * 0xCD280A0B4D72827C [DM] sig:1
+    * 0xD0EB762865FC5E36 [DM] uid:1 sig:12
+    * 0xE3AE978E834E5E7E [DM] sig:4
+    * 0xE806E77FF82155BC [DM] sig:3
+    * 0xED34CEABE27BAABC [DM] sig:2
+    * 0xF3C2F688A21CB648 [DM] uid:1 sig:1
+    * 0x7A749064D38F11A3 Thomas Vincent <tvincent> uid:1 sig:3
+    * 0xDB686C92D9D59F61 Francesca Ciceri <madamezou> sig:2
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 27 Dec 2016 22:19:13 +0000
 
