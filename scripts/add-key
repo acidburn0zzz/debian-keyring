@@ -22,7 +22,7 @@ cleanup () {
 
 if echo -n "$1" | egrep -q '^[[:xdigit:]]{40}$'; then
     fpr=$1
-    keyserver=${KEYSERVER:=pool.sks-keyserver.org}
+    keyserver=${KEYSERVER:=pool.sks-keyservers.net}
     keyfile=$(tempfile -p newky -d $GNUPGHOME )
     echo "Retrieving key $fpr from keyserver $keyserver"
     gpg --keyserver $keyserver --recv-key "$fpr"
