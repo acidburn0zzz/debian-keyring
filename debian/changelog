@@ -4,6 +4,8 @@ debian-keyring (2017.01.xx) UNRELEASED; urgency=medium
   * Add new DD key 0xB14BB0C38D861CF1 (Ulrike Uhlig) (RT #6591)
   * Add new DM key (Kunal Mehta) (RT #6601)
   * Add new DM key 0x52FC8E7BEDB7FCA2 (Kunal Mehta) (RT #6601)
+  * Add new DM key (Valentin Vidic) (RT #6602)
+  * Add new DM key 0x3C4107E6826C40E4 (Valentin Vidic) (RT #6602)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 23 Jan 2017 09:35:17 +0000
 
