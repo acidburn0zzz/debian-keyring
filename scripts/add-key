@@ -99,7 +99,7 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 		git add keyids
 	fi
 
-	log="Add new $dest key ($name) (RT #$rtid)"
+	log="Add new $dest key 0x ${fpr:24:16} ($name) (RT #$rtid)"
 	VERSION=$(head -1 debian/changelog | awk '{print $2}' | sed 's/[\(\)]//g')
 	RELEASE=$(head -1 debian/changelog | awk '{print $3}' | sed 's/;$//')
 	case $RELEASE in
