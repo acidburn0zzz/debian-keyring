@@ -8,6 +8,7 @@ debian-keyring (2017.01.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x5857883E277DB3CC (Félix Sipma) (RT #6603)
   * Add new DD key 0x003A1A2DAA41085F (Bastien Roucariès) (RT #6593)
   * Add new DD key 0x348A778D6885EF8F (Jose M Calhariz) (RT #6594)
+  * Correct 0x925252C459797A1D to the DN keyring (RT #6534)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 23 Jan 2017 09:35:17 +0000
 
