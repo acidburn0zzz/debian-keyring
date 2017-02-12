@@ -1,4 +1,4 @@
-debian-keyring (2017.01.xx) UNRELEASED; urgency=medium
+debian-keyring (2017.02.12) unstable; urgency=low
 
   * Add new DD key 0xA959B38A9561F3F9 (SZ Lin (林上智)) (RT #6592)
   * Add new DD key 0xB14BB0C38D861CF1 (Ulrike Uhlig) (RT #6591)
@@ -109,7 +109,7 @@ debian-keyring (2017.01.xx) UNRELEASED; urgency=medium
     * 0xFC0DB1BBCD460BDE Antonio Terceiro <terceiro> sig:3
     * 0xFE558C72A67013C3 Maarten Bernardus Lankhorst <maarten> sig:2
 
- -- Jonathan McDowell <noodles@earth.li>  Mon, 23 Jan 2017 09:35:17 +0000
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 12 Feb 2017 19:50:26 +0000
 
 debian-keyring (2017.01.20) unstable; urgency=medium
 
