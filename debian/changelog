@@ -1,3 +1,10 @@
+debian-keyring (2017.02.xx) UNRELEASED; urgency=medium
+
+  * Replace 0x9900FEF19803E32C with 0x60A68FF308C2BFDB (Carsten
+    Leonhardt) (RT #6630)
+
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 28 Feb 2017 14:08:50 +0000
+
 debian-keyring (2017.02.12) unstable; urgency=low
 
   * Add new DD key 0xA959B38A9561F3F9 (SZ Lin (林上智)) (RT #6592)
