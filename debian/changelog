@@ -9,6 +9,8 @@ debian-keyring (2017.02.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x71A7E533F291A324 (Aurélien COUDERC) (RT #6636)
   * Add new DM key 0xA966C466708D8B92 (Patricio Paez) (RT #6638)
   * Add new DM key 0x63FE10EAD55D0FDB (Ondřej Kobližek) (RT #6639)
+  * Force shell intepreter to bash on scripts/add-key, as it uses bash-
+    specific substitutions
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 28 Feb 2017 14:08:50 +0000
 
