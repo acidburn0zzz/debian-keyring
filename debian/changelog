@@ -1,7 +1,11 @@
 debian-keyring (2017.02.xx) UNRELEASED; urgency=medium
 
+  [ Jonathan McDowell ]
   * Replace 0x9900FEF19803E32C with 0x60A68FF308C2BFDB (Carsten
     Leonhardt) (RT #6630)
+
+  [ Gunnar Wolf ]
+  * Add new DM key 0x75133C8F94F6E0CC (Thomas Leonard) (RT #5239)
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 28 Feb 2017 14:08:50 +0000
 
