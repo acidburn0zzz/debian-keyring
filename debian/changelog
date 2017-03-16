@@ -6,6 +6,7 @@ debian-keyring (2017.02.xx) UNRELEASED; urgency=medium
 
   [ Gunnar Wolf ]
   * Add new DM key 0x75133C8F94F6E0CC (Thomas Leonard) (RT #5239)
+  * Add new DM key 0x71A7E533F291A324 (Aurélien COUDERC) (RT #6636)
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 28 Feb 2017 14:08:50 +0000
 
