@@ -1,3 +1,11 @@
+debian-keyring (2017.03.17) UNRELEASED; urgency=medium
+
+  [ Gunnar Wolf ]
+  * Replace 0x1B0006256FB29164 with 0x2DFC519954181296 (Wouter Verhelst)
+    (RT #6659)
+
+ -- Gunnar Wolf <gwolf@gwolf.org>  Fri, 24 Mar 2017 13:37:03 -0600
+
 debian-keyring (2017.03.16) unstable; urgency=medium
 
   [ Jonathan McDowell ]
