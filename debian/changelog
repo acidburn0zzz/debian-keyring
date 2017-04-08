@@ -4,6 +4,38 @@ debian-keyring (2017.03.17) UNRELEASED; urgency=medium
   * Replace 0x1B0006256FB29164 with 0x2DFC519954181296 (Wouter Verhelst)
     (RT #6659)
   * Move 0xCF64CD61EB46CA9A (Ramakrishnan Muthukrishnan) to emeritus
+  * Updates from the keyring.debian.org HKP interface:
+    * 0x0AA04571D03E3E70 Rene Engelhard <rene> sig:3
+    * 0x2EC0FFB3B7301B1F Niko Tyni <ntyni> sig:4
+    * 0x2FD8BEDAC020EED1 Steffen Moeller <moeller> sig:7
+    * 0x44173FA13D058888 Ying-Chun Liu (PaulLiu) <paulliu> sig:1
+    * 0x4DE8FF2A63C7CC90 Simon McVittie <smcv> sig:1
+    * 0x55AD141521E764DF Balint Reczey <rbalint> uid:2 sig:2
+    * 0x60A68FF308C2BFDB Carsten Leonhardt <leo> sig:12
+    * 0x664F1238AA8F138A Daniel Lange <dlange> sig:4
+    * 0x6A49B19728ABDD92 Paul Brossier <piem> sig:6
+    * 0x6C8F74AE87700B7E Vasudev Sathish Kamath <vasudev> sig:6
+    * 0x78494EF72375A66C Giovani Augusto Ferreira <giovani> sig:3
+    * 0x789D6F057FD863FE Salvatore Bonaccorso <carnil> sig:7
+    * 0x7B96E8162A8CF5D1 Sebastian Andrzej Siewior <bigeasy> sub:2 sig:2
+    * 0x88237A6A53AB1B2E Harlan Lieberman-Berg <hlieberman> sig:7
+    * 0x965522B9D49AE731 Christoph Egger <christoph> sig:8
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> uid:2 sig:7
+    * 0xAC90AC3EC524065E Hugo Lefeuvre <hle> uid:1 sig:20
+    * 0xBC1256AA6AA6EC5E Stein Magnus Jodal <jodal> sig:2
+    * 0xD15D313882004173 Russ Allbery <rra> sig:1
+    * 0xD6D09BE48405BBF6 Mathias Behrle <mbehrle> sig:17
+    * 0xE5CA8C4925E4205F Philipp Huebner <debalance> sig:6
+    * 0xE9E28DEA00AA5556 Hans-Christoph Steiner <eighthave> sig:3
+    * 0xFF55C8F4DAE92422 Martin Buck <mbuck> sig:5
+    * 0x083781A2D2ACE48B Adriano Rafael Gomes <adrianorg> sig:10
+    * 0x925252C459797A1D Hanno Wagner <wagner> uid:1 sig:2
+    * 0x36C361440C9BC971 [DM] uid:1 sig:3
+    * 0x3A8336743AF72612 [DM] sig:2
+    * 0xBC196A94EDDDA1B7 [DM] sig:7
+    * 0xC66D06B40443C450 [DM] sig:10
+    * 0xE69822C7E02958CD [DM] sub:1 sig:2
+    * 0xEC371482956781AF [DM] uid:1 sig:7
 
  -- Gunnar Wolf <gwolf@gwolf.org>  Fri, 24 Mar 2017 13:37:03 -0600
 
