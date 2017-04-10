@@ -1,3 +1,9 @@
+debian-keyring (2017.04.10) unstable; urgency=high
+
+  * Remove 0x788BE01254B7F00D (Dmitry Bogatov)
+
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 10 Apr 2017 10:53:54 +0100
+
 debian-keyring (2017.04.07) unstable; urgency=medium
 
   [ Gunnar Wolf ]
