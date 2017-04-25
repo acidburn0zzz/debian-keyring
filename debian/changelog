@@ -1,8 +1,12 @@
 debian-keyring (2017.04.xx) UNRELEASED; urgency=medium
 
+  [ Gunnar Wolf ]
   * Move 0x9388188B43C30A7D (Jurij Smakov) to emeritus
   * Add new DM key 0xAC58A94F11618EE0 (Felix Lechner) (RT #6667)
   * Add new DM key 0xA776582B312AC35D (Sebastien Jodogne) (RT #6668)
+
+  [ Jonathan McDowell ]
+  * Add new DN key 0x5AC47FD9A0F2EB10 (Lisa Baron) (RT #6680)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 17 Apr 2017 13:05:59 -0500
 
