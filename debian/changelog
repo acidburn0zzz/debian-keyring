@@ -12,6 +12,7 @@ debian-keyring (2017.04.xx) UNRELEASED; urgency=medium
 
   [ Gunnar Wolf ]
   * Move 0xF20FAC0B7B8357E5 (Andreas Schuldei) to emeritus
+  * Move 0x26431938C9ABFBD3 (Radu Spineanu) to emeritus
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 17 Apr 2017 13:05:59 -0500
 
