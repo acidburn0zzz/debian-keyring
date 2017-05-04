@@ -99,23 +99,18 @@ echo "Are you sure you want to update this key? (y/n)"
 read n
 
 if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
-    if [ "$keyring" = "removed-1024-gpg" ]; then
-	destkeyring="debian-keyring-gpg"
-    else
-	destkeyring="$keyring"
-    fi
+    destkeyring="$keyring"
     if ! $scriptdir/add-key $newkeytemp $destkeyring ; then
         echo "add-key failed"
         exit 1
     fi
 
-    if [ "$keyring" = "debian-keyring-gpg" -o "$keyring" = "debian-nonupload-gpg" -o "$keyring" = "removed-1024-gpg" ]; then
+    if [ "$keyring" = "debian-keyring-gpg" -o "$keyring" = "debian-nonupload-gpg" ]; then
 	name=`grep $newkey keyids | sed 's/^[^ ]* //'|sed s/\<.*//`
 	account=`grep $newkey keyids | sed 's/.*\<//'|sed s/\>$//`
 	if [ "$keyring" = "debian-nonupload-gpg" ]; then
 	    role='DD-NU'
 	else
-	    # Both debian-keyring-gpg and removed-1024-gpg are DDs.
 	    role='DD'
 	fi
     elif [ "$keyring" = "debian-maintainers-gpg" ]; then
@@ -134,7 +129,7 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 
     log="Replace 0x$oldkey with 0x$newkey ($name) (RT #$rtid)"
 
-    git mv $oldkeyfile removed-keys-gpg/
+    git rm $oldkeyfile
     VERSION=$(head -1 debian/changelog | awk '{print $2}' | sed 's/[\(\)]//g')
     RELEASE=$(head -1 debian/changelog | awk '{print $3}' | sed 's/;$//')
     case $RELEASE in

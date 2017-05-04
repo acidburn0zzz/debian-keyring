@@ -177,13 +177,6 @@ verification purposes.
     This is the keyring of emeritus developers; i.e. those who have
     resigned, retired, passed away or are otherwise inactive.
 
- o removed-keys.gpg
-
-    These keys are that have been removed from the main keyrings for
-    various reasons.  Keys in here could have been duplicates or
-    compromised keys, etc.  These keyrings are not available in the
-    debian-keyring package, only in the tar ball or via rsync.
-
 
 Acknowledgements
 ----------------

@@ -14,8 +14,7 @@ The move-key script will move the key from any of the active keyrings
 it is currently located on.
 
 If the key is not moved due to the maintainer explicitly resigning
-(i.e. expelled, deceased, MIA), the key should be moved to the
-removed-keys-gpg keyring.
+(i.e. expelled, deceased, MIA), the key should be removed entirely.
 
 Changelog entry:
 ------------------------------------------------------------
@@ -34,5 +33,4 @@ Move 0xFCF6DD4539CCF0C7 (Akira TAGOH) to emeritus (RT #142)
 
 Eventually, the MIA team comes up with a list of people not answering
 to the WAT ping (Where Are They?). The main difference for us is that,
-instead of moving the key to emeritus-keyring-gpg, it is moved
-straight to removed-keys-gpg.
+instead of moving the key to emeritus-keyring-gpg, it is removed entirely.

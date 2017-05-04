@@ -75,11 +75,11 @@ Updating a DD key
 
   $ grep 5F1FBF70 keyids 
   0xFCB0BB5C5F1FBF70 Giovanni Mascellani <gio>
-      # We don't delete old kys, but move them to removed-keys-gpg/
+      # Old keys are removed from the repository.
 
-  $ git mv debian-keyring-gpg/0xFCB0BB5C5F1FBF70 removed-keys-gpg
-  debian-keyring-gpg/0xFCB0BB5C5F1FBF70 => removed-keys-gpg/0xFCB0BB5C5F1FBF70
-  
+  $ git rm debian-keyring-gpg/0xFCB0BB5C5F1FBF70
+  rm 'debian-keyring-gpg/0xFCB0BB5C5F1FBF70'
+
   $ ./scripts/add-key /tmp/key debian-keyring-gpg/
       # A screen listing all of the requester's signatures which are
       # in the Debian keyring appears. At very least, two DD should

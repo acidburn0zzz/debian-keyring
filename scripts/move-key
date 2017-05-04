@@ -87,9 +87,6 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
     elif ( echo $destdir | egrep -q 'debian-emeritus-gpg/?$' ); then
 	log="Move $key to emeritus ($name) (RT #$rtid)"
 	action=remove
-    elif ( echo $destdir | egrep -q 'debian-removed-gpg/?$' ); then
-	log="Move $key ($name) to removed keyring (RT #$rtid)"
-	action=remove
     fi
 
     git mv $keyfile $destdir
