@@ -14,6 +14,7 @@ debian-keyring (2017.04.xx) UNRELEASED; urgency=medium
   * Remove removed-keys.gpg and removed-1024.gpg keyrings
   * Add new DD key 0xE9EC46F5A547F31E (Shih-Yuan Lee) (RT #6696)
   * Add new DM key 0x77C0C75E7B650808 (James Valleroy) (RT #6699)
+  * Add new DD key 0x6C6ACD6417B3ACB1 (Roger Shimizu) (RT #6701)
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 17 Apr 2017 13:05:59 -0500
 
