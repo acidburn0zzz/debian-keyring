@@ -1,4 +1,4 @@
-debian-keyring (2017.04.xx) UNRELEASED; urgency=medium
+debian-keyring (2017.05.09) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Move 0x9388188B43C30A7D (Jurij Smakov) to emeritus
@@ -60,7 +60,7 @@ debian-keyring (2017.04.xx) UNRELEASED; urgency=medium
     * 0xED63B6125A1D1561 Dima Kogan <dkogan> sig:5
     * 0xF6D3495BB0AE9A02 Clint Adams <clint> sig:9
 
- -- Gunnar Wolf <gwolf@debian.org>  Mon, 17 Apr 2017 13:05:59 -0500
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 09 May 2017 18:20:16 +0100
 
 debian-keyring (2017.04.10) unstable; urgency=high
 
