@@ -18,6 +18,47 @@ debian-keyring (2017.04.xx) UNRELEASED; urgency=medium
   * Replace 0xB8CA331F10726171 with 0x5A8728BE7BDA8506 (Wartan Hachaturow)
     (RT #6677)
   * Remove 1024 bit emeritus keys
+  * Updates from the keyring.debian.org HKP interface:
+    * 0x025AFE95AC9DF31B Markus Wanner <markus> sub:2 sig:6
+    * 0x07FC4891042BA65A Thomas Koch (thkoch) [DM] sig:1
+    * 0x0C99B70EF4FCBB07 Ondřej Surý <ondrej> sig:3
+    * 0x0F56D0553B6D411B Sean Whitton <spwhitton> sig:5
+    * 0x2064C53641C25E5D Kurt Roeckx <kroeckx> sig:1
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:3
+    * 0x357312559D1E064B Ondřej Nový <onovy> sig:3
+    * 0x39091E8123CE1C09 Prach Pongpanich <prach> sig:2
+    * 0x4E7160ED4AC8EE1D Michael Stapelberg <stapelberg> sig:3
+    * 0x51106DF5CD92D072 Stefano Rivera <stefanor> sig:3
+    * 0x5857883E277DB3CC Félix Sipma [DM] sig:6
+    * 0x587979573442684E Steve McIntyre <93sam> sig:3
+    * 0x5F2B9266CCBE0A4E Karen M Sandler <karen> sig:1
+    * 0x61F3442674DE6624 Andreas Moog [DM] sig:4
+    * 0x664F1238AA8F138A Daniel Lange <dlange> sig:1
+    * 0x6B720BE9C5CF6D9E Reinhard Tartler <siretart> sub:3 sig:4
+    * 0x6C6ACD6417B3ACB1 Roger Shimizu <rosh> sig:1
+    * 0x711430CB2F2BE6D3 Denis Briand [DM] sig:2
+    * 0x74263B37F5B5F913 John Paul Adrian Glaubitz <glaubitz> sig:2
+    * 0x789D6F057FD863FE Salvatore Bonaccorso <carnil> sig:7
+    * 0x792152527B75921E Antoine Beaupré <anarcat> uid:1 sig:6
+    * 0x7B7B40AD0F81D93B Tim Retout <diocles> sub:2 sig:4
+    * 0x7CFCD8CD257721E9 Vagrant Cascadian <vagrant> sig:10
+    * 0x8062398983B2CF7A Matteo F. Vescovi <mfv> sig:2
+    * 0x8716CE4614A452D8 Sebastien Badia <sbadia> sig:4
+    * 0x8CBF9A322861A790 Micah Anderson <micah> sub:1 sig:7
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:2
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:74
+    * 0xA2B73E0DD4DDDC4E Salvador Abreu <spa> uid:2 sig:2
+    * 0xA8696F011940D6C7 Alkis Georgopoulos [DM] sig:1
+    * 0xAB645F406286A7D0 Lisandro Damián Nicanor Pérez Meyer <lisandro> sig:6
+    * 0xAC90AC3EC524065E Hugo Lefeuvre <hle> sig:2
+    * 0xAFCFEC8E669CE1C2 Graham Inggs <ginggs> sig:3
+    * 0xC0F8864CDA3D0358 Brian Gupta <bgupta> sig:4
+    * 0xC42C58EB591492FD Christoph Biedl <cbiedl> sig:1
+    * 0xD6D09BE48405BBF6 Mathias Behrle <mbehrle> sig:15
+    * 0xE5CA8C4925E4205F Philipp Huebner <debalance> sig:5
+    * 0xEC63699779074FA8 Ian Campbell <ijc> sig:4
+    * 0xED63B6125A1D1561 Dima Kogan <dkogan> sig:5
+    * 0xF6D3495BB0AE9A02 Clint Adams <clint> sig:9
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 17 Apr 2017 13:05:59 -0500
 
