@@ -17,6 +17,7 @@ debian-keyring (2017.04.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x6C6ACD6417B3ACB1 (Roger Shimizu) (RT #6701)
   * Replace 0xB8CA331F10726171 with 0x5A8728BE7BDA8506 (Wartan Hachaturow)
     (RT #6677)
+  * Remove 1024 bit emeritus keys
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 17 Apr 2017 13:05:59 -0500
 
