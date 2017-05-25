@@ -1,8 +1,12 @@
 debian-keyring (2017.05.xx) UNRELEASED; urgency=medium
 
+  [ Jonathan McDowell ]
   * Add new DM key 0x95146A1CBA141817 (Ana Cristina Custura) (RT #6718)
   * Add new DN key 0xFB0E132DDB0AA5B1 (Daniel Lenharo de Souza) (RT
     #6719)
+
+  [ Gunnar Wolf ]
+  * Add new DD key 0xB2DE88D3113A1368 (Hubert Chathi) (RT #5195)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 15 May 2017 18:43:00 +0100
 
