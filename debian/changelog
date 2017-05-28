@@ -4,6 +4,36 @@ debian-keyring (2017.05.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x95146A1CBA141817 (Ana Cristina Custura) (RT #6718)
   * Add new DN key 0xFB0E132DDB0AA5B1 (Daniel Lenharo de Souza) (RT
     #6719)
+  * Updates from the keyring.debian.org HKP interface:
+    * 0x0C99B70EF4FCBB07 Ondřej Surý <ondrej> sig:5
+    * 0x13EC43EEB9AC8C43 Jose Luis Rivas Contreras <ghostbar> sig:7
+    * 0x1E7091B1F14A64A2 Aaron M. Ucko <ucko> sig:3
+    * 0x283681BA6FE7F41D Sam Hartman <hartmans> sig:1
+    * 0x36C361440C9BC971 Sunil Mohan Adapa [DM] sig:1
+    * 0x39278DA8109E6244 Guilhem Moulin <guilhem> uid:1 sig:26
+    * 0x3938F96BDF50FEA5 Craig Small <csmall> sig:4
+    * 0x578BD370AAA22456 Martín Ferrari <tincho> sig:2
+    * 0x5B924EE310055CD3 Marcelo Jorge Vieira <metal> sig:4
+    * 0x5C5245265C413520 Geoffrey Thomas [DM] sig:3
+    * 0x6EA4D2311A2D268D Andrew Shadura <andrewsh> sig:6
+    * 0x711430CB2F2BE6D3 Denis Briand [DM] sig:1
+    * 0x8062398983B2CF7A Matteo F. Vescovi <mfv> sig:2
+    * 0x85199DE8C6648E90 Ben Pfaff <pfaffben> sig:5
+    * 0x873DEA309D13807F Chrysostomos Nanakos <cnanakos> sig:2
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:4
+    * 0x992D23B392F9E4F2 Loic Dachary <loic> sig:3
+    * 0x9F2733F40928D23A Nick Daly [DM] sig:1
+    * 0xB8E5087766475AAF Nicolas Dandrimont <olasd> sub:1 sig:1
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:8
+    * 0xBC372252CA1CF964 Ansgar Burchardt <ansgar> sig:5
+    * 0xD36F769BC11804F0 Theodore Ts'o <tytso> sig:1
+    * 0xD97B2BA886A10CC0 Daniel Jared Dominguez [DM] sig:4
+    * 0xD9817E8FDF69C32E Benjamin Barenblat <bbaren> uid:1 sig:13
+    * 0xE3E3392348B50D39 Ian Jackson <iwj> sig:3
+    * 0xE4DB6492FDB9B5D5 Aaron Zauner [DM] uid:1 sig:1
+    * 0xE5CA8C4925E4205F Philipp Huebner <debalance> sub:2 sig:3
+    * 0xE66C775AEBFE6C7D Jeremy Bicha [DM] sig:2
+    * 0xE9EC46F5A547F31E Shih-Yuan Lee <fourdollars> uid:1 sig:2
 
   [ Gunnar Wolf ]
   * Add new DD key 0xB2DE88D3113A1368 (Hubert Chathi) (RT #5195)
