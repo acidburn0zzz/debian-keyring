@@ -8,10 +8,10 @@ if [ -z "$RUNANYWAY" -a $(hostname -f) != "$SHOULD_RUN_ON" ] ; then
     exit 1
 fi
 
-SRCKEYRINGDIR=/org/keyring.debian.org/master-keyring/output
-OUTPUTDIR=/org/keyring.debian.org/pub
-HKPDIR=/org/keyring.debian.org/keyrings-new
-PENDINGDIR=/org/keyring.debian.org/pending-updates
+SRCKEYRINGDIR=/srv/keyring.debian.org/master-keyring/output
+OUTPUTDIR=/srv/keyring.debian.org/pub
+HKPDIR=/srv/keyring.debian.org/keyrings-new
+PENDINGDIR=/srv/keyring.debian.org/pending-updates
 
 if ! gpg --batch --quiet --verify ${SRCKEYRINGDIR}/sha512sums.txt 2> /dev/null; \
 		then

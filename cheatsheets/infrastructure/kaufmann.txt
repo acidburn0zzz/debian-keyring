@@ -4,17 +4,17 @@ kaufmann.debian.org layout
 mosca$ make
 mosca$ gpg --clearsign output/sha512sums.txt
 mosca$ mv output/sha512sums.txt.asc output/sha512sums.txt
-mosca$ scp output/sha512sums.txt kaufmann.debian.org://org/keyring.debian.org/master-keyring/output
-mosca$ scp output/keyrings/* kaufmann.debian.org://org/keyring.debian.org/master-keyring/output/keyrings
+mosca$ scp output/sha512sums.txt kaufmann.debian.org:/srv/keyring.debian.org/master-keyring/output
+mosca$ scp output/keyrings/* kaufmann.debian.org:/srv/keyring.debian.org/master-keyring/output/keyrings
 mosca$ git push ssh://git.debian.org/git/keyring/keyring.git master
 
 kaufmann$ cat /home/noodles/update-keyrings 
 #!/bin/bash
 
-SRCKEYRINGDIR=/org/keyring.debian.org/master-keyring/output
-OUTPUTDIR=/org/keyring.debian.org/pub
-HKPDIR=/org/keyring.debian.org/keyrings-new
-PENDINGDIR=/org/keyring.debian.org/pending-updates
+SRCKEYRINGDIR=/srv/keyring.debian.org/master-keyring/output
+OUTPUTDIR=/srv/keyring.debian.org/pub
+HKPDIR=/srv/keyring.debian.org/keyrings-new
+PENDINGDIR=/srv/keyring.debian.org/pending-updates
 
 if ! gpg --batch --quiet --verify ${SRCKEYRINGDIR}/sha512sums.txt 2> /dev/null; \
 		then
