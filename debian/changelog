@@ -4,6 +4,7 @@ debian-keyring (2017.06.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x0098F6131EB86413 (Ilias Tsitsimpis) (RT #6734)
   * Add new DM key 0x500398DF5AB387D3 (Martin Kepplinger) (RT #6742)
   * Add new DM key 0xCABE1E9E2EBA364F (Ryan Tandy) (RT #6755)
+  * Add new DD key 0xE3AE978E834E5E7E (Alex Muntada) (RT #6757)
 
   [ Paul Wise ]
   * Update /org references to /srv
