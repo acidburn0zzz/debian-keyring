@@ -1,4 +1,4 @@
-debian-keyring (2017.06.xx) UNRELEASED; urgency=medium
+debian-keyring (2017.07.01) unstable; urgency=medium
 
   [ Jonathan McDowell ]
   * Add new DD key 0x0098F6131EB86413 (Ilias Tsitsimpis) (RT #6734)
@@ -58,7 +58,7 @@ debian-keyring (2017.06.xx) UNRELEASED; urgency=medium
   [ Paul Wise ]
   * Update /org references to /srv
 
- -- Jonathan McDowell <noodles@earth.li>  Thu, 01 Jun 2017 15:08:02 +0100
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 01 Jul 2017 16:57:48 +0100
 
 debian-keyring (2017.05.28) unstable; urgency=medium
 
