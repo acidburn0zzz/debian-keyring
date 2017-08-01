@@ -8,6 +8,7 @@ debian-keyring (2017.08.XX) UNRELEASED; urgency=medium
   * Add new DM key 0xC293E7B461825ACE (Boyuan Yang) (RT #6771)
   * Add new DM key 0x1A09227B1F435A33 (Paul Hardy) (RT #6773)
   * Add new DM key 0x80AD73734275BDAF (Fabian Wolff) (RT #6790)
+  * Add new DM key 0x0C24B841C7DDBAAF (Moritz Schlarb) (RT #6791)
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 01 Aug 2017 11:29:52 -0500
 
