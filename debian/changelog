@@ -1,6 +1,10 @@
 debian-keyring (2017.08.XX) UNRELEASED; urgency=medium
 
+  [ Jonathan McDowell ]
   * Add new DM key 0x3BA38591B2BF98D5 (Paolo Greppi) (RT #6769)
+
+  [ Gunnar Wolf ]
+  * Add new DM key 0xCFBBFCE0B74F1B14 (Ming-ting Yao Wei) (RT #6770)
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 01 Aug 2017 11:29:52 -0500
 
