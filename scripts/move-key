@@ -137,6 +137,7 @@ Key: $keyfp
 Key-type: 
 RT-Ticket: $rtid
 Request-signed-by: 
+Details: 
 Notes: Move from <src> keyring
 EOF
 else

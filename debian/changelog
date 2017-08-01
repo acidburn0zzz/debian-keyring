@@ -13,6 +13,8 @@ debian-keyring (2017.08.XX) UNRELEASED; urgency=medium
   * Add new DM key 0xCF0E265B7DFBB2F2 (Shengjing Zhu) (RT #6792)
   * Add new DD key 0xB01D1A72AC8DC9A1 (Jonathan Cristopher Carter) (RT
     #6799)
+  * Fix "move-key" script to indicate the need to include the "Details"
+    field
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 01 Aug 2017 11:29:52 -0500
 
