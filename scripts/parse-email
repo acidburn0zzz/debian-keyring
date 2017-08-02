@@ -1,0 +1,199 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+from __future__ import print_function
+import datetime
+import email
+import os.path
+import re
+import subprocess
+import sys
+
+debug = False
+
+roles = {
+    'DM': 'debian-maintainers-gpg',
+    'DD': 'debian-keyring-gpg',
+    'DN': 'debian-nonupload-gpg'
+}
+
+
+def do_dch(logmsg):
+    release = "unknown"
+    with open('debian/changelog', 'r') as f:
+        line = f.readline()
+        m = re.match("debian-keyring \((.*)\) (.*); urgency=", line)
+        version = m.group(1)
+        release = m.group(2)
+    if release == "UNRELEASED":
+        if debug:
+            print('dch --multimaint-merge -D UNRELEASED -a "' + logmsg + '"')
+        else:
+            subprocess.call(['dch', '--multimaint-merge', '-D', 'UNRELEASED',
+                             '-a', logmsg])
+    elif release == "unstable":
+        newver = datetime.date.today().strftime("%Y.%m.xx")
+        if newver == version:
+            print(' * Warning: New version and previous released version are ')
+            print('   the same: ' + newver + '. This should not be so!')
+            print('   Check debian/changelog')
+        if debug:
+            print('dch -D UNRELEASED -v ' + newver + ' "' + logmsg + '"')
+        else:
+            subprocess.call(['dch', '-D', 'UNRELEASED', '-v', newver, logmsg])
+    else:
+        print("Unknown changelog release: " + release)
+
+    if not debug:
+        subprocess.call(['git', 'add', 'debian/changelog'])
+
+
+def do_git_template(logmsg, state):
+    with open('git-commit-template', 'w') as f:
+        f.write(logmsg)
+        f.write('\n\n')
+        f.write("Action: add\n")
+        f.write("Subject: " + state['name'] + "\n")
+        if 'username' in state:
+            f.write("Username: " + state['username'] + "\n")
+        f.write("Role: " + state['role'] + "\n")
+        f.write("Key: " + state['keyid'] + "\n")
+        f.write("Key-type: " + state['keytype'] + "\n")
+        f.write("RT-Ticket: " + state['rt'] + "\n")
+        f.write("Request-signed-by: \n")
+        f.write("Key-certified-by: \n")
+        if 'details' in state:
+            f.write("Details: " + state['details'] + "\n")
+        if state['role'] == 'DM' and 'agreement' in state:
+            f.write("Advocates:\n")
+            for a in state['advocates']:
+                f.write(" " + a + "\n")
+            f.write("Agreement: " + state['agreement'] + "\n")
+            f.write("BTS: " + state['bts'] + "\n")
+
+
+# Change to our basedir, assuming we're in <basedir>/scripts/<us>
+basedir = os.path.dirname(os.path.dirname(os.path.realpath(sys.argv[0])))
+os.chdir(basedir)
+
+inadvocates = False
+state = {}
+state['advocates'] = []
+
+for line in sys.stdin:
+    line = line.rstrip()
+
+    if inadvocates:
+        if line[:9] == 'KeyCheck:':
+            inadvocates = False
+        else:
+            line = line.lstrip()
+            state['advocates'].append(line)
+            continue
+
+    m = re.match("X-RT-Ticket: rt.debian.org #(.*)$", line)
+    if m:
+        state['rt'] = m.group(1)
+        continue
+
+    m = re.match("  please add key ID (.*)$", line)
+    if m:
+        state['keyid'] = m.group(1)
+        state['role'] = 'DM'
+        state['move'] = False
+        continue
+
+    m = re.match("Please make (.*) \(currently ([^ ]*) ([^ ]*)", line)
+    if m:
+        state['name'] = m.group(1)
+        state['keytype'] = '<FIXME>'
+        state['move'] = (not ((m.group(2) == 'NOT') or (m.group(2) != "'Debian") or (m.group(3) == "Contributor')"))) or m.group(3) == 'DM)'
+        m = re.match(".*a non-uploading", line)
+        if m:
+            state['role'] = 'DN'
+        else:
+            state['role'] = 'DD'
+        continue
+
+    m = re.match("^Agreement: (.*)", line)
+    if m:
+        state['agreement'] = m.group(1)
+        continue
+
+    m = re.match("^BTS: (.*)$", line)
+    if m:
+        state['bts'] = m.group(1)
+        continue
+
+    m = re.match("^Comment: (Please add|Add) (.*) <", line)
+    if m:
+        state['name'] = m.group(2)
+        continue
+
+    m = re.match("^Advocates:(=20)?$", line)
+    if m:
+        inadvocates = True
+        continue
+
+    m = re.match("  pub   (.....)/", line)
+    if m:
+        state['keytype'] = m.group(1)
+        continue
+
+    m = re.match("  Key fingerprint:\s+(.*)", line)
+    if m:
+        state['keyid'] = m.group(1)
+        continue
+
+    m = re.match("  Target keyring:\s+(Deb.*)", line)
+    if m:
+        if (m.group(1) == 'Debian Maintainer' or
+            m.group(1) == 'Debian Maintainer, with guest account'):
+            state['role'] = 'DM'
+            state['move'] = False
+        elif m.group(1) == 'Debian Developer, uploading':
+            state['role'] = 'DD'
+        elif m.group(1) == 'Debian Developer, non-uploading':
+            state['role'] = 'DN'
+        else:
+            state['role'] = "UNKNOWN"
+        continue
+
+    m = re.match("  (Account|Username):\s+(.*)", line)
+    if m:
+        state['username'] = m.group(2)
+        continue
+
+    m = re.match("  Details:\s+(http.*)", line)
+    if m:
+        state['details'] = m.group(1)
+        continue
+
+if 'role' not in state:
+    print('Did not find recognised keyring related email.')
+    sys.exit(1)
+
+if not debug:
+    if state['move']:
+        if os.path.exists(roles['DM'] + '/0x' + state['keyid'][24:]):
+            res = subprocess.call(["scripts/move-key", state['keyid'],
+                                  roles[state['role']]], stdin=open('/dev/tty'))
+        elif os.path.exists(roles['DN'] + '/0x' + state['keyid'][24:]):
+            res = subprocess.call(["scripts/move-key", state['keyid'],
+                                  roles[state['role']]], stdin=open('/dev/tty'))
+        else:
+            print('Trying to move non-existent key from DM keyring.')
+            sys.exit(1)
+    else:
+        res = subprocess.call(["scripts/add-key", state['keyid'],
+                               roles[state['role']]], stdin=open('/dev/tty'))
+    if res:
+        print('Failed to add key.')
+        sys.exit(1)
+
+logmsg = ("Add new " + state['role'] + " key 0x" + state['keyid'][24:] + " (" +
+          state['name'] + ") (RT #" + state['rt'] + ")")
+
+#if not state['move']:
+#    do_dch(logmsg)
+do_git_template(logmsg, state)
