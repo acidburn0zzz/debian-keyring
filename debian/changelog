@@ -4,6 +4,7 @@ debian-keyring (2017.08.XX) UNRELEASED; urgency=medium
   * Add new DD key 0x53FE7BBDA68910FC (Ross Gammon) (RT #6797)
   * Include (somewhat fragile) script to parse email from FD
   * Add new DD key 0x96EDAB9B2E6B7171 (Balasankar C) (RT #6801)
+  * Add new DD key 0x070202585B812EC1 (Roland Fehrenbacher) (RT #6802)
 
   [ Gunnar Wolf ]
   * Add new DM key 0x3BA38591B2BF98D5 (Paolo Greppi) (RT #6769)
