@@ -58,6 +58,8 @@ debian-keyring (2017.08.XX) UNRELEASED; urgency=medium
     * 0xEB4AF5A19368CAEC Khalid El Fathi
     * 0xF7D931D4B882EBD7 Eric C. Cooper
     * 0xF8E9EAD5A227DC92 Nicolas Lopez de Lerma Aymerich
+  * Add new DM key 0x801F91E2A8F80172 (José Gutiérrez de la Concha) (RT
+    #6807)
 
   [ Gunnar Wolf ]
   * Add new DM key 0x3BA38591B2BF98D5 (Paolo Greppi) (RT #6769)
