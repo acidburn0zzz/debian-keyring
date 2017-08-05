@@ -5,6 +5,59 @@ debian-keyring (2017.08.XX) UNRELEASED; urgency=medium
   * Include (somewhat fragile) script to parse email from FD
   * Add new DD key 0x96EDAB9B2E6B7171 (Balasankar C) (RT #6801)
   * Add new DD key 0x070202585B812EC1 (Roland Fehrenbacher) (RT #6802)
+  * Remove retired DM keys post Stretch release:
+    * 0x07FC4891042BA65A Thomas Koch (thkoch)
+    * 0x0A4B6370D2318442 Lifeng Sun (Gmail)
+    * 0x0A6268CF287D2531 Philippe Le Brouster
+    * 0x10A46FFB90D53618 Thomas Friedrichsmeier
+    * 0x1892B42FCEAAEBC8 Mehdi Abaakouk
+    * 0x18DD4D72F2CBCA06 Kiwamu Okabe
+    * 0x19755664855E7273 Simon Chopin
+    * 0x1BB375334D750376 Mats Erik Andersson
+    * 0x26CAA901117A251E Marcin Juszkiewicz
+    * 0x28466F1A54C2A185 Laurent Léonard
+    * 0x29E36B9A01ED3AC7 Frank Habermann
+    * 0x2A714497E37363AE Aleksey Kravchenko
+    * 0x34705168FE9F0236 Alexandre Raymond
+    * 0x38548517DAD3D5EE Luis Uribe
+    * 0x3A8336743AF72612 Maia Kozheva
+    * 0x3C13A8C2D9012EC1 Alexander Golovko
+    * 0x49F47A3A48F81543 Michael Ziegler (Svedrin)
+    * 0x516FC68F31496D58 Thomas Moulard
+    * 0x524EC3CDEF584970 Nicolas Valcárcel Scerpella (Ubuntu)
+    * 0x548662D00E41645E Grave Xavier
+    * 0x58B29F8CF74EC6C8 Iulian Udrea
+    * 0x600426A118F5FBCE Julien Lavergne
+    * 0x62688FF33A758A1E Steve Conklin
+    * 0x67F294AE59957DD8 Tim Weippert
+    * 0x6CA41A7743B8D6C8 Erik de Castro Lopo
+    * 0x702A26DB4CCB3FFC Floris Bruynooghe
+    * 0x711430CB2F2BE6D3 Denis Briand
+    * 0x77013C58233007A7 Ahmed Toulan
+    * 0x826355E260F7BCB2 Emile Joubert
+    * 0x87CC89EB6D7DC6B6 Tomasz Muras
+    * 0x8B306538D00E52B6 Julien Viard de Galbert
+    * 0x8B7F7D30CAF14EFC Wolodja Wentland
+    * 0x8D52CDE95117E119 Christian Welzel
+    * 0x95DE059D8D7FCA91 Stefan Potyra
+    * 0x964D005C0CA7686C Artur R. Czechowski
+    * 0xA49E7C3CDE3CCE66 Reto Buerki
+    * 0xAE07828059A53CC1 Thomas Leonard
+    * 0xAE0C84BB0A2368F0 Emilien Klein
+    * 0xB012AD8CF19F599F Darren Salt
+    * 0xB2197FDB5EA01078 Sam Morris
+    * 0xB9876EB090B36C5B Mahyuddin Susanto
+    * 0xC1BCD3C72AA28B6B Tobias Stefan Richter
+    * 0xC4DCB25AD71A5972 Nicolas Bourdaud
+    * 0xC860C75A73A85F31 José Manuel Santamaría Lema
+    * 0xCB3D014ED7F1B32A Daniel Moerner
+    * 0xD350BB0228F60193 Hsin-Yi Chen (hychen)
+    * 0xD605848ED7E69871 Daiki Ueno
+    * 0xDE39E437F2CC5398 Xiangfu Liu
+    * 0xE40215299C840E81 Koichi Akabe
+    * 0xEB4AF5A19368CAEC Khalid El Fathi
+    * 0xF7D931D4B882EBD7 Eric C. Cooper
+    * 0xF8E9EAD5A227DC92 Nicolas Lopez de Lerma Aymerich
 
   [ Gunnar Wolf ]
   * Add new DM key 0x3BA38591B2BF98D5 (Paolo Greppi) (RT #6769)
