@@ -60,6 +60,79 @@ debian-keyring (2017.08.XX) UNRELEASED; urgency=medium
     * 0xF8E9EAD5A227DC92 Nicolas Lopez de Lerma Aymerich
   * Add new DM key 0x801F91E2A8F80172 (José Gutiérrez de la Concha) (RT
     #6807)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x0098F6131EB86413 Ilias Tsitsimpis <iliastsi> uid:1 sig:1
+    * 0x01817AB0AAF6CDAE Robert Edmonds <edmonds> sig:2
+    * 0x021B361B6B031B00 Julian Andres Klode <jak> sig:7
+    * 0x02541A371530B71F Gert Wollny <gewo> sig:1
+    * 0x036A9C25BF357DD4 Tianon Gravi <tianon> sig:11
+    * 0x049B6D88E31734DB Robert Alan Larson (Blars) <blarson> sig:2
+    * 0x091AB856069AAA1C Holger Levsen <holger> sig:3
+    * 0x12F4D21C8F6A63C8 Matthew Vernon <matthew> sig:2
+    * 0x1318EFAC5FBBDBCE Ximin Luo <infinity0> sub:1 sig:1
+    * 0x14135D277B88D7E5 YunQiang Su <syq> sig:2
+    * 0x16099E15596AE928 Jean Schurger (Ubity) [DM] sig:2
+    * 0x17E950C257EB2134 Carlos Laviola <claviola> sig:2
+    * 0x223AE055BD94E154 Milan Kupcevic <milan> sig:6
+    * 0x28FA801A43BDD637 Mike Miller <mtmiller> sub:1 sig:7
+    * 0x2EC0FFB3B7301B1F Niko Tyni <ntyni> sig:4
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:5
+    * 0x34CD816DE6FCD33E Arto Jantunen <viiru> sub:1 sig:1
+    * 0x357312559D1E064B Ondřej Nový <onovy> sig:6
+    * 0x3AC8F716477EDB23 Ferenc Wágner <wferi> sig:3
+    * 0x44E17740B8611E9C Lars Wirzenius <lars> sub:1 sig:11
+    * 0x4B53D931E4D3E863 Andrew Ruthven (Personal) [DM] sig:1
+    * 0x4DE8FF2A63C7CC90 Simon McVittie <smcv> sub:2 sig:5
+    * 0x63FE10EAD55D0FDB Ondřej Kobližek [DM] sig:2
+    * 0x68C078BE88F80CDA Noèl Köthe <noel> sig:4
+    * 0x6C6580E77BD756C4 Daniel Pocock <pocock> sig:16
+    * 0x6E608B637D8967E9 Miguel Landaeta <nomadium> sig:4
+    * 0x745C4766D4CACDFF Ralf Treinen <treinen> sig:1
+    * 0x751AB5DDA79679CC Jimmy Kaplowitz <jimmy> sig:54
+    * 0x759778A9A36B494F Stephen Kitt <skitt> uid:1 sig:4
+    * 0x79B0C7A2CBD93B9E Vincent Sanders <vince> uid:1 sig:4
+    * 0x7C56ACFE947897D8 Anibal Monsalve Salazar <anibal> sig:2
+    * 0x7EA7A51C29C2BDB6 Ryan M. Golbeck <rmgolbeck> sig:3
+    * 0x7F6022516E869F64 Andreas Bombe <aeb> uid:2 sig:2
+    * 0x88237A6A53AB1B2E Harlan Lieberman-Berg <hlieberman> sig:1
+    * 0x8CBF9A322861A790 Micah Anderson <micah> sig:1
+    * 0x8E889544D985000D Bastian Venthur <venthur> uid:1 sig:1
+    * 0x8EEDCC1BAA1F32FF Vincent Cheng <vcheng> sig:4
+    * 0x94FA372B2DA8B985 Jonathan McDowell <noodles> sig:2
+    * 0x965089CE6B95F882 Carlos Alberto Lopez Perez [DM] sig:6
+    * 0x965522B9D49AE731 Christoph Egger <christoph> sig:7
+    * 0x96EDAB9B2E6B7171 Balasankar C <balasankarc> uid:1 sig:2
+    * 0x98042723E7133742 Eike Sauer <eike> uid:1 sig:1
+    * 0x98CABB3ABD4CA59E Michael Vogt <mvo> sig:4
+    * 0xA2B91BC6CD4EBDDC Stéphane Blondon <sblondon> sig:3
+    * 0xAEED6158020EAFFF James Cowgill <jcowgill> sig:4
+    * 0xB193770C186A1C7D James Clarke <jrtc27> sub:1 sig:1
+    * 0xB5754A69B6BE608C Luca Filipozzi <lfilipoz> sig:29
+    * 0xB65A4871CA19D717 Tollef Fog Heen <tfheen> sig:10
+    * 0xBC1256AA6AA6EC5E Stein Magnus Jodal <jodal> sig:2
+    * 0xC256FBD500221E93 Eric Dorland <eric> sig:2
+    * 0xC31F4FD949AB2B6C Dominique Dumont <dod> uid:1 sig:4
+    * 0xC5BD6C8F2295D502 Charles Plessy <plessy> sig:2
+    * 0xCC65B0CDEC275D5B ChangZhuo Chen <czchen> sig:7
+    * 0xD14EF15DAFE11347 Martin Pitt <mpitt> sig:1
+    * 0xD1A539B0B0C3105C Hwei Sheng Teoh <hsteoh> sig:2
+    * 0xD265C08531ED8AEF Rémi Vanicat <vanicat> sig:4
+    * 0xD4ED5223F4E57996 Shaun Jackman <sjackman> sig:3
+    * 0xDA82830E3CCC3A3A Alexandre Viau <aviau> sig:6
+    * 0xDD1FAB8937FE9825 Kai-Chung Yan (seamlik) [DM] sig:4
+    * 0xDF6D76C44D696F6B Sven Bartscher <kritzefitz> uid:1 sig:3
+    * 0xE3AE978E834E5E7E Alex Muntada <alexm> uid:1 sig:9
+    * 0xE619045DF2AC729A Raphaël Hertzog <hertzog> sig:3
+    * 0xE66C775AEBFE6C7D Jeremy Bicha [DM] sig:2
+    * 0xE76004C5CEF0C94C Christian Kastner <ckk> sig:4
+    * 0xEB9B1B01DE0572E4 Teddy Hogeborn [DM] sig:1
+    * 0xEC4B033C70096AD1 Asheesh Laroia <paulproteus> sig:4
+    * 0xF114084C08611111 Loïc Minier <lool> uid:1 sig:1
+    * 0xF51B18C720248224 Apollon Oikonomopoulos <apoikos> sig:3
+    * 0xF5392FD213FBFEDD Punit Agrawal <punit> uid:1 sig:3
+    * 0xF682B9EEB9E99CF8 Petr Čech <cech> sig:2
+    * 0xF6947DAB68E7B931 Hannes von Haugwitz <hvhaugwitz> sig:3
+    * 0xF6D3495BB0AE9A02 Clint Adams <clint> sig:9
 
   [ Gunnar Wolf ]
   * Add new DM key 0x3BA38591B2BF98D5 (Paolo Greppi) (RT #6769)
