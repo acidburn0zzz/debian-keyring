@@ -1,3 +1,9 @@
+debian-keyring (2017.08.xx) UNRELEASED; urgency=medium
+
+  * Add new DD key 0x9688FFC1C78102DF (Allison Randal) (RT #6818)
+
+ -- Jonathan McDowell <noodles@earth.li>  Fri, 11 Aug 2017 22:45:26 +0100
+
 debian-keyring (2017.08.05) unstable; urgency=medium
 
   [ Jonathan McDowell ]
