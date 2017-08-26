@@ -1,5 +1,6 @@
 debian-keyring (2017.08.xx) UNRELEASED; urgency=medium
 
+  [ Jonathan McDowell ]
   * Add new DD key 0x9688FFC1C78102DF (Allison Randal) (RT #6818)
   * Add new DD key 0x83016014251D1DB0 (Carsten Schoenert) (RT #6817)
   * Add new DD key 0xE66C775AEBFE6C7D (Jeremy Bicha) (RT #6819)
@@ -8,6 +9,10 @@ debian-keyring (2017.08.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x5FA5BC3F5EC41F61 (Ervin Hegedüs) (RT #6816)
   * Add new DM key 0x40BFEE868B055D9A (Tom Marble) (RT #6834)
   * Add new DD key 0xA81CEA22BC8C7E2E (Luca Boccassi) (RT #6842)
+
+  [ Gunnar Wolf ]
+  * Replace 0xEA4C661F2B46A27C with 0xD19E9C7D71266DCE (Branden Robinson)
+    (RT #6846)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 11 Aug 2017 22:45:26 +0100
 
