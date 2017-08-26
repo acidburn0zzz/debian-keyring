@@ -40,18 +40,14 @@ cleanup () {
 	rm -rf "$GNUPGHOME"
 }
 
-# Build a set of keyrings
-touch $GNUPGHOME/secring.gpg $GNUPGHOME/pubring.gpg
-chmod 600 $GNUPGHOME/secring.gpg
-
 keyfile=$(readlink -f "$1") # gpg works better with absolute keyring paths
 keydir="$2"
 
 basename=$(basename "$keyfile")
 date=`date -R`
 
-keyid=$(gpg --with-colons < $keyfile | grep '^pub' | head -n 1 | cut -d : -f 5)
-name=$(gpg --with-colons < $keyfile | grep '^pub' | head -n 1 | cut -d : -f 10 | sed -e 's/ <.*//')
+keyid=$(gpg --quiet --with-colons < $keyfile | grep '^pub' | head -n 1 | cut -d : -f 5)
+name=$(gpg --quiet --with-colons < $keyfile | grep '^uid' | head -n 1 | cut -d : -f 10 | sed -e 's/ <.*//')
 
 if [ ! -e $keydir/0x$keyid ]; then
 	echo "0x$keyid isn't already in $keydir - new key or error."
