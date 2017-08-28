@@ -109,6 +109,7 @@ debian-keyring (2017.08.xx) UNRELEASED; urgency=medium
     * 0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:99
     * 0xF823A2729883C97C Lucas Kanashiro <kanashiro> uid:1 sig:36
     * 0xFC0DB1BBCD460BDE Antonio Terceiro <terceiro> sig:16
+  * Remove revoked key 0x7B585B30807C2A87 (Paul Tagliamonte)
 
   [ Gunnar Wolf ]
   * Replace 0xEA4C661F2B46A27C with 0xD19E9C7D71266DCE (Branden Robinson)
