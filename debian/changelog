@@ -1,3 +1,9 @@
+debian-keyring (2017.09.xx) UNRELEASED; urgency=medium
+
+  * Add new DM key 0xCA8D40019EBD4E93 (Lukas Schwaighofer) (RT #6860)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Fri, 01 Sep 2017 18:30:59 -0500
+
 debian-keyring (2017.08.28) unstable; urgency=medium
 
   [ Jonathan McDowell ]
