@@ -5,7 +5,8 @@ debian-keyring (2017.09.xx) UNRELEASED; urgency=medium
   * Replace 0xD9817E8FDF69C32E with 0x4664E07DBDA485C5 (Benjamin
     Barenblat) (RT #6859)
   * Move 0xB11BD919079A3B98 (Joseph Nahmias) to emeritus (RT #6884)
-  * Move 0x8E16B90AD6A6121C (Cosimo Alfarano) to emeritus (rt #6886)
+  * Move 0x8E16B90AD6A6121C (Cosimo Alfarano) to emeritus (RT #6886)
+  * Move 0xF3AC49989AD13245 (Kevin Glynn) to emeritus (RT #6888)
 
   [ Jonathan McDowell ]
   * Add new DM key 0xC89D5712DF945F6F (Philippe Thierry) (RT #6882)
