@@ -1,8 +1,12 @@
 debian-keyring (2017.09.xx) UNRELEASED; urgency=medium
 
+  [ Gunnar Wolf ]
   * Add new DM key 0xCA8D40019EBD4E93 (Lukas Schwaighofer) (RT #6860)
   * Replace 0xD9817E8FDF69C32E with 0x4664E07DBDA485C5 (Benjamin
     Barenblat) (RT #6859)
+
+  [ Jonathan McDowell ]
+  * Add new DM key 0xC89D5712DF945F6F (Philippe Thierry) (RT #6882)
 
  -- Gunnar Wolf <gwolf@debian.org>  Fri, 01 Sep 2017 18:30:59 -0500
 
