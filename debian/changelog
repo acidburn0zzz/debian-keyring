@@ -1,4 +1,4 @@
-debian-keyring (2017.09.xx) UNRELEASED; urgency=medium
+debian-keyring (2017.09.30) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Add new DM key 0xCA8D40019EBD4E93 (Lukas Schwaighofer) (RT #6860)
@@ -162,7 +162,7 @@ debian-keyring (2017.09.xx) UNRELEASED; urgency=medium
     * 0xF823A2729883C97C Lucas Kanashiro <kanashiro> sig:5
     * 0xFFCE1C9A4FADF197 Jeremy T. Bouse <jbouse> sig:1
 
- -- Gunnar Wolf <gwolf@debian.org>  Fri, 01 Sep 2017 18:30:59 -0500
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 30 Sep 2017 20:15:47 +0100
 
 debian-keyring (2017.08.28) unstable; urgency=medium
 
