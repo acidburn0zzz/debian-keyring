@@ -1,3 +1,10 @@
+debian-keyring (2017.10.xx) UNRELEASED; urgency=medium
+
+  * Replace 0x010C2EA6D9309644 with 0xA1B986143704397B (Nelson A. de
+    Oliveira) (RT #6908)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Mon, 02 Oct 2017 10:59:11 -0500
+
 debian-keyring (2017.09.30) unstable; urgency=medium
 
   [ Gunnar Wolf ]
