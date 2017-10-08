@@ -5,6 +5,31 @@ debian-keyring (2017.10.xx) UNRELEASED; urgency=medium
   * Replace 0xD7884C4718E18F44 with 0x1988BAC881E23B3C (Marco Túlio
     Gontijo e Silva) (RT #6911)
   * Remove lost key 0x5ACE8D6E0C14A470 (Luke Faraone) (RT #6912)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x0C99B70EF4FCBB07 Ondřej Surý <ondrej> sig:1
+    * 0x1E7091B1F14A64A2 Aaron M. Ucko <ucko> sig:1
+    * 0x30550F7871EF0BA8 Yves-Alexis Perez <corsac> sig:2
+    * 0x51A09B18CF5A5068 Victor Seva <vseva> sig:2
+    * 0x7115AFD07710DCF7 Ole Streicher <olebole> sub:1 sig:1
+    * 0x9EA33414F5852F4E Benjamin Mako Hill <mako> sig:3
+    * 0xA3BABAE2408DD6CF Felipe Sateler <fsateler> sig:4
+    * 0xAC1E90BAC433F68F Gergely Nagy <algernon> sig:5
+    * 0xAEED6158020EAFFF James Cowgill <jcowgill> uid:1 sig:6
+    * 0xAEF6F1A2A7457645 Piotr Ożarowski <piotr> sig:17
+    * 0xB8688CA3D876D5A3 Santiago Garcia Mantinan <manty> sig:2
+    * 0xC6875F3541CEFDE0 Stefan Fritsch <sf> sig:3
+    * 0xDECA0C9D30ED9FE3 Elana Hashman <ehashman> uid:1 sig:3
+    * 0xE63716F4E069949E Karl Ramm <kcr> sig:2
+    * 0xF6D3495BB0AE9A02 Clint Adams <clint> sig:8
+    * 0x7A749064D38F11A3 Thomas Vincent <tvincent> sig:4
+    * 0xF22674467E4AF4A3 Laura Arjona Reina <larjona> sig:5
+    * 0x28D9A6F364EB7512 Benjamin Kaduk [DM] sig:1
+    * 0x40BFEE868B055D9A Tom Marble [DM] sig:1
+    * 0x500398DF5AB387D3 Martin Kepplinger [DM] uid:2 sub:1 sig:3
+    * 0x5C5245265C413520 Geoffrey Thomas [DM] sig:2
+    * 0xC89D5712DF945F6F Philippe Thierry (philou) [DM] uid:2 sub:1 sig:5
+    * 0xC9B0AC74C72B5836 Srud [DM] sig:1
+
 
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 02 Oct 2017 10:59:11 -0500
 
