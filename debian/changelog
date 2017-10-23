@@ -4,6 +4,7 @@ debian-keyring (2017.10.xx) UNRELEASED; urgency=medium
   * Move 0xBE5CF687DC5AB7C2 (Pascal Giard) to emeritus (RT #6930)
   * Move 0x296A6F97E15ED335 (Fredrik Steen) to emeritus (RT #6932)
   * Move 0x72AF46E6E541A5A2 (Behan Webster) to emeritus (RT #6933)
+  * Move 0x1885AD387D42F16E (Zdenek Kabelac) to emeritus (RT #6934)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 23 Oct 2017 15:51:31 -0700
 
