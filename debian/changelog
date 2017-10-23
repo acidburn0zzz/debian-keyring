@@ -1,6 +1,7 @@
 debian-keyring (2017.10.xx) UNRELEASED; urgency=medium
 
   * Move 0x12D34B8B656AE027 (Jeff Licquia) to emeritus (RT #6929)
+  * Move 0xBE5CF687DC5AB7C2 (Pascal Giard) to emeritus (RT #6930)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 23 Oct 2017 15:51:31 -0700
 
