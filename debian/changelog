@@ -5,6 +5,39 @@ debian-keyring (2017.10.xx) UNRELEASED; urgency=medium
   * Move 0x296A6F97E15ED335 (Fredrik Steen) to emeritus (RT #6932)
   * Move 0x72AF46E6E541A5A2 (Behan Webster) to emeritus (RT #6933)
   * Move 0x1885AD387D42F16E (Zdenek Kabelac) to emeritus (RT #6934)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00806F2BD729A457 Jelmer Vernooij <jelmer> sub:8 sig:23
+    * 0x09DA9408B4E14499 Lior Kaplan <kaplan> sig:3
+    * 0x0B00FB6CEBE2D002 Ulises Vitulli <dererk> sub:2 sig:6
+    * 0x0CB18E521B24F3FF Ralf Jung [DM] sig:2
+    * 0x1E953E27D4311E58 Chris Lamb <lamby> sig:12
+    * 0x2BF8D9FE074BCDE4 Thomas Lange <lange> sig:7
+    * 0x357312559D1E064B Ondřej Nový <onovy> sig:3
+    * 0x35A3939FFC78776D Breno Leitao <leitao> sig:3
+    * 0x44BB1BA79F6C6333 Gustavo Panizzo <gfa> sub:3 sig:8
+    * 0x53FE7BBDA68910FC Ross Gammon <rossgammon> uid:1 sig:2
+    * 0x5556A34E04A3610B Sascha Steinbiss <satta> sig:4
+    * 0x5A8728BE7BDA8506 Wartan Hachaturow <wart> sub:3 sig:3
+    * 0x5B019455E2B84FA5 Jaromír Mikeš [DM] uid:3 sig:4
+    * 0x5E62533F19765111 Tzafrir Cohen <tzafrir> sig:18
+    * 0x68E713981D1515F8 Arturo Borrero González <arturo> uid:1 sig:4
+    * 0x6B720BE9C5CF6D9E Reinhard Tartler <siretart> sub:1 sig:4
+    * 0x77C0C75E7B650808 James Valleroy [DM] sig:4
+    * 0x79C43E620B039B35 Jens Reyer [DM] sig:91
+    * 0x887B60618B3C16AE Dimitri John Ledkov <xnox> sig:21
+    * 0x8A0A48874687AF4F Toni Mueller <toni> sig:5
+    * 0x8FF1CB6E8D89059F Sylvain Beucler <beuc> sig:1
+    * 0x96EDAB9B2E6B7171 Balasankar C <balasankarc> uid:1 sig:2
+    * 0xA97A7702BAF91EF5 Gaudenz Steinlin <gaudenz> sig:10
+    * 0xAEED6158020EAFFF James Cowgill <jcowgill> sig:5
+    * 0xB6F6F753E15B47E9 Andre Luis Lopes <andrelop> sig:2
+    * 0xB82A217AFDFE09F2 David Prévot <taffit> sig:17
+    * 0xB8E5087766475AAF Nicolas Dandrimont <olasd> sig:1
+    * 0xCEAE6AD3AFE826FB Afif Elghraoui <afif> sig:5
+    * 0xDA82830E3CCC3A3A Alexandre Viau <aviau> sig:3
+    * 0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:5
+    * 0xFA643BA61D227AFB Aigars Mahinovs <aigarius> sig:2
+    * 0xFC0DB1BBCD460BDE Antonio Terceiro <terceiro> sig:5
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 23 Oct 2017 15:51:31 -0700
 
