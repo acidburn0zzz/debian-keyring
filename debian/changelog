@@ -1,3 +1,10 @@
+debian-keyring (2017.10.xx) UNRELEASED; urgency=medium
+
+  * Move 0x (Peter Samuelson) to emeritus (RT #6945)
+  * Move 0xAFCA65A20657A610 (Marc Brockschmidt) to emeritus (RT #6946)
+
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 29 Oct 2017 16:40:23 +0000
+
 debian-keyring (2017.10.24) unstable; urgency=medium
 
   * Move 0x12D34B8B656AE027 (Jeff Licquia) to emeritus (RT #6929)
