@@ -8,6 +8,7 @@ debian-keyring (2017.10.xx) UNRELEASED; urgency=medium
   [ Gunnar Wolf ]
   * Add new DM key 0x689A04020D7EA9A1 (Sebastian Humenda) (RT #6947)
   * Add new DM key 0x7541CFAAFC35EACF (Stephen Gelman) (RT #6948)
+  * Add new DM key 0xB195E1C4779BA9B2 (Chris West) (RT #6949)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 29 Oct 2017 16:40:23 +0000
 
