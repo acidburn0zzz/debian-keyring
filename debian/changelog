@@ -5,6 +5,7 @@ debian-keyring (2017.10.xx) UNRELEASED; urgency=medium
   * Add new DN key 0x7FD9FCCB000BEEEE (Jim Meyering) (RT #6950)
   * Add new DD key 0x6B7498FCB9B358AC (Frédéric Bonnard) (RT #6951)
   * Add new DM key 0x48D19F46BC99C9B7 (Mark Lee Garrett) (RT #6958)
+  * Add new DD key 0x86561F452180FCFE (Michael Jeanson) (RT #6972)
 
   [ Gunnar Wolf ]
   * Add new DM key 0x689A04020D7EA9A1 (Sebastian Humenda) (RT #6947)
