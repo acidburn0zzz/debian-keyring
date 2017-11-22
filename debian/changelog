@@ -8,6 +8,7 @@ debian-keyring (2017.10.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x86561F452180FCFE (Michael Jeanson) (RT #6972)
   * Add new DD key 0x83E33BD7D4DD4CA1 (Jerome Charaoui) (RT #6971)
   * Add new DD key 0x4330169952D556DB (Ben Armstrong) (RT #6970)
+  * Add new DM key 0x0D442664194974E2 (Pierre-Elliott Bécue) (RT #6966)
 
   [ Gunnar Wolf ]
   * Add new DM key 0x689A04020D7EA9A1 (Sebastian Humenda) (RT #6947)
