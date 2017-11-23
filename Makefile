@@ -29,3 +29,4 @@ test: all
 
 clean:
 	rm -f output/keyrings/*.gpg output/sha512sums.txt output/README output/changelog output/keyrings/*~
+	rm -rf gpghome

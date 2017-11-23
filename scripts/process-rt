@@ -1,0 +1,522 @@
+#!/usr/bin/python3
+
+# Copyright (c) 2017 Jonathan McDowell <noodles@earth.li>
+# GNU GPL; v2 or later
+#
+# Process RT tickets for keyring-maint@debian as raised by the
+# nm.debian.org web interface
+
+# Semi-helpful gpgme/Python examples:
+# https://pypkg.com/pypi/gpg/f/examples/
+
+import datetime
+import gpg
+import io
+import os
+import pprint
+import re
+import requests
+import subprocess
+import sys
+from urllib.parse import urlencode
+
+debug = False
+RT_BASE_URL = 'https://rt.debian.org/REST/1.0/'
+KEYSERVER = 'the.earth.li:11371'
+DAM = ['enrico', 'joerg', 'jmw', 'myon']
+FD = DAM + ['noodles']
+
+# Try to find the keyring base directory, assuming we live in /scripts/
+basedir = os.path.dirname(os.path.dirname(os.path.realpath(sys.argv[0]))) + '/'
+if os.path.exists(basedir + 'debian-keyring-gpg'):
+    KEYRING_BASE_DIR = basedir
+else:
+    print("Can't find keyring directory.")
+    sys.exit(-1)
+GNUPG_HOME = KEYRING_BASE_DIR + 'gpghome/'
+
+# Maps roles to keyring directories
+role2keyring = {
+    'DM': 'debian-maintainers-gpg',
+    'DD': 'debian-keyring-gpg',
+    'DN': 'debian-nonupload-gpg',
+    'emeritus': 'emeritus-keyring-gpg',
+}
+
+# The keys must match nm2:backend/const.py:ALL_STATUS
+desc2role = {
+    'Debian Developer, uploading': 'DD',
+    'Debian Developer, non-uploading': 'DN',
+    'Debian Maintainer': 'DM',
+    'Debian Maintainer, with guest account': 'DM',
+    'Debian Contributor': 'DC',
+    'Debian Contributor, with guest account': 'DC',
+    'Debian Developer, emeritus': 'emeritus',
+    'Debian Developer, removed': 'removed',
+}
+
+# Global keyid to username/name dict
+keyids = {}
+
+
+def get_gpg_ctx(do_import=False):
+    """ Setup (if necessary) and return a GnuPG context
+
+    Checks if the private GnuPG home directory already exists. If not,
+    creates it and imports the DD + DN keyrings into it. Also configures
+    GnuPG to do clean imports (i.e. only include signatures that can be
+    verified).
+    """
+    if not os.path.isdir(GNUPG_HOME):
+        os.makedirs(GNUPG_HOME)
+        do_import = True
+
+    c = gpg.Context()
+
+    c.set_engine_info(gpg.constants.protocol.OpenPGP,
+                      home_dir=GNUPG_HOME)
+
+    if do_import:
+        for keyring in ['debian-keyring', 'debian-nonupload']:
+            keyfile = KEYRING_BASE_DIR + 'output/keyrings/' + keyring + '.gpg'
+            if not os.path.exists(keyfile):
+                raise RuntimeError(keyfile + " does not exist. " +
+                                   "Need to run 'make'?")
+            keys = gpg.Data(file=keyfile)
+            c.op_import(keys)
+
+        with open(GNUPG_HOME + 'gpg.conf', 'w') as f:
+            f.write('import-options import-clean\n')
+
+    return c
+
+
+def fetch_key(ctx, fpr):
+    """Fetches the supplied fingerprint from a public keyserver
+
+    Does an HKP lookup for the supplied fingerprint, then imports it into
+    the current keyring. Then does an export (picking up any cleaning done
+    by the import) and returns the binary key data.
+
+    Note this function does not remove the key from the GnuPG keyring. If
+    the key is destined for the DM keyring, or subsequently not to be added,
+    it must be removed by the caller using delete_key().
+    """
+    url = "http://{server}/pks/lookup?{query}".format(
+            server=KEYSERVER,
+            query=urlencode({
+                "op": "get",
+                "search": "0x" + fpr,
+                "exact": "on",
+            }))
+    res = requests.get(url)
+    keytext = []
+    gotkey = False
+    for line in res.text.splitlines():
+        if line == "-----BEGIN PGP PUBLIC KEY BLOCK-----":
+            gotkey = True
+        if gotkey:
+            keytext.append(line)
+        if line == "-----END PGP PUBLIC KEY BLOCK-----":
+            break
+    if not gotkey:
+        raise RuntimeError('Failed to fetch key')
+
+    key = gpg.Data(string="\n".join(keytext))
+    ctx.op_import(key)
+
+    key = gpg.Data()
+    ctx.op_export(fpr, 0, key)
+    key.seek(0, os.SEEK_SET)
+    keydata = key.read()
+
+    return keydata
+
+
+def delete_key(ctx, fpr):
+    """Delete the key matching fpr from the GnuPG keyring"""
+    keys = list(ctx.keylist(fpr))
+    for k in keys:
+        ctx.op_delete(k, True)
+
+
+def read_keyids():
+    """Read the keyids file into a dict allowing a username/name mapping"""
+    with open(KEYRING_BASE_DIR + 'keyids', 'r') as f:
+        dds = f.readlines()
+        for dd in dds:
+            keyid = dd[2:18]
+            name = dd[19:dd.find('<') - 1]
+            username = dd[dd.find('<') + 1:]
+            username = username[:username.find('>')]
+            keyids[keyid] = {
+                'name':     name,
+                'username': username,
+            }
+
+
+def write_keyids():
+    """Write the sorted keyids username/name dict out to the keyids file"""
+    with open(KEYRING_BASE_DIR + 'keyids', 'w') as f:
+        for key in sorted(keyids.keys()):
+            f.write("0x{} {} <{}>\n".format(key,
+                                            keyids[key]['name'],
+                                            keyids[key]['username']))
+
+
+def get_rt_auth():
+    """Attempt to locate a valid set of RT login details
+
+    Look for, and return, a set of RT login details. Uses RT_USER/RT_PASS
+    from the environment, failing back to ~/.rtrc if either is not set.
+    """
+    rt_user = None
+    rt_pass = None
+
+    if 'RT_USER' in os.environ:
+        rt_user = os.environ['RT_USER']
+    if 'RT_PASS' in os.environ:
+        rt_pass = os.environ['RT_PASS']
+
+    if not rt_user or not rt_pass:
+        with open(os.environ['HOME'] + '/.rtrc', 'r') as f:
+            for line in f:
+                if not rt_user and line.startswith('user '):
+                    rt_user = line[5:].strip()
+                elif not rt_pass and line.startswith('passwd '):
+                    rt_pass = line[7:].strip()
+
+    return (rt_user, rt_pass)
+
+
+def fetch_ticket(rtid):
+    (rt_user, rt_pass) = get_rt_auth()
+
+    args = {
+        'params': {
+            'user': rt_user,
+            'pass': rt_pass,
+        }
+    }
+
+    print("Fetching ticket " + str(rtid))
+
+    # res = requests.post(RT_BASE_URL + 'ticket/' + str(rtid) + '/show',
+    #                    **args)
+    # Look for "Owner: Nobody" or "Owner: noodles"
+    # res = requests.post(RT_BASE_URL + 'ticket/' + str(rtid) + '/edit',
+    #                    **args)
+    # "content" variable = "Owner: noodles"
+
+    res = requests.post(RT_BASE_URL + 'ticket/' + str(rtid) + '/attachments',
+                        **args)
+
+    # Validate the RT result
+    res_lines = res.text.splitlines()
+    ver, status, text = res_lines[0].split(None, 2)
+
+    if int(status) != 200:
+        print("RT status code is not 200", res_lines)
+        return
+
+    attachment = None
+    text = None
+    signature = None
+
+    for line in res_lines[2:]:
+        m = re.match('Attachments: (\d+):', line)
+        if m:
+            print('Attachment found, ' + m.group(1))
+            attachment = int(m.group(1))
+
+    if attachment:
+        res = requests.post(RT_BASE_URL + 'ticket/' + str(rtid) +
+                            '/attachments/' + str(attachment),
+                            **args)
+
+        # Validate the RT result
+        res_lines = res.text.splitlines()
+        ver, status, text = res_lines[0].split(None, 2)
+
+        if int(status) != 200:
+            print("RT status code is not 200", res_lines)
+
+        incontent = False
+        message = []
+        for line in res_lines[2:]:
+            if line.startswith('Content: '):
+                incontent = True
+                message.append(line[9:])
+            elif incontent and line.startswith('         '):
+                message.append(line[9:])
+            elif incontent:
+                incontent = False
+
+        with get_gpg_ctx() as c:
+            try:
+                text, result = c.verify(io.BytesIO(
+                                        "\n".join(message).encode('utf-8')))
+            except gpg.errors.GPGMEError:
+                return (None, None)
+            if result:
+                key = c.get_key(result.signatures[0].fpr)
+                # print(result.signatures[0].__str__())
+                for subkey in key.subkeys:
+                    if subkey.fpr[24:] in keyids:
+                        signature = keyids[subkey.fpr[24:]]['username']
+                print("Good signature from " + signature + " (" +
+                      result.signatures[0].fpr + ")")
+            else:
+                print("Couldn't verify message.")
+
+    return (signature, text)
+
+
+def parse_ticket(text):
+    state = {}
+
+    for line in text.decode().split('\n'):
+        if line.startswith('  Key fingerprint:  '):
+            if line[20:] != 'None':
+                state['keyid'] = line[20:]
+        elif line.startswith('  Username:         '):
+            state['username'] = line[20:]
+        elif line.startswith('  Details:          '):
+            state['details'] = line[20:]
+        elif line.startswith('  First name:       '):
+            state['first'] = line[20:]
+        elif line.startswith('  Middle name:      '):
+            state['middle'] = line[20:]
+        elif line.startswith('  Last name:        '):
+            state['last'] = line[20:]
+        elif line.startswith('  Current status:   '):
+            if line[20:] not in desc2role:
+                print('Unknown current status: ' + line[20:])
+            else:
+                state['current'] = desc2role[line[20:]]
+        elif line.startswith('  Target keyring:   '):
+            if line[20:] not in desc2role:
+                print('Unknown destination status: ' + line[20:])
+            else:
+                state['dest'] = desc2role[line[20:]]
+
+    # Based on the current + target statuses work out if this is an add or
+    # remove.
+    if state['dest'] in ['DD', 'DM', 'DN']:
+        state['action'] = 'add'
+        state['role'] = state['dest']
+    elif state['dest'] in ['emeritus', 'removed']:
+        state['action'] = 'remove'
+        if 'current' in state:
+            state['role'] = state['current']
+        else:
+            # Assume DD -> removed as a fall back
+            state['role'] = 'DD'
+
+    # Collapse first/middle/last to a single name field
+    if 'first' in state and state['first'] != '-':
+        state['subject'] = state['first']
+    if 'middle' in state and state['middle'] != '-':
+        if 'subject' in state:
+            state['subject'] += ' ' + state['middle']
+        else:
+            state['subject'] = state['middle']
+    if 'last' in state and state['last'] != '-':
+        if 'subject' in state:
+            state['subject'] += ' ' + state['last']
+        else:
+            state['subject'] = state['last']
+
+    # Get the key length + type, plus signatures from other DDs
+    if 'keyid' in state:
+        with get_gpg_ctx() as c:
+            if state['action'] == 'add':
+                state['keydata'] = fetch_key(c, state['keyid'])
+            c.set_keylist_mode(gpg.constants.keylist.mode.SIGS)
+            key = c.get_key(state['keyid'])
+            for subkey in key.subkeys:
+                if subkey.fpr == state['keyid']:
+                    state['keytype'] = str(subkey.length)
+                    if subkey.pubkey_algo == gpg.constants.pk.RSA:
+                        state['keytype'] += 'R'
+                    elif subkey.pubkey_algo == gpg.constants.pk.DSA:
+                        state['keytype'] += 'D'
+                    elif subkey.pubkey_algo == gpg.constants.pk.ECC:
+                        state['keytype'] += 'E'
+                    elif subkey.pubkey_algo == gpg.constants.pk.ELG:
+                        state['keytype'] += 'g'
+                    else:
+                        state['keytype'] += '?'
+
+            sigs = {}
+            for uid in key.uids:
+                # print(uid.name, uid.email)
+                if not uid.revoked:
+                    for sig in uid.signatures:
+                        if sig.keyid in keyids:
+                            sigs[keyids[sig.keyid]['username']] = 1
+                        # else:
+                        #    print("Skipping unknown ID " + sig.keyid)
+
+            if len(sigs) < 2:
+                raise RuntimeError('Insufficent key signatures')
+
+            for sig in sorted(sigs.keys()):
+                if 'certs' in state:
+                    state['certs'] += ', ' + sig
+                else:
+                    state['certs'] = sig
+
+    return state
+
+
+def do_action(state):
+    if state['action'] == 'remove':
+        if 'dest' in state and state['dest'] == 'emeritus':
+            subprocess.call(['git', 'mv', role2keyring[state['role']] + '/0x' +
+                             state['keyid'][24:],
+                             'emeritus-keyring-gpg/'])
+            state['logmsg'] = ('Move 0x' + state['keyid'][24:] +
+                               ' (' + state['subject'] + ') to ' +
+                               'emeritus (RT #' + state['rtid'] + ')')
+        else:
+            subprocess.call(['git', 'rm', role2keyring[state['role']] + '/0x' +
+                             state['keyid'][24:]])
+            state['logmsg'] = ('Remove 0x' + state['keyid'][24:] +
+                               ' (' + state['subject'] + ')' +
+                               ' (RT #' + state['rtid'] + ')')
+        if state['role'] in ['DD', 'DN']:
+            with get_gpg_ctx() as c:
+                delete_key(c, state['keyid'])
+    elif state['action'] == 'add':
+        state['logmsg'] = ('Add new ' + state['dest'] + ' key 0x' +
+                           state['keyid'][24:] + ' (' + state['subject'] +
+                           ') (RT #' + state['rtid'] + ')')
+        # See if it's just a move from a different keyring
+        if state['current'] in role2keyring:
+            subprocess.call(['git', 'mv',
+                             role2keyring[state['current']] + '/0x' +
+                             state['keyid'][24:],
+                             role2keyring[state['dest']]])
+            state['notes'] = 'Move from ' + state['current'] + ' keyring'
+        else:
+            keyfile = role2keyring[state['dest']] + '/0x' + state['keyid'][24:]
+            with open(keyfile, 'wb') as f:
+                f.write(state['keydata'])
+            subprocess.call(['git', 'add', keyfile])
+
+            # We don't keep DM keys in the our working keyring
+            if state['dest'] == 'DM':
+                with get_gpg_ctx() as c:
+                    delete_key(c, state['keyid'])
+        keyids[state['keyid'][24:]] = {
+            'name':     state['subject'],
+            'username': state['username'],
+        }
+        write_keyids()
+        subprocess.call(['git', 'add', 'keyids'])
+    else:
+        print("Don't know how to handle action: " + state['action'])
+
+
+def do_dch(state):
+    release = "unknown"
+    with open('debian/changelog', 'r') as f:
+        line = f.readline()
+        m = re.match("debian-keyring \((.*)\) (.*); urgency=", line)
+        version = m.group(1)
+        release = m.group(2)
+    if release == "UNRELEASED":
+        if debug:
+            print('dch --multimaint-merge -D UNRELEASED -a "' +
+                  state['logmsg'] + '"')
+        else:
+            subprocess.call(['dch', '--multimaint-merge', '-D', 'UNRELEASED',
+                             '-a', state['logmsg']])
+    elif release == "unstable":
+        newver = datetime.date.today().strftime("%Y.%m.xx")
+        if newver == version:
+            print(' * Warning: New version and previous released version are ')
+            print('   the same: ' + newver + '. This should not be so!')
+            print('   Check debian/changelog')
+        if debug:
+            print('dch -D UNRELEASED -v ' + newver + ' "' + state['logmsg'] +
+                  '"')
+        else:
+            subprocess.call(['dch', '-D', 'UNRELEASED', '-v', newver,
+                             state['logmsg']])
+    else:
+        print("Unknown changelog release: " + release)
+
+    if not debug:
+        subprocess.call(['git', 'add', 'debian/changelog'])
+
+
+def do_git_template(state):
+    with open('git-commit-template', 'w') as f:
+        f.write(state['logmsg'])
+        f.write('\n\n')
+        f.write("Action: " + state['action'] + "\n")
+        f.write("Subject: " + state['subject'] + "\n")
+        if 'username' in state:
+            f.write("Username: " + state['username'] + "\n")
+        f.write("Role: " + state['role'] + "\n")
+        f.write("Key: " + state['keyid'] + "\n")
+        f.write("Key-type: " + state['keytype'] + "\n")
+        f.write("RT-Ticket: " + state['rtid'] + "\n")
+        f.write("Request-signed-by: " + state['requester'] + "\n")
+        if state['action'] != 'remove':
+            prefix = 'Key-certified-by: '
+            prefixlen = len(prefix)
+            certs = state['certs']
+            while (len(certs) + prefixlen) > 72:
+                last = certs.rfind(',', 0, 72 - prefixlen) + 1
+                f.write(prefix + certs[:last] + "\n")
+                certs = certs[last:]
+                prefix = ' '
+                prefixlen = 1
+            f.write(prefix + certs + "\n")
+        if 'details' in state:
+            f.write("Details: " + state['details'] + "\n")
+        if state['role'] == 'DM' and 'agreement' in state:
+            f.write("Advocates:\n")
+            for a in state['advocates']:
+                f.write(" " + a + "\n")
+            f.write("Agreement: " + state['agreement'] + "\n")
+            f.write("BTS: " + state['bts'] + "\n")
+        if 'notes' in state:
+            f.write('Notes: ' + state['notes'] + '\n')
+
+
+if len(sys.argv) < 2:
+    print('Must supply RT ticket to process.')
+    sys.exit(-1)
+
+# Change to the keyring dir so that git etc work
+os.chdir(KEYRING_BASE_DIR)
+
+read_keyids()
+(requester, ticket) = fetch_ticket(sys.argv[1])
+if ticket is None:
+    print('No signature on ticket.')
+    sys.exit(-1)
+if requester is None:
+    print('Signature from unknown key.')
+    sys.exit(-1)
+state = parse_ticket(ticket)
+state['rtid'] = sys.argv[1]
+state['requester'] = requester
+if state['action'] == 'add':
+    if state['role'] == 'DM':
+        if requester not in FD:
+            print('Signature for DM add must come from Front Desk.')
+            sys.exit(-1)
+    elif requester not in DAM:
+        print('Signature for DD/DN add must come from DAM.')
+        sys.exit(-1)
+pp = pprint.PrettyPrinter()
+pp.pprint(state)
+# sys.exit(-1)
+do_action(state)
+do_dch(state)
+do_git_template(state)
