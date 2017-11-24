@@ -18,6 +18,7 @@ debian-keyring (2017.10.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xAEC2DF8E23BE7E38 (Stefan Schörghofer) (RT #6954)
   * Replace 0xB3F25D6B00A80662 with 0x4BC80A69432387E8 (Santiago Ruano
     Rincón) (RT #6975)
+  * Remove 0x2DE1AD437A9DBF6E (Ryan Niebur) (RT #6984)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 29 Oct 2017 16:40:23 +0000
 
