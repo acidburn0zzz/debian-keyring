@@ -9,6 +9,42 @@ debian-keyring (2017.10.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x83E33BD7D4DD4CA1 (Jerome Charaoui) (RT #6971)
   * Add new DD key 0x4330169952D556DB (Ben Armstrong) (RT #6970)
   * Add new DM key 0x0D442664194974E2 (Pierre-Elliott Bécue) (RT #6966)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00806F2BD729A457 Jelmer Vernooij <jelmer> sig:1
+    * 0x015F4DD4A70FB705 Phillip Susi [DM] sub:2 sig:2
+    * 0x04C53BD7FE030551 Julien Puydt (Debian) [DM] sig:1
+    * 0x1ABFA401CCAA707A Patryk Cisek <patryk> sig:4
+    * 0x1E7091B1F14A64A2 Aaron M. Ucko <ucko> sig:4
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sub:1 sig:5
+    * 0x310180050905E40C Julien Cristau <jcristau> sig:2
+    * 0x34CD816DE6FCD33E Arto Jantunen <viiru> sub:1 sig:1
+    * 0x357312559D1E064B Ondřej Nový <onovy> sig:3
+    * 0x3798AF15A1565658 Matthijs Kooijman [DM] sub:2 sig:2
+    * 0x50C3634D3A291CF9 Philipp Kern <pkern> sig:3
+    * 0x5556A34E04A3610B Sascha Steinbiss <satta> sig:5
+    * 0x55AD141521E764DF Balint Reczey <rbalint> sig:25
+    * 0x5A8830475F7D1061 Nicholas D Steeves [DM] sig:2
+    * 0x5EE76EE20216D2A5 Lev Lamberov <dogsleg> sig:4
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:3
+    * 0x68E713981D1515F8 Arturo Borrero González <arturo> uid:1 sig:1
+    * 0x789D6F057FD863FE Salvatore Bonaccorso <carnil> sig:6
+    * 0x79C43E620B039B35 Jens Reyer [DM] sig:3
+    * 0x82B5B40868C097BC Liang Guo <guoliang> sig:1
+    * 0x8382C95C29023DF9 Jérémy Bobbio <lunar> sig:4
+    * 0x83E33BD7D4DD4CA1 Jerome Charaoui <lavamind> sig:7
+    * 0x8B3D867C823E7A61 Louis Bouchard [DM] sub:2 sig:2
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:4
+    * 0xA2D13001D98C0FBA Don Armstrong <don> sub:1 sig:1
+    * 0xAEED6158020EAFFF James Cowgill <jcowgill> sig:4
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:4
+    * 0xBC10BD0F7B8BF08B Matthew Danish <mrd> sig:1
+    * 0xCC65B0CDEC275D5B ChangZhuo Chen <czchen> sig:46
+    * 0xDD29F88442839ED3 John Goerzen <jgoerzen> uid:1 sig:1
+    * 0xE523F220AC8DFBD0 Adam Majer <adamm> sig:2
+    * 0xE5EC4AC9BD627B05 Donald Norwood <donald> sig:4
+    * 0xEBB31A62C85D8F71 Kevin Coyner <kcoyner> sig:5
+    * 0xF53E93AF3DED42EB Antonin Kral <krala> sig:5
+    * 0xF5C83C05D9CEEEEE Chris Boot <bootc> uid:1 sub:2 sig:10
 
   [ Gunnar Wolf ]
   * Add new DM key 0x689A04020D7EA9A1 (Sebastian Humenda) (RT #6947)
