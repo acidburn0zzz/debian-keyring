@@ -1,3 +1,10 @@
+debian-keyring (2017.11.xx) UNRELEASED; urgency=medium
+
+  * Replace 0xC654FB332AD59860 with 0xECB73E37E887AA8C (Tomasz Rybak)
+    (RT #6994)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Wed, 29 Nov 2017 12:53:39 -0600
+
 debian-keyring (2017.11.24) unstable; urgency=medium
 
   [ Jonathan McDowell ]
