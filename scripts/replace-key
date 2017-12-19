@@ -22,6 +22,7 @@ export GNUPGHOME
 cat  > "$GNUPGHOME"/gpg.conf <<EOF
 keyid-format 0xlong
 keyserver hkps.pool.sks-keyservers.net
+no-autostart
 EOF
 trap cleanup exit
 cleanup () {

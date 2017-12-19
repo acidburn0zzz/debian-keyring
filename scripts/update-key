@@ -25,6 +25,7 @@ export GNUPGHOME
 cat > "$GNUPGHOME"/gpg.conf <<EOF
 keyid-format 0xlong
 no-auto-check-trustdb
+no-autostart
 EOF
 
 if [ "$NOCLEAN" = "0" ]; then

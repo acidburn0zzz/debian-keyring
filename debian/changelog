@@ -7,6 +7,7 @@ debian-keyring (2017.11.xx) UNRELEASED; urgency=medium
   [ Jonathan McDowell ]
   * Move 0x6887935AB297B391 (Sukhbir Singh) to emeritus (RT #7013)
   * Fixed key expiry test to show human readable expiry time
+  * Don't autostart gpg-agent in private workdirs
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 29 Nov 2017 12:53:39 -0600
 
