@@ -6,9 +6,9 @@ find_too_short () {
 	k=$1
 	gpg --no-options --no-auto-check-trustdb --no-default-keyring \
 		--keyring "./output/keyrings/$k" --list-keys --with-colons \
-		| grep -a '^pub' \
 		| awk -F: -v keyring=$1 \
-		'$3 < 2048 {print keyring ":\t0x" $5 " is smaller than 2048 bits"}'
+		'/^pub/ { fpr = $5 ; if ($3 < 2048) { print keyring ":\t0x" $5 " is smaller than 2048 bits" } } \
+		/^sub/ { if ($2 != "r" && $2 != "e" && $3 < 2048 && $4 < 19) { print keyring ":\t0x" fpr " has subkey smaller than 2048 bits" } }'
 }
 
 fail=0
