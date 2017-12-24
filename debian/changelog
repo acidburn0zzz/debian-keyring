@@ -1,4 +1,4 @@
-debian-keyring (2017.11.xx) UNRELEASED; urgency=medium
+debian-keyring (2017.12.24) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Replace 0xC654FB332AD59860 with 0xECB73E37E887AA8C (Tomasz Rybak)
@@ -111,7 +111,7 @@ debian-keyring (2017.11.xx) UNRELEASED; urgency=medium
     * 0xFC0DB1BBCD460BDE Antonio Terceiro <terceiro> sig:5
     * 0xFF914AF0C2B35520 Cyril Brulebois <kibi> sig:12
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 29 Nov 2017 12:53:39 -0600
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 24 Dec 2017 18:52:22 +0000
 
 debian-keyring (2017.11.24) unstable; urgency=medium
 
