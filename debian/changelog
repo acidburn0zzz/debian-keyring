@@ -12,6 +12,8 @@ debian-keyring (2017.11.xx) UNRELEASED; urgency=medium
   * Replace 0x3FA78B77EB9B072B with 0xBC8031288D89A751 (Chris Halls) (RT
     #7017)
   * Add new DD key 0x1E759A726A9FDD74 (Christopher Knadle) (RT #7032)
+  * Replace 0x96EDAB9B2E6B7171 with 0xB77D2E2E23735427 (Balasankar C)
+    (RT #7026)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 29 Nov 2017 12:53:39 -0600
 
