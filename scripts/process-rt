@@ -514,8 +514,11 @@ if state['action'] == 'add':
     elif requester not in DAM:
         print('Signature for DD/DN add must come from DAM.')
         sys.exit(-1)
+# Output our state for confirmation, without the keydata
 pp = pprint.PrettyPrinter()
-pp.pprint(state)
+s = dict(state)
+del s['keydata']
+pp.pprint(s)
 # sys.exit(-1)
 do_action(state)
 do_dch(state)
