@@ -11,6 +11,7 @@ debian-keyring (2017.11.xx) UNRELEASED; urgency=medium
   * Don't autostart gpg-agent in private workdirs
   * Replace 0x3FA78B77EB9B072B with 0xBC8031288D89A751 (Chris Halls) (RT
     #7017)
+  * Add new DD key 0x1E759A726A9FDD74 (Christopher Knadle) (RT #7032)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 29 Nov 2017 12:53:39 -0600
 
