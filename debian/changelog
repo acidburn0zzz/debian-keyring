@@ -2,6 +2,7 @@ debian-keyring (2018.01.xx) UNRELEASED; urgency=medium
 
   * Build depend on gawk (for strftime)
   * Update Homepage URL to use HTTPS
+  * Set R³ to no
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 01 Jan 2018 15:48:43 +0000
 
