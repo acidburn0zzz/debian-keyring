@@ -517,7 +517,8 @@ if state['action'] == 'add':
 # Output our state for confirmation, without the keydata
 pp = pprint.PrettyPrinter()
 s = dict(state)
-del s['keydata']
+if 'keydata' in s:
+    del s['keydata']
 pp.pprint(s)
 # sys.exit(-1)
 do_action(state)
