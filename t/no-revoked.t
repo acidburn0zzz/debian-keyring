@@ -8,7 +8,9 @@ find_revoked () {
 		--keyring "./output/keyrings/$k" --list-keys --with-colons \
 		| grep -a '^pub' \
 		| awk -F: -v keyring=$1 \
-		'$2 == "r" {print keyring ":\t0x" $5 " is revoked"}'
+		'BEGIN { ok = 1 } \
+		$2 == "r" {print keyring ":\t0x" $5 " is revoked"; ok = 0} \
+		END { if (!ok) { exit 1 } }'
 }
 
 fail=0
