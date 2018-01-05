@@ -520,7 +520,13 @@ s = dict(state)
 if 'keydata' in s:
     del s['keydata']
 pp.pprint(s)
-# sys.exit(-1)
+proceed = input("Do you wish to proceed? [y/n]: ")
+if proceed.lower() not in ['y', 'yes']:
+    print("Aborting.")
+    # If this was an add we need to make sure the key isn't in our keyring
+    if state['action'] in ['add', 'replace']:
+        delete_key(get_gpg_ctx(), state['keyid'])
+    sys.exit(-1)
 do_action(state)
 do_dch(state)
 do_git_template(state)
