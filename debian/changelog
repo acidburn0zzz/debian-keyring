@@ -3,6 +3,8 @@ debian-keyring (2018.01.xx) UNRELEASED; urgency=medium
   * Build depend on gawk (for strftime)
   * Update Homepage URL to use HTTPS
   * Set R³ to no
+  * Move 0x1988BAC881E23B3C (Marco Túlio Gontijo e Silva) to emeritus
+    (RT #7054)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 01 Jan 2018 15:48:43 +0000
 
