@@ -12,6 +12,50 @@ debian-keyring (2018.01.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x93022BAD0563A51D (Teus Benschop) (RT #7055)
   * Add new DM key 0x427E381D05190E55 (Kyle John Robbertze) (RT #7062)
   * Update various URLs to point at salsa.debian.org instead of anonscm
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:7
+    * 0x0D442664194974E2 Pierre-Elliott Bécue <peb> sig:2
+    * 0x0F56D0553B6D411B Sean Whitton <spwhitton> sig:6
+    * 0x17FBDCBFD9928FF4 Jochen Sprickerhof <jspricke> sig:10
+    * 0x1E759A726A9FDD74 Christopher Knadle <krait> sig:32
+    * 0x1EEF53D38A3A9C67 Andreas Boll [DM] sig:1
+    * 0x28D9A6F364EB7512 Benjamin Kaduk [DM] sig:3
+    * 0x296975951879E9CC Leo Singer [DM] sig:4
+    * 0x2C3B436FEAC68101 Adam Borowski <kilobyte> sig:4
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:3
+    * 0x310180050905E40C Julien Cristau <jcristau> sig:3
+    * 0x357312559D1E064B Ondřej Nový <onovy> sig:3
+    * 0x3631D4FB7FF2B8B8 Christopher Stuart Hoskin <mans0954> sig:8
+    * 0x39F17A5F5AEFBE73 Paulo Roberto Alves de Oliveira (aka kretcheu) [DM] sig:3
+    * 0x4B043FCDB9444540 Mattia Rizzolo <mattia> sig:5
+    * 0x500398DF5AB387D3 Martin Kepplinger [DM] sub:1 sig:1
+    * 0x5556A34E04A3610B Sascha Steinbiss <satta> sig:5
+    * 0x55C9882D999BBCC4 Martin F. Krafft <madduck> sub:1 sig:4
+    * 0x5E946C090AFF0427 Jose Luis Rivero [DM] sig:2
+    * 0x5EE76EE20216D2A5 Lev Lamberov <dogsleg> sig:8
+    * 0x6CACA448860CDC13 Norbert Preining <preining> sig:8
+    * 0x76B534B2E99007E0 Thorsten Glaser <tg> sig:3
+    * 0x7F6022516E869F64 Andreas Bombe <aeb> sig:5
+    * 0x8062398983B2CF7A Matteo F. Vescovi <mfv> sig:2
+    * 0x863D4DF2ED9C28EF Abhijith PA [DM] sig:2
+    * 0x9C27B31342B7511D Michal Čihař <nijel> sig:6
+    * 0x9EA33414F5852F4E Benjamin Mako Hill <mako> sub:2 sig:14
+    * 0xA1B09B42333961E8 Evgeni Golov <evgeni> sig:5
+    * 0xAFCFEC8E669CE1C2 Graham Inggs <ginggs> sig:5
+    * 0xB14BB0C38D861CF1 Ulrike Uhlig <ulrike> sig:3
+    * 0xB77D2E2E23735427 Balasankar C <balasankarc> sig:10
+    * 0xB8688CA3D876D5A3 Santiago Garcia Mantinan <manty> sig:2
+    * 0xC31F4FD949AB2B6C Dominique Dumont <dod> uid:1 sig:5
+    * 0xC92949B8A63BB098 intrigeri <intrigeri> sig:6
+    * 0xC9B0AC74C72B5836 Srud [DM] uid:1 sig:7
+    * 0xCCD2ED94D21739E9 Daniel Kahn Gillmor <dkg> sub:1 sig:1
+    * 0xD0178C767D069EE6 Samuel Thibault <sthibault> sub:2 sig:2
+    * 0xD9EEBFB4B66B10F0 Timo Weingärtner <tiwe> sig:11
+    * 0xDA4958F611E149E9 Cédric Boutillier <boutil> uid:1 sig:3
+    * 0xDA82830E3CCC3A3A Alexandre Viau <aviau> sig:3
+    * 0xED34CEABE27BAABC Jameson Graef Rollins [DM] sig:10
+    * 0xED63B6125A1D1561 Dima Kogan <dkogan> sig:2
+    * 0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:3
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 01 Jan 2018 15:48:43 +0000
 
