@@ -1,4 +1,4 @@
-debian-keyring (2018.01.xx) UNRELEASED; urgency=medium
+debian-keyring (2018.01.24) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Move 0x9AED197FD311BBA1 (Tapio Lehtonen) to emeritus (RT #7066)
@@ -57,7 +57,7 @@ debian-keyring (2018.01.xx) UNRELEASED; urgency=medium
     * 0xED63B6125A1D1561 Dima Kogan <dkogan> sig:2
     * 0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:3
 
- -- Jonathan McDowell <noodles@earth.li>  Mon, 01 Jan 2018 15:48:43 +0000
+ -- Jonathan McDowell <noodles@earth.li>  Wed, 24 Jan 2018 19:24:09 +0000
 
 debian-keyring (2017.12.24) unstable; urgency=medium
 
