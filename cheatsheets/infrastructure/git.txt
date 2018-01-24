@@ -22,15 +22,15 @@ Public tree copy
 There is a public copy of the tree we push to whenever we push the
 updates; it is available at Debian's Git server:
 
-  https://alioth.debian.org/anonscm/git/keyring/keyring.git
+  https://salsa.debian.org/debian-keyring/keyring.git
 
 This tree can also be browsed online at:
 
-  http://anonscm.debian.org/gitweb/?p=keyring/keyring.git
+  http://salsa.debian.org/debian-keyring/keyring
 
 So, when you push a new revision, do:
 
-$ git push ssh://git.debian.org/git/keyring/keyring.git master
+$ git push ssh://salsa.debian.org/debian-keyring/keyring.git master
 
 Signing commits
 ---------------
