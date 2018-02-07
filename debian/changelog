@@ -1,4 +1,4 @@
-debian-keyring (2018.02.xx) UNRELEASED; urgency=medium
+debian-keyring (2018.02.07) unstable; urgency=high
 
   [ Jonathan McDowell ]
   * Remove 0x07438AA0984A4545 (David Martínez) (RT #7086)
