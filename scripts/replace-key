@@ -30,6 +30,7 @@ cleanup () {
 }
 
 newkeytemp=`mktemp -t newkey.XXXXXXXXX`
+gpgconf --launch dirmngr
 gpg --recv-key "$newkey"
 gpg --no-auto-check-trustdb --options /dev/null \
 	--keyring output/keyrings/debian-keyring.gpg \
