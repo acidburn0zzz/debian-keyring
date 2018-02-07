@@ -1,6 +1,11 @@
 debian-keyring (2018.02.xx) UNRELEASED; urgency=medium
 
+  [ Jonathan McDowell ]
   * Remove 0x07438AA0984A4545 (David Martínez) (RT #7086)
+
+  [ Gunnar Wolf ]
+  * Replace 0x95146A1CBA141817 with 0x6F8DE44D59D7DBCC (Ana Custura) (RT
+    #7097)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 04 Feb 2018 10:25:48 +0000
 
