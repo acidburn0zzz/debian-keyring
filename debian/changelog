@@ -8,6 +8,30 @@ debian-keyring (2018.02.xx) UNRELEASED; urgency=medium
     #7097)
   * Remove 0x33BE1A0A8C2ED8FF (Mehdi Dogguy) (RT #7098)
   * Fix an issue with the key replacement script
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x04EE131AE6D621BE Christoph Martin <chrism> sub:1 sig:2
+    * 0x2124AA1983785C90 Rafael Laboissière <rafael> uid:1 sig:1
+    * 0x2930100100003344 Gergely Riskó <risko> sig:2
+    * 0x2AE901E5C70218D2 Frederic Peters <fpeters> uid:1 sig:3
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:3
+    * 0x2EC0FFB3B7301B1F Niko Tyni <ntyni> sig:4
+    * 0x357312559D1E064B Ondřej Nový <onovy> sig:5
+    * 0x5556A34E04A3610B Sascha Steinbiss <satta> sig:2
+    * 0x69F30763DFEFC134 Steven Chamberlain <stevenc> sub:2 sig:4
+    * 0x76D58093F540ABCD Iain R. Learmonth <irl> sub:3 sig:15
+    * 0x8F0E7C2B4522E387 Bill Allombert <ballombe> uid:1 sig:1
+    * 0x9605A1098C63B92A Edward John Betts <edward> sig:2
+    * 0x9C27B31342B7511D Michal Čihař <nijel> uid:1 sig:1
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:36
+    * 0xA3E3969F6DDEEC86 Andrey Rahmatullin <wrar> sig:4
+    * 0xAEED6158020EAFFF James Cowgill <jcowgill> sig:9
+    * 0xB8E5087766475AAF Nicolas Dandrimont <olasd> sub:1 sig:1
+    * 0xD416AD15AC6B43FE Thomas Goirand <zigo> uid:3 sub:3 sig:13
+    * 0xD9EEBFB4B66B10F0 Timo Weingärtner <tiwe> sig:2
+    * 0xE619045DF2AC729A Raphaël Hertzog <hertzog> sig:2
+    * 0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:13
+    * 0x1762E0227034CF84 William Blough [DM] uid:1 sig:10
+    * 0x427E381D05190E55 Kyle John Robbertze <paddatrapper> sig:9
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 04 Feb 2018 10:25:48 +0000
 
