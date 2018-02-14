@@ -140,6 +140,46 @@ def delete_key(ctx, fpr):
         ctx.op_delete(k, True)
 
 
+def get_keyinfo(ctx, fpr, checksigs=True):
+    ctx.set_keylist_mode(gpg.constants.keylist.mode.SIGS)
+    key = ctx.get_key(fpr)
+    for subkey in key.subkeys:
+        if subkey.fpr == fpr:
+            keytype = str(subkey.length)
+            if subkey.pubkey_algo == gpg.constants.pk.RSA:
+                keytype += 'R'
+            elif subkey.pubkey_algo == gpg.constants.pk.DSA:
+                keytype += 'D'
+            elif subkey.pubkey_algo == gpg.constants.pk.ECC:
+                keytype += 'E'
+            elif subkey.pubkey_algo == gpg.constants.pk.ELG:
+                keytype += 'g'
+            else:
+                keytype += '?'
+
+    sigs = {}
+    for uid in key.uids:
+        # print(uid.name, uid.email)
+        if not uid.revoked:
+            for sig in uid.signatures:
+                if sig.keyid in keyids:
+                    sigs[keyids[sig.keyid]['username']] = 1
+                # else:
+                #    print("Skipping unknown ID " + sig.keyid)
+
+    if checksigs and len(sigs) < 2:
+        raise RuntimeError('Insufficent key signatures')
+
+    certs = None
+    for sig in sorted(sigs.keys()):
+        if certs:
+            certs += ', ' + sig
+        else:
+            certs = sig
+
+    return (keytype, certs)
+
+
 def read_keyids():
     """Read the keyids file into a dict allowing a username/name mapping"""
     with open(KEYRING_BASE_DIR + 'keyids', 'r') as f:
@@ -332,40 +372,9 @@ def parse_ticket(text):
         with get_gpg_ctx() as c:
             if state['action'] == 'add':
                 state['keydata'] = fetch_key(c, state['keyid'])
-            c.set_keylist_mode(gpg.constants.keylist.mode.SIGS)
-            key = c.get_key(state['keyid'])
-            for subkey in key.subkeys:
-                if subkey.fpr == state['keyid']:
-                    state['keytype'] = str(subkey.length)
-                    if subkey.pubkey_algo == gpg.constants.pk.RSA:
-                        state['keytype'] += 'R'
-                    elif subkey.pubkey_algo == gpg.constants.pk.DSA:
-                        state['keytype'] += 'D'
-                    elif subkey.pubkey_algo == gpg.constants.pk.ECC:
-                        state['keytype'] += 'E'
-                    elif subkey.pubkey_algo == gpg.constants.pk.ELG:
-                        state['keytype'] += 'g'
-                    else:
-                        state['keytype'] += '?'
-
-            sigs = {}
-            for uid in key.uids:
-                # print(uid.name, uid.email)
-                if not uid.revoked:
-                    for sig in uid.signatures:
-                        if sig.keyid in keyids:
-                            sigs[keyids[sig.keyid]['username']] = 1
-                        # else:
-                        #    print("Skipping unknown ID " + sig.keyid)
-
-            if len(sigs) < 2:
-                raise RuntimeError('Insufficent key signatures')
-
-            for sig in sorted(sigs.keys()):
-                if 'certs' in state:
-                    state['certs'] += ', ' + sig
-                else:
-                    state['certs'] = sig
+            keyinfo = get_keyinfo(c, state['keyid'])
+            state['keytype'] = keyinfo[0]
+            state['certs'] = keyinfo[1]
 
     return state
 
