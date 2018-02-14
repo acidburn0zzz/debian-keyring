@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Copyright (c) 2017 Jonathan McDowell <noodles@earth.li>
+# Copyright (c) 2017-2018 Jonathan McDowell <noodles@earth.li>
 # GNU GPL; v2 or later
 #
 # Process RT tickets for keyring-maint@debian as raised by the
@@ -370,11 +370,17 @@ def parse_ticket(text):
     # Get the key length + type, plus signatures from other DDs
     if 'keyid' in state:
         with get_gpg_ctx() as c:
-            if state['action'] == 'add':
+            if state['action'] in ('add', 'replace'):
                 state['keydata'] = fetch_key(c, state['keyid'])
             keyinfo = get_keyinfo(c, state['keyid'])
             state['keytype'] = keyinfo[0]
             state['certs'] = keyinfo[1]
+
+    if 'oldkeyid' in state:
+        with get_gpg_ctx() as c:
+            fetch_key(c, state['oldkeyid'])
+            keyinfo = get_keyinfo(c, state['oldkeyid'], False)
+            state['oldkeytype'] = keyinfo[0]
 
     return state
 
@@ -418,6 +424,28 @@ def do_action(state):
             if state['dest'] == 'DM':
                 with get_gpg_ctx() as c:
                     delete_key(c, state['keyid'])
+        keyids[state['keyid'][24:]] = {
+            'name':     state['subject'],
+            'username': state['username'],
+        }
+        write_keyids()
+        subprocess.call(['git', 'add', 'keyids'])
+    elif state['action'] == 'replace':
+        state['logmsg'] = ('Replace 0x' + state['oldkeyid'][24:] + ' with 0x' +
+                           state['keyid'][24:] + ' (' + state['subject'] +
+                           ') (RT #' + state['rtid'] + ')')
+
+        keyfile = role2keyring[state['role']] + '/0x' + state['keyid'][24:]
+        with open(keyfile, 'wb') as f:
+            f.write(state['keydata'])
+        subprocess.call(['git', 'add', keyfile])
+        subprocess.call(['git', 'rm', role2keyring[state['role']] + '/0x' +
+                                      state['oldkeyid'][24:]])
+
+        # Remove the replaced key
+        with get_gpg_ctx() as c:
+            delete_key(c, state['oldkeyid'])
+
         keyids[state['keyid'][24:]] = {
             'name':     state['subject'],
             'username': state['username'],
@@ -470,8 +498,14 @@ def do_git_template(state):
         if 'username' in state:
             f.write("Username: " + state['username'] + "\n")
         f.write("Role: " + state['role'] + "\n")
-        f.write("Key: " + state['keyid'] + "\n")
-        f.write("Key-type: " + state['keytype'] + "\n")
+        if state['action'] == 'replace':
+            f.write("Old-key: " + state['oldkeyid'] + "\n")
+            f.write("Old-key-type: " + state['oldkeytype'] + "\n")
+            f.write("New-key: " + state['keyid'] + "\n")
+            f.write("New-key-type: " + state['keytype'] + "\n")
+        else:
+            f.write("Key: " + state['keyid'] + "\n")
+            f.write("Key-type: " + state['keytype'] + "\n")
         f.write("RT-Ticket: " + state['rtid'] + "\n")
         f.write("Request-signed-by: " + state['requester'] + "\n")
         if state['action'] != 'remove':
