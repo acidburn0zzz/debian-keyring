@@ -1,9 +1,42 @@
-debian-keyring (2018.02.xx) UNRELEASED; urgency=medium
+debian-keyring (2018.02.17) UNRELEASED; urgency=medium
 
+  [ Jonathan McDowell ]
   * Replace 0x33BE1A0A8C2ED8FF with 0x3DF4600039A140C4 (Mehdi Dogguy)
     (RT #7105)
 
- -- Jonathan McDowell <noodles@earth.li>  Fri, 16 Feb 2018 10:34:43 +0000
+  [ Gunnar Wolf ]
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:3
+    * 0x2124AA1983785C90 Rafael Laboissière <rafael> sig:2
+    * 0x2AFBD67FD133AC6E Martin Meredith <mez> uid:2 sig:15
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:3
+    * 0x357312559D1E064B Ondřej Nový <onovy> sig:9
+    * 0x5556A34E04A3610B Sascha Steinbiss <satta> sig:5
+    * 0x69064B0195206DD3 Richard Michael Hartmann <richih> sig:5
+    * 0x69F30763DFEFC134 Steven Chamberlain <stevenc> sig:3
+    * 0x6E608B637D8967E9 Miguel Landaeta <nomadium> sig:13
+    * 0x6EA4D2311A2D268D Andrew Shadura <andrewsh> sig:9
+    * 0x7127E5ABEEF946C8 Mirco Bauer <meebey> sub:3 sig:3
+    * 0x76D58093F540ABCD Iain R. Learmonth <irl> sig:6
+    * 0x9605A1098C63B92A Edward John Betts <edward> sig:5
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:28
+    * 0xA1B09B42333961E8 Evgeni Golov <evgeni> sub:2 sig:2
+    * 0xA81CEA22BC8C7E2E Luca Boccassi <bluca> sig:7
+    * 0xAEED6158020EAFFF James Cowgill <jcowgill> sig:10
+    * 0xAFCFEC8E669CE1C2 Graham Inggs <ginggs> sig:3
+    * 0xB8E5087766475AAF Nicolas Dandrimont <olasd> sig:3
+    * 0xC38E8160A17841FE Aron Xu <aron> sub:2 sig:2
+    * 0xD6D09BE48405BBF6 Mathias Behrle <mbehrle> sig:16
+    * 0xD9EEBFB4B66B10F0 Timo Weingärtner <tiwe> sig:6
+    * 0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:6
+    * 0xFFCE1C9A4FADF197 Jeremy T. Bouse <jbouse> sig:2
+    * 0x06C285ACEF93257A Tiago Ilieve [DM] sig:1
+    * 0x3C4107E6826C40E4 Valentin Vidic [DM] sig:12
+    * 0x427E381D05190E55 Kyle John Robbertze <paddatrapper> sig:3
+    * 0x554297EDF9CCA585 Guo Yixuan (郭溢譞) [DM] sig:3
+    * 0xF55BCED79626AE9C Raoul Snyman [DM] sig:1
+
+ -- Gunnar Wolf <gwolf@debian.org>  Sat, 17 Feb 2018 21:18:24 -0600
 
 debian-keyring (2018.02.07) unstable; urgency=high
 
