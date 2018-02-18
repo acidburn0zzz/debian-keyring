@@ -1,4 +1,4 @@
-debian-keyring (2018.02.17) UNRELEASED; urgency=medium
+debian-keyring (2018.02.17) unstable; urgency=high
 
   [ Jonathan McDowell ]
   * Replace 0x33BE1A0A8C2ED8FF with 0x3DF4600039A140C4 (Mehdi Dogguy)
