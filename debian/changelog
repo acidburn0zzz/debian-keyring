@@ -1,6 +1,11 @@
 debian-keyring (2018.02.18) unstable; urgency=high
 
+  [ Jonathan McDowell ]
   * Fix inadvertently added weak key
+
+  [ Gunnar Wolf ]
+  * Update cheatsheets with the right URL scheme for the public Git
+    repository
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 18 Feb 2018 18:34:12 +0000
 

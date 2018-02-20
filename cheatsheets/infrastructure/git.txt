@@ -30,7 +30,7 @@ This tree can also be browsed online at:
 
 So, when you push a new revision, do:
 
-$ git push ssh://salsa.debian.org/debian-keyring/keyring.git master
+  $ git push git@salsa.debian.org:debian-keyring/keyring.git master
 
 Signing commits
 ---------------
