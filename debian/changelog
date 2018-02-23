@@ -7,6 +7,7 @@ debian-keyring (2018.02.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xDFFAD8197617EF19 (Dennis van Dok) (RT #7114)
   * Add new DD key 0x1CF792111B5228B0 (Alexandre Mestiashvili) (RT
     #7124)
+  * Move 0x201C31294D5843EA (Turbo Fredriksson) to emeritus (RT #7125)
 
   [ Jonathan McDowell ]
   * Remove 0x07A198C172BD757F (Jose Carlos Garcia Sogo) (RT #7123)
