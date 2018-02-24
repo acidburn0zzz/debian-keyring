@@ -1,4 +1,4 @@
-debian-keyring (2018.02.xx) UNRELEASED; urgency=medium
+debian-keyring (2018.02.24) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Add new DM key 0x39FE11201A31555C (Maarten van Gompel) (RT #7113)
@@ -34,7 +34,7 @@ debian-keyring (2018.02.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x86338E22F1A65643 (Innocent De Marchi) (RT #7129)
   * Add new DM key 0xF505691E3867FB84 (David Rabel) (RT #7128)
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 21 Feb 2018 12:34:12 -0600
+ -- Jonathan McDowell <noodles@earth.li>  Sat, 24 Feb 2018 19:41:34 +0000
 
 debian-keyring (2018.02.18) unstable; urgency=high
 
