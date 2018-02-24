@@ -30,6 +30,7 @@ debian-keyring (2018.02.xx) UNRELEASED; urgency=medium
     * 0xD929F2992BEF0A33 Didier Raboud <odyx> sig:1
     * 0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:8
     * 0xFE558C72A67013C3 Maarten Bernardus Lankhorst <maarten> uid:1 sig:2
+  * Add new DD key 0xECB73E37E887AA8C (Tomasz Rybak) (RT #7127)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 21 Feb 2018 12:34:12 -0600
 
