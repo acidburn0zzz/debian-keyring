@@ -11,6 +11,8 @@ debian-keyring (2018.02.xx) UNRELEASED; urgency=medium
 
   [ Jonathan McDowell ]
   * Remove 0x07A198C172BD757F (Jose Carlos Garcia Sogo) (RT #7123)
+  * Add new DN key 0x7AEAC4EC6AAA0A97 (Louis-Philippe Véronneau) (RT
+    #7126)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 21 Feb 2018 12:34:12 -0600
 
