@@ -24,7 +24,7 @@ debug = False
 RT_BASE_URL = 'https://rt.debian.org/REST/1.0/'
 KEYSERVER = 'the.earth.li:11371'
 DAM = ['enrico', 'joerg', 'jmw', 'myon']
-FD = DAM + ['noodles']
+FD = DAM + ['noodles', 'mattia', 'santiago']
 
 # Try to find the keyring base directory, assuming we live in /scripts/
 basedir = os.path.dirname(os.path.dirname(os.path.realpath(sys.argv[0]))) + '/'
