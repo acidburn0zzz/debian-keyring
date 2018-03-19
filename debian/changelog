@@ -9,6 +9,7 @@ debian-keyring (2018.02.xx) UNRELEASED; urgency=medium
   * Add new DD key 0xB79A3C16A0C4F296 (Dominik George) (RT #7171)
   * Add new DD key 0x04C53BD7FE030551 (Julien Puydt) (RT #7172)
   * Add new DD key 0xD0EB762865FC5E36 (Sergio Durigan Junior) (RT #7173)
+  * Remove 0xC43570F80CC295E6 (Per Olofsson) (RT #7178)
 
   [ Gunnar Wolf ]
   * Add new DD key 0xA77F88FDCA2B915D (Mattias Wadenstein) (RT #5672)
