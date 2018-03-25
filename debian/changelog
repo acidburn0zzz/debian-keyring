@@ -18,6 +18,87 @@ debian-keyring (2018.02.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x4A55C497F744F705 (Toke Høiland-Jørgensen) (RT
     #7168)
   * Add new DM key 0xAE9B1138386ECAF2 (Gabriel F. T. Gomes) (RT #7183)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x0664A76954265E8C Simon Josefsson <jas> sig:5
+    * 0x083781A2D2ACE48B Adriano Rafael Gomes <adrianorg> sub:1 sig:4
+    * 0x091AB856069AAA1C Holger Levsen <holger> sig:3
+    * 0x0ABA650372FD9571 Thadeu Cascardo <cascardo> sig:5
+    * 0x116F5E3AB368A4EB Marc Fournier [DM] sig:1
+    * 0x12AC1A730BB56F6C Miguel A. Colón Vélez [DM] sig:1
+    * 0x1318EFAC5FBBDBCE Ximin Luo <infinity0> sub:1 sig:11
+    * 0x16099E15596AE928 Jean Schurger (Ubity) [DM] sig:4
+    * 0x1784577F811F6EAC Brian May <bam> sub:1 sig:1
+    * 0x1CF792111B5228B0 Alexandre Mestiashvili <mestia> uid:2 sig:3
+    * 0x1E953E27D4311E58 Chris Lamb <lamby> sig:3
+    * 0x223AE055BD94E154 Milan Kupcevic <milan> sig:8
+    * 0x2894E93A28C67B47 Zygmunt Krynicki [DM] sig:6
+    * 0x298E9A19AAC0E286 Robert Collins <robertc> sig:2
+    * 0x2BF8D9FE074BCDE4 Thomas Lange <lange> sig:2
+    * 0x2C3B436FEAC68101 Adam Borowski <kilobyte> sig:1
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:3
+    * 0x357312559D1E064B Ondřej Nový <onovy> sig:3
+    * 0x3C4107E6826C40E4 Valentin Vidic [DM] sig:9
+    * 0x427E381D05190E55 Kyle John Robbertze <paddatrapper> sig:6
+    * 0x478112D54B1AC295 Sven Mueller <sven> sig:3
+    * 0x4B043FCDB9444540 Mattia Rizzolo <mattia> sig:5
+    * 0x4BC80A69432387E8 Santiago Ruano Rincón <santiago> sub:1 sig:1
+    * 0x55E9F9F7AC1C443F Marc Dequènes <duck> sig:1
+    * 0x578A0494D1C646D1 Andreas Tille <tille> sig:87
+    * 0x57930DAB0B86B067 Joost van Baal <joostvb> sig:8
+    * 0x587979573442684E Steve McIntyre <93sam> sig:2
+    * 0x58C0FB1CDE3B7600 Tristan Seligmann <mithrandi> sig:7
+    * 0x5AD75B414EA41667 Georg Faerber <georg> sig:1
+    * 0x5E62533F19765111 Tzafrir Cohen <tzafrir> sig:3
+    * 0x5E946C090AFF0427 Jose Luis Rivero [DM] sig:1
+    * 0x61F7985DB84E0B04 Adrian Vondendriesch [DM] sig:3
+    * 0x664F1238AA8F138A Daniel Lange <dlange> sig:1
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:5
+    * 0x69F30763DFEFC134 Steven Chamberlain <stevenc> sig:2
+    * 0x6A49B19728ABDD92 Paul Brossier <piem> sig:6
+    * 0x6EA4D2311A2D268D Andrew Shadura <andrewsh> sub:2 sig:2
+    * 0x71396D61F1C09EFB Alejandro Garrido Mota <mogaal> sig:4
+    * 0x74263B37F5B5F913 John Paul Adrian Glaubitz <glaubitz> sig:8
+    * 0x792152527B75921E Antoine Beaupré <anarcat> sig:3
+    * 0x7AEAC4EC6AAA0A97 Louis-Philippe Véronneau <pollo> uid:1 sig:10
+    * 0x7F55BB12A40F862E Neil McGovern <neilm> sig:2
+    * 0x83E33BD7D4DD4CA1 Jerome Charaoui <lavamind> sig:1
+    * 0x88237A6A53AB1B2E Harlan Lieberman-Berg <hlieberman> sub:2 sig:7
+    * 0x8F7BF8FC4A11C97A Ryan Kavanagh <rak> uid:1 sig:1
+    * 0x8FF1CB6E8D89059F Sylvain Beucler <beuc> sig:2
+    * 0x9605A1098C63B92A Edward John Betts <edward> sig:6
+    * 0x965522B9D49AE731 Christoph Egger <christoph> sig:9
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:4
+    * 0x992D23B392F9E4F2 Loic Dachary <loic> sub:1 sig:1
+    * 0x9AF46B3025771B31 Mike Gabriel <sunweaver> sig:33
+    * 0x9C31503C6D866396 Stefano Zacchiroli <zack> uid:1 sig:13
+    * 0x9D0B5E5B1EEC8F0E Faidon Liambotis <paravoid> sig:1
+    * 0x9EA33414F5852F4E Benjamin Mako Hill <mako> sig:3
+    * 0xA2B91BC6CD4EBDDC Stéphane Blondon <sblondon> sig:1
+    * 0xA2D13001D98C0FBA Don Armstrong <don> sub:1 sig:1
+    * 0xA81CEA22BC8C7E2E Luca Boccassi <bluca> sig:2
+    * 0xAEED6158020EAFFF James Cowgill <jcowgill> sig:1
+    * 0xAEF6F1A2A7457645 Piotr Ożarowski <piotr> sig:4
+    * 0xAFCFEC8E669CE1C2 Graham Inggs <ginggs> sig:6
+    * 0xB14BB0C38D861CF1 Ulrike Uhlig <ulrike> sig:1
+    * 0xBED8449FCEE8DA88 Otto Kekäläinen <otto> sig:15
+    * 0xC38E8160A17841FE Aron Xu <aron> sig:7
+    * 0xC42C58EB591492FD Christoph Biedl <cbiedl> sig:1
+    * 0xCF13C21D2578B775 Sébastien Noel [DM] sig:6
+    * 0xD15D313882004173 Russ Allbery <rra> sig:1
+    * 0xD3E17383CFA7FF06 Anton Gladky <gladk> sig:3
+    * 0xD4F219BFEC998489 Magnus Holmgren <holmgren> sig:5
+    * 0xD599FF6101809E2A Elena ``of Valhalla'' [DM] sig:8
+    * 0xD8EED7F3C83BFA9A Sebastian Reichel <sre> sig:6
+    * 0xD929F2992BEF0A33 Didier Raboud <odyx> sig:7
+    * 0xDA82830E3CCC3A3A Alexandre Viau <aviau> sig:3
+    * 0xDECF849AA6357FB7 Tobias Frost <tobi> sig:3
+    * 0xDF23DA3396978EB3 Michael Meskes <meskes> sig:29
+    * 0xE66C775AEBFE6C7D Jeremy Bicha <jbicha> sig:2
+    * 0xECB73E37E887AA8C Tomasz Rybak <serpent> uid:1 sig:1
+    * 0xEDC8C8240F688E68 Héctor Romojaro Gómez [DM] sig:8
+    * 0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:4
+    * 0xF6AEF2AFD17897FA Vincent Danjean <vdanjean> sub:1 sig:14
+    * 0xFB0E132DDB0AA5B1 Daniel Lenharo de Souza <lenharo> uid:1 sig:7
 
   [ Gunnar Wolf ]
   * Add new DD key 0xA77F88FDCA2B915D (Mattias Wadenstein) (RT #5672)
