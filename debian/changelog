@@ -17,6 +17,7 @@ debian-keyring (2018.02.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x6863EF9F8CFE190D (Andrea Bolognani) (RT #7167)
   * Add new DM key 0x4A55C497F744F705 (Toke Høiland-Jørgensen) (RT
     #7168)
+  * Add new DM key 0xAE9B1138386ECAF2 (Gabriel F. T. Gomes) (RT #7183)
 
   [ Gunnar Wolf ]
   * Add new DD key 0xA77F88FDCA2B915D (Mattias Wadenstein) (RT #5672)
