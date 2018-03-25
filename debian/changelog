@@ -12,6 +12,8 @@ debian-keyring (2018.02.xx) UNRELEASED; urgency=medium
   * Remove 0xC43570F80CC295E6 (Per Olofsson) (RT #7178)
   * Add new DM key 0xC2EAA8A26ADC59EE (David Mohammed) (RT #7187)
   * Add new DM key 0x5B39C0A1153ACABA (Tim Lunn) (RT #7165)
+  * Add new DM key 0x524DD2227A5017ED (Rebecca Natalie Palmer) (RT
+    #7166)
 
   [ Gunnar Wolf ]
   * Add new DD key 0xA77F88FDCA2B915D (Mattias Wadenstein) (RT #5672)
