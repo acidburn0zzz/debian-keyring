@@ -2,6 +2,7 @@ debian-keyring (2018.04.xx) UNRELEASED; urgency=medium
 
   * Add new DM key 0x0x2E20FEEE71FC7D81 (Dmitry Bogatov) (RT #7199)
   * Add new DM key 0xF7D3FAD933286674 (Bjorn Anders Dolk) (RT #7190)
+  * Add new DM key 0x065FE53932DC551D (Geoffroy Youri Berret) (RT #7191)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sun, 01 Apr 2018 12:49:46 -0500
 
