@@ -5,6 +5,7 @@ debian-keyring (2018.04.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x065FE53932DC551D (Geoffroy Youri Berret) (RT #7191)
   * Add new DM key 0x199BF1243632046A (Dmitry Eremin-Solenikov) (RT
     #7225)
+  * Add new DD key 0xE33E61A2E9B8C3A2 (Göran Weinholt) (RT #7227)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sun, 01 Apr 2018 12:49:46 -0500
 
