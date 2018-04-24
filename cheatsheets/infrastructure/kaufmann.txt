@@ -4,9 +4,9 @@ kaufmann.debian.org layout
 mosca$ make
 mosca$ gpg --clearsign output/sha512sums.txt
 mosca$ mv output/sha512sums.txt.asc output/sha512sums.txt
-mosca$ scp output/sha512sums.txt kaufmann.debian.org:/srv/keyring.debian.org/pub/output
-mosca$ scp output/keyrings/* kaufmann.debian.org:/srv/keyring.debian.org/pub/output/keyrings
-mosca$ git push ssh://git.debian.org/git/keyring/keyring.git master
+mosca$ scp output/sha512sums.txt kaufmann.debian.org:/srv/keyring.debian.org/pub
+mosca$ scp output/keyrings/* kaufmann.debian.org:/srv/keyring.debian.org/pub/keyrings
+mosca$ git push git@salsa.debian.org:debian-keyring/keyring.git master
 
 kaufmann$ cat /home/noodles/update-keyrings 
 #!/bin/bash

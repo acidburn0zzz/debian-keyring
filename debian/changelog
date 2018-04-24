@@ -1,5 +1,6 @@
-debian-keyring (2018.04.xx) UNRELEASED; urgency=medium
+debian-keyring (2018.04.24) unstable; urgency=medium
 
+  * Updated kaufmann cheatsheet
   * Add new DM key 0x0x2E20FEEE71FC7D81 (Dmitry Bogatov) (RT #7199)
   * Add new DM key 0xF7D3FAD933286674 (Bjorn Anders Dolk) (RT #7190)
   * Add new DM key 0x065FE53932DC551D (Geoffroy Youri Berret) (RT #7191)
@@ -10,8 +11,67 @@ debian-keyring (2018.04.xx) UNRELEASED; urgency=medium
   * Add new DD key 0xD599FF6101809E2A (Elena Grandi) (RT #7220)
   * Add new DD key 0x651EEFB02527DF13 (Peter Pentchev) (RT #7221)
   * Add new DD key 0x59895E44B169626D (Samuel Henrique) (RT #7222)
+  * Updates from keyring.debian.org HKP interface:
+    0x003A1A2DAA41085F Bastien Roucariès <rouca> sig:6
+    0x02541A371530B71F Gert Wollny <gewo> uid:1 sub:1 sig:4
+    0x0ABA650372FD9571 Thadeu Cascardo <cascardo> sig:6
+    0x0BD9E81139CB4807 Henrique de Moraes Holschuh <hmh> sub:2 sig:4
+    0x14135D277B88D7E5 YunQiang Su <syq> sub:1 sig:1
+    0x1C2816907136AE39 Georges Khaznadar <georgesk> sig:3
+    0x1E45F8CA9DE23B16 Alexander Wirt <formorer> sig:5
+    0x1EEF53D38A3A9C67 Andreas Boll <aboll> uid:1 sig:2
+    0x223AE055BD94E154 Milan Kupcevic <milan> sig:50
+    0x250533CCA29B764F Enrico Tassi <gareuselesinge> sig:1
+    0x2FD8BEDAC020EED1 Steffen Moeller <moeller> sig:3
+    0x30550F7871EF0BA8 Yves-Alexis Perez <corsac> sig:4
+    0x39091E8123CE1C09 Prach Pongpanich <prach> sig:2
+    0x3A936196C095D941 Bdale Garbee <bdale> sig:26
+    0x3D908AB3F0FBF51F Joachim Breitner <nomeata> uid:1 sig:3
+    0x3DF4600039A140C4 Mehdi Dogguy <mehdi> sig:6
+    0x44BB1BA79F6C6333 Gustavo Panizzo <gfa> sub:3 sig:3
+    0x5394479DD3524C51 Jonathan Wiltshire <jmw> sig:6
+    0x6C8F74AE87700B7E Vasudev Sathish Kamath <vasudev> sig:6
+    0x726746E0F0BC8365 Erik Schanze <eriks> sig:4
+    0x78DC68DB326D8438 Oliver Sallou <osallou> sig:4
+    0x792152527B75921E Antoine Beaupré <anarcat> sig:18
+    0x7CFCD8CD257721E9 Vagrant Cascadian <vagrant> sig:8
+    0x97C2C6AB313C7B03 Arnaud Fontaine <arnau> uid:1 sig:1
+    0x98561D2D2502FE39 Cord Beermann <cord> sig:5
+    0x9AFB7B8C9A5F5BBC Heiko Stübner <mmind> sub:1 sig:1
+    0xA628CB5FA48F065A Matthew Brown <mattb> sig:3
+    0xAB645F406286A7D0 Lisandro Damián Nicanor Pérez Meyer <lisandro> sig:6
+    0xB01FEA84617B586D Andreas B. Mundt <andi> sig:5
+    0xB79A3C16A0C4F296 Dominik George <natureshadow> uid:1 sig:1
+    0xBC372252CA1CF964 Ansgar Burchardt <ansgar> sig:6
+    0xC7F7F9660D82A682 Laurent Bigonville <bigon> sig:3
+    0xD04BA3A00125D5C0 Philip Hands <philh> sig:22
+    0xD0EB762865FC5E36 Sergio Durigan Junior <sergiodj> uid:1 sig:1
+    0xD2277E455D3983A0 Arjan Oosting <arjan> sig:6
+    0xDE63B9C704EBE9EF Joao Eriberto Mota Filho <eriberto> sub:1 sig:1
+    0xE9E28DEA00AA5556 Hans-Christoph Steiner <eighthave> sig:3
+    0xED6C8A3883476455 Stephen Frost <sfrost> sig:6
+    0xEED5716B078E43D4 Lionel Elie Mamane <lmamane> sub:1 sig:2
+    0xF34F09744E9F5DD9 Gianfranco Costamagna <locutusofborg> sig:6
+    0xF50EFDCF8AD04B1A Philipp Matthias Hahn <pmhahn> sig:8
+    0xFF55C8F4DAE92422 Martin Buck <mbuck> sig:5
+    0x0D442664194974E2 Pierre-Elliott Bécue <peb> uid:1 sig:5
+    0x40BFEE868B055D9A Tom Marble [DM] sig:1
+    0x5AD75B414EA41667 Georg Faerber <georg> uid:1 sig:2
+    0x5B39C0A1153ACABA Tim Lunn <darkxst> sig:1
+    0x5E0195FAF2133176 Enrico Rossi [DM] sub:3 sig:9
+    0x5E946C090AFF0427 Jose Luis Rivero [DM] uid:1 sig:1
+    0x689A04020D7EA9A1 Sebastian Humenda [DM] sig:7
+    0x863D4DF2ED9C28EF Abhijith PA [DM] uid:1 sig:9
+    0x94842BC86E511C31 Rolf Leggewie [DM] sig:2
+    0x9A5B6D03F5EF96D7 Jan Luca Naumann [DM] sig:3
+    0xC66D06B40443C450 Paulo Henrique de Lima Santana (phls) [DM] sig:4
+    0xEBE4E3EE94176FC2 Olek Wojnar [DM] uid:1 sig:2
+    0xEC371482956781AF Sven Eckelmann [DM] sig:7
+    0x7F55BB12A40F862E Neil McGovern <neilm> sig:1
+    0xDB686C92D9D59F61 Francesca Ciceri <madamezou> sig:1
+    0xE5EC4AC9BD627B05 Donald Norwood <donald> sig:1
 
- -- Gunnar Wolf <gwolf@debian.org>  Sun, 01 Apr 2018 12:49:46 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Sun, 24 Apr 2018 14:29:46 -0500
 
 debian-keyring (2018.03.24) unstable; urgency=medium
 
