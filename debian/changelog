@@ -71,7 +71,7 @@ debian-keyring (2018.04.24) unstable; urgency=medium
     0xDB686C92D9D59F61 Francesca Ciceri <madamezou> sig:1
     0xE5EC4AC9BD627B05 Donald Norwood <donald> sig:1
 
- -- Gunnar Wolf <gwolf@debian.org>  Sun, 24 Apr 2018 14:29:46 -0500
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 24 Apr 2018 14:35:46 -0500
 
 debian-keyring (2018.03.24) unstable; urgency=medium
 
