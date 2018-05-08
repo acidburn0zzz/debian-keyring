@@ -3,6 +3,7 @@ debian-keyring (2018.05.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xA5E6BCA629BA4127 (Andre Bianchi) (RT #7240)
   * Replace 0x67DA2448A9A3EDD5 with 0x6ACEDAAE40DD2B46 (Xavier Guimard)
     (RT #7242)
+  * Add new DM key 0xE27F2CF8458C2FA4 (Simon Quigley) (RT #7253)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 02 May 2018 10:01:06 -0500
 
