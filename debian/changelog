@@ -6,6 +6,61 @@ debian-keyring (2018.05.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xE27F2CF8458C2FA4 (Simon Quigley) (RT #7253)
   * Remove 0xFE88AC6C19048885 (Massimo Dal Zotto) (RT #7264)
   * Remove 0x0A5042F49751031C (Cesar Mendoza) (RT #7266)
+  * Updates from keyring.debian.org HKP interface:
+    0x7F55BB12A40F862E Neil McGovern <neilm> sig:2
+    0xFB0E132DDB0AA5B1 Daniel Lenharo de Souza <lenharo> sig:3
+    0x1A09227B1F435A33 Paul Hardy [DM] sig:4
+    0x5AD75B414EA41667 Georg Faerber <georg> sig:8
+    0xB3A7CF0C801886CF Salvo 'LtWorf' Tomaselli [DM] sig:7
+    0xDFFAD8197617EF19 Dennis van Dok <dvandok> sig:1
+    0x00018C22381A7594 Sébastien Villemot <sebastien> sig:33
+    0x02285210789038F2 Agustin Henze <tin> sig:1
+    0x025AFE95AC9DF31B Markus Wanner <markus> uid:1 sub:2 sig:11
+    0x0ABA650372FD9571 Thadeu Cascardo <cascardo> sig:5
+    0x0C99B70EF4FCBB07 Ondřej Surý <ondrej> sig:4
+    0x1302F1F036EBEB19 Tobias Quathamer <toddy> sig:3
+    0x194B631AB2DA2888 Andreas Rönnquist <gusnan> uid:1 sig:8
+    0x1CD8D854FE4252C1 Noah Meyerhans <noahm> sub:1 sig:1
+    0x223AE055BD94E154 Milan Kupcevic <milan> sig:8
+    0x2D191C8843B13F4D Pino Toscano <pino> sig:2
+    0x30550F7871EF0BA8 Yves-Alexis Perez <corsac> sig:2
+    0x357312559D1E064B Ondřej Nový <onovy> sig:3
+    0x393587D97D86500B Colin Watson <cjwatson> sig:4
+    0x3F9219A67F36C68B Jerome Georges Benoit <calculus> sig:3
+    0x44E17740B8611E9C Lars Wirzenius <lars> sig:5
+    0x587979573442684E Steve McIntyre <93sam> sig:6
+    0x60A68FF308C2BFDB Carsten Leonhardt <leo> sig:6
+    0x651EEFB02527DF13 Peter Pentchev <roam> uid:1 sig:1
+    0x6B7498FCB9B358AC Frédéric Bonnard <frediz> uid:1 sig:1
+    0x6C6ACD6417B3ACB1 Roger Shimizu <rosh> sig:1
+    0x6E608B637D8967E9 Miguel Landaeta <nomadium> sub:3 sig:3
+    0x6EA4D2311A2D268D Andrew Shadura <andrewsh> sig:4
+    0x7127E5ABEEF946C8 Mirco Bauer <meebey> sub:3 sig:3
+    0x74263B37F5B5F913 John Paul Adrian Glaubitz <glaubitz> sig:3
+    0x7853DA4D49881AD3 Stéphane Glondu <glondu> sub:3 sig:4
+    0x789D6F057FD863FE Salvatore Bonaccorso <carnil> sig:17
+    0x792152527B75921E Antoine Beaupré <anarcat> sig:3
+    0x7F7606A445DCA80E Manuel A. Fernandez Montecelo <mafm> sig:2
+    0x9605A1098C63B92A Edward John Betts <edward> sig:5
+    0x97BA9CE761A0963B John Sullivan <johns> sig:2
+    0x9C5C99EB05BD750A Paul Gevers <elbrus> sig:28
+    0xA77F88FDCA2B915D Mattias Wadenstein <maswan> sig:4
+    0xAEED6158020EAFFF James Cowgill <jcowgill> sig:3
+    0xAFF1D4BDB69135D0 Mikael Djurfeldt <mdj> sig:4
+    0xB2DE88D3113A1368 Hubert Chathi <uhoreg> sig:12
+    0xB3464F896AA15948 Ana Beatriz Guerrero López <ana> sig:6
+    0xB77D2E2E23735427 Balasankar C <balasankarc> sig:2
+    0xBA9C78061DDD8C9B Aurelien Jarno <aurel32> sig:6
+    0xD04BA3A00125D5C0 Philip Hands <philh> sig:1
+    0xD599FF6101809E2A Elena Grandi <valhalla> uid:1 sig:7
+    0xDB16CF5BB12525C4 Joerg Jaspert <joerg> sig:4
+    0xDECF849AA6357FB7 Tobias Frost <tobi> sig:11
+    0xDF6D76C44D696F6B Sven Bartscher <kritzefitz> sig:8
+    0xE197012676B9B739 David Kalnischkies <donkult> sig:6
+    0xE33E61A2E9B8C3A2 Göran Weinholt <weinholt> uid:1 sig:2
+    0xF34F09744E9F5DD9 Gianfranco Costamagna <locutusofborg> sig:2
+    0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:4
+    0xF6D3495BB0AE9A02 Clint Adams <clint> sig:9
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 02 May 2018 10:01:06 -0500
 
