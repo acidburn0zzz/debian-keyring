@@ -61,6 +61,7 @@ debian-keyring (2018.05.xx) UNRELEASED; urgency=medium
     0xF34F09744E9F5DD9 Gianfranco Costamagna <locutusofborg> sig:2
     0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:4
     0xF6D3495BB0AE9A02 Clint Adams <clint> sig:9
+  * Updated the "Pulling HKP changes" cheatsheet to reflect reality
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 02 May 2018 10:01:06 -0500
 
