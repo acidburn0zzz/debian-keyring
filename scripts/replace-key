@@ -80,6 +80,8 @@ if [ "$oldkeyalg" == "1" ]; then
     oldkeyalg='R'
 elif [ "$oldkeyalg" == "17" ]; then
     oldkeyalg='D'
+elif [ "$oldkeyalg" == "22" ]; then
+    oldkeyalg='E'
 else
     oldkeyalg='UNK'
 fi
@@ -88,6 +90,8 @@ if [ "$newkeyalg" == "1" ]; then
     newkeyalg='R'
 elif [ "$newkeyalg" == "17" ]; then
     newkeyalg='D'
+elif [ "$oldkeyalg" == "22" ]; then
+    oldkeyalg='E'
 else
     newkeyalg='UNK'
 fi

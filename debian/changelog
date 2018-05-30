@@ -2,6 +2,8 @@ debian-keyring (2018.05.xx) UNRELEASED; urgency=medium
 
   * Replace 0x1318EFAC5FBBDBCE with 0x56034877E1F87C35 (Ximin Luo) (RT
     #7291)
+  * Modified scripts/replace-key to recognize keys based in Edwards
+    curves (ED25519)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 30 May 2018 10:05:20 -0500
 
