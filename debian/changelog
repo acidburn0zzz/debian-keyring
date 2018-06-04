@@ -47,6 +47,7 @@ debian-keyring (2018.05.xx) UNRELEASED; urgency=medium
     * 0xF823A2729883C97C Lucas Kanashiro <kanashiro> sig:5
     * 0xFB0E132DDB0AA5B1 Daniel Lenharo de Souza <lenharo> sig:3
   * Remove 0xDB2F706FDF11900A (Francois Gurin) (RT #7286)
+  * Add new DM key 0x4D99F6660A59827B (Raphaël Halimi) (RT #7293)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 30 May 2018 10:05:20 -0500
 
