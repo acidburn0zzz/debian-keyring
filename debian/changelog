@@ -14,6 +14,38 @@ debian-keyring (2018.05.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xE5F43F9C2734F287 (Andrius Merkys) (RT #7282)
   * Add new DM key 0x885FDAB331FED834 (Tong Sun) (RT #7284)
   * Add new DM key 0x2EC3F60DE71C0B9D (James Lu) (RT #7285)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x0098F6131EB86413 Ilias Tsitsimpis <iliastsi> sig:4
+    * 0x083781A2D2ACE48B Adriano Rafael Gomes <adrianorg> sig:3
+    * 0x1CD8D854FE4252C1 Noah Meyerhans <noahm> sig:2
+    * 0x30550F7871EF0BA8 Yves-Alexis Perez <corsac> sig:2
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:3
+    * 0x3B5C2C71A218D83C Jean-Michel Vourgère <nirgal> sig:2
+    * 0x57930DAB0B86B067 Joost van Baal <joostvb> sig:5
+    * 0x5A8830475F7D1061 Nicholas D Steeves [DM] sig:1
+    * 0x5AD75B414EA41667 Georg Faerber <georg> sig:3
+    * 0x6863EF9F8CFE190D Andrea Bolognani <bolo> sig:2
+    * 0x68C078BE88F80CDA Noèl Köthe <noel> sig:4
+    * 0x6ACEDAAE40DD2B46 Xavier Guimard [DM] uid:1 sig:3
+    * 0x751AB5DDA79679CC Jimmy Kaplowitz <jimmy> sig:8
+    * 0x78494EF72375A66C Giovani Augusto Ferreira <giovani> sig:1
+    * 0x7853DA4D49881AD3 Stéphane Glondu <glondu> sig:36
+    * 0x789D6F057FD863FE Salvatore Bonaccorso <carnil> sig:5
+    * 0x7F7606A445DCA80E Manuel A. Fernandez Montecelo <mafm> sig:2
+    * 0x8382C95C29023DF9 Jérémy Bobbio <lunar> sig:4
+    * 0x8CBF9A322861A790 Micah Anderson <micah> sig:2
+    * 0x9605A1098C63B92A Edward John Betts <edward> sig:7
+    * 0x96A87872B7EA3737 Michael Prokop <mika> sig:19
+    * 0x9C5C99EB05BD750A Paul Gevers <elbrus> sig:3
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sub:1 sig:7
+    * 0xAA68ECC8E9800953 Matt Taggart <taggart> sig:3
+    * 0xB77D2E2E23735427 Balasankar C <balasankarc> sig:4
+    * 0xD36F769BC11804F0 Theodore Ts'o <tytso> sig:3
+    * 0xE2DCDD9132669BD6 Uwe Kleine-König <ukleinek> sig:8
+    * 0xE3ADB00850605636 Sandro Knauß <hefee> sub:1 sig:4
+    * 0xE619045DF2AC729A Raphaël Hertzog <hertzog> sig:3
+    * 0xF823A2729883C97C Lucas Kanashiro <kanashiro> sig:5
+    * 0xFB0E132DDB0AA5B1 Daniel Lenharo de Souza <lenharo> sig:3
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 30 May 2018 10:05:20 -0500
 
