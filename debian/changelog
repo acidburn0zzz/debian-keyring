@@ -9,7 +9,8 @@ debian-keyring (2018.05.xx) UNRELEASED; urgency=medium
   [ Jonathan McDowell ]
   * Temporarily remove 0x021B361B6B031B00 (Julian Andres Klode) due to
     subkey loss
-  * Fix subkey check to cope with ECC subkeys
+  * Fix weak subkey check to cope with ECC subkeys
+  * Fix weak master key check to allow EC keys
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 30 May 2018 10:05:20 -0500
 

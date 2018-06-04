@@ -8,7 +8,7 @@ find_too_short () {
 		--keyring "./output/keyrings/$k" --list-keys --with-colons \
 		| awk -F: -v keyring=$1 \
 		'BEGIN { ok = 1 } \
-		/^pub/ { fpr = $5 ; if ($3 < 2048) { print keyring ":\t0x" $5 " is smaller than 2048 bits"; ok = 0 } } \
+		/^pub/ { fpr = $5 ; if ($3 < 2048 && $4 < 18) { print keyring ":\t0x" $5 " is smaller than 2048 bits"; ok = 0 } } \
 		/^sub/ { if ($2 != "r" && $2 != "e" && $3 < 2048 && $4 < 18) { print keyring ":\t0x" fpr " has subkey smaller than 2048 bits"; ok = 0 } } \
 		END { if (!ok) { exit 1 } }'
 }
