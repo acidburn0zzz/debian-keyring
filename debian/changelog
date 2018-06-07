@@ -4,6 +4,7 @@ debian-keyring (2018.06.xx) UNRELEASED; urgency=medium
   * Move 0x7403062689664EDE (Vincent Fourmond) to emeritus (RT #7308)
   * Move 0x75E20CCD33E749FC (Damien Raude-Morvan) to emeritus (RT #7309)
   * Add new DM key 0x5A09B4576DE8080E (Paride Legovini) (RT #7307)
+  * Move 0x05BCA9EAD562EBBE (Rudy Godoy) to emeritus (RT #7305)
 
   [ Jonathan McDowell ]
   * Add new DM key 0x8EFD9702F888B2AE (Yanhao Mo) (RT #7304)
