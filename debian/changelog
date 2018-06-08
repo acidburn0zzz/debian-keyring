@@ -1,6 +1,10 @@
 debian-keyring (2018.06.xx) UNRELEASED; urgency=medium
 
+  [ Gunnar Wolf ]
   * Move 0x7403062689664EDE (Vincent Fourmond) to emeritus (RT #7308)
+
+  [ Jonathan McDowell ]
+  * Add new DM key 0x8EFD9702F888B2AE (Yanhao Mo) (RT #7304)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 06 Jun 2018 17:55:24 -0500
 
