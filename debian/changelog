@@ -11,6 +11,8 @@ debian-keyring (2018.06.xx) UNRELEASED; urgency=medium
   [ Jonathan McDowell ]
   * Add new DM key 0x8EFD9702F888B2AE (Yanhao Mo) (RT #7304)
   * Add new DD key 0x7E0A399DB24B3B15 (Matthew Garrett) (RT #7317)
+  * Replace 0x1962765BB9A8BACA with 0x14AA1EB8A2473DFD (Hugo Lefeuvre)
+    (RT #7323)
 
  -- Gunnar Wolf <gwolf@debian.org>  Wed, 06 Jun 2018 17:55:24 -0500
 
