@@ -1,4 +1,4 @@
-debian-keyring (2018.06.xx) UNRELEASED; urgency=medium
+debian-keyring (2018.06.24) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Move 0x7403062689664EDE (Vincent Fourmond) to emeritus (RT #7308)
@@ -42,7 +42,7 @@ debian-keyring (2018.06.xx) UNRELEASED; urgency=medium
     * 0xDF6D76C44D696F6B Sven Bartscher <kritzefitz> sig:4
     * 0xEFE86C6C7FFECF83 Gilles Filippini <pini> sig:4
 
- -- Gunnar Wolf <gwolf@debian.org>  Wed, 06 Jun 2018 17:55:24 -0500
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 24 Jun 2018 12:18:11 +0100
 
 debian-keyring (2018.06.04) unstable; urgency=high
 
