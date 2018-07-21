@@ -20,7 +20,7 @@ heavily on the signature formats, and we keep our developers'
 credentials in OpenPGP certificate formats, aggregated into
 "keyrings", which are just concatenated files of OpenPGP certificates.
 
-These keyrings have a suffix of .gpg, refelcting our use of GnuPG (the
+These keyrings have a suffix of .gpg, reflecting our use of GnuPG (the
 GNU Privacy Guard), the most widely-used free software implementation
 of OpenPGP.
 
@@ -32,7 +32,7 @@ key.
 Getting debian-keyring.gpg
 --------------------------
 
-The current versions of debian-keyring.gpg is always available via
+The current version of debian-keyring.gpg is always available via
 rsync from keyring.debian.org (module keyrings).
 
 There is also a (possibly slightly out-of-date) version available on
@@ -64,7 +64,7 @@ files, keys already in the Debian keyring will not be imported to your
 personal keyring.  You can use "gpg --no-options --import" to force
 GPG to ignore gpg.conf and import keys to your personal keyring only.
 
-It also possible to use public keyservers on the net directly.  This
+It is also possible to use public keyservers on the net directly.  This
 requires that you have a working internet connection.
 Add a line to your ~/.gnupg/gpg.conf[1] file such as:
 
@@ -109,7 +109,7 @@ Also exchange key signatures with many other OpenPGP users. It all
 helps to expand and strengthen the OpenPGP web of trust.
 
 Do *NOT* certify other people's key unless you have met that person
-face to face in real life and are have verified that the person is who
+face to face in real life and have verified that the person is who
 they say they are.  One common way people can verify identity is to
 ask for a strong, unforgeable form of government-issued ID that they
 know how to check (e.g. passport, driver's license).
@@ -131,12 +131,12 @@ key(s) will be added to the keyring as part of the admission process.
 Updating your key(s)
 --------------------
 
-There is a keyserver running on keyring.debian.org, for any updates of
+There is a keyserver running on keyring.debian.org; for any updates of
 existing keys please send them there, e.g:
 
   $ gpg --keyserver=keyring.debian.org --send-keys 0x00000123ABCD0000
 
-To add a new key or remove an existing ones, please send mail to
+To add a new key or remove an existing one, please send mail to
 keyring@rt.debian.org making sure to include the words "Debian RT"
 somewhere in the subject line.
 
@@ -190,7 +190,7 @@ Gillmor <dkg@fifthhorseman.net>).  Contributions by J.H.M. Dassen
 Darren Stalder <torin@daft.com>, Norbert Veber
 <nveber@primusolutions.net> and Martin Michlmayr <tbm@cyrius.com>.
 
-Many thanks to Brendan O'Dea <bod@debian.org> who setup and wrote
+Many thanks to Brendan O'Dea <bod@debian.org> who set up and wrote
 support scripts for the keyserver on keyring.debian.org.
 
 ================================================================================
