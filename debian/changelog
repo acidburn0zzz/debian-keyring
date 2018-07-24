@@ -4,6 +4,48 @@ debian-keyring (2018.07.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x453F8D999F113609 (Phil Morrell) (RT #7343)
   * Add new DD key 0x1762E0227034CF84 (William Blough) (RT #7342)
   * Add new DM key 0x2CF0F17C43474B6F (Raúl Benencia) (RT #7361)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x021B361B6B031B00 Julian Andres Klode <jak> sig:41
+    * 0x0F56D0553B6D411B Sean Whitton <spwhitton> sig:5
+    * 0x1762E0227034CF84 William Blough <bblough> sub:2 sig:4
+    * 0x1C2816907136AE39 Georges Khaznadar <georgesk> sig:1
+    * 0x296975951879E9CC Leo Singer [DM] sig:1
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:6
+    * 0x2EC0FFB3B7301B1F Niko Tyni <ntyni> sig:3
+    * 0x357312559D1E064B Ondřej Nový <onovy> sig:3
+    * 0x39278DA8109E6244 Guilhem Moulin <guilhem> sig:208
+    * 0x3C4107E6826C40E4 Valentin Vidic [DM] sig:2
+    * 0x44E17740B8611E9C Lars Wirzenius <lars> sig:5
+    * 0x587979573442684E Steve McIntyre <93sam> sig:1
+    * 0x5A09B4576DE8080E Paride Legovini <paride> sub:3 sig:9
+    * 0x5A8830475F7D1061 Nicholas D Steeves [DM] sig:1
+    * 0x5AD75B414EA41667 Georg Faerber <georg> sig:2
+    * 0x5EE76EE20216D2A5 Lev Lamberov <dogsleg> sig:5
+    * 0x6C6ACD6417B3ACB1 Roger Shimizu <rosh> uid:1 sig:1
+    * 0x76B534B2E99007E0 Thorsten Glaser <tg> sig:24
+    * 0x7731FCCC63E4E277 Roberto C. Sanchez <roberto> sig:3
+    * 0x79C43E620B039B35 Jens Reyer [DM] sig:6
+    * 0x7E0A399DB24B3B15 Matthew Garrett <mjg59> uid:2 sig:2
+    * 0x83E7EA669A19CB94 Matthieu Caneill <matthieucan> sig:12
+    * 0x9605A1098C63B92A Edward John Betts <edward> sig:3
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:6
+    * 0xA5FEEE3AC7937444 Daniel Shahaf [DM] sig:4
+    * 0xA81CEA22BC8C7E2E Luca Boccassi <bluca> sig:2
+    * 0xA959B38A9561F3F9 SZ Lin (林上智) <szlin> sig:1
+    * 0xAEED6158020EAFFF James Cowgill <jcowgill> sig:3
+    * 0xB01FEA84617B586D Andreas B. Mundt <andi> sub:2 sig:2
+    * 0xB8E5087766475AAF Nicolas Dandrimont <olasd> sig:1
+    * 0xC293E7B461825ACE Boyuan Yang [DM] sig:1
+    * 0xCEAE6AD3AFE826FB Afif Elghraoui <afif> sig:13
+    * 0xCFBBFCE0B74F1B14 Yao Wei [DM] sig:7
+    * 0xD0178C767D069EE6 Samuel Thibault <sthibault> sub:2 sig:2
+    * 0xD265C08531ED8AEF Rémi Vanicat <vanicat> uid:1 sig:6
+    * 0xD9AD14B9513B51E4 Markus Koschany <apo> sig:14
+    * 0xDA82830E3CCC3A3A Alexandre Viau <aviau> sig:8
+    * 0xDFFAD8197617EF19 Dennis van Dok <dvandok> sub:1 sig:1
+    * 0xEDC8C8240F688E68 Héctor Romojaro Gómez [DM] sig:1
+    * 0xF5392FD213FBFEDD Punit Agrawal <punit> sig:2
+    * 0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:4
 
   [ Gunnar Wolf ]
   * Move 0xCD4B2AF3A0A0AAAA (Nico Golde) to emeritys (RT #7352)
