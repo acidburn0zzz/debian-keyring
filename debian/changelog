@@ -1,4 +1,4 @@
-debian-keyring (2018.07.xx) UNRELEASED; urgency=medium
+debian-keyring (2018.07.24) unstable; urgency=medium
 
   [ Jonathan McDowell ]
   * Add new DM key 0x453F8D999F113609 (Phil Morrell) (RT #7343)
@@ -52,7 +52,7 @@ debian-keyring (2018.07.xx) UNRELEASED; urgency=medium
   * Move 0xCD4B2AF3A0A0AAAA (Nico Golde) to emeritys (RT #7352)
   * Remove 0x96E3F1336AED591E (Chris Vanden Berghe) (RT #7345)
 
- -- Jonathan McDowell <noodles@earth.li>  Mon, 02 Jul 2018 13:34:48 +0100
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 24 Jul 2018 06:24:18 -0400
 
 debian-keyring (2018.06.24) unstable; urgency=medium
 
