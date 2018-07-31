@@ -140,7 +140,7 @@ def delete_key(ctx, fpr):
         ctx.op_delete(k, True)
 
 
-def get_keyinfo(ctx, fpr, checksigs=True):
+def get_keyinfo(ctx, fpr, needsigs=2):
     ctx.set_keylist_mode(gpg.constants.keylist.mode.SIGS)
     key = ctx.get_key(fpr)
     for subkey in key.subkeys:
@@ -167,7 +167,7 @@ def get_keyinfo(ctx, fpr, checksigs=True):
                 # else:
                 #    print("Skipping unknown ID " + sig.keyid)
 
-    if checksigs and len(sigs) < 2:
+    if len(sigs) < needsigs:
         raise RuntimeError('Insufficent key signatures')
 
     certs = None
@@ -372,14 +372,19 @@ def parse_ticket(text):
         with get_gpg_ctx() as c:
             if state['action'] in ('add', 'replace'):
                 state['keydata'] = fetch_key(c, state['keyid'])
-            keyinfo = get_keyinfo(c, state['keyid'])
+            # We relax the number of signatures for a DM, otherwise we use
+            # the default.
+            if state['role'] == 'DM':
+                keyinfo = get_keyinfo(c, state['keyid'], 1)
+            else:
+                keyinfo = get_keyinfo(c, state['keyid'])
             state['keytype'] = keyinfo[0]
             state['certs'] = keyinfo[1]
 
     if 'oldkeyid' in state:
         with get_gpg_ctx() as c:
             fetch_key(c, state['oldkeyid'])
-            keyinfo = get_keyinfo(c, state['oldkeyid'], False)
+            keyinfo = get_keyinfo(c, state['oldkeyid'], 0)
             state['oldkeytype'] = keyinfo[0]
 
     return state
