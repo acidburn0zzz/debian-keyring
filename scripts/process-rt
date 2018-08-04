@@ -22,7 +22,7 @@ from urllib.parse import urlencode
 
 debug = False
 RT_BASE_URL = 'https://rt.debian.org/REST/1.0/'
-KEYSERVER = 'the.earth.li:11371'
+KEYSERVER = 'pool.sks-keyservers.net:11371'
 DAM = ['enrico', 'joerg', 'jmw', 'myon']
 FD = DAM + ['noodles', 'mattia', 'santiago']
 
