@@ -9,6 +9,7 @@ debian-keyring (2018.07.xx) UNRELEASED; urgency=medium
 
   [ John Sullivan ]
   * Remove 0xC39E74E049E3ACD3 (Chris Butler) (RT #7384)
+  * Add new DD key 0x55CF1BF986ABB9C7 (Daniel Baumann) (RT #7380)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 31 Jul 2018 03:21:40 -0500
 
