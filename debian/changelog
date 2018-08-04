@@ -6,6 +6,9 @@ debian-keyring (2018.07.xx) UNRELEASED; urgency=medium
   [ Jonathan McDowell ]
   * Fix process-rt to only require a single signature for DM keys
 
+  [ John Sullivan ]
+  * Remove 0xC39E74E049E3ACD3 (Chris Butler) (RT #7384)
+
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 31 Jul 2018 03:21:40 -0500
 
 debian-keyring (2018.07.24) unstable; urgency=medium
