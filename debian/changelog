@@ -12,6 +12,7 @@ debian-keyring (2018.07.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x55CF1BF986ABB9C7 (Daniel Baumann) (RT #7380)
   * Remove 0xDFF738C2D16CFBA2 (Simon Paillard) (RT #7385)
   * Add new DD key 0xE69822C7E02958CD (Ruben Undheim) (RT #7388)
+  * Add new DD key 0x62645EB35F686A8A (Mo Zhou) (RT #7392)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 31 Jul 2018 03:21:40 -0500
 
