@@ -321,6 +321,8 @@ def parse_ticket(text):
                 state['keyid'] = line[20:]
         elif line.startswith('  Username:         '):
             state['username'] = line[20:]
+        elif line.startswith('  uid:              '):
+            state['username'] = line[20:]
         elif line.startswith('  Details:          '):
             state['details'] = line[20:]
         elif line.startswith('  First name:       '):
