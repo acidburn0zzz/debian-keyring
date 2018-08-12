@@ -17,6 +17,7 @@ debian-keyring (2018.07.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x6ACEDAAE40DD2B46 (Xavier Guimard) (RT #7394)
   * Add new DD key 0x07FC4891042BA65A (Thomas Koch) (RT #7395)
   * Add new DD key 0xC293E7B461825ACE (Boyuan Yang) (RT #7370)
+  * Add new DM key 0xE7BC91544F3A531B (Iñaki Martin Malerba) (RT #7403)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 31 Jul 2018 03:21:40 -0500
 
