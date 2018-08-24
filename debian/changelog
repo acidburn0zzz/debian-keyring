@@ -20,6 +20,7 @@ debian-keyring (2018.07.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xE7BC91544F3A531B (Iñaki Martin Malerba) (RT #7403)
   * Add new DD key 0xCF0E265B7DFBB2F2 (Shengjing Zhu) (RT #7434)
   * Add new DM key 0xC0831D1F15E0DA64 (Arnaud Rebillout) (RT #7435)
+  * Add new DM key 0xD22C1A883455D448 (HAYASHI Kentaro) (RT #7437)
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 31 Jul 2018 03:21:40 -0500
 
