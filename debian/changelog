@@ -72,6 +72,22 @@ debian-keyring (2018.07.xx) UNRELEASED; urgency=medium
     * 0xC617869F1478504E Keng-Yu Lin [DM] sig:5
     * 0xC89D5712DF945F6F Philippe Thierry (philou) [DM] sig:4
     * 0xE27F2CF8458C2FA4 Simon Quigley [DM] sig:4
+    * 0x0F56D0553B6D411B Sean Whitton <spwhitton> sig:6
+    * 0x2064C53641C25E5D Kurt Roeckx <kroeckx> sig:1
+    * 0x283681BA6FE7F41D Sam Hartman <hartmans> sub:1 sig:1
+    * 0x2930100100003344 Gergely Riskó <risko> sub:2 sig:2
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sub:1 sig:4
+    * 0x283681BA6FE7F41D Sam Hartman <hartmans> sub:1 sig:1
+    * 0x2930100100003344 Gergely Riskó <risko> sub:2 sig:2
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sub:1 sig:1
+    * 0x5299B4990437AC41 Jan Niehusmann <jan> sub:1 sig:1
+    * 0x56034877E1F87C35 Ximin Luo <infinity0> sub:6 sig:6
+    * 0x664F1238AA8F138A Daniel Lange <dlange> sig:2
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sub:1 sig:4
+    * 0x762B57BB784206AD David Bremner <bremner> sub:1 sig:1
+    * 0x7CFCD8CD257721E9 Vagrant Cascadian <vagrant> sig:3
+    * 0xCC65B0CDEC275D5B ChangZhuo Chen <czchen> sig:6
+    * 0xF6D3495BB0AE9A02 Clint Adams <clint> sig:18
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 31 Jul 2018 03:21:40 -0500
 
