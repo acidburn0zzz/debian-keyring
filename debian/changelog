@@ -22,6 +22,56 @@ debian-keyring (2018.07.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xC0831D1F15E0DA64 (Arnaud Rebillout) (RT #7435)
   * Add new DM key 0xD22C1A883455D448 (HAYASHI Kentaro) (RT #7437)
   * Move 0x7F36CF55AA87AA77 (Soeren Sonnenburg) to emeritus (RT #7438)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x054BBB9F7D806442 Niels Thykier <nthykier> sub:3 sig:5
+    * 0x0664A76954265E8C Simon Josefsson <jas> sig:5
+    * 0x0F56D0553B6D411B Sean Whitton <spwhitton> sub:1 sig:15
+    * 0x1762E0227034CF84 William Blough <bblough> uid:1 sig:1
+    * 0x2064C53641C25E5D Kurt Roeckx <kroeckx> sig:6
+    * 0x283681BA6FE7F41D Sam Hartman <hartmans> sub:1 sig:4
+    * 0x28FA801A43BDD637 Mike Miller <mtmiller> sig:7
+    * 0x2930100100003344 Gergely Riskó <risko> sub:1 sig:3
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:12
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:2
+    * 0x348A778D6885EF8F Jose M Calhariz <calhariz> uid:1 sig:20
+    * 0x4B043FCDB9444540 Mattia Rizzolo <mattia> sig:15
+    * 0x5299B4990437AC41 Jan Niehusmann <jan> sig:2
+    * 0x56034877E1F87C35 Ximin Luo <infinity0> sub:1 sig:19
+    * 0x587979573442684E Steve McIntyre <93sam> sig:14
+    * 0x5ACE8D6E0C14A470 Luke Faraone <lfaraone> sig:10
+    * 0x5C13D6DB93052E03 Christian Hofstaedtler <zeha> sig:5
+    * 0x5D328D082AAAB140 Hideki Yamane <henrich> sub:2 sig:11
+    * 0x664F1238AA8F138A Daniel Lange <dlange> sig:6
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sub:3 sig:33
+    * 0x6C6ACD6417B3ACB1 Roger Shimizu <rosh> sig:28
+    * 0x6CACA448860CDC13 Norbert Preining <preining> sig:32
+    * 0x7127E5ABEEF946C8 Mirco Bauer <meebey> sub:3 sig:3
+    * 0x762B57BB784206AD David Bremner <bremner> sig:5
+    * 0x76D58093F540ABCD Iain R. Learmonth <irl> sig:9
+    * 0x7CFCD8CD257721E9 Vagrant Cascadian <vagrant> sub:2 sig:13
+    * 0x83016014251D1DB0 Carsten Schoenert <tijuca> sig:8
+    * 0x8C82169D8ECECD2A Tobias Hansen <thansen> sig:4
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:12
+    * 0x9AFB7B8C9A5F5BBC Heiko Stübner <mmind> sub:1 sig:1
+    * 0xAB645F406286A7D0 Lisandro Damián Nicanor Pérez Meyer <lisandro> sig:6
+    * 0xAEED6158020EAFFF James Cowgill <jcowgill> sig:18
+    * 0xB01FEA84617B586D Andreas B. Mundt <andi> sig:1
+    * 0xB06662EC9C0C1404 NOKUBI Takatsugu <knok> sig:16
+    * 0xBBC17EBB1396F2F7 Stuart Prescott <stuart> sig:17
+    * 0xC61A64DCF1393998 Pierre Chifflier <pollux> sig:6
+    * 0xCC65B0CDEC275D5B ChangZhuo Chen <czchen> sig:39
+    * 0xCE1F9C674512C22A Praveen Arimbrathodiyil <praveen> sub:1 sig:3
+    * 0xD84747ACE4B6813D Tiago Bortoletto Vaz <tiago> sub:3 sig:4
+    * 0xDF6D76C44D696F6B Sven Bartscher <kritzefitz> sig:3
+    * 0xE352D5C51C5041D4 Iain Lane <laney> sig:4
+    * 0xE63716F4E069949E Karl Ramm <kcr> sig:2
+    * 0xECB73E37E887AA8C Tomasz Rybak <serpent> sig:4
+    * 0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:3
+    * 0xF6D3495BB0AE9A02 Clint Adams <clint> sig:9
+    * 0x5AD75B414EA41667 Georg Faerber <georg> sig:2
+    * 0xC617869F1478504E Keng-Yu Lin [DM] sig:5
+    * 0xC89D5712DF945F6F Philippe Thierry (philou) [DM] sig:4
+    * 0xE27F2CF8458C2FA4 Simon Quigley [DM] sig:4
 
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 31 Jul 2018 03:21:40 -0500
 
