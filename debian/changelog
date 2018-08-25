@@ -1,4 +1,4 @@
-debian-keyring (2018.07.xx) UNRELEASED; urgency=medium
+debian-keyring (2018.08.25) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Add new DM key 0xB3C2C7B73BA3CD7F (Brian T. Smith) (RT #7367)
@@ -89,7 +89,7 @@ debian-keyring (2018.07.xx) UNRELEASED; urgency=medium
     * 0xCC65B0CDEC275D5B ChangZhuo Chen <czchen> sig:6
     * 0xF6D3495BB0AE9A02 Clint Adams <clint> sig:18
 
- -- Gunnar Wolf <gwolf@debian.org>  Tue, 31 Jul 2018 03:21:40 -0500
+ -- John Sullivan <johns@debian.org>  Sun, 25 Aug 2018 01:44:00 -0400
 
 debian-keyring (2018.07.24) unstable; urgency=medium
 
