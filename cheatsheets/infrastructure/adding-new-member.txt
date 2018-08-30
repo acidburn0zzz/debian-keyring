@@ -1,0 +1,23 @@
+When adding a new member to the keyring-maint team there are various
+steps which need to be performed.
+
+ * Signed email to DSA (admin@rt.debian.org, remember to add Debian RT
+   in the subject). This should include the name + Debian username of
+   the new team member and ask for the following:
+
+    * User addition to keyring group (which will allow access to
+      kaufmann)
+    * Addition to "Keyring Maintainers" LDAP object to enable editing of
+      fingerprint objects
+    * User account on rt.debian.org with access to the 2 keyring queues
+    * Addition to keyring-maint@debian.org email alias
+    * Import new member's Debian key into debian-trustedkeys.gpg
+    * Potential modification of dsa-misc/scripts/sync-keyring to include
+      new member's fingerprint
+
+ * Inform the NM Front Desk team with username, email address +
+   fingerprint details so keyring/git_ops.py and keyring/housekeeping.py
+   can be updated with the additional details
+
+ * Inform FTP master of the new member + fingerprint so they can be
+   added to DM-Admin / AdminFingerprints in dak.conf
