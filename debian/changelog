@@ -1,6 +1,7 @@
 debian-keyring (2018.09.xx) UNRELEASED; urgency=medium
 
   * Add new DM key 0x2948210746DF73C0 (Kurt Kremitzki) (RT #7449)
+  * Add new DM key 0xFD49D0BC6FEAECDA (Sagar Ippalpalli) (RT #7450)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 07 Sep 2018 15:00:29 +0100
 
