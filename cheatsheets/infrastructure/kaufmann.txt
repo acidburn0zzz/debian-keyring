@@ -1,48 +1,23 @@
-kaufmann.debian.org layout
-==========================
+Pushing the changes to kaufmann.debian.org
+==========================================
+
+'mosca$' means the commands should be run on your own computer (it's
+gwolf's desktop name); of course, 'kaufmann$' means said steps are to
+be run from kaufmann.
 
 mosca$ make
+mosca$ make test
+
+This will complain about expired keys and other common
+mistakes. Double check its output - Sometimes weak subkeys are added,
+they will be reported here!
+
 mosca$ gpg --clearsign output/sha512sums.txt
 mosca$ mv output/sha512sums.txt.asc output/sha512sums.txt
-mosca$ scp output/sha512sums.txt kaufmann.debian.org:/srv/keyring.debian.org/pub
-mosca$ scp output/keyrings/* kaufmann.debian.org:/srv/keyring.debian.org/pub/keyrings
+mosca$ scp scripts/update-keyrings kaufmann.debian.org:
+mosca$ scp -r output/ kaufmann.debian.org:
 mosca$ git push git@salsa.debian.org:debian-keyring/keyring.git master
-
-kaufmann$ cat /home/noodles/update-keyrings 
-#!/bin/bash
-
-SRCKEYRINGDIR=/srv/keyring.debian.org/master-keyring/output
-OUTPUTDIR=/srv/keyring.debian.org/pub
-HKPDIR=/srv/keyring.debian.org/keyrings-new
-PENDINGDIR=/srv/keyring.debian.org/pending-updates
-
-if ! gpg --batch --quiet --verify ${SRCKEYRINGDIR}/sha512sums.txt 2> /dev/null; \
-		then
-	echo sha512sums for update is not signed.
-	exit 1
-fi
-
-cd ${SRCKEYRINGDIR}
-if ! sha512sum -c sha512sums.txt; then
-	echo sha512sums for update does not match files.
-	exit 1
-fi
-
-if [ -e ${PENDINGDIR}/debian-keyring.gpg -o \
-		-e ${PENDINGDIR}/debian-maintainers.gpg -o \
-		-e ${PENDINGDIR}/debian-nonupload.gpg ]; then
-	echo Unhandled pending updates.
-	exit 1
-fi
-
-cp ${HKPDIR}/debian-keyring.gpg ${PENDINGDIR}
-cp ${HKPDIR}/debian-maintainers.gpg ${PENDINGDIR}
-cp ${HKPDIR}/debian-nonupload.gpg ${PENDINGDIR}
-
-echo Updating active keyrings.
-cp -r ${SRCKEYRINGDIR}/* ${OUTPUTDIR}/
-echo Updating HKP keyrings.
-cp -r ${SRCKEYRINGDIR}/keyrings/debian-keyring.gpg \
-	${SRCKEYRINGDIR}/keyrings/debian-maintainers.gpg \
-	${SRCKEYRINGDIR}/keyrings/debian-nonupload.gpg \
-	${HKPDIR}/
+mosca$ ssh kaufmann
+kaufmann$ cp output/sha512sums.txt /srv/keyring.debian.org/pub
+kaufmann$ cp output/keyrings/* /srv/keyring.debian.org/pub/keyrings
+kaufmann$ ./update-keyrings ./output/keyrings
