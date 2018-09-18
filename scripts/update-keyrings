@@ -1,17 +1,37 @@
 #!/bin/bash
+
 SHOULD_RUN_ON=kaufmann.debian.org
-
-if [ -z "$RUNANYWAY" -a $(hostname -f) != "$SHOULD_RUN_ON" ] ; then
-    echo This script is meant to be run in $SHOULD_RUN_ON
-    echo You can still run it if you are sure by setting
-    echo \$RUNANYWAY to a nonempty value.
-    exit 1
-fi
-
-SRCKEYRINGDIR=/srv/keyring.debian.org/master-keyring/output
 OUTPUTDIR=/srv/keyring.debian.org/pub
 HKPDIR=/srv/keyring.debian.org/keyrings-new
 PENDINGDIR=/srv/keyring.debian.org/pending-updates
+
+if [ -z "$RUNANYWAY" -a $(hostname -f) != "$SHOULD_RUN_ON" ] ; then
+	echo This script is meant to be run in $SHOULD_RUN_ON
+	echo You can still run it if you are sure by setting
+	echo \$RUNANYWAY to a nonempty value.
+	exit 1
+fi
+
+if [ $# -ne 1 ]; then
+	echo "Must provide directory containing new keyrings."
+	exit 1
+fi
+
+if [ ! -d $1 ]; then
+	echo "$1 is not a directory."
+	exit 1
+fi
+
+SRCKEYRINGDIR=$1
+
+if [ ! -e ${SRCKEYRINGDIR}/sha512sums.txt ]; then
+	echo "sha512sums.txt not found in ${SRCKEYRINGDIR}"
+	exit 1
+fi
+
+if [ -e ${SRCKEYRINGDIR}/keyrings/.placeholder ]; then
+	rm ${SRCKEYRINGDIR}/keyrings/.placeholder
+fi
 
 if ! gpg --batch --quiet --verify ${SRCKEYRINGDIR}/sha512sums.txt 2> /dev/null; \
 		then
@@ -25,20 +45,22 @@ if ! sha512sum -c sha512sums.txt; then
 	exit 1
 fi
 
-if [ -e ${PENDINGDIR}/debian-keyring.pgp -o \
-		-e ${PENDINGDIR}/debian-keyring.gpg -o \
-		-e ${PENDINGDIR}/debian-maintainers.gpg ]; then
+if [ -e ${PENDINGDIR}/debian-keyring.gpg -o \
+		-e ${PENDINGDIR}/debian-maintainers.gpg -o \
+		-e ${PENDINGDIR}/debian-nonupload.gpg ]; then
 	echo Unhandled pending updates.
+	echo Keyrings in ${PENDINGDIR} should be dealt with and removed.
 	exit 1
 fi
 
-cp ${HKPDIR}/debian-keyring.pgp ${PENDINGDIR}
-cp ${HKPDIR}/debian-keyring.gpg ${PENDINGDIR}
-cp ${HKPDIR}/debian-maintainers.gpg ${PENDINGDIR}
+cp -p ${HKPDIR}/debian-keyring.gpg ${PENDINGDIR}
+cp -p ${HKPDIR}/debian-maintainers.gpg ${PENDINGDIR}
+cp -p ${HKPDIR}/debian-nonupload.gpg ${PENDINGDIR}
 
 echo Updating active keyrings.
 cp -r ${SRCKEYRINGDIR}/* ${OUTPUTDIR}/
 echo Updating HKP keyrings.
-cp -r ${SRCKEYRINGDIR}/keyrings/debian-keyring.{gpg,pgp} \
+cp -r ${SRCKEYRINGDIR}/keyrings/debian-keyring.gpg \
 	${SRCKEYRINGDIR}/keyrings/debian-maintainers.gpg \
+	${SRCKEYRINGDIR}/keyrings/debian-nonupload.gpg \
 	${HKPDIR}/
