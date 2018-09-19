@@ -15,6 +15,7 @@ debian-keyring (2018.09.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x52FC8E7BEDB7FCA2 (Kunal Mehta) (RT #7481)
   * Add new DD key 0x71A7E533F291A324 (Aurélien COUDERC) (RT #7480)
   * Add new DD key 0x63F7800A23D7B252 (Joseph Herlant) (RT #7479)
+  * Add new DD key 0x612EF1613E050F54 (Dylan Aïssi) (RT #7478)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 07 Sep 2018 15:00:29 +0100
 
