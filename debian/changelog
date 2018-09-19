@@ -7,6 +7,8 @@ debian-keyring (2018.09.xx) UNRELEASED; urgency=medium
 
   [ Gunnar Wolf ]
   * Minor documentation updates
+  * Replace 0x55AD141521E764DF with 0xCD3CEA34F42AA45D (Balint Reczey)
+    (RT #7464)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 07 Sep 2018 15:00:29 +0100
 
