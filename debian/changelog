@@ -10,6 +10,7 @@ debian-keyring (2018.09.xx) UNRELEASED; urgency=medium
   * Replace 0x55AD141521E764DF with 0xCD3CEA34F42AA45D (Balint Reczey)
     (RT #7464)
   * Add new DD key 0xEC9D370872BC7A8C (Nicolas Braud-Santoni) (RT #7484)
+  * Add new DD key 0x0D442664194974E2 (Pierre-Elliott Bécue) (RT #7483)
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 07 Sep 2018 15:00:29 +0100
 
