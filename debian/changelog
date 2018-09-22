@@ -4,6 +4,7 @@ debian-keyring (2018.09.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x2948210746DF73C0 (Kurt Kremitzki) (RT #7449)
   * Add new DM key 0xFD49D0BC6FEAECDA (Sagar Ippalpalli) (RT #7450)
   * Add new DM key 0x4A0CF639427884E3 (Michal Arbet) (RT #7463)
+  * Add new DM key 0x6C6580E77BD756C4 (Daniel Pocock) (RT #7485)
 
   [ Gunnar Wolf ]
   * Minor documentation updates
