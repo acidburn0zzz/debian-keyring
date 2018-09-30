@@ -5,6 +5,66 @@ debian-keyring (2018.09.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xFD49D0BC6FEAECDA (Sagar Ippalpalli) (RT #7450)
   * Add new DM key 0x4A0CF639427884E3 (Michal Arbet) (RT #7463)
   * Add new DM key 0x6C6580E77BD756C4 (Daniel Pocock) (RT #7485)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x054BBB9F7D806442 Niels Thykier <nthykier> sig:1
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:24
+    * 0x07FC4891042BA65A Thomas Koch <thk> sig:2
+    * 0x0C48EA2A7A8FFD7B Peter Michael Green <plugwash> sig:9
+    * 0x0CB18E521B24F3FF Ralf Jung [DM] sig:2
+    * 0x0F56D0553B6D411B Sean Whitton <spwhitton> sig:7
+    * 0x11362600A747ECD9 Christos Trochalakis <ctrochalakis> sig:4
+    * 0x17B1CA7D64089528 Chris Boyle <cmb> sig:5
+    * 0x2064C53641C25E5D Kurt Roeckx <kroeckx> sig:1
+    * 0x30550F7871EF0BA8 Yves-Alexis Perez <corsac> sub:1 sig:5
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:7
+    * 0x348A778D6885EF8F Jose M Calhariz <calhariz> sig:5
+    * 0x357312559D1E064B Ondřej Nový <onovy> sig:3
+    * 0x3631D4FB7FF2B8B8 Christopher Stuart Hoskin <mans0954> uid:1 sub:3 sig:12
+    * 0x36C361440C9BC971 Sunil Mohan Adapa [DM] uid:1 sig:6
+    * 0x3C4107E6826C40E4 Valentin Vidic <vvidic> uid:1 sig:5
+    * 0x427E381D05190E55 Kyle John Robbertze <paddatrapper> uid:1 sig:3
+    * 0x4664E07DBDA485C5 Benjamin Barenblat <bbaren> sig:6
+    * 0x479EC24F95C71D61 Brett Parker [DM] sub:1 sig:3
+    * 0x4DE8FF2A63C7CC90 Simon McVittie <smcv> sig:23
+    * 0x5394479DD3524C51 Jonathan Wiltshire <jmw> sub:1 sig:1
+    * 0x5759F35001AA4A64 Steve Langasek <vorlon> sig:5
+    * 0x587979573442684E Steve McIntyre <93sam> sig:6
+    * 0x5ACE8D6E0C14A470 Luke Faraone <lfaraone> sig:3
+    * 0x5AD75B414EA41667 Georg Faerber <georg> sig:2
+    * 0x61F3442674DE6624 Andreas Moog [DM] sig:3
+    * 0x664F1238AA8F138A Daniel Lange <dlange> sig:1
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:6
+    * 0x6ACEDAAE40DD2B46 Xavier Guimard <yadd> uid:1 sig:2
+    * 0x6C6ACD6417B3ACB1 Roger Shimizu <rosh> sig:2
+    * 0x72CF8E5E25B4C293 Matthias Ulrichs <smurf> sig:7
+    * 0x7CFCD8CD257721E9 Vagrant Cascadian <vagrant> uid:1 sig:5
+    * 0x7EAE264181E773D5 Christoph Ulrich Scholler [DM] sig:6
+    * 0x7F55BB12A40F862E Neil McGovern <neilm> sig:1
+    * 0x8EFD9702F888B2AE Yanhao Mo <yanhao> sub:1 sig:1
+    * 0x9688FFC1C78102DF Allison Randal <wendar> uid:1 sig:26
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:4
+    * 0x9D0470BDA6CDC457 Neutron Soutmun <neutron> sig:5
+    * 0x9EC002FE1C9CA517 Michael C. Schultheiss <schultmc> uid:1 sig:1
+    * 0x9FB9262724B17D29 Tomasz Buchert <tomasz> sub:1 sig:2
+    * 0xA04AB3BADBE263EE Bertrand Marc <bmarc> sig:2
+    * 0xA8822153B391646D Eric Heintzmann [DM] sig:4
+    * 0xAB98288E36D33D07 Ognyan Kulev <ogi> sig:5
+    * 0xAEED6158020EAFFF James Cowgill <jcowgill> sig:3
+    * 0xB06662EC9C0C1404 NOKUBI Takatsugu <knok> sig:8
+    * 0xB5754A69B6BE608C Luca Filipozzi <lfilipoz> uid:1 sig:41
+    * 0xBB41D45770EF06F7 Andy Simpkins <rattusrattus> sig:17
+    * 0xBBF68F03E8F37941 Jan Luebbe <jluebbe> sub:1 sig:6
+    * 0xBC1256AA6AA6EC5E Stein Magnus Jodal <jodal> sig:5
+    * 0xC3F436CA30F5D8EB Mark Brown <broonie> sub:1 sig:9
+    * 0xCF0E265B7DFBB2F2 Shengjing Zhu <zhsj> sub:1 sig:27
+    * 0xD15D313882004173 Russ Allbery <rra> sig:7
+    * 0xDECF849AA6357FB7 Tobias Frost <tobi> sub:1 sig:1
+    * 0xDF6D76C44D696F6B Sven Bartscher <kritzefitz> sig:2
+    * 0xE352D5C51C5041D4 Iain Lane <laney> uid:1 sub:1 sig:2
+    * 0xE5AB5F161CDD0D98 Diane Trout <diane> sig:8
+    * 0xE69822C7E02958CD Ruben Undheim <rubund> uid:2 sub:2 sig:5
+    * 0xF505691E3867FB84 David Rabel <nore> sig:5
+    * 0xFA0C410738C9D903 Colin Tuckley <colint> sig:8
 
   [ Gunnar Wolf ]
   * Minor documentation updates
