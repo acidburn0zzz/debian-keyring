@@ -70,6 +70,11 @@ case "$summary" in
 	exit
 esac
 
+if cmp -s $GNUPGHOME/0x$keyid $keydir/0x$keyid; then
+	echo "No changes to 0x$keyid"
+	exit
+fi
+
 echo "Running gpg-diff:"
 (
 	echo $summary 
