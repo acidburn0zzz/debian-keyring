@@ -347,7 +347,7 @@ def parse_ticket(text):
     if state['dest'] in ['DD', 'DM', 'DN']:
         state['action'] = 'add'
         state['role'] = state['dest']
-    elif state['dest'] in ['emeritus', 'removed']:
+    elif state['dest'] in ['DC', 'emeritus', 'removed']:
         state['action'] = 'remove'
         if 'current' in state:
             state['role'] = state['current']
@@ -376,11 +376,14 @@ def parse_ticket(text):
     # Get the key length + type, plus signatures from other DDs
     if 'keyid' in state:
         with get_gpg_ctx() as c:
-            if state['action'] in ('add', 'replace'):
+            if state['action'] in ('add', 'replace') or state['role'] == 'DM':
                 state['keydata'] = fetch_key(c, state['keyid'])
-            # We relax the number of signatures for a DM, otherwise we use
-            # the default.
-            if state['role'] == 'DM':
+            # If it's a removal we don't need to check signature count. For
+            # DM we relax the number of signatures, otherwise we use the
+            # default.
+            if state['action'] == 'remove':
+                keyinfo = get_keyinfo(c, state['keyid'], 0)
+            elif state['role'] == 'DM':
                 keyinfo = get_keyinfo(c, state['keyid'], 1)
             else:
                 keyinfo = get_keyinfo(c, state['keyid'])
