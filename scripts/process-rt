@@ -369,6 +369,10 @@ def parse_ticket(text):
         else:
             state['subject'] = state['last']
 
+    for field in ['details', 'username']:
+        if state[field] == '-':
+            del state[field]
+
     # Get the key length + type, plus signatures from other DDs
     if 'keyid' in state:
         with get_gpg_ctx() as c:
