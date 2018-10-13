@@ -1,6 +1,7 @@
 debian-keyring (2018.10.xx) UNRELEASED; urgency=medium
 
   * Remove 0x07724E3E6D58AAC8 (Andrew Kelley) (RT #7493)
+  * Add new DM key 0x5D5F6C020398A60A (Peter Wienemann) (RT #7522)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 01 Oct 2018 14:55:19 +0100
 
