@@ -7,6 +7,7 @@ debian-keyring (2018.10.xx) UNRELEASED; urgency=medium
     #7527)
   * Add new DM key 0x9D11582AFD548CFA (Gard Spreemann) (RT #7535)
   * Add new DD key 0x2E20FEEE71FC7D81 (Dmitry Bogatov) (RT #7525)
+  * Add new DM key 0x4AD58E3068E669E2 (Alexis Bienvenüe) (RT #7536)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 01 Oct 2018 14:55:19 +0100
 
