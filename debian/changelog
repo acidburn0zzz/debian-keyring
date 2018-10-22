@@ -5,6 +5,7 @@ debian-keyring (2018.10.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x21FC29504B5230DB (Daniel Echeverry) (RT #7526)
   * Replace 0x99727C1454ECB8AF with 0x0E2AF07048D0EC7E (Lars Bahner) (RT
     #7527)
+  * Add new DM key 0x9D11582AFD548CFA (Gard Spreemann) (RT #7535)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 01 Oct 2018 14:55:19 +0100
 
