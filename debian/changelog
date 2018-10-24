@@ -1,5 +1,6 @@
-debian-keyring (2018.10.xx) UNRELEASED; urgency=medium
+debian-keyring (2018.10.24) unstable; urgency=medium
 
+  [ Jonathan McDowell ]
   * Remove 0x07724E3E6D58AAC8 (Andrew Kelley) (RT #7493)
   * Add new DM key 0x5D5F6C020398A60A (Peter Wienemann) (RT #7522)
   * Add new DD key 0x21FC29504B5230DB (Daniel Echeverry) (RT #7526)
@@ -11,7 +12,72 @@ debian-keyring (2018.10.xx) UNRELEASED; urgency=medium
   * Replace 0x59895E44B169626D with 0xF4E4ACDBB8D08BE0 (Samuel Henrique)
     (RT #7489)
 
- -- Jonathan McDowell <noodles@earth.li>  Mon, 01 Oct 2018 14:55:19 +0100
+  [ John Sullivan ]
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x015F4DD4A70FB705 Phillip Susi [DM] uid:1 sub:2 sig:3
+    * 0x06EAA066E397832F Luca Capello <gismo> uid:1 sub:3 sig:4
+    * 0x0D442664194974E2 Pierre-Elliott Bécue <peb> uid:1 sig:1
+    * 0x1C2816907136AE39 Georges Khaznadar <georgesk> sig:1
+    * 0x1E953E27D4311E58 Chris Lamb <lamby> sig:20
+    * 0x21D20589974B3E96 Tony Mancill <tmancill> sig:4
+    * 0x26EC67B4FE6CBC8F Erik Wenzel <erik> sub:1 sig:4
+    * 0x2EC0FFB3B7301B1F Niko Tyni <ntyni> sig:3
+    * 0x308355FA32C5067D Torsten Landschoff <torsten> sig:7
+    * 0x310180050905E40C Julien Cristau <jcristau> sig:4
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:2
+    * 0x34CD816DE6FCD33E Arto Jantunen <viiru> sig:1
+    * 0x427E381D05190E55 Kyle John Robbertze <paddatrapper> sig:2
+    * 0x44E17740B8611E9C Lars Wirzenius <lars> sig:15
+    * 0x4A0CF639427884E3 Michal Arbet <kevko> sig:3
+    * 0x500398DF5AB387D3 Martin Kepplinger [DM] sub:1 sig:1
+    * 0x50C3634D3A291CF9 Philipp Kern <pkern> sig:3
+    * 0x52FC8E7BEDB7FCA2 Kunal Mehta <legoktm> uid:1 sig:1
+    * 0x5394479DD3524C51 Jonathan Wiltshire <jmw> sig:4
+    * 0x53B1AC6DB11B627B Martin Zobel-Helas <zobel> uid:1 sig:9
+    * 0x587979573442684E Steve McIntyre <93sam> sig:2
+    * 0x5E62533F19765111 Tzafrir Cohen <tzafrir> uid:1 sig:4
+    * 0x612EF1613E050F54 Dylan Aïssi <daissi> uid:1 sig:1
+    * 0x62AF4031C82E0039 Peter Palfrader <weasel> sig:7
+    * 0x634F4BD1E7AD5568 Enrico Zini <enrico> sig:10
+    * 0x63F7800A23D7B252 Joseph Herlant <aerostitch> uid:1 sig:2
+    * 0x664F1238AA8F138A Daniel Lange <dlange> sig:2
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:2
+    * 0x6C6ACD6417B3ACB1 Roger Shimizu <rosh> sig:3
+    * 0x7541CFAAFC35EACF Stephen Gelman <ssgelm> uid:1 sig:1
+    * 0x75B710635C213A7E Hilko Bengen <bengen> sig:1
+    * 0x76D58093F540ABCD Iain R. Learmonth <irl> sig:5
+    * 0x7A749064D38F11A3 Thomas Vincent <tvincent> sig:4
+    * 0x7F7606A445DCA80E Manuel A. Fernandez Montecelo <mafm> sig:4
+    * 0x86561F452180FCFE Michael Jeanson <mjeanson> sig:7
+    * 0x8972F4DFDC6DC026 Kees Cook <kees> sig:4
+    * 0x94842BC86E511C31 Rolf Leggewie [DM] sig:2
+    * 0x94FA372B2DA8B985 Jonathan McDowell <noodles> sub:3 sig:3
+    * 0x95A42FE8353525F9 Vincent Bernat <bernat> uid:1 sig:1
+    * 0xA2591E231E251F36 Víctor Cuadrado Juan [DM] sig:5
+    * 0xA97A7702BAF91EF5 Gaudenz Steinlin <gaudenz> sig:10
+    * 0xAC1E90BAC433F68F Gergely Nagy <algernon> uid:2 sig:7
+    * 0xB01D1A72AC8DC9A1 Jonathan Cristopher Carter <jcc> sig:77
+    * 0xB01FEA84617B586D Andreas B. Mundt <andi> sig:10
+    * 0xB06662EC9C0C1404 NOKUBI Takatsugu <knok> sig:4
+    * 0xB14BB0C38D861CF1 Ulrike Uhlig <ulrike> sig:3
+    * 0xB193770C186A1C7D James Clarke <jrtc27> sig:4
+    * 0xB79A3C16A0C4F296 Dominik George <natureshadow> sig:14
+    * 0xB82A217AFDFE09F2 David Prévot <taffit> sig:12
+    * 0xC5C329EC35C2E2F1 Jean Baptiste Favre (Debian) [DM] sig:12
+    * 0xC61A64DCF1393998 Pierre Chifflier <pollux> sig:4
+    * 0xC92949B8A63BB098 intrigeri <intrigeri> sig:3
+    * 0xCCD2ED94D21739E9 Daniel Kahn Gillmor <dkg> sub:1 sig:5
+    * 0xCFBBFCE0B74F1B14 Ming-ting Yao Wei <mwei> uid:1 sig:1
+    * 0xD04BA3A00125D5C0 Philip Hands <philh> sig:1
+    * 0xD599FF6101809E2A Elena Grandi <valhalla> sig:5
+    * 0xDF6D76C44D696F6B Sven Bartscher <kritzefitz> sig:4
+    * 0xEBE4E3EE94176FC2 Olek Wojnar [DM] sig:2
+    * 0xECB73E37E887AA8C Tomasz Rybak <serpent> sig:5
+    * 0xF5B8B2E02AF31308 Tássia Camões Araújo <tassia> sig:1
+    * 0xF6D3495BB0AE9A02 Clint Adams <clint> sig:8
+    * 0xF823A2729883C97C Lucas Kanashiro <kanashiro> sig:1
+	
+ -- John Sullivan <johns@debian.org>  Wed, 24 Oct 2018 17:08:58 -0400
 
 debian-keyring (2018.09.30) unstable; urgency=medium
 
