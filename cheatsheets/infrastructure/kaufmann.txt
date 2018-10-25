@@ -18,6 +18,4 @@ mosca$ scp scripts/update-keyrings kaufmann.debian.org:
 mosca$ scp -r output/ kaufmann.debian.org:
 mosca$ git push git@salsa.debian.org:debian-keyring/keyring.git master
 mosca$ ssh kaufmann
-kaufmann$ cp output/sha512sums.txt /srv/keyring.debian.org/pub
-kaufmann$ cp output/keyrings/* /srv/keyring.debian.org/pub/keyrings
-kaufmann$ ./update-keyrings ./output/keyrings
+kaufmann$ ./update-keyrings ./output
