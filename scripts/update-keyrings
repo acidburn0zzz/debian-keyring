@@ -22,7 +22,7 @@ if [ ! -d $1 ]; then
 	exit 1
 fi
 
-SRCKEYRINGDIR=$1
+SRCKEYRINGDIR=$(realpath $1)
 
 if [ ! -e ${SRCKEYRINGDIR}/sha512sums.txt ]; then
 	echo "sha512sums.txt not found in ${SRCKEYRINGDIR}"
