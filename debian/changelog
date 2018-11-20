@@ -10,6 +10,7 @@ debian-keyring (2018.11.xx) UNRELEASED; urgency=medium
     (RT #7558)
   * Add new DD key 0xDD1FAB8937FE9825 (Kai-Chung Yan) (RT #7561)
   * Add new DD key 0xE27F2CF8458C2FA4 (Simon Quigley) (RT #7562)
+  * Add new DD key 0x863D4DF2ED9C28EF (Abhijith PA) (RT #7563)
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 10 Nov 2018 22:59:07 -0600
 
