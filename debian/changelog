@@ -3,6 +3,7 @@ debian-keyring (2018.11.xx) UNRELEASED; urgency=medium
   [ Gunnar Wolf ]
   * Add new DM key 0x0CB5EFD858B09E60 (Wolfgang Silbermayr) (RT #7547)
   * Add new DM key 0xFE82139440BD22B9 (Nicolas Mora) (RT #7548)
+  * Move 0x44E17740B8611E9C (Lars Wirzenius) to emeritus (RT #7559)
 
   [ Jonathan McDowell ]
   * Replace 0x00959FA39C478D49 with 0x2E6B85F6CE51BFF3 (Murat Demirten)
