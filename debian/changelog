@@ -13,6 +13,51 @@ debian-keyring (2018.11.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x863D4DF2ED9C28EF (Abhijith PA) (RT #7563)
   * Add new DD key 0xC89D5712DF945F6F (Philippe Thierry) (RT #7564)
   * Add new DM key 0x6ACCBD0FA3B7447C (Marcos Fouces) (RT #7568)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x054BBB9F7D806442 Niels Thykier <nthykier> sig:1
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:2
+    * 0x07FC4891042BA65A Thomas Koch <thk> sub:2 sig:4
+    * 0x1C2816907136AE39 Georges Khaznadar <georgesk> sig:2
+    * 0x2064C53641C25E5D Kurt Roeckx <kroeckx> sig:1
+    * 0x2AFBD67FD133AC6E Martin Meredith <mez> sig:14
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:6
+    * 0x2E20FEEE71FC7D81 Dmitry Bogatov <kaction> uid:1 sig:1
+    * 0x3884437B13D8FF8B Martin Bagge <brother> sig:6
+    * 0x3D908AB3F0FBF51F Joachim Breitner <nomeata> sig:4
+    * 0x453F8D999F113609 Phil Morrell <emorrp1> uid:1 sub:3 sig:5
+    * 0x4A0CF639427884E3 Michal Arbet <kevko> sig:2
+    * 0x4B043FCDB9444540 Mattia Rizzolo <mattia> sig:3
+    * 0x587979573442684E Steve McIntyre <93sam> sig:2
+    * 0x5AD75B414EA41667 Georg Faerber <georg> sig:1
+    * 0x5C13D6DB93052E03 Christian Hofstaedtler <zeha> sig:2
+    * 0x5D328D082AAAB140 Hideki Yamane <henrich> sig:3
+    * 0x6177B35582A8D8A6 Anthony Towns <ajt> sub:1 sig:3
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:3
+    * 0x71A7E533F291A324 Aurélien COUDERC <coucouf> sub:1 sig:28
+    * 0x762B57BB784206AD David Bremner <bremner> sig:3
+    * 0x7AEAC4EC6AAA0A97 Louis-Philippe Véronneau <pollo> sig:25
+    * 0x7DBA958C1C055538 Stig Sandbeck Mathisen <ssm> sig:2
+    * 0x8062398983B2CF7A Matteo F. Vescovi <mfv> sig:4
+    * 0x80D0A42FF2C850CA Margarita Manterola <marga> sig:2
+    * 0x83E33BD7D4DD4CA1 Jerome Charaoui <lavamind> sub:2 sig:6
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:4
+    * 0xA0A9766CDB362222 Lenart Janos <ocsi> sig:1
+    * 0xA1B09B42333961E8 Evgeni Golov <evgeni> sig:4
+    * 0xA5E6BCA629BA4127 drebs [DM] sub:2 sig:5
+    * 0xB3464F896AA15948 Ana Beatriz Guerrero López <ana> sig:4
+    * 0xB65019C47F7A36F8 IOhannes m zmölnig <umlaeute> sig:8
+    * 0xB79A3C16A0C4F296 Dominik George <natureshadow> uid:1 sig:3
+    * 0xB8E5087766475AAF Nicolas Dandrimont <olasd> sig:4
+    * 0xBE3219AF3ED41341 Alberto Garcia <berto> sig:4
+    * 0xC61A64DCF1393998 Pierre Chifflier <pollux> sig:6
+    * 0xD36F769BC11804F0 Theodore Ts'o <tytso> sig:3
+    * 0xD84747ACE4B6813D Tiago Bortoletto Vaz <tiago> sig:2
+    * 0xD929F2992BEF0A33 Didier Raboud <odyx> sig:1
+    * 0xE5EC4AC9BD627B05 Donald Norwood <donald> sub:1 sig:5
+    * 0xE5F43F9C2734F287 Andrius Merkys <merkys> sig:1
+    * 0xF6AEF2AFD17897FA Vincent Danjean <vdanjean> sig:3
+    * 0xF823A2729883C97C Lucas Kanashiro <kanashiro> sig:2
+    * 0xFF914AF0C2B35520 Cyril Brulebois <kibi> sig:3
 
  -- Gunnar Wolf <gwolf@debian.org>  Sat, 10 Nov 2018 22:59:07 -0600
 
