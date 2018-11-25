@@ -1,4 +1,4 @@
-debian-keyring (2018.11.xx) UNRELEASED; urgency=medium
+debian-keyring (2018.11.25) unstable; urgency=medium
 
   [ Gunnar Wolf ]
   * Add new DM key 0x0CB5EFD858B09E60 (Wolfgang Silbermayr) (RT #7547)
@@ -59,7 +59,7 @@ debian-keyring (2018.11.xx) UNRELEASED; urgency=medium
     * 0xF823A2729883C97C Lucas Kanashiro <kanashiro> sig:2
     * 0xFF914AF0C2B35520 Cyril Brulebois <kibi> sig:3
 
- -- Gunnar Wolf <gwolf@debian.org>  Sat, 10 Nov 2018 22:59:07 -0600
+ -- Jonathan McDowell <noodles@earth.li>  Sun, 25 Nov 2018 19:34:58 +0000
 
 debian-keyring (2018.10.24) unstable; urgency=medium
 
