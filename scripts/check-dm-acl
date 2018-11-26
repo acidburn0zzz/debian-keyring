@@ -10,7 +10,8 @@
 
 for fp in $(curl -s https://ftp-master.debian.org/dm.txt | awk '/^Fingerprint: / { print $2 }'); do
 	keyid=${fp:24}
-	if [ ! -e debian-maintainers-gpg/0x$keyid ]; then
+	if [ ! -e debian-maintainers-gpg/0x$keyid -a \
+		! -e debian-nonupload-gpg/0x$keyid ]; then
 		if [ -e debian-keyring-gpg/0x$keyid ]; then
 			echo "0x$keyid moved to DD keyring."
 		else
