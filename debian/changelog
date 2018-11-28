@@ -7722,7 +7722,7 @@ debian-keyring (2014.03.30) unstable; urgency=medium
     (RT #5029)
   * Replace 0xBC5758175230514A with 0xD4ED5223F4E57996 (Shaun Jackman)
     (RT #5029)
-  * Replace 0x7ECDAD406C0084FC with 0x96E3F1336AED591E (Chris Vanden 
+  * Replace 0x7ECDAD406C0084FC with 0x96E3F1336AED591E (Chris Vanden
     Berghe) (RT #5035)
   * Replace 0xC004F6035912C27E with 0x69783A9EAD536107 (Jon Bernard)
     (RT #5039)
@@ -11677,7 +11677,7 @@ debian-keyring (2011.07.02) unstable; urgency=low
     * 0xE941DEDA7C5BB6A5 Olivier Berger <obergix> uid:1 sig:1
 
  -- Jonathan McDowell <noodles@earth.li>  Thu,  2 Jul 2011 00:00:00 +0100
-  
+
 debian-keyring (2011.05.22) unstable; urgency=low
 
   [ Jonathan McDowell ]
@@ -12129,7 +12129,7 @@ debian-keyring (2010.12.20) unstable; urgency=high
  -- Jonathan McDowell <noodles@earth.li>  Mon, 20 Dec 2010 13:00:45 -0800
 
 debian-keyring (2010.12.09) unstable; urgency=high
- 
+
   [Gunnar Wolf]
   * Replace 0xF77F8DB23144BE0F with 0xC073D2287FFB9E9B (Michael Hanke)
     (RT #2657)
@@ -12947,7 +12947,7 @@ debian-keyring (2010.06.22) unstable; urgency=low
     * 0x8FFC405EFD5A67CD Adam Di Carlo <aph> uid:2 sig:9
     * 0xC3168EBA23F5ADDB Ian Jackson <iwj> sig:50
     * 0xE82A8B0D57137FE5 Paul Seelig <pseelig> uid:1 sig:4
-  
+
  -- Gunnar Wolf <gwolf@debian.org>  Tue, 22 Jun 2010 15:51:03 -0500
 
 debian-keyring (2010.06.08) unstable; urgency=low
@@ -13027,7 +13027,7 @@ debian-keyring (2010.05.17) unstable; urgency=low
  -- Jonathan McDowell <noodles@earth.li>  Mon, 17 May 2010 14:22:26 +0100
 
 debian-keyring (2010.05.16) unstable; urgency=low
-  
+
   [ Jonathan McDowell ]
   * Fix add-key/revoke-key/update-key to use --with-colons when getting keyid.
   * Add new key 0xA82FBB83F3D57033 (Dario Minnucci) (RT #2297)
@@ -13926,7 +13926,7 @@ debian-keyring (2009.12.06) UNRELEASED; urgency=low
   * Replace 0x53E5995B5155330A with 0x3D6903DFE1D316DC (Takuo Kitame)
     (RT #1941)
   * Replace 0x21BADABBBF24424C with 0xCF489438C5779A1C (Manoj Srivastava)
-    (RT #1400) 
+    (RT #1400)
   * Import changes sent to keyring.debian.org HKP interface
      * 0x01998318ADC9BC28 Luis Rodrigo Gallardo Cruz <rodrigo> sig:3
      * 0x0EA756B5144843F5 Roland Mas <lolando> sig:2
@@ -14029,22 +14029,22 @@ debian-keyring (2009.11.04) unstable; urgency=low
   * Replace 0xDADA79CD788A3F4C with 0xC910D9222512E3C7 (Joey Hess) (RT #1819)
   * Move 0x1FBB95BF2D9ACC8E (Lars Wirzenius) to emeritus (RT #1824)
   * Replace 0x62038A4BDD9B9910 with 0xD04BA3A00125D5C0 (Phil Hands) (RT #1842)
-  * Replace 0xF426E1B2BE9BF8DA with 0x5ECAFB00A3AE44A4 (Michael O'Connor) 
+  * Replace 0xF426E1B2BE9BF8DA with 0x5ECAFB00A3AE44A4 (Michael O'Connor)
     (RT #1847)
-  * Replace 0x2EA8994049A5F855 with 0xEB70FEF3CDFC6E4F (Otavio Salvador) 
-    (RT #1797, #1867) 
-  * Replace 0x77A954B3E25F2102 with 0x5262E7FF491049FE (Jonas Meurer) 
+  * Replace 0x2EA8994049A5F855 with 0xEB70FEF3CDFC6E4F (Otavio Salvador)
+    (RT #1797, #1867)
+  * Replace 0x77A954B3E25F2102 with 0x5262E7FF491049FE (Jonas Meurer)
     (RT #1859)
-  * Replace 0x3A0D8AA060F41216 with 0xDBF480C602F946FC (Marcin Owsiany) 
+  * Replace 0x3A0D8AA060F41216 with 0xDBF480C602F946FC (Marcin Owsiany)
     (RT #1856)
-  * Replaced 0x28DEAE7F29982E5A with 0x5759F35001AA4A64 (Steve Langasek) 
+  * Replaced 0x28DEAE7F29982E5A with 0x5759F35001AA4A64 (Steve Langasek)
     (RT #1868)
   * Add new developer key 0xE6AA90171392B174 (David Paleino) (RT #1869)
   * Replaced 0xA24704D5345E3A85 with 0xC5CE5DC2C542CD59 (Adam D. Barratt)
     (RT #1870)
   * Replaed 0x310180050905E40C with 0x310180050905E40C (Julien Cristau)
     (RT #1873)
-  * Replaced 0x40A5BEED72D03CB1 with 0x1D21C83DC452E0FC (Kenshi Muto) 
+  * Replaced 0x40A5BEED72D03CB1 with 0x1D21C83DC452E0FC (Kenshi Muto)
     (RT #1791)
   * Replaced 0xC890730FA3F9E30E with 0x9EC002FE1C9CA517 (Michael Schultheiss)
     (RT #1799)
@@ -14162,7 +14162,7 @@ debian-keyring (2009.09.12) UNRELEASED; urgency=low
  -- Jonathan McDowell <noodles@earth.li>  Sat, 12 Sep 2009 16:35:00 +0100
 
 debian-keyring (2009.09.06) UNRELEASED; urgency=low
- 
+
   * Add replacement key 0x2AFBD67FD133AC6E for Martin Meridith (RT #1666)
   * Add new developer key 0x721A2B30C154998C (Eugene V. Lyubimkin) (RT #1726)
   * Replace James Troup with Gunnar Wolf in Uploaders.
@@ -14754,7 +14754,7 @@ debian-keyring (2008.09.23) unstable; urgency=low
     * 0xE7FF2E5B634F9A20 Chris Lamb <chris@chris-lamb.co.uk> uid:1 sig:1
     * 0xED1A3933B2CFCDD8 Philipp Kern sig:44
     * 0xEFA55436964199E2 Fabian Fagerholm <fabbe@paniq.net> sig:5
-    * 0xF4E66A7CC20DF273 Ondřej Surý <ondrej@sury.org> sig:24 
+    * 0xF4E66A7CC20DF273 Ondřej Surý <ondrej@sury.org> sig:24
     * 0xF6EE83B9DF901724 Jan Wagner <waja@cyconet.org> uid:1 sig:1
     * 0xF9935424B1DF9A57 Giacomo Catenazzi <cate@debian.org> sig:2
     * 0xFE1F5E2FD1E2B16F Soeren Sonnenburg <sonne@debian.org> uid:1 sig:29
@@ -34936,7 +34936,7 @@ debian-keyring (2001.03.09) unstable; urgency=low
  -- James Troup <james@nocrew.org>  Fri,  9 Mar 2001 20:19:03 +0000
 
 debian-keyring (2001.02.25) unstable; urgency=low
-  
+
   * [Mon, 06 Nov 2000 00:08:48 GMT] {Added} 1024D/228A3AE4 John Leuner <jewel@pixie.co.za>
   * [Mon, 06 Nov 2000 00:14:09 GMT] {Added} 1024D/7B8357E5 Andreas Schuldei (permanent) <andreas@schuldei.org>
   * [Mon, 06 Nov 2000 00:14:42 GMT] {Added [Extra]} 1024D/00F2B9F3 Andreas Schuldei (permanent?) <schuldei@nikocity.de>
@@ -36153,7 +36153,7 @@ debian-keyring (2000.08.03) unstable; urgency=low
   * README: add missing --keyring option to instructions on how to sign
     GPG keys with PGP keys.  Thanks to Darren Stalder for noticing. [Bug
     #65370]
-  
+
   * [Mon, 31 Jul 2000 05:42:55 BST] {Update} 1024D/BF02C766 Gregory T. Norris <haphazard@socket.net> (sig: 2)
   * [Mon, 31 Jul 2000 05:42:55 BST] {Update} 1024D/4AE0F2EE Ashley Clark <aclark@ghoti.org> (uid: 1, sig: 2)
   * [Mon, 31 Jul 2000 05:42:55 BST] {Update} 1024D/DCF9DAB3 Joseph Carter <knghtbrd@debian.org> (sig: 1)
@@ -36176,7 +36176,7 @@ debian-keyring (2000.08.03) unstable; urgency=low
   * [Mon, 31 Jul 2000 06:49:27 BST] {Removed} 768R/4890EAD9 Hartmut Koptein <koptein@et-inf.fho-emden.de>
   * [Mon, 31 Jul 2000 06:49:27 BST] {Removed} 1024R/7C32BB6D Eduardo Marcel Macan <macan@thecore.com.br>
   * The above are the only remaining PGP keys which are not self-signed. [#43536]
-  
+
   * [Thu, 03 Aug 2000 04:59:05 BST] {Added} 1024D/00530C24 Brian May <bam@debian.org>
   * [Thu, 03 Aug 2000 05:01:52 BST] {Added} 1024D/96552D63 Tapio J. Lehtonen (Espoo Finland) <Tapio.Lehtonen@IKI.FI>
   * [Thu, 03 Aug 2000 05:06:24 BST] {Added} 1024D/9823336C Jim Westveer (jwest) <jwest@debian.org>
@@ -36294,7 +36294,7 @@ debian-keyring (2000.04.04) unstable; urgency=low
   * Tue,  4 Apr 2000 03:14:49 +0100: [GnuPG] Added the key of Erik Andersen.
   * Tue,  4 Apr 2000 03:16:57 +0100: [GnuPG] Added the key of Jeff Licquia.
   * Tue,  4 Apr 2000 03:17:02 +0100: [PGP] Updated the key of Jeff Licquia.
- 
+
  -- James Troup <james@nocrew.org>  Tue,  4 Apr 2000 03:17:35 +0100
 
 debian-keyring (2000.04.02) unstable; urgency=low
@@ -36957,7 +36957,7 @@ debian-keyring (1999.02.14) unstable; urgency=low
 
 debian-keyring (1999.02.06) frozen unstable; urgency=low
 
-  * debian/control: s/GNUPG/GnuPG/g. 
+  * debian/control: s/GNUPG/GnuPG/g.
   * debian/copyright: ditto, updated and sanitized.
   * Sun, 31 Jan 1999 13:40:27 +0000: [GnuPG/JT] Added the key of Manoj Srivastava.
   * Sun, 31 Jan 1999 14:16:06 +0000: [GnuPG/JT] Added the key of Steve McIntyre.
