@@ -2,7 +2,10 @@ Source: debian-keyring
 Section: misc
 Priority: optional
 Maintainer: Debian Keyring Maintainers <keyring-maint@debian.org>
-Uploaders: Jonathan McDowell <noodles@earth.li>, Gunnar Wolf <gwolf@debian.org>, Daniel Kahn Gillmor <dkg@fifthhorseman.net>
+Uploaders: Daniel Kahn Gillmor <dkg@fifthhorseman.net>,
+	Gunnar Wolf <gwolf@debian.org>,
+	John Sullivan <johns@debian.org>,
+	Jonathan McDowell <noodles@earth.li>
 Build-Depends: debhelper (>= 9), gnupg, gawk
 Homepage: https://keyring.debian.org/
 Standards-Version: 3.9.8
