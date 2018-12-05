@@ -1,6 +1,7 @@
 debian-keyring (2018.12.xx) UNRELEASED; urgency=medium
 
   * Add John Sullivan as an uploader for the package
+  * Add new DN key 0xC9230A4849ACE0DB (Molly de Blanc) (RT #7575)
 
  -- Jonathan McDowell <noodles@earth.li>  Wed, 28 Nov 2018 17:35:36 +0000
 
