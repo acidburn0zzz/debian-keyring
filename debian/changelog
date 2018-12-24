@@ -1,6 +1,66 @@
 debian-keyring (2018.12.xx) UNRELEASED; urgency=medium
 
   * Add new DM key 0x6CACA448860CDC13 (Norbert Preining) (RT #7586)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x02C1D3F2783AA4DE Kartik Mistry <kartik> sig:12
+    * 0x049B1033AF060C5A Daniel Glassey <wdg> sig:4
+    * 0x0D442664194974E2 Pierre-Elliott Bécue <peb> sig:16
+    * 0x16281F2E007C98D1 Francois Marier <francois> sig:4
+    * 0x1762E0227034CF84 William Blough <bblough> sig:10
+    * 0x17FBDCBFD9928FF4 Jochen Sprickerhof <jspricke> sig:15
+    * 0x194B631AB2DA2888 Andreas Rönnquist <gusnan> sub:1 sig:1
+    * 0x21FC29504B5230DB Daniel Echeverry <epsilon> uid:1 sig:2
+    * 0x2AFBD67FD133AC6E Martin Meredith <mez> sig:6
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:3
+    * 0x398D1112D3A4BDE1 chrysn [DM] sig:4
+    * 0x44BB1BA79F6C6333 Gustavo Panizzo <gfa> sub:2 sig:2
+    * 0x4664E07DBDA485C5 Benjamin Barenblat <bbaren> sig:6
+    * 0x4B043FCDB9444540 Mattia Rizzolo <mattia> sig:7
+    * 0x536D57489C2001D0 Teemu Hukkanen <tjhukkan> sig:1
+    * 0x55E9F9F7AC1C443F Marc Dequènes <duck> sig:4
+    * 0x5AD75B414EA41667 Georg Faerber <georg> sig:2
+    * 0x5E0195FAF2133176 Enrico Rossi [DM] sub:1 sig:3
+    * 0x62645EB35F686A8A Mo Zhou <lumin> uid:2 sig:19
+    * 0x636DB5A1D91860FD Anuradha Weeraman [DM] uid:1 sig:3
+    * 0x6611C05EDD39F374 Jérémy Lal <kapouer> sig:3
+    * 0x689A04020D7EA9A1 Sebastian Humenda [DM] sig:2
+    * 0x6E608B637D8967E9 Miguel Landaeta <nomadium> sig:3
+    * 0x759778A9A36B494F Stephen Kitt <skitt> uid:1 sig:10
+    * 0x7809DD1F83DCC74A Sascha Girrulat [DM] sub:2 sig:3
+    * 0x7B96E8162A8CF5D1 Sebastian Andrzej Siewior <bigeasy> sub:3 sig:9
+    * 0x7F7606A445DCA80E Manuel A. Fernandez Montecelo <mafm> sig:3
+    * 0x8382C95C29023DF9 Jérémy Bobbio <lunar> sig:4
+    * 0x88237A6A53AB1B2E Harlan Lieberman-Berg <hlieberman> sig:2
+    * 0x9605A1098C63B92A Edward John Betts <edward> sig:7
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:4
+    * 0x992D23B392F9E4F2 Loic Dachary <loic> sig:1
+    * 0x9C31503C6D866396 Stefano Zacchiroli <zack> sig:2
+    * 0x9CD17D5807C0713A Bas Wijnen <wijnen> uid:1 sig:1
+    * 0x9EC002FE1C9CA517 Michael C. Schultheiss <schultmc> sig:5
+    * 0xA350B991F05A4857 Martin A. Godisch <godisch> sig:2
+    * 0xA3882EBF78446F26 Joshua Kwan <joshk> uid:1 sub:3 sig:10
+    * 0xA721DA055374AA4F Reiner Herrmann [DM] sig:5
+    * 0xAEF6F1A2A7457645 Piotr Ożarowski <piotr> sub:1 sig:20
+    * 0xB01FEA84617B586D Andreas B. Mundt <andi> sig:2
+    * 0xC617869F1478504E Keng-Yu Lin [DM] sig:5
+    * 0xC66D06B40443C450 Paulo Henrique de Lima Santana (phls) [DM] sig:19
+    * 0xC7F7F9660D82A682 Laurent Bigonville <bigon> uid:1 sig:1
+    * 0xC89D5712DF945F6F Philippe Thierry <philou> uid:1 sig:1
+    * 0xCD58A1B17ED033FA Khalid Aziz <khalid> uid:1 sig:1
+    * 0xD0E94F8D882D4468 Nicolas Boullis <nboullis> sig:4
+    * 0xD25D611C8E192076 XU Benda [DM] sig:3
+    * 0xD9AD14B9513B51E4 Markus Koschany <apo> sig:11
+    * 0xDA82830E3CCC3A3A Alexandre Viau <aviau> sig:3
+    * 0xDB221A6900000011 Keith Packard <keithp> uid:1 sig:36
+    * 0xDEE8043EE17EBB30 Rhonda D'Vine <rhonda> sig:17
+    * 0xEC1879D076D8AB48 Changwoo Ryu <cwryu> sig:12
+    * 0xEC9D370872BC7A8C Nicolas Braud-Santoni <nicoo> uid:1 sig:3
+    * 0xED6C8A3883476455 Stephen Frost <sfrost> sig:6
+    * 0xF167E43C8143B682 Neil Williams <codehelp> sig:3
+    * 0xF50EFDCF8AD04B1A Philipp Matthias Hahn <pmhahn> sub:1 sig:5
+    * 0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:9
+    * 0xFD49D0BC6FEAECDA Sagar Ippalpalli <isaagar> sig:1
+    * 0xFE001D44C8021865 Andrew Bartlett [DM] sub:1 sig:5
 
  -- Jonathan McDowell <noodles@earth.li>  Fri, 21 Dec 2018 09:10:35 +0000
 
