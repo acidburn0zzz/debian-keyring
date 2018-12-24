@@ -1,4 +1,4 @@
-debian-keyring (2018.12.xx) UNRELEASED; urgency=medium
+debian-keyring (2018.12.24) unstable; urgency=medium
 
   * Add new DM key 0x6CACA448860CDC13 (Norbert Preining) (RT #7586)
   * Import changes sent to keyring.debian.org HKP interface:
@@ -62,7 +62,7 @@ debian-keyring (2018.12.xx) UNRELEASED; urgency=medium
     * 0xFD49D0BC6FEAECDA Sagar Ippalpalli <isaagar> sig:1
     * 0xFE001D44C8021865 Andrew Bartlett [DM] sub:1 sig:5
 
- -- Jonathan McDowell <noodles@earth.li>  Fri, 21 Dec 2018 09:10:35 +0000
+ -- Jonathan McDowell <noodles@earth.li>  Mon, 24 Dec 2018 17:06:15 +0000
 
 debian-keyring (2018.12.14) unstable; urgency=high
 
