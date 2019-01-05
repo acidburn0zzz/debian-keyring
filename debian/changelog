@@ -1,6 +1,7 @@
 debian-keyring (2019.01.xx) UNRELEASED; urgency=medium
 
   * Move 0xE941DEDA7C5BB6A5 (Olivier Berger) to emeritus (RT #7596)
+  * Move 0xAC1E90BAC433F68F (Gergely Nagy) to emeritus (RT #7598)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 03 Jan 2019 10:18:41 +0000
 
