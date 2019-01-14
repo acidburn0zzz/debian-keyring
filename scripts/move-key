@@ -84,7 +84,7 @@ if [ "x$n" = "xy" -o "x$n" = "xY" ]; then
 	log="Add new DM key $key ($name) (RT #$rtid)"
 	dest=DM
 	action=add
-    elif ( echo $destdir | egrep -q 'debian-emeritus-gpg/?$' ); then
+    elif ( echo $destdir | egrep -q 'emeritus-keyring-gpg/?$' ); then
 	log="Move $key to emeritus ($name) (RT #$rtid)"
 	action=remove
     fi
