@@ -5,6 +5,8 @@ debian-keyring (2019.01.xx) UNRELEASED; urgency=medium
   * Move 0xAC1E90BAC433F68F (Gergely Nagy) to emeritus (RT #7598)
   * Move 0x66C0ADDE8B45AC41 (Christophe Siraut) to emeritus (RT #7602)
   * Move 0x1D21C83DC452E0FC to emeritus (Kenshi Muto) (RT #7607)
+  * Add new DD key 0xC66D06B40443C450 (Paulo Henrique de Lima Santana)
+    (RT #7616)
 
   [ Gunnar Wolf ]
   * Add new DD key 0x5001E1B09AA3744B (Unit 193) (RT #7606)
