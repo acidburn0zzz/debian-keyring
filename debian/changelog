@@ -13,6 +13,8 @@ debian-keyring (2019.01.xx) UNRELEASED; urgency=medium
   * Add new DD key 0x2DCD6B5DE858ADF3 (Paul Tagliamonte) (RT #7613)
   * Add new DD key 0xF004ACE4F0131ECF (Herbert Parentes Fortes Neto) (RT
     #7619)
+  * Remove 0x2702CAEB90F8EEC5 (old, expired Debian Security Team role
+    key) (Closes: #917991)
 
  -- Jonathan McDowell <noodles@earth.li>  Thu, 03 Jan 2019 10:18:41 +0000
 
