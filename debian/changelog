@@ -2,6 +2,7 @@ debian-keyring (2019.02.xx) UNRELEASED; urgency=medium
 
   * Add new DD key 0x476DF16D280CDAD3 (Marcio de Souza Oliveira) (RT
     #7632)
+  * Add new DM key 0x5A1221E8229E8A60 (Romain Perier) (RT #7633)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 03 Feb 2019 19:26:18 +0000
 
