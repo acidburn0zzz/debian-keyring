@@ -10,6 +10,7 @@ debian-keyring (2019.02.xx) UNRELEASED; urgency=medium
 
   [ Gunnar Wolf ]
   * Remove 0x6C6580E77BD756C4 (Daniel Pocock) (RT #7637)
+  * Move 0xC5D058E4BD68AEDB to emeritus (Nikita Youshchenko) (RT #7640)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 03 Feb 2019 19:26:18 +0000
 
