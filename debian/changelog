@@ -2,6 +2,7 @@ debian-keyring (2019.03.xx) UNRELEASED; urgency=medium
 
   * Add new DM key 0xBA3E29338280B242 (Christian Ehrhardt) (RT #7691)
   * Add new DM key 0xC4C3F43EC6F0514F (Aniol Marti) (RT #7698)
+  * Add new DD key 0xC5C329EC35C2E2F1 (Jean Baptiste Favre) (RT #7699)
 
  -- Jonathan McDowell <noodles@earth.li>  Sat, 16 Mar 2019 14:01:54 +0000
 
