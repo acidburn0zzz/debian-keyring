@@ -68,6 +68,9 @@ for key in 0x*; do
 		if [ $OLDSIZE -gt $NEWSIZE ]; then
 			echo "Cleaning $key [$OLDSIZE] -> [$NEWSIZE]"
 			mv "$key.new" "$key"
+                elif [ $OLDSIZE -eq $NEWSIZE ] && ! cmp --quiet "$key" "$key.new" ; then
+                    echo "Packets were reordered in $key"
+		    mv "$key.new" "$key"
 		fi
 	fi
 	[ -e "$key.new" ] && rm "$key.new"
