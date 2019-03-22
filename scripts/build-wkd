@@ -67,7 +67,7 @@ def getdomainlocalpart(line: bytes, domain: bytes) -> bytes:
 def gpgbase(keyrings):
     return ['gpg', '--batch', '--no-options', '--with-colons',
             '--no-default-keyring',
-            '--homedir=.gpghome', '--trust-model=always',
+            '--homedir=/dev/null', '--trust-model=always',
             '--fixed-list-mode'] + list(map(lambda k: '--keyring='+k, keyrings))
 
 def emit_wkd(localpart: bytes, domain: bytes, keyrings: List):
@@ -81,7 +81,6 @@ def emit_wkd(localpart: bytes, domain: bytes, keyrings: List):
     run(cmd)
 
 def build_wkd(domain, keyrings):
-    mkdir('.gpghome', mode=0o700)
     mkdir('openpgpkey')
     mkdir(path.join('openpgpkey', 'hu'))
 
@@ -105,7 +104,6 @@ def build_wkd(domain, keyrings):
     # make the policy file:
     policyfile = open(path.join('openpgpkey', 'policy'), 'wb')
     del policyfile
-    rmdir('.gpghome')
 
 if __name__ == '__main__':
     sys.argv.pop(0)
