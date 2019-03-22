@@ -1,51 +1,78 @@
 #!/bin/bash
 
-# Copyright (c) 2012 Jonathan McDowell <noodles@earth.li>
+# Copyright (c) 2012 Jonathan McDowell <noodles@earth.li>,
+#              2019 Daniel Kahn Gillmor <dkg@fifthhorseman.net>
 # GNU GPL; v2 or later
-# Given a key directory clean the keys to be minimal or clean
+# Given a key directory, prune, clean, or minimize the keys
+
+# "prune" just does basic cleanup on the file, without getting rid of
+# any third-party signatures.
 
 set -e
 
 if [ -z "$1" ] || [ -z "$2" ]; then
-	echo "Usage: clean-keydir [clean|minimal] dir" >&2
+	cat >&2 <<EOF
+Usage: $0 [prune|clean|minimal] dir
+   prune: remove invalid parts
+   clean: prune and drop non-debian third-party certifications
+   minimal: prune and remove *all* third-party certifications
+EOF
 	exit 1
 fi
 
-if [ "$1" == "clean" ]; then
-	GPGOPTIONS="--keyring $(readlink -f output/keyrings/debian-keyring.gpg) --keyring $(readlink -f output/keyrings/debian-nonupload.gpg) --keyring $(readlink -f output/keyrings/debian-maintainers.gpg) --no-auto-check-trustdb --import-options import-clean --export-options export-clean,no-export-attributes"
-elif [ "$1" == "minimal" ]; then
-	GPGOPTIONS="--no-auto-check-trustdb --import-options import-minimal --export-options export-minimal,no-export-attributes"
+declare -a GPGOPTIONS=(--batch
+                       --no-tty
+                       --quiet
+                       --no-keyring
+                       --no-options
+                       --homedir=/dev/null
+                       --trust-model=always
+                       --fixed-list-mode
+                       --with-colons
+                       --import-options=import-export
+                       --export-options=no-export-attributes
+                      )
+
+
+if [ "$1" == prune ]; then
+    # no more options need to be added
+    : pass
+elif [ "$1" == clean ]; then
+    # we need to include all the known keys so that we keep the
+    # interlocking signatures
+    make
+    GPGOPTIONS+=(--import-options=import-clean
+                 --export-options=export-clean
+                 --keyring "$(readlink -f output/keyrings/debian-keyring.gpg)"
+                 --keyring "$(readlink -f output/keyrings/debian-nonupload.gpg)"
+                 --keyring "$(readlink -f output/keyrings/debian-maintainers.gpg)"
+                 --keyring "$(readlink -f output/keyrings/debian-role-keys.gpg)"
+                 --keyring "$(readlink -f output/keyrings/emeritus-keyring.gpg)"
+                )
+elif [ "$1" == minimal ]; then
+    GPGOPTIONS+=(--import-options=import-minimal --export-options=export-minimal)
 else
-	echo "Must specify clean or minimal; not $1" >&2
+    echo "Must specify prune, clean or minimal; not $1" >&2
+    exit 1
+fi
+
+if [ ! -d "$2" ]; then
+	printf '%s is not a directory' "$2" >&2
 	exit 1
 fi
 
-if [ ! -d $2 ]; then
-	echo "$2 is not a directory" >&2
-	exit 1
-fi
-
-# avoid gnupg touching ~/.gnupg
-GNUPGHOME=$(mktemp -d -t jetring.XXXXXXXX)
-export GNUPGHOME
-trap cleanup exit
-cleanup () {
-	rm -rf "$GNUPGHOME"
-}
-
-cd $2
+cd "$2"
 for key in 0x*; do
-	if gpg --quiet $GPGOPTIONS --import $key &&
-			gpg --quiet $GPGOPTIONS --export $key > $key.new &&
+	if gpg "${GPGOPTIONS[@]}" --output "$key.new" --import "$key" &&
 			[ -s $key.new ]; then
-		OLDSIZE=$(stat -c "%s" $key)
-		NEWSIZE=$(stat -c "%s" $key.new)
+		OLDSIZE=$(stat -c "%s" "$key")
+		NEWSIZE=$(stat -c "%s" "$key.new")
 		if [ $OLDSIZE -gt $NEWSIZE ]; then
 			echo "Cleaning $key [$OLDSIZE] -> [$NEWSIZE]"
-			mv $key.new $key
+			mv "$key.new" "$key"
 		fi
 	fi
-	[ -e $key.new ] && rm $key.new
+	[ -e "$key.new" ] && rm "$key.new"
 done
 
 exit 0
