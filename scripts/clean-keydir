@@ -45,7 +45,7 @@ elif [ "$1" == clean ]; then
     # we need to include all the known keys so that we keep the
     # interlocking signatures
     make
-    GPGOPTIONS+=(--no-keyring
+    GPGOPTIONS+=(--no-default-keyring
                  --import-options=import-export,import-clean
                  --export-options=export-clean
                  --keyring "$(readlink -f output/keyrings/debian-keyring.gpg)"
