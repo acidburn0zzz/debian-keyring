@@ -12,8 +12,9 @@ set -e
 
 if [ -z "$1" ] || [ -z "$2" ]; then
 	cat >&2 <<EOF
-Usage: $0 [prune|clean|minimal] dir
+Usage: $0 [prune|launder|clean|minimal] dir
    prune: remove invalid parts
+   launder: invoke GnuPG's merge logic to trim the key
    clean: prune and drop non-debian third-party certifications
    minimal: prune and remove *all* third-party certifications
 EOF
@@ -23,7 +24,6 @@ fi
 declare -a GPGOPTIONS=(--batch
                        --no-tty
                        --quiet
-                       --no-keyring
                        --no-options
                        --homedir=/dev/null
                        --trust-model=always
@@ -34,12 +34,19 @@ declare -a GPGOPTIONS=(--batch
 
 
 if [ "$1" == prune ]; then
-    GPGOPTIONS+=(--import-options=import-export)
+    GPGOPTIONS+=(--no-keyring
+                 --import-options=import-export
+                )
+elif [ "$1" == launder ]; then
+    # we are going to do something very ugly...
+    # see https://dev.gnupg.org/T4421
+    : pass
 elif [ "$1" == clean ]; then
     # we need to include all the known keys so that we keep the
     # interlocking signatures
     make
-    GPGOPTIONS+=(--import-options=import-export,import-clean
+    GPGOPTIONS+=(--no-keyring
+                 --import-options=import-export,import-clean
                  --export-options=export-clean
                  --keyring "$(readlink -f output/keyrings/debian-keyring.gpg)"
                  --keyring "$(readlink -f output/keyrings/debian-nonupload.gpg)"
@@ -48,9 +55,12 @@ elif [ "$1" == clean ]; then
                  --keyring "$(readlink -f output/keyrings/emeritus-keyring.gpg)"
                 )
 elif [ "$1" == minimal ]; then
-    GPGOPTIONS+=(--import-options=import-export,import-minimal --export-options=export-minimal)
+    GPGOPTIONS+=(--no-keyring
+                 --import-options=import-export,import-minimal
+                 --export-options=export-minimal
+                )
 else
-    echo "Must specify prune, clean or minimal; not $1" >&2
+    echo "Must specify prune, launder, clean or minimal; not $1" >&2
     exit 1
 fi
 
@@ -61,8 +71,33 @@ fi
 
 cd "$2"
 for key in 0x*; do
-	if gpg "${GPGOPTIONS[@]}" --output "$key.new" --import "$key" &&
-			[ -s $key.new ]; then
+    success=false
+    if [ "$1" == launder ]; then
+        mkdir -p -m 0700 "home.$key" "split.$key"
+        if gpg "${GPGOPTIONS[@]}" --homedir "home.$key" --import-options=import-minimal --import < "$key" &&
+                gpg "${GPGOPTIONS[@]}" --homedir "home.$key" --export "$key" | (cd "split.$key" && gpgsplit) &&
+                gpg "${GPGOPTIONS[@]}" --homedir "home.$key" --yes --delete-key "$key"; then
+            # now we have the split key, let's try to find the first user ID:
+            pub="split.$key/000001-006.public_key"
+            uid=$(ls "split.$key/"*.user_id | head -n1)
+            sig=$(printf 'split.%s/%06d-002.sig' "$key" $(( "$(echo "${uid##split.$key/}" | sed -e 's_^0*__' -e 's_-.*$__')" + 1 )) )
+            if [ -r "$pub" ] && [ -r "$uid" ] && [ -r "$sig" ]; then
+                if cat "$pub" "$uid" "$sig" | gpg "${GPGOPTIONS[@]}" --homedir "home.$key" --import &&
+                        gpg "${GPGOPTIONS[@]}" --homedir "home.$key" --import < "$key" &&
+                        gpg "${GPGOPTIONS[@]}" --homedir "home.$key" --output "$key.new" --export "$key"; then
+                    success=true
+                fi
+            else
+                printf 'Could not find minimal TPK for %s\n' "$key" >&2
+            fi
+        fi
+        rm -rf "home.$key" "split.$key"      
+    else
+        if gpg "${GPGOPTIONS[@]}" --output "$key.new" --import "$key"; then
+            success=true
+        fi
+    fi
+	if [ $success = true ] &&  [ -s $key.new ]; then
 		OLDSIZE=$(stat -c "%s" "$key")
 		NEWSIZE=$(stat -c "%s" "$key.new")
 		if [ $OLDSIZE -gt $NEWSIZE ]; then
