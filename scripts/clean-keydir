@@ -69,29 +69,56 @@ if [ ! -d "$2" ]; then
 	exit 1
 fi
 
+# takes name of transferable public key file as $1, emits the laundered key to file named $2
+launder_tpk() {
+    local interim="$(mktemp -d interim.XXXXXXX)"
+    local success=false
+    local key="$1"
+    local output="$2"
+    mkdir -p -m 0700 "$interim/gpg" "$interim/split"
+    cat > "$interim/gpg/gpg.conf" <<EOF
+batch
+no-tty
+quiet
+no-options
+trust-model always
+fixed-list-mode
+with-colons
+export-options no-export-attributes
+EOF
+    if gpg --homedir "$interim/gpg" --import-options=import-minimal --status-file "$interim/status" --import < "$key" &&
+            fpr="$(awk '{ if ($1 == "[GNUPG:]" && $2 == "IMPORT_OK" && $3 == "1") { print $4 } }' < "$interim/status")" &&
+            [ -n "$fpr" ] &&
+            gpg --homedir "$interim/gpg" --export | (cd "$interim/split" && gpgsplit) &&
+            gpg --homedir "$interim/gpg" --delete-key "$fpr"; then
+        local pub="$interim/split/000001-006.public_key"
+        local uid=$(ls "$interim/split/"*.user_id | head -n1)
+        local sig=$(printf '%s/split/%06d-002.sig' "$interim" $(( "$(echo "${uid##$interim/split/}" | sed -e 's_^0*__' -e 's_-.*$__')" + 1 )) )
+        if [ -r "$pub" ] && [ -r "$uid" ] && [ -r "$sig" ]; then
+            if cat "$pub" "$uid" "$sig" | gpg --homedir "$interim/gpg" --import &&
+                    gpg --homedir "$interim/gpg" --import < "$key" &&
+                    gpg --homedir "$interim/gpg" --output "$output" --export "$fpr"; then
+                success=true
+            else
+                printf 'Merging failed for %s (fpr: %s)\n' "$key" "$fpr" >&2
+            fi
+        else
+            printf 'Could not find minimal TPK for %s (fpr: %s)\n' "$key" "$fpr" >&2
+        fi
+    else
+        printf 'failed to do initial import of %s\n' "$key" >&2
+    fi
+    rm -rf "$interim"
+    [ $success = true ]
+}
+
 cd "$2"
 for key in 0x*; do
     success=false
     if [ "$1" == launder ]; then
-        mkdir -p -m 0700 "home.$key" "split.$key"
-        if gpg "${GPGOPTIONS[@]}" --homedir "home.$key" --import-options=import-minimal --import < "$key" &&
-                gpg "${GPGOPTIONS[@]}" --homedir "home.$key" --export "$key" | (cd "split.$key" && gpgsplit) &&
-                gpg "${GPGOPTIONS[@]}" --homedir "home.$key" --yes --delete-key "$key"; then
-            # now we have the split key, let's try to find the first user ID:
-            pub="split.$key/000001-006.public_key"
-            uid=$(ls "split.$key/"*.user_id | head -n1)
-            sig=$(printf 'split.%s/%06d-002.sig' "$key" $(( "$(echo "${uid##split.$key/}" | sed -e 's_^0*__' -e 's_-.*$__')" + 1 )) )
-            if [ -r "$pub" ] && [ -r "$uid" ] && [ -r "$sig" ]; then
-                if cat "$pub" "$uid" "$sig" | gpg "${GPGOPTIONS[@]}" --homedir "home.$key" --import &&
-                        gpg "${GPGOPTIONS[@]}" --homedir "home.$key" --import < "$key" &&
-                        gpg "${GPGOPTIONS[@]}" --homedir "home.$key" --output "$key.new" --export "$key"; then
-                    success=true
-                fi
-            else
-                printf 'Could not find minimal TPK for %s\n' "$key" >&2
-            fi
+        if launder_tpk "$key" "$key.new"; then
+            success=true
         fi
-        rm -rf "home.$key" "split.$key"      
     else
         if gpg "${GPGOPTIONS[@]}" --output "$key.new" --import "$key"; then
             success=true
@@ -104,8 +131,13 @@ for key in 0x*; do
 			echo "Cleaning $key [$OLDSIZE] -> [$NEWSIZE]"
 			mv "$key.new" "$key"
                 elif [ $OLDSIZE -eq $NEWSIZE ] && ! cmp --quiet "$key" "$key.new" ; then
-                    echo "Packets were reordered in $key"
-		    mv "$key.new" "$key"
+                    printf "Packets were reordered in $key"
+                    if [ "$1" == launder ]; then
+                        echo " (but ignoring while doing launder: https://dev.gnupg.org/T4422)"
+                    else
+		        mv "$key.new" "$key"
+                        echo
+                    fi
 		fi
 	fi
 	[ -e "$key.new" ] && rm "$key.new"
