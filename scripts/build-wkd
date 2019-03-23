@@ -112,10 +112,10 @@ if __name__ == '__main__':
     else:
         domain = 'debian.org'
 
-        if len(sys.argv):
-            keys = sys.argv
-        else:
-            keys = ['/usr/share/keyrings/debian-nonupload.gpg',
-                    '/usr/share/keyrings/debian-keyring.gpg',
-                    '/usr/share/keyrings/debian-role-keys.gpg']
+    if len(sys.argv):
+        keys = sys.argv
+    else:
+        keys = ['/usr/share/keyrings/debian-nonupload.gpg',
+                '/usr/share/keyrings/debian-keyring.gpg',
+                '/usr/share/keyrings/debian-role-keys.gpg']
     build_wkd(domain, keys)
