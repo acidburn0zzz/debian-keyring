@@ -24,8 +24,8 @@ output/README: README
 output/changelog: debian/changelog
 	cp debian/changelog output/
 
-output/openpgpkey: output/keyrings/debian-keyring.gpg output/keyrings/debian-keyring.gpg output/keyrings/debian-maintainers.gpg output/keyrings/debian-nonupload.gpg output/keyrings/debian-role-keys.gpg
-	cd output && ../scripts/build-wkd debian.org keyrings/debian-keyring.gpg keyrings/debian-maintainers.gpg keyrings/debian-nonupload.gpg keyrings/debian-role-keys.gpg
+output/openpgpkey: output/keyrings/debian-keyring.gpg output/keyrings/debian-keyring.gpg output/keyrings/debian-nonupload.gpg output/keyrings/debian-role-keys.gpg
+	cd output && ../scripts/build-wkd debian.org keyrings/debian-keyring.gpg keyrings/debian-nonupload.gpg keyrings/debian-role-keys.gpg
 
 test: all
 	./runtests
