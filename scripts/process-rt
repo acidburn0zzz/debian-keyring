@@ -259,17 +259,27 @@ def fetch_ticket(rtid):
         print("RT status code is not 200", res_lines)
         return
 
-    attachment = None
+    attachments = []
+    inattachments = False
     text = None
     signature = None
 
     for line in res_lines[2:]:
-        m = re.match('Attachments: (\d+):', line)
-        if m:
-            print('Attachment found, ' + m.group(1))
-            attachment = int(m.group(1))
+        if inattachments:
+            m = re.match(' +(\d+):', line)
+            if m:
+                print('Attachment found, ' + m.group(1))
+                attachments.append(int(m.group(1)))
+            else:
+                inattachments = False
+        else:
+            m = re.match('Attachments: (\d+):', line)
+            if m:
+                print('Attachment found, ' + m.group(1))
+                attachments.append(int(m.group(1)))
+                inattachments = True
 
-    if attachment:
+    for attachment in attachments:
         res = requests.post(RT_BASE_URL + 'ticket/' + str(rtid) +
                             '/attachments/' + str(attachment),
                             **args)
@@ -297,7 +307,8 @@ def fetch_ticket(rtid):
                 text, result = c.verify(io.BytesIO(
                                         "\n".join(message).encode('utf-8')))
             except gpg.errors.GPGMEError:
-                return (None, None)
+                text = None
+                continue
             if result:
                 key = c.get_key(result.signatures[0].fpr)
                 # print(result.signatures[0].__str__())
@@ -306,6 +317,7 @@ def fetch_ticket(rtid):
                         signature = keyids[subkey.fpr[24:]]['username']
                 print("Good signature from " + signature + " (" +
                       result.signatures[0].fpr + ")")
+                break
             else:
                 print("Couldn't verify message.")
 
