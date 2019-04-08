@@ -2,6 +2,7 @@ debian-keyring (2019.03.xx) UNRELEASED; urgency=medium
 
   * Add new DM key 0x823E967606C34B96 (Utkarsh Gupta) (RT #7725)
   * Add new DM key 0x7D97093255A0CE7F (Nicolas Schier) (RT #7731)
+  * Add new DM key 0x186CF99F98E75ABD (Stewart Ferguson) (RT #7732)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 31 Mar 2019 19:17:49 +0100
 
