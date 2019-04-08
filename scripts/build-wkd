@@ -13,7 +13,7 @@
 # cleanliness.
 
 # If arguments are not supplied, the default is to use
-# DOMAIN=@debian.org, and the KEYRINGs used are the relevant ones from
+# DOMAIN_NAME=debian.org, and the KEYRINGs used are the relevant ones from
 # the debian-keyring package.
 
 from hashlib import sha1
@@ -75,7 +75,7 @@ def emit_wkd(localpart: bytes, domain: bytes, keyrings: List):
     # what do we do if this local part is not a proper encoding?
     addr = codecs.decode(localpart) + '@' + domain
     cmd = gpgbase(keyrings) + ['--output', path.join('openpgpkey', 'hu',wkdstr),
-                               '--export-options', 'export-minimal',
+                               '--export-options', 'export-clean',
                                '--export-filter', 'keep-uid=mbox='+addr,
                                '--export', '<' + addr + '>']
     run(cmd)
