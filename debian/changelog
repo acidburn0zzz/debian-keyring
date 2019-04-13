@@ -1,4 +1,4 @@
-debian-keyring (2019.03.xx) UNRELEASED; urgency=medium
+debian-keyring (2019.04.12) unstable; urgency=medium
 
   [ Jonathan McDowell ]
   * Add new DM key 0x823E967606C34B96 (Utkarsh Gupta) (RT #7725)
@@ -73,7 +73,7 @@ debian-keyring (2019.03.xx) UNRELEASED; urgency=medium
     * 0x972AF09CFECEEACE Alexandre Rossi <niol> sig:4
     * 0xEC371482956781AF Sven Eckelmann [DM] uid:2 sub:1 sig:10
 
- -- Jonathan McDowell <noodles@earth.li>  Sun, 31 Mar 2019 19:17:49 +0100
+ -- Gunnar Wolf <gwolf@debian.org>  Fri, 12 Apr 2019 19:11:15 -0500
 
 debian-keyring (2019.03.24) unstable; urgency=medium
 
