@@ -4,6 +4,70 @@ debian-keyring (2019.03.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x7D97093255A0CE7F (Nicolas Schier) (RT #7731)
   * Add new DM key 0x186CF99F98E75ABD (Stewart Ferguson) (RT #7732)
   * Add new DM key 0x0C871C4C653C1F59 (Hilmar Preusse) (RT #7737)
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x04AAE5B397F1AAAC Ulrich Dangel <uli> sig:3
+    * 0x06EAA066E397832F Luca Capello <gismo> sig:1
+    * 0x1784577F811F6EAC Brian May <bam> sig:3
+    * 0x1E08BF280CB9A31A Martin Gerhard Loschwitz <madkiss> sub:1 sig:5
+    * 0x1E2A2F0B19116AD8 Bastian Blank <waldi> sig:4
+    * 0x50C3634D3A291CF9 Philipp Kern <pkern> sig:3
+    * 0x59DF9475A373F5B4 Mario Joußen <joussen> sub:1 sig:3
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sub:1 sig:1
+    * 0x6C8F74AE87700B7E Vasudev Sathish Kamath <vasudev> sig:6
+    * 0x792152527B75921E Antoine Beaupré <anarcat> uid:1 sig:11
+    * 0x7CFCD8CD257721E9 Vagrant Cascadian <vagrant> sig:4
+    * 0x8CBF9A322861A790 Micah Anderson <micah> sig:6
+    * 0x9C5C99EB05BD750A Paul Gevers <elbrus> sig:10
+    * 0xC5BD6C8F2295D502 Charles Plessy <plessy> sig:1
+    * 0xC66D06B40443C450 Paulo Henrique de Lima Santana <phls> uid:2 sig:5
+    * 0xC6DE073EDA9EEC4D Paul van Tilburg <paulvt> sig:6
+    * 0xC7F7F9660D82A682 Laurent Bigonville <bigon> sig:3
+    * 0xC92949B8A63BB098 intrigeri <intrigeri> sub:3 sig:3
+    * 0xCA87E9E82AAC33F1 Alexander GQ Gerasiov <gq> sig:2
+    * 0xCAFB3BAD0A75C877 Nathan Harrison Handler <nhandler> sub:1 sig:1
+    * 0xD003852FBD52529E Thomas Preud'homme <robotux> sig:3
+    * 0xD04BA3A00125D5C0 Philip Hands <philh> sig:2
+    * 0xD0EB762865FC5E36 Sergio Durigan Junior <sergiodj> sig:5
+    * 0xD547946327003A3F LaMont Jones <lamont> sig:2
+    * 0xD599FF6101809E2A Elena Grandi <valhalla> sub:1 sig:1
+    * 0xD6D09BE48405BBF6 Mathias Behrle <mbehrle> sig:10
+    * 0xD7C3F131AB2A91F5 James Troup <troup> uid:1 sig:1
+    * 0xD7D3402E0106630C Eugene Zhukov <eugene> sig:8
+    * 0xD84747ACE4B6813D Tiago Bortoletto Vaz <tiago> sig:1
+    * 0xD929F2992BEF0A33 Didier Raboud <odyx> sub:1 sig:1
+    * 0xD9EEBFB4B66B10F0 Timo Weingärtner <tiwe> uid:1 sig:1
+    * 0xDA4958F611E149E9 Cédric Boutillier <boutil> sig:1
+    * 0xDAFD5959408B7B9B Anders Hammarquist <iko> sig:8
+    * 0xDB16CF5BB12525C4 Joerg Jaspert <joerg> sub:1 sig:36
+    * 0xDF6D76C44D696F6B Sven Bartscher <kritzefitz> sig:4
+    * 0xE33E61A2E9B8C3A2 Göran Weinholt <weinholt> sig:4
+    * 0xE564B9C275BDD52E Robie Basak <rbasak> sig:5
+    * 0xE5F43F9C2734F287 Andrius Merkys <merkys> uid:1 sig:3
+    * 0xE69822C7E02958CD Ruben Undheim <rubund> sig:1
+    * 0xED63B6125A1D1561 Dima Kogan <dkogan> sig:5
+    * 0xA1F751F1A55357E8 Nattie Mayer-Hutchings <nattie> sig:2
+    * 0x0CB5EFD858B09E60 Wolfgang Silbermayr <silwol> sub:1 sig:2
+    * 0x16099E15596AE928 Jean Schurger (Ubity) [DM] sig:4
+    * 0x1B7CC8D4D4E914AA Robert Haist [DM] sig:1
+    * 0x20B7283AFE254C69 Keith Winstein [DM] sig:1
+    * 0x2948210746DF73C0 Kurt Kremitzki <kkremitzki> sub:1 sig:3
+    * 0x2EC3F60DE71C0B9D James Lu <jlu> sig:3
+    * 0x48D19F46BC99C9B7 Mark Lee Garrett <lee> uid:1 sig:1
+    * 0x4CF2B218F54DAE3D Jakob Haufe (sur5r) [DM] sig:3
+    * 0x4D99F6660A59827B Raphaël Halimi <moonsweep> sig:2
+    * 0x524DD2227A5017ED Rebecca Natalie Palmer <rnpalmer> sig:1
+    * 0x554297EDF9CCA585 Guo Yixuan (郭溢譞) [DM] sub:2 sig:2
+    * 0x5B019455E2B84FA5 Jaromír Mikeš [DM] sig:4
+    * 0x5E0195FAF2133176 Enrico Rossi [DM] sub:4 sig:5
+    * 0x61F3442674DE6624 Andreas Moog [DM] uid:1 sig:4
+    * 0x61F7985DB84E0B04 Adrian Vondendriesch [DM] sig:2
+    * 0x6808239B9C72E61B Filip Pytloun [DM] uid:2 sig:2
+    * 0x77C0C75E7B650808 James Valleroy [DM] sig:2
+    * 0x7EAE264181E773D5 Christoph Ulrich Scholler [DM] sub:3 sig:5
+    * 0x914F833437204C75 Nico Schlömer <nschloe> sig:2
+    * 0x934380E836A0D0AA Luke Cycon [DM] uid:1 sig:1
+    * 0x972AF09CFECEEACE Alexandre Rossi <niol> sig:4
+    * 0xEC371482956781AF Sven Eckelmann [DM] uid:2 sub:1 sig:10
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 31 Mar 2019 19:17:49 +0100
 
