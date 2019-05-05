@@ -1,6 +1,7 @@
 debian-keyring (2019.05.xx) UNRELEASED; urgency=medium
 
   * Add new DN key 0xC51EA7006E6BDC0D (Taowa Munene-Tardif) (RT #7756)
+  * Add new DN key 0x648047B2D723891C (Jean-Philippe MENGUAL) (RT #7757)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 05 May 2019 17:26:31 +0100
 
