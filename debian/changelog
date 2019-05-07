@@ -4,6 +4,7 @@ debian-keyring (2019.05.xx) UNRELEASED; urgency=medium
   * Add new DN key 0x648047B2D723891C (Jean-Philippe MENGUAL) (RT #7757)
   * Remove 0x8F61CE8D947DB113 (Giuseppe Iuculano) (RT #7760)
   * Add new DM key 0xC9183BEA0288CDEE (Bobby de Vos) (RT #7753)
+  * Add new DD key 0x5AD75B414EA41667 (Georg Faerber) (RT #7754)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 05 May 2019 17:26:31 +0100
 
