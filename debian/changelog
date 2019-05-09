@@ -10,6 +10,7 @@ debian-keyring (2019.05.xx) UNRELEASED; urgency=medium
 
   [ Gunnar Wolf ]
   * Move 0x872F702C4D6E25A8 to emeritus (Christian Perrier) (RT #7764)
+  * Add new DD key 0x6DAC3C448773381A (Andy Li) (RT #7758)
 
  -- Jonathan McDowell <noodles@earth.li>  Sun, 05 May 2019 17:26:31 +0100
 
