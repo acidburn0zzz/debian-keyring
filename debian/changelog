@@ -1,4 +1,4 @@
-debian-keyring (2019.05.xx) UNRELEASED; urgency=medium
+debian-keyring (2019.05.25) unstable; urgency=medium
 
   [ Jonathan McDowell ]
   * Add new DN key 0xC51EA7006E6BDC0D (Taowa Munene-Tardif) (RT #7756)
@@ -12,7 +12,77 @@ debian-keyring (2019.05.xx) UNRELEASED; urgency=medium
   * Move 0x872F702C4D6E25A8 to emeritus (Christian Perrier) (RT #7764)
   * Add new DD key 0x6DAC3C448773381A (Andy Li) (RT #7758)
 
- -- Jonathan McDowell <noodles@earth.li>  Sun, 05 May 2019 17:26:31 +0100
+  [ John Sullivan ]
+  * Import changes sent to keyring.debian.org HKP interface
+    * 0x16099E15596AE928 Jean Schurger (Ubity) [DM] sig:4
+    * 0x48D19F46BC99C9B7 Mark Lee Garrett <lee> sig:2
+    * 0x50C3634D3A291CF9 Philipp Kern <pkern> sig:6
+    * 0x554297EDF9CCA585 Guo Yixuan (郭溢譞) [DM] sig:3
+    * 0x5A09B4576DE8080E Paride Legovini <paride> sig:5
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:17
+    * 0x77C0C75E7B650808 James Valleroy [DM] sig:3
+    * 0x792152527B75921E Antoine Beaupré <anarcat> sig:4
+    * 0x7CFCD8CD257721E9 Vagrant Cascadian <vagrant> sig:7
+    * 0x7EAE264181E773D5 Christoph Ulrich Scholler [DM] sig:4
+    * 0x8CBF9A322861A790 Micah Anderson <micah> sig:2
+    * 0xC66D06B40443C450 Paulo Henrique de Lima Santana <phls> sig:1
+    * 0xCF0E265B7DFBB2F2 Shengjing Zhu <zhsj> sig:3
+    * 0xD003852FBD52529E Thomas Preud'homme <robotux> sig:3
+    * 0xD416AD15AC6B43FE Thomas Goirand <zigo> sig:1
+    * 0xD599FF6101809E2A Elena Grandi <valhalla> sig:4
+    * 0xD6D09BE48405BBF6 Mathias Behrle <mbehrle> sig:24
+    * 0xD84747ACE4B6813D Tiago Bortoletto Vaz <tiago> sig:4
+    * 0xD929F2992BEF0A33 Didier Raboud <odyx> sig:14
+    * 0xD9EEBFB4B66B10F0 Timo Weingärtner <tiwe> sig:6
+    * 0xDA4958F611E149E9 Cédric Boutillier <boutil> sig:12
+    * 0xDB16CF5BB12525C4 Joerg Jaspert <joerg> sig:1
+    * 0xE564B9C275BDD52E Robie Basak <rbasak> sig:5
+    * 0x054BBB9F7D806442 Niels Thykier <nthykier> sig:1
+    * 0x0664A76954265E8C Simon Josefsson <jas> sig:5
+    * 0x083781A2D2ACE48B Adriano Rafael Gomes <adrianorg> sig:1
+    * 0x0C871C4C653C1F59 Hilmar Preusse <hille42> sig:2
+    * 0x0D442664194974E2 Pierre-Elliott Bécue <peb> sig:8
+    * 0x0F8CE0BF4E85E61B Stefan Völkel [DM] sig:1
+    * 0x1E7091B1F14A64A2 Aaron M. Ucko <ucko> sig:7
+    * 0x28FA801A43BDD637 Mike Miller <mtmiller> sig:1
+    * 0x2DCD6B5DE858ADF3 Paul Tagliamonte <paultag> sub:1 sig:1
+    * 0x2EC0FFB3B7301B1F Niko Tyni <ntyni> sig:3
+    * 0x36C361440C9BC971 Sunil Mohan Adapa [DM] sig:6
+    * 0x44BB1BA79F6C6333 Gustavo Panizzo <gfa> sig:2
+    * 0x4DE8FF2A63C7CC90 Simon McVittie <smcv> sig:6
+    * 0x50C3634D3A291CF9 Philipp Kern <pkern> sig:3
+    * 0x5394479DD3524C51 Jonathan Wiltshire <jmw> sig:6
+    * 0x578BD370AAA22456 Martín Ferrari <tincho> sig:4
+    * 0x5B924EE310055CD3 Marcelo Jorge Vieira <metal> sig:6
+    * 0x5D328D082AAAB140 Hideki Yamane <henrich> sig:12
+    * 0x62AF4031C82E0039 Peter Palfrader <weasel> sig:6
+    * 0x6ACCBD0FA3B7447C Marcos Fouces <marcos> sig:3
+    * 0x6EA4D2311A2D268D Andrew Shadura <andrewsh> sig:7
+    * 0x726746E0F0BC8365 Erik Schanze <eriks> sig:4
+    * 0x76B534B2E99007E0 Thorsten Glaser <tg> sig:4
+    * 0x789D6F057FD863FE Salvatore Bonaccorso <carnil> sig:10
+    * 0x792152527B75921E Antoine Beaupré <anarcat> sig:1
+    * 0x7F6022516E869F64 Andreas Bombe <aeb> sig:3
+    * 0x8382C95C29023DF9 Jérémy Bobbio <lunar> sig:4
+    * 0x96A87872B7EA3737 Michael Prokop <mika> sig:15
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:8
+    * 0x98561D2D2502FE39 Cord Beermann <cord> sig:1
+    * 0x99D49B6B00CAD1E5 Filippo Giunchedi <filippo> sig:2
+    * 0x9D0470BDA6CDC457 Neutron Soutmun <neutron> sig:5
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sub:3 sig:7
+    * 0xB65A4871CA19D717 Tollef Fog Heen <tfheen> sig:2
+    * 0xB76DB9FFF0B6BF1F Felix Zielcke [DM] sig:1
+    * 0xD0EB762865FC5E36 Sergio Durigan Junior <sergiodj> sig:10
+    * 0xD599FF6101809E2A Elena Grandi <valhalla> sub:2 sig:4
+    * 0xDECF849AA6357FB7 Tobias Frost <tobi> sig:12
+    * 0xE5CA8C4925E4205F Philipp Huebner <debalance> sig:3
+    * 0xEC63699779074FA8 Ian Campbell <ijc> sig:5
+    * 0xEC9D370872BC7A8C Nicolas Braud-Santoni <nicoo> uid:1 sig:9
+    * 0xF004ACE4F0131ECF Herbert Parentes Fortes Neto <hpfn> sig:1
+    * 0xF66E3E419F84F4DE Iustin Pop <iustin> sig:2
+  * Not importing HKP changes for 0x7127E5ABEEF946C8, 0x9AFB7B8C9A5F5BBC as they contained <2048b subkeys
+
+ -- John Sullivan <johns@debian.org>  Sat, 25 May 2019 21:18:06 -0400
 
 debian-keyring (2019.04.12) unstable; urgency=medium
 
