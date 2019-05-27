@@ -1,8 +1,12 @@
 debian-keyring (2019.06.xx) UNRELEASED; urgency=medium
 
+  [ Jonathan McDowell ]
   * Update Security Team role key expiry (0x6BAF400B05C3E651)
     (Closes: #928222)
   * Add new DD key 0x4A0CF639427884E3 (Michal Arbet) (RT #7759)
+
+  [ John Sullivan ]
+  * Add new DD key 0xC9B0AC74C72B5836 (Sruthi Chandran) (RT #7780)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 27 May 2019 08:29:43 +0100
 
