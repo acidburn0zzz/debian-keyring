@@ -7,6 +7,7 @@ debian-keyring (2019.06.xx) UNRELEASED; urgency=medium
 
   [ John Sullivan ]
   * Add new DD key 0xC9B0AC74C72B5836 (Sruthi Chandran) (RT #7780)
+  * Add new DM key 0xD39D8D29BAF36DF8 (Jongmin Kim) (RT #7781)
 
  -- Jonathan McDowell <noodles@earth.li>  Mon, 27 May 2019 08:29:43 +0100
 
