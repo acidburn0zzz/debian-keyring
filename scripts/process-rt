@@ -55,6 +55,10 @@ desc2role = {
     'Debian Developer, removed': 'removed',
 }
 
+fp_regex = ("[0-9A-F]{4} [0-9A-F]{4} [0-9A-F]{4} [0-9A-F]{4} [0-9A-F]{4}  " +
+            "[0-9A-F]{4} [0-9A-F]{4} [0-9A-F]{4} [0-9A-F]{4} [0-9A-F]{4}")
+fp_regex_nospc = "[0-9A-F]{40}"
+
 # Global keyid to username/name dict
 keyids = {}
 
@@ -353,10 +357,35 @@ def parse_ticket(text):
                 print('Unknown destination status: ' + line[20:])
             else:
                 state['dest'] = desc2role[line[20:]]
+        elif 'details' not in state:
+            # Try to see if we have a fingerprint on the line and if
+            # it might be a replacement request
+            m = re.search(fp_regex, line)
+            if not m:
+                m = re.search(fp_regex_nospc, line)
+            if m:
+                fp = m.group(0).replace(' ', '')
+                if fp[24:] in keyids:
+                    state['oldkeyid'] = fp
+                else:
+                    state['keyid'] = fp
+
 
     # Based on the current + target statuses work out if this is an add or
     # remove.
-    if state['dest'] in ['DD', 'DM', 'DN']:
+    if 'dest' not in state:
+        # Assume it's a replacement.
+        for role in role2keyring:
+            if os.path.exists(role2keyring[role] + '/0x' +
+                              state['oldkeyid'][24:]):
+                state['role'] = role
+                break
+        if 'role' not in state:
+            state['role'] = 'DD'
+        state['action'] = 'replace'
+        state['subject'] = keyids[state['oldkeyid'][24:]]['name']
+        state['username'] = keyids[state['oldkeyid'][24:]]['username']
+    elif state['dest'] in ['DD', 'DM', 'DN']:
         state['action'] = 'add'
         state['role'] = state['dest']
     elif state['dest'] in ['DC', 'emeritus', 'removed']:
