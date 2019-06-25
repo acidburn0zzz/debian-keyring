@@ -9,6 +9,71 @@ debian-keyring (2019.06.xx) UNRELEASED; urgency=medium
   * Add new DN key 0x10589E8283DDA9A7 (Denis Briand) (RT #7809)
   * Add new DN key 0x96BD4FF64E709FDE (Alban Vidal) (RT #7810)
   * Add new DD key 0x4CF2B218F54DAE3D (Jakob Haufe) (RT #7811)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x0576302FE189D4D2 Andriy Grytsenko [DM] sig:1
+    * 0x14AA1EB8A2473DFD Hugo Lefeuvre <hle> sub:2 sig:11
+    * 0x15E09AF4DF5182C8 Daniel Stender <stender> sig:3
+    * 0x17B1CA7D64089528 Chris Boyle <cmb> sig:5
+    * 0x17FBDCBFD9928FF4 Jochen Sprickerhof <jspricke> sig:28
+    * 0x1CB4F0F78DECAFE9 Simon Kainz <skainz> sig:4
+    * 0x1E7091B1F14A64A2 Aaron M. Ucko <ucko> sig:2
+    * 0x1E759A726A9FDD74 Christopher Knadle <krait> sig:2
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:3
+    * 0x3116BA5E9FFA69A3 Paul Wise <pabs> sig:3
+    * 0x357312559D1E064B Ondřej Nový <onovy> sig:3
+    * 0x3631D4FB7FF2B8B8 Christopher Stuart Hoskin <mans0954> sig:8
+    * 0x3AC8F716477EDB23 Ferenc Wágner <wferi> uid:1 sig:20
+    * 0x500398DF5AB387D3 Martin Kepplinger [DM] uid:1 sub:1 sig:3
+    * 0x50C3634D3A291CF9 Philipp Kern <pkern> sig:3
+    * 0x5262E7FF491049FE Jonas Meurer <mejo> sig:13
+    * 0x5299B4990437AC41 Jan Niehusmann <jan> sub:1 sig:3
+    * 0x5394479DD3524C51 Jonathan Wiltshire <jmw> sig:2
+    * 0x554297EDF9CCA585 Guo Yixuan (郭溢譞) [DM] sub:2 sig:5
+    * 0x5A8830475F7D1061 Nicholas D Steeves [DM] sig:3
+    * 0x5AD75B414EA41667 Georg Faerber <georg> uid:1 sig:1
+    * 0x634F4BD1E7AD5568 Enrico Zini <enrico> sig:4
+    * 0x664F1238AA8F138A Daniel Lange <dlange> sig:4
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:10
+    * 0x689A04020D7EA9A1 Sebastian Humenda [DM] sub:1 sig:7
+    * 0x6C6ACD6417B3ACB1 Roger Shimizu <rosh> sig:3
+    * 0x6DAC3C448773381A Andy Li <andyli> uid:1 sig:1
+    * 0x6EA4D2311A2D268D Andrew Shadura <andrewsh> sig:8
+    * 0x7731FCCC63E4E277 Roberto C. Sanchez <roberto> sig:3
+    * 0x77C0C75E7B650808 James Valleroy [DM] sig:2
+    * 0x786C63F330D7CB92 Felix Yan <felixonmars> sig:1
+    * 0x789D6F057FD863FE Salvatore Bonaccorso <carnil> sig:12
+    * 0x792152527B75921E Antoine Beaupré <anarcat> sig:4
+    * 0x79C43E620B039B35 Jens Reyer [DM] sig:3
+    * 0x7AEAC4EC6AAA0A97 Louis-Philippe Véronneau <pollo> sig:6
+    * 0x80AD73734275BDAF Fabian Wolff [DM] sig:3
+    * 0x8CBF9A322861A790 Micah Anderson <micah> sig:2
+    * 0x8D1F969A08EEA756 Dmitry E. Oboukhov <unera> uid:1 sig:2
+    * 0x8D83379110000DEB Emfox Zhou <emfox> sig:1
+    * 0x936A835B678B9796 Pau Garcia i Quiles [DM] uid:1 sig:1
+    * 0x962680C5305A9418 Kåre Thor Olsen <kaare> sig:2
+    * 0xA1F751F1A55357E8 Nattie Mayer-Hutchings <nattie> sig:2
+    * 0xA3BABAE2408DD6CF Felipe Sateler <fsateler> sig:4
+    * 0xA81CEA22BC8C7E2E Luca Boccassi <bluca> uid:1 sig:2
+    * 0xB01D1A72AC8DC9A1 Jonathan Cristopher Carter <jcc> sig:3
+    * 0xB24CA63F6EBBE84D Timothy Potter <tpot> uid:1 sig:4
+    * 0xB999CDB58C8DDBD2 Guido Günther <agx> sig:10
+    * 0xBC196A94EDDDA1B7 أحمد المحمودي [DM] sig:6
+    * 0xC51EA7006E6BDC0D Taowa Munene-Tardif <taowa> uid:1 sig:1
+    * 0xC9183BEA0288CDEE Bobby de Vos <bdv> sig:5
+    * 0xCAFB3BAD0A75C877 Nathan Harrison Handler <nhandler> sig:3
+    * 0xCC65B0CDEC275D5B ChangZhuo Chen <czchen> sig:10
+    * 0xD003852FBD52529E Thomas Preud'homme <robotux> sig:3
+    * 0xD04BA3A00125D5C0 Philip Hands <philh> sig:3
+    * 0xD36F769BC11804F0 Theodore Ts'o <tytso> sig:3
+    * 0xD599FF6101809E2A Elena Grandi <valhalla> sig:1
+    * 0xDA82830E3CCC3A3A Alexandre Viau <aviau> sig:3
+    * 0xDAB389329A4CFA16 Ross Vandegrift <rvandegrift> sig:4
+    * 0xDD1FAB8937FE9825 Kai-Chung Yan <seamlik> uid:1 sig:5
+    * 0xDECF849AA6357FB7 Tobias Frost <tobi> sig:3
+    * 0xDEE8043EE17EBB30 Rhonda D'Vine <rhonda> sig:2
+    * 0xE2DCDD9132669BD6 Uwe Kleine-König <ukleinek> sig:12
+    * 0xE523F220AC8DFBD0 Adam Majer <adamm> sig:5
+    * 0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:4
 
   [ John Sullivan ]
   * Add new DD key 0xC9B0AC74C72B5836 (Sruthi Chandran) (RT #7780)
