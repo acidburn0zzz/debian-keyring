@@ -8,6 +8,7 @@ debian-keyring (2019.06.xx) UNRELEASED; urgency=medium
   * Add new DM key 0xC3860AC59F574E3A (Bastian Germann) (RT #7807)
   * Add new DN key 0x10589E8283DDA9A7 (Denis Briand) (RT #7809)
   * Add new DN key 0x96BD4FF64E709FDE (Alban Vidal) (RT #7810)
+  * Add new DD key 0x4CF2B218F54DAE3D (Jakob Haufe) (RT #7811)
 
   [ John Sullivan ]
   * Add new DD key 0xC9B0AC74C72B5836 (Sruthi Chandran) (RT #7780)
