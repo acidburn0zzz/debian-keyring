@@ -1,4 +1,4 @@
-debian-keyring (2019.06.xx) UNRELEASED; urgency=medium
+debian-keyring (2019.06.25) unstable; urgency=medium
 
   [ Jonathan McDowell ]
   * Update Security Team role key expiry (0x6BAF400B05C3E651)
@@ -85,7 +85,7 @@ debian-keyring (2019.06.xx) UNRELEASED; urgency=medium
   * Replace 0x762B57BB784206AD with 0x7E4E65C8720B706B (David Bremner)
     (RT #7792)
 
- -- Jonathan McDowell <noodles@earth.li>  Mon, 27 May 2019 08:29:43 +0100
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 25 Jun 2019 07:19:02 -0700
 
 debian-keyring (2019.05.25) unstable; urgency=medium
 
