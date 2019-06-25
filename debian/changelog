@@ -5,6 +5,7 @@ debian-keyring (2019.06.xx) UNRELEASED; urgency=medium
     (Closes: #928222)
   * Add new DD key 0x4A0CF639427884E3 (Michal Arbet) (RT #7759)
   * Add new DM key 0x3E1C27E11F69BFFE (Francesco Poli) (RT #7806)
+  * Add new DM key 0xC3860AC59F574E3A (Bastian Germann) (RT #7807)
 
   [ John Sullivan ]
   * Add new DD key 0xC9B0AC74C72B5836 (Sruthi Chandran) (RT #7780)
