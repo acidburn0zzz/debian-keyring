@@ -8,13 +8,15 @@
 import os
 from os import path
 import socket
-from subprocess import run, PIPE
-from shutil import copy
+from subprocess import run, Popen, PIPE
+from shutil import copy, rmtree
 from distutils.dir_util import copy_tree
 import sys
 import tempfile
 import hashlib
 import codecs
+from multiprocessing.pool import ThreadPool
+from typing import List
 
 
 def check_environ(should_run_on: str = 'kaufmann.debian.org') -> None:
@@ -25,6 +27,91 @@ This script is meant to be run in %s
 You can still run it if you are sure by setting
 $RUNANYWAY to a nonempty value.
         ''' % (should_run_on))
+
+
+
+def wkd_localpart(incoming: bytes) -> str:
+    'see https://tools.ietf.org/html/draft-koch-openpgp-webkey-service-08#section-3.1'
+
+    # https://tools.ietf.org/html/rfc6189#section-5.1.6
+    zb32 = "ybndrfg8ejkmcpqxot1uwisza345h769"
+
+    b = hashlib.sha1(incoming).digest()
+    ret = ""
+    assert(len(b)*8 == 160)
+    for i in range(0, 160, 5):
+        byte = i//8
+        offset = i - byte*8
+        #offset | bits remaining in k+1 | right-shift k+1
+        # 3 | 0 | x
+        # 4 | 1 | 7
+        # 5 | 2 | 6
+        # 6 | 3 | 5
+        # 7 | 4 | 4
+        if offset < 4:
+            n = (b[byte] >> (3-offset))
+        else:
+            n = (b[byte] << (offset-3)) + (b[byte+1] >> (11-offset))
+
+        ret += zb32[n & 0b11111]
+    return ret
+
+
+def getdomainlocalpart(line: bytes, domain: bytes) -> bytes:
+    if line.startswith(b'uid:'):
+        uid = line.split(b':')[9]
+        if uid.endswith(b'@' + domain + b'>'):
+            broken = uid.split(b'<')
+            if len(broken) != 2:
+                raise ValueError("unexpected User ID %s"%(uid))
+            return broken[1][:-len(b'@' + domain + b'>')].lower()
+    return None
+
+
+def gpgbase(keyrings:List[str]) -> List[str]:
+    return ['gpg', '--batch', '--no-options', '--with-colons',
+            '--no-default-keyring',
+            '--homedir=/dev/null', '--trust-model=always',
+            '--fixed-list-mode'] + list(map(lambda k: '--keyring='+k, keyrings))
+
+
+def emit_wkd(localpart: bytes, domain: str, keyrings: List[str]) -> None:
+    wkdstr = wkd_localpart(localpart)
+    # what do we do if this local part is not a proper encoding?
+    addr = codecs.decode(localpart) + '@' + domain
+    cmd = gpgbase(keyrings) + ['--output', path.join('openpgpkey', domain, 'hu', wkdstr),
+                               '--export-options', 'export-clean',
+                               '--export-filter', 'keep-uid=mbox='+addr,
+                               '--export', '<' + addr + '>']
+    run(cmd, check=True)
+
+
+def build_wkd(domain:str, keyrings:List[str]):
+    if not path.isdir('openpgpkey'):
+        os.mkdir('openpgpkey')
+    os.mkdir(path.join('openpgpkey', domain))
+    os.mkdir(path.join('openpgpkey', domain, 'hu'))
+
+    # FIXME: deal with IDN:
+    bytedomain=codecs.encode(domain)
+
+    lister = Popen(gpgbase(keyrings) + ['--list-keys', '@' + domain], stdout=PIPE)
+
+    localparts = set(map(lambda x: getdomainlocalpart(x, bytedomain), lister.stdout))
+    localparts.discard(None)
+
+    def runner(x):
+        return emit_wkd(x, domain, keyrings)
+
+    pool = ThreadPool(None)
+    for localpart in localparts:
+        pool.apply_async(runner, (localpart,))
+
+    pool.close()
+    pool.join()
+    # make the policy file:
+    policyfile = open(path.join('openpgpkey', domain, 'policy'), 'wb')
+    del policyfile
 
 
 def publish(srcdir: str,
@@ -151,9 +238,26 @@ debian-keyring package installed, we can fall back to it.
 
     return run(gpgcmd, stdout=PIPE, check=True).stdout
 
-
-if len(sys.argv) != 2:
-    raise Exception('Must provide directory containing new keyrings.')
-
-check_environ()
-publish(sys.argv[1])
+if __name__ == '__main__':
+    if len(sys.argv) < 2:
+        raise Exception('Must provide directory containing new keyrings.')
+    elif len(sys.argv) > 2:
+        sys.argv.pop(0)
+        subcommand = sys.argv.pop(0)
+        if subcommand != 'build-wkd':
+            raise Exception("do not know this subcommand: %s"%(subcommand))
+        if len(sys.argv):
+            domain = sys.argv.pop(0)
+        else:
+            domain = 'debian.org'
+        if len(sys.argv):
+            keys = sys.argv
+        else:
+            keys = ['/usr/share/keyrings/debian-nonupload.gpg',
+                    '/usr/share/keyrings/debian-keyring.gpg',
+                    '/usr/share/keyrings/debian-role-keys.gpg']
+        build_wkd(domain, keys)
+    else:
+        # standard update-keyrings
+        check_environ()
+        publish(sys.argv[1])
