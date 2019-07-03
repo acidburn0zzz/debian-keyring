@@ -11,7 +11,7 @@ import tempfile
 import hashlib
 import codecs
 
-def check_environ(should_run_on='kaufmann.debian.org'):
+def check_environ(should_run_on:str='kaufmann.debian.org') -> None:
     if not (os.environ.get('RUNANYWAY', False) or
             socket.getfqdn(socket.gethostname()) == should_run_on):
         raise Exception('''
@@ -20,8 +20,8 @@ You can still run it if you are sure by setting
 $RUNANYWAY to a nonempty value.
         '''%(should_run_on))
 
-def publish(srcdir,
-            prefix=None):
+def publish(srcdir: str,
+            prefix: str=None) -> None:
     if prefix is None:
         prefix = os.environ.get('PREFIX', '/srv/keyring.debian.org')
     pendingdir=path.join(prefix, 'pending-updates')
@@ -79,7 +79,6 @@ def publish(srcdir,
     for kname in keyrings:
         kfile = path.join(srcdir, 'keyrings', 'debian-%s.gpg'%(kname))
         copy(kfile, hkpdir)
-
 
 def keyring_maint_keys() -> bytes:
     '''Extract keyring-maint keys from the local system keyrings.
