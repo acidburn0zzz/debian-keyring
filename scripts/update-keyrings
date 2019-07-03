@@ -34,11 +34,13 @@ def publish(srcdir,
     placeholder = path.join(srcdir, 'keyrings', '.placeholder')
     if path.exists(placeholder):
         os.unlink(placeholder)
-    gpgcall = ['gpg', '--batch', '--quiet', '--verify', sha512fname]
-    run(gpgcall, check=True, stderr=PIPE)
+    gpgcall = ['gpg', '--batch', '--quiet',
+               '--output', '-',
+               '--verify', sha512fname]
+    gpgout = run(gpgcall, check=True, stderr=PIPE, stdout=PIPE)
     os.chdir(srcdir)
-    sha512sumcall = ['sha512sum', '-c', 'sha512sums.txt']
-    run(sha512sumcall, check=True)
+    sha512sumcall = ['sha512sum', '-c', '-']
+    run(sha512sumcall, check=True, input=gpgout.stdout)
 
     keyrings = ['keyring', 'maintainers', 'nonupload']
     for kname in keyrings:
