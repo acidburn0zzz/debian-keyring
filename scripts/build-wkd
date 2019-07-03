@@ -16,9 +16,10 @@
 # DOMAIN_NAME=debian.org, and the KEYRINGs used are the relevant ones from
 # the debian-keyring package.
 
+import os
 import hashlib
 from subprocess import run, Popen, PIPE
-from os import path, mkdir
+from os import path
 import codecs
 from multiprocessing.pool import ThreadPool
 import sys
@@ -81,9 +82,10 @@ def emit_wkd(localpart: bytes, domain: str, keyrings: List[str]) -> None:
     run(cmd, check=True)
 
 def build_wkd(domain:str, keyrings:List[str]):
-    mkdir('openpgpkey')
-    mkdir(path.join('openpgpkey', domain))
-    mkdir(path.join('openpgpkey', domain, 'hu'))
+    if not path.isdir('openpgpkey'):
+        os.mkdir('openpgpkey')
+    os.mkdir(path.join('openpgpkey', domain))
+    os.mkdir(path.join('openpgpkey', domain, 'hu'))
 
     # FIXME: deal with IDN:
     bytedomain=codecs.encode(domain)
