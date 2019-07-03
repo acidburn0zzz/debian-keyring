@@ -64,13 +64,13 @@ def getdomainlocalpart(line: bytes, domain: bytes) -> bytes:
     return None
 
 
-def gpgbase(keyrings):
+def gpgbase(keyrings:List[str]) -> List[str]:
     return ['gpg', '--batch', '--no-options', '--with-colons',
             '--no-default-keyring',
             '--homedir=/dev/null', '--trust-model=always',
             '--fixed-list-mode'] + list(map(lambda k: '--keyring='+k, keyrings))
 
-def emit_wkd(localpart: bytes, domain: bytes, keyrings: List):
+def emit_wkd(localpart: bytes, domain: bytes, keyrings: List[str]) -> None:
     wkdstr = wkd_localpart(localpart)
     # what do we do if this local part is not a proper encoding?
     addr = codecs.decode(localpart) + '@' + domain
@@ -80,13 +80,13 @@ def emit_wkd(localpart: bytes, domain: bytes, keyrings: List):
                                '--export', '<' + addr + '>']
     run(cmd)
 
-def build_wkd(domain, keyrings):
+def build_wkd(domain:str, keyrings:List[str]):
     mkdir('openpgpkey')
     mkdir(path.join('openpgpkey', 'hu'))
 
     # FIXME: deal with IDN:
     bytedomain=codecs.encode(domain)
-        
+
     lister = Popen(gpgbase(keyrings) + ['--list-keys', '@' + domain], stdout=PIPE)
 
     localparts = set(map(lambda x: getdomainlocalpart(x, bytedomain), lister.stdout))
