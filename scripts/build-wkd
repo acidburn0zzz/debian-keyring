@@ -78,7 +78,7 @@ def emit_wkd(localpart: bytes, domain: bytes, keyrings: List[str]) -> None:
                                '--export-options', 'export-clean',
                                '--export-filter', 'keep-uid=mbox='+addr,
                                '--export', '<' + addr + '>']
-    run(cmd)
+    run(cmd, check=True)
 
 def build_wkd(domain:str, keyrings:List[str]):
     mkdir('openpgpkey')
