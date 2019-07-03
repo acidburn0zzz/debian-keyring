@@ -194,6 +194,18 @@ def publish(srcdir: str,
     for kname in keyrings:
         kfile = path.join(srcdir, 'keyrings', 'debian-%s.gpg' % (kname))
         copy(kfile, hkpdir)
+    print('Publishing WKD data (may take a few minutes).')
+    with tempfile.TemporaryDirectory(prefix='wkd_staging_', dir=prefix) as wkd_staging:
+        os.chdir(wkd_staging)
+        build_wkd('debian.org', [path.join(srcdir, 'keyrings', 'debian-'+x+'.gpg') for x in ['nonupload', 'keyring', 'role-keys']])
+        wkd_deploy_path = path.join(prefix, 'openpgpkey')
+        # not quite an atomic move:
+        if path.isdir(wkd_deploy_path):
+            os.rename(wkd_deploy_path, 'openpgpkey.old')
+        os.rename('openpgpkey', wkd_deploy_path)
+        os.chdir(srcdir)
+    run(['static-update-component', 'openpgpkey.debian.org'], check=True)
+
 
 
 def keyring_maint_keys() -> bytes:
