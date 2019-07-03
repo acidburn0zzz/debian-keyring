@@ -18,7 +18,7 @@
 
 import hashlib
 from subprocess import run, Popen, PIPE
-from os import path, mkdir, rmdir, unlink
+from os import path, mkdir
 import codecs
 from multiprocessing.pool import ThreadPool
 import sys
