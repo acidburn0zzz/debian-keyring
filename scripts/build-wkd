@@ -16,7 +16,7 @@
 # DOMAIN_NAME=debian.org, and the KEYRINGs used are the relevant ones from
 # the debian-keyring package.
 
-from hashlib import sha1
+import hashlib
 from subprocess import run, Popen, PIPE
 from os import path, mkdir, rmdir, unlink
 import codecs
@@ -32,7 +32,7 @@ def wkd_localpart(incoming: bytes) -> str:
     # https://tools.ietf.org/html/rfc6189#section-5.1.6
     zb32 = "ybndrfg8ejkmcpqxot1uwisza345h769"
 
-    b = sha1(incoming).digest()
+    b = hashlib.sha1(incoming).digest()
     ret = ""
     assert(len(b)*8 == 160)
     for i in range(0, 160, 5):
