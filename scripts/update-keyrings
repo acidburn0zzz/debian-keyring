@@ -7,6 +7,7 @@ from subprocess import run, PIPE
 from shutil import copy
 from distutils.dir_util import copy_tree
 import sys
+import tempfile
 
 def check_environ(should_run_on='kaufmann.debian.org'):
     if not (os.environ.get('RUNANYWAY', False) or
@@ -34,10 +35,13 @@ def publish(srcdir,
     placeholder = path.join(srcdir, 'keyrings', '.placeholder')
     if path.exists(placeholder):
         os.unlink(placeholder)
-    gpgcall = ['gpg', '--batch', '--quiet',
-               '--output', '-',
-               '--verify', sha512fname]
-    gpgout = run(gpgcall, check=True, stderr=PIPE, stdout=PIPE)
+    # gpgv needs the keyring in the filesystem, not just a file
+    # descriptor (https://dev.gnupg.org/T4608)
+    with tempfile.NamedTemporaryFile() as maint_keyring:
+        maint_keyring.write(keyring_maint_keys())
+        gpgcall = ['gpgv', '--enable-special-filenames', '--keyring', maint_keyring.name,
+                   '--output', '-', sha512fname]
+        gpgout = run(gpgcall, check=True, stderr=PIPE, stdout=PIPE)
     os.chdir(srcdir)
     sha512sumcall = ['sha512sum', '-c', '-']
     run(sha512sumcall, check=True, input=gpgout.stdout)
@@ -58,7 +62,50 @@ def publish(srcdir,
     for kname in keyrings:
         kfile = path.join(srcdir, 'keyrings', 'debian-%s.gpg'%(kname))
         copy(kfile, hkpdir)
-    
+
+
+def keyring_maint_keys() -> bytes:
+    '''Extract keyring-maint keys from the local system keyrings.
+
+On DSA-managed hosts, /srv/keyring.debian.org/keyrings is more recent
+and up-to-date so we prefer it.  On other hosts that have the
+debian-keyring package installed, we can fall back to it.
+    '''
+    keyring_locations = [
+        '/srv/keyring.debian.org/keyrings',
+        '/usr/share/keyrings']
+    keyrings = ['debian-keyring.gpg', 'debian-nonupload.gpg']
+    keyring_maint_uids = ['Jonathan McDowell <noodles@earth.li>',
+                          'William John Sullivan <johns@debian.org>',
+                          'Gunnar Eyal Wolf Iszaevich <gwolf@debian.org>',
+                          'Daniel Kahn Gillmor <dkg@debian.org>']
+    keyring_files = None
+    for loc in keyring_locations:
+        possible_keyrings = [path.join(loc, k) for k in keyrings]
+        if path.isdir(loc) and all(
+                map(lambda k: path.exists(k), possible_keyrings)):
+            keyring_files = possible_keyrings
+            break
+
+    if keyring_files is None:
+        raise Exception(
+            "Could not find keyrings to extract keyring-maint keys")
+
+    gpgcmd = ['gpg',
+              '--batch',
+              '--homedir',
+              '/dev/null',
+              '--no-options',
+              '--no-default-keyring',
+              '--export-options',
+              'export-minimal']
+    for k in keyring_files:
+        gpgcmd += ['--keyring', k]
+    gpgcmd += ['--export']
+    gpgcmd += ['=' + u for u in keyring_maint_uids]
+
+    return run(gpgcmd, stdout=PIPE, check=True).stdout
+
 
 if len(sys.argv) != 2:
      raise Exception('Must provide directory containing new keyrings.')
