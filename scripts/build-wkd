@@ -27,7 +27,7 @@ from typing import List
 
 
 def wkd_localpart(incoming: bytes) -> str:
-    'see  https://tools.ietf.org/html/draft-koch-openpgp-webkey-service-07#section-3.1'
+    'see https://tools.ietf.org/html/draft-koch-openpgp-webkey-service-08#section-3.1'
 
     # https://tools.ietf.org/html/rfc6189#section-5.1.6
     zb32 = "ybndrfg8ejkmcpqxot1uwisza345h769"
@@ -70,11 +70,11 @@ def gpgbase(keyrings:List[str]) -> List[str]:
             '--homedir=/dev/null', '--trust-model=always',
             '--fixed-list-mode'] + list(map(lambda k: '--keyring='+k, keyrings))
 
-def emit_wkd(localpart: bytes, domain: bytes, keyrings: List[str]) -> None:
+def emit_wkd(localpart: bytes, domain: str, keyrings: List[str]) -> None:
     wkdstr = wkd_localpart(localpart)
     # what do we do if this local part is not a proper encoding?
     addr = codecs.decode(localpart) + '@' + domain
-    cmd = gpgbase(keyrings) + ['--output', path.join('openpgpkey', 'hu',wkdstr),
+    cmd = gpgbase(keyrings) + ['--output', path.join('openpgpkey', domain, 'hu', wkdstr),
                                '--export-options', 'export-clean',
                                '--export-filter', 'keep-uid=mbox='+addr,
                                '--export', '<' + addr + '>']
@@ -82,7 +82,8 @@ def emit_wkd(localpart: bytes, domain: bytes, keyrings: List[str]) -> None:
 
 def build_wkd(domain:str, keyrings:List[str]):
     mkdir('openpgpkey')
-    mkdir(path.join('openpgpkey', 'hu'))
+    mkdir(path.join('openpgpkey', domain))
+    mkdir(path.join('openpgpkey', domain, 'hu'))
 
     # FIXME: deal with IDN:
     bytedomain=codecs.encode(domain)
@@ -102,7 +103,7 @@ def build_wkd(domain:str, keyrings:List[str]):
     pool.close()
     pool.join()
     # make the policy file:
-    policyfile = open(path.join('openpgpkey', 'policy'), 'wb')
+    policyfile = open(path.join('openpgpkey', domain, 'policy'), 'wb')
     del policyfile
 
 if __name__ == '__main__':
