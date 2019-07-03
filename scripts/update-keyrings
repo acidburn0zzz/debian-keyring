@@ -8,6 +8,8 @@ from shutil import copy
 from distutils.dir_util import copy_tree
 import sys
 import tempfile
+import hashlib
+import codecs
 
 def check_environ(should_run_on='kaufmann.debian.org'):
     if not (os.environ.get('RUNANYWAY', False) or
@@ -43,8 +45,14 @@ def publish(srcdir,
                    '--output', '-', sha512fname]
         gpgout = run(gpgcall, check=True, stderr=PIPE, stdout=PIPE)
     os.chdir(srcdir)
-    sha512sumcall = ['sha512sum', '-c', '-']
-    run(sha512sumcall, check=True, input=gpgout.stdout)
+    for line in filter(lambda x: x, codecs.decode(gpgout.stdout).split('\n')):
+        (indigest, fname) = line.split()
+        with open(fname, 'rb') as f:
+            data = f.read()
+        digest = hashlib.new('sha512', data=data).hexdigest()
+        if digest != indigest:
+            raise Exception('mismatched digest for %s.\nWanted: %s\nGot: %s'%(fname, indigest, digest))
+        print(fname+': OK')
 
     keyrings = ['keyring', 'maintainers', 'nonupload']
     for kname in keyrings:
