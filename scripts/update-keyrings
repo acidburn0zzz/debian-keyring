@@ -1,9 +1,10 @@
 #!/bin/bash
 
 SHOULD_RUN_ON=kaufmann.debian.org
-OUTPUTDIR=/srv/keyring.debian.org/pub
-HKPDIR=/srv/keyring.debian.org/keyrings-new
-PENDINGDIR=/srv/keyring.debian.org/pending-updates
+PREFIX=${PREFIX:-/srv/keyring.debian.org}
+OUTPUTDIR=$PREFIX/pub
+HKPDIR=$PREFIX/keyrings-new
+PENDINGDIR=$PREFIX/pending-updates
 
 if [ -z "$RUNANYWAY" -a $(hostname -f) != "$SHOULD_RUN_ON" ] ; then
 	echo This script is meant to be run in $SHOULD_RUN_ON
