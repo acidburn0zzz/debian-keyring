@@ -17,6 +17,7 @@ import hashlib
 import codecs
 from multiprocessing.pool import ThreadPool
 from typing import List, Tuple
+import datetime
 
 
 def check_environ(should_run_on: str = 'kaufmann.debian.org') -> None:
@@ -129,10 +130,13 @@ def build_wkd_and_dane(domain: str, keyrings: List[str]):
     del policyfile
     # write out the zonefile all at once, ordered by the localpart
     with open(path.join('_openpgpkey.' + domain + '.zone'), 'wb') as zonefile:
-        # FIXME: write SOA?
+        when = datetime.datetime.now()
+        # FIXME: inspect serial number from existing zonefile --
+        # update serial number if it was from the same day
+        serial = 0
+        zonefile.write(openpgpkey_zonefile_header(when, serial))
         for local in sorted(dane_map.keys()):
             zonefile.write(dane_map[local])
-    # FIXME: sign zonefile?
 
 
 def publish(srcdir: str,
@@ -236,6 +240,24 @@ def publish(srcdir: str,
             path.join(prefix, '_openpgpkey.debian.org.zone'))
         os.chdir(srcdir)
     run(['static-update-component', 'openpgpkey.debian.org'], check=True)
+
+
+def openpgpkey_zonefile_header(timestamp: datetime.datetime = None, sequence: int = 0) -> bytes:
+    if timestamp is None:
+        timestamp = datetime.datetime.now()
+    return b'''; zonefile for OPENPGPKEY records (RFC 7929) for debian.org
+_openpgpkey.debian.org.  3600 IN SOA kaufmann.debian.org. hostmaster.debian.org. (
+                                 %d%02d ; serial
+                                 1800       ; refresh (30 minutes)
+                                 600        ; retry (10 minutes)
+                                 1814400    ; expire (3 weeks)
+                                 600        ; minimum (10 minutes)
+                                 )
+_openpgpkey.debian.org. 28800 IN NS sec2.rcode0.net.
+_openpgpkey.debian.org. 28800 IN NS nsp.dnsnode.net.
+_openpgpkey.debian.org. 28800 IN NS sec1.rcode0.net.
+
+''' % (int(timestamp.strftime('%Y%m%d')), sequence)
 
 
 def keyring_maint_keys() -> bytes:
