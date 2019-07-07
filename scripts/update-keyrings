@@ -240,6 +240,7 @@ def publish(srcdir: str,
             path.join(prefix, '_openpgpkey.debian.org.zone'))
         os.chdir(srcdir)
     run(['static-update-component', 'openpgpkey.debian.org'], check=True)
+    run(['sudo', 'service', 'bind9', 'reload'], check=True)
 
 
 def openpgpkey_zonefile_header(timestamp: datetime.datetime = None, sequence: int = 0) -> bytes:
