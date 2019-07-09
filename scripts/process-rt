@@ -156,6 +156,8 @@ def get_keyinfo(ctx, fpr, needsigs=2):
                 keytype += 'D'
             elif subkey.pubkey_algo == gpg.constants.pk.ECC:
                 keytype += 'E'
+            elif subkey.pubkey_algo == gpg.constants.pk.EDDSA:
+                keytype += 'E'
             elif subkey.pubkey_algo == gpg.constants.pk.ELG:
                 keytype += 'g'
             else:
