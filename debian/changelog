@@ -1,3 +1,10 @@
+debian-keyring (2019.07.xx) UNRELEASED; urgency=medium
+
+  * Replace 0x5AD75B414EA41667 with 0xEA2DB6963F8B2984 (Georg Faerber)
+    (RT #7834)
+
+ -- Jonathan McDowell <noodles@earth.li>  Tue, 09 Jul 2019 12:33:53 +0100
+
 debian-keyring (2019.06.25) unstable; urgency=medium
 
   [ Jonathan McDowell ]
