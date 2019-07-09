@@ -413,7 +413,7 @@ def parse_ticket(text):
             state['subject'] = state['last']
 
     for field in ['details', 'username']:
-        if state[field] == '-':
+        if field in state and state[field] == '-':
             del state[field]
 
     # Get the key length + type, plus signatures from other DDs
