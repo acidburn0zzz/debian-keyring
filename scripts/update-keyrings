@@ -59,10 +59,7 @@ def publish(srcdir: str,
         gpgout = run(gpgcall, check=True, stderr=PIPE, stdout=PIPE)
     os.chdir(srcdir)
     files_to_check = set(
-        path.join(
-            'keyrings',
-            x +
-            '.gpg') for x in [
+        path.join('keyrings', x + '.gpg') for x in [
             'debian-keyring',
             'debian-maintainers',
             'debian-nonupload',
