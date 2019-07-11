@@ -50,7 +50,7 @@ def publish(srcdir: str,
                    '--output', '-', sha512fname]
         gpgout = run(gpgcall, check=True, stderr=PIPE, stdout=PIPE)
     os.chdir(srcdir)
-    files_to_check = set('keyrings/'+x+'.gpg' for x in ['debian-keyring', 'debian-maintainers', 'debian-nonupload', 'debian-role-keys', 'emeritus-keyring'])
+    files_to_check = set(path.join('keyrings', x+'.gpg') for x in ['debian-keyring', 'debian-maintainers', 'debian-nonupload', 'debian-role-keys', 'emeritus-keyring'])
     unexpected_files = set()
     for line in filter(lambda x: x, codecs.decode(gpgout.stdout).split('\n')):
         (indigest, fname) = line.split()
