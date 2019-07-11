@@ -29,7 +29,6 @@ $RUNANYWAY to a nonempty value.
         ''' % (should_run_on))
 
 
-
 def wkd_localpart(incoming: bytes) -> str:
     'see https://tools.ietf.org/html/draft-koch-openpgp-webkey-service-08#section-3.1'
 
@@ -38,20 +37,20 @@ def wkd_localpart(incoming: bytes) -> str:
 
     b = hashlib.sha1(incoming).digest()
     ret = ""
-    assert(len(b)*8 == 160)
+    assert(len(b) * 8 == 160)
     for i in range(0, 160, 5):
-        byte = i//8
-        offset = i - byte*8
-        #offset | bits remaining in k+1 | right-shift k+1
+        byte = i // 8
+        offset = i - byte * 8
+        # offset | bits remaining in k+1 | right-shift k+1
         # 3 | 0 | x
         # 4 | 1 | 7
         # 5 | 2 | 6
         # 6 | 3 | 5
         # 7 | 4 | 4
         if offset < 4:
-            n = (b[byte] >> (3-offset))
+            n = (b[byte] >> (3 - offset))
         else:
-            n = (b[byte] << (offset-3)) + (b[byte+1] >> (11-offset))
+            n = (b[byte] << (offset - 3)) + (b[byte + 1] >> (11 - offset))
 
         ret += zb32[n & 0b11111]
     return ret
@@ -63,41 +62,47 @@ def getdomainlocalpart(line: bytes, domain: bytes) -> bytes:
         if uid.endswith(b'@' + domain + b'>'):
             broken = uid.split(b'<')
             if len(broken) != 2:
-                raise ValueError("unexpected User ID %s"%(uid))
+                raise ValueError("unexpected User ID %s" % (uid))
             return broken[1][:-len(b'@' + domain + b'>')].lower()
     return None
 
 
-def gpgbase(keyrings:List[str]) -> List[str]:
+def gpgbase(keyrings: List[str]) -> List[str]:
     return ['gpg', '--batch', '--no-options', '--with-colons',
             '--no-default-keyring',
             '--homedir=/dev/null', '--trust-model=always',
-            '--fixed-list-mode'] + list(map(lambda k: '--keyring='+k, keyrings))
+            '--fixed-list-mode'] + list(map(lambda k: '--keyring=' + k, keyrings))
 
 
 def emit_wkd(localpart: bytes, domain: str, keyrings: List[str]) -> None:
     wkdstr = wkd_localpart(localpart)
     # what do we do if this local part is not a proper encoding?
     addr = codecs.decode(localpart) + '@' + domain
-    cmd = gpgbase(keyrings) + ['--output', path.join('openpgpkey', domain, 'hu', wkdstr),
-                               '--export-options', 'export-clean',
-                               '--export-filter', 'keep-uid=mbox='+addr,
-                               '--export', '<' + addr + '>']
+    cmd = gpgbase(keyrings) + ['--output',
+                               path.join('openpgpkey', domain, 'hu', wkdstr),
+                               '--export-options',
+                               'export-clean',
+                               '--export-filter',
+                               'keep-uid=mbox=' + addr,
+                               '--export',
+                               '<' + addr + '>']
     run(cmd, check=True)
 
 
-def build_wkd(domain:str, keyrings:List[str]):
+def build_wkd(domain: str, keyrings: List[str]):
     if not path.isdir('openpgpkey'):
         os.mkdir('openpgpkey')
     os.mkdir(path.join('openpgpkey', domain))
     os.mkdir(path.join('openpgpkey', domain, 'hu'))
 
     # FIXME: deal with IDN:
-    bytedomain=codecs.encode(domain)
+    bytedomain = codecs.encode(domain)
 
-    lister = Popen(gpgbase(keyrings) + ['--list-keys', '@' + domain], stdout=PIPE)
+    lister = Popen(gpgbase(keyrings) +
+                   ['--list-keys', '@' + domain], stdout=PIPE)
 
-    localparts = set(map(lambda x: getdomainlocalpart(x, bytedomain), lister.stdout))
+    localparts = set(
+        map(lambda x: getdomainlocalpart(x, bytedomain), lister.stdout))
     localparts.discard(None)
 
     def runner(x):
@@ -197,7 +202,14 @@ def publish(srcdir: str,
     print('Publishing WKD data (may take a few minutes).')
     with tempfile.TemporaryDirectory(prefix='wkd_staging_', dir=prefix) as wkd_staging:
         os.chdir(wkd_staging)
-        build_wkd('debian.org', [path.join(srcdir, 'keyrings', 'debian-'+x+'.gpg') for x in ['nonupload', 'keyring', 'role-keys']])
+
+        def dkeyring(name: str):
+            return path.join(srcdir, 'keyrings', 'debian-' + name + '.gpg')
+        build_wkd('debian.org',
+                  [dkeyring(x) for x in [
+                      'nonupload',
+                      'keyring',
+                      'role-keys']])
         wkd_deploy_path = path.join(prefix, 'openpgpkey')
         # not quite an atomic move:
         if path.isdir(wkd_deploy_path):
@@ -205,7 +217,6 @@ def publish(srcdir: str,
         os.rename('openpgpkey', wkd_deploy_path)
         os.chdir(srcdir)
     run(['static-update-component', 'openpgpkey.debian.org'], check=True)
-
 
 
 def keyring_maint_keys() -> bytes:
@@ -250,6 +261,7 @@ debian-keyring package installed, we can fall back to it.
 
     return run(gpgcmd, stdout=PIPE, check=True).stdout
 
+
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         raise Exception('Must provide directory containing new keyrings.')
@@ -257,7 +269,7 @@ if __name__ == '__main__':
         sys.argv.pop(0)
         subcommand = sys.argv.pop(0)
         if subcommand != 'build-wkd':
-            raise Exception("do not know this subcommand: %s"%(subcommand))
+            raise Exception("do not know this subcommand: %s" % (subcommand))
         if len(sys.argv):
             domain = sys.argv.pop(0)
         else:
