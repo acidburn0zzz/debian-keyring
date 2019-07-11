@@ -16,29 +16,31 @@ import tempfile
 import hashlib
 import codecs
 
-def check_environ(should_run_on:str='kaufmann.debian.org') -> None:
+
+def check_environ(should_run_on: str = 'kaufmann.debian.org') -> None:
     if not (os.environ.get('RUNANYWAY', False) or
             socket.getfqdn(socket.gethostname()) == should_run_on):
         raise Exception('''
 This script is meant to be run in %s
 You can still run it if you are sure by setting
 $RUNANYWAY to a nonempty value.
-        '''%(should_run_on))
+        ''' % (should_run_on))
+
 
 def publish(srcdir: str,
-            prefix: str=None) -> None:
+            prefix: str = None) -> None:
     if prefix is None:
         prefix = os.environ.get('PREFIX', '/srv/keyring.debian.org')
-    pendingdir=path.join(prefix, 'pending-updates')
-    hkpdir=path.join(prefix, 'keyrings-new')
-    outputdir=path.join(prefix, 'pub')
+    pendingdir = path.join(prefix, 'pending-updates')
+    hkpdir = path.join(prefix, 'keyrings-new')
+    outputdir = path.join(prefix, 'pub')
     for direc in [srcdir, pendingdir, hkpdir, outputdir]:
         if not path.isdir(direc):
-            raise Exception("%s is not a directory"%(direc))
+            raise Exception("%s is not a directory" % (direc))
     srcdir = path.realpath(srcdir)
     sha512fname = path.join(srcdir, 'sha512sums.txt')
     if not path.exists(sha512fname):
-        raise Exception('sha512sums.txt not found in %s'%(srcdir))
+        raise Exception('sha512sums.txt not found in %s' % (srcdir))
     placeholder = path.join(srcdir, 'keyrings', '.placeholder')
     if path.exists(placeholder):
         os.unlink(placeholder)
@@ -46,11 +48,26 @@ def publish(srcdir: str,
     # descriptor (https://dev.gnupg.org/T4608)
     with tempfile.NamedTemporaryFile() as maint_keyring:
         maint_keyring.write(keyring_maint_keys())
-        gpgcall = ['gpgv', '--enable-special-filenames', '--keyring', maint_keyring.name,
-                   '--output', '-', sha512fname]
+        gpgcall = [
+            'gpgv',
+            '--enable-special-filenames',
+            '--keyring',
+            maint_keyring.name,
+            '--output',
+            '-',
+            sha512fname]
         gpgout = run(gpgcall, check=True, stderr=PIPE, stdout=PIPE)
     os.chdir(srcdir)
-    files_to_check = set(path.join('keyrings', x+'.gpg') for x in ['debian-keyring', 'debian-maintainers', 'debian-nonupload', 'debian-role-keys', 'emeritus-keyring'])
+    files_to_check = set(
+        path.join(
+            'keyrings',
+            x +
+            '.gpg') for x in [
+            'debian-keyring',
+            'debian-maintainers',
+            'debian-nonupload',
+            'debian-role-keys',
+            'emeritus-keyring'])
     unexpected_files = set()
     for line in filter(lambda x: x, codecs.decode(gpgout.stdout).split('\n')):
         (indigest, fname) = line.split()
@@ -58,32 +75,39 @@ def publish(srcdir: str,
             data = f.read()
         digest = hashlib.new('sha512', data=data).hexdigest()
         if digest != indigest:
-            raise Exception('mismatched digest for %s.\nWanted: %s\nGot: %s'%(fname, indigest, digest))
+            raise Exception(
+                'mismatched digest for %s.\nWanted: %s\nGot: %s' %
+                (fname, indigest, digest))
         if fname in files_to_check:
             files_to_check.remove(fname)
         else:
             unexpected_files.add(fname)
     if files_to_check:
-        raise Exception('No sha512 digest found for: %s'%(files_to_check))
+        raise Exception('No sha512 digest found for: %s' % (files_to_check))
     if unexpected_files:
-        print('unexpected files (maybe add them to files_to_check):', unexpected_files)
+        print(
+            'unexpected files (maybe add them to files_to_check):',
+            unexpected_files)
 
     keyrings = ['keyring', 'maintainers', 'nonupload']
     for kname in keyrings:
-        kfile = path.join(pendingdir, 'debian-%s.gpg'%(kname))
+        kfile = path.join(pendingdir, 'debian-%s.gpg' % (kname))
         if path.exists(kfile):
-            raise Exception('Unhandled pending updates.\nKeyrings in %s should be dealt with and removed'%(pendingdir))
+            raise Exception(
+                'Unhandled pending updates.\nKeyrings in %s should be dealt with and removed' %
+                (pendingdir))
 
     for kname in keyrings:
-        kfile = path.join(hkpdir, 'debian-%s.gpg'%(kname))
+        kfile = path.join(hkpdir, 'debian-%s.gpg' % (kname))
         copy(kfile, pendingdir)
 
     print('Updating active keyrings.')
     copy_tree(srcdir, outputdir)
     print('Updating HKP keyrings.')
     for kname in keyrings:
-        kfile = path.join(srcdir, 'keyrings', 'debian-%s.gpg'%(kname))
+        kfile = path.join(srcdir, 'keyrings', 'debian-%s.gpg' % (kname))
         copy(kfile, hkpdir)
+
 
 def keyring_maint_keys() -> bytes:
     '''Extract keyring-maint keys from the local system keyrings.
@@ -129,7 +153,7 @@ debian-keyring package installed, we can fall back to it.
 
 
 if len(sys.argv) != 2:
-     raise Exception('Must provide directory containing new keyrings.')
+    raise Exception('Must provide directory containing new keyrings.')
 
 check_environ()
 publish(sys.argv[1])
