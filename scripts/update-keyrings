@@ -48,7 +48,7 @@ def publish(srcdir: str,
     # descriptor (https://dev.gnupg.org/T4608)
     with tempfile.NamedTemporaryFile() as maint_keyring:
         maint_keyring.write(keyring_maint_keys())
-        gpgcall = [
+        gpgvcall = [
             'gpgv',
             '--enable-special-filenames',
             '--keyring',
@@ -56,7 +56,10 @@ def publish(srcdir: str,
             '--output',
             '-',
             sha512fname]
-        gpgout = run(gpgcall, check=True, stderr=PIPE, stdout=PIPE)
+        gpgvout = run(gpgvcall, stderr=PIPE, stdout=PIPE)
+        if gpgvout.returncode != 0:
+            raise Exception("gpg verification failed:\n%s" %
+                            (codecs.decode(gpgvout.stderr)))
     os.chdir(srcdir)
     files_to_check = set(
         path.join('keyrings', x + '.gpg') for x in [
@@ -66,7 +69,7 @@ def publish(srcdir: str,
             'debian-role-keys',
             'emeritus-keyring'])
     unexpected_files = set()
-    for line in filter(lambda x: x, codecs.decode(gpgout.stdout).split('\n')):
+    for line in filter(lambda x: x, codecs.decode(gpgvout.stdout).split('\n')):
         (indigest, fname) = line.split()
         with open(fname, 'rb') as f:
             data = f.read()
