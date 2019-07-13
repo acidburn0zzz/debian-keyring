@@ -21,6 +21,11 @@ import datetime
 
 
 def check_environ(should_run_on: str = 'kaufmann.debian.org') -> None:
+    '''Make sure that we are running where we expect to run
+
+    The expectation is to run on kaufmann.debian.org, but this can be
+    bypassed for testing with the RUNANYWAY environment variable.
+    '''
     if not (os.environ.get('RUNANYWAY', False) or
             socket.getfqdn(socket.gethostname()) == should_run_on):
         raise Exception('''
@@ -31,9 +36,14 @@ $RUNANYWAY to a nonempty value.
 
 
 def wkd_localpart(incoming: bytes) -> str:
-    'see https://tools.ietf.org/html/draft-koch-openpgp-webkey-service-08#section-3.1'
+    '''Z-base32 the localpart of an e-mail address
 
-    # https://tools.ietf.org/html/rfc6189#section-5.1.6
+    https://tools.ietf.org/html/draft-koch-openpgp-webkey-service-08#section-3.1
+    describes why this is needed.
+
+    See https://tools.ietf.org/html/rfc6189#section-5.1.6 for a
+    description of the z-base32 scheme.
+    '''
     zb32 = "ybndrfg8ejkmcpqxot1uwisza345h769"
 
     b = hashlib.sha1(incoming).digest()
@@ -58,6 +68,7 @@ def wkd_localpart(incoming: bytes) -> str:
 
 
 def getdomainlocalpart(line: bytes, domain: bytes) -> bytes:
+    'Get the localpart of the e-mail address of a GnuPG user ID line matching DOMAIN'
     if line.startswith(b'uid:'):
         uid = line.split(b':')[9]
         if uid.endswith(b'@' + domain + b'>'):
@@ -69,6 +80,7 @@ def getdomainlocalpart(line: bytes, domain: bytes) -> bytes:
 
 
 def gpgbase(keyrings: List[str]) -> List[str]:
+    'Return the standard set of options to invoke gpg in an automated way'
     return ['gpg', '--batch', '--no-options', '--with-colons',
             '--no-default-keyring',
             '--homedir=/dev/null', '--trust-model=always',
@@ -76,6 +88,15 @@ def gpgbase(keyrings: List[str]) -> List[str]:
 
 
 def emit_wkd_and_return_dane(localpart: bytes, domain: str, keyrings: List[str]) -> bytes:
+    '''For a given address, emit the WKD file, and return the DANE OPENPGKEY record
+
+    These are handled differently because we want to generate a
+    single, reproducible zonefile for the DNS, while we are generating
+    a tree of files for WKD.
+
+    The caller will assemble all of the OPENPGPKEY records into a
+    single zonefile.
+    '''
     wkdstr = wkd_localpart(localpart)
     # what do we do if this local part is not a proper encoding?
     addr = codecs.decode(localpart) + '@' + domain
@@ -96,6 +117,7 @@ def emit_wkd_and_return_dane(localpart: bytes, domain: str, keyrings: List[str])
 
 
 def build_wkd_and_dane(domain: str, keyrings: List[str]):
+    'Publish WKD and DANE OPENPGPKEY for all domain-relevant OpenPGP certificates'
     if not path.isdir('openpgpkey'):
         os.mkdir('openpgpkey')
     os.mkdir(path.join('openpgpkey', domain))
@@ -141,6 +163,13 @@ def build_wkd_and_dane(domain: str, keyrings: List[str]):
 
 def publish(srcdir: str,
             prefix: str = None) -> None:
+    '''Verify new keyrings in srcdir; if ok, then publish at prefix.
+
+    Verification ensures that the new keyrings are signed-off by a
+    member of debian's keyring-maint team.
+
+    Publication consists of
+    '''
     if prefix is None:
         prefix = os.environ.get('PREFIX', '/srv/keyring.debian.org')
     pendingdir = path.join(prefix, 'pending-updates')
@@ -244,6 +273,11 @@ def publish(srcdir: str,
 
 
 def openpgpkey_zonefile_header(timestamp: datetime.datetime = None, sequence: int = 0) -> bytes:
+    '''Return static DNS RRs for _openpgpkey.debian.org
+
+    These records were suggested by the Debian System Administration
+    (DSA) team.
+    '''
     if timestamp is None:
         timestamp = datetime.datetime.now()
     return b'''; zonefile for OPENPGPKEY records (RFC 7929) for debian.org
