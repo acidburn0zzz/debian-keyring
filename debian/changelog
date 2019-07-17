@@ -2,6 +2,34 @@ debian-keyring (2019.07.xx) UNRELEASED; urgency=medium
 
   * Replace 0x5AD75B414EA41667 with 0xEA2DB6963F8B2984 (Georg Faerber)
     (RT #7834)
+  * Remove retired DM keys post Buster release:
+    * 0x00AB067AE47B79A4 Eugen Dedu
+    * 0x06C285ACEF93257A Tiago Ilieve
+    * 0x1C01F443C9C93C5A John Stamp
+    * 0x22B1092ADDDC47DD Russell Sim
+    * 0x29572B2F500BF4A2 Tshepang Lekhonkhobe
+    * 0x332B94FED282FC25 Leo Iannacone
+    * 0x398D1112D3A4BDE1 Christian M. Amsüss
+    * 0x47712171F2ED62FB Elmar Sales Heeb
+    * 0x5675ADD39CF02226 Simone Rosetto
+    * 0x70A8FEE074B3ED3A Yauheni Kaliuta
+    * 0x7EAE264181E773D5 Christoph Ulrich Scholler
+    * 0x8F342172F407DB73 Devid Antonio Filoni
+    * 0x936A835B678B9796 Pau Garcia i Quiles
+    * 0x93899384DC2C77F4 Ivan Udovichenko
+    * 0x965089CE6B95F882 Carlos Alberto Lopez Perez
+    * 0x9D50E144E6357327 James Hunt
+    * 0x9F2733F40928D23A Nick Daly
+    * 0xB09E40B0F2AE6AB9 Joe Healy
+    * 0xB488E3AA46FC0C03 Tobias Hamp
+    * 0xC0215925C6D815D8 Jan Beyer
+    * 0xC6079EAD0F1F7C52 Guillaume Turri
+    * 0xCEC9942DB7ADB86F Giulio Paci
+    * 0xD4330926497D44FE Gabriele Giacone
+    * 0xD61360421C9B1AE5 Michele Cane
+    * 0xD97B2BA886A10CC0 Daniel Jared Dominguez
+    * 0xF8307A6ED690AC06 Jan-Pascal van Best
+    * 0xFE001D44C8021865 Andrew Bartlett
 
  -- Jonathan McDowell <noodles@earth.li>  Tue, 09 Jul 2019 12:33:53 +0100
 
