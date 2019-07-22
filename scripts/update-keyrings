@@ -16,7 +16,7 @@ import tempfile
 import hashlib
 import codecs
 from multiprocessing.pool import ThreadPool
-from typing import List, Tuple
+from typing import List, Tuple, Optional
 import datetime
 
 
@@ -67,7 +67,7 @@ def wkd_localpart(incoming: bytes) -> str:
     return ret
 
 
-def getdomainlocalpart(line: bytes, domain: bytes) -> bytes:
+def getdomainlocalpart(line: bytes, domain: bytes) -> Optional[bytes]:
     'Get the localpart of the e-mail address of a GnuPG user ID line matching DOMAIN'
     if line.startswith(b'uid:'):
         uid = line.split(b':')[9]
