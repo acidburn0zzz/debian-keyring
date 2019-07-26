@@ -9,7 +9,7 @@ import os
 from os import path
 import socket
 from subprocess import run, Popen, PIPE
-from shutil import copy, rmtree
+from shutil import copy, copyfile, rmtree
 from distutils.dir_util import copy_tree
 import sys
 import tempfile
@@ -252,7 +252,8 @@ def publish(srcdir: str,
     print('Updating HKP keyrings.')
     for kname in keyrings:
         kfile = path.join(srcdir, 'keyrings', 'debian-%s.gpg' % (kname))
-        copy(kfile, hkpdir)
+        dst = os.path.join(hkpdir, os.path.basename(kfile))
+        copyfile(kfile, dst)
     print('Publishing WKD and DANE data (may take a few minutes).')
     with tempfile.TemporaryDirectory(prefix='pub_staging_', dir=prefix) as wkd_staging:
         os.chdir(wkd_staging)
