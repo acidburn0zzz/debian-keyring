@@ -217,11 +217,11 @@ class Parser(object):
 
             line = line[4:]
             if not 'inaction' in state:
-                if re.match("[a-zA-Z]*: ", line):
+                if not 'summary' in state:
+                    state['summary'] = line
+                elif re.match("[a-zA-Z]*: ", line):
                     state['inaction'] = True
                     state['message'] = line + "\n"
-                elif not 'summary' in state:
-                    state['summary'] = line
             else:
                 state['message'] += line + "\n"
 
