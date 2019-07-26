@@ -16,6 +16,7 @@ Rules-Requires-Root: no
 Package: debian-keyring
 Architecture: all
 Multi-Arch: foreign
+Depends: ${misc:Depends}
 Recommends: gnupg (>= 1.0.6-4)
 Provides: debian-maintainers
 Conflicts: debian-maintainers

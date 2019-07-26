@@ -34,6 +34,7 @@ debian-keyring (2019.07.xx) UNRELEASED; urgency=medium
   * Add new DM key 0x2E7C0367B9BFA089 (Scarlett Moore) (RT #7850)
   * Replace 0x887B60618B3C16AE with 0xBD8205930270C1A5 (Dimitri John
     Ledkov) (RT #7847)
+  * Add missing ${misc:Depends} to binary package
 
   [ Gunnar Wolf ]
   * Add new DN key 0xF536AA70111D5716 (Judit Foglszinger) (RT #7852)
