@@ -162,8 +162,8 @@ def build_wkd_and_dane(domain: str, keyrings: List[str]):
 
 
 def publish(srcdir: str,
-            prefix: str = None) -> None:
-    '''Verify new keyrings in srcdir; if ok, then publish at prefix.
+            where: str = None) -> None:
+    '''Verify new keyrings in srcdir; if ok, then publish at where.
 
     Verification ensures that the new keyrings are signed-off by a
     member of debian's keyring-maint team.
@@ -173,8 +173,10 @@ def publish(srcdir: str,
     records, and a tree of files for WKD.
 
     '''
-    if prefix is None:
+    if where is None:
         prefix = os.environ.get('PREFIX', '/srv/keyring.debian.org')
+    else:
+        prefix = where
     pendingdir = path.join(prefix, 'pending-updates')
     hkpdir = path.join(prefix, 'keyrings-new')
     outputdir = path.join(prefix, 'pub')
