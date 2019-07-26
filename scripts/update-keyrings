@@ -116,7 +116,7 @@ def emit_wkd_and_return_dane(localpart: bytes, domain: str, keyrings: List[str])
     return dane.stdout
 
 
-def build_wkd_and_dane(domain: str, keyrings: List[str]):
+def build_wkd_and_dane(domain: str, keyrings: List[str]) -> None:
     'Publish WKD and DANE OPENPGPKEY for all domain-relevant OpenPGP certificates'
     if not path.isdir('openpgpkey'):
         os.mkdir('openpgpkey')
@@ -258,7 +258,7 @@ def publish(srcdir: str,
     with tempfile.TemporaryDirectory(prefix='pub_staging_', dir=prefix) as wkd_staging:
         os.chdir(wkd_staging)
 
-        def dkeyring(name: str):
+        def dkeyring(name: str) -> str:
             return path.join(srcdir, 'keyrings', 'debian-' + name + '.gpg')
         build_wkd_and_dane('debian.org',
                            [dkeyring(x) for x in [
