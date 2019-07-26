@@ -1,4 +1,4 @@
-debian-keyring (2019.07.xx) UNRELEASED; urgency=medium
+debian-keyring (2019.07.26) unstable; urgency=medium
 
   [ Jonathan McDowell ]
   * Replace 0x5AD75B414EA41667 with 0xEA2DB6963F8B2984 (Georg Faerber)
@@ -41,7 +41,79 @@ debian-keyring (2019.07.xx) UNRELEASED; urgency=medium
   * Add new DD key 0xC617869F1478504E (Keng-Yu Lin) (RT #7853)
   * Move 0x1E5276729197B5F9 to emeritus (Devin Carraway) (RT #7855)
 
- -- Jonathan McDowell <noodles@earth.li>  Tue, 09 Jul 2019 12:33:53 +0100
+  [ John Sullivan ]
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x00018C22381A7594 Sébastien Villemot <sebastien> sig:3
+    * 0x021B361B6B031B00 Julian Andres Klode <jak> sig:8
+    * 0x02541A371530B71F Gert Wollny <gewo> sig:1
+    * 0x036A9C25BF357DD4 Tianon Gravi <tianon> sig:8
+    * 0x04C53BD7FE030551 Julien Puydt <jpuydt> uid:1 sig:2
+    * 0x07FC4891042BA65A Thomas Koch <thk> sig:1
+    * 0x0BC47DC64D135306 Andreas Henriksson <ah> sig:1
+    * 0x10589E8283DDA9A7 Denis Briand <denis> sig:1
+    * 0x1A30765DF1F0D3ED Sune Vuorela <sune> sig:3
+    * 0x1CB4F0F78DECAFE9 Simon Kainz <skainz> sig:2
+    * 0x26E3C875A74420EF Christoph Göhre <gris> sig:2
+    * 0x283681BA6FE7F41D Sam Hartman <hartmans> sig:6
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:9
+    * 0x357312559D1E064B Ondřej Nový <onovy> sig:3
+    * 0x3A936196C095D941 Bdale Garbee <bdale> sig:2
+    * 0x3E1C27E11F69BFFE Francesco Poli <frx> sig:2
+    * 0x44975278B8612B5D Gregory Colpart <reg> sig:1
+    * 0x494C8A5FBF4DECEB Matthias Klumpp <mak> sig:4
+    * 0x4B043FCDB9444540 Mattia Rizzolo <mattia> sig:4
+    * 0x4CF2B218F54DAE3D Jakob Haufe <sur5r> uid:1 sig:2
+    * 0x4F346E47A5805D48 Ron Lee <ron> sig:1
+    * 0x51106DF5CD92D072 Stefano Rivera <stefanor> sig:3
+    * 0x57930DAB0B86B067 Joost van Baal <joostvb> sig:4
+    * 0x5C13D6DB93052E03 Christian Hofstaedtler <zeha> sig:3
+    * 0x62645EB35F686A8A Mo Zhou <lumin> sig:3
+    * 0x62AF4031C82E0039 Peter Palfrader <weasel> sig:13
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sig:6
+    * 0x71A7E533F291A324 Aurélien COUDERC <coucouf> uid:1 sig:9
+    * 0x759778A9A36B494F Stephen Kitt <skitt> sig:8
+    * 0x76D58093F540ABCD Iain R. Learmonth <irl> sig:13
+    * 0x78494EF72375A66C Giovani Augusto Ferreira <giovani> sig:2
+    * 0x786C63F330D7CB92 Felix Yan <felixonmars> sig:23
+    * 0x792152527B75921E Antoine Beaupré <anarcat> sig:4
+    * 0x7AEAC4EC6AAA0A97 Louis-Philippe Véronneau <pollo> sig:7
+    * 0x7CFCD8CD257721E9 Vagrant Cascadian <vagrant> sig:12
+    * 0x823E967606C34B96 Utkarsh Gupta <utkarsh2102> sig:11
+    * 0x9394F354891D7E07 Youhei SASAKI [DM] sig:3
+    * 0x96BD4FF64E709FDE Alban Vidal <zordhak> uid:1 sig:3
+    * 0x98042723E7133742 Eike Sauer <eike> sig:2
+    * 0x9EDCC991D9AB457E Giovanni Mascellani <gio> sig:11
+    * 0xA2B91BC6CD4EBDDC Stéphane Blondon <sblondon> sig:3
+    * 0xA35DAFFBAD29E8DE Gordon Ball [DM] sig:2
+    * 0xA8822153B391646D Eric Heintzmann [DM] sig:2
+    * 0xAC58A94F11618EE0 Felix Lechner [DM] sig:6
+    * 0xAEF6F1A2A7457645 Piotr Ożarowski <piotr> sig:3
+    * 0xAFCFEC8E669CE1C2 Graham Inggs <ginggs> sig:2
+    * 0xB22C1F17F1E89CE2 Karsten Merker <merker> sig:21
+    * 0xB8E5087766475AAF Nicolas Dandrimont <olasd> sig:4
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:8
+    * 0xBC372252CA1CF964 Ansgar Burchardt <ansgar> sig:3
+    * 0xC38E8160A17841FE Aron Xu <aron> sig:33
+    * 0xC51EA7006E6BDC0D Taowa Munene-Tardif <taowa> sig:5
+    * 0xCC65B0CDEC275D5B ChangZhuo Chen <czchen> sig:6
+    * 0xD0EB762865FC5E36 Sergio Durigan Junior <sergiodj> sig:26
+    * 0xD36F769BC11804F0 Theodore Ts'o <tytso> sig:1
+    * 0xD39D8D29BAF36DF8 Jongmin Kim <jmkim> sub:1 sig:16
+    * 0xD599FF6101809E2A Elena Grandi <valhalla> sig:4
+    * 0xDECF849AA6357FB7 Tobias Frost <tobi> sig:3
+    * 0xE197012676B9B739 David Kalnischkies <donkult> sig:4
+    * 0xE3ADB00850605636 Sandro Knauß <hefee> sig:1
+    * 0xEBF67A846AABE354 Simon Richter <sjr> sig:2
+    * 0xEC1879D076D8AB48 Changwoo Ryu <cwryu> sub:2 sig:10
+    * 0xED630BD2FFA943F1 Benjamin Mesing <ben> sig:3
+    * 0xF2F11C23F00A2BE6 Ritesh Raj Sarraf <rrs> sig:5
+    * 0xF4E4ACDBB8D08BE0 Samuel Henrique <samueloph> sig:5
+    * 0xF55BCED79626AE9C Raoul Snyman [DM] sig:5
+    * 0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:8
+    * 0xFC0DB1BBCD460BDE Antonio Terceiro <terceiro> sig:4
+    * 0xFF914AF0C2B35520 Cyril Brulebois <kibi> sig:3
+
+ -- John Sullivan <johns@debian.org>  Fri, 26 Jul 2019 17:39:54 -0300
 
 debian-keyring (2019.06.25) unstable; urgency=medium
 
