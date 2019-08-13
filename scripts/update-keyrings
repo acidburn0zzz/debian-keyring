@@ -9,7 +9,7 @@ import os
 from os import path
 import socket
 from subprocess import run, Popen, PIPE
-from shutil import copy, copyfile, rmtree
+from shutil import chown, copy, copyfile, rmtree
 from distutils.dir_util import copy_tree
 import sys
 import tempfile
@@ -161,6 +161,23 @@ def build_wkd_and_dane(domain: str, keyrings: List[str]) -> None:
             zonefile.write(dane_map[local])
 
 
+def fix_perms(path: str) -> None:
+    '''Fix the permissions of a given directory
+
+    Ensures all files/directories are owned and writeable by the keyring group.
+    Additionally they must be readable by all and directories executable.
+    '''
+    chown(path, group="keyring")
+    os.chmod(path, 0o775)
+    for root, dirs, files in os.walk(path):
+        for cur in dirs:
+            chown(os.path.join(root, cur), group="keyring")
+            os.chmod(os.path.join(root, cur), 0o775)
+        for cur in files:
+            chown(os.path.join(root, cur), group="keyring")
+            os.chmod(os.path.join(root, cur), 0o664)
+
+
 def publish(srcdir: str,
             where: str = None) -> None:
     '''Verify new keyrings in srcdir; if ok, then publish at where.
@@ -249,6 +266,7 @@ def publish(srcdir: str,
 
     print('Updating active keyrings.')
     copy_tree(srcdir, outputdir)
+    fix_perms(outputdir)
     print('Updating HKP keyrings.')
     for kname in keyrings:
         kfile = path.join(srcdir, 'keyrings', 'debian-%s.gpg' % (kname))
