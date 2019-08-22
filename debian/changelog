@@ -7,6 +7,9 @@ debian-keyring (2019.08.xx) UNRELEASED; urgency=medium
   * Replace 0x9946397AE142E6F4 with 0x78D398FBBA26E7B8 (M J Ray) (RT
     #7869)
 
+  [ John Sullivan ]
+  * Add new DM key 0xE7815732180C2A55 (Hans van Kranenburg) (RT #7887)
+
  -- Gunnar Wolf <gwolf@debian.org>  Mon, 29 Jul 2019 16:24:58 -0500
 
 debian-keyring (2019.07.26) unstable; urgency=medium
