@@ -7,6 +7,90 @@ debian-keyring (2019.08.xx) UNRELEASED; urgency=medium
   * Replace 0x9946397AE142E6F4 with 0x78D398FBBA26E7B8 (M J Ray) (RT
     #7869)
   * Remove 0xF004ACE4F0131ECF due to potential compromise (RT #7922)
+  * Import changes sent to keyring.debian.org HKP interface:
+    * 0x003A1A2DAA41085F Bastien Roucariès <rouca> sig:6
+    * 0x00806F2BD729A457 Jelmer Vernooij <jelmer> sig:5
+    * 0x009B33756B9AAA55 Alberto Gonzalez Iniesta <agi> sig:2
+    * 0x049B6D88E31734DB Robert Alan Larson (Blars) <blarson> sig:2
+    * 0x083781A2D2ACE48B Adriano Rafael Gomes <adrianorg> sig:15
+    * 0x0BD9E81139CB4807 Henrique de Moraes Holschuh <hmh> sig:13
+    * 0x0F56D0553B6D411B Sean Whitton <spwhitton> sig:10
+    * 0x136E9CF17B5D342D Paul Cannon <pik> sig:2
+    * 0x1EFEB1801A49C0D2 Mònica Ramírez Arceda <monica> sig:1
+    * 0x2930100100003344 Gergely Riskó <risko> sig:2
+    * 0x2C3B436FEAC68101 Adam Borowski <kilobyte> sig:1
+    * 0x2C7C3146C1A00121 Jonas Smedegaard <js> sig:18
+    * 0x32247FBB40AD1FA6 Nobuhiro Iwamatsu <iwamatsu> sig:3
+    * 0x34CD816DE6FCD33E Arto Jantunen <viiru> sig:2
+    * 0x3914B532F4DFBE99 Lucas Nussbaum <lucas> sig:6
+    * 0x3AC8F716477EDB23 Ferenc Wágner <wferi> sig:3
+    * 0x3C4107E6826C40E4 Valentin Vidic <vvidic> sig:6
+    * 0x3CCEBABE206C3B69 Daniel Silverstone <dsilvers> sig:4
+    * 0x3D908AB3F0FBF51F Joachim Breitner <nomeata> sig:3
+    * 0x476DF16D280CDAD3 Marcio de Souza Oliveira <marciosouza> sig:1
+    * 0x49C3BF8927553D2E Guido Trotter <ultrotter> sig:2
+    * 0x4D249D9B23E6FC3A Timo Lindfors <lindi> sig:1
+    * 0x50C3634D3A291CF9 Philipp Kern <pkern> sig:3
+    * 0x56034877E1F87C35 Ximin Luo <infinity0> sub:1 sig:10
+    * 0x587979573442684E Steve McIntyre <93sam> sig:3
+    * 0x5D328D082AAAB140 Hideki Yamane <henrich> sig:1
+    * 0x5F8E6BE0928FFAFA Miriam Ruiz <miriam> sig:4
+    * 0x6026936D2F1C8AE0 Dmitry Shachnev <mitya> sub:2 sig:4
+    * 0x60A68FF308C2BFDB Carsten Leonhardt <leo> sig:9
+    * 0x62AF4031C82E0039 Peter Palfrader <weasel> sig:3
+    * 0x634F4BD1E7AD5568 Enrico Zini <enrico> sig:4
+    * 0x673A03E4C1DB921F Gunnar Wolf <gwolf> sub:1 sig:13
+    * 0x69F2FC516EA71993 Sebastian Ramacher <sramacher> uid:1 sig:3
+    * 0x6EA4D2311A2D268D Andrew Shadura <andrewsh> sig:37
+    * 0x6F8DE44D59D7DBCC Ana Custura [DM] sig:7
+    * 0x71396D61F1C09EFB Alejandro Garrido Mota <mogaal> sig:1
+    * 0x78494EF72375A66C Giovani Augusto Ferreira <giovani> sig:2
+    * 0x7C56ACFE947897D8 Anibal Monsalve Salazar <anibal> sig:1
+    * 0x7CDC1F97DA023621 Max Vozeler <xam> sig:1
+    * 0x823E967606C34B96 Utkarsh Gupta <utkarsh2102> sig:15
+    * 0x83016014251D1DB0 Carsten Schoenert <tijuca> sig:1
+    * 0x854F07BE082DF14F Kyle Robbertze <paddatrapper> sig:9
+    * 0x8CBF9A322861A790 Micah Anderson <micah> sig:2
+    * 0x8E889544D985000D Bastian Venthur <venthur> sig:2
+    * 0x94FA372B2DA8B985 Jonathan McDowell <noodles> sig:1
+    * 0x97BA9CE761A0963B John Sullivan <johns> sig:8
+    * 0x98561D2D2502FE39 Cord Beermann <cord> sig:5
+    * 0x9FB9262724B17D29 Tomasz Buchert <tomasz> sig:5
+    * 0xA2D13001D98C0FBA Don Armstrong <don> sub:1 sig:1
+    * 0xAE9B1138386ECAF2 Gabriel F. T. Gomes <gabriel> uid:1 sig:6
+    * 0xB3118CEF8AEA8FEE Stephen Gran <sgran> sig:2
+    * 0xB3464F896AA15948 Ana Beatriz Guerrero López <ana> sig:2
+    * 0xB3C2C7B73BA3CD7F Brian T. Smith [DM] sub:1 sig:1
+    * 0xBA9C78061DDD8C9B Aurelien Jarno <aurel32> sig:3
+    * 0xBB20AC20E0B7D6BE René Mayorga <rmayorga> sig:3
+    * 0xBB3A68018649AA06 Gregor Herrmann <gregoa> sig:12
+    * 0xC51EA7006E6BDC0D Taowa Munene-Tardif <taowa> sig:28
+    * 0xC617869F1478504E Keng-Yu Lin <kengyu> uid:1 sig:1
+    * 0xC7197699B29B232A Maximiliano Curia <maxy> sub:1 sig:5
+    * 0xC9F1CBF56351F719 Elías Alejandro Año Mendoza [DM] sig:1
+    * 0xCA8D40019EBD4E93 Lukas Schwaighofer [DM] sig:4
+    * 0xCF0E265B7DFBB2F2 Shengjing Zhu <zhsj> sig:27
+    * 0xD04BA3A00125D5C0 Philip Hands <philh> sig:1
+    * 0xD0EB762865FC5E36 Sergio Durigan Junior <sergiodj> sig:32
+    * 0xD30DECD2599322FC Roland Mas <lolando> sig:1
+    * 0xD39D8D29BAF36DF8 Jongmin Kim <jmkim> sig:6
+    * 0xD416AD15AC6B43FE Thomas Goirand <zigo> sub:3 sig:5
+    * 0xDC686A27B43481B0 Michael Banck <mbanck> sig:2
+    * 0xDECF849AA6357FB7 Tobias Frost <tobi> sig:23
+    * 0xDFC671EEB333FA25 Jonathan Nieder <jrnieder> sig:1
+    * 0xE5EC4AC9BD627B05 Donald Norwood <donald> sig:8
+    * 0xE5F43F9C2734F287 Andrius Merkys <merkys> sig:2
+    * 0xE66C775AEBFE6C7D Jeremy Bicha <jbicha> sig:3
+    * 0xEA2DB6963F8B2984 Georg Faerber <georg> sub:2 sig:8
+    * 0xEC371482956781AF Sven Eckelmann [DM] sig:6
+    * 0xECB73E37E887AA8C Tomasz Rybak <serpent> sig:33
+    * 0xF3E4122F1D8C261A Michael Schutte <michi> sig:1
+    * 0xF536AA70111D5716 Judit Foglszinger <urbec> uid:1 sig:9
+    * 0xF5C83C05D9CEEEEE Chris Boot <bootc> sig:4
+    * 0xF66E3E419F84F4DE Iustin Pop <iustin> sig:1
+    * 0xF758CE318D77295D Eric Evans <eevans> sig:7
+    * 0xFA0C410738C9D903 Colin Tuckley <colint> sig:2
+    * 0xFC0DB1BBCD460BDE Antonio Terceiro <terceiro> sig:12
 
   [ John Sullivan ]
   * Add new DM key 0xE7815732180C2A55 (Hans van Kranenburg) (RT #7887)
