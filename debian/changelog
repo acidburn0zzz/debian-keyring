@@ -6,6 +6,7 @@ debian-keyring (2019.08.xx) UNRELEASED; urgency=medium
   [ Jonathan McDowell ]
   * Replace 0x9946397AE142E6F4 with 0x78D398FBBA26E7B8 (M J Ray) (RT
     #7869)
+  * Remove 0xF004ACE4F0131ECF due to potential compromise (RT #7922)
 
   [ John Sullivan ]
   * Add new DM key 0xE7815732180C2A55 (Hans van Kranenburg) (RT #7887)
